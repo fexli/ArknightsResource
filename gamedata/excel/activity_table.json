@@ -1,5 +1,61 @@
 {
   "basicInfo": {
+    "act25side": {
+      "id": "act25side",
+      "type": "TYPE_ACT25SIDE",
+      "name": "孤星",
+      "startTime": 1682913600,
+      "endTime": 1684699199,
+      "rewardEndTime": 1685303999,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act25side",
+      "medalGroupId": "medalGroupActivity25side",
+      "isReplicate": false,
+      "needFixedSync": false
+    },
+    "act1checkin": {
+      "id": "act1checkin",
+      "type": "CHECKIN_ALL_PLAYER",
+      "name": "未来序曲签到活动",
+      "startTime": 1682913600,
+      "endTime": 1684094399,
+      "rewardEndTime": 1684094399,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "isReplicate": false,
+      "needFixedSync": true
+    },
+    "act15login": {
+      "id": "act15login",
+      "type": "LOGIN_ONLY",
+      "name": "登录领取奖励",
+      "startTime": 1682913600,
+      "endTime": 1684094399,
+      "rewardEndTime": 1684094399,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "isReplicate": false,
+      "needFixedSync": false
+    },
+    "act4mine": {
+      "id": "act4mine",
+      "type": "GRID_GACHA_V2",
+      "name": "潘尼谷矿区登录活动",
+      "startTime": 1682913600,
+      "endTime": 1684094399,
+      "rewardEndTime": 1684094399,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "isReplicate": false,
+      "needFixedSync": false
+    },
     "act17sre": {
       "id": "act17sre",
       "type": "TYPE_ACT17SIDE",
@@ -11,7 +67,8 @@
       "hasStage": true,
       "templateShopId": "shop_act17sre",
       "medalGroupId": "medalGroupActivity17side",
-      "isReplicate": true
+      "isReplicate": true,
+      "needFixedSync": false
     },
     "act4fun": {
       "id": "act4fun",
@@ -24,7 +81,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act24side": {
       "id": "act24side",
@@ -42,7 +100,8 @@
         "medal_hidden_24side_01",
         "medal_hidden_24side_02"
       ],
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act1flip": {
       "id": "act1flip",
@@ -55,7 +114,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act1mainbuff": {
       "id": "act1mainbuff",
@@ -68,7 +128,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act14login": {
       "id": "act14login",
@@ -81,7 +142,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act1sandbox": {
       "id": "act1sandbox",
@@ -100,7 +162,8 @@
         "medal_activity_1sandbox_03",
         "medal_activity_1sandbox_04"
       ],
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act16sre": {
       "id": "act16sre",
@@ -114,7 +177,8 @@
       "hasStage": true,
       "templateShopId": "shop_act16sre",
       "medalGroupId": "medalGroupActivity16side",
-      "isReplicate": true
+      "isReplicate": true,
+      "needFixedSync": false
     },
     "act14mini": {
       "id": "act14mini",
@@ -132,7 +196,8 @@
         "medal_activity_14mini_01",
         "medal_activity_14mini_02"
       ],
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act33sign": {
       "id": "act33sign",
@@ -145,7 +210,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act5pray": {
       "id": "act5pray",
@@ -158,7 +224,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act13login": {
       "id": "act13login",
@@ -171,7 +238,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act23side": {
       "id": "act23side",
@@ -185,7 +253,8 @@
       "hasStage": true,
       "templateShopId": "shop_act23side",
       "medalGroupId": "medalGroupActivity23side",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act15sre": {
       "id": "act15sre",
@@ -199,7 +268,8 @@
       "hasStage": true,
       "templateShopId": "shop_act15sre",
       "medalGroupId": "medalGroupActivity15side",
-      "isReplicate": true
+      "isReplicate": true,
+      "needFixedSync": false
     },
     "act32sign": {
       "id": "act32sign",
@@ -212,7 +282,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act22side": {
       "id": "act22side",
@@ -226,7 +297,8 @@
       "hasStage": true,
       "templateShopId": "shop_act22side",
       "medalGroupId": "medalGroupActivity22side",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act2bossrush": {
       "id": "act2bossrush",
@@ -243,7 +315,8 @@
         "medal_activity_2bossrush_01",
         "medal_activity_2bossrush_02"
       ],
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act21side": {
       "id": "act21side",
@@ -256,7 +329,8 @@
       "hasStage": true,
       "templateShopId": "shop_act21side",
       "medalGroupId": "medalGroupActivity21side",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act1float": {
       "id": "act1float",
@@ -269,7 +343,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act12login": {
       "id": "act12login",
@@ -282,7 +357,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act14sre": {
       "id": "act14sre",
@@ -296,7 +372,8 @@
       "hasStage": true,
       "templateShopId": "shop_act14sre",
       "medalGroupId": "medalGroupActivity14side",
-      "isReplicate": true
+      "isReplicate": true,
+      "needFixedSync": false
     },
     "act31sign": {
       "id": "act31sign",
@@ -309,7 +386,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act30sign": {
       "id": "act30sign",
@@ -322,7 +400,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act11login": {
       "id": "act11login",
@@ -335,7 +414,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act29sign": {
       "id": "act29sign",
@@ -348,7 +428,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act13sre": {
       "id": "act13sre",
@@ -361,7 +442,8 @@
       "hasStage": true,
       "templateShopId": "shop_act13sre",
       "medalGroupId": "medalGroupActivity13side",
-      "isReplicate": true
+      "isReplicate": true,
+      "needFixedSync": false
     },
     "act13mini": {
       "id": "act13mini",
@@ -379,7 +461,8 @@
         "medal_hidden_13mini_01",
         "medal_hidden_13mini_02"
       ],
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act12mini": {
       "id": "act12mini",
@@ -397,7 +480,8 @@
         "medal_activity_12mini_01",
         "medal_activity_12mini_02"
       ],
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act20side": {
       "id": "act20side",
@@ -411,7 +495,8 @@
       "hasStage": true,
       "templateShopId": "shop_act20side",
       "medalGroupId": "medalGroupActivity20side",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act1bossrush": {
       "id": "act1bossrush",
@@ -428,7 +513,8 @@
         "medal_activity_1bossrush_01",
         "medal_activity_1bossrush_02"
       ],
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act10login": {
       "id": "act10login",
@@ -441,7 +527,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act28sign": {
       "id": "act28sign",
@@ -454,7 +541,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act4pray": {
       "id": "act4pray",
@@ -467,7 +555,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act12sre": {
       "id": "act12sre",
@@ -481,7 +570,8 @@
       "hasStage": true,
       "templateShopId": "shop_act12sre",
       "medalGroupId": "medalGroupActivity12side",
-      "isReplicate": true
+      "isReplicate": true,
+      "needFixedSync": false
     },
     "act11mini": {
       "id": "act11mini",
@@ -499,7 +589,8 @@
         "medal_activity_11mini_01",
         "medal_activity_11mini_02"
       ],
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act19side": {
       "id": "act19side",
@@ -513,7 +604,8 @@
       "hasStage": true,
       "templateShopId": "shop_act19side",
       "medalGroupId": "medalGroupActivity19side",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act18side": {
       "id": "act18side",
@@ -527,7 +619,8 @@
       "hasStage": true,
       "templateShopId": "shop_act18side",
       "medalGroupId": "medalGroupActivity18side",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act27sign": {
       "id": "act27sign",
@@ -540,7 +633,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act11sre": {
       "id": "act11sre",
@@ -554,7 +648,8 @@
       "hasStage": true,
       "templateShopId": "shop_act11sre",
       "medalGroupId": "medalGroupActivity18d3",
-      "isReplicate": true
+      "isReplicate": true,
+      "needFixedSync": false
     },
     "act9login": {
       "id": "act9login",
@@ -567,7 +662,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act17side": {
       "id": "act17side",
@@ -580,7 +676,8 @@
       "hasStage": true,
       "templateShopId": "shop_act17side",
       "medalGroupId": "medalGroupActivity17side",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act26sign": {
       "id": "act26sign",
@@ -593,7 +690,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act3mine": {
       "id": "act3mine",
@@ -606,7 +704,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act3fun": {
       "id": "act3fun",
@@ -619,7 +718,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act10sre": {
       "id": "act10sre",
@@ -633,7 +733,8 @@
       "hasStage": true,
       "templateShopId": "shop_act10sre",
       "medalGroupId": "medalGroupActivity18d0",
-      "isReplicate": true
+      "isReplicate": true,
+      "needFixedSync": false
     },
     "act16side": {
       "id": "act16side",
@@ -647,7 +748,8 @@
       "hasStage": true,
       "templateShopId": "shop_act16side",
       "medalGroupId": "medalGroupActivity16side",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act10mini": {
       "id": "act10mini",
@@ -665,7 +767,8 @@
         "medal_activity_10mini_01",
         "medal_activity_10mini_02"
       ],
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act25sign": {
       "id": "act25sign",
@@ -678,7 +781,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act15side": {
       "id": "act15side",
@@ -692,7 +796,8 @@
       "hasStage": true,
       "templateShopId": "shop_act15side",
       "medalGroupId": "medalGroupActivity15side",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act8login": {
       "id": "act8login",
@@ -705,7 +810,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act3pray": {
       "id": "act3pray",
@@ -718,7 +824,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act24sign": {
       "id": "act24sign",
@@ -731,7 +838,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act9sre": {
       "id": "act9sre",
@@ -745,7 +853,8 @@
       "hasStage": true,
       "templateShopId": "shop_act9sre",
       "medalGroupId": "medalGroupActivity16d5",
-      "isReplicate": true
+      "isReplicate": true,
+      "needFixedSync": false
     },
     "act23sign": {
       "id": "act23sign",
@@ -758,7 +867,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act14side": {
       "id": "act14side",
@@ -772,7 +882,8 @@
       "hasStage": true,
       "templateShopId": "shop_act14side",
       "medalGroupId": "medalGroupActivity14side",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act8sre": {
       "id": "act8sre",
@@ -786,7 +897,8 @@
       "hasStage": true,
       "templateShopId": "shop_act8sre",
       "medalGroupId": "medalGroupActivity15d0",
-      "isReplicate": true
+      "isReplicate": true,
+      "needFixedSync": false
     },
     "act22sign": {
       "id": "act22sign",
@@ -799,7 +911,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act7login": {
       "id": "act7login",
@@ -812,7 +925,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act2mine": {
       "id": "act2mine",
@@ -825,7 +939,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act13side": {
       "id": "act13side",
@@ -838,7 +953,8 @@
       "hasStage": true,
       "templateShopId": "shop_act13side",
       "medalGroupId": "medalGroupActivity13side",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act9mini": {
       "id": "act9mini",
@@ -856,7 +972,8 @@
         "medal_activity_9mini_01",
         "medal_activity_9mini_02"
       ],
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act7sre": {
       "id": "act7sre",
@@ -870,7 +987,8 @@
       "hasStage": true,
       "templateShopId": "shop_act7sre",
       "medalGroupId": "medalGroupActivity13d5",
-      "isReplicate": true
+      "isReplicate": true,
+      "needFixedSync": false
     },
     "act21sign": {
       "id": "act21sign",
@@ -883,7 +1001,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act20sign": {
       "id": "act20sign",
@@ -896,7 +1015,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act12side": {
       "id": "act12side",
@@ -910,7 +1030,8 @@
       "hasStage": true,
       "templateShopId": "shop_act12side",
       "medalGroupId": "medalGroupActivity12side",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act19sign": {
       "id": "act19sign",
@@ -923,7 +1044,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act2pray": {
       "id": "act2pray",
@@ -936,7 +1058,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act6login": {
       "id": "act6login",
@@ -949,7 +1072,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act6sre": {
       "id": "act6sre",
@@ -963,7 +1087,8 @@
       "hasStage": true,
       "templateShopId": "shop_act6sre",
       "medalGroupId": "medalGroupActivity12d0",
-      "isReplicate": true
+      "isReplicate": true,
+      "needFixedSync": false
     },
     "act8mini": {
       "id": "act8mini",
@@ -981,7 +1106,8 @@
         "medal_activity_8mini_01",
         "medal_activity_8mini_02"
       ],
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act1lock": {
       "id": "act1lock",
@@ -997,7 +1123,8 @@
       "ungroupedMedalIds": [
         "medal_activity_1lock_01"
       ],
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act5sre": {
       "id": "act5sre",
@@ -1011,7 +1138,8 @@
       "hasStage": true,
       "templateShopId": "shop_act5sre",
       "medalGroupId": "medalGroupActivity11d0",
-      "isReplicate": true
+      "isReplicate": true,
+      "needFixedSync": false
     },
     "act18sign": {
       "id": "act18sign",
@@ -1024,7 +1152,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act7mini": {
       "id": "act7mini",
@@ -1042,7 +1171,8 @@
         "medal_activity_7mini_01",
         "medal_activity_7mini_02"
       ],
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act18d3d3": {
       "id": "act18d3d3",
@@ -1055,7 +1185,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act18d3d2": {
       "id": "act18d3d2",
@@ -1068,7 +1199,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act18d3d1": {
       "id": "act18d3d1",
@@ -1081,7 +1213,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act18d3": {
       "id": "act18d3",
@@ -1095,7 +1228,8 @@
       "hasStage": true,
       "templateShopId": "shop_act18d3",
       "medalGroupId": "medalGroupActivity18d3",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act18d0": {
       "id": "act18d0",
@@ -1109,7 +1243,8 @@
       "hasStage": true,
       "templateShopId": "shop_act18d0",
       "medalGroupId": "medalGroupActivity18d0",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act17d7": {
       "id": "act17d7",
@@ -1122,7 +1257,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act17d5": {
       "id": "act17d5",
@@ -1136,7 +1272,8 @@
       "hasStage": true,
       "templateShopId": "shop_act17d5",
       "medalGroupId": null,
-      "isReplicate": true
+      "isReplicate": true,
+      "needFixedSync": false
     },
     "act17d1": {
       "id": "act17d1",
@@ -1149,7 +1286,8 @@
       "hasStage": true,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act17d0d2": {
       "id": "act17d0d2",
@@ -1162,7 +1300,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act17d0d1": {
       "id": "act17d0d1",
@@ -1175,7 +1314,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act17d0": {
       "id": "act17d0",
@@ -1189,7 +1329,8 @@
       "hasStage": true,
       "templateShopId": "shop_act17d0",
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act16d6": {
       "id": "act16d6",
@@ -1202,7 +1343,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act16d5d2": {
       "id": "act16d5d2",
@@ -1215,7 +1357,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act16d5d1": {
       "id": "act16d5d1",
@@ -1228,7 +1371,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act16d5": {
       "id": "act16d5",
@@ -1242,7 +1386,8 @@
       "hasStage": true,
       "templateShopId": "shop_act16d5",
       "medalGroupId": "medalGroupActivity16d5",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act15d5": {
       "id": "act15d5",
@@ -1256,7 +1401,8 @@
       "hasStage": true,
       "templateShopId": "shop_act15d5",
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act15d1": {
       "id": "act15d1",
@@ -1269,7 +1415,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act15d0": {
       "id": "act15d0",
@@ -1283,7 +1430,8 @@
       "hasStage": true,
       "templateShopId": "shop_act15d0",
       "medalGroupId": "medalGroupActivity15d0",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act14d7": {
       "id": "act14d7",
@@ -1297,7 +1445,8 @@
       "hasStage": true,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": true
+      "isReplicate": true,
+      "needFixedSync": false
     },
     "act14d0d2": {
       "id": "act14d0d2",
@@ -1310,7 +1459,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act14d0d1": {
       "id": "act14d0d1",
@@ -1323,7 +1473,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act13d5": {
       "id": "act13d5",
@@ -1337,7 +1488,8 @@
       "hasStage": true,
       "templateShopId": "shop_act13d5",
       "medalGroupId": "medalGroupActivity13d5",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act13d2": {
       "id": "act13d2",
@@ -1351,7 +1503,8 @@
       "hasStage": true,
       "templateShopId": "shop_act13d2",
       "medalGroupId": null,
-      "isReplicate": true
+      "isReplicate": true,
+      "needFixedSync": false
     },
     "act13d2d2": {
       "id": "act13d2d2",
@@ -1364,7 +1517,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act13d2d1": {
       "id": "act13d2d1",
@@ -1377,7 +1531,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act13d0": {
       "id": "act13d0",
@@ -1391,7 +1546,8 @@
       "hasStage": true,
       "templateShopId": "shop_act13d0",
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act12d6": {
       "id": "act12d6",
@@ -1404,7 +1560,8 @@
       "hasStage": true,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act12d0": {
       "id": "act12d0",
@@ -1418,7 +1575,8 @@
       "hasStage": true,
       "templateShopId": "shop_act12d0",
       "medalGroupId": "medalGroupActivity12d0",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act11d7": {
       "id": "act11d7",
@@ -1432,7 +1590,8 @@
       "hasStage": true,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": true
+      "isReplicate": true,
+      "needFixedSync": false
     },
     "act11d0": {
       "id": "act11d0",
@@ -1446,7 +1605,8 @@
       "hasStage": true,
       "templateShopId": "shop_act11d0",
       "medalGroupId": "medalGroupActivity11d0",
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act10d6": {
       "id": "act10d6",
@@ -1459,7 +1619,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act10d5": {
       "id": "act10d5",
@@ -1473,7 +1634,8 @@
       "hasStage": true,
       "templateShopId": "shop_act10d5",
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act9d4": {
       "id": "act9d4",
@@ -1486,7 +1648,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act9d1d2": {
       "id": "act9d1d2",
@@ -1499,7 +1662,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act9d1d1": {
       "id": "act9d1d1",
@@ -1512,7 +1676,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act9d0": {
       "id": "act9d0",
@@ -1526,7 +1691,8 @@
       "hasStage": true,
       "templateShopId": "shop_act9d0",
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act8d2": {
       "id": "act8d2",
@@ -1539,7 +1705,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act7d1": {
       "id": "act7d1",
@@ -1552,7 +1719,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act7d5": {
       "id": "act7d5",
@@ -1566,7 +1734,8 @@
       "hasStage": true,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act6d8": {
       "id": "act6d8",
@@ -1579,7 +1748,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act6d7": {
       "id": "act6d7",
@@ -1592,7 +1762,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act6d5": {
       "id": "act6d5",
@@ -1606,7 +1777,8 @@
       "hasStage": true,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act6d0": {
       "id": "act6d0",
@@ -1619,7 +1791,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act5d1": {
       "id": "act5d1",
@@ -1632,7 +1805,8 @@
       "hasStage": true,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act5d0": {
       "id": "act5d0",
@@ -1646,7 +1820,8 @@
       "hasStage": true,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act4d5": {
       "id": "act4d5",
@@ -1659,7 +1834,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act4d2": {
       "id": "act4d2",
@@ -1672,7 +1848,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act4d0": {
       "id": "act4d0",
@@ -1686,7 +1863,8 @@
       "hasStage": true,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act3d7": {
       "id": "act3d7",
@@ -1699,7 +1877,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act3d5": {
       "id": "act3d5",
@@ -1712,7 +1891,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act3d0": {
       "id": "act3d0",
@@ -1726,7 +1906,8 @@
       "hasStage": true,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act2d8": {
       "id": "act2d8",
@@ -1739,7 +1920,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act2d5": {
       "id": "act2d5",
@@ -1752,7 +1934,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "act1d5": {
       "id": "act1d5",
@@ -1765,7 +1948,8 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "1stact": {
       "id": "1stact",
@@ -1779,7 +1963,8 @@
       "hasStage": true,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     },
     "0D5act": {
       "id": "0D5act",
@@ -1792,10 +1977,32 @@
       "hasStage": false,
       "templateShopId": null,
       "medalGroupId": null,
-      "isReplicate": false
+      "isReplicate": false,
+      "needFixedSync": false
     }
   },
   "homeActConfig": {
+    "act1checkin": {
+      "actId": "act1checkin",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "f86828",
+      "actTopBarText": "未来序曲签到活动"
+    },
+    "act15login": {
+      "actId": "act15login",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "cfd340",
+      "actTopBarText": "未来序曲登录活动"
+    },
+    "act4mine": {
+      "actId": "act4mine",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "cb271f",
+      "actTopBarText": "限时开采许可"
+    },
     "act4fun": {
       "actId": "act4fun",
       "isPopupAfterCheckin": false,
@@ -2267,6 +2474,9 @@
     }
   },
   "zoneToActivity": {
+    "act25side_zone1": "act25side",
+    "act25side_zone2": "act25side",
+    "act25side_zone3": "act25side",
     "act17sre_zone1": "act17sre",
     "act17sre_zone2": "act17sre",
     "act17sre_zone3": "act17sre",
@@ -2388,6 +2598,1031 @@
     "A001_zone2": "1stact"
   },
   "missionData": [
+    {
+      "id": "25sideActivity_1",
+      "sortId": 1,
+      "description": "通关CW-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_2",
+      "sortId": 2,
+      "description": "通关CW-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_3",
+      "sortId": 3,
+      "description": "通关CW-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_4",
+      "sortId": 4,
+      "description": "通关CW-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_5",
+      "sortId": 5,
+      "description": "通关CW-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 80
+        },
+        {
+          "type": "CHAR",
+          "id": "char_1031_slent2",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_6",
+      "sortId": 6,
+      "description": "通关CW-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_7",
+      "sortId": 7,
+      "description": "以3星评价完成CW6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_06",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_8",
+      "sortId": 8,
+      "description": "通关CW-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_9",
+      "sortId": 9,
+      "description": "以3星评价完成CW-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_07",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_cultureroom_ceilingLight_01",
+          "count": 2
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_10",
+      "sortId": 10,
+      "description": "通关CW-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_11",
+      "sortId": 11,
+      "description": "以3星评价完成CW-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_08",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_cultureroom_wallpaper_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_12",
+      "sortId": 12,
+      "description": "通关CW-9",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_09",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_13",
+      "sortId": 13,
+      "description": "以3星评价完成CW-9",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_09",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_cultureroom_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_14",
+      "sortId": 14,
+      "description": "通关CW-10",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_10",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_15",
+      "sortId": 15,
+      "description": "以3星评价完成CW-10",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_10",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_16",
+      "sortId": 16,
+      "description": "通关CW-EX-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_ex01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_17",
+      "sortId": 17,
+      "description": "通关CW-EX-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_ex02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_18",
+      "sortId": 18,
+      "description": "通关CW-EX-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_ex03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_19",
+      "sortId": 19,
+      "description": "通关CW-EX-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_ex04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_20",
+      "sortId": 20,
+      "description": "通关CW-EX-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_ex05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_21",
+      "sortId": 21,
+      "description": "通关CW-EX-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_ex06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_22",
+      "sortId": 22,
+      "description": "通关CW-EX-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_ex07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_23",
+      "sortId": 23,
+      "description": "通关CW-EX-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_ex08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_24",
+      "sortId": 24,
+      "description": "通关CW-EX-8突袭模式",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_ex08#f#",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_dropS034_fall_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_25",
+      "sortId": 25,
+      "description": "以3星评价完成CW-S-1-A",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_s01_a",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_26",
+      "sortId": 26,
+      "description": "以3星评价完成CW-S-1-B",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_s01_b",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 40
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_27",
+      "sortId": 27,
+      "description": "以3星评价完成CW-S-2-A",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_s02_a",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_28",
+      "sortId": 28,
+      "description": "以3星评价完成CW-S-2-B",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_s02_b",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_29",
+      "sortId": 29,
+      "description": "以3星评价完成CW-S-3-A",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_s03_a",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_30",
+      "sortId": 30,
+      "description": "以3星评价完成CW-S-3-B",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_s03_b",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_31",
+      "sortId": 31,
+      "description": "以3星评价完成CW-S-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_s04",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_32",
+      "sortId": 32,
+      "description": "通关活动关卡15次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_01^act25side_02^act25side_03^act25side_04^act25side_05^act25side_06^act25side_07^act25side_08^act25side_09^act25side_10^act25side_ex01^act25side_ex01#f#^act25side_ex02^act25side_ex02#f#^act25side_ex03^act25side_ex03#f#^act25side_ex04^act25side_ex04#f#^act25side_ex05^act25side_ex05#f#^act25side_ex06^act25side_ex06#f#^act25side_ex07^act25side_ex07#f#^act25side_ex08^act25side_ex08#f#^act25side_s01_a^act25side_s01_b^act25side_s02_a^act25side_s02_b^act25side_s03_a^act25side_s03_b^act25side_s04^act25side_s04#f#",
+        "15"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_33",
+      "sortId": 33,
+      "description": "通关活动关卡45次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_01^act25side_02^act25side_03^act25side_04^act25side_05^act25side_06^act25side_07^act25side_08^act25side_09^act25side_10^act25side_ex01^act25side_ex01#f#^act25side_ex02^act25side_ex02#f#^act25side_ex03^act25side_ex03#f#^act25side_ex04^act25side_ex04#f#^act25side_ex05^act25side_ex05#f#^act25side_ex06^act25side_ex06#f#^act25side_ex07^act25side_ex07#f#^act25side_ex08^act25side_ex08#f#^act25side_s01_a^act25side_s01_b^act25side_s02_a^act25side_s02_b^act25side_s03_a^act25side_s03_b^act25side_s04^act25side_s04#f#",
+        "45"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "25sideActivity_34",
+      "sortId": 34,
+      "description": "通关活动关卡85次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act25side_01^act25side_02^act25side_03^act25side_04^act25side_05^act25side_06^act25side_07^act25side_08^act25side_09^act25side_10^act25side_ex01^act25side_ex01#f#^act25side_ex02^act25side_ex02#f#^act25side_ex03^act25side_ex03#f#^act25side_ex04^act25side_ex04#f#^act25side_ex05^act25side_ex05#f#^act25side_ex06^act25side_ex06#f#^act25side_ex07^act25side_ex07#f#^act25side_ex08^act25side_ex08#f#^act25side_s01_a^act25side_s01_b^act25side_s02_a^act25side_s02_b^act25side_s03_a^act25side_s03_b^act25side_s04^act25side_s04#f#",
+        "85"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act25side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act25side_token_fdrchips",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
     {
       "id": "17sreActivity_1",
       "sortId": 1,
@@ -44529,6 +45764,52 @@
   ],
   "missionGroup": [
     {
+      "id": "act25side",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "25sideActivity_1",
+        "25sideActivity_2",
+        "25sideActivity_3",
+        "25sideActivity_4",
+        "25sideActivity_5",
+        "25sideActivity_6",
+        "25sideActivity_7",
+        "25sideActivity_8",
+        "25sideActivity_9",
+        "25sideActivity_10",
+        "25sideActivity_11",
+        "25sideActivity_12",
+        "25sideActivity_13",
+        "25sideActivity_14",
+        "25sideActivity_15",
+        "25sideActivity_16",
+        "25sideActivity_17",
+        "25sideActivity_18",
+        "25sideActivity_19",
+        "25sideActivity_20",
+        "25sideActivity_21",
+        "25sideActivity_22",
+        "25sideActivity_23",
+        "25sideActivity_24",
+        "25sideActivity_25",
+        "25sideActivity_26",
+        "25sideActivity_27",
+        "25sideActivity_28",
+        "25sideActivity_29",
+        "25sideActivity_30",
+        "25sideActivity_31",
+        "25sideActivity_32",
+        "25sideActivity_33",
+        "25sideActivity_34"
+      ],
+      "startTs": 1682913600,
+      "endTs": 1685303999
+    },
+    {
       "id": "act17sre",
       "title": null,
       "type": "ACTIVITY",
@@ -52741,6 +54022,246 @@
           "ap_supply_lt_100": 1563739199
         },
         "extraCheckinList": null
+      }
+    },
+    "CHECKIN_ALL_PLAYER": {
+      "act1checkin": {
+        "checkInList": {
+          "0": {
+            "itemList": [
+              {
+                "id": "ap_supply_lt_120",
+                "count": 1,
+                "type": "AP_SUPPLY"
+              },
+              {
+                "id": "4001",
+                "count": 30000,
+                "type": "GOLD"
+              }
+            ],
+            "order": 1,
+            "keyItem": false,
+            "showItemOrder": 0
+          },
+          "1": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "7001",
+                "count": 5,
+                "type": "TKT_RECRUIT"
+              }
+            ],
+            "order": 2,
+            "keyItem": true,
+            "showItemOrder": 0
+          },
+          "2": {
+            "itemList": [
+              {
+                "id": "32001",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "3301",
+                "count": 30,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 3,
+            "keyItem": false,
+            "showItemOrder": 0
+          },
+          "3": {
+            "itemList": [
+              {
+                "id": "mod_update_token_1",
+                "count": 10,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "3401",
+                "count": 300,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 4,
+            "keyItem": false,
+            "showItemOrder": 0
+          },
+          "4": {
+            "itemList": [
+              {
+                "id": "char_278_orchid@boc#6",
+                "count": 1,
+                "type": "CHAR_SKIN"
+              },
+              {
+                "id": "2003",
+                "count": 20,
+                "type": "CARD_EXP"
+              }
+            ],
+            "order": 5,
+            "keyItem": true,
+            "showItemOrder": 1
+          },
+          "5": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "3003",
+                "count": 20,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 6,
+            "keyItem": true,
+            "showItemOrder": 0
+          },
+          "6": {
+            "itemList": [
+              {
+                "id": "mod_update_token_2",
+                "count": 3,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "3302",
+                "count": 20,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 7,
+            "keyItem": false,
+            "showItemOrder": 0
+          },
+          "7": {
+            "itemList": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "4001",
+                "count": 30000,
+                "type": "GOLD"
+              }
+            ],
+            "order": 8,
+            "keyItem": false,
+            "showItemOrder": 0
+          },
+          "8": {
+            "itemList": [
+              {
+                "id": "mod_unlock_token",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "7002",
+                "count": 5,
+                "type": "TKT_INST_FIN"
+              }
+            ],
+            "order": 9,
+            "keyItem": false,
+            "showItemOrder": 0
+          },
+          "9": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "2003",
+                "count": 20,
+                "type": "CARD_EXP"
+              }
+            ],
+            "order": 10,
+            "keyItem": true,
+            "showItemOrder": 0
+          }
+        },
+        "apSupplyOutOfDateDict": {
+          "ap_supply_lt_120": 1684699199
+        },
+        "pubBhvs": {
+          "act1checkin_all_1": {
+            "sortId": 1,
+            "allBehaviorId": "act1checkin_all_1",
+            "displayOrder": 1,
+            "allBehaviorDesc": "博士累计首次通关CW-ST-1",
+            "requiringValue": 1000000,
+            "requireRepeatCompletion": false,
+            "rewardReceivedDesc": "不要低头",
+            "rewards": [
+              {
+                "id": "bg_rhine_1",
+                "count": 1,
+                "type": "HOME_BACKGROUND"
+              }
+            ]
+          },
+          "act1checkin_all_2": {
+            "sortId": 2,
+            "allBehaviorId": "act1checkin_all_2",
+            "displayOrder": 2,
+            "allBehaviorDesc": "博士累计通关CW-10",
+            "requiringValue": 10000000,
+            "requireRepeatCompletion": true,
+            "rewardReceivedDesc": "不要停下脚步",
+            "rewards": [
+              {
+                "id": "furni_act38d0_Galleria_01",
+                "count": 1,
+                "type": "FURN"
+              }
+            ]
+          }
+        },
+        "personalBhvs": {
+          "act1checkin_1": {
+            "sortId": 1,
+            "personalBehaviorId": "act1checkin_1",
+            "displayOrder": 1,
+            "requireRepeatCompletion": false,
+            "desc": "个人通关状态："
+          },
+          "act1checkin_2": {
+            "sortId": 2,
+            "personalBehaviorId": "act1checkin_2",
+            "displayOrder": 2,
+            "requireRepeatCompletion": true,
+            "desc": "个人累计通关次数："
+          },
+          "act1checkin_3": {
+            "sortId": 3,
+            "personalBehaviorId": "act1checkin_3",
+            "displayOrder": 2,
+            "requireRepeatCompletion": true,
+            "desc": "个人助战次数："
+          }
+        },
+        "constData": {
+          "characterName": "梓兰",
+          "skinName": "衣缕往昔"
+        }
       }
     },
     "TYPE_ACT3D0": {
@@ -96169,6 +97690,17 @@
       }
     },
     "LOGIN_ONLY": {
+      "act15login": {
+        "description": "<color value=#898989>该物品过期时间</color>\n<color value=#cfd340>2023/05/15 03:59</color>",
+        "itemList": [
+          {
+            "id": "LIMITED_TKT_GACHA_10_3801",
+            "count": 1,
+            "type": "LIMITED_TKT_GACHA_10"
+          }
+        ],
+        "apSupplyOutOfDateDict": {}
+      },
       "act14login": {
         "description": "<color value=#898989>该物品过期时间</color>\n<color value=#e74d38>2023/03/21 03:59</color>",
         "itemList": [
@@ -106510,9 +108042,2086 @@
           "gachaExtraProb": -1.0
         }
       }
-    }
+    },
+    "TYPE_ACT25SIDE": {
+      "act25side": {
+        "tokenItemId": "act25side_token_fdrchips",
+        "constData": {
+          "getDailyCount": 2,
+          "costName": "授权调查许可",
+          "costDesc": "解锁专项调查后，每个自然日的<color=#CC6E3B>04:00</color>可获得<color=#CC6E3B>2</color>授权调查许可；\n最多可同时持有<color=#CC6E3B>4</color>授权调查许可，超出上限的授权调查许可将无法获得；\n在专项调查中，每次启动调查需要消耗<color=#CC6E3B>1</color>授权调查许可。",
+          "costLimit": 4,
+          "rewardLimit": 16,
+          "researchUnlockText": "完成CW-TR-1后开启",
+          "harvestReward": {
+            "id": "randomMaterial_rhine2",
+            "count": 1,
+            "type": "VOUCHER_MGACHA"
+          },
+          "costCount": 1,
+          "costCountLimit": 20,
+          "basicProgress": 100,
+          "harvestDesc": "当前技术转化率将影响单个技术转化完成所需要的时间；\n技术转化率可通过解锁专项调查系统与提升调查进度来增加，转化率增加生效时间为次日<color=#CC6E3B>04:00</color>；\n通过技术转化所获得的【技术调查补给】最多可同时持有<color=#CC6E3B>16</color>个，达到上限后将暂停当前技术转化；\n解锁任一区域可获得<color=#CC6E3B>2</color>个【技术调查补给】（解锁区域所获得的补给不占持有上限限制）。"
+        },
+        "zoneDescList": {
+          "act25side_zone1": {
+            "zoneId": "act25side_zone1",
+            "unlockText": "尚未解锁",
+            "displayStartTime": 1682913600
+          },
+          "act25side_zone2": {
+            "zoneId": "act25side_zone2",
+            "unlockText": "完成「未来将至」后解锁",
+            "displayStartTime": 1682913600
+          },
+          "act25side_zone3": {
+            "zoneId": "act25side_zone3",
+            "unlockText": "完成「未来将至」后解锁",
+            "displayStartTime": 1682913600
+          }
+        },
+        "archiveItemData": {
+          "act25side_pic_1": {
+            "itemId": "act25side_pic_1",
+            "itemType": 0,
+            "itemUnlockType": 1,
+            "itemUnlockParam": "act25side_st04",
+            "unlockDesc": null,
+            "iconId": null,
+            "itemName": "孤星"
+          },
+          "act25side_pic_2": {
+            "itemId": "act25side_pic_2",
+            "itemType": 0,
+            "itemUnlockType": 1,
+            "itemUnlockParam": "act25side_st04",
+            "unlockDesc": null,
+            "iconId": null,
+            "itemName": "交错螺旋"
+          },
+          "act25side_pic_3": {
+            "itemId": "act25side_pic_3",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_1_1",
+            "unlockDesc": "收到新的图像资料<见面礼>",
+            "iconId": "act25side_pic_1",
+            "itemName": "见面礼"
+          },
+          "act25side_pic_4": {
+            "itemId": "act25side_pic_4",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_2_3",
+            "unlockDesc": "收到新的图像资料<嘲笑>",
+            "iconId": "act25side_pic_1",
+            "itemName": "嘲笑"
+          },
+          "act25side_pic_5": {
+            "itemId": "act25side_pic_5",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_1_3",
+            "unlockDesc": "收到新的图像资料<忏悔>",
+            "iconId": "act25side_pic_1",
+            "itemName": "忏悔"
+          },
+          "act25side_pic_6": {
+            "itemId": "act25side_pic_6",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_1_4",
+            "unlockDesc": "收到新的图像资料<擦肩而过>",
+            "iconId": "act25side_pic_1",
+            "itemName": "擦肩而过"
+          },
+          "act25side_pic_7": {
+            "itemId": "act25side_pic_7",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_1_4",
+            "unlockDesc": "收到新的图像资料<前兆>",
+            "iconId": "act25side_pic_1",
+            "itemName": "前兆"
+          },
+          "act25side_pic_8": {
+            "itemId": "act25side_pic_8",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_2_4",
+            "unlockDesc": "收到新的图像资料<同行者>",
+            "iconId": "act25side_pic_1",
+            "itemName": "同行者"
+          },
+          "act25side_pic_9": {
+            "itemId": "act25side_pic_9",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_2_4",
+            "unlockDesc": "收到新的图像资料<导火索>",
+            "iconId": "act25side_pic_1",
+            "itemName": "导火索"
+          },
+          "act25side_pic_10": {
+            "itemId": "act25side_pic_10",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_2_4",
+            "unlockDesc": "收到新的图像资料<穿云之光>",
+            "iconId": "act25side_pic_1",
+            "itemName": "穿云之光"
+          },
+          "act25side_pic_11": {
+            "itemId": "act25side_pic_11",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_3_1",
+            "unlockDesc": "收到新的图像资料<时间有限>",
+            "iconId": "act25side_pic_1",
+            "itemName": "时间有限"
+          },
+          "act25side_pic_12": {
+            "itemId": "act25side_pic_12",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_3_3",
+            "unlockDesc": "收到新的图像资料<呵斥>",
+            "iconId": "act25side_pic_1",
+            "itemName": "呵斥"
+          },
+          "act25side_pic_13": {
+            "itemId": "act25side_pic_13",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_4_1",
+            "unlockDesc": "收到新的图像资料<命运>",
+            "iconId": "act25side_pic_1",
+            "itemName": "命运"
+          },
+          "act25side_pic_14": {
+            "itemId": "act25side_pic_14",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_3_4",
+            "unlockDesc": "收到新的图像资料<错误的星图>",
+            "iconId": "act25side_pic_1",
+            "itemName": "错误的星图"
+          },
+          "act25side_pic_15": {
+            "itemId": "act25side_pic_15",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_3_4",
+            "unlockDesc": "收到新的图像资料<破天之柱>",
+            "iconId": "act25side_pic_1",
+            "itemName": "破天之柱"
+          },
+          "act25side_pic_16": {
+            "itemId": "act25side_pic_16",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_3_4",
+            "unlockDesc": "收到新的图像资料<真实的天空>",
+            "iconId": "act25side_pic_1",
+            "itemName": "真实的天空"
+          },
+          "act25side_pic_17": {
+            "itemId": "act25side_pic_17",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_4_3",
+            "unlockDesc": "收到新的图像资料<抬头>",
+            "iconId": "act25side_pic_1",
+            "itemName": "抬头"
+          },
+          "act25side_pic_18": {
+            "itemId": "act25side_pic_18",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_4_4",
+            "unlockDesc": "收到新的图像资料<哥伦比亚的秘密>",
+            "iconId": "act25side_pic_1",
+            "itemName": "哥伦比亚的秘密"
+          },
+          "act25side_pic_19": {
+            "itemId": "act25side_pic_19",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_4_4",
+            "unlockDesc": "收到新的图像资料<孤独的精灵>",
+            "iconId": "act25side_pic_1",
+            "itemName": "孤独的精灵"
+          },
+          "act25side_pic_20": {
+            "itemId": "act25side_pic_20",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_4_4",
+            "unlockDesc": "收到新的图像资料<再见，泰拉>",
+            "iconId": "act25side_pic_1",
+            "itemName": "再见，泰拉"
+          },
+          "act25side_pic_21": {
+            "itemId": "act25side_pic_21",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_1_5",
+            "unlockDesc": "收到新的图像资料<能量井>",
+            "iconId": "act25side_pic_1",
+            "itemName": "能量井"
+          },
+          "act25side_pic_22": {
+            "itemId": "act25side_pic_22",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_2_5",
+            "unlockDesc": "收到新的图像资料<聚焦发生器>",
+            "iconId": "act25side_pic_1",
+            "itemName": "聚焦发生器"
+          },
+          "act25side_pic_23": {
+            "itemId": "act25side_pic_23",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_3_5",
+            "unlockDesc": "收到新的图像资料<万星园>",
+            "iconId": "act25side_pic_1",
+            "itemName": "万星园"
+          },
+          "act25side_pic_24": {
+            "itemId": "act25side_pic_24",
+            "itemType": 0,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_4_5",
+            "unlockDesc": "收到新的图像资料<静滞所>",
+            "iconId": "act25side_pic_1",
+            "itemName": "静滞所"
+          },
+          "act25side_file_1": {
+            "itemId": "act25side_file_1",
+            "itemType": 1,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_1_1",
+            "unlockDesc": "收到新的调查报告<任务简报>",
+            "iconId": "act25side_file_1",
+            "itemName": "任务简报"
+          },
+          "act25side_file_2": {
+            "itemId": "act25side_file_2",
+            "itemType": 1,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_1_2",
+            "unlockDesc": "收到新的调查报告<往日的采访>",
+            "iconId": "act25side_file_1",
+            "itemName": "往日的采访"
+          },
+          "act25side_file_3": {
+            "itemId": "act25side_file_3",
+            "itemType": 1,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_1_5",
+            "unlockDesc": "收到新的调查报告<康拉德·杰克逊>",
+            "iconId": "act25side_file_1",
+            "itemName": "康拉德·杰克逊"
+          },
+          "act25side_file_4": {
+            "itemId": "act25side_file_4",
+            "itemType": 1,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_2_1",
+            "unlockDesc": "收到新的调查报告<一页日记>",
+            "iconId": "act25side_file_1",
+            "itemName": "一页日记"
+          },
+          "act25side_file_5": {
+            "itemId": "act25side_file_5",
+            "itemType": 1,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_2_2",
+            "unlockDesc": "收到新的调查报告<一次会议>",
+            "iconId": "act25side_file_1",
+            "itemName": "一次会议"
+          },
+          "act25side_file_6": {
+            "itemId": "act25side_file_6",
+            "itemType": 1,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_2_5",
+            "unlockDesc": "收到新的调查报告<一场对话>",
+            "iconId": "act25side_file_1",
+            "itemName": "一场对话"
+          },
+          "act25side_file_7": {
+            "itemId": "act25side_file_7",
+            "itemType": 1,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_3_1",
+            "unlockDesc": "收到新的调查报告<指引>",
+            "iconId": "act25side_file_1",
+            "itemName": "指引"
+          },
+          "act25side_file_8": {
+            "itemId": "act25side_file_8",
+            "itemType": 1,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_3_2",
+            "unlockDesc": "收到新的调查报告<蒙昧>",
+            "iconId": "act25side_file_1",
+            "itemName": "蒙昧"
+          },
+          "act25side_file_9": {
+            "itemId": "act25side_file_9",
+            "itemType": 1,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_3_5",
+            "unlockDesc": "收到新的调查报告<亘古不变>",
+            "iconId": "act25side_file_1",
+            "itemName": "亘古不变"
+          },
+          "act25side_file_10": {
+            "itemId": "act25side_file_10",
+            "itemType": 1,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_4_1",
+            "unlockDesc": "收到新的调查报告<唯一的线索>",
+            "iconId": "act25side_file_1",
+            "itemName": "唯一的线索"
+          },
+          "act25side_file_11": {
+            "itemId": "act25side_file_11",
+            "itemType": 1,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_4_2",
+            "unlockDesc": "收到新的调查报告<邮件>",
+            "iconId": "act25side_file_1",
+            "itemName": "邮件"
+          },
+          "act25side_file_12": {
+            "itemId": "act25side_file_12",
+            "itemType": 1,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_4_5",
+            "unlockDesc": "收到新的调查报告<真理孑然>",
+            "iconId": "act25side_file_1",
+            "itemName": "真理孑然"
+          },
+          "act25side_tech1_1": {
+            "itemId": "act25side_tech1_1",
+            "itemType": 2,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_1_3",
+            "unlockDesc": "特别行动指令：<超重·α>已启用",
+            "iconId": "act25side_tech1_1",
+            "itemName": "超重·α"
+          },
+          "act25side_tech1_2": {
+            "itemId": "act25side_tech1_2",
+            "itemType": 2,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_1_5",
+            "unlockDesc": "特别行动指令：<超重·β>已升级",
+            "iconId": "act25side_tech1_2",
+            "itemName": "超重·β"
+          },
+          "act25side_tech2_1": {
+            "itemId": "act25side_tech2_1",
+            "itemType": 2,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_2_3",
+            "unlockDesc": "特别行动指令：<重力认知·α>已启用",
+            "iconId": "act25side_tech2_1",
+            "itemName": "重力认知·α"
+          },
+          "act25side_tech2_2": {
+            "itemId": "act25side_tech2_2",
+            "itemType": 2,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_2_5",
+            "unlockDesc": "特别行动指令：<重力认知·β>已升级",
+            "iconId": "act25side_tech2_2",
+            "itemName": "重力认知·β"
+          },
+          "act25side_tech3_1": {
+            "itemId": "act25side_tech3_1",
+            "itemType": 2,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_3_3",
+            "unlockDesc": "特别行动指令：<失重·α>已启用",
+            "iconId": "act25side_tech3_1",
+            "itemName": "失重·α"
+          },
+          "act25side_tech3_2": {
+            "itemId": "act25side_tech3_2",
+            "itemType": 2,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_3_5",
+            "unlockDesc": "特别行动指令：<失重·β>已升级",
+            "iconId": "act25side_tech3_2",
+            "itemName": "失重·β"
+          },
+          "act25side_tech4_1": {
+            "itemId": "act25side_tech4_1",
+            "itemType": 2,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_4_3",
+            "unlockDesc": "特别行动指令：<初速度·α>已启用",
+            "iconId": "act25side_tech4_1",
+            "itemName": "初速度·α"
+          },
+          "act25side_tech4_2": {
+            "itemId": "act25side_tech4_2",
+            "itemType": 2,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_4_5",
+            "unlockDesc": "特别行动指令：<初速度·β>已升级",
+            "iconId": "act25side_tech4_2",
+            "itemName": "初速度·β"
+          },
+          "act25side_token_key1_01": {
+            "itemId": "act25side_token_key1_01",
+            "itemType": 3,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_1_2",
+            "unlockDesc": "获得了秘密区块的特殊作战许可·α",
+            "iconId": "act25side_token_key01",
+            "itemName": "特殊作战许可·α"
+          },
+          "act25side_token_key1_02": {
+            "itemId": "act25side_token_key1_02",
+            "itemType": 3,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_3_2",
+            "unlockDesc": "获得了秘密区块的特殊作战许可·α",
+            "iconId": "act25side_token_key01",
+            "itemName": "特殊作战许可·α"
+          },
+          "act25side_token_key2_01": {
+            "itemId": "act25side_token_key2_01",
+            "itemType": 3,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_2_2",
+            "unlockDesc": "获得了秘密区块的特殊作战许可·β",
+            "iconId": "act25side_token_key02",
+            "itemName": "特殊作战许可·β"
+          },
+          "act25side_token_key2_02": {
+            "itemId": "act25side_token_key2_02",
+            "itemType": 3,
+            "itemUnlockType": 0,
+            "itemUnlockParam": "mission_4_2",
+            "unlockDesc": "获得了秘密区块的特殊作战许可·β",
+            "iconId": "act25side_token_key02",
+            "itemName": "特殊作战许可·β"
+          }
+        },
+        "arcMapInfoData": {
+          "act25side_file_1": {
+            "objectId": "act25side_file_1",
+            "type": 1,
+            "numberId": "01",
+            "areaId": "act25side_area_1",
+            "sortId": 1,
+            "position": 80,
+            "hasDot": true
+          },
+          "act25side_pic_3": {
+            "objectId": "act25side_pic_3",
+            "type": 0,
+            "numberId": "02",
+            "areaId": "act25side_area_1",
+            "sortId": 2,
+            "position": 319,
+            "hasDot": false
+          },
+          "act25side_file_2": {
+            "objectId": "act25side_file_2",
+            "type": 1,
+            "numberId": "03",
+            "areaId": "act25side_area_1",
+            "sortId": 3,
+            "position": 738,
+            "hasDot": true
+          },
+          "act25side_token_key1_01": {
+            "objectId": "act25side_token_key1_01",
+            "type": 3,
+            "numberId": "04",
+            "areaId": "act25side_area_1",
+            "sortId": 4,
+            "position": 1097,
+            "hasDot": false
+          },
+          "act25side_tech1_1": {
+            "objectId": "act25side_tech1_1",
+            "type": 2,
+            "numberId": "05",
+            "areaId": "act25side_area_1",
+            "sortId": 5,
+            "position": 1516,
+            "hasDot": true
+          },
+          "act25side_pic_5": {
+            "objectId": "act25side_pic_5",
+            "type": 0,
+            "numberId": "06",
+            "areaId": "act25side_area_1",
+            "sortId": 6,
+            "position": 1755,
+            "hasDot": false
+          },
+          "act25side_pic_6": {
+            "objectId": "act25side_pic_6",
+            "type": 0,
+            "numberId": "07",
+            "areaId": "act25side_area_1",
+            "sortId": 7,
+            "position": 2474,
+            "hasDot": true
+          },
+          "act25side_pic_7": {
+            "objectId": "act25side_pic_7",
+            "type": 0,
+            "numberId": "08",
+            "areaId": "act25side_area_1",
+            "sortId": 8,
+            "position": 2833,
+            "hasDot": false
+          },
+          "act25side_tech1_2": {
+            "objectId": "act25side_tech1_2",
+            "type": 2,
+            "numberId": "09",
+            "areaId": "act25side_area_1",
+            "sortId": 9,
+            "position": 3552,
+            "hasDot": true
+          },
+          "act25side_file_3": {
+            "objectId": "act25side_file_3",
+            "type": 1,
+            "numberId": "10",
+            "areaId": "act25side_area_1",
+            "sortId": 10,
+            "position": 3911,
+            "hasDot": false
+          },
+          "act25side_pic_21": {
+            "objectId": "act25side_pic_21",
+            "type": 0,
+            "numberId": "11",
+            "areaId": "act25side_area_1",
+            "sortId": 11,
+            "position": 4330,
+            "hasDot": false
+          },
+          "act25side_file_4": {
+            "objectId": "act25side_file_4",
+            "type": 1,
+            "numberId": "01",
+            "areaId": "act25side_area_2",
+            "sortId": 1,
+            "position": 680,
+            "hasDot": true
+          },
+          "act25side_file_5": {
+            "objectId": "act25side_file_5",
+            "type": 1,
+            "numberId": "02",
+            "areaId": "act25side_area_2",
+            "sortId": 2,
+            "position": 1099,
+            "hasDot": true
+          },
+          "act25side_token_key2_01": {
+            "objectId": "act25side_token_key2_01",
+            "type": 3,
+            "numberId": "03",
+            "areaId": "act25side_area_2",
+            "sortId": 3,
+            "position": 1338,
+            "hasDot": false
+          },
+          "act25side_tech2_1": {
+            "objectId": "act25side_tech2_1",
+            "type": 2,
+            "numberId": "04",
+            "areaId": "act25side_area_2",
+            "sortId": 4,
+            "position": 2057,
+            "hasDot": true
+          },
+          "act25side_pic_4": {
+            "objectId": "act25side_pic_4",
+            "type": 0,
+            "numberId": "05",
+            "areaId": "act25side_area_2",
+            "sortId": 5,
+            "position": 2296,
+            "hasDot": false
+          },
+          "act25side_pic_8": {
+            "objectId": "act25side_pic_8",
+            "type": 0,
+            "numberId": "06",
+            "areaId": "act25side_area_2",
+            "sortId": 6,
+            "position": 3015,
+            "hasDot": true
+          },
+          "act25side_pic_9": {
+            "objectId": "act25side_pic_9",
+            "type": 0,
+            "numberId": "07",
+            "areaId": "act25side_area_2",
+            "sortId": 7,
+            "position": 3374,
+            "hasDot": false
+          },
+          "act25side_pic_10": {
+            "objectId": "act25side_pic_10",
+            "type": 0,
+            "numberId": "08",
+            "areaId": "act25side_area_2",
+            "sortId": 8,
+            "position": 3613,
+            "hasDot": false
+          },
+          "act25side_tech2_2": {
+            "objectId": "act25side_tech2_2",
+            "type": 2,
+            "numberId": "09",
+            "areaId": "act25side_area_2",
+            "sortId": 9,
+            "position": 4332,
+            "hasDot": true
+          },
+          "act25side_file_6": {
+            "objectId": "act25side_file_6",
+            "type": 1,
+            "numberId": "10",
+            "areaId": "act25side_area_2",
+            "sortId": 10,
+            "position": 4691,
+            "hasDot": false
+          },
+          "act25side_pic_22": {
+            "objectId": "act25side_pic_22",
+            "type": 0,
+            "numberId": "11",
+            "areaId": "act25side_area_2",
+            "sortId": 11,
+            "position": 5050,
+            "hasDot": false
+          },
+          "act25side_file_7": {
+            "objectId": "act25side_file_7",
+            "type": 1,
+            "numberId": "01",
+            "areaId": "act25side_area_3",
+            "sortId": 1,
+            "position": 190,
+            "hasDot": true
+          },
+          "act25side_pic_11": {
+            "objectId": "act25side_pic_11",
+            "type": 0,
+            "numberId": "02",
+            "areaId": "act25side_area_3",
+            "sortId": 2,
+            "position": 429,
+            "hasDot": false
+          },
+          "act25side_file_8": {
+            "objectId": "act25side_file_8",
+            "type": 1,
+            "numberId": "03",
+            "areaId": "act25side_area_3",
+            "sortId": 3,
+            "position": 1148,
+            "hasDot": true
+          },
+          "act25side_token_key1_02": {
+            "objectId": "act25side_token_key1_02",
+            "type": 3,
+            "numberId": "04",
+            "areaId": "act25side_area_3",
+            "sortId": 4,
+            "position": 1507,
+            "hasDot": false
+          },
+          "act25side_tech3_1": {
+            "objectId": "act25side_tech3_1",
+            "type": 2,
+            "numberId": "05",
+            "areaId": "act25side_area_3",
+            "sortId": 5,
+            "position": 1926,
+            "hasDot": true
+          },
+          "act25side_pic_12": {
+            "objectId": "act25side_pic_12",
+            "type": 0,
+            "numberId": "06",
+            "areaId": "act25side_area_3",
+            "sortId": 6,
+            "position": 2165,
+            "hasDot": false
+          },
+          "act25side_pic_14": {
+            "objectId": "act25side_pic_14",
+            "type": 0,
+            "numberId": "07",
+            "areaId": "act25side_area_3",
+            "sortId": 7,
+            "position": 2884,
+            "hasDot": true
+          },
+          "act25side_pic_15": {
+            "objectId": "act25side_pic_15",
+            "type": 0,
+            "numberId": "08",
+            "areaId": "act25side_area_3",
+            "sortId": 8,
+            "position": 3243,
+            "hasDot": false
+          },
+          "act25side_pic_16": {
+            "objectId": "act25side_pic_16",
+            "type": 0,
+            "numberId": "09",
+            "areaId": "act25side_area_3",
+            "sortId": 9,
+            "position": 3602,
+            "hasDot": false
+          },
+          "act25side_tech3_2": {
+            "objectId": "act25side_tech3_2",
+            "type": 2,
+            "numberId": "10",
+            "areaId": "act25side_area_3",
+            "sortId": 10,
+            "position": 4021,
+            "hasDot": true
+          },
+          "act25side_file_9": {
+            "objectId": "act25side_file_9",
+            "type": 1,
+            "numberId": "11",
+            "areaId": "act25side_area_3",
+            "sortId": 11,
+            "position": 4260,
+            "hasDot": false
+          },
+          "act25side_pic_23": {
+            "objectId": "act25side_pic_23",
+            "type": 0,
+            "numberId": "12",
+            "areaId": "act25side_area_3",
+            "sortId": 12,
+            "position": 4679,
+            "hasDot": false
+          },
+          "act25side_file_10": {
+            "objectId": "act25side_file_10",
+            "type": 1,
+            "numberId": "01",
+            "areaId": "act25side_area_4",
+            "sortId": 1,
+            "position": 570,
+            "hasDot": true
+          },
+          "act25side_pic_13": {
+            "objectId": "act25side_pic_13",
+            "type": 0,
+            "numberId": "02",
+            "areaId": "act25side_area_4",
+            "sortId": 2,
+            "position": 929,
+            "hasDot": false
+          },
+          "act25side_file_11": {
+            "objectId": "act25side_file_11",
+            "type": 1,
+            "numberId": "03",
+            "areaId": "act25side_area_4",
+            "sortId": 3,
+            "position": 1648,
+            "hasDot": true
+          },
+          "act25side_token_key2_02": {
+            "objectId": "act25side_token_key2_02",
+            "type": 3,
+            "numberId": "04",
+            "areaId": "act25side_area_4",
+            "sortId": 4,
+            "position": 1887,
+            "hasDot": false
+          },
+          "act25side_tech4_1": {
+            "objectId": "act25side_tech4_1",
+            "type": 2,
+            "numberId": "05",
+            "areaId": "act25side_area_4",
+            "sortId": 5,
+            "position": 2606,
+            "hasDot": true
+          },
+          "act25side_pic_17": {
+            "objectId": "act25side_pic_17",
+            "type": 0,
+            "numberId": "06",
+            "areaId": "act25side_area_4",
+            "sortId": 6,
+            "position": 2845,
+            "hasDot": false
+          },
+          "act25side_pic_18": {
+            "objectId": "act25side_pic_18",
+            "type": 0,
+            "numberId": "07",
+            "areaId": "act25side_area_4",
+            "sortId": 7,
+            "position": 3564,
+            "hasDot": true
+          },
+          "act25side_pic_19": {
+            "objectId": "act25side_pic_19",
+            "type": 0,
+            "numberId": "08",
+            "areaId": "act25side_area_4",
+            "sortId": 8,
+            "position": 3803,
+            "hasDot": false
+          },
+          "act25side_pic_20": {
+            "objectId": "act25side_pic_20",
+            "type": 0,
+            "numberId": "09",
+            "areaId": "act25side_area_4",
+            "sortId": 9,
+            "position": 4042,
+            "hasDot": false
+          },
+          "act25side_tech4_2": {
+            "objectId": "act25side_tech4_2",
+            "type": 2,
+            "numberId": "10",
+            "areaId": "act25side_area_4",
+            "sortId": 10,
+            "position": 4761,
+            "hasDot": true
+          },
+          "act25side_file_12": {
+            "objectId": "act25side_file_12",
+            "type": 1,
+            "numberId": "11",
+            "areaId": "act25side_area_4",
+            "sortId": 11,
+            "position": 5000,
+            "hasDot": false
+          },
+          "act25side_pic_24": {
+            "objectId": "act25side_pic_24",
+            "type": 0,
+            "numberId": "12",
+            "areaId": "act25side_area_4",
+            "sortId": 12,
+            "position": 5239,
+            "hasDot": false
+          }
+        },
+        "areaInfoData": {
+          "act25side_area_1": {
+            "areaId": "act25side_area_1",
+            "sortId": 1,
+            "areaIcon": "area_1",
+            "areaName": "能量井",
+            "unlockText": "未知区域",
+            "preposedStage": "act25side_tr01",
+            "areaInitialDesc": "“弧光一号”计划的一环，通称——能量井。\n作用为聚集能量，并将之发射至位于上方的聚焦发生器。它能够储存足够维持一个国家所有移动城市相当一段时间消耗的能源。",
+            "areaEndingDesc": "克丽斯腾用它对准天空，而我们应该用它对准谁？",
+            "areaEndingAud": "ON_ACT25SIDE_BROADCAST2",
+            "reward": {
+              "id": "randomMaterial_rhine2",
+              "count": 2,
+              "type": "VOUCHER_MGACHA"
+            },
+            "finalId": "mission_1_5"
+          },
+          "act25side_area_2": {
+            "areaId": "act25side_area_2",
+            "sortId": 2,
+            "areaIcon": "area_2",
+            "areaName": "聚焦发生器",
+            "unlockText": "未知区域",
+            "preposedStage": "act25side_st02",
+            "areaInitialDesc": "“弧光一号”计划的一环，通称——聚焦发生器。\n作用为吸收地面发射而来的能量，在锁定目标后发射。它的打击范围广得超越多数泰拉人的想象。",
+            "areaEndingDesc": "迈向群星的第一步，是征服天空，我们已经走在了这条道路上。",
+            "areaEndingAud": "ON_ACT25SIDE_BROADCAST3",
+            "reward": {
+              "id": "randomMaterial_rhine2",
+              "count": 2,
+              "type": "VOUCHER_MGACHA"
+            },
+            "finalId": "mission_2_5"
+          },
+          "act25side_area_3": {
+            "areaId": "act25side_area_3",
+            "sortId": 3,
+            "areaIcon": "area_3",
+            "areaName": "万星园",
+            "unlockText": "未知区域",
+            "preposedStage": "act25side_07",
+            "areaInitialDesc": "克丽斯腾·莱特出于个人喜好设计的观星间。\n中央的星象仪采用了最先端的技术，精度极高。只是，那似乎并非泰拉人熟知的群星轨迹。",
+            "areaEndingDesc": "我们向往星星已有千万年，现在，是时候向它们伸出手了。",
+            "areaEndingAud": "ON_ACT25SIDE_BROADCAST4",
+            "reward": {
+              "id": "randomMaterial_rhine2",
+              "count": 2,
+              "type": "VOUCHER_MGACHA"
+            },
+            "finalId": "mission_3_5"
+          },
+          "act25side_area_4": {
+            "areaId": "act25side_area_4",
+            "sortId": 4,
+            "areaIcon": "area_4",
+            "areaName": "静滞所",
+            "unlockText": "未知区域",
+            "preposedStage": "act25side_09",
+            "areaInitialDesc": "方形堆砌的群山，冰冷色彩的墓园。\n无法理解这里发生了什么。",
+            "areaEndingDesc": "我们终有一天会探明这座墓园的秘密，但或许到了那时，它已不再重要。",
+            "areaEndingAud": "ON_ACT25SIDE_BROADCAST5",
+            "reward": {
+              "id": "randomMaterial_rhine2",
+              "count": 2,
+              "type": "VOUCHER_MGACHA"
+            },
+            "finalId": "mission_4_5"
+          }
+        },
+        "areaMissionData": {
+          "mission_1_1": {
+            "id": "mission_1_1",
+            "areaId": "act25side_area_1",
+            "preposedMissionId": null,
+            "sortId": 1,
+            "isZone": false,
+            "stageId": "act25side_03",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 20,
+            "progressPicId": "progress_1",
+            "template": null,
+            "templateType": -1,
+            "desc": "以三星评价通关1次CW-3",
+            "param": null,
+            "rewards": [
+              {
+                "id": "4001",
+                "count": 10000,
+                "type": "GOLD"
+              }
+            ],
+            "archiveItems": [
+              "act25side_pic_3",
+              "act25side_file_1"
+            ]
+          },
+          "mission_1_2": {
+            "id": "mission_1_2",
+            "areaId": "act25side_area_1",
+            "preposedMissionId": "mission_1_1",
+            "sortId": 2,
+            "isZone": false,
+            "stageId": "act25side_05",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 40,
+            "progressPicId": "progress_2",
+            "template": null,
+            "templateType": -1,
+            "desc": "以三星评价通关1次CW-5",
+            "param": null,
+            "rewards": [
+              {
+                "id": "2003",
+                "count": 10,
+                "type": "CARD_EXP"
+              },
+              {
+                "id": "act25side_token_key01",
+                "count": 1,
+                "type": "MATERIAL"
+              }
+            ],
+            "archiveItems": [
+              "act25side_file_2",
+              "act25side_token_key1_01"
+            ]
+          },
+          "mission_1_3": {
+            "id": "mission_1_3",
+            "areaId": "act25side_area_1",
+            "preposedMissionId": "mission_1_2",
+            "sortId": 3,
+            "isZone": false,
+            "stageId": "act25side_07",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 60,
+            "progressPicId": "progress_3",
+            "template": null,
+            "templateType": -1,
+            "desc": "以三星评价通关1次CW-7",
+            "param": null,
+            "rewards": [
+              {
+                "id": "30053",
+                "count": 3,
+                "type": "MATERIAL"
+              }
+            ],
+            "archiveItems": [
+              "act25side_pic_5",
+              "act25side_tech1_1"
+            ]
+          },
+          "mission_1_4": {
+            "id": "mission_1_4",
+            "areaId": "act25side_area_1",
+            "preposedMissionId": "mission_1_3",
+            "sortId": 4,
+            "isZone": false,
+            "stageId": "act25side_07",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 80,
+            "progressPicId": "progress_4",
+            "template": null,
+            "templateType": -1,
+            "desc": "以三星评价通关1次CW-7，且“行星碎屑”至少撞击过15次敌人",
+            "param": null,
+            "rewards": [
+              {
+                "id": "mod_update_token_1",
+                "count": 10,
+                "type": "MATERIAL"
+              }
+            ],
+            "archiveItems": [
+              "act25side_pic_6",
+              "act25side_pic_7"
+            ]
+          },
+          "mission_1_5": {
+            "id": "mission_1_5",
+            "areaId": "act25side_area_1",
+            "preposedMissionId": "mission_1_4",
+            "sortId": 5,
+            "isZone": true,
+            "stageId": "act25side_07",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 100,
+            "progressPicId": "progress_5",
+            "template": null,
+            "templateType": -1,
+            "desc": "通关活动关卡5次（不含教学关、剧情关与秘密区块）",
+            "param": null,
+            "rewards": [
+              {
+                "id": "30135",
+                "count": 1,
+                "type": "MATERIAL"
+              }
+            ],
+            "archiveItems": [
+              "act25side_pic_21",
+              "act25side_file_3",
+              "act25side_tech1_2"
+            ]
+          },
+          "mission_2_1": {
+            "id": "mission_2_1",
+            "areaId": "act25side_area_2",
+            "preposedMissionId": null,
+            "sortId": 1,
+            "isZone": false,
+            "stageId": "act25side_04",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 20,
+            "progressPicId": "progress_1",
+            "template": null,
+            "templateType": -1,
+            "desc": "以三星评价通关1次CW-4",
+            "param": null,
+            "rewards": [
+              {
+                "id": "4001",
+                "count": 10000,
+                "type": "GOLD"
+              }
+            ],
+            "archiveItems": [
+              "act25side_file_4"
+            ]
+          },
+          "mission_2_2": {
+            "id": "mission_2_2",
+            "areaId": "act25side_area_2",
+            "preposedMissionId": "mission_2_1",
+            "sortId": 2,
+            "isZone": false,
+            "stageId": "act25side_04",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 40,
+            "progressPicId": "progress_2",
+            "template": null,
+            "templateType": -1,
+            "desc": "以三星评价通关1次CW-4，且成功阻止弧光突击队起飞",
+            "param": null,
+            "rewards": [
+              {
+                "id": "2003",
+                "count": 10,
+                "type": "CARD_EXP"
+              },
+              {
+                "id": "act25side_token_key02",
+                "count": 1,
+                "type": "MATERIAL"
+              }
+            ],
+            "archiveItems": [
+              "act25side_file_5",
+              "act25side_token_key2_01"
+            ]
+          },
+          "mission_2_3": {
+            "id": "mission_2_3",
+            "areaId": "act25side_area_2",
+            "preposedMissionId": "mission_2_2",
+            "sortId": 3,
+            "isZone": false,
+            "stageId": "act25side_06",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 60,
+            "progressPicId": "progress_3",
+            "template": null,
+            "templateType": -1,
+            "desc": "以三星评价通关1次CW-6",
+            "param": null,
+            "rewards": [
+              {
+                "id": "30073",
+                "count": 3,
+                "type": "MATERIAL"
+              }
+            ],
+            "archiveItems": [
+              "act25side_pic_4",
+              "act25side_tech2_1"
+            ]
+          },
+          "mission_2_4": {
+            "id": "mission_2_4",
+            "areaId": "act25side_area_2",
+            "preposedMissionId": "mission_2_3",
+            "sortId": 4,
+            "isZone": true,
+            "stageId": "act25side_06",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 80,
+            "progressPicId": "progress_4",
+            "template": null,
+            "templateType": -1,
+            "desc": "通关活动关卡5次（不含教学关、剧情关与秘密区块）",
+            "param": null,
+            "rewards": [
+              {
+                "id": "mod_update_token_2",
+                "count": 5,
+                "type": "MATERIAL"
+              }
+            ],
+            "archiveItems": [
+              "act25side_pic_8",
+              "act25side_pic_9",
+              "act25side_pic_10"
+            ]
+          },
+          "mission_2_5": {
+            "id": "mission_2_5",
+            "areaId": "act25side_area_2",
+            "preposedMissionId": "mission_2_4",
+            "sortId": 5,
+            "isZone": false,
+            "stageId": "act25side_ex01",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 100,
+            "progressPicId": "progress_5",
+            "template": null,
+            "templateType": -1,
+            "desc": "以三星评价通关1次CW-EX-1，且“行星碎屑”至少撞击过20次敌人",
+            "param": null,
+            "rewards": [
+              {
+                "id": "30115",
+                "count": 1,
+                "type": "MATERIAL"
+              }
+            ],
+            "archiveItems": [
+              "act25side_pic_22",
+              "act25side_file_6",
+              "act25side_tech2_2"
+            ]
+          },
+          "mission_3_1": {
+            "id": "mission_3_1",
+            "areaId": "act25side_area_3",
+            "preposedMissionId": null,
+            "sortId": 1,
+            "isZone": false,
+            "stageId": "act25side_08",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 20,
+            "progressPicId": "progress_1",
+            "template": null,
+            "templateType": -1,
+            "desc": "以三星评价通关1次CW-8",
+            "param": null,
+            "rewards": [
+              {
+                "id": "4001",
+                "count": 10000,
+                "type": "GOLD"
+              }
+            ],
+            "archiveItems": [
+              "act25side_pic_11",
+              "act25side_file_7"
+            ]
+          },
+          "mission_3_2": {
+            "id": "mission_3_2",
+            "areaId": "act25side_area_3",
+            "preposedMissionId": "mission_3_1",
+            "sortId": 2,
+            "isZone": false,
+            "stageId": "act25side_08",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 40,
+            "progressPicId": "progress_2",
+            "template": null,
+            "templateType": -1,
+            "desc": "以三星评价通关1次CW-8，且“行星碎屑”至少撞击过20次敌人",
+            "param": null,
+            "rewards": [
+              {
+                "id": "2003",
+                "count": 10,
+                "type": "CARD_EXP"
+              },
+              {
+                "id": "act25side_token_key01",
+                "count": 1,
+                "type": "MATERIAL"
+              }
+            ],
+            "archiveItems": [
+              "act25side_file_8",
+              "act25side_token_key1_02"
+            ]
+          },
+          "mission_3_3": {
+            "id": "mission_3_3",
+            "areaId": "act25side_area_3",
+            "preposedMissionId": "mission_3_2",
+            "sortId": 3,
+            "isZone": false,
+            "stageId": "act25side_09",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 60,
+            "progressPicId": "progress_3",
+            "template": null,
+            "templateType": -1,
+            "desc": "以三星评价通关1次CW-9，且重力方向改变最多2次",
+            "param": null,
+            "rewards": [
+              {
+                "id": "31043",
+                "count": 3,
+                "type": "MATERIAL"
+              }
+            ],
+            "archiveItems": [
+              "act25side_pic_12",
+              "act25side_tech3_1"
+            ]
+          },
+          "mission_3_4": {
+            "id": "mission_3_4",
+            "areaId": "act25side_area_3",
+            "preposedMissionId": "mission_3_3",
+            "sortId": 4,
+            "isZone": false,
+            "stageId": "act25side_ex03",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 80,
+            "progressPicId": "progress_4",
+            "template": null,
+            "templateType": -1,
+            "desc": "以三星评价通关1次CW-EX-3，且没有我方干员被“行星碎屑”击杀过",
+            "param": null,
+            "rewards": [
+              {
+                "id": "mod_update_token_2",
+                "count": 5,
+                "type": "MATERIAL"
+              }
+            ],
+            "archiveItems": [
+              "act25side_pic_14",
+              "act25side_pic_15",
+              "act25side_pic_16"
+            ]
+          },
+          "mission_3_5": {
+            "id": "mission_3_5",
+            "areaId": "act25side_area_3",
+            "preposedMissionId": "mission_3_4",
+            "sortId": 5,
+            "isZone": false,
+            "stageId": "act25side_ex05",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 100,
+            "progressPicId": "progress_5",
+            "template": null,
+            "templateType": -1,
+            "desc": "以三星评价通关1次CW-EX-5，且重力方向改变最多3次",
+            "param": null,
+            "rewards": [
+              {
+                "id": "30145",
+                "count": 1,
+                "type": "MATERIAL"
+              }
+            ],
+            "archiveItems": [
+              "act25side_pic_23",
+              "act25side_file_9",
+              "act25side_tech3_2"
+            ]
+          },
+          "mission_4_1": {
+            "id": "mission_4_1",
+            "areaId": "act25side_area_4",
+            "preposedMissionId": null,
+            "sortId": 1,
+            "isZone": false,
+            "stageId": "act25side_10",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 20,
+            "progressPicId": "progress_1",
+            "template": null,
+            "templateType": -1,
+            "desc": "以三星评价通关1次CW-10",
+            "param": null,
+            "rewards": [
+              {
+                "id": "4001",
+                "count": 10000,
+                "type": "GOLD"
+              }
+            ],
+            "archiveItems": [
+              "act25side_pic_13",
+              "act25side_file_10"
+            ]
+          },
+          "mission_4_2": {
+            "id": "mission_4_2",
+            "areaId": "act25side_area_4",
+            "preposedMissionId": "mission_4_1",
+            "sortId": 2,
+            "isZone": false,
+            "stageId": "act25side_10",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 40,
+            "progressPicId": "progress_2",
+            "template": null,
+            "templateType": -1,
+            "desc": "以三星评价通关1次CW-10，且克丽斯腾夺取的“行星碎屑”数量最多5个",
+            "param": null,
+            "rewards": [
+              {
+                "id": "2003",
+                "count": 10,
+                "type": "CARD_EXP"
+              },
+              {
+                "id": "act25side_token_key02",
+                "count": 1,
+                "type": "MATERIAL"
+              }
+            ],
+            "archiveItems": [
+              "act25side_file_11",
+              "act25side_token_key2_02"
+            ]
+          },
+          "mission_4_3": {
+            "id": "mission_4_3",
+            "areaId": "act25side_area_4",
+            "preposedMissionId": "mission_4_2",
+            "sortId": 3,
+            "isZone": false,
+            "stageId": "act25side_ex02",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 60,
+            "progressPicId": "progress_3",
+            "template": null,
+            "templateType": -1,
+            "desc": "以三星评价通关1次CW-EX-2，且成功阻止弧光突击队起飞",
+            "param": null,
+            "rewards": [
+              {
+                "id": "31063",
+                "count": 3,
+                "type": "MATERIAL"
+              }
+            ],
+            "archiveItems": [
+              "act25side_pic_17",
+              "act25side_tech4_1"
+            ]
+          },
+          "mission_4_4": {
+            "id": "mission_4_4",
+            "areaId": "act25side_area_4",
+            "preposedMissionId": "mission_4_3",
+            "sortId": 4,
+            "isZone": false,
+            "stageId": "act25side_ex04",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 80,
+            "progressPicId": "progress_4",
+            "template": null,
+            "templateType": -1,
+            "desc": "以三星评价通关1次CW-EX-4，且重力方向改变至少5次",
+            "param": null,
+            "rewards": [
+              {
+                "id": "mod_unlock_token",
+                "count": 1,
+                "type": "MATERIAL"
+              }
+            ],
+            "archiveItems": [
+              "act25side_pic_18",
+              "act25side_pic_19",
+              "act25side_pic_20"
+            ]
+          },
+          "mission_4_5": {
+            "id": "mission_4_5",
+            "areaId": "act25side_area_4",
+            "preposedMissionId": "mission_4_4",
+            "sortId": 5,
+            "isZone": false,
+            "stageId": "act25side_ex06",
+            "costCount": 0,
+            "transform": 15,
+            "progress": 100,
+            "progressPicId": "progress_5",
+            "template": null,
+            "templateType": -1,
+            "desc": "以三星评价通关1次CW-EX-6，且重力方向改变最多3次",
+            "param": null,
+            "rewards": [
+              {
+                "id": "30155",
+                "count": 1,
+                "type": "MATERIAL"
+              }
+            ],
+            "archiveItems": [
+              "act25side_pic_24",
+              "act25side_file_12",
+              "act25side_tech4_2"
+            ]
+          }
+        },
+        "battlePerformanceData": {
+          "act25side_tech1_1": {
+            "itemId": "act25side_tech1_1",
+            "sortId": 1,
+            "itemName": "超重·α",
+            "itemIcon": "act25side_tech1_1",
+            "itemDesc": "“行星碎屑”对敌人伤害增加，附带眩晕",
+            "itemTechType": "TECH_1",
+            "runeData": {
+              "id": "act25side_tech1_1",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "行星碎屑对敌人伤害增加，附带晕眩",
+              "runes": [
+                {
+                  "key": "enemy_talent_blackb_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "HitEnemy.damage_scale",
+                      "value": 0.9
+                    }
+                  ]
+                },
+                {
+                  "key": "enemy_talent_blackb_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "HitEnemy.stun",
+                      "value": 1.5
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act25side_tech1_2": {
+            "itemId": "act25side_tech1_2",
+            "sortId": 2,
+            "itemName": "超重·β",
+            "itemIcon": "act25side_tech1_2",
+            "itemDesc": "“行星碎屑”对敌人伤害进一步增加，附带眩晕加长",
+            "itemTechType": "TECH_1",
+            "runeData": {
+              "id": "act25side_tech1_2",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "行星碎屑对敌人伤害增加，附带晕眩",
+              "runes": [
+                {
+                  "key": "enemy_talent_blackb_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "HitEnemy.damage_scale",
+                      "value": 0.5
+                    }
+                  ]
+                },
+                {
+                  "key": "enemy_talent_blackb_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "HitEnemy.stun",
+                      "value": 1.5
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act25side_tech2_1": {
+            "itemId": "act25side_tech2_1",
+            "sortId": 1,
+            "itemName": "重力认知·α",
+            "itemIcon": "act25side_tech2_1",
+            "itemDesc": "“行星碎屑”对敌人推力增加，对我方伤害降低",
+            "itemTechType": "TECH_2",
+            "runeData": {
+              "id": "act25side_tech2_1",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "行星碎屑对敌人推力增加，对我方伤害降低",
+              "runes": [
+                {
+                  "key": "enemy_talent_blackb_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "HitAlly.damage_scale",
+                      "value": -0.3
+                    }
+                  ]
+                },
+                {
+                  "key": "enemy_talent_blackb_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "HitEnemy.force",
+                      "value": 1.0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act25side_tech2_2": {
+            "itemId": "act25side_tech2_2",
+            "sortId": 2,
+            "itemName": "重力认知·β",
+            "itemIcon": "act25side_tech2_2",
+            "itemDesc": "“行星碎屑”对敌人推力进一步增加，对我方伤害进一步降低",
+            "itemTechType": "TECH_2",
+            "runeData": {
+              "id": "act25side_tech2_2",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "行星碎屑对敌人推力增加，对我方伤害降低",
+              "runes": [
+                {
+                  "key": "enemy_talent_blackb_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "HitAlly.damage_scale",
+                      "value": -0.3
+                    }
+                  ]
+                },
+                {
+                  "key": "enemy_talent_blackb_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "HitEnemy.force",
+                      "value": 1.0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act25side_tech3_1": {
+            "itemId": "act25side_tech3_1",
+            "sortId": 1,
+            "itemName": "失重·α",
+            "itemIcon": "act25side_tech3_1",
+            "itemDesc": "“行星碎屑”移动所需攻击次数减少",
+            "itemTechType": "TECH_3",
+            "runeData": {
+              "id": "act25side_tech3_1",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "使行星碎屑移动所需攻击次数减少",
+              "runes": [
+                {
+                  "key": "enemy_talent_blackb_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "HitCounter.max_hit_count",
+                      "value": -5.0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act25side_tech3_2": {
+            "itemId": "act25side_tech3_2",
+            "sortId": 2,
+            "itemName": "失重·β",
+            "itemIcon": "act25side_tech3_2",
+            "itemDesc": "“行星碎屑”移动所需攻击次数进一步减少",
+            "itemTechType": "TECH_3",
+            "runeData": {
+              "id": "act25side_tech3_2",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "使行星碎屑移动所需攻击次数减少",
+              "runes": [
+                {
+                  "key": "enemy_talent_blackb_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "HitCounter.max_hit_count",
+                      "value": -5.0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act25side_tech4_1": {
+            "itemId": "act25side_tech4_1",
+            "sortId": 1,
+            "itemName": "初速度·α",
+            "itemIcon": "act25side_tech4_1",
+            "itemDesc": "推动“行星碎屑”所需推力减轻，逆重力移动距离增加",
+            "itemTechType": "TECH_4",
+            "runeData": {
+              "id": "act25side_tech4_1",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "石块被直接推动所需推力减轻，逆重力移动距离增加",
+              "runes": [
+                {
+                  "key": "enemy_weight_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": -1.0
+                    },
+                    {
+                      "key": "enemy",
+                      "valueStr": "enemy_1334_ristar"
+                    }
+                  ]
+                },
+                {
+                  "key": "enemy_talent_blackb_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "HitCounter.anti_duration",
+                      "value": 1.0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act25side_tech4_2": {
+            "itemId": "act25side_tech4_2",
+            "sortId": 2,
+            "itemName": "初速度·β",
+            "itemIcon": "act25side_tech4_2",
+            "itemDesc": "推动“行星碎屑”所需推力进一步减轻，逆重力移动进一步增加",
+            "itemTechType": "TECH_4",
+            "runeData": {
+              "id": "act25side_tech4_2",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "石块被直接推动所需推力减轻，逆重力移动距离增加",
+              "runes": [
+                {
+                  "key": "enemy_weight_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": -1.0
+                    },
+                    {
+                      "key": "enemy",
+                      "valueStr": "enemy_1334_ristar"
+                    }
+                  ]
+                },
+                {
+                  "key": "enemy_talent_blackb_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "HitCounter.anti_duration",
+                      "value": 1.5
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "keyData": {
+          "act25side_token_key1_01": {
+            "keyId": "act25side_token_key1_01",
+            "keyName": "特殊作战许可·α",
+            "keyIcon": "act25side_token_key01",
+            "toastText": "进入秘密区块的许可证，里面的机关似乎有些不同？"
+          },
+          "act25side_token_key1_02": {
+            "keyId": "act25side_token_key1_02",
+            "keyName": "特殊作战许可·α",
+            "keyIcon": "act25side_token_key01",
+            "toastText": "进入秘密区块的许可证，里面的机关似乎有些不同？"
+          },
+          "act25side_token_key2_01": {
+            "keyId": "act25side_token_key2_01",
+            "keyName": "特殊作战许可·β",
+            "keyIcon": "act25side_token_key02",
+            "toastText": "进入秘密区块的许可证，里面的机关似乎有些不同？"
+          },
+          "act25side_token_key2_02": {
+            "keyId": "act25side_token_key2_02",
+            "keyName": "特殊作战许可·β",
+            "keyIcon": "act25side_token_key02",
+            "toastText": "进入秘密区块的许可证，里面的机关似乎有些不同？"
+          }
+        },
+        "fogUnlockData": {
+          "act25side_lock01": {
+            "lockId": "act25side_lock01",
+            "lockedCollectionIconId": "act25side_token_key01_lock",
+            "unlockedCollectionIconId": "act25side_token_key01"
+          },
+          "act25side_lock02": {
+            "lockId": "act25side_lock02",
+            "lockedCollectionIconId": "act25side_token_key02_lock",
+            "unlockedCollectionIconId": "act25side_token_key02"
+          }
+        },
+        "farmList": [
+          {
+            "transform": -1,
+            "unitTime": 0
+          },
+          {
+            "transform": 0,
+            "unitTime": 43200
+          },
+          {
+            "transform": 15,
+            "unitTime": 37560
+          },
+          {
+            "transform": 30,
+            "unitTime": 33180
+          },
+          {
+            "transform": 45,
+            "unitTime": 29760
+          },
+          {
+            "transform": 60,
+            "unitTime": 27000
+          },
+          {
+            "transform": 75,
+            "unitTime": 24660
+          },
+          {
+            "transform": 90,
+            "unitTime": 22680
+          },
+          {
+            "transform": 105,
+            "unitTime": 21060
+          },
+          {
+            "transform": 120,
+            "unitTime": 19620
+          },
+          {
+            "transform": 135,
+            "unitTime": 18360
+          },
+          {
+            "transform": 150,
+            "unitTime": 17280
+          },
+          {
+            "transform": 165,
+            "unitTime": 16260
+          },
+          {
+            "transform": 180,
+            "unitTime": 15420
+          },
+          {
+            "transform": 195,
+            "unitTime": 14640
+          },
+          {
+            "transform": 210,
+            "unitTime": 13920
+          },
+          {
+            "transform": 225,
+            "unitTime": 13260
+          },
+          {
+            "transform": 240,
+            "unitTime": 12660
+          },
+          {
+            "transform": 255,
+            "unitTime": 12120
+          },
+          {
+            "transform": 270,
+            "unitTime": 11640
+          },
+          {
+            "transform": 285,
+            "unitTime": 11220
+          },
+          {
+            "transform": 300,
+            "unitTime": 10800
+          }
+        ]
+      }
+    },
+    "TYPE_ACT38D1": {}
   },
   "activityItems": {
+    "act25side": [
+      "act25side_token_fdrchips"
+    ],
     "act17sre": [
       "act17side_token_compass_rep_1"
     ],
@@ -106960,6 +110569,16 @@
         "严禁私挖盗挖行为，若有查明，严惩不贷。",
         "以上采掘规则的最终解释权由兔子谷矿区所有。"
       ],
+      "name1": "源石矿脉",
+      "name2": "源石矿",
+      "name3": "源石粗矿"
+    },
+    "act4mine": {
+      "ruleTitle": "潘尼谷矿区采掘规则如下：",
+      "ruleText": "采掘前需在矿区外使用信标投射器发射信标，信标落地后，即可前往落地区块进行挖掘。\n\n可能挖出的矿石种类有：<color=#ff4e4e>源石粗矿</color>、<color=#ff4e4e>源石矿</color>、<color=#ff4e4e>源石矿脉</color>，矿脉位置已在地图上标明。<color=#ff4e4e>粗矿</color>价值<color=#ff4e4e>400</color>合成玉、<color=#ff4e4e>矿脉</color>价值<color=#ff4e4e>1000</color>合成玉、<color=#ff4e4e>源石矿</color>价值介于<color=#ff4e4e>粗矿</color>与<color=#ff4e4e>矿脉</color>之间，具体获得的合成玉数量将在加工工序完成后显示。\n\n本矿区矿脉位置已在地图上标明。开放时即在地图上标注三处矿脉信号。\n若信标未能投射至矿脉信号点，则地图上追加<color=#ff4e4e>两处</color>矿脉信号。\n若信标投射至矿脉信号点，则该矿脉点将<color=#ff4e4e>消失</color>。（但若此时地图上只有这一处讯号，则它在矿产挖掘后也<color=#ff4e4e>不会消失</color>。）\n\n每日仅可使用信标投射器<color=#ff4e4e>一次</color>，其使用权限将在每日凌晨<color=#ff4e4e>4:00</color>更新，敬请注意。\n\n本次开放分为：<color=#ff4e4e>第一到第五天</color>、<color=#ff4e4e>第六到第十天</color>、<color=#ff4e4e>第十一到第十四天</color>三个阶段。\n\n在每个阶段最后一天前如果没有挖到矿脉，则会在阶段最后一天，也就是第五、第十、第十四天有专人引导罗德岛勘探队至矿脉信号。\n\n严禁私挖盗挖行为，若有查明，严惩不贷。\n以上采掘规则的最终解释权由潘尼谷矿区所有。",
+      "normalCount": "400",
+      "criticalCount": "500~800",
+      "grandCount": "1000",
       "name1": "源石矿脉",
       "name2": "源石矿",
       "name3": "源石粗矿"
@@ -109489,6 +113108,29 @@
         }
       ],
       "startTs": 1681977600
+    },
+    {
+      "id": "dis_side_25",
+      "type": "ACTIVITY",
+      "funcId": "act25side",
+      "endTs": 1684699199,
+      "sortId": 50,
+      "itemId": "act25side_token_fdrchips",
+      "timeNodes": [
+        {
+          "title": "<孤星>活动已开放",
+          "ts": 1682913600
+        },
+        {
+          "title": "\"过往未尽\"内关卡已开放",
+          "ts": 1683532800
+        },
+        {
+          "title": "\"紧握当下\"内关卡已开放",
+          "ts": 1684137600
+        }
+      ],
+      "startTs": 1682913600
     }
   ],
   "actFunData": {
@@ -123639,6 +127281,22 @@
       }
     }
   },
+  "dynEntrySwitchData": {
+    "act25side": {
+      "entrySwitchInfo": {
+        "act25side_entry_01": {
+          "entryId": "act25side_entry_01",
+          "sortId": 1,
+          "stageId": null
+        },
+        "act25side_entry_02": {
+          "entryId": "act25side_entry_02",
+          "sortId": 2,
+          "stageId": "act25side_st04"
+        }
+      }
+    }
+  },
   "hiddenStageData": [
     {
       "stageId": "act19side_s01",
@@ -123710,6 +127368,12 @@
     }
   ],
   "stringRes": {
+    "act25side": {
+      "TEXT_PROGRESS_FORMAT_CAN_CLAIM": "<color=#EAE2CE>{0}/{1}</color>",
+      "TEXT_PROGRESS_FORMAT_CANNOT_CLAIM": "<color=#333333>{0}/{1}</color>",
+      "TEXT_DETAIL_COLOR_CAN_CLAIM": "<color=#EAE2CE>{0}</color>",
+      "TEXT_DETAIL_COLOR_CANNOT_CLAIM": "<color=#333333>{0}</color>"
+    },
     "act21side": {
       "TEXT_PROGRESS_FORMAT_CAN_CLAIM": "<color=#A4352B>{0}</color><color=#888584>/{1}</color>",
       "TEXT_PROGRESS_FORMAT_CANNOT_CLAIM": "<color=#BFBFB6>{0}</color><color=#888584>/{1}</color>",
