@@ -9,7 +9,10 @@
     "steeringEnabled": true,
     "isTrainingLevel": true,
     "isHardTrainingLevel": false,
-    "functionDisableMask": 0
+    "isPredefinedCardsSelectable": false,
+    "maxPlayTime": -1.0,
+    "functionDisableMask": 0,
+    "configBlackBoard": null
   },
   "levelId": null,
   "mapId": null,
@@ -597,9 +600,7 @@
     "blockEdges": null,
     "tags": null,
     "effects": null,
-    "layerRects": null,
-    "width": 8,
-    "height": 7
+    "layerRects": null
   },
   "tilesDisallowToLocate": [],
   "runes": null,
@@ -1765,8 +1766,8 @@
             "col": 5
           },
           "reachOffset": {
-            "x": -0.339559555,
-            "y": -0.056137383
+            "x": -0.33956,
+            "y": -0.056137
           },
           "randomizeReachOffset": false,
           "reachDistance": 0.0
@@ -1793,8 +1794,8 @@
             "col": 5
           },
           "reachOffset": {
-            "x": -0.339559555,
-            "y": -0.056137383
+            "x": -0.33956,
+            "y": -0.056137
           },
           "randomizeReachOffset": false,
           "reachDistance": 0.0
@@ -1807,8 +1808,8 @@
             "col": 3
           },
           "reachOffset": {
-            "x": -0.339559555,
-            "y": -0.056137383
+            "x": -0.33956,
+            "y": -0.056137
           },
           "randomizeReachOffset": false,
           "reachDistance": 0.0
@@ -1821,8 +1822,8 @@
             "col": 3
           },
           "reachOffset": {
-            "x": -0.339559555,
-            "y": -0.056137383
+            "x": -0.33956,
+            "y": -0.056137
           },
           "randomizeReachOffset": false,
           "reachDistance": 0.0
@@ -1835,8 +1836,8 @@
             "col": 1
           },
           "reachOffset": {
-            "x": -0.339559555,
-            "y": -0.056137383
+            "x": -0.33956,
+            "y": -0.056137
           },
           "randomizeReachOffset": false,
           "reachDistance": 0.0
@@ -1902,8 +1903,8 @@
             "col": 5
           },
           "reachOffset": {
-            "x": -0.196465626,
-            "y": -0.124008313
+            "x": -0.196466,
+            "y": -0.124008
           },
           "randomizeReachOffset": false,
           "reachDistance": 0.0
@@ -1916,8 +1917,8 @@
             "col": 3
           },
           "reachOffset": {
-            "x": -0.196465626,
-            "y": -0.124008313
+            "x": -0.196466,
+            "y": -0.124008
           },
           "randomizeReachOffset": false,
           "reachDistance": 0.0
@@ -1930,8 +1931,8 @@
             "col": 3
           },
           "reachOffset": {
-            "x": -0.196465626,
-            "y": -0.124008313
+            "x": -0.196466,
+            "y": -0.124008
           },
           "randomizeReachOffset": false,
           "reachDistance": 0.0
@@ -1944,8 +1945,8 @@
             "col": 1
           },
           "reachOffset": {
-            "x": -0.196465626,
-            "y": -0.124008313
+            "x": -0.196466,
+            "y": -0.124008
           },
           "randomizeReachOffset": false,
           "reachDistance": 0.0
@@ -2201,8 +2202,8 @@
             "col": 5
           },
           "reachOffset": {
-            "x": -0.256213069,
-            "y": -0.0117923021
+            "x": -0.256213,
+            "y": -0.011792
           },
           "randomizeReachOffset": false,
           "reachDistance": 0.0
@@ -2229,8 +2230,8 @@
             "col": 5
           },
           "reachOffset": {
-            "x": -0.256213069,
-            "y": -0.0117923021
+            "x": -0.256213,
+            "y": -0.011792
           },
           "randomizeReachOffset": false,
           "reachDistance": 0.0
@@ -2243,8 +2244,8 @@
             "col": 3
           },
           "reachOffset": {
-            "x": -0.256213069,
-            "y": -0.0117923021
+            "x": -0.256213,
+            "y": -0.011792
           },
           "randomizeReachOffset": false,
           "reachDistance": 0.0
@@ -2257,8 +2258,8 @@
             "col": 3
           },
           "reachOffset": {
-            "x": -0.256213069,
-            "y": -0.0117923021
+            "x": -0.256213,
+            "y": -0.011792
           },
           "randomizeReachOffset": false,
           "reachDistance": 0.0
@@ -2271,8 +2272,8 @@
             "col": 1
           },
           "reachOffset": {
-            "x": -0.256213069,
-            "y": -0.0117923021
+            "x": -0.256213,
+            "y": -0.011792
           },
           "randomizeReachOffset": false,
           "reachDistance": 0.0
@@ -2338,8 +2339,8 @@
             "col": 5
           },
           "reachOffset": {
-            "x": -0.256213069,
-            "y": -0.0117923021
+            "x": -0.256213,
+            "y": -0.011792
           },
           "randomizeReachOffset": false,
           "reachDistance": 0.0
@@ -2352,8 +2353,8 @@
             "col": 3
           },
           "reachOffset": {
-            "x": -0.256213069,
-            "y": -0.0117923021
+            "x": -0.256213,
+            "y": -0.011792
           },
           "randomizeReachOffset": false,
           "reachDistance": 0.0
@@ -2366,8 +2367,8 @@
             "col": 3
           },
           "reachOffset": {
-            "x": -0.256213069,
-            "y": -0.0117923021
+            "x": -0.256213,
+            "y": -0.011792
           },
           "randomizeReachOffset": false,
           "reachDistance": 0.0
@@ -2380,8 +2381,8 @@
             "col": 1
           },
           "reachOffset": {
-            "x": -0.256213069,
-            "y": -0.0117923021
+            "x": -0.256213,
+            "y": -0.011792
           },
           "randomizeReachOffset": false,
           "reachDistance": 0.0
@@ -3594,14 +3595,20 @@
               "count": 4,
               "preDelay": 7.0,
               "interval": 13.0,
+              "useExtraRoute": false,
               "routeIndex": 0,
-              "blockFragment": false,
-              "autoPreviewRoute": true,
+              "blockFragment": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3610,14 +3617,20 @@
               "count": 20,
               "preDelay": 33.0,
               "interval": 1.0,
-              "routeIndex": 1,
-              "blockFragment": false,
-              "autoPreviewRoute": true,
+              "useExtraRoute": true,
+              "routeIndex": 0,
+              "blockFragment": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3626,14 +3639,20 @@
               "count": 20,
               "preDelay": 37.0,
               "interval": 1.0,
-              "routeIndex": 2,
-              "blockFragment": false,
-              "autoPreviewRoute": true,
+              "useExtraRoute": false,
+              "routeIndex": 0,
+              "blockFragment": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3642,20 +3661,25 @@
               "count": 20,
               "preDelay": 3.0,
               "interval": 3.0,
-              "routeIndex": 3,
-              "blockFragment": false,
-              "autoPreviewRoute": true,
+              "useExtraRoute": false,
+              "routeIndex": 0,
+              "blockFragment": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             }
-          ],
-          "name": null
+          ]
         }
       ],
-      "name": null
+      "advancedWaveTag": null
     },
     {
       "preDelay": 0.0,
@@ -3672,14 +3696,20 @@
               "count": 6,
               "preDelay": 5.0,
               "interval": 10.0,
-              "routeIndex": 4,
-              "blockFragment": false,
-              "autoPreviewRoute": true,
+              "useExtraRoute": false,
+              "routeIndex": 0,
+              "blockFragment": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3688,14 +3718,20 @@
               "count": 1,
               "preDelay": 11.0,
               "interval": 1.0,
-              "routeIndex": 5,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3704,14 +3740,20 @@
               "count": 1,
               "preDelay": 12.0,
               "interval": 1.0,
-              "routeIndex": 6,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3720,14 +3762,20 @@
               "count": 1,
               "preDelay": 13.0,
               "interval": 1.0,
-              "routeIndex": 7,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3736,14 +3784,20 @@
               "count": 1,
               "preDelay": 14.0,
               "interval": 1.0,
-              "routeIndex": 8,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3752,14 +3806,20 @@
               "count": 1,
               "preDelay": 15.0,
               "interval": 1.0,
-              "routeIndex": 9,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3768,14 +3828,20 @@
               "count": 1,
               "preDelay": 16.0,
               "interval": 1.0,
-              "routeIndex": 10,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3784,14 +3850,20 @@
               "count": 1,
               "preDelay": 17.0,
               "interval": 1.0,
-              "routeIndex": 11,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3800,14 +3872,20 @@
               "count": 1,
               "preDelay": 18.0,
               "interval": 1.0,
-              "routeIndex": 12,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3816,14 +3894,20 @@
               "count": 1,
               "preDelay": 19.0,
               "interval": 1.0,
-              "routeIndex": 13,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3832,14 +3916,20 @@
               "count": 1,
               "preDelay": 20.0,
               "interval": 1.0,
-              "routeIndex": 14,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3848,14 +3938,20 @@
               "count": 1,
               "preDelay": 21.0,
               "interval": 1.0,
-              "routeIndex": 15,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3864,14 +3960,20 @@
               "count": 1,
               "preDelay": 22.0,
               "interval": 1.0,
-              "routeIndex": 16,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3880,14 +3982,20 @@
               "count": 1,
               "preDelay": 23.0,
               "interval": 1.0,
-              "routeIndex": 17,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3896,14 +4004,20 @@
               "count": 1,
               "preDelay": 24.0,
               "interval": 1.0,
-              "routeIndex": 18,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3912,14 +4026,20 @@
               "count": 1,
               "preDelay": 25.0,
               "interval": 1.0,
-              "routeIndex": 19,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3928,14 +4048,20 @@
               "count": 1,
               "preDelay": 26.0,
               "interval": 1.0,
-              "routeIndex": 20,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -3944,20 +4070,25 @@
               "count": 30,
               "preDelay": 9.0,
               "interval": 3.0,
-              "routeIndex": 21,
-              "blockFragment": false,
-              "autoPreviewRoute": true,
+              "useExtraRoute": false,
+              "routeIndex": 0,
+              "blockFragment": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             }
-          ],
-          "name": null
+          ]
         }
       ],
-      "name": null
+      "advancedWaveTag": null
     }
   ],
   "branches": null,
@@ -4016,5 +4147,6 @@
   },
   "excludeCharIdList": null,
   "randomSeed": 859969702,
-  "operaConfig": null
+  "operaConfig": null,
+  "runtimeData": null
 }

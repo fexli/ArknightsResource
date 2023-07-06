@@ -8,11 +8,16 @@
     "moveMultiplier": 0.5,
     "steeringEnabled": true,
     "isTrainingLevel": false,
-    "functionDisableMask": 0
+    "isHardTrainingLevel": false,
+    "isPredefinedCardsSelectable": false,
+    "maxPlayTime": -1.0,
+    "functionDisableMask": 0,
+    "configBlackBoard": null
   },
   "levelId": null,
   "mapId": null,
   "bgmEvent": "normal02",
+  "environmentSe": null,
   "mapData": {
     "map": [
       [
@@ -110,6 +115,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -118,6 +124,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -126,6 +133,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -134,6 +142,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -142,6 +151,7 @@
         "heightType": 0,
         "buildableType": 0,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -150,6 +160,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -158,6 +169,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -166,6 +178,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -174,6 +187,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -182,6 +196,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -190,6 +205,7 @@
         "heightType": 1,
         "buildableType": 2,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -198,6 +214,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -206,6 +223,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -214,6 +232,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -222,6 +241,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -230,6 +250,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -238,6 +259,7 @@
         "heightType": 1,
         "buildableType": 2,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -246,6 +268,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -254,6 +277,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -262,6 +286,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -270,6 +295,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -278,6 +304,7 @@
         "heightType": 1,
         "buildableType": 2,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -286,6 +313,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -294,6 +322,7 @@
         "heightType": 1,
         "buildableType": 2,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -302,6 +331,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -310,6 +340,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -318,6 +349,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -326,6 +358,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -334,6 +367,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -342,6 +376,7 @@
         "heightType": 1,
         "buildableType": 2,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -350,6 +385,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -358,6 +394,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -366,6 +403,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -374,6 +412,7 @@
         "heightType": 1,
         "buildableType": 2,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -382,6 +421,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -390,6 +430,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -398,6 +439,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -406,6 +448,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -414,6 +457,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -422,6 +466,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -430,6 +475,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -438,6 +484,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -446,6 +493,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -454,6 +502,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -462,6 +511,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -470,6 +520,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -478,6 +529,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -486,6 +538,7 @@
         "heightType": 1,
         "buildableType": 2,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -494,6 +547,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -502,6 +556,7 @@
         "heightType": 1,
         "buildableType": 2,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -510,6 +565,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -518,6 +574,7 @@
         "heightType": 1,
         "buildableType": 2,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -526,6 +583,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -534,6 +592,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -542,6 +601,7 @@
         "heightType": 0,
         "buildableType": 0,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -550,6 +610,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -558,6 +619,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -566,6 +628,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -574,6 +637,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -582,6 +646,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -590,6 +655,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -598,6 +664,7 @@
         "heightType": 0,
         "buildableType": 1,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -606,6 +673,7 @@
         "heightType": 0,
         "buildableType": 0,
         "passableMask": 3,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -614,6 +682,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -622,6 +691,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -630,6 +700,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -638,6 +709,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -646,6 +718,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -654,6 +727,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -662,6 +736,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -670,6 +745,7 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       },
@@ -678,14 +754,15 @@
         "heightType": 1,
         "buildableType": 0,
         "passableMask": 2,
+        "playerSideMask": 0,
         "blackboard": null,
         "effects": null
       }
     ],
     "blockEdges": null,
+    "tags": null,
     "effects": null,
-    "width": 9,
-    "height": 8
+    "layerRects": null
   },
   "tilesDisallowToLocate": [],
   "runes": null,
@@ -727,7 +804,8 @@
       ],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -779,7 +857,8 @@
       ],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -831,7 +910,8 @@
       ],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -854,7 +934,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -877,7 +958,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -900,7 +982,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -923,7 +1006,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -946,7 +1030,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -969,7 +1054,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -992,7 +1078,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1015,7 +1102,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1038,7 +1126,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1061,7 +1150,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1084,7 +1174,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1107,7 +1198,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1130,9 +1222,11 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     }
   ],
+  "extraRoutes": [],
   "enemies": [],
   "enemyDbRefs": [
     {
@@ -1188,10 +1282,20 @@
               "count": 4,
               "preDelay": 39.0,
               "interval": 7.0,
+              "useExtraRoute": false,
               "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -1200,10 +1304,20 @@
               "count": 1,
               "preDelay": 0.0,
               "interval": 7.0,
-              "routeIndex": 1,
+              "useExtraRoute": true,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -1212,10 +1326,20 @@
               "count": 2,
               "preDelay": 45.0,
               "interval": 20.0,
-              "routeIndex": 2,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -1224,10 +1348,20 @@
               "count": 2,
               "preDelay": 9.0,
               "interval": 7.0,
-              "routeIndex": 3,
-              "blockFragment": false,
-              "autoPreviewRoute": true,
-              "isUnharmfulAndAlwaysCountAsKilled": false
+              "useExtraRoute": false,
+              "routeIndex": 0,
+              "blockFragment": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -1236,10 +1370,20 @@
               "count": 2,
               "preDelay": 26.0,
               "interval": 7.0,
-              "routeIndex": 4,
-              "blockFragment": false,
-              "autoPreviewRoute": true,
-              "isUnharmfulAndAlwaysCountAsKilled": false
+              "useExtraRoute": false,
+              "routeIndex": 0,
+              "blockFragment": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -1248,10 +1392,20 @@
               "count": 2,
               "preDelay": 41.0,
               "interval": 7.0,
-              "routeIndex": 5,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -1260,10 +1414,20 @@
               "count": 3,
               "preDelay": 48.0,
               "interval": 23.0,
-              "routeIndex": 6,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -1272,13 +1436,22 @@
               "count": 2,
               "preDelay": 84.0,
               "interval": 4.0,
-              "routeIndex": 7,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             }
-          ],
-          "name": null
+          ]
         },
         {
           "preDelay": 20.0,
@@ -1290,10 +1463,20 @@
               "count": 2,
               "preDelay": 3.0,
               "interval": 4.0,
-              "routeIndex": 8,
-              "blockFragment": false,
-              "autoPreviewRoute": true,
-              "isUnharmfulAndAlwaysCountAsKilled": false
+              "useExtraRoute": false,
+              "routeIndex": 0,
+              "blockFragment": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -1302,10 +1485,20 @@
               "count": 1,
               "preDelay": 9.0,
               "interval": 4.0,
-              "routeIndex": 9,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -1314,10 +1507,20 @@
               "count": 1,
               "preDelay": 21.0,
               "interval": 4.0,
-              "routeIndex": 10,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -1326,10 +1529,20 @@
               "count": 1,
               "preDelay": 30.0,
               "interval": 4.0,
-              "routeIndex": 11,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -1338,10 +1551,20 @@
               "count": 2,
               "preDelay": 3.0,
               "interval": 4.0,
-              "routeIndex": 12,
-              "blockFragment": false,
-              "autoPreviewRoute": true,
-              "isUnharmfulAndAlwaysCountAsKilled": false
+              "useExtraRoute": false,
+              "routeIndex": 0,
+              "blockFragment": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -1350,10 +1573,20 @@
               "count": 1,
               "preDelay": 9.0,
               "interval": 4.0,
-              "routeIndex": 13,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -1362,10 +1595,20 @@
               "count": 1,
               "preDelay": 21.0,
               "interval": 4.0,
-              "routeIndex": 14,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
               "actionType": 0,
@@ -1374,16 +1617,25 @@
               "count": 1,
               "preDelay": 30.0,
               "interval": 4.0,
-              "routeIndex": 15,
+              "useExtraRoute": false,
+              "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             }
-          ],
-          "name": null
+          ]
         }
       ],
-      "name": null
+      "advancedWaveTag": null
     }
   ],
   "branches": null,
@@ -1396,6 +1648,7 @@
         "initialCnt": 6,
         "hidden": false,
         "alias": null,
+        "uniEquipIds": null,
         "inst": {
           "characterKey": "trap_001_crate",
           "level": 1,
@@ -1405,10 +1658,15 @@
         },
         "skillIndex": 0,
         "mainSkillLvl": 1,
-        "skinId": null
+        "skinId": null,
+        "tmplId": null,
+        "overrideSkillBlackboard": null
       }
     ]
   },
+  "hardPredefines": null,
   "excludeCharIdList": null,
-  "randomSeed": 609958241
+  "randomSeed": 609958241,
+  "operaConfig": null,
+  "runtimeData": null
 }

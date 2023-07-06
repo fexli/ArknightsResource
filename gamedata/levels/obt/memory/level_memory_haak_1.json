@@ -1002,9 +1002,7 @@
     "blockEdges": null,
     "tags": null,
     "effects": null,
-    "layerRects": null,
-    "width": 12,
-    "height": 8
+    "layerRects": null
   },
   "tilesDisallowToLocate": [],
   "runes": null,
@@ -1832,142 +1830,173 @@
           "preDelay": 0.0,
           "actions": [
             {
-              "autoPreviewRoute": true,
-              "autoDisplayEnemyInfo": false,
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1072_dlancer",
               "count": 13,
               "preDelay": 3.0,
               "interval": 2.0,
+              "useExtraRoute": false,
               "routeIndex": 0,
-              "blockFragment": false,
+              "blockFragment": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
-              "autoPreviewRoute": true,
-              "autoDisplayEnemyInfo": false,
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1000_gopro",
               "count": 10,
               "preDelay": 3.0,
               "interval": 5.0,
-              "routeIndex": 1,
-              "blockFragment": false,
+              "useExtraRoute": true,
+              "routeIndex": 0,
+              "blockFragment": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
-              "autoPreviewRoute": true,
-              "autoDisplayEnemyInfo": false,
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1005_yokai",
               "count": 10,
               "preDelay": 3.0,
               "interval": 5.0,
-              "routeIndex": 2,
-              "blockFragment": false,
+              "useExtraRoute": false,
+              "routeIndex": 0,
+              "blockFragment": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             }
-          ],
-          "name": null
+          ]
         },
         {
           "preDelay": 15.0,
           "actions": [
             {
-              "autoPreviewRoute": true,
-              "autoDisplayEnemyInfo": false,
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1108_uterer",
               "count": 11,
               "preDelay": 3.0,
               "interval": 2.0,
-              "routeIndex": 3,
-              "blockFragment": false,
+              "useExtraRoute": false,
+              "routeIndex": 0,
+              "blockFragment": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
-              "autoPreviewRoute": true,
-              "autoDisplayEnemyInfo": false,
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1005_yokai",
               "count": 5,
               "preDelay": 6.0,
               "interval": 5.0,
-              "routeIndex": 4,
-              "blockFragment": false,
+              "useExtraRoute": false,
+              "routeIndex": 0,
+              "blockFragment": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             }
-          ],
-          "name": null
+          ]
         },
         {
           "preDelay": 30.0,
           "actions": [
             {
-              "autoPreviewRoute": true,
-              "autoDisplayEnemyInfo": false,
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1112_emppnt",
               "count": 3,
               "preDelay": 3.0,
               "interval": 8.0,
-              "routeIndex": 5,
-              "blockFragment": false,
+              "useExtraRoute": false,
+              "routeIndex": 0,
+              "blockFragment": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             },
             {
-              "autoPreviewRoute": true,
-              "autoDisplayEnemyInfo": false,
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1005_yokai",
               "count": 1,
               "preDelay": 28.0,
               "interval": 1.0,
-              "routeIndex": 6,
-              "blockFragment": false,
+              "useExtraRoute": false,
+              "routeIndex": 0,
+              "blockFragment": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null
             }
-          ],
-          "name": null
+          ]
         }
       ],
-      "advancedWaveTag": null,
-      "name": null
+      "advancedWaveTag": null
     }
   ],
   "branches": null,
@@ -2106,5 +2135,6 @@
   },
   "excludeCharIdList": null,
   "randomSeed": 1760506237,
-  "operaConfig": null
+  "operaConfig": null,
+  "runtimeData": null
 }
