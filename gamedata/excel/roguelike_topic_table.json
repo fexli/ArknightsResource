@@ -63371,6 +63371,11 @@
           "updateId": "rogue_3_update_1",
           "topicUpdateTime": -62135625600,
           "topicEndTime": 1690833600
+        },
+        {
+          "updateId": "rogue_3_update_2",
+          "topicUpdateTime": 1690833600,
+          "topicEndTime": 1693512000
         }
       ],
       "enrolls": {},
@@ -64098,6 +64103,13 @@
           "maxBpLevel": 50,
           "maxBpCount": 13000,
           "maxDisplayBpCount": 13000
+        },
+        {
+          "updateTime": 1690833600,
+          "endTime": 1693512000,
+          "maxBpLevel": 65,
+          "maxBpCount": 19000,
+          "maxDisplayBpCount": 19000
         }
       ],
       "grandPrizes": [
@@ -64627,6 +64639,53 @@
           "startTime": 0,
           "endTime": 1690833600,
           "taskDes": "累计使用25个麦哲伦的召唤物"
+        },
+        "month_team_2": {
+          "id": "month_team_2",
+          "teamName": "直视",
+          "teamSubName": "FIX ON IT",
+          "teamFlavorDesc": "Mæna gegn",
+          "teamDes": "梦是萨米赠予的另一段旅程。",
+          "teamColor": "77a3bd",
+          "teamMonth": "08",
+          "teamYear": "2023",
+          "teamIndex": "2",
+          "teamChars": [
+            "char_2012_typhon"
+          ],
+          "zoneId": null,
+          "chatId": "month_chat_rogue_3_2",
+          "tokenRewardNum": 1000,
+          "items": [
+            {
+              "id": "mod_unlock_token",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "32001",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "3222",
+              "count": 4,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "2004",
+              "count": 15,
+              "type": "CARD_EXP"
+            },
+            {
+              "id": "4001",
+              "count": 30000,
+              "type": "GOLD"
+            }
+          ],
+          "startTime": 1690833600,
+          "endTime": 1693512000,
+          "taskDes": "累计部署10次提丰"
         }
       },
       "challenges": {},
@@ -66943,6 +67002,27 @@
                   "chatStoryId": "Obt/Rogue/rogue_3/MonthRecord/month_record_rogue_3_1_3"
                 }
               ]
+            },
+            "month_chat_rogue_3_2": {
+              "sortId": 2,
+              "numChat": 3,
+              "clientChatItemData": [
+                {
+                  "chatFloor": 1,
+                  "chatDesc": "如果她在狩猎之中，输给自己视作同伴的人呢？",
+                  "chatStoryId": "Obt/Rogue/rogue_3/MonthRecord/month_record_rogue_3_2_1"
+                },
+                {
+                  "chatFloor": 3,
+                  "chatDesc": "如果她在狩猎之中，输给自己赖以生存的武器呢？",
+                  "chatStoryId": "Obt/Rogue/rogue_3/MonthRecord/month_record_rogue_3_2_2"
+                },
+                {
+                  "chatFloor": 5,
+                  "chatDesc": "她不曾自问。她看向眼前。",
+                  "chatStoryId": "Obt/Rogue/rogue_3/MonthRecord/month_record_rogue_3_2_3"
+                }
+              ]
             }
           }
         },
@@ -68537,6 +68617,31 @@
           ],
           "initialRecruitGroup": [
             "recruit_group_m1"
+          ],
+          "initialHp": 8,
+          "initialPopulation": 6,
+          "initialGold": 6,
+          "initialSquadCapacity": 6,
+          "initialShield": 0,
+          "initialMaxHp": 8,
+          "initialKey": 0
+        },
+        {
+          "modeId": "MONTH_TEAM",
+          "modeGrade": 0,
+          "predefinedId": "month_team_2",
+          "initialBandRelic": [
+            "rogue_3_band_1",
+            "rogue_3_band_2",
+            "rogue_3_band_3",
+            "rogue_3_band_4",
+            "rogue_3_band_9",
+            "rogue_3_band_11",
+            "rogue_3_band_12",
+            "rogue_3_band_13"
+          ],
+          "initialRecruitGroup": [
+            "recruit_group_m2"
           ],
           "initialHp": 8,
           "initialPopulation": 6,
@@ -101459,6 +101564,110 @@
             "taskId": null
           },
           "forceShowWhenOnlyLeave": false
+        },
+        "choice_ro3_month2_1": {
+          "id": "choice_ro3_month2_1",
+          "title": "听从提丰",
+          "description": "<@ro3.get>清空</>坍缩值",
+          "lockedCoverDesc": null,
+          "type": "TRADE",
+          "leftDecoType": "NONE",
+          "nextSceneId": "scene_ro3_month2_2",
+          "icon": null,
+          "displayData": {
+            "type": "NORMAL",
+            "effectHintType": 6,
+            "funcIconId": "chaos_purify",
+            "itemId": "rogue_3_chaos_purify",
+            "taskId": null
+          },
+          "forceShowWhenOnlyLeave": false
+        },
+        "choice_ro3_month2_2": {
+          "id": "choice_ro3_month2_2",
+          "title": "仔细探索",
+          "description": "恐惧只是来自未知",
+          "lockedCoverDesc": null,
+          "type": "NEXT",
+          "leftDecoType": "NONE",
+          "nextSceneId": "scene_ro3_month2_3",
+          "icon": "unknown",
+          "displayData": {
+            "type": "NORMAL",
+            "funcIconId": "unknown",
+            "itemId": null,
+            "taskId": null
+          },
+          "forceShowWhenOnlyLeave": true
+        },
+        "choice_ro3_month2_3": {
+          "id": "choice_ro3_month2_3",
+          "title": "离开",
+          "description": "门内的黑暗比门外更让人害怕！",
+          "lockedCoverDesc": null,
+          "type": "NEXT",
+          "leftDecoType": "NONE",
+          "nextSceneId": "scene_ro3_month2_1",
+          "icon": null,
+          "displayData": {
+            "type": "NORMAL",
+            "funcIconId": "leave",
+            "itemId": null,
+            "taskId": null
+          },
+          "forceShowWhenOnlyLeave": false
+        },
+        "choice_ro3_month2_4": {
+          "id": "choice_ro3_month2_4",
+          "title": "往深处翻找",
+          "description": "提升<@ro3.lose>3</>坍缩值，获得一件随机收藏品",
+          "lockedCoverDesc": null,
+          "type": "TRADE",
+          "leftDecoType": "NONE",
+          "nextSceneId": "scene_ro3_month2_4",
+          "icon": null,
+          "displayData": {
+            "type": "NORMAL",
+            "costHintType": 6,
+            "funcIconId": "relic",
+            "itemId": null,
+            "taskId": null
+          },
+          "forceShowWhenOnlyLeave": false
+        },
+        "choice_ro3_month2_5": {
+          "id": "choice_ro3_month2_5",
+          "title": "用仪器探测",
+          "description": "获得一件随机收藏品",
+          "lockedCoverDesc": "（需要抗干扰指数大于<@ro3.lose>5</>）",
+          "type": "TRADE",
+          "leftDecoType": "VISION",
+          "nextSceneId": "scene_ro3_month2_5",
+          "icon": null,
+          "displayData": {
+            "type": "NORMAL",
+            "funcIconId": "relic",
+            "itemId": null,
+            "taskId": null
+          },
+          "forceShowWhenOnlyLeave": false
+        },
+        "choice_ro3_month2_6": {
+          "id": "choice_ro3_month2_6",
+          "title": "离开",
+          "description": "雪祀留下的荆棘都已枯萎",
+          "lockedCoverDesc": null,
+          "type": "NEXT",
+          "leftDecoType": "NONE",
+          "nextSceneId": "scene_ro3_month2_1",
+          "icon": null,
+          "displayData": {
+            "type": "NORMAL",
+            "funcIconId": "leave",
+            "itemId": null,
+            "taskId": null
+          },
+          "forceShowWhenOnlyLeave": false
         }
       },
       "choiceScenes": {
@@ -104400,6 +104609,60 @@
           "id": "scene_ro3_month1_4",
           "title": "科考站",
           "description": "科考站的通讯设备尚能使用，是时候联系后备人员加入队伍了。",
+          "background": null,
+          "titleIcon": null,
+          "subTypeId": 0,
+          "useHiddenMusic": false
+        },
+        "scene_ro3_month2_enter": {
+          "id": "scene_ro3_month2_enter",
+          "title": "昏黑之室",
+          "description": "循着一名雪祀临终前留下的指引，你在风雪里找到了这处落脚的小屋。你的同伴打开探照灯，但是黑暗几乎没有被驱散。你注意到，光亮的边缘残留着雪祀法术的痕迹。他在这里与什么战斗过？\r\n大门猛地关上了。",
+          "background": "pic_rogue_3_8",
+          "titleIcon": null,
+          "subTypeId": 0,
+          "useHiddenMusic": false
+        },
+        "scene_ro3_month2_1": {
+          "id": "scene_ro3_month2_1",
+          "title": "昏黑之室",
+          "description": "来到萨米之后，你已经学会了相信自己的直觉，尤其是不好的直觉。",
+          "background": null,
+          "titleIcon": null,
+          "subTypeId": 0,
+          "useHiddenMusic": false
+        },
+        "scene_ro3_month2_2": {
+          "id": "scene_ro3_month2_2",
+          "title": "昏黑之室",
+          "description": "你们一步也不敢动，看着萨卡兹少女抽出一支箭，用箭头划过墙面。或许是她的源石技艺作用，墙面的苔藓烧焦般卷曲，大块大块地脱落。\r\n小屋里明亮了起来。你和同伴们感激地坐下休息，并决定相信，提丰总是对的。",
+          "background": null,
+          "titleIcon": null,
+          "subTypeId": 0,
+          "useHiddenMusic": false
+        },
+        "scene_ro3_month2_3": {
+          "id": "scene_ro3_month2_3",
+          "title": "昏黑之室",
+          "description": "毫无来由的恐慌笼罩着房间，但你和同伴们都对此闭口不谈。你发现这里还留有一些物资，或许其中能找到对科考队有用的物件。",
+          "background": null,
+          "titleIcon": null,
+          "subTypeId": 0,
+          "useHiddenMusic": false
+        },
+        "scene_ro3_month2_4": {
+          "id": "scene_ro3_month2_4",
+          "title": "昏黑之室",
+          "description": "推开一扇门，你发现了一个安全的房间，房间里的物件似乎也保存完好。\r\n——你如此解释自己手中物品的来历，可你的同伴全部面色古怪地看着你。\r\n“那里没有房间，也没有门。”",
+          "background": null,
+          "titleIcon": null,
+          "subTypeId": 0,
+          "useHiddenMusic": false
+        },
+        "scene_ro3_month2_5": {
+          "id": "scene_ro3_month2_5",
+          "title": "昏黑之室",
+          "description": "当你手持设备靠近一面墙壁时，你确定自己捕捉到了一些能量信号，稳定，持续不断。随后你和同伴对整个房间进行了检测，但对于这些随机分布的能量信号，你们始终一头雾水。最终，你们选择避开信号明显的位置，带了些看起来较为安全的物件上路。",
           "background": null,
           "titleIcon": null,
           "subTypeId": 0,
@@ -113279,7 +113542,7 @@
           },
           "rogue_2_diceEve_41": {
             "dicePointMax": 12,
-            "diceResultClass": "BEST",
+            "diceResultClass": "GREAT",
             "diceGroupId": "rogue_2_dicegroup_20",
             "diceEventId": "rogue_2_diceEve_41",
             "resultDesc": "获得了<@ro2.virtue>启示<{0}></>",
@@ -113315,7 +113578,7 @@
           },
           "rogue_2_diceEve_44": {
             "dicePointMax": 12,
-            "diceResultClass": "BEST",
+            "diceResultClass": "GREAT",
             "diceGroupId": "rogue_2_dicegroup_21",
             "diceEventId": "rogue_2_diceEve_44",
             "resultDesc": "获得了<@ro2.virtue>启示<{0}></>",
@@ -116173,6 +116436,10 @@
           },
           "choice_ro3_bat9_2": {
             "value": 3,
+            "type": 0
+          },
+          "choice_ro3_month2_5": {
+            "value": 5,
             "type": 0
           }
         },
