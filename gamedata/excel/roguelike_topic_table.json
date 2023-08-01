@@ -487,7 +487,7 @@
       "char_127_estell": {
         "charId": "char_127_estell",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_estell",
         "recruitType": "FREE"
       },
       "char_185_frncat": {
@@ -682,6 +682,12 @@
         "uniEquipId": "uniequip_002_chiave",
         "recruitType": "FREE"
       },
+      "char_488_buildr": {
+        "charId": "char_488_buildr",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_buildr",
+        "recruitType": "FREE"
+      },
       "char_513_apionr": {
         "charId": "char_513_apionr",
         "canBeFree": false,
@@ -734,6 +740,12 @@
         "charId": "char_308_swire",
         "canBeFree": true,
         "uniEquipId": "uniequip_002_swire",
+        "recruitType": "FREE"
+      },
+      "char_4106_bryota": {
+        "charId": "char_4106_bryota",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_bryota",
         "recruitType": "FREE"
       },
       "char_265_sophia": {
@@ -811,19 +823,19 @@
       "char_143_ghost": {
         "charId": "char_143_ghost",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_ghost",
         "recruitType": "FREE"
       },
       "char_356_broca": {
         "charId": "char_356_broca",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_broca",
         "recruitType": "FREE"
       },
       "char_230_savage": {
         "charId": "char_230_savage",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_savage",
         "recruitType": "FREE"
       },
       "char_274_astesi": {
@@ -1714,6 +1726,12 @@
         "uniEquipId": "uniequip_002_lmlee",
         "recruitType": "FREE"
       },
+      "char_1033_swire2": {
+        "charId": "char_1033_swire2",
+        "canBeFree": true,
+        "uniEquipId": "uniequip_002_swire2",
+        "recruitType": "FREE"
+      },
       "char_400_weedy": {
         "charId": "char_400_weedy",
         "canBeFree": true,
@@ -1772,6 +1790,12 @@
         "charId": "char_4042_lumen",
         "canBeFree": true,
         "uniEquipId": "uniequip_002_lumen",
+        "recruitType": "FREE"
+      },
+      "char_1016_agoat2": {
+        "charId": "char_1016_agoat2",
+        "canBeFree": true,
+        "uniEquipId": null,
         "recruitType": "FREE"
       },
       "char_1020_reed2": {
@@ -1879,13 +1903,13 @@
       "char_017_huang": {
         "charId": "char_017_huang",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_huang",
         "recruitType": "FREE"
       },
       "char_1026_gvial2": {
         "charId": "char_1026_gvial2",
         "canBeFree": true,
-        "uniEquipId": null,
+        "uniEquipId": "uniequip_002_gvial2",
         "recruitType": "FREE"
       },
       "char_350_surtr": {
@@ -23034,6 +23058,7 @@
         "populationItemId": "rogue_1_population",
         "squadCapacityItemId": "rogue_1_squad_capacity",
         "expItemId": "rogue_1_exp",
+        "initialBandShowGradeFlag": false,
         "bankMaxGold": 999,
         "bankCostId": null,
         "bankDrawCount": 0,
@@ -57363,6 +57388,7 @@
         "populationItemId": "rogue_2_population",
         "squadCapacityItemId": "rogue_2_squad_capacity",
         "expItemId": "rogue_2_exp",
+        "initialBandShowGradeFlag": false,
         "bankMaxGold": 999,
         "bankCostId": "rogue_2_key",
         "bankDrawCount": 8,
@@ -64158,6 +64184,7 @@
           "displayDiscription": "冰原科考项目已确认一条稳定的路线， 荒野的猎人也成为科考队固定的护卫。 只是正式流程的第一步就让她困惑： 什么是“萨米生存知识与地域文化讲座”？",
           "bpLevelId": "bp_level_80",
           "accordingCharId": "char_2012_typhon",
+          "accordingSkinId": "char_2012_typhon@wild#9",
           "detailAnnounceTime": "2023/9/1 4:00:00"
         },
         {
@@ -105060,6 +105087,7 @@
         "populationItemId": "rogue_3_population",
         "squadCapacityItemId": "rogue_3_squad_capacity",
         "expItemId": "rogue_3_exp",
+        "initialBandShowGradeFlag": true,
         "bankMaxGold": 999,
         "bankCostId": "",
         "bankDrawCount": 8,
@@ -108808,7 +108836,7 @@
           "id": "rogue_3_relic_legacy_22_c",
           "name": "红色蝴蝶结-γ",
           "description": "傀影送出的第一份礼物，Miss.Christine非常中意。",
-          "usage": "希望+4，可同时部署人数+1，非战斗节点进行的战斗可部署人数额外+2",
+          "usage": "希望+4，可同时部署人数+1，非战斗节点进行的战斗可同时部署人数额外+2",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_3_relic_legacy_22_c",
           "type": "RELIC",
@@ -108868,7 +108896,7 @@
           "id": "rogue_3_relic_legacy_23_c",
           "name": "独奏八音盒-γ",
           "description": "老旧的八音盒，打开之后音乐没有响起，盒子中央的小人也没有动。没有任何响动，无人跳舞。在与傀影对戏之前，女主演总是在后台痴痴地看着它。",
-          "usage": "希望+6，可同时部署人数+1，险路恶敌战斗可部署人数额外+1",
+          "usage": "希望+6，可同时部署人数+1，险路恶敌战斗可同时部署人数额外+1",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_3_relic_legacy_23_c",
           "type": "RELIC",
@@ -109183,7 +109211,7 @@
           "id": "rogue_3_relic_legacy_37_a",
           "name": "解约协议-α",
           "description": "只要拿到一个签名，就可以彻底摆脱这个剧团了。",
-          "usage": "希望+4，回复1点目标生命",
+          "usage": "希望+4，回复1目标生命",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_3_relic_legacy_37_a",
           "type": "RELIC",
@@ -109198,7 +109226,7 @@
           "id": "rogue_3_relic_legacy_37_b",
           "name": "解约协议-β",
           "description": "只要拿到一个签名，就可以彻底摆脱这个剧团了。",
-          "usage": "希望+4，回复2点目标生命",
+          "usage": "希望+4，回复2目标生命",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_3_relic_legacy_37_b",
           "type": "RELIC",
@@ -109213,7 +109241,7 @@
           "id": "rogue_3_relic_legacy_37_c",
           "name": "解约协议-γ",
           "description": "只要拿到一个签名，就可以彻底摆脱这个剧团了。",
-          "usage": "希望+4，回复3点目标生命",
+          "usage": "希望+4，回复3目标生命",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_3_relic_legacy_37_c",
           "type": "RELIC",
@@ -111853,7 +111881,7 @@
           "id": "rogue_3_relic_res_9",
           "name": "仪式铃",
           "description": "闭上眼。你所渴望的，都要向内寻求。",
-          "usage": "失去抗干扰指数时，回复1点目标生命",
+          "usage": "失去抗干扰指数时，回复1目标生命",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_3_relic_res_9",
           "type": "RELIC",
@@ -111913,7 +111941,7 @@
           "id": "rogue_3_relic_fight_1",
           "name": "猎人的洞察",
           "description": "在意志完全被夺取之前，女孩向靠近的救援者恳求：“让我拉弓，让我战胜它，让我永不畏惧。”",
-          "usage": "所有干员攻击【坍缩体】时无视50%的防御和法术抗性，并使其停顿0.5秒",
+          "usage": "所有干员攻击【坍缩体】时无视50%的防御力和法术抗性，并使其停顿0.5秒",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_3_relic_fight_1",
           "type": "RELIC",
@@ -111988,7 +112016,7 @@
           "id": "rogue_3_relic_fight_6",
           "name": "“永夜的窥视”",
           "description": "她转身走向北地的那一刻，黑色的群山铺陈于眼前，如她多年前所见的预兆。",
-          "usage": "所有干员的攻击力+25%，攻击速度+25，但每秒失去25生命值",
+          "usage": "所有干员的攻击力+25%，攻击速度+25，但每秒流失25生命值",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_3_relic_fight_6",
           "type": "RELIC",
@@ -112018,7 +112046,7 @@
           "id": "rogue_3_relic_fight_8",
           "name": "凝冰砥石",
           "description": "石面光滑如冰，制作者请求了山岩的许可，将它过于沉重的力量复写在刀刃上。",
-          "usage": "战斗开始时，使随机一名干员生命值、攻击力、防御力、法术抗性、阻挡数、初始技力、费用翻倍",
+          "usage": "战斗开始时，使随机一名干员生命值、攻击力、防御力、法术抗性、阻挡数、初始技力、部署费用翻倍",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_3_relic_fight_8",
           "type": "RELIC",
@@ -112273,7 +112301,7 @@
           "id": "rogue_3_relic_fight_25",
           "name": "彩虹瓮",
           "description": "它通常被萨米人放在彩虹落下的地方并精心保存，用以对抗踪迹不定的天灾与人祸",
-          "usage": "每次敌人进入保护目标点时，立即使随机一名再部署中的单位倒计时-50%",
+          "usage": "每次敌人进入保护目标点时，立即使随机一名再部署中的单位当前再部署时间减半",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_3_relic_fight_25",
           "type": "RELIC",
@@ -112318,7 +112346,7 @@
           "id": "rogue_3_relic_explore_2",
           "name": "坎诺特印记",
           "description": "有人愿意卖坎诺特一个面子，也有人值得坎诺特卖个“面子”。",
-          "usage": "每次在诡意行商购买一件道具，或在失与得交换一次，获得1点希望",
+          "usage": "每次在诡意行商购买一件道具，或在失与得交换一次，希望+1",
           "obtainApproach": "在集成战略模式中获得",
           "iconId": "rogue_3_relic_explore_2",
           "type": "RELIC",
@@ -114154,7 +114182,7 @@
             "prevChaosId": null,
             "iconId": "pic_rogue_3_chaos_8",
             "name": "趋同性消耗",
-            "functionDesc": "抗干扰指数降低时最大生命减少1点",
+            "functionDesc": "抗干扰指数降低时目标生命上限减少1点",
             "desc": "只要器械受到损耗，它的使用者便会受到同态伤害。",
             "sound": "ON_ROGUELIKE_VARIATION1",
             "sortId": 7
@@ -114166,7 +114194,7 @@
             "prevChaosId": "rogue_3_chaos_8",
             "iconId": "pic_rogue_3_chaos_8",
             "name": "趋同性缺失",
-            "functionDesc": "抗干扰指数降低时最大生命减少2点",
+            "functionDesc": "抗干扰指数降低时目标生命上限减少2点",
             "desc": "器械就像是使用者身体的一部分，机器的损耗已等同于使用者受到的损伤。",
             "sound": "ON_ROGUELIKE_VARIATION2",
             "sortId": 7
@@ -114214,7 +114242,7 @@
             "prevChaosId": "rogue_3_chaos_10",
             "iconId": "pic_rogue_3_chaos_10",
             "name": "一抹黑",
-            "functionDesc": "战场上我方单位的形象不再可见，我方干员费用+1",
+            "functionDesc": "战场上我方单位的形象不再可见，我方干员部署费用+1",
             "desc": "即使这种情况已经对你的后勤工作造成负担，PRTS却坚持认为自己在正常运行，这不太正常。",
             "sound": "ON_ROGUELIKE_VARIATION2",
             "sortId": 9
@@ -114511,7 +114539,8 @@
                 "PORTAL"
               ],
               "blurNodeTypes": [
-                "BATTLE"
+                "BATTLE",
+                "NO_BATTLE"
               ]
             }
           },
