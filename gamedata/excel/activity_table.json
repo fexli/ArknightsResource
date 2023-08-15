@@ -1,5 +1,23 @@
 {
   "basicInfo": {
+    "act3bossrush": {
+      "id": "act3bossrush",
+      "type": "BOSS_RUSH",
+      "name": "引航者试炼",
+      "startTime": 1692345600,
+      "endTime": 1693511999,
+      "rewardEndTime": 1693771199,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "ungroupedMedalIds": [
+        "medal_activity_3bossrush_01",
+        "medal_activity_3bossrush_02"
+      ],
+      "isReplicate": false,
+      "needFixedSync": false
+    },
     "act27side": {
       "id": "act27side",
       "type": "TYPE_ACT27SIDE",
@@ -2678,6 +2696,7 @@
     }
   },
   "zoneToActivity": {
+    "act3bossrush_zone1": "act3bossrush",
     "act27side_zone1": "act27side",
     "act27side_zone2": "act27side",
     "act27side_zone3": "act27side",
@@ -2812,6 +2831,444 @@
     "A001_zone2": "1stact"
   },
   "missionData": [
+    {
+      "id": "3bossrushActivity_1",
+      "sortId": 1,
+      "description": "通关TN-1初始试炼",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act3bossrush_01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3bossrush_milestone_point",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "3bossrushActivity_2",
+      "sortId": 3,
+      "description": "通关TN-2初始试炼",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act3bossrush_02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3bossrush_milestone_point",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "3bossrushActivity_3",
+      "sortId": 5,
+      "description": "通关TN-3初始试炼",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act3bossrush_03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3bossrush_milestone_point",
+          "count": 50
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "3bossrushActivity_4",
+      "sortId": 7,
+      "description": "通关TN-4初始试炼",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act3bossrush_04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3bossrush_milestone_point",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "3bossrushActivity_5",
+      "sortId": 8,
+      "description": "活动关卡中累计部署干员40次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "StageWithCondition",
+      "templateType": "2",
+      "param": [
+        "2",
+        "act3bossrush_01^act3bossrush_02^act3bossrush_03^act3bossrush_04^act3bossrush_tm01^act3bossrush_tm02^act3bossrush_tm03^act3bossrush_tm04^act3bossrush_ex01^act3bossrush_ex02^act3bossrush_ex03^act3bossrush_ex04^act3bossrush_fin04",
+        "40"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3bossrush_relic_02",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "3bossrushActivity_6",
+      "sortId": 9,
+      "description": "活动关卡中累计击败100名敌人",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "StageWithEnemyKill",
+      "templateType": "5",
+      "param": [
+        "5",
+        "act3bossrush_01^act3bossrush_02^act3bossrush_03^act3bossrush_04^act3bossrush_tm01^act3bossrush_tm02^act3bossrush_tm03^act3bossrush_tm04^act3bossrush_ex01^act3bossrush_ex02^act3bossrush_ex03^act3bossrush_ex04^act3bossrush_fin04",
+        "100",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3bossrush_relic_03",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "3bossrushActivity_7",
+      "sortId": 10,
+      "description": "活动关卡中累计使用技能50次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "StageWithCondition",
+      "templateType": "1",
+      "param": [
+        "1",
+        "act3bossrush_01^act3bossrush_02^act3bossrush_03^act3bossrush_04^act3bossrush_tm01^act3bossrush_tm02^act3bossrush_tm03^act3bossrush_tm04^act3bossrush_ex01^act3bossrush_ex02^act3bossrush_ex03^act3bossrush_ex04^act3bossrush_fin04",
+        "50"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3bossrush_relic_04",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "3bossrushActivity_8",
+      "sortId": 2,
+      "description": "通关TN-1定向试炼，且累计消耗400点以上费用",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "10",
+      "param": [
+        "10",
+        "2",
+        "act3bossrush_tm01",
+        "cost",
+        "400"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3bossrush_milestone_point",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "3bossrushActivity_9",
+      "sortId": 4,
+      "description": "通关TN-2定向试炼，且使用炎势力干员击败至少1名领袖敌人",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "18",
+      "param": [
+        "18",
+        "2",
+        "act3bossrush_tm02",
+        "yan^lungmen",
+        "char_token_kill_boss",
+        "1"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3bossrush_milestone_point",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "3bossrushActivity_10",
+      "sortId": 6,
+      "description": "通关TN-3定向试炼，且莱茵生命干员累计使用技能40次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageCondition",
+      "templateType": "18",
+      "param": [
+        "18",
+        "2",
+        "act3bossrush_tm03",
+        "rhine",
+        "skill_on",
+        "40"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3bossrush_milestone_point",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "3bossrushActivity_11",
+      "sortId": 11,
+      "description": "启用[恢复增幅]通关任意恢宏试炼，且小队中编入至少2名医疗干员",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageWithRelic",
+      "templateType": "4",
+      "param": [
+        "4",
+        "act3bossrush_ex01^act3bossrush_ex02^act3bossrush_ex03^act3bossrush_ex04",
+        "act3bossrush_relic_01",
+        "2",
+        "MEDIC"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3bossrush_milestone_point",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "3bossrushActivity_12",
+      "sortId": 12,
+      "description": "启用[扩大化战略]通关任意恢宏试炼，且任一波次结束时，同时在场干员人数大于等于7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageWithRelic",
+      "templateType": "2",
+      "param": [
+        "2",
+        "act3bossrush_ex01^act3bossrush_ex02^act3bossrush_ex03^act3bossrush_ex04",
+        "act3bossrush_relic_02",
+        "CURRENT_WAVE_CHAR_USE",
+        "7"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3bossrush_milestone_point",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "3bossrushActivity_13",
+      "sortId": 13,
+      "description": "启用[经验习得]通关任意恢宏试炼，且至少一位干员累计击败10名敌人",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageWithRelic",
+      "templateType": "6",
+      "param": [
+        "6",
+        "act3bossrush_ex01^act3bossrush_ex02^act3bossrush_ex03^act3bossrush_ex04",
+        "act3bossrush_relic_03",
+        "1",
+        "char_token_kill_count",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3bossrush_milestone_point",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
+    {
+      "id": "3bossrushActivity_14",
+      "sortId": 14,
+      "description": "启用[过热运转]通关任意恢宏试炼，且波次结束时未撤退的干员累计超过10人次",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageWithRelic",
+      "templateType": "2",
+      "param": [
+        "2",
+        "act3bossrush_ex01^act3bossrush_ex02^act3bossrush_ex03^act3bossrush_ex04",
+        "act3bossrush_relic_04",
+        "char_remain",
+        "10"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act3bossrush",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act3bossrush_milestone_point",
+          "count": 150
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false
+    },
     {
       "id": "27sideActivity_1",
       "sortId": 1,
@@ -49216,6 +49673,32 @@
     }
   ],
   "missionGroup": [
+    {
+      "id": "act3bossrush",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "3bossrushActivity_1",
+        "3bossrushActivity_2",
+        "3bossrushActivity_3",
+        "3bossrushActivity_4",
+        "3bossrushActivity_5",
+        "3bossrushActivity_6",
+        "3bossrushActivity_7",
+        "3bossrushActivity_8",
+        "3bossrushActivity_9",
+        "3bossrushActivity_10",
+        "3bossrushActivity_11",
+        "3bossrushActivity_12",
+        "3bossrushActivity_13",
+        "3bossrushActivity_14"
+      ],
+      "startTs": 1692345600,
+      "endTs": 1693771199
+    },
     {
       "id": "act27side",
       "title": null,
@@ -103461,6 +103944,2665 @@
       }
     },
     "BOSS_RUSH": {
+      "act3bossrush": {
+        "zoneAdditionDataMap": {
+          "act3bossrush_zone1": {
+            "unlockText": "尚未解锁",
+            "displayStartTime": 1692345600
+          }
+        },
+        "stageGroupMap": {
+          "act3bossrush_group01": {
+            "stageGroupId": "act3bossrush_group01",
+            "sortId": 1,
+            "stageGroupName": "适者生存",
+            "stageIdMap": {
+              "NORMAL": "act3bossrush_01",
+              "TEAM": "act3bossrush_tm01",
+              "EX": "act3bossrush_ex01"
+            },
+            "waveBossInfo": [
+              [
+                "enemy_1522_captan"
+              ],
+              [
+                "enemy_1512_mcmstr"
+              ]
+            ],
+            "normalStageCount": 3,
+            "isHardStageGroup": false,
+            "unlockCondtion": null
+          },
+          "act3bossrush_group02": {
+            "stageGroupId": "act3bossrush_group02",
+            "sortId": 2,
+            "stageGroupName": "惊惧与血色",
+            "stageIdMap": {
+              "NORMAL": "act3bossrush_02",
+              "TEAM": "act3bossrush_tm02",
+              "EX": "act3bossrush_ex02"
+            },
+            "waveBossInfo": [
+              [
+                "enemy_1185_nmekgt_3"
+              ],
+              [
+                "enemy_1524_bldkgt"
+              ],
+              [
+                "enemy_1542_wdslm"
+              ]
+            ],
+            "normalStageCount": 3,
+            "isHardStageGroup": false,
+            "unlockCondtion": null
+          },
+          "act3bossrush_group03": {
+            "stageGroupId": "act3bossrush_group03",
+            "sortId": 3,
+            "stageGroupName": "不测之渊",
+            "stageIdMap": {
+              "NORMAL": "act3bossrush_03",
+              "TEAM": "act3bossrush_tm03",
+              "EX": "act3bossrush_ex03"
+            },
+            "waveBossInfo": [
+              [
+                "enemy_1521_dslily"
+              ],
+              [
+                "enemy_1154_dsmant"
+              ],
+              [
+                "enemy_1529_dsdevr"
+              ]
+            ],
+            "normalStageCount": 3,
+            "isHardStageGroup": false,
+            "unlockCondtion": null
+          },
+          "act3bossrush_group04": {
+            "stageGroupId": "act3bossrush_group04",
+            "sortId": 4,
+            "stageGroupName": "虔信者的前路",
+            "stageIdMap": {
+              "NORMAL": "act3bossrush_04",
+              "TEAM": "act3bossrush_tm04",
+              "EX": "act3bossrush_ex04",
+              "SP": "act3bossrush_fin04"
+            },
+            "waveBossInfo": [
+              [
+                "enemy_1284_sgprst"
+              ],
+              [
+                "enemy_1527_martyr"
+              ],
+              [
+                "enemy_1535_wlfmster"
+              ]
+            ],
+            "normalStageCount": 3,
+            "isHardStageGroup": true,
+            "unlockCondtion": "通关<color=#038DCCFF>TN-1</color>/<color=#038DCCFF>TN-2</color>/<color=#038DCCFF>TN-3</color>初始试炼解锁"
+          }
+        },
+        "stageAdditionDataMap": {
+          "act3bossrush_01": {
+            "stageId": "act3bossrush_01",
+            "stageType": "NORMAL",
+            "stageGroupId": "act3bossrush_group01",
+            "teamIdList": [],
+            "unlockText": null
+          },
+          "act3bossrush_02": {
+            "stageId": "act3bossrush_02",
+            "stageType": "NORMAL",
+            "stageGroupId": "act3bossrush_group02",
+            "teamIdList": [],
+            "unlockText": null
+          },
+          "act3bossrush_03": {
+            "stageId": "act3bossrush_03",
+            "stageType": "NORMAL",
+            "stageGroupId": "act3bossrush_group03",
+            "teamIdList": [],
+            "unlockText": null
+          },
+          "act3bossrush_04": {
+            "stageId": "act3bossrush_04",
+            "stageType": "NORMAL",
+            "stageGroupId": "act3bossrush_group04",
+            "teamIdList": [],
+            "unlockText": "通关<color=#038DCCFF>TN-1</color>/<color=#038DCCFF>TN-2</color>/<color=#038DCCFF>TN-3</color>初始试炼解锁"
+          },
+          "act3bossrush_tm01": {
+            "stageId": "act3bossrush_tm01",
+            "stageType": "TEAM",
+            "stageGroupId": "act3bossrush_group01",
+            "teamIdList": [
+              "act3bossrush_team01"
+            ],
+            "unlockText": "通关<color=#038DCCFF>TN-1</color>初始试炼解锁"
+          },
+          "act3bossrush_tm02": {
+            "stageId": "act3bossrush_tm02",
+            "stageType": "TEAM",
+            "stageGroupId": "act3bossrush_group02",
+            "teamIdList": [
+              "act3bossrush_team02"
+            ],
+            "unlockText": "通关<color=#038DCCFF>TN-2</color>初始试炼解锁"
+          },
+          "act3bossrush_tm03": {
+            "stageId": "act3bossrush_tm03",
+            "stageType": "TEAM",
+            "stageGroupId": "act3bossrush_group03",
+            "teamIdList": [
+              "act3bossrush_team03"
+            ],
+            "unlockText": "通关<color=#038DCCFF>TN-3</color>初始试炼解锁"
+          },
+          "act3bossrush_tm04": {
+            "stageId": "act3bossrush_tm04",
+            "stageType": "TEAM",
+            "stageGroupId": "act3bossrush_group04",
+            "teamIdList": [
+              "act3bossrush_team01",
+              "act3bossrush_team02",
+              "act3bossrush_team03"
+            ],
+            "unlockText": "通关<color=#038DCCFF>TN-4</color>初始试炼解锁"
+          },
+          "act3bossrush_ex01": {
+            "stageId": "act3bossrush_ex01",
+            "stageType": "EX",
+            "stageGroupId": "act3bossrush_group01",
+            "teamIdList": [
+              "act3bossrush_team01",
+              "free"
+            ],
+            "unlockText": "通关<color=#038DCCFF>TN-1</color>定向试炼解锁"
+          },
+          "act3bossrush_ex02": {
+            "stageId": "act3bossrush_ex02",
+            "stageType": "EX",
+            "stageGroupId": "act3bossrush_group02",
+            "teamIdList": [
+              "act3bossrush_team02",
+              "free"
+            ],
+            "unlockText": "通关<color=#038DCCFF>TN-2</color>定向试炼解锁"
+          },
+          "act3bossrush_ex03": {
+            "stageId": "act3bossrush_ex03",
+            "stageType": "EX",
+            "stageGroupId": "act3bossrush_group03",
+            "teamIdList": [
+              "act3bossrush_team03",
+              "free"
+            ],
+            "unlockText": "通关<color=#038DCCFF>TN-3</color>定向试炼解锁"
+          },
+          "act3bossrush_ex04": {
+            "stageId": "act3bossrush_ex04",
+            "stageType": "EX",
+            "stageGroupId": "act3bossrush_group04",
+            "teamIdList": [
+              "act3bossrush_team01",
+              "act3bossrush_team02",
+              "act3bossrush_team03",
+              "free"
+            ],
+            "unlockText": "通关<color=#038DCCFF>TN-4</color>定向试炼，并且通关<color=#038DCCFF>TN-1</color>/<color=#038DCCFF>TN-2</color>/<color=#038DCCFF>TN-3</color>恢宏试炼解锁"
+          },
+          "act3bossrush_fin04": {
+            "stageId": "act3bossrush_fin04",
+            "stageType": "SP",
+            "stageGroupId": "act3bossrush_group04",
+            "teamIdList": [
+              "act3bossrush_team01",
+              "act3bossrush_team02",
+              "act3bossrush_team03",
+              "free"
+            ],
+            "unlockText": null
+          }
+        },
+        "stageDropDataMap": {
+          "act3bossrush_01": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 10,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 25,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 100,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 1
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 10,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_token_relic",
+                  "dropType": 1
+                }
+              ]
+            }
+          },
+          "act3bossrush_02": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 10,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 25,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 40,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 100,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 1
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 15,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_token_relic",
+                  "dropType": 1
+                }
+              ]
+            }
+          },
+          "act3bossrush_03": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 10,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 25,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 40,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 100,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 1
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 15,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_token_relic",
+                  "dropType": 1
+                }
+              ]
+            }
+          },
+          "act3bossrush_04": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 15,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 35,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 55,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 150,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 1
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 20,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_token_relic",
+                  "dropType": 1
+                }
+              ]
+            }
+          },
+          "act3bossrush_tm01": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 10,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 25,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 100,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 1
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 15,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_token_relic",
+                  "dropType": 1
+                }
+              ]
+            }
+          },
+          "act3bossrush_tm02": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 10,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 25,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 40,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 100,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 1
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 25,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_token_relic",
+                  "dropType": 1
+                }
+              ]
+            }
+          },
+          "act3bossrush_tm03": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 10,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 25,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 40,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 100,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 1
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 25,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_token_relic",
+                  "dropType": 1
+                }
+              ]
+            }
+          },
+          "act3bossrush_tm04": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 15,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 35,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 55,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 150,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 1
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 30,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_token_relic",
+                  "dropType": 1
+                }
+              ]
+            }
+          },
+          "act3bossrush_ex01": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 20,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 45,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 150,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 1
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 25,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_token_relic",
+                  "dropType": 1
+                }
+              ]
+            }
+          },
+          "act3bossrush_ex02": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 20,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 45,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 70,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 150,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 1
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 30,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_token_relic",
+                  "dropType": 1
+                }
+              ]
+            }
+          },
+          "act3bossrush_ex03": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 20,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 45,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 70,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 150,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 1
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 30,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_token_relic",
+                  "dropType": 1
+                }
+              ]
+            }
+          },
+          "act3bossrush_ex04": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 30,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 65,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 100,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 200,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 1
+                }
+              ]
+            }
+          },
+          "act3bossrush_fin04": {
+            "0": {
+              "clearWaveCount": 0,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "1": {
+              "clearWaveCount": 1,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "2": {
+              "clearWaveCount": 2,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                }
+              ]
+            },
+            "3": {
+              "clearWaveCount": 3,
+              "displayDetailRewards": [
+                {
+                  "occPercent": 0,
+                  "dropCount": 0,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 2
+                },
+                {
+                  "occPercent": 0,
+                  "dropCount": 320,
+                  "type": "ACTIVITY_ITEM",
+                  "id": "act3bossrush_milestone_point",
+                  "dropType": 1
+                }
+              ]
+            }
+          }
+        },
+        "missionAdditionDataMap": {
+          "3bossrushActivity_1": {
+            "missionId": "3bossrushActivity_1",
+            "isRelicTask": false
+          },
+          "3bossrushActivity_2": {
+            "missionId": "3bossrushActivity_2",
+            "isRelicTask": false
+          },
+          "3bossrushActivity_3": {
+            "missionId": "3bossrushActivity_3",
+            "isRelicTask": false
+          },
+          "3bossrushActivity_4": {
+            "missionId": "3bossrushActivity_4",
+            "isRelicTask": false
+          },
+          "3bossrushActivity_5": {
+            "missionId": "3bossrushActivity_5",
+            "isRelicTask": true
+          },
+          "3bossrushActivity_6": {
+            "missionId": "3bossrushActivity_6",
+            "isRelicTask": true
+          },
+          "3bossrushActivity_7": {
+            "missionId": "3bossrushActivity_7",
+            "isRelicTask": true
+          },
+          "3bossrushActivity_8": {
+            "missionId": "3bossrushActivity_8",
+            "isRelicTask": false
+          },
+          "3bossrushActivity_9": {
+            "missionId": "3bossrushActivity_9",
+            "isRelicTask": false
+          },
+          "3bossrushActivity_10": {
+            "missionId": "3bossrushActivity_10",
+            "isRelicTask": false
+          },
+          "3bossrushActivity_11": {
+            "missionId": "3bossrushActivity_11",
+            "isRelicTask": false
+          },
+          "3bossrushActivity_12": {
+            "missionId": "3bossrushActivity_12",
+            "isRelicTask": false
+          },
+          "3bossrushActivity_13": {
+            "missionId": "3bossrushActivity_13",
+            "isRelicTask": false
+          },
+          "3bossrushActivity_14": {
+            "missionId": "3bossrushActivity_14",
+            "isRelicTask": false
+          }
+        },
+        "teamDataMap": {
+          "free": {
+            "teamId": "free",
+            "teamName": "自由编队",
+            "charIdList": [],
+            "teamBuffName": null,
+            "teamBuffDes": null,
+            "teamBuffId": null,
+            "maxCharNum": 9,
+            "runeData": null
+          },
+          "act3bossrush_team01": {
+            "teamId": "act3bossrush_team01",
+            "teamName": "不辞辛苦举旗人",
+            "charIdList": [
+              "char_151_myrtle",
+              "char_401_elysm",
+              "char_479_sleach"
+            ],
+            "teamBuffName": "多劳多得",
+            "teamBuffDes": "部署非先锋干员时消耗所有费用。每消耗1点费用，使该次部署的干员攻击力+1％",
+            "teamBuffId": "act3bossrush_team01",
+            "maxCharNum": 10,
+            "runeData": {
+              "id": "act3bossrush_team01",
+              "points": 1.0,
+              "mutexGroupKey": null,
+              "description": "部署非先锋干员时会消耗所有费用，每消耗1点费用，使该次部署的干员攻击力+1％",
+              "runes": [
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 127,
+                    "buildableMask": 3,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "valueStr": "act3bossrush_team1_buff"
+                    },
+                    {
+                      "key": "value",
+                      "value": 0.01
+                    }
+                  ]
+                },
+                {
+                  "key": "env_gbuff_new",
+                  "selector": {
+                    "professionMask": 1023,
+                    "buildableMask": 3,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "valueStr": "act3bossrush_team1_log"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act3bossrush_team02": {
+            "teamId": "act3bossrush_team02",
+            "teamName": "众岁同心",
+            "charIdList": [
+              "char_2014_nian",
+              "char_2015_dusk",
+              "char_2023_ling"
+            ],
+            "teamBuffName": "生生不息",
+            "teamBuffDes": "场上每存在一名炎国干员及其召唤物，所有干员及召唤物生命值+8％且获得+0.8％每秒最大生命值恢复",
+            "teamBuffId": "act3bossrush_team02",
+            "maxCharNum": 10,
+            "runeData": {
+              "id": "act3bossrush_team02",
+              "points": 1.0,
+              "mutexGroupKey": null,
+              "description": "场上每存在一名炎国干员及其召唤物，所有干员及召唤物生命值+8％且获得+0.8％每秒最大生命值恢复",
+              "runes": [
+                {
+                  "key": "char_dynamic_ability_new",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": 3,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "valueStr": "act3bossrush_team2_aura"
+                    },
+                    {
+                      "key": "max_hp",
+                      "value": 0.08
+                    },
+                    {
+                      "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                      "value": 0.008
+                    },
+                    {
+                      "key": "tag",
+                      "valueStr": "yan|lungmen"
+                    }
+                  ]
+                },
+                {
+                  "key": "char_dynamic_ability_new",
+                  "selector": {
+                    "professionMask": 128,
+                    "buildableMask": 3,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "valueStr": "act3bossrush_team2_aura[token]"
+                    },
+                    {
+                      "key": "max_hp",
+                      "value": 0.08
+                    },
+                    {
+                      "key": "key",
+                      "value": 0.008
+                    }
+                  ]
+                },
+                {
+                  "key": "env_gbuff_new",
+                  "selector": {
+                    "professionMask": 1023,
+                    "buildableMask": 3,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "valueStr": "act3bossrush_team2_log"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act3bossrush_team03": {
+            "teamId": "act3bossrush_team03",
+            "teamName": "研究者联盟",
+            "charIdList": [
+              "char_108_silent",
+              "char_135_halo",
+              "char_202_demkni"
+            ],
+            "teamBuffName": "共享实绩",
+            "teamBuffDes": "场上干员每次释放技能时，莱茵生命干员SP+2",
+            "teamBuffId": "act3bossrush_team03",
+            "maxCharNum": 10,
+            "runeData": {
+              "id": "act3bossrush_team03",
+              "points": 1.0,
+              "mutexGroupKey": null,
+              "description": "场上干员每次释放技能时，所有莱茵生命干员回复2点技力",
+              "runes": [
+                {
+                  "key": "char_dynamic_ability_new",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": 3,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "valueStr": "act3bossrush_team3_buff"
+                    },
+                    {
+                      "key": "sp",
+                      "value": 2.0
+                    }
+                  ]
+                },
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 1023,
+                    "buildableMask": 3,
+                    "charIdFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "valueStr": "act3bossrush_team3_log"
+                    },
+                    {
+                      "key": "tag",
+                      "valueStr": "rhine"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "relicList": [
+          {
+            "relicId": "act3bossrush_relic_01",
+            "sortId": 1,
+            "name": "恢复增幅",
+            "icon": "act3bossrush_relic_01",
+            "relicTaskId": "3bossrushActivity_5"
+          },
+          {
+            "relicId": "act3bossrush_relic_02",
+            "sortId": 2,
+            "name": "扩大化战略",
+            "icon": "act3bossrush_relic_02",
+            "relicTaskId": "3bossrushActivity_5"
+          },
+          {
+            "relicId": "act3bossrush_relic_03",
+            "sortId": 3,
+            "name": "经验习得",
+            "icon": "act3bossrush_relic_03",
+            "relicTaskId": "3bossrushActivity_6"
+          },
+          {
+            "relicId": "act3bossrush_relic_04",
+            "sortId": 4,
+            "name": "过热运转",
+            "icon": "act3bossrush_relic_04",
+            "relicTaskId": "3bossrushActivity_7"
+          }
+        ],
+        "relicLevelInfoDataMap": {
+          "act3bossrush_relic_01": {
+            "relicId": "act3bossrush_relic_01",
+            "levelInfos": {
+              "1": {
+                "level": 1,
+                "effectDesc": "波次结束时，所有未撤退的干员在下一波次获得25％庇护效果，受到治疗效果提高20％",
+                "runeData": {
+                  "id": "act3bossrush_relic_01_1",
+                  "points": 1.0,
+                  "mutexGroupKey": null,
+                  "description": "波次结束时，所有未撤退的干员在下一波次获得25％的庇护，受到治疗效果提高20％",
+                  "runes": [
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "valueStr": "act3bossrush_relic1_buff"
+                        },
+                        {
+                          "key": "damage_resistance",
+                          "value": 0.25
+                        },
+                        {
+                          "key": "heal_scale",
+                          "value": 1.2
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 0
+              },
+              "2": {
+                "level": 2,
+                "effectDesc": "波次结束时，所有未撤退的干员在下一波次获得35％庇护效果，受到治疗效果提高30％",
+                "runeData": {
+                  "id": "act3bossrush_relic_01_2",
+                  "points": 1.0,
+                  "mutexGroupKey": null,
+                  "description": "波次结束时，所有未撤退的干员在下一波次获得35％的庇护，受到治疗效果提高30％",
+                  "runes": [
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "valueStr": "act3bossrush_relic1_buff"
+                        },
+                        {
+                          "key": "damage_resistance",
+                          "value": 0.35
+                        },
+                        {
+                          "key": "heal_scale",
+                          "value": 1.3
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 20
+              },
+              "3": {
+                "level": 3,
+                "effectDesc": "波次结束时，所有未撤退的干员在下一波次获得45％庇护效果，受到治疗效果提高40％",
+                "runeData": {
+                  "id": "act3bossrush_relic_01_3",
+                  "points": 1.0,
+                  "mutexGroupKey": null,
+                  "description": "波次结束时，所有未撤退的干员在下一波次获得45％的庇护，受到治疗效果提高40％",
+                  "runes": [
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "valueStr": "act3bossrush_relic1_buff"
+                        },
+                        {
+                          "key": "damage_resistance",
+                          "value": 0.45
+                        },
+                        {
+                          "key": "heal_scale",
+                          "value": 1.4
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 40
+              }
+            }
+          },
+          "act3bossrush_relic_02": {
+            "relicId": "act3bossrush_relic_02",
+            "levelInfos": {
+              "1": {
+                "level": 1,
+                "effectDesc": "部署位+1，干员的再部署时间-10％",
+                "runeData": {
+                  "id": "act3bossrush_relic_02_1",
+                  "points": 1.0,
+                  "mutexGroupKey": null,
+                  "description": "部署位上限+1，干员的再部署时间减少10％",
+                  "runes": [
+                    {
+                      "key": "char_respawntime_mul",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "scale",
+                          "value": 0.9
+                        }
+                      ]
+                    },
+                    {
+                      "key": "global_placable_char_num_add",
+                      "selector": {
+                        "professionMask": 0,
+                        "buildableMask": 0,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "value",
+                          "value": 1.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "env_gbuff_new_with_verify",
+                      "selector": {
+                        "professionMask": 1023,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "valueStr": "act3bossrush_relic2_log"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 0
+              },
+              "2": {
+                "level": 2,
+                "effectDesc": "部署位+2，干员的再部署时间-15％",
+                "runeData": {
+                  "id": "act3bossrush_relic_02_2",
+                  "points": 1.0,
+                  "mutexGroupKey": null,
+                  "description": "部署位+2，干员的再部署时间减少15％",
+                  "runes": [
+                    {
+                      "key": "char_respawntime_mul",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "scale",
+                          "value": 0.85
+                        }
+                      ]
+                    },
+                    {
+                      "key": "global_placable_char_num_add",
+                      "selector": {
+                        "professionMask": 0,
+                        "buildableMask": 0,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "value",
+                          "value": 2.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "env_gbuff_new_with_verify",
+                      "selector": {
+                        "professionMask": 1023,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "valueStr": "act3bossrush_relic2_log"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 20
+              },
+              "3": {
+                "level": 3,
+                "effectDesc": "部署位+3，干员的再部署时间-20％",
+                "runeData": {
+                  "id": "act3bossrush_relic_02_3",
+                  "points": 1.0,
+                  "mutexGroupKey": null,
+                  "description": "部署位+3，干员的再部署时间减少20％",
+                  "runes": [
+                    {
+                      "key": "char_respawntime_mul",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "scale",
+                          "value": 0.8
+                        }
+                      ]
+                    },
+                    {
+                      "key": "global_placable_char_num_add",
+                      "selector": {
+                        "professionMask": 0,
+                        "buildableMask": 0,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "value",
+                          "value": 3.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "env_gbuff_new_with_verify",
+                      "selector": {
+                        "professionMask": 1023,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "valueStr": "act3bossrush_relic2_log"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 40
+              }
+            }
+          },
+          "act3bossrush_relic_03": {
+            "relicId": "act3bossrush_relic_03",
+            "levelInfos": {
+              "1": {
+                "level": 1,
+                "effectDesc": "每击败一名敌人，场上所有干员攻击力+4％（最高+20％）",
+                "runeData": {
+                  "id": "act3bossrush_relic_03_1",
+                  "points": 1.0,
+                  "mutexGroupKey": null,
+                  "description": "每击败一名敌人，场上所有干员攻击力+4％（最高+20％）",
+                  "runes": [
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "valueStr": "act3bossrush_relic3_buff"
+                        },
+                        {
+                          "key": "atk",
+                          "value": 0.04
+                        },
+                        {
+                          "key": "max_stack_cnt",
+                          "value": 5.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 767,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "valueStr": "act3bossrush_relic3_log"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 0
+              },
+              "2": {
+                "level": 2,
+                "effectDesc": "每击败一名敌人，场上所有干员攻击力+6％（最高+30％）",
+                "runeData": {
+                  "id": "act3bossrush_relic_03_2",
+                  "points": 1.0,
+                  "mutexGroupKey": null,
+                  "description": "每击败一名敌人，场上所有干员攻击力+6％（最高+30％）",
+                  "runes": [
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "valueStr": "act3bossrush_relic3_buff"
+                        },
+                        {
+                          "key": "atk",
+                          "value": 0.06
+                        },
+                        {
+                          "key": "max_stack_cnt",
+                          "value": 5.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 767,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "valueStr": "act3bossrush_relic3_log"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 20
+              },
+              "3": {
+                "level": 3,
+                "effectDesc": "每击败一名敌人，场上所有干员攻击力+8％（最高+40％）",
+                "runeData": {
+                  "id": "act3bossrush_relic_03_3",
+                  "points": 1.0,
+                  "mutexGroupKey": null,
+                  "description": "每击败一名敌人，场上所有干员攻击力+8％（最高+40％）",
+                  "runes": [
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "valueStr": "act3bossrush_relic3_buff"
+                        },
+                        {
+                          "key": "atk",
+                          "value": 0.08
+                        },
+                        {
+                          "key": "max_stack_cnt",
+                          "value": 5.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 767,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "valueStr": "act3bossrush_relic3_log"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 40
+              }
+            }
+          },
+          "act3bossrush_relic_04": {
+            "relicId": "act3bossrush_relic_04",
+            "levelInfos": {
+              "1": {
+                "level": 1,
+                "effectDesc": "所有干员每在场上每停留20s，获得效果：每4秒回复1点技力（最多三层）",
+                "runeData": {
+                  "id": "act3bossrush_relic_04_1",
+                  "points": 1.0,
+                  "mutexGroupKey": null,
+                  "description": "所有干员每在场上每停留20s，获得效果：每4秒回复1点技力（最多叠加3次）",
+                  "runes": [
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "valueStr": "act3bossrush_relic4_buff"
+                        },
+                        {
+                          "key": "interval",
+                          "value": 20.0
+                        },
+                        {
+                          "key": "act3bossrush_relic4_buff[sp].sp",
+                          "value": 1.0
+                        },
+                        {
+                          "key": "act3bossrush_relic4_buff[sp].interval",
+                          "value": 4.0
+                        },
+                        {
+                          "key": "max_stack_cnt",
+                          "value": 3.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 1023,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "valueStr": "act3bossrush_relic4_log"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 0
+              },
+              "2": {
+                "level": 2,
+                "effectDesc": "所有干员每在场上每停留20s，获得效果：每3秒回复1点技力（最多三层）",
+                "runeData": {
+                  "id": "act3bossrush_relic_04_2",
+                  "points": 1.0,
+                  "mutexGroupKey": null,
+                  "description": "所有干员每在场上每停留20s，获得效果：每3秒回复1点技力（最多叠加3次）",
+                  "runes": [
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "valueStr": "act3bossrush_relic4_buff"
+                        },
+                        {
+                          "key": "interval",
+                          "value": 20.0
+                        },
+                        {
+                          "key": "act3bossrush_relic4_buff[sp].sp",
+                          "value": 1.0
+                        },
+                        {
+                          "key": "act3bossrush_relic4_buff[sp].interval",
+                          "value": 3.0
+                        },
+                        {
+                          "key": "max_stack_cnt",
+                          "value": 3.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 1023,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "valueStr": "act3bossrush_relic4_log"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 20
+              },
+              "3": {
+                "level": 3,
+                "effectDesc": "所有干员每在场上每停留20s，获得效果：每2秒回复1点技力（最多三层）",
+                "runeData": {
+                  "id": "act3bossrush_relic_04_3",
+                  "points": 1.0,
+                  "mutexGroupKey": null,
+                  "description": "所有干员每在场上每停留20s，获得效果：每4秒回复1点技力（最多叠加3次）",
+                  "runes": [
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 639,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "valueStr": "act3bossrush_relic4_buff"
+                        },
+                        {
+                          "key": "interval",
+                          "value": 20.0
+                        },
+                        {
+                          "key": "act3bossrush_relic4_buff[sp].sp",
+                          "value": 1.0
+                        },
+                        {
+                          "key": "act3bossrush_relic4_buff[sp].interval",
+                          "value": 2.0
+                        },
+                        {
+                          "key": "max_stack_cnt",
+                          "value": 3.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "env_gbuff_new",
+                      "selector": {
+                        "professionMask": 1023,
+                        "buildableMask": 3,
+                        "charIdFilter": null,
+                        "enemyIdFilter": null,
+                        "enemyIdExcludeFilter": null,
+                        "skillIdFilter": null,
+                        "tileKeyFilter": null,
+                        "groupTagFilter": null,
+                        "filterTagFilter": null
+                      },
+                      "blackboard": [
+                        {
+                          "key": "key",
+                          "valueStr": "act3bossrush_relic4_log"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "needItemCount": 40
+              }
+            }
+          }
+        },
+        "mileStoneList": [
+          {
+            "mileStoneId": "mileStone_1",
+            "mileStoneLvl": 1,
+            "needPointCnt": 50,
+            "rewardItem": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_2",
+            "mileStoneLvl": 2,
+            "needPointCnt": 100,
+            "rewardItem": {
+              "id": "2003",
+              "count": 5,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_3",
+            "mileStoneLvl": 3,
+            "needPointCnt": 150,
+            "rewardItem": {
+              "id": "30064",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_4",
+            "mileStoneLvl": 4,
+            "needPointCnt": 200,
+            "rewardItem": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_5",
+            "mileStoneLvl": 5,
+            "needPointCnt": 250,
+            "rewardItem": {
+              "id": "mod_update_token_2",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_6",
+            "mileStoneLvl": 6,
+            "needPointCnt": 300,
+            "rewardItem": {
+              "id": "30043",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_7",
+            "mileStoneLvl": 7,
+            "needPointCnt": 350,
+            "rewardItem": {
+              "id": "3302",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_8",
+            "mileStoneLvl": 8,
+            "needPointCnt": 400,
+            "rewardItem": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_9",
+            "mileStoneLvl": 9,
+            "needPointCnt": 450,
+            "rewardItem": {
+              "id": "2003",
+              "count": 5,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_10",
+            "mileStoneLvl": 10,
+            "needPointCnt": 500,
+            "rewardItem": {
+              "id": "mod_unlock_token",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_11",
+            "mileStoneLvl": 11,
+            "needPointCnt": 575,
+            "rewardItem": {
+              "id": "3401",
+              "count": 100,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_12",
+            "mileStoneLvl": 12,
+            "needPointCnt": 650,
+            "rewardItem": {
+              "id": "3302",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_13",
+            "mileStoneLvl": 13,
+            "needPointCnt": 725,
+            "rewardItem": {
+              "id": "30043",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_14",
+            "mileStoneLvl": 14,
+            "needPointCnt": 800,
+            "rewardItem": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_15",
+            "mileStoneLvl": 15,
+            "needPointCnt": 875,
+            "rewardItem": {
+              "id": "7003",
+              "count": 1,
+              "type": "TKT_GACHA"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_16",
+            "mileStoneLvl": 16,
+            "needPointCnt": 950,
+            "rewardItem": {
+              "id": "mod_update_token_1",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_17",
+            "mileStoneLvl": 17,
+            "needPointCnt": 1025,
+            "rewardItem": {
+              "id": "3302",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_18",
+            "mileStoneLvl": 18,
+            "needPointCnt": 1100,
+            "rewardItem": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_19",
+            "mileStoneLvl": 19,
+            "needPointCnt": 1175,
+            "rewardItem": {
+              "id": "30135",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_20",
+            "mileStoneLvl": 20,
+            "needPointCnt": 1250,
+            "rewardItem": {
+              "id": "mod_update_token_2",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_21",
+            "mileStoneLvl": 21,
+            "needPointCnt": 1325,
+            "rewardItem": {
+              "id": "2003",
+              "count": 5,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_22",
+            "mileStoneLvl": 22,
+            "needPointCnt": 1400,
+            "rewardItem": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_23",
+            "mileStoneLvl": 23,
+            "needPointCnt": 1475,
+            "rewardItem": {
+              "id": "30043",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_24",
+            "mileStoneLvl": 24,
+            "needPointCnt": 1550,
+            "rewardItem": {
+              "id": "30074",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_25",
+            "mileStoneLvl": 25,
+            "needPointCnt": 1625,
+            "rewardItem": {
+              "id": "char_348_ceylon@summer#13",
+              "count": 1,
+              "type": "CHAR_SKIN"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_26",
+            "mileStoneLvl": 26,
+            "needPointCnt": 1725,
+            "rewardItem": {
+              "id": "30043",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_27",
+            "mileStoneLvl": 27,
+            "needPointCnt": 1825,
+            "rewardItem": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_28",
+            "mileStoneLvl": 28,
+            "needPointCnt": 1925,
+            "rewardItem": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_29",
+            "mileStoneLvl": 29,
+            "needPointCnt": 2025,
+            "rewardItem": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_30",
+            "mileStoneLvl": 30,
+            "needPointCnt": 2125,
+            "rewardItem": {
+              "id": "mod_update_token_2",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_31",
+            "mileStoneLvl": 31,
+            "needPointCnt": 2225,
+            "rewardItem": {
+              "id": "3401",
+              "count": 100,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_32",
+            "mileStoneLvl": 32,
+            "needPointCnt": 2325,
+            "rewardItem": {
+              "id": "30155",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_33",
+            "mileStoneLvl": 33,
+            "needPointCnt": 2425,
+            "rewardItem": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_34",
+            "mileStoneLvl": 34,
+            "needPointCnt": 2525,
+            "rewardItem": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_35",
+            "mileStoneLvl": 35,
+            "needPointCnt": 2625,
+            "rewardItem": {
+              "id": "itempack_mod_4",
+              "count": 1,
+              "type": "ITEM_PACK"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_36",
+            "mileStoneLvl": 36,
+            "needPointCnt": 2725,
+            "rewardItem": {
+              "id": "31024",
+              "count": 1,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_37",
+            "mileStoneLvl": 37,
+            "needPointCnt": 2825,
+            "rewardItem": {
+              "id": "3302",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_38",
+            "mileStoneLvl": 38,
+            "needPointCnt": 2925,
+            "rewardItem": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_39",
+            "mileStoneLvl": 39,
+            "needPointCnt": 3025,
+            "rewardItem": {
+              "id": "30043",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_40",
+            "mileStoneLvl": 40,
+            "needPointCnt": 3125,
+            "rewardItem": {
+              "id": "2003",
+              "count": 5,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_41",
+            "mileStoneLvl": 41,
+            "needPointCnt": 3225,
+            "rewardItem": {
+              "id": "3401",
+              "count": 100,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_42",
+            "mileStoneLvl": 42,
+            "needPointCnt": 3325,
+            "rewardItem": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_43",
+            "mileStoneLvl": 43,
+            "needPointCnt": 3425,
+            "rewardItem": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_44",
+            "mileStoneLvl": 44,
+            "needPointCnt": 3525,
+            "rewardItem": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            }
+          },
+          {
+            "mileStoneId": "mileStone_45",
+            "mileStoneLvl": 45,
+            "needPointCnt": 3625,
+            "rewardItem": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            }
+          }
+        ],
+        "bestWaveRuneList": [
+          {
+            "id": "act3bossrush_recodr_1",
+            "points": 0.0,
+            "mutexGroupKey": null,
+            "description": "",
+            "runes": [
+              {
+                "key": "level_predefines_skill_replace",
+                "selector": {
+                  "professionMask": 1023,
+                  "buildableMask": 3,
+                  "charIdFilter": null,
+                  "enemyIdFilter": null,
+                  "enemyIdExcludeFilter": null,
+                  "skillIdFilter": null,
+                  "tileKeyFilter": null,
+                  "groupTagFilter": null,
+                  "filterTagFilter": null
+                },
+                "blackboard": [
+                  {
+                    "key": "key",
+                    "valueStr": "trap_090_recodr#1"
+                  },
+                  {
+                    "key": "skill",
+                    "value": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "act3bossrush_recodr_2",
+            "points": 0.0,
+            "mutexGroupKey": null,
+            "description": "",
+            "runes": [
+              {
+                "key": "level_predefines_skill_replace",
+                "selector": {
+                  "professionMask": 1023,
+                  "buildableMask": 3,
+                  "charIdFilter": null,
+                  "enemyIdFilter": null,
+                  "enemyIdExcludeFilter": null,
+                  "skillIdFilter": null,
+                  "tileKeyFilter": null,
+                  "groupTagFilter": null,
+                  "filterTagFilter": null
+                },
+                "blackboard": [
+                  {
+                    "key": "key",
+                    "valueStr": "trap_090_recodr#2"
+                  },
+                  {
+                    "key": "skill",
+                    "value": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "act3bossrush_recodr_3",
+            "points": 0.0,
+            "mutexGroupKey": null,
+            "description": "",
+            "runes": [
+              {
+                "key": "level_predefines_skill_replace",
+                "selector": {
+                  "professionMask": 1023,
+                  "buildableMask": 3,
+                  "charIdFilter": null,
+                  "enemyIdFilter": null,
+                  "enemyIdExcludeFilter": null,
+                  "skillIdFilter": null,
+                  "tileKeyFilter": null,
+                  "groupTagFilter": null,
+                  "filterTagFilter": null
+                },
+                "blackboard": [
+                  {
+                    "key": "key",
+                    "valueStr": "trap_090_recodr#3"
+                  },
+                  {
+                    "key": "skill",
+                    "value": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constData": {
+          "maxProvidedCharNum": 3,
+          "textMilestoneItemLevelDesc": "试炼等级达到<color=#DBB98C>25</color>级获得",
+          "milestonePointId": "act3bossrush_milestone_point",
+          "relicUpgradeItemId": "act3bossrush_token_relic",
+          "defaultRelictList": [
+            "act3bossrush_relic_01"
+          ],
+          "rewardSkinId": "char_348_ceylon@summer#13"
+        }
+      },
       "act2bossrush": {
         "zoneAdditionDataMap": {
           "act2bossrush_zone1": {
@@ -118297,6 +121439,14 @@
     }
   },
   "activityItems": {
+    "act3bossrush": [
+      "act3bossrush_milestone_point",
+      "act3bossrush_token_relic",
+      "act3bossrush_relic_01",
+      "act3bossrush_relic_02",
+      "act3bossrush_relic_03",
+      "act3bossrush_relic_04"
+    ],
     "act27side": [
       "act27side_token_fur"
     ],
@@ -121465,6 +124615,21 @@
         }
       ],
       "startTs": 1690862400
+    },
+    {
+      "id": "dis_bossrush_3",
+      "type": "ACTIVITY",
+      "funcId": "act3bossrush",
+      "endTs": 1693511999,
+      "sortId": 58,
+      "itemId": null,
+      "timeNodes": [
+        {
+          "title": "<引航者试炼>活动已开放",
+          "ts": 1692345600
+        }
+      ],
+      "startTs": 1692345600
     }
   ],
   "actFunData": {
