@@ -313,6 +313,14 @@
           "occPer": "ALWAYS"
         },
         {
+          "stageId": "main_13-07",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "tough_13-07",
+          "occPer": "ALWAYS"
+        },
+        {
           "stageId": "sub_04-2-3",
           "occPer": "ALWAYS"
         },
@@ -1231,7 +1239,7 @@
     },
     "ap_supply_lt_120_2023_4": {
       "itemId": "ap_supply_lt_120_2023_4",
-      "name": "“藏金波“",
+      "name": "“藏金波”",
       "description": "香甜脆爽的糖皮月饼，食用前记得加热哦！",
       "rarity": 4,
       "iconId": "ap_supply_lt_120_2023_4",
@@ -2155,7 +2163,13 @@
       "classifyType": "CONSUME",
       "itemType": "ITEM_PACK",
       "stageDropList": [],
-      "buildingProductList": []
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_chipPackage",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        }
+      ]
     },
     "itempack_mod_8": {
       "itemId": "itempack_mod_8",
@@ -2171,7 +2185,13 @@
       "classifyType": "CONSUME",
       "itemType": "ITEM_PACK",
       "stageDropList": [],
-      "buildingProductList": []
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_chipPackage",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        }
+      ]
     },
     "itempack_mod_9": {
       "itemId": "itempack_mod_9",
@@ -2187,7 +2207,13 @@
       "classifyType": "CONSUME",
       "itemType": "ITEM_PACK",
       "stageDropList": [],
-      "buildingProductList": []
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_chipPackage",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        }
+      ]
     },
     "itempack_mod_10": {
       "itemId": "itempack_mod_10",
@@ -2203,7 +2229,13 @@
       "classifyType": "CONSUME",
       "itemType": "ITEM_PACK",
       "stageDropList": [],
-      "buildingProductList": []
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_chipPackage",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        }
+      ]
     },
     "itempack_mod_11": {
       "itemId": "itempack_mod_11",
@@ -2219,7 +2251,13 @@
       "classifyType": "CONSUME",
       "itemType": "ITEM_PACK",
       "stageDropList": [],
-      "buildingProductList": []
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_chipPackage",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        }
+      ]
     },
     "itempack_mod_12": {
       "itemId": "itempack_mod_12",
@@ -2235,7 +2273,13 @@
       "classifyType": "CONSUME",
       "itemType": "ITEM_PACK",
       "stageDropList": [],
-      "buildingProductList": []
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_chipPackage",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        }
+      ]
     },
     "itempack_mod_13": {
       "itemId": "itempack_mod_13",
@@ -2251,7 +2295,13 @@
       "classifyType": "CONSUME",
       "itemType": "ITEM_PACK",
       "stageDropList": [],
-      "buildingProductList": []
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_chipPackage",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        }
+      ]
     },
     "itempack_mod_14": {
       "itemId": "itempack_mod_14",
@@ -2267,7 +2317,13 @@
       "classifyType": "CONSUME",
       "itemType": "ITEM_PACK",
       "stageDropList": [],
-      "buildingProductList": []
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_chipPackage",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        }
+      ]
     },
     "randomMaterialRune_0": {
       "itemId": "randomMaterialRune_0",
@@ -2813,6 +2869,14 @@
         },
         {
           "stageId": "tough_12-08",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "main_13-01",
+          "occPer": "ALWAYS"
+        },
+        {
+          "stageId": "tough_13-01",
           "occPer": "ALWAYS"
         },
         {
@@ -3843,7 +3907,7 @@
       "iconId": "MTL_SL_KETONE1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100049,
+      "sortId": 100053,
       "usage": "极少量的工业用有机化合物。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -4140,7 +4204,7 @@
       "iconId": "MTL_SL_KETONE2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100048,
+      "sortId": 100052,
       "usage": "少量的工业用有机化合物。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -4290,7 +4354,7 @@
       "iconId": "MTL_SL_KETONE3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100047,
+      "sortId": 100051,
       "usage": "中等量的工业用有机化合物。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -4387,12 +4451,26 @@
         {
           "stageId": "tough_12-18",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_13-03",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-03",
+          "occPer": "OFTEN"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
           "formulaId": "23"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
         }
       ]
     },
@@ -4404,7 +4482,7 @@
       "iconId": "MTL_SL_KETONE4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100046,
+      "sortId": 100050,
       "usage": "大量的工业用有机化合物。可用于多种强化场合，也常作为制作聚合剂的原料之一。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -4437,12 +4515,26 @@
         {
           "stageId": "tough_12-18",
           "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-03",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-03",
+          "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
           "formulaId": "24"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
         }
       ]
     },
@@ -4454,7 +4546,7 @@
       "iconId": "MTL_SL_IRON1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100045,
+      "sortId": 100049,
       "usage": "普普通通的工业材料。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -4755,7 +4847,7 @@
       "iconId": "MTL_SL_IRON2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100044,
+      "sortId": 100048,
       "usage": "罕见的工业材料。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -4909,7 +5001,7 @@
       "iconId": "MTL_SL_IRON3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100043,
+      "sortId": 100047,
       "usage": "珍贵的工业材料。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -4980,6 +5072,14 @@
           "occPer": "OFTEN"
         },
         {
+          "stageId": "main_13-14",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-14",
+          "occPer": "OFTEN"
+        },
+        {
           "stageId": "sub_04-1-1",
           "occPer": "OFTEN"
         }
@@ -4988,6 +5088,12 @@
         {
           "roomType": "WORKSHOP",
           "formulaId": "26"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
         }
       ]
     },
@@ -4999,7 +5105,7 @@
       "iconId": "MTL_SL_IRON4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100042,
+      "sortId": 100046,
       "usage": "价值高昂的工业材料。可用于多种强化场合，也常作为制作聚合剂的原料之一。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5030,6 +5136,14 @@
           "occPer": "SOMETIMES"
         },
         {
+          "stageId": "main_13-14",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-14",
+          "occPer": "SOMETIMES"
+        },
+        {
           "stageId": "sub_04-1-1",
           "occPer": "SOMETIMES"
         }
@@ -5038,6 +5152,12 @@
         {
           "roomType": "WORKSHOP",
           "formulaId": "27"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
         }
       ]
     },
@@ -5049,7 +5169,7 @@
       "iconId": "MTL_SL_STRG1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100041,
+      "sortId": 100045,
       "usage": "机械化制作的廉价天然糖替代产物，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5366,7 +5486,7 @@
       "iconId": "MTL_SL_STRG2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100040,
+      "sortId": 100044,
       "usage": "机械化制作的少量糖块，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5536,7 +5656,7 @@
       "iconId": "MTL_SL_STRG3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100039,
+      "sortId": 100043,
       "usage": "机械化制作的中等量糖块，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5625,12 +5745,26 @@
         {
           "stageId": "tough_12-12",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_13-15",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-15",
+          "occPer": "OFTEN"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
           "formulaId": "32"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
         }
       ]
     },
@@ -5642,7 +5776,7 @@
       "iconId": "MTL_SL_STRG4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100038,
+      "sortId": 100042,
       "usage": "机械化制作的大量糖块，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5675,12 +5809,26 @@
         {
           "stageId": "tough_12-12",
           "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-15",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-15",
+          "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
           "formulaId": "33"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
         }
       ]
     },
@@ -5692,7 +5840,7 @@
       "iconId": "MTL_SL_RUSH1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100037,
+      "sortId": 100041,
       "usage": "工业制造所需的酯原料，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -5997,7 +6145,7 @@
       "iconId": "MTL_SL_RUSH2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100036,
+      "sortId": 100040,
       "usage": "工业制造所需的零散聚酸酯，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -6139,14 +6287,14 @@
       "iconId": "MTL_SL_RUSH3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100035,
+      "sortId": 100039,
       "usage": "工业制造所需的一组聚酸酯，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act13mini_07",
+          "stageId": "act14mini_07",
           "occPer": "USUAL"
         },
         {
@@ -6178,15 +6326,15 @@
           "occPer": "ALMOST"
         },
         {
+          "stageId": "act13mini_07",
+          "occPer": "USUAL"
+        },
+        {
           "stageId": "act10d5_05",
           "occPer": "OFTEN"
         },
         {
           "stageId": "act4d0_05",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act14mini_07",
           "occPer": "USUAL"
         },
         {
@@ -6220,12 +6368,26 @@
         {
           "stageId": "tough_12-16",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_13-10",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-10",
+          "occPer": "OFTEN"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
           "formulaId": "29"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
         }
       ]
     },
@@ -6237,7 +6399,7 @@
       "iconId": "MTL_SL_RUSH4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100034,
+      "sortId": 100038,
       "usage": "工业制造所需的成块聚酸酯，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -6262,12 +6424,26 @@
         {
           "stageId": "tough_12-16",
           "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-10",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-10",
+          "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
           "formulaId": "30"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
         }
       ]
     },
@@ -6279,7 +6455,7 @@
       "iconId": "MTL_SL_BOSS1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100033,
+      "sortId": 100037,
       "usage": "收缴来的破损机械装置，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -6596,7 +6772,7 @@
       "iconId": "MTL_SL_BOSS2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100032,
+      "sortId": 100036,
       "usage": "收缴来的常规机械装置，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -6766,26 +6942,26 @@
       "iconId": "MTL_SL_BOSS3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100031,
+      "sortId": 100035,
       "usage": "收缴来的全新机械装置，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act15mini_08",
-          "occPer": "OFTEN"
+          "stageId": "act18d3_09",
+          "occPer": "USUAL"
         },
         {
           "stageId": "act12mini_08",
           "occPer": "OFTEN"
         },
         {
-          "stageId": "act15side_06",
-          "occPer": "USUAL"
+          "stageId": "act15mini_08",
+          "occPer": "OFTEN"
         },
         {
-          "stageId": "act18d3_09",
+          "stageId": "act15side_06",
           "occPer": "USUAL"
         },
         {
@@ -6829,6 +7005,14 @@
           "occPer": "OFTEN"
         },
         {
+          "stageId": "main_13-08",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-08",
+          "occPer": "OFTEN"
+        },
+        {
           "stageId": "main_11-18",
           "occPer": "OFTEN"
         },
@@ -6842,6 +7026,12 @@
           "roomType": "WORKSHOP",
           "formulaId": "20"
         }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
       ]
     },
     "30064": {
@@ -6852,7 +7042,7 @@
       "iconId": "MTL_SL_BOSS4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100030,
+      "sortId": 100034,
       "usage": "收缴来的高等机械装置，可用于多种强化场合，也常作为制作双极纳米片的原料之一。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -6864,6 +7054,14 @@
         },
         {
           "stageId": "main_07-07",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-08",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-08",
           "occPer": "SOMETIMES"
         },
         {
@@ -6880,6 +7078,12 @@
           "roomType": "WORKSHOP",
           "formulaId": "21"
         }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
       ]
     },
     "30011": {
@@ -6890,7 +7094,7 @@
       "iconId": "MTL_SL_G1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100029,
+      "sortId": 100033,
       "usage": "从地表开采出的岩石，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7211,7 +7415,7 @@
       "iconId": "MTL_SL_G2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100028,
+      "sortId": 100032,
       "usage": "从地表开采出的岩石固块，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7365,7 +7569,7 @@
       "iconId": "MTL_SL_G3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100027,
+      "sortId": 100031,
       "usage": "从地表开采出的岩石固块组，可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7454,12 +7658,26 @@
         {
           "stageId": "tough_12-13",
           "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_13-02",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "tough_13-02",
+          "occPer": "USUAL"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
           "formulaId": "35"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
         }
       ]
     },
@@ -7471,7 +7689,7 @@
       "iconId": "MTL_SL_G4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100026,
+      "sortId": 100030,
       "usage": "从地表开采出的岩石固块组提纯出的物质，可用于多种强化场合，也常作为制作聚合剂的原料之一。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7508,12 +7726,26 @@
         {
           "stageId": "tough_12-13",
           "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-02",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-02",
+          "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
           "formulaId": "36"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
         }
       ]
     },
@@ -7525,7 +7757,7 @@
       "iconId": "MTL_SL_RMA7012",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100025,
+      "sortId": 100029,
       "usage": "一种敏感且有良好传导效果的矿物。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7616,7 +7848,13 @@
           "occPer": "OFTEN"
         }
       ],
-      "buildingProductList": []
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
+      ]
     },
     "30104": {
       "itemId": "30104",
@@ -7626,7 +7864,7 @@
       "iconId": "MTL_SL_RMA7024",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100024,
+      "sortId": 100028,
       "usage": "一种十分敏感且有优秀传导效果的矿物。可用于多种强化场合，也常作为制作D32钢的原料之一。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7670,6 +7908,12 @@
           "roomType": "WORKSHOP",
           "formulaId": "15"
         }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
       ]
     },
     "30093": {
@@ -7680,7 +7924,7 @@
       "iconId": "MTL_SL_PG1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100023,
+      "sortId": 100027,
       "usage": "用于加工武器零件的研磨石。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7761,9 +8005,23 @@
         {
           "stageId": "tough_12-07",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_13-19",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-19",
+          "occPer": "OFTEN"
         }
       ],
-      "buildingProductList": []
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
+      ]
     },
     "30094": {
       "itemId": "30094",
@@ -7773,7 +8031,7 @@
       "iconId": "MTL_SL_PG2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100022,
+      "sortId": 100026,
       "usage": "用于精加工武器零件的高级研磨石。可用于多种强化场合，也常作为制作D32钢的原料之一。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7794,12 +8052,26 @@
         {
           "stageId": "tough_12-07",
           "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-19",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-19",
+          "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
           "formulaId": "16"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
         }
       ]
     },
@@ -7811,14 +8083,14 @@
       "iconId": "MTL_SL_MANGANESE1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100021,
+      "sortId": 100025,
       "usage": "用于提炼冶炼用的金属矿物。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
         {
-          "stageId": "act27side_08",
+          "stageId": "act13d5_08",
           "occPer": "USUAL"
         },
         {
@@ -7826,11 +8098,11 @@
           "occPer": "USUAL"
         },
         {
-          "stageId": "act17d0_07",
+          "stageId": "act27side_08",
           "occPer": "USUAL"
         },
         {
-          "stageId": "act13d5_08",
+          "stageId": "act17d0_07",
           "occPer": "USUAL"
         },
         {
@@ -7876,9 +8148,31 @@
         {
           "stageId": "tough_10-14",
           "occPer": "USUAL"
+        },
+        {
+          "stageId": "main_13-09",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-09",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_13-18",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-18",
+          "occPer": "OFTEN"
         }
       ],
-      "buildingProductList": []
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
+      ]
     },
     "30084": {
       "itemId": "30084",
@@ -7888,7 +8182,7 @@
       "iconId": "MTL_SL_MANGANESE2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100020,
+      "sortId": 100024,
       "usage": "用于提炼冶炼用的金属矿物。可用于多种强化场合，也常作为制作D32钢的原料之一。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -7917,12 +8211,34 @@
         {
           "stageId": "tough_10-06",
           "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-09",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-09",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-18",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-18",
+          "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
           "formulaId": "17"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
         }
       ]
     },
@@ -7934,7 +8250,7 @@
       "iconId": "MTL_SL_ALCOHOL1",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100019,
+      "sortId": 100023,
       "usage": "片状有机化合物。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8031,9 +8347,23 @@
         {
           "stageId": "tough_12-05",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_13-17",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-17",
+          "occPer": "OFTEN"
         }
       ],
-      "buildingProductList": []
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
+      ]
     },
     "30074": {
       "itemId": "30074",
@@ -8043,7 +8373,7 @@
       "iconId": "MTL_SL_ALCOHOL2",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100018,
+      "sortId": 100022,
       "usage": "片状有机化合物。可用于多种强化场合，也常作为制作双极纳米片的原料之一。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8088,12 +8418,26 @@
         {
           "stageId": "tough_12-05",
           "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-17",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-17",
+          "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
           "formulaId": "18"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
         }
       ]
     },
@@ -8105,7 +8449,7 @@
       "iconId": "MTL_SL_PGEL3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100017,
+      "sortId": 100021,
       "usage": "一种高强度的可塑性材料。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8176,7 +8520,13 @@
           "occPer": "OFTEN"
         }
       ],
-      "buildingProductList": []
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
+      ]
     },
     "31014": {
       "itemId": "31014",
@@ -8186,7 +8536,7 @@
       "iconId": "MTL_SL_PGEL4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100016,
+      "sortId": 100020,
       "usage": "一种具备极高强度的可塑性材料。可用于多种强化场合。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8234,6 +8584,12 @@
           "roomType": "WORKSHOP",
           "formulaId": "56"
         }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
       ]
     },
     "31023": {
@@ -8244,7 +8600,7 @@
       "iconId": "MTL_SL_IAM3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100015,
+      "sortId": 100019,
       "usage": "电子工业用特殊高熔点合金。可用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8319,6 +8675,22 @@
           "occPer": "OFTEN"
         },
         {
+          "stageId": "main_13-05",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-05",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_13-16",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-16",
+          "occPer": "OFTEN"
+        },
+        {
           "stageId": "sub_05-4-2",
           "occPer": "OFTEN"
         },
@@ -8327,7 +8699,13 @@
           "occPer": "OFTEN"
         }
       ],
-      "buildingProductList": []
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
+      ]
     },
     "31024": {
       "itemId": "31024",
@@ -8337,7 +8715,7 @@
       "iconId": "MTL_SL_IAM4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100014,
+      "sortId": 100018,
       "usage": "产量稀少的电子工业用特殊高熔点合金。可用于多种强化场合。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8380,6 +8758,22 @@
           "occPer": "SOMETIMES"
         },
         {
+          "stageId": "main_13-05",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-05",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-16",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-16",
+          "occPer": "SOMETIMES"
+        },
+        {
           "stageId": "sub_05-4-2",
           "occPer": "SOMETIMES"
         }
@@ -8388,6 +8782,12 @@
         {
           "roomType": "WORKSHOP",
           "formulaId": "55"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
         }
       ]
     },
@@ -8399,12 +8799,28 @@
       "iconId": "MTL_SL_OC3",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100013,
+      "sortId": 100017,
       "usage": "重要的源石工业材料，可用于多种强化场合，可以制作与合成更高级的源石电子元件。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
       "stageDropList": [
+        {
+          "stageId": "act18d3_08",
+          "occPer": "USUAL"
+        },
+        {
+          "stageId": "act9mini_05",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act8mini_06",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "act13side_09",
+          "occPer": "USUAL"
+        },
         {
           "stageId": "act27side_07",
           "occPer": "ALMOST"
@@ -8419,22 +8835,6 @@
         },
         {
           "stageId": "act10mini_08",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act13side_09",
-          "occPer": "USUAL"
-        },
-        {
-          "stageId": "act9mini_05",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act8mini_06",
-          "occPer": "OFTEN"
-        },
-        {
-          "stageId": "act18d3_08",
           "occPer": "USUAL"
         },
         {
@@ -8462,15 +8862,29 @@
           "occPer": "OFTEN"
         },
         {
-          "stageId": "sub_03-3-2",
+          "stageId": "main_13-06",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-06",
           "occPer": "OFTEN"
         },
         {
           "stageId": "sub_05-4-3",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "sub_03-3-2",
+          "occPer": "OFTEN"
         }
       ],
-      "buildingProductList": []
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
+      ]
     },
     "31034": {
       "itemId": "31034",
@@ -8480,7 +8894,7 @@
       "iconId": "MTL_SL_OC4",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100012,
+      "sortId": 100016,
       "usage": "重要的源石工业材料，可用于多种强化场合，是制作源石晶体单元的基础元件。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8507,6 +8921,14 @@
           "occPer": "SOMETIMES"
         },
         {
+          "stageId": "main_13-06",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-06",
+          "occPer": "SOMETIMES"
+        },
+        {
           "stageId": "sub_05-4-3",
           "occPer": "SOMETIMES"
         }
@@ -8515,6 +8937,12 @@
         {
           "roomType": "WORKSHOP",
           "formulaId": "58"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
         }
       ]
     },
@@ -8526,7 +8954,7 @@
       "iconId": "MTL_SL_SS",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100011,
+      "sortId": 100015,
       "usage": "一种物理性能优异，耐酸碱性良好的活性溶剂。可用于多种强化场合。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8567,9 +8995,23 @@
         {
           "stageId": "tough_12-09",
           "occPer": "OFTEN"
+        },
+        {
+          "stageId": "main_13-12",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-12",
+          "occPer": "OFTEN"
         }
       ],
-      "buildingProductList": []
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
+      ]
     },
     "31044": {
       "itemId": "31044",
@@ -8579,7 +9021,7 @@
       "iconId": "MTL_SL_RS",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100010,
+      "sortId": 100014,
       "usage": "经特殊工艺制作而成特殊涂料。用于高级强化场合。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8608,12 +9050,26 @@
         {
           "stageId": "tough_12-09",
           "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-12",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-12",
+          "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
           "formulaId": "59"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
         }
       ]
     },
@@ -8625,7 +9081,7 @@
       "iconId": "MTL_SL_CCF",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100009,
+      "sortId": 100013,
       "usage": "一种金属加工时必备的工业试剂。可用于多种强化场合。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8660,7 +9116,13 @@
           "occPer": "OFTEN"
         }
       ],
-      "buildingProductList": []
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
+      ]
     },
     "31054": {
       "itemId": "31054",
@@ -8670,7 +9132,7 @@
       "iconId": "MTL_SL_PLCF",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100008,
+      "sortId": 100012,
       "usage": "由多种活性溶剂配置而成的原液。用于高级强化场合。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8702,6 +9164,12 @@
           "roomType": "WORKSHOP",
           "formulaId": "60"
         }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
       ]
     },
     "31063": {
@@ -8712,7 +9180,7 @@
       "iconId": "MTL_SL_ZY",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100007,
+      "sortId": 100011,
       "usage": "经过粗炼处理的化合物结晶。可用于多种强化场合。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8747,11 +9215,25 @@
           "occPer": "OFTEN"
         },
         {
+          "stageId": "main_13-11",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-11",
+          "occPer": "OFTEN"
+        },
+        {
           "stageId": "sub_09-1-2",
           "occPer": "OFTEN"
         }
       ],
-      "buildingProductList": []
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
+      ]
     },
     "31064": {
       "itemId": "31064",
@@ -8761,7 +9243,7 @@
       "iconId": "MTL_SL_ZYK",
       "overrideBkg": null,
       "stackIconId": null,
-      "sortId": 100006,
+      "sortId": 100010,
       "usage": "经过精炼处理的化合物结晶块。用于多种强化场合，也常作为制造站合成项目的原料。",
       "obtainApproach": null,
       "classifyType": "MATERIAL",
@@ -8790,12 +9272,160 @@
         {
           "stageId": "tough_12-11",
           "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "main_13-11",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-11",
+          "occPer": "SOMETIMES"
         }
       ],
       "buildingProductList": [
         {
           "roomType": "WORKSHOP",
           "formulaId": "61"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
+      ]
+    },
+    "31073": {
+      "itemId": "31073",
+      "name": "褐素纤维",
+      "description": "源石工业的衍生产物，因其优异的性能在工业领域被广泛应用。近年来又因独特的外观而被设计行业所关注。",
+      "rarity": 2,
+      "iconId": "MTL_SL_XW",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100009,
+      "usage": "具备高强度与高模量的特种纤维束。可用于多种强化场合。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_13-04",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-04",
+          "occPer": "OFTEN"
+        }
+      ],
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
+      ]
+    },
+    "31074": {
+      "itemId": "31074",
+      "name": "固化纤维板",
+      "description": "用特殊工艺制作的复合纤维板，物理与化学性能均相当优异，更具备少有的易加工特性，在许多工业流程中不可替代。",
+      "rarity": 3,
+      "iconId": "MTL_SL_XWB",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100008,
+      "usage": "经过塑形固化处理的特种纤维板。可用于多种强化场合。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_13-04",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-04",
+          "occPer": "SOMETIMES"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "63"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
+      ]
+    },
+    "31083": {
+      "itemId": "31083",
+      "name": "环烃聚质",
+      "description": "在实验室内诞生的新型透明材料，具备高透光度和优秀的各项耐性，将成为许多传统材料的优质替代品。",
+      "rarity": 2,
+      "iconId": "MTL_SL_HT",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100007,
+      "usage": "一种耐热性、耐化学性俱优的工业材料。可用于多种强化场合。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_13-13",
+          "occPer": "OFTEN"
+        },
+        {
+          "stageId": "tough_13-13",
+          "occPer": "OFTEN"
+        }
+      ],
+      "buildingProductList": [],
+      "voucherRelateList": [
+        {
+          "voucherId": "advanced_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
+        }
+      ]
+    },
+    "31084": {
+      "itemId": "31084",
+      "name": "环烃预制体",
+      "description": "在合成流程中加入多种优良材料而得到的工业产品，保证透光度的同时大幅提升了强度与抗冲击性，在防护领域具有广阔应用前景。",
+      "rarity": 3,
+      "iconId": "MTL_SL_HTT",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 100006,
+      "usage": "由多种优良材料预加工而成的工业用材。可用于多种强化场合。",
+      "obtainApproach": null,
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [
+        {
+          "stageId": "main_13-13",
+          "occPer": "SOMETIMES"
+        },
+        {
+          "stageId": "tough_13-13",
+          "occPer": "SOMETIMES"
+        }
+      ],
+      "buildingProductList": [
+        {
+          "roomType": "WORKSHOP",
+          "formulaId": "64"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "premium_material_issue_voucher",
+          "voucherItemType": "MATERIAL_ISSUE_VOUCHER"
         }
       ]
     },
@@ -9294,6 +9924,12 @@
           "roomType": "WORKSHOP",
           "formulaId": "51"
         }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_chipPack",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        }
       ]
     },
     "3222": {
@@ -9319,6 +9955,12 @@
         {
           "roomType": "WORKSHOP",
           "formulaId": "53"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_chipPack",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
         }
       ]
     },
@@ -9346,6 +9988,12 @@
           "roomType": "WORKSHOP",
           "formulaId": "47"
         }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_chipPack",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        }
       ]
     },
     "3242": {
@@ -9371,6 +10019,12 @@
         {
           "roomType": "WORKSHOP",
           "formulaId": "49"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_chipPack",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
         }
       ]
     },
@@ -9398,6 +10052,12 @@
           "roomType": "WORKSHOP",
           "formulaId": "50"
         }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_chipPack",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        }
       ]
     },
     "3262": {
@@ -9423,6 +10083,12 @@
         {
           "roomType": "WORKSHOP",
           "formulaId": "48"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_chipPack",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
         }
       ]
     },
@@ -9450,6 +10116,12 @@
           "roomType": "WORKSHOP",
           "formulaId": "52"
         }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_chipPack",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        }
       ]
     },
     "3282": {
@@ -9475,6 +10147,12 @@
         {
           "roomType": "WORKSHOP",
           "formulaId": "54"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_chipPack",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
         }
       ]
     },
@@ -9502,6 +10180,16 @@
           "roomType": "WORKSHOP",
           "formulaId": "43"
         }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_5chipPackage",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        },
+        {
+          "voucherId": "voucher_chip",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        }
       ]
     },
     "3221": {
@@ -9527,6 +10215,16 @@
         {
           "roomType": "WORKSHOP",
           "formulaId": "45"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_5chipPackage",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        },
+        {
+          "voucherId": "voucher_chip",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
         }
       ]
     },
@@ -9554,6 +10252,16 @@
           "roomType": "WORKSHOP",
           "formulaId": "39"
         }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_5chipPackage",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        },
+        {
+          "voucherId": "voucher_chip",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        }
       ]
     },
     "3241": {
@@ -9579,6 +10287,16 @@
         {
           "roomType": "WORKSHOP",
           "formulaId": "41"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_5chipPackage",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        },
+        {
+          "voucherId": "voucher_chip",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
         }
       ]
     },
@@ -9606,6 +10324,16 @@
           "roomType": "WORKSHOP",
           "formulaId": "42"
         }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_5chipPackage",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        },
+        {
+          "voucherId": "voucher_chip",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        }
       ]
     },
     "3261": {
@@ -9631,6 +10359,16 @@
         {
           "roomType": "WORKSHOP",
           "formulaId": "40"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_5chipPackage",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        },
+        {
+          "voucherId": "voucher_chip",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
         }
       ]
     },
@@ -9658,6 +10396,16 @@
           "roomType": "WORKSHOP",
           "formulaId": "44"
         }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_5chipPackage",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        },
+        {
+          "voucherId": "voucher_chip",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        }
       ]
     },
     "3281": {
@@ -9683,6 +10431,16 @@
         {
           "roomType": "WORKSHOP",
           "formulaId": "46"
+        }
+      ],
+      "voucherRelateList": [
+        {
+          "voucherId": "voucher_5chipPackage",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
+        },
+        {
+          "voucherId": "voucher_chip",
+          "voucherItemType": "OPTIONAL_VOUCHER_PICK"
         }
       ]
     },
@@ -11728,6 +12486,22 @@
       "stackIconId": null,
       "sortId": 800052,
       "usage": "用于提升休谟斯的潜能。",
+      "obtainApproach": "干员入职的馈赠",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_4107_vrdant": {
+      "itemId": "p_char_4107_vrdant",
+      "name": "维荻的信物",
+      "description": "一株看似杂草的小草，对他有特殊的意义。小草的叶片被割出锋利的切口，不用害怕，这不是为了伤害你。",
+      "rarity": 3,
+      "iconId": "p_char_4107_vrdant",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 800053,
+      "usage": "用于提升维荻的潜能。",
       "obtainApproach": "干员入职的馈赠",
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
@@ -13814,6 +14588,38 @@
       "stageDropList": [],
       "buildingProductList": []
     },
+    "p_char_4110_delphn": {
+      "itemId": "p_char_4110_delphn",
+      "name": "戴菲恩的信物",
+      "description": "一枚精致的袖扣。温德米尔出身的军人向来军容整洁，一丝不苟，现在她主动将这枚小信物摘下送给你。",
+      "rarity": 4,
+      "iconId": "p_char_4110_delphn",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700130,
+      "usage": "用于提升戴菲恩的潜能。",
+      "obtainApproach": "干员入职的馈赠",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_494_vendla": {
+      "itemId": "p_char_494_vendla",
+      "name": "刺玫的信物",
+      "description": "一枝枯萎的白玫瑰，米黄色花瓣上浸染了无法抹去的暗红痕迹，记录着她过去生活的某段回忆。过往已逝，她能攥住的并不多。",
+      "rarity": 4,
+      "iconId": "p_char_494_vendla",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 700131,
+      "usage": "用于提升刺玫的潜能。",
+      "obtainApproach": "干员入职的馈赠",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
     "p_char_103_angel": {
       "itemId": "p_char_103_angel",
       "name": "能天使的信物",
@@ -15088,6 +15894,22 @@
       "stackIconId": null,
       "sortId": 600080,
       "usage": "用于提升涤火杰西卡的潜能。",
+      "obtainApproach": "干员入职的馈赠",
+      "classifyType": "MATERIAL",
+      "itemType": "MATERIAL",
+      "stageDropList": [],
+      "buildingProductList": []
+    },
+    "p_char_4088_hodrer": {
+      "itemId": "p_char_4088_hodrer",
+      "name": "赫德雷的信物",
+      "description": "一本页角被燎焦的笔记。所记录的不仅有行动的结果，还有从灰烬中抖落的，萨卡兹们的生活。",
+      "rarity": 5,
+      "iconId": "p_char_4088_hodrer",
+      "overrideBkg": null,
+      "stackIconId": null,
+      "sortId": 600081,
+      "usage": "用于提升赫德雷的潜能。",
       "obtainApproach": "干员入职的馈赠",
       "classifyType": "MATERIAL",
       "itemType": "MATERIAL",
@@ -23137,6 +23959,8 @@
     "furni_dropS034_gravity_01": 1,
     "furni_dropS034_Image_01": 1,
     "furni_terratimes_BSW_01": 1,
+    "furni_terratimes_RhodesIsland_01": 1,
+    "furni_terracommericials_HotWaterKettle_01": 1,
     "furni_contract_s0_01": 1,
     "furni_contract_s1_01": 1,
     "furni_contract_s2_01": 1,
@@ -23450,7 +24274,11 @@
     "char_420_flamtl@game#2": 1,
     "char_346_aosta@game#2": 1,
     "char_478_kirara@game#2": 1,
-    "char_4014_lunacu@yun#1": 1
+    "char_4014_lunacu@yun#1": 1,
+    "char_4048_doroth@witch#4": 1,
+    "char_300_phenxi@witch#4": 1,
+    "char_492_quercu@witch#4": 1,
+    "char_436_whispr@witch#4": 1
   },
   "itemTimeLimit": {
     "renamingCard_0_018": 180,
