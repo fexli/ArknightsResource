@@ -9,7 +9,10 @@
     "steeringEnabled": true,
     "isTrainingLevel": true,
     "isHardTrainingLevel": false,
-    "functionDisableMask": 256
+    "isPredefinedCardsSelectable": false,
+    "maxPlayTime": -1.0,
+    "functionDisableMask": 256,
+    "configBlackBoard": null
   },
   "levelId": null,
   "mapId": null,
@@ -292,22 +295,18 @@
         "blackboard": [
           {
             "key": "damage",
-            "value": 100000.0,
-            "valueStr": null
+            "value": 100000.0
           },
           {
             "key": "cd_min",
-            "value": 0.1,
-            "valueStr": null
+            "value": 0.1
           },
           {
             "key": "cd_max",
-            "value": 0.1,
-            "valueStr": null
+            "value": 0.1
           },
           {
             "key": "buff_key",
-            "value": 0.0,
             "valueStr": "emperor_s_1[b]"
           }
         ],
@@ -430,22 +429,18 @@
         "blackboard": [
           {
             "key": "damage",
-            "value": 100000.0,
-            "valueStr": null
+            "value": 100000.0
           },
           {
             "key": "cd_min",
-            "value": 0.1,
-            "valueStr": null
+            "value": 0.1
           },
           {
             "key": "cd_max",
-            "value": 0.1,
-            "valueStr": null
+            "value": 0.1
           },
           {
             "key": "buff_key",
-            "value": 0.0,
             "valueStr": "emperor_s_1[a]"
           }
         ],
@@ -568,22 +563,18 @@
         "blackboard": [
           {
             "key": "damage",
-            "value": 100000.0,
-            "valueStr": null
+            "value": 100000.0
           },
           {
             "key": "cd_min",
-            "value": 0.1,
-            "valueStr": null
+            "value": 0.1
           },
           {
             "key": "cd_max",
-            "value": 0.1,
-            "valueStr": null
+            "value": 0.1
           },
           {
             "key": "buff_key",
-            "value": 0.0,
             "valueStr": "emperor_s_1[b]"
           }
         ],
@@ -706,22 +697,18 @@
         "blackboard": [
           {
             "key": "damage",
-            "value": 100000.0,
-            "valueStr": null
+            "value": 100000.0
           },
           {
             "key": "cd_min",
-            "value": 0.1,
-            "valueStr": null
+            "value": 0.1
           },
           {
             "key": "cd_max",
-            "value": 0.1,
-            "valueStr": null
+            "value": 0.1
           },
           {
             "key": "buff_key",
-            "value": 0.0,
             "valueStr": "emperor_s_1[a]"
           }
         ],
@@ -844,22 +831,18 @@
         "blackboard": [
           {
             "key": "damage",
-            "value": 100000.0,
-            "valueStr": null
+            "value": 100000.0
           },
           {
             "key": "cd_min",
-            "value": 0.1,
-            "valueStr": null
+            "value": 0.1
           },
           {
             "key": "cd_max",
-            "value": 0.1,
-            "valueStr": null
+            "value": 0.1
           },
           {
             "key": "buff_key",
-            "value": 0.0,
             "valueStr": "emperor_s_1[b]"
           }
         ],
@@ -982,22 +965,18 @@
         "blackboard": [
           {
             "key": "damage",
-            "value": 100000.0,
-            "valueStr": null
+            "value": 100000.0
           },
           {
             "key": "cd_min",
-            "value": 0.1,
-            "valueStr": null
+            "value": 0.1
           },
           {
             "key": "cd_max",
-            "value": 0.1,
-            "valueStr": null
+            "value": 0.1
           },
           {
             "key": "buff_key",
-            "value": 0.0,
             "valueStr": "emperor_s_1[a]"
           }
         ],
@@ -1205,9 +1184,7 @@
     "blockEdges": null,
     "tags": null,
     "effects": null,
-    "layerRects": null,
-    "width": 13,
-    "height": 8
+    "layerRects": null
   },
   "tilesDisallowToLocate": [],
   "runes": null,
@@ -1234,7 +1211,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1257,7 +1235,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1280,7 +1259,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1303,7 +1283,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1326,7 +1307,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1349,7 +1331,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1541,20 +1524,18 @@
       ],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
-    null,
-    null,
-    null,
     {
-      "motionMode": 0,
+      "motionMode": 2,
       "startPosition": {
-        "row": 6,
-        "col": 12
+        "row": 0,
+        "col": 0
       },
       "endPosition": {
-        "row": 6,
-        "col": 2
+        "row": 0,
+        "col": 0
       },
       "spawnRandomRange": {
         "x": 0.0,
@@ -1564,20 +1545,21 @@
         "x": 0.0,
         "y": 0.0
       },
-      "checkpoints": [],
+      "checkpoints": null,
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": 2,
       "startPosition": {
-        "row": 6,
-        "col": 12
+        "row": 0,
+        "col": 0
       },
       "endPosition": {
-        "row": 6,
-        "col": 2
+        "row": 0,
+        "col": 0
       },
       "spawnRandomRange": {
         "x": 0.0,
@@ -1587,20 +1569,21 @@
         "x": 0.0,
         "y": 0.0
       },
-      "checkpoints": [],
+      "checkpoints": null,
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
-      "motionMode": 0,
+      "motionMode": 2,
       "startPosition": {
-        "row": 6,
-        "col": 12
+        "row": 0,
+        "col": 0
       },
       "endPosition": {
-        "row": 6,
-        "col": 2
+        "row": 0,
+        "col": 0
       },
       "spawnRandomRange": {
         "x": 0.0,
@@ -1610,33 +1593,11 @@
         "x": 0.0,
         "y": 0.0
       },
-      "checkpoints": [],
+      "checkpoints": null,
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
-    },
-    {
-      "motionMode": 0,
-      "startPosition": {
-        "row": 6,
-        "col": 12
-      },
-      "endPosition": {
-        "row": 6,
-        "col": 2
-      },
-      "spawnRandomRange": {
-        "x": 0.0,
-        "y": 0.0
-      },
-      "spawnOffset": {
-        "x": 0.0,
-        "y": 0.0
-      },
-      "checkpoints": [],
-      "allowDiagonalMove": true,
-      "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1659,7 +1620,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1682,7 +1644,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1705,7 +1668,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1728,7 +1692,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1751,7 +1716,104 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 0,
+      "startPosition": {
+        "row": 6,
+        "col": 12
+      },
+      "endPosition": {
+        "row": 6,
+        "col": 2
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 0,
+      "startPosition": {
+        "row": 6,
+        "col": 12
+      },
+      "endPosition": {
+        "row": 6,
+        "col": 2
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 0,
+      "startPosition": {
+        "row": 6,
+        "col": 12
+      },
+      "endPosition": {
+        "row": 6,
+        "col": 2
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 0,
+      "startPosition": {
+        "row": 6,
+        "col": 12
+      },
+      "endPosition": {
+        "row": 6,
+        "col": 2
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1831,7 +1893,8 @@
       ],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1854,7 +1917,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1877,7 +1941,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1900,7 +1965,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1923,7 +1989,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1946,7 +2013,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1969,7 +2037,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -1992,7 +2061,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2015,7 +2085,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2038,7 +2109,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2061,7 +2133,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2084,7 +2157,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2107,7 +2181,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2130,7 +2205,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2153,7 +2229,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2176,7 +2253,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2199,7 +2277,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2279,7 +2358,8 @@
       ],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2359,7 +2439,8 @@
       ],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2382,7 +2463,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2405,7 +2487,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2428,7 +2511,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2451,7 +2535,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2474,7 +2559,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2497,7 +2583,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2520,7 +2607,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2543,7 +2631,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2566,7 +2655,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2646,7 +2736,8 @@
       ],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2726,7 +2817,8 @@
       ],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2806,7 +2898,8 @@
       ],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2829,7 +2922,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2852,7 +2946,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2875,7 +2970,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2898,7 +2994,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2921,7 +3018,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2944,7 +3042,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -2967,7 +3066,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3047,7 +3147,8 @@
       ],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3127,7 +3228,8 @@
       ],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3150,7 +3252,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3173,7 +3276,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3196,7 +3300,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3219,7 +3324,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3242,7 +3348,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3265,7 +3372,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3288,7 +3396,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3311,7 +3420,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3334,7 +3444,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3357,7 +3468,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3380,7 +3492,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3403,7 +3516,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3426,7 +3540,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3449,7 +3564,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3472,7 +3588,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3495,7 +3612,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3518,7 +3636,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3541,7 +3660,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3564,7 +3684,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3644,7 +3765,8 @@
       ],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3724,7 +3846,8 @@
       ],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3747,7 +3870,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3770,7 +3894,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3793,7 +3918,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3816,7 +3942,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3839,7 +3966,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3862,7 +3990,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3885,7 +4014,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -3965,7 +4095,8 @@
       ],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -4045,7 +4176,8 @@
       ],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -4068,7 +4200,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -4091,7 +4224,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -4114,7 +4248,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -4137,7 +4272,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -4160,7 +4296,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -4183,7 +4320,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -4206,7 +4344,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -4229,7 +4368,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -4252,7 +4392,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -4275,7 +4416,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -4298,7 +4440,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -4321,7 +4464,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -4344,7 +4488,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -4367,7 +4512,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -4390,7 +4536,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -4413,7 +4560,8 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
     {
       "motionMode": 0,
@@ -4436,21 +4584,321 @@
       "checkpoints": [],
       "allowDiagonalMove": true,
       "visitEveryTileCenter": false,
-      "visitEveryNodeCenter": false
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
     },
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": 2,
+      "startPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "endPosition": {
+        "row": 0,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": null,
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    }
   ],
   "extraRoutes": [],
   "enemies": [],
@@ -4533,6 +4981,26 @@
             "m_defined": false,
             "m_value": 0
           },
+          "tauntLevel": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "epDamageResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "epResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitratePhysical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitrateMagical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
           "stunImmune": {
             "m_defined": false,
             "m_value": false
@@ -4544,15 +5012,55 @@
           "sleepImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "frozenImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "levitateImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "disarmedCombatImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
+        "applyWay": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "motion": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "enemyTags": {
+          "m_defined": false,
+          "m_value": null
+        },
         "lifePointReduce": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "levelType": {
           "m_defined": false,
           "m_value": 0
         },
         "rangeRadius": {
           "m_defined": false,
           "m_value": 0.0
+        },
+        "numOfExtraDrops": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "viewRadius": {
+          "m_defined": false,
+          "m_value": 0.0
+        },
+        "notCountInTotal": {
+          "m_defined": false,
+          "m_value": false
         },
         "talentBlackboard": null,
         "skills": null,
@@ -4637,6 +5145,26 @@
             "m_defined": false,
             "m_value": 0
           },
+          "tauntLevel": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "epDamageResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "epResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitratePhysical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitrateMagical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
           "stunImmune": {
             "m_defined": false,
             "m_value": false
@@ -4648,15 +5176,55 @@
           "sleepImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "frozenImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "levitateImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "disarmedCombatImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
+        "applyWay": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "motion": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "enemyTags": {
+          "m_defined": false,
+          "m_value": null
+        },
         "lifePointReduce": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "levelType": {
           "m_defined": false,
           "m_value": 0
         },
         "rangeRadius": {
           "m_defined": false,
           "m_value": 0.0
+        },
+        "numOfExtraDrops": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "viewRadius": {
+          "m_defined": false,
+          "m_value": 0.0
+        },
+        "notCountInTotal": {
+          "m_defined": false,
+          "m_value": false
         },
         "talentBlackboard": null,
         "skills": null,
@@ -4741,6 +5309,26 @@
             "m_defined": false,
             "m_value": 0
           },
+          "tauntLevel": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "epDamageResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "epResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitratePhysical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitrateMagical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
           "stunImmune": {
             "m_defined": false,
             "m_value": false
@@ -4752,15 +5340,55 @@
           "sleepImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "frozenImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "levitateImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "disarmedCombatImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
+        "applyWay": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "motion": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "enemyTags": {
+          "m_defined": false,
+          "m_value": null
+        },
         "lifePointReduce": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "levelType": {
           "m_defined": false,
           "m_value": 0
         },
         "rangeRadius": {
           "m_defined": false,
           "m_value": 0.0
+        },
+        "numOfExtraDrops": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "viewRadius": {
+          "m_defined": false,
+          "m_value": 0.0
+        },
+        "notCountInTotal": {
+          "m_defined": false,
+          "m_value": false
         },
         "talentBlackboard": null,
         "skills": null,
@@ -4845,6 +5473,26 @@
             "m_defined": false,
             "m_value": 0
           },
+          "tauntLevel": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "epDamageResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "epResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitratePhysical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitrateMagical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
           "stunImmune": {
             "m_defined": false,
             "m_value": false
@@ -4856,15 +5504,55 @@
           "sleepImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "frozenImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "levitateImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "disarmedCombatImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
+        "applyWay": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "motion": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "enemyTags": {
+          "m_defined": false,
+          "m_value": null
+        },
         "lifePointReduce": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "levelType": {
           "m_defined": false,
           "m_value": 0
         },
         "rangeRadius": {
           "m_defined": false,
           "m_value": 0.0
+        },
+        "numOfExtraDrops": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "viewRadius": {
+          "m_defined": false,
+          "m_value": 0.0
+        },
+        "notCountInTotal": {
+          "m_defined": false,
+          "m_value": false
         },
         "talentBlackboard": null,
         "skills": null,
@@ -4949,6 +5637,26 @@
             "m_defined": false,
             "m_value": 0
           },
+          "tauntLevel": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "epDamageResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "epResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitratePhysical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitrateMagical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
           "stunImmune": {
             "m_defined": false,
             "m_value": false
@@ -4960,15 +5668,55 @@
           "sleepImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "frozenImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "levitateImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "disarmedCombatImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
+        "applyWay": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "motion": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "enemyTags": {
+          "m_defined": false,
+          "m_value": null
+        },
         "lifePointReduce": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "levelType": {
           "m_defined": false,
           "m_value": 0
         },
         "rangeRadius": {
           "m_defined": false,
           "m_value": 0.0
+        },
+        "numOfExtraDrops": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "viewRadius": {
+          "m_defined": false,
+          "m_value": 0.0
+        },
+        "notCountInTotal": {
+          "m_defined": false,
+          "m_value": false
         },
         "talentBlackboard": null,
         "skills": null,
@@ -5059,6 +5807,26 @@
             "m_defined": false,
             "m_value": 0
           },
+          "tauntLevel": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "epDamageResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "epResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitratePhysical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitrateMagical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
           "stunImmune": {
             "m_defined": false,
             "m_value": false
@@ -5070,15 +5838,55 @@
           "sleepImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "frozenImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "levitateImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "disarmedCombatImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
+        "applyWay": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "motion": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "enemyTags": {
+          "m_defined": false,
+          "m_value": null
+        },
         "lifePointReduce": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "levelType": {
           "m_defined": false,
           "m_value": 0
         },
         "rangeRadius": {
           "m_defined": false,
           "m_value": 0.0
+        },
+        "numOfExtraDrops": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "viewRadius": {
+          "m_defined": false,
+          "m_value": 0.0
+        },
+        "notCountInTotal": {
+          "m_defined": false,
+          "m_value": false
         },
         "talentBlackboard": null,
         "skills": [
@@ -5130,11 +5938,18 @@
               "routeIndex": 0,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 1,
@@ -5146,11 +5961,18 @@
               "routeIndex": 1,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 1,
@@ -5162,11 +5984,18 @@
               "routeIndex": 2,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 1,
@@ -5178,11 +6007,18 @@
               "routeIndex": 3,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 1,
@@ -5194,11 +6030,18 @@
               "routeIndex": 4,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 1,
@@ -5210,11 +6053,18 @@
               "routeIndex": 5,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -5226,11 +6076,18 @@
               "routeIndex": 6,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 2,
@@ -5242,11 +6099,18 @@
               "routeIndex": 7,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 7,
@@ -5258,11 +6122,18 @@
               "routeIndex": 8,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 7,
@@ -5274,14 +6145,20 @@
               "routeIndex": 9,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             }
-          ],
-          "name": null
+          ]
         },
         {
           "preDelay": 0.0,
@@ -5296,27 +6173,41 @@
               "routeIndex": 10,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 1,
-              "preDelay": 50.3,
+              "preDelay": 50.299999,
               "interval": 0.78,
               "routeIndex": 11,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -5328,171 +6219,248 @@
               "routeIndex": 12,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 1,
-              "preDelay": 56.53,
+              "preDelay": 56.529999,
               "interval": 0.78,
               "routeIndex": 13,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1056_ganwar",
               "count": 1,
-              "preDelay": 54.62,
+              "preDelay": 54.619999,
               "interval": 0.78,
               "routeIndex": 14,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1072_dlancer",
               "count": 1,
-              "preDelay": 65.08,
+              "preDelay": 65.080002,
               "interval": 0.78,
               "routeIndex": 15,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1072_dlancer",
               "count": 1,
-              "preDelay": 67.42,
+              "preDelay": 67.419998,
               "interval": 0.78,
               "routeIndex": 16,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1072_dlancer",
               "count": 1,
-              "preDelay": 69.76,
+              "preDelay": 69.760002,
               "interval": 0.78,
               "routeIndex": 17,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1055_ganman",
               "count": 3,
-              "preDelay": 106.05,
+              "preDelay": 106.050003,
               "interval": 0.78,
               "routeIndex": 18,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1009_lurker",
               "count": 1,
-              "preDelay": 148.12,
+              "preDelay": 148.119995,
               "interval": 0.78,
               "routeIndex": 19,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 2,
-              "preDelay": 153.93,
+              "preDelay": 153.929993,
               "interval": 0.78,
               "routeIndex": 20,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1072_dlancer",
               "count": 2,
-              "preDelay": 159.37,
+              "preDelay": 159.369995,
               "interval": 0.78,
               "routeIndex": 21,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 4,
-              "preDelay": 173.41,
+              "preDelay": 173.410004,
               "interval": 0.78,
               "routeIndex": 22,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -5504,11 +6472,18 @@
               "routeIndex": 23,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -5520,11 +6495,18 @@
               "routeIndex": 24,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -5536,75 +6518,110 @@
               "routeIndex": 25,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 1,
-              "preDelay": 63.54,
+              "preDelay": 63.540001,
               "interval": 0.78,
               "routeIndex": 26,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1059_buster",
               "count": 1,
-              "preDelay": 52.35,
+              "preDelay": 52.349998,
               "interval": 0.78,
               "routeIndex": 27,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 1,
-              "preDelay": 66.66,
+              "preDelay": 66.660004,
               "interval": 0.78,
               "routeIndex": 28,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1055_ganman",
               "count": 8,
-              "preDelay": 74.88,
+              "preDelay": 74.879997,
               "interval": 0.78,
               "routeIndex": 29,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -5616,27 +6633,41 @@
               "routeIndex": 30,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 1,
-              "preDelay": 117.31,
+              "preDelay": 117.309998,
               "interval": 0.78,
               "routeIndex": 31,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -5648,155 +6679,225 @@
               "routeIndex": 32,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 1,
-              "preDelay": 128.22,
+              "preDelay": 128.220001,
               "interval": 0.78,
               "routeIndex": 33,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 1,
-              "preDelay": 131.33,
+              "preDelay": 131.330002,
               "interval": 0.78,
               "routeIndex": 34,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 1,
-              "preDelay": 133.67,
+              "preDelay": 133.669998,
               "interval": 0.78,
               "routeIndex": 35,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1009_lurker",
               "count": 1,
-              "preDelay": 137.99,
+              "preDelay": 137.990005,
               "interval": 0.78,
               "routeIndex": 36,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1009_lurker",
               "count": 1,
-              "preDelay": 140.33,
+              "preDelay": 140.330002,
               "interval": 0.78,
               "routeIndex": 37,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1072_dlancer",
               "count": 2,
-              "preDelay": 151.58,
+              "preDelay": 151.580002,
               "interval": 0.78,
               "routeIndex": 38,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1072_dlancer",
               "count": 2,
-              "preDelay": 154.69,
+              "preDelay": 154.690002,
               "interval": 0.78,
               "routeIndex": 39,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1059_buster",
               "count": 1,
-              "preDelay": 166.9,
+              "preDelay": 166.899994,
               "interval": 0.78,
               "routeIndex": 40,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1059_buster",
               "count": 1,
-              "preDelay": 171.57,
+              "preDelay": 171.570007,
               "interval": 0.78,
               "routeIndex": 41,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -5808,11 +6909,18 @@
               "routeIndex": 42,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -5824,11 +6932,18 @@
               "routeIndex": 43,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -5840,11 +6955,18 @@
               "routeIndex": 44,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -5856,11 +6978,18 @@
               "routeIndex": 45,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -5872,43 +7001,64 @@
               "routeIndex": 46,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1009_lurker",
               "count": 1,
-              "preDelay": 41.37,
+              "preDelay": 41.369999,
               "interval": 0.78,
               "routeIndex": 47,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1009_lurker",
               "count": 1,
-              "preDelay": 47.6,
+              "preDelay": 47.599998,
               "interval": 0.78,
               "routeIndex": 48,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -5920,283 +7070,409 @@
               "routeIndex": 49,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1056_ganwar",
               "count": 1,
-              "preDelay": 54.62,
+              "preDelay": 54.619999,
               "interval": 0.78,
               "routeIndex": 50,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1072_dlancer",
               "count": 1,
-              "preDelay": 64.31,
+              "preDelay": 64.309998,
               "interval": 0.78,
               "routeIndex": 51,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1072_dlancer",
               "count": 1,
-              "preDelay": 66.64,
+              "preDelay": 66.639999,
               "interval": 0.78,
               "routeIndex": 52,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1072_dlancer",
               "count": 1,
-              "preDelay": 68.98,
+              "preDelay": 68.980003,
               "interval": 0.78,
               "routeIndex": 53,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1055_ganman",
               "count": 3,
-              "preDelay": 101.37,
+              "preDelay": 101.370003,
               "interval": 0.78,
               "routeIndex": 54,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 1,
-              "preDelay": 122.76,
+              "preDelay": 122.760002,
               "interval": 0.78,
               "routeIndex": 55,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 1,
-              "preDelay": 125.88,
+              "preDelay": 125.879997,
               "interval": 0.78,
               "routeIndex": 56,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1009_lurker",
               "count": 1,
-              "preDelay": 133.32,
+              "preDelay": 133.320007,
               "interval": 0.78,
               "routeIndex": 57,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1009_lurker",
               "count": 1,
-              "preDelay": 135.66,
+              "preDelay": 135.660004,
               "interval": 0.78,
               "routeIndex": 58,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 1,
-              "preDelay": 153.93,
+              "preDelay": 153.929993,
               "interval": 0.78,
               "routeIndex": 59,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1072_dlancer",
               "count": 2,
-              "preDelay": 157.81,
+              "preDelay": 157.809998,
               "interval": 0.78,
               "routeIndex": 60,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1072_dlancer",
               "count": 2,
-              "preDelay": 160.93,
+              "preDelay": 160.929993,
               "interval": 0.78,
               "routeIndex": 61,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1055_ganman",
               "count": 3,
-              "preDelay": 166.05,
+              "preDelay": 166.050003,
               "interval": 0.78,
               "routeIndex": 62,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1059_buster",
               "count": 1,
-              "preDelay": 159.88,
+              "preDelay": 159.880005,
               "interval": 0.78,
               "routeIndex": 63,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1059_buster",
               "count": 1,
-              "preDelay": 163.78,
+              "preDelay": 163.779999,
               "interval": 0.78,
               "routeIndex": 64,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1055_ganman",
               "count": 1,
-              "preDelay": 21.89,
+              "preDelay": 21.889999,
               "interval": 0.78,
               "routeIndex": 65,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1055_ganman",
               "count": 1,
-              "preDelay": 25.79,
+              "preDelay": 25.790001,
               "interval": 0.78,
               "routeIndex": 66,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -6208,11 +7484,18 @@
               "routeIndex": 67,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -6224,43 +7507,64 @@
               "routeIndex": 68,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1055_ganman",
               "count": 1,
-              "preDelay": 30.46,
+              "preDelay": 30.459999,
               "interval": 0.78,
               "routeIndex": 69,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 1,
-              "preDelay": 62.76,
+              "preDelay": 62.759998,
               "interval": 0.78,
               "routeIndex": 70,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -6272,75 +7576,110 @@
               "routeIndex": 71,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 1,
-              "preDelay": 65.88,
+              "preDelay": 65.879997,
               "interval": 0.78,
               "routeIndex": 72,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1059_buster",
               "count": 8,
-              "preDelay": 66.38,
+              "preDelay": 66.379997,
               "interval": 0.78,
               "routeIndex": 73,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1055_ganman",
               "count": 5,
-              "preDelay": 91.24,
+              "preDelay": 91.239998,
               "interval": 0.78,
               "routeIndex": 74,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1055_ganman",
               "count": 3,
-              "preDelay": 113.84,
+              "preDelay": 113.839996,
               "interval": 0.78,
               "routeIndex": 75,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -6352,107 +7691,156 @@
               "routeIndex": 76,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1055_ganman",
               "count": 2,
-              "preDelay": 127.86,
+              "preDelay": 127.860001,
               "interval": 0.78,
               "routeIndex": 77,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1009_lurker",
               "count": 1,
-              "preDelay": 142.67,
+              "preDelay": 142.669998,
               "interval": 0.78,
               "routeIndex": 78,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1009_lurker",
               "count": 1,
-              "preDelay": 145.01,
+              "preDelay": 145.009995,
               "interval": 0.78,
               "routeIndex": 79,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1072_dlancer",
               "count": 2,
-              "preDelay": 153.14,
+              "preDelay": 153.139999,
               "interval": 0.78,
               "routeIndex": 80,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1059_buster",
               "count": 1,
-              "preDelay": 166.9,
+              "preDelay": 166.899994,
               "interval": 0.78,
               "routeIndex": 81,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1059_buster",
               "count": 1,
-              "preDelay": 171.57,
+              "preDelay": 171.570007,
               "interval": 0.78,
               "routeIndex": 82,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -6464,11 +7852,18 @@
               "routeIndex": 83,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -6480,11 +7875,18 @@
               "routeIndex": 84,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -6496,11 +7898,18 @@
               "routeIndex": 85,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -6512,235 +7921,340 @@
               "routeIndex": 86,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1009_lurker",
               "count": 1,
-              "preDelay": 44.49,
+              "preDelay": 44.490002,
               "interval": 0.78,
               "routeIndex": 87,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1009_lurker",
               "count": 1,
-              "preDelay": 50.72,
+              "preDelay": 50.720001,
               "interval": 0.78,
               "routeIndex": 88,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1056_ganwar",
               "count": 1,
-              "preDelay": 54.62,
+              "preDelay": 54.619999,
               "interval": 0.78,
               "routeIndex": 89,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1072_dlancer",
               "count": 1,
-              "preDelay": 65.86,
+              "preDelay": 65.860001,
               "interval": 0.78,
               "routeIndex": 90,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1072_dlancer",
               "count": 1,
-              "preDelay": 68.2,
+              "preDelay": 68.199997,
               "interval": 0.78,
               "routeIndex": 91,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1055_ganman",
               "count": 3,
-              "preDelay": 103.71,
+              "preDelay": 103.709999,
               "interval": 0.78,
               "routeIndex": 92,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1055_ganman",
               "count": 3,
-              "preDelay": 119.29,
+              "preDelay": 119.290001,
               "interval": 0.78,
               "routeIndex": 93,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1072_dlancer",
               "count": 2,
-              "preDelay": 157.81,
+              "preDelay": 157.809998,
               "interval": 0.78,
               "routeIndex": 94,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1072_dlancer",
               "count": 2,
-              "preDelay": 160.93,
+              "preDelay": 160.929993,
               "interval": 0.78,
               "routeIndex": 95,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 4,
-              "preDelay": 173.41,
+              "preDelay": 173.410004,
               "interval": 0.78,
               "routeIndex": 96,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 1,
-              "preDelay": 30.04,
+              "preDelay": 30.040001,
               "interval": 0.78,
               "routeIndex": 97,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 1,
-              "preDelay": 33.15,
+              "preDelay": 33.150002,
               "interval": 0.78,
               "routeIndex": 98,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1055_ganman",
               "count": 1,
-              "preDelay": 59.29,
+              "preDelay": 59.290001,
               "interval": 0.78,
               "routeIndex": 99,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1059_buster",
               "count": 1,
-              "preDelay": 52.35,
+              "preDelay": 52.349998,
               "interval": 0.78,
               "routeIndex": 100,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -6752,107 +8266,156 @@
               "routeIndex": 101,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 8,
-              "preDelay": 79.13,
+              "preDelay": 79.129997,
               "interval": 0.78,
               "routeIndex": 102,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1055_ganman",
               "count": 5,
-              "preDelay": 92.8,
+              "preDelay": 92.800003,
               "interval": 0.78,
               "routeIndex": 103,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1072_dlancer",
               "count": 2,
-              "preDelay": 153.14,
+              "preDelay": 153.139999,
               "interval": 0.78,
               "routeIndex": 104,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_1058_traink",
               "count": 6,
-              "preDelay": 180.43,
+              "preDelay": 180.429993,
               "interval": 0.78,
               "routeIndex": 105,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 7,
               "managedByScheduler": true,
               "key": "count_down",
               "count": 1,
-              "preDelay": 20.38,
+              "preDelay": 20.379999,
               "interval": 0.78,
               "routeIndex": 106,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 7,
               "managedByScheduler": true,
               "key": "switch_screen_eff_blue_to_red",
               "count": 1,
-              "preDelay": 23.38,
+              "preDelay": 23.379999,
               "interval": 0.78,
               "routeIndex": 107,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 7,
@@ -6864,11 +8427,18 @@
               "routeIndex": 108,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 7,
@@ -6880,75 +8450,110 @@
               "routeIndex": 109,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 7,
               "managedByScheduler": true,
               "key": "count_down",
               "count": 1,
-              "preDelay": 60.9,
+              "preDelay": 60.900002,
               "interval": 0.78,
               "routeIndex": 110,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 7,
               "managedByScheduler": true,
               "key": "switch_screen_eff_blue_to_red",
               "count": 1,
-              "preDelay": 63.9,
+              "preDelay": 63.900002,
               "interval": 0.78,
               "routeIndex": 111,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 7,
               "managedByScheduler": true,
               "key": "count_down",
               "count": 1,
-              "preDelay": 69.47,
+              "preDelay": 69.470001,
               "interval": 0.78,
               "routeIndex": 112,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 7,
               "managedByScheduler": true,
               "key": "switch_screen_eff_red_to_blue",
               "count": 1,
-              "preDelay": 72.47,
+              "preDelay": 72.470001,
               "interval": 0.78,
               "routeIndex": 113,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 7,
@@ -6960,11 +8565,18 @@
               "routeIndex": 114,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 7,
@@ -6976,43 +8588,64 @@
               "routeIndex": 115,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 7,
               "managedByScheduler": true,
               "key": "count_down",
               "count": 1,
-              "preDelay": 87.39,
+              "preDelay": 87.389999,
               "interval": 0.78,
               "routeIndex": 116,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 7,
               "managedByScheduler": true,
               "key": "switch_screen_eff_any_to_fever",
               "count": 1,
-              "preDelay": 90.39,
+              "preDelay": 90.389999,
               "interval": 0.78,
               "routeIndex": 117,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 2,
@@ -7024,17 +8657,23 @@
               "routeIndex": 118,
               "blockFragment": false,
               "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             }
-          ],
-          "name": null
+          ]
         }
       ],
-      "name": null
+      "advancedWaveTag": null
     }
   ],
   "branches": null,
@@ -7048,6 +8687,7 @@
         "direction": 2,
         "hidden": false,
         "alias": null,
+        "uniEquipIds": null,
         "inst": {
           "characterKey": "char_130_doberm",
           "level": 1,
@@ -7069,6 +8709,7 @@
         "direction": 2,
         "hidden": false,
         "alias": null,
+        "uniEquipIds": null,
         "inst": {
           "characterKey": "char_185_frncat",
           "level": 1,
@@ -7092,6 +8733,7 @@
         "direction": 1,
         "hidden": false,
         "alias": null,
+        "uniEquipIds": null,
         "inst": {
           "characterKey": "trap_035_emperor",
           "level": 1,
@@ -7117,5 +8759,6 @@
   },
   "excludeCharIdList": null,
   "randomSeed": 2091966532,
-  "operaConfig": "act17d7_01"
+  "operaConfig": "act17d7_01",
+  "runtimeData": null
 }
