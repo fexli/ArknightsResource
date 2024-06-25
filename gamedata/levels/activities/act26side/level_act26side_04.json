@@ -460,8 +460,7 @@
         "blackboard": [
           {
             "key": "dynamic",
-            "value": 8.0,
-            "valueStr": null
+            "value": 8.0
           }
         ],
         "effects": null
@@ -475,8 +474,7 @@
         "blackboard": [
           {
             "key": "dynamic",
-            "value": 8.0,
-            "valueStr": null
+            "value": 8.0
           }
         ],
         "effects": null
@@ -919,9 +917,7 @@
     ],
     "tags": null,
     "effects": null,
-    "layerRects": null,
-    "width": 10,
-    "height": 8
+    "layerRects": null
   },
   "tilesDisallowToLocate": [],
   "runes": null,
@@ -2365,11 +2361,14 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": true
+              "dontBlockWave": true,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             }
-          ],
-          "name": null
+          ]
         },
         {
           "preDelay": 0.0,
@@ -2390,8 +2389,12 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2409,11 +2412,14 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             }
-          ],
-          "name": null
+          ]
         },
         {
           "preDelay": 15.0,
@@ -2434,8 +2440,12 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2453,8 +2463,12 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": true
+              "dontBlockWave": true,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2472,11 +2486,14 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             }
-          ],
-          "name": null
+          ]
         },
         {
           "preDelay": 30.0,
@@ -2497,8 +2514,12 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2516,8 +2537,12 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2535,8 +2560,12 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2554,8 +2583,12 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2573,8 +2606,12 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2592,15 +2629,17 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             }
-          ],
-          "name": null
+          ]
         }
       ],
-      "advancedWaveTag": null,
-      "name": null
+      "advancedWaveTag": null
     }
   ],
   "branches": null,
@@ -2744,5 +2783,6 @@
   },
   "excludeCharIdList": null,
   "randomSeed": 2017075349,
-  "operaConfig": null
+  "operaConfig": null,
+  "runtimeData": null
 }

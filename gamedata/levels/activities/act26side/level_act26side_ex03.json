@@ -1099,9 +1099,7 @@
     ],
     "tags": null,
     "effects": null,
-    "layerRects": null,
-    "width": 12,
-    "height": 8
+    "layerRects": null
   },
   "tilesDisallowToLocate": [],
   "runes": [
@@ -1113,8 +1111,7 @@
       "blackboard": [
         {
           "key": "value",
-          "value": 1.0,
-          "valueStr": null
+          "value": 1.0
         }
       ]
     },
@@ -1126,18 +1123,15 @@
       "blackboard": [
         {
           "key": "atk",
-          "value": 1.2,
-          "valueStr": null
+          "value": 1.2
         },
         {
           "key": "def",
-          "value": 1.2,
-          "valueStr": null
+          "value": 1.2
         },
         {
           "key": "max_hp",
-          "value": 1.2,
-          "valueStr": null
+          "value": 1.2
         }
       ]
     },
@@ -1149,7 +1143,6 @@
       "blackboard": [
         {
           "key": "location",
-          "value": 0.0,
           "valueStr": "(2,6)|(2,7)|(3,6)|(3,7)|(4,6)|(4,7)|(5,6)|(5,7)"
         }
       ]
@@ -2553,11 +2546,14 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": true
+              "dontBlockWave": true,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             }
-          ],
-          "name": null
+          ]
         },
         {
           "preDelay": 0.0,
@@ -2578,8 +2574,12 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2597,11 +2597,14 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             }
-          ],
-          "name": null
+          ]
         },
         {
           "preDelay": 15.0,
@@ -2622,8 +2625,12 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2641,8 +2648,12 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2660,8 +2671,12 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2679,11 +2694,14 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             }
-          ],
-          "name": null
+          ]
         },
         {
           "preDelay": 15.0,
@@ -2704,8 +2722,12 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2723,8 +2745,12 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2742,8 +2768,12 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2761,8 +2791,12 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2780,8 +2814,12 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2799,8 +2837,12 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             },
             {
               "actionType": 0,
@@ -2818,15 +2860,17 @@
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
+              "refreshType": 0,
               "weight": 0,
-              "dontBlockWave": false
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
             }
-          ],
-          "name": null
+          ]
         }
       ],
-      "advancedWaveTag": null,
-      "name": null
+      "advancedWaveTag": null
     }
   ],
   "branches": null,
@@ -2856,7 +2900,6 @@
         "overrideSkillBlackboard": [
           {
             "key": "enemy_key",
-            "value": 0.0,
             "valueStr": "enemy_1343_ltrock_2"
           }
         ]
@@ -2884,7 +2927,6 @@
         "overrideSkillBlackboard": [
           {
             "key": "enemy_key",
-            "value": 0.0,
             "valueStr": "enemy_1343_ltrock_2"
           }
         ]
@@ -2912,7 +2954,6 @@
         "overrideSkillBlackboard": [
           {
             "key": "enemy_key",
-            "value": 0.0,
             "valueStr": "enemy_1343_ltrock_2"
           }
         ]
@@ -2940,7 +2981,6 @@
         "overrideSkillBlackboard": [
           {
             "key": "enemy_key",
-            "value": 0.0,
             "valueStr": "enemy_1343_ltrock_2"
           }
         ]
@@ -2968,7 +3008,6 @@
         "overrideSkillBlackboard": [
           {
             "key": "enemy_key",
-            "value": 0.0,
             "valueStr": "enemy_1343_ltrock_2"
           }
         ]
@@ -2996,7 +3035,6 @@
         "overrideSkillBlackboard": [
           {
             "key": "enemy_key",
-            "value": 0.0,
             "valueStr": "enemy_1343_ltrock_2"
           }
         ]
@@ -3079,5 +3117,6 @@
   },
   "excludeCharIdList": null,
   "randomSeed": 1522478674,
-  "operaConfig": null
+  "operaConfig": null,
+  "runtimeData": null
 }
