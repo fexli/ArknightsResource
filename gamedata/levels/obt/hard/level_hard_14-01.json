@@ -1047,7 +1047,7 @@
   "tilesDisallowToLocate": [],
   "runes": [
     {
-      "difficultyMask": 2,
+      "difficultyMask": 7,
       "key": "enemy_attribute_mul",
       "professionMask": 1023,
       "buildableMask": 3,
@@ -1910,6 +1910,10 @@
             "m_value": false
           },
           "disarmedCombatImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "fearedImmune": {
             "m_defined": false,
             "m_value": false
           }

@@ -1495,6 +1495,10 @@
           "disarmedCombatImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "fearedImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -1665,6 +1669,10 @@
           "disarmedCombatImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "fearedImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -1829,6 +1837,10 @@
           "disarmedCombatImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "fearedImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -1889,11 +1901,10 @@
               "count": 1,
               "preDelay": 0.0,
               "interval": 1.0,
-              "useExtraRoute": false,
               "routeIndex": 0,
               "blockFragment": false,
-              "autoPreviewRoute": true,
-              "autoDisplayEnemyInfo": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": true,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
               "randomSpawnGroupKey": null,
@@ -1913,10 +1924,32 @@
               "count": 1,
               "preDelay": 0.0,
               "interval": 1.0,
-              "useExtraRoute": true,
-              "routeIndex": 0,
+              "routeIndex": 1,
               "blockFragment": false,
-              "autoPreviewRoute": true,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": true,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "isValid": false,
+              "extraMeta": null,
+              "actionId": null
+            },
+            {
+              "actionType": 0,
+              "managedByScheduler": true,
+              "key": "enemy_1184_cadkgt",
+              "count": 1,
+              "preDelay": 0.0,
+              "interval": 1.0,
+              "routeIndex": 2,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
@@ -1937,32 +1970,7 @@
               "count": 1,
               "preDelay": 0.0,
               "interval": 1.0,
-              "useExtraRoute": false,
-              "routeIndex": 0,
-              "blockFragment": false,
-              "autoPreviewRoute": false,
-              "autoDisplayEnemyInfo": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false,
-              "hiddenGroup": null,
-              "randomSpawnGroupKey": null,
-              "randomSpawnGroupPackKey": null,
-              "randomType": 0,
-              "refreshType": 0,
-              "weight": 0,
-              "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
-            },
-            {
-              "actionType": 0,
-              "managedByScheduler": true,
-              "key": "enemy_1184_cadkgt",
-              "count": 1,
-              "preDelay": 0.0,
-              "interval": 1.0,
-              "useExtraRoute": false,
-              "routeIndex": 0,
+              "routeIndex": 3,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
@@ -1985,8 +1993,7 @@
               "count": 1,
               "preDelay": 0.0,
               "interval": 1.0,
-              "useExtraRoute": false,
-              "routeIndex": 0,
+              "routeIndex": 4,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
@@ -2009,8 +2016,7 @@
               "count": 1,
               "preDelay": 0.0,
               "interval": 1.0,
-              "useExtraRoute": false,
-              "routeIndex": 0,
+              "routeIndex": 5,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
@@ -2033,8 +2039,7 @@
               "count": 1,
               "preDelay": 0.0,
               "interval": 1.0,
-              "useExtraRoute": false,
-              "routeIndex": 0,
+              "routeIndex": 6,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
