@@ -4441,6 +4441,46 @@
       "limitParam": null
     },
     {
+      "gachaPoolId": "NORM_52_0_2",
+      "gachaIndex": 378,
+      "openTime": 1721116800,
+      "endTime": 1722283199,
+      "gachaPoolName": "适合多种场合的强力干员",
+      "gachaPoolSummary": "结束于7月30日 03:59",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "freeBackColor": null,
+      "gachaRuleType": "NORMAL",
+      "dynMeta": null,
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": null
+    },
+    {
+      "gachaPoolId": "NORM_52_0_3",
+      "gachaIndex": 380,
+      "openTime": 1721246400,
+      "endTime": 1722455999,
+      "gachaPoolName": "适合多种场合的强力干员",
+      "gachaPoolSummary": "结束于8月1日 03:59",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "freeBackColor": null,
+      "gachaRuleType": "NORMAL",
+      "dynMeta": null,
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": null
+    },
+    {
       "gachaPoolId": "LIMITED_9_0_3",
       "gachaIndex": 10,
       "openTime": 1588316400,
@@ -4483,9 +4523,9 @@
       "linkageRuleId": null,
       "linkageParam": null,
       "limitParam": {
-        "hasFreeChar": false,
         "freeCount": 0.0,
-        "limitedCharId": "char_391_rosmon"
+        "limitedCharId": "char_391_rosmon",
+        "hasFreeChar": false
       }
     },
     {
@@ -4531,9 +4571,9 @@
       "linkageRuleId": null,
       "linkageParam": null,
       "limitParam": {
-        "limitedCharId": "char_2015_dusk",
         "hasFreeChar": false,
-        "freeCount": 0.0
+        "freeCount": 0.0,
+        "limitedCharId": "char_2015_dusk"
       }
     },
     {
@@ -4603,9 +4643,9 @@
       "linkageRuleId": null,
       "linkageParam": null,
       "limitParam": {
+        "limitedCharId": "char_1014_nearl2",
         "hasFreeChar": false,
-        "freeCount": 0.0,
-        "limitedCharId": "char_1014_nearl2"
+        "freeCount": 0.0
       }
     },
     {
@@ -4627,9 +4667,9 @@
       "linkageRuleId": null,
       "linkageParam": null,
       "limitParam": {
+        "limitedCharId": "char_2023_ling",
         "hasFreeChar": false,
-        "freeCount": 0.0,
-        "limitedCharId": "char_2023_ling"
+        "freeCount": 0.0
       }
     },
     {
@@ -5156,14 +5196,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_136_hsguma",
-        "sub6RarityCharId": "char_263_skadi",
         "rare5CharList": [
           "char_108_silent",
           "char_106_franka",
           "char_241_panda"
         ],
-        "scrollIndex": 7.0
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_136_hsguma",
+        "sub6RarityCharId": "char_263_skadi"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5214,6 +5254,9 @@
       "freeBackColor": null,
       "gachaRuleType": "FESCLASSIC",
       "dynMeta": {
+        "star6ChooseRuleConst": "本期中坚甄选可从以下6星干员范围内自选<color=#00a8ff>2名干员</color>，使其<color=#00a8ff>合计出现概率占6星出率的50%</color>",
+        "star5ChooseRuleConst": "本期中坚甄选可从以下5星干员范围内自选<color=#00a8ff>3名干员</color>，使其<color=#00a8ff>合计出现概率占5星出率的50%</color>",
+        "scrollIndex": 7.0,
         "rarityPickCharDict": {
           "TIER_5": [
             "char_128_plosis",
@@ -5257,10 +5300,7 @@
           ]
         },
         "homeDescConst": "中坚甄选可<color=#00a8ff>自由选择并锁定</color>本期概率提升干员！选定后本次寻访<color=#00a8ff>不可变更</color>。前10次寻访必定获得<color=#00a8ff>5星</color>以上干员！",
-        "chooseRuleConst": "<color=#00a8ff>【中坚甄选】</color>期间，可在<color=#00a8ff>甄选范围内选择并锁定</color>本期出率提升的<color=#00a8ff>2名6星干员</color>和<color=#00a8ff>3名5星干员</color>。\n选定的过程中，可进一步配置<color=#00a8ff>1名6星干员</color>和<color=#00a8ff>1名5星干员</color>进入<color=#00a8ff>采购中心可供兑换</color>，且上述选定的干员将在<color=#ffd800>【高级凭证区】</color>和<color=#00a8ff>【通用凭证区】</color>供兑换。\n本次中坚甄选卡池期间，概率提升的干员选定后<color=#00a8ff>本周期内不可再度变更</color>。",
-        "star6ChooseRuleConst": "本期中坚甄选可从以下6星干员范围内自选<color=#00a8ff>2名干员</color>，使其<color=#00a8ff>合计出现概率占6星出率的50%</color>",
-        "star5ChooseRuleConst": "本期中坚甄选可从以下5星干员范围内自选<color=#00a8ff>3名干员</color>，使其<color=#00a8ff>合计出现概率占5星出率的50%</color>",
-        "scrollIndex": 7.0
+        "chooseRuleConst": "<color=#00a8ff>【中坚甄选】</color>期间，可在<color=#00a8ff>甄选范围内选择并锁定</color>本期出率提升的<color=#00a8ff>2名6星干员</color>和<color=#00a8ff>3名5星干员</color>。\n选定的过程中，可进一步配置<color=#00a8ff>1名6星干员</color>和<color=#00a8ff>1名5星干员</color>进入<color=#00a8ff>采购中心可供兑换</color>，且上述选定的干员将在<color=#ffd800>【高级凭证区】</color>和<color=#00a8ff>【通用凭证区】</color>供兑换。\n本次中坚甄选卡池期间，概率提升的干员选定后<color=#00a8ff>本周期内不可再度变更</color>。"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5282,14 +5322,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_291_aglina",
         "sub6RarityCharId": "char_147_shining",
         "rare5CharList": [
           "char_261_sddrag",
           "char_356_broca",
           "char_367_swllow"
         ],
-        "scrollIndex": 7.0
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_291_aglina"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5340,14 +5380,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_202_demkni",
+        "sub6RarityCharId": "char_134_ifrit",
         "rare5CharList": [
           "char_171_bldsk",
           "char_140_whitew",
           "char_145_prove"
-        ],
-        "scrollIndex": 7.0,
-        "main6RarityCharId": "char_202_demkni",
-        "sub6RarityCharId": "char_134_ifrit"
+        ]
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5369,14 +5409,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_248_mgllan",
         "sub6RarityCharId": "char_225_haak",
         "rare5CharList": [
           "char_201_moeshd",
           "char_219_meteo",
           "char_148_nearl"
         ],
-        "scrollIndex": 7.0
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_248_mgllan"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5427,14 +5467,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_250_phatom",
         "sub6RarityCharId": "char_213_mostma",
         "rare5CharList": [
           "char_144_red",
           "char_173_slchan",
           "char_274_astesi"
         ],
-        "scrollIndex": 7.0
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_250_phatom"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5456,11 +5496,6 @@
       "freeBackColor": null,
       "gachaRuleType": "FESCLASSIC",
       "dynMeta": {
-        "homeDescConst": "中坚甄选可<color=#00a8ff>自由选择并锁定</color>本期概率提升干员！选定后本次寻访<color=#00a8ff>不可变更</color>。前10次寻访必定获得<color=#00a8ff>5星</color>以上干员！",
-        "chooseRuleConst": "<color=#00a8ff>【中坚甄选】</color>期间，可在<color=#00a8ff>甄选范围内选择并锁定</color>本期出率提升的<color=#00a8ff>2名6星干员</color>和<color=#00a8ff>3名5星干员</color>。\n选定的过程中，可进一步配置<color=#00a8ff>1名6星干员</color>和<color=#00a8ff>1名5星干员</color>进入<color=#00a8ff>采购中心可供兑换</color>，且上述选定的干员将在<color=#ffd800>【高级凭证区】</color>和<color=#00a8ff>【通用凭证区】</color>供兑换。\n本次中坚甄选卡池期间，概率提升的干员选定后<color=#00a8ff>本周期内不可再度变更</color>。",
-        "star6ChooseRuleConst": "本期中坚甄选可从以下6星干员范围内自选<color=#00a8ff>2名干员</color>，使其<color=#00a8ff>合计出现概率占6星出率的50%</color>",
-        "star5ChooseRuleConst": "本期中坚甄选可从以下5星干员范围内自选<color=#00a8ff>3名干员</color>，使其<color=#00a8ff>合计出现概率占5星出率的50%</color>",
-        "scrollIndex": 7.0,
         "rarityPickCharDict": {
           "TIER_5": [
             "char_128_plosis",
@@ -5502,7 +5537,12 @@
             "char_225_haak",
             "char_222_bpipe"
           ]
-        }
+        },
+        "homeDescConst": "中坚甄选可<color=#00a8ff>自由选择并锁定</color>本期概率提升干员！选定后本次寻访<color=#00a8ff>不可变更</color>。前10次寻访必定获得<color=#00a8ff>5星</color>以上干员！",
+        "chooseRuleConst": "<color=#00a8ff>【中坚甄选】</color>期间，可在<color=#00a8ff>甄选范围内选择并锁定</color>本期出率提升的<color=#00a8ff>2名6星干员</color>和<color=#00a8ff>3名5星干员</color>。\n选定的过程中，可进一步配置<color=#00a8ff>1名6星干员</color>和<color=#00a8ff>1名5星干员</color>进入<color=#00a8ff>采购中心可供兑换</color>，且上述选定的干员将在<color=#ffd800>【高级凭证区】</color>和<color=#00a8ff>【通用凭证区】</color>供兑换。\n本次中坚甄选卡池期间，概率提升的干员选定后<color=#00a8ff>本周期内不可再度变更</color>。",
+        "star6ChooseRuleConst": "本期中坚甄选可从以下6星干员范围内自选<color=#00a8ff>2名干员</color>，使其<color=#00a8ff>合计出现概率占6星出率的50%</color>",
+        "star5ChooseRuleConst": "本期中坚甄选可从以下5星干员范围内自选<color=#00a8ff>3名干员</color>，使其<color=#00a8ff>合计出现概率占5星出率的50%</color>",
+        "scrollIndex": 7.0
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5524,14 +5564,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
+        "scrollIndex": 7.0,
         "main6RarityCharId": "char_225_haak",
         "sub6RarityCharId": "char_179_cgbird",
         "rare5CharList": [
           "char_106_franka",
           "char_107_liskam",
           "char_243_waaifu"
-        ],
-        "scrollIndex": 7.0
+        ]
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5611,14 +5651,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "scrollIndex": 7.0,
         "main6RarityCharId": "char_134_ifrit",
         "sub6RarityCharId": "char_010_chen",
         "rare5CharList": [
           "char_115_headbr",
           "char_242_otter",
           "char_279_excu"
-        ]
+        ],
+        "scrollIndex": 7.0
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5669,10 +5709,6 @@
       "freeBackColor": null,
       "gachaRuleType": "FESCLASSIC",
       "dynMeta": {
-        "chooseRuleConst": "<color=#00a8ff>【中坚甄选】</color>期间，可在<color=#00a8ff>甄选范围内选择并锁定</color>本期出率提升的<color=#00a8ff>2名6星干员</color>和<color=#00a8ff>3名5星干员</color>。\n选定的过程中，可进一步配置<color=#00a8ff>1名6星干员</color>和<color=#00a8ff>1名5星干员</color>进入<color=#00a8ff>采购中心可供兑换</color>，且上述选定的干员将在<color=#ffd800>【高级凭证区】</color>和<color=#00a8ff>【通用凭证区】</color>供兑换。\n本次中坚甄选卡池期间，概率提升的干员选定后<color=#00a8ff>本周期内不可再度变更</color>。",
-        "star6ChooseRuleConst": "本期中坚甄选可从以下6星干员范围内自选<color=#00a8ff>2名干员</color>，使其<color=#00a8ff>合计出现概率占6星出率的50%</color>",
-        "star5ChooseRuleConst": "本期中坚甄选可从以下5星干员范围内自选<color=#00a8ff>3名干员</color>，使其<color=#00a8ff>合计出现概率占5星出率的50%</color>",
-        "scrollIndex": 7.0,
         "rarityPickCharDict": {
           "TIER_5": [
             "char_115_headbr",
@@ -5715,7 +5751,11 @@
             "char_250_phatom"
           ]
         },
-        "homeDescConst": "中坚甄选可<color=#00a8ff>自由选择并锁定</color>本期概率提升干员！选定后本次寻访<color=#00a8ff>不可变更</color>。前10次寻访必定获得<color=#00a8ff>5星</color>以上干员！"
+        "homeDescConst": "中坚甄选可<color=#00a8ff>自由选择并锁定</color>本期概率提升干员！选定后本次寻访<color=#00a8ff>不可变更</color>。前10次寻访必定获得<color=#00a8ff>5星</color>以上干员！",
+        "chooseRuleConst": "<color=#00a8ff>【中坚甄选】</color>期间，可在<color=#00a8ff>甄选范围内选择并锁定</color>本期出率提升的<color=#00a8ff>2名6星干员</color>和<color=#00a8ff>3名5星干员</color>。\n选定的过程中，可进一步配置<color=#00a8ff>1名6星干员</color>和<color=#00a8ff>1名5星干员</color>进入<color=#00a8ff>采购中心可供兑换</color>，且上述选定的干员将在<color=#ffd800>【高级凭证区】</color>和<color=#00a8ff>【通用凭证区】</color>供兑换。\n本次中坚甄选卡池期间，概率提升的干员选定后<color=#00a8ff>本周期内不可再度变更</color>。",
+        "star6ChooseRuleConst": "本期中坚甄选可从以下6星干员范围内自选<color=#00a8ff>2名干员</color>，使其<color=#00a8ff>合计出现概率占6星出率的50%</color>",
+        "star5ChooseRuleConst": "本期中坚甄选可从以下5星干员范围内自选<color=#00a8ff>3名干员</color>，使其<color=#00a8ff>合计出现概率占5星出率的50%</color>",
+        "scrollIndex": 7.0
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5737,14 +5777,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
+        "main6RarityCharId": "char_017_huang",
         "sub6RarityCharId": "char_291_aglina",
         "rare5CharList": [
           "char_195_glassb",
           "char_379_sesa",
           "char_254_vodfox"
         ],
-        "scrollIndex": 7.0,
-        "main6RarityCharId": "char_017_huang"
+        "scrollIndex": 7.0
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5899,14 +5939,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "scrollIndex": 7.0,
-        "main6RarityCharId": "char_263_skadi",
-        "sub6RarityCharId": "char_248_mgllan",
         "rare5CharList": [
           "char_174_slbell",
           "char_226_hmau",
           "char_171_bldsk"
-        ]
+        ],
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_263_skadi",
+        "sub6RarityCharId": "char_248_mgllan"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5928,7 +5968,6 @@
       "freeBackColor": null,
       "gachaRuleType": "FESCLASSIC",
       "dynMeta": {
-        "homeDescConst": "中坚甄选可<color=#00a8ff>自由选择并锁定</color>本期概率提升干员！选定后本次寻访<color=#00a8ff>不可变更</color>。前10次寻访必定获得<color=#00a8ff>5星</color>以上干员！",
         "chooseRuleConst": "<color=#00a8ff>【中坚甄选】</color>期间，可在<color=#00a8ff>甄选范围内选择并锁定</color>本期出率提升的<color=#00a8ff>2名6星干员</color>和<color=#00a8ff>3名5星干员</color>。\n选定的过程中，可进一步配置<color=#00a8ff>1名6星干员</color>和<color=#00a8ff>1名5星干员</color>进入<color=#00a8ff>采购中心可供兑换</color>，且上述选定的干员将在<color=#ffd800>【高级凭证区】</color>和<color=#00a8ff>【通用凭证区】</color>供兑换。\n本次中坚甄选卡池期间，概率提升的干员选定后<color=#00a8ff>本周期内不可再度变更</color>。",
         "star6ChooseRuleConst": "本期中坚甄选可从以下6星干员范围内自选<color=#00a8ff>2名干员</color>，使其<color=#00a8ff>合计出现概率占6星出率的50%</color>",
         "star5ChooseRuleConst": "本期中坚甄选可从以下5星干员范围内自选<color=#00a8ff>3名干员</color>，使其<color=#00a8ff>合计出现概率占5星出率的50%</color>",
@@ -5974,7 +6013,8 @@
             "char_225_haak",
             "char_222_bpipe"
           ]
-        }
+        },
+        "homeDescConst": "中坚甄选可<color=#00a8ff>自由选择并锁定</color>本期概率提升干员！选定后本次寻访<color=#00a8ff>不可变更</color>。前10次寻访必定获得<color=#00a8ff>5星</color>以上干员！"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5996,14 +6036,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
+        "main6RarityCharId": "char_213_mostma",
+        "sub6RarityCharId": "char_180_amgoat",
         "rare5CharList": [
           "char_367_swllow",
           "char_140_whitew",
           "char_145_prove"
         ],
-        "scrollIndex": 7.0,
-        "main6RarityCharId": "char_213_mostma",
-        "sub6RarityCharId": "char_180_amgoat"
+        "scrollIndex": 7.0
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6054,14 +6094,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "scrollIndex": 7.0,
         "main6RarityCharId": "char_179_cgbird",
         "sub6RarityCharId": "char_202_demkni",
         "rare5CharList": [
           "char_215_mantic",
           "char_219_meteo",
           "char_308_swire"
-        ]
+        ],
+        "scrollIndex": 7.0
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6112,14 +6152,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_103_angel",
         "sub6RarityCharId": "char_172_svrash",
         "rare5CharList": [
           "char_129_bluep",
           "char_106_franka",
           "char_201_moeshd"
         ],
-        "scrollIndex": 7.0
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_103_angel"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6141,9 +6181,6 @@
       "freeBackColor": null,
       "gachaRuleType": "FESCLASSIC",
       "dynMeta": {
-        "star6ChooseRuleConst": "本期中坚甄选可从以下6星干员范围内自选<color=#00a8ff>2名干员</color>，使其<color=#00a8ff>合计出现概率占6星出率的50%</color>",
-        "star5ChooseRuleConst": "本期中坚甄选可从以下5星干员范围内自选<color=#00a8ff>3名干员</color>，使其<color=#00a8ff>合计出现概率占5星出率的50%</color>",
-        "scrollIndex": 7.0,
         "rarityPickCharDict": {
           "TIER_5": [
             "char_128_plosis",
@@ -6187,7 +6224,10 @@
           ]
         },
         "homeDescConst": "中坚甄选可<color=#00a8ff>自由选择并锁定</color>本期概率提升干员！选定后本次寻访<color=#00a8ff>不可变更</color>。前10次寻访必定获得<color=#00a8ff>5星</color>以上干员！",
-        "chooseRuleConst": "<color=#00a8ff>【中坚甄选】</color>期间，可在<color=#00a8ff>甄选范围内选择并锁定</color>本期出率提升的<color=#00a8ff>2名6星干员</color>和<color=#00a8ff>3名5星干员</color>。\n选定的过程中，可进一步配置<color=#00a8ff>1名6星干员</color>和<color=#00a8ff>1名5星干员</color>进入<color=#00a8ff>采购中心可供兑换</color>，且上述选定的干员将在<color=#ffd800>【高级凭证区】</color>和<color=#00a8ff>【通用凭证区】</color>供兑换。\n本次中坚甄选卡池期间，概率提升的干员选定后<color=#00a8ff>本周期内不可再度变更</color>。"
+        "chooseRuleConst": "<color=#00a8ff>【中坚甄选】</color>期间，可在<color=#00a8ff>甄选范围内选择并锁定</color>本期出率提升的<color=#00a8ff>2名6星干员</color>和<color=#00a8ff>3名5星干员</color>。\n选定的过程中，可进一步配置<color=#00a8ff>1名6星干员</color>和<color=#00a8ff>1名5星干员</color>进入<color=#00a8ff>采购中心可供兑换</color>，且上述选定的干员将在<color=#ffd800>【高级凭证区】</color>和<color=#00a8ff>【通用凭证区】</color>供兑换。\n本次中坚甄选卡池期间，概率提升的干员选定后<color=#00a8ff>本周期内不可再度变更</color>。",
+        "star6ChooseRuleConst": "本期中坚甄选可从以下6星干员范围内自选<color=#00a8ff>2名干员</color>，使其<color=#00a8ff>合计出现概率占6星出率的50%</color>",
+        "star5ChooseRuleConst": "本期中坚甄选可从以下5星干员范围内自选<color=#00a8ff>3名干员</color>，使其<color=#00a8ff>合计出现概率占5星出率的50%</color>",
+        "scrollIndex": 7.0
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6209,14 +6249,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_136_hsguma",
         "sub6RarityCharId": "char_134_ifrit",
         "rare5CharList": [
           "char_254_vodfox",
           "char_143_ghost",
           "char_326_glacus"
         ],
-        "scrollIndex": 7.0
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_136_hsguma"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6267,14 +6307,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "scrollIndex": 7.0,
         "main6RarityCharId": "char_010_chen",
         "sub6RarityCharId": "char_017_huang",
         "rare5CharList": [
           "char_173_slchan",
           "char_101_sora",
           "char_115_headbr"
-        ]
+        ],
+        "scrollIndex": 7.0
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6296,14 +6336,82 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
+        "main6RarityCharId": "char_472_pasngr",
+        "sub6RarityCharId": "char_213_mostma",
         "rare5CharList": [
           "char_215_mantic",
           "char_102_texas",
           "char_279_excu"
         ],
+        "scrollIndex": 7.0
+      },
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": null
+    },
+    {
+      "gachaPoolId": "FESCLASSIC_52_0_2",
+      "gachaIndex": 9965,
+      "openTime": 1721851200,
+      "endTime": 1723060799,
+      "gachaPoolName": "适合多种场合的强力干员",
+      "gachaPoolSummary": "结束于8月8日 03:59",
+      "gachaPoolDetail": null,
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "freeBackColor": null,
+      "gachaRuleType": "FESCLASSIC",
+      "dynMeta": {
+        "chooseRuleConst": "<color=#00a8ff>【中坚甄选】</color>期间，可在<color=#00a8ff>甄选范围内选择并锁定</color>本期出率提升的<color=#00a8ff>2名6星干员</color>和<color=#00a8ff>3名5星干员</color>。\n选定的过程中，可进一步配置<color=#00a8ff>1名6星干员</color>和<color=#00a8ff>1名5星干员</color>进入<color=#00a8ff>采购中心可供兑换</color>，且上述选定的干员将在<color=#ffd800>【高级凭证区】</color>和<color=#00a8ff>【通用凭证区】</color>供兑换。\n本次中坚甄选卡池期间，概率提升的干员选定后<color=#00a8ff>本周期内不可再度变更</color>。",
+        "star6ChooseRuleConst": "本期中坚甄选可从以下6星干员范围内自选<color=#00a8ff>2名干员</color>，使其<color=#00a8ff>合计出现概率占6星出率的50%</color>",
+        "star5ChooseRuleConst": "本期中坚甄选可从以下5星干员范围内自选<color=#00a8ff>3名干员</color>，使其<color=#00a8ff>合计出现概率占5星出率的50%</color>",
         "scrollIndex": 7.0,
-        "main6RarityCharId": "char_472_pasngr",
-        "sub6RarityCharId": "char_213_mostma"
+        "rarityPickCharDict": {
+          "TIER_5": [
+            "char_128_plosis",
+            "char_115_headbr",
+            "char_204_platnm",
+            "char_219_meteo",
+            "char_166_skfire",
+            "char_108_silent",
+            "char_171_bldsk",
+            "char_148_nearl",
+            "char_107_liskam",
+            "char_158_milu",
+            "char_173_slchan",
+            "char_174_slbell",
+            "char_101_sora",
+            "char_215_mantic",
+            "char_241_panda",
+            "char_274_astesi",
+            "char_279_excu",
+            "char_367_swllow",
+            "char_254_vodfox",
+            "char_401_elysm",
+            "char_344_beewax",
+            "char_346_aosta",
+            "char_214_kafka",
+            "char_363_toddi"
+          ],
+          "TIER_6": [
+            "char_103_angel",
+            "char_134_ifrit",
+            "char_147_shining",
+            "char_179_cgbird",
+            "char_172_svrash",
+            "char_010_chen",
+            "char_340_shwaz",
+            "char_017_huang",
+            "char_222_bpipe",
+            "char_423_blemsh",
+            "char_311_mudrok",
+            "char_362_saga"
+          ]
+        },
+        "homeDescConst": "中坚甄选可<color=#00a8ff>自由选择并锁定</color>本期概率提升干员！选定后本次寻访<color=#00a8ff>不可变更</color>。前10次寻访必定获得<color=#00a8ff>5星</color>以上干员！"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -8750,6 +8858,20 @@
       "spriteId": "picSingle_52_0_1"
     },
     {
+      "poolId": "NORM_52_0_2",
+      "index": 378,
+      "startTime": 1721116800,
+      "endTime": 1722283199,
+      "spriteId": "picNorm_52_0_2"
+    },
+    {
+      "poolId": "NORM_52_0_3",
+      "index": 380,
+      "startTime": 1721246400,
+      "endTime": 1722455999,
+      "spriteId": "picNorm_52_0_3"
+    },
+    {
       "poolId": "FESCLASSIC_38_0_2",
       "index": 999,
       "startTime": 1684353600,
@@ -9004,6 +9126,10 @@
     "FESCLASSIC_50_0_2": {
       "rarityRank5ItemId": "classic_fes_pick_tier_5_5001",
       "rarityRank6ItemId": "classic_fes_pick_tier_6_5001"
+    },
+    "FESCLASSIC_52_0_2": {
+      "rarityRank5ItemId": "classic_fes_pick_tier_5_5201",
+      "rarityRank6ItemId": "classic_fes_pick_tier_6_5201"
     }
   },
   "dicRecruit6StarHint": {}
