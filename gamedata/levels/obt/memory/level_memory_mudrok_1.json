@@ -676,7 +676,17 @@
   },
   "tilesDisallowToLocate": [],
   "runes": null,
-  "globalBuffs": null,
+  "globalBuffs": [
+    {
+      "prefabKey": "night_map_default",
+      "blackboard": null,
+      "overrideCameraEffect": null,
+      "passProfessionMaskFlag": false,
+      "professionMask": 0,
+      "useExtraData": false,
+      "extraRuntimeData": null
+    }
+  ],
   "routes": [
     {
       "motionMode": 0,
