@@ -4661,6 +4661,26 @@
       "limitParam": null
     },
     {
+      "gachaPoolId": "NORM_56_0_2",
+      "gachaIndex": 366,
+      "openTime": 1730923200,
+      "endTime": 1732132799,
+      "gachaPoolName": "适合多种场合的强力干员",
+      "gachaPoolSummary": "结束于11月21日 03:59",
+      "gachaPoolDetail": "-",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "freeBackColor": null,
+      "gachaRuleType": "NORMAL",
+      "dynMeta": null,
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": null
+    },
+    {
       "gachaPoolId": "LIMITED_9_0_3",
       "gachaIndex": 10,
       "openTime": 1588316400,
@@ -4727,9 +4747,9 @@
       "linkageRuleId": null,
       "linkageParam": null,
       "limitParam": {
-        "hasFreeChar": false,
         "freeCount": 0.0,
-        "limitedCharId": "char_2014_nian"
+        "limitedCharId": "char_2014_nian",
+        "hasFreeChar": false
       }
     },
     {
@@ -4823,9 +4843,9 @@
       "linkageRuleId": null,
       "linkageParam": null,
       "limitParam": {
-        "hasFreeChar": false,
         "freeCount": 0.0,
-        "limitedCharId": "char_1014_nearl2"
+        "limitedCharId": "char_1014_nearl2",
+        "hasFreeChar": false
       }
     },
     {
@@ -4919,9 +4939,9 @@
       "linkageRuleId": null,
       "linkageParam": null,
       "limitParam": {
-        "limitedCharId": "char_1028_texas2",
         "hasFreeChar": false,
-        "freeCount": 0.0
+        "freeCount": 0.0,
+        "limitedCharId": "char_1028_texas2"
       }
     },
     {
@@ -4967,9 +4987,9 @@
       "linkageRuleId": null,
       "linkageParam": null,
       "limitParam": {
+        "hasFreeChar": false,
         "freeCount": 0.0,
-        "limitedCharId": "char_249_mlyss",
-        "hasFreeChar": false
+        "limitedCharId": "char_249_mlyss"
       }
     },
     {
@@ -4991,9 +5011,9 @@
       "linkageRuleId": null,
       "linkageParam": null,
       "limitParam": {
-        "freeCount": 0.0,
         "limitedCharId": "char_1016_agoat2",
-        "hasFreeChar": false
+        "hasFreeChar": false,
+        "freeCount": 0.0
       }
     },
     {
@@ -5039,9 +5059,9 @@
       "linkageRuleId": null,
       "linkageParam": null,
       "limitParam": {
-        "hasFreeChar": false,
         "freeCount": 0.0,
-        "limitedCharId": "char_2025_shu"
+        "limitedCharId": "char_2025_shu",
+        "hasFreeChar": false
       }
     },
     {
@@ -5087,9 +5107,33 @@
       "linkageRuleId": null,
       "linkageParam": null,
       "limitParam": {
-        "limitedCharId": "char_4058_pepe",
         "hasFreeChar": true,
-        "freeCount": 300.0
+        "freeCount": 300.0,
+        "limitedCharId": "char_4058_pepe"
+      }
+    },
+    {
+      "gachaPoolId": "LIMITED_56_0_1",
+      "gachaIndex": 10,
+      "openTime": 1730433600,
+      "endTime": 1731614399,
+      "gachaPoolName": "恶人寥寥",
+      "gachaPoolSummary": "结束于11月15日 03:59",
+      "gachaPoolDetail": null,
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": "LMTGS_COIN_5601",
+      "CDPrimColor": "ce2625",
+      "CDSecColor": "ce2625",
+      "freeBackColor": "ce2625",
+      "gachaRuleType": "LIMITED",
+      "dynMeta": null,
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": {
+        "hasFreeChar": true,
+        "freeCount": 300.0,
+        "limitedCharId": "char_1038_whitw2"
       }
     },
     {
@@ -5218,6 +5262,7 @@
       "freeBackColor": null,
       "gachaRuleType": "ATTAIN",
       "dynMeta": {
+        "attainRare6Num": 1.0,
         "attainRare6CharList": [
           "char_103_angel",
           "char_112_siege",
@@ -5249,8 +5294,7 @@
           "char_423_blemsh",
           "char_311_mudrok",
           "char_264_f12yin"
-        ],
-        "attainRare6Num": 1.0
+        ]
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5393,14 +5437,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_188_helage",
-        "sub6RarityCharId": "char_017_huang",
         "rare5CharList": [
           "char_102_texas",
           "char_379_sesa",
           "char_254_vodfox"
         ],
-        "scrollIndex": 7.0
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_188_helage",
+        "sub6RarityCharId": "char_017_huang"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5422,14 +5466,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
+        "scrollIndex": 7.0,
         "main6RarityCharId": "char_136_hsguma",
         "sub6RarityCharId": "char_263_skadi",
         "rare5CharList": [
           "char_108_silent",
           "char_106_franka",
           "char_241_panda"
-        ],
-        "scrollIndex": 7.0
+        ]
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5480,6 +5524,10 @@
       "freeBackColor": null,
       "gachaRuleType": "FESCLASSIC",
       "dynMeta": {
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.166662,
+          "TIER_6": 0.25
+        },
         "rarityPickCharDict": {
           "TIER_5": [
             "char_128_plosis",
@@ -5548,14 +5596,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_291_aglina",
+        "sub6RarityCharId": "char_147_shining",
         "rare5CharList": [
           "char_261_sddrag",
           "char_356_broca",
           "char_367_swllow"
-        ],
-        "scrollIndex": 7.0,
-        "main6RarityCharId": "char_291_aglina",
-        "sub6RarityCharId": "char_147_shining"
+        ]
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5577,14 +5625,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_103_angel",
         "sub6RarityCharId": "char_112_siege",
         "rare5CharList": [
           "char_279_excu",
           "char_306_leizi",
           "char_226_hmau"
         ],
-        "scrollIndex": 7.0
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_103_angel"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5606,14 +5654,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
+        "scrollIndex": 7.0,
         "main6RarityCharId": "char_202_demkni",
         "sub6RarityCharId": "char_134_ifrit",
         "rare5CharList": [
           "char_171_bldsk",
           "char_140_whitew",
           "char_145_prove"
-        ],
-        "scrollIndex": 7.0
+        ]
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5664,14 +5712,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
+        "main6RarityCharId": "char_180_amgoat",
+        "sub6RarityCharId": "char_340_shwaz",
         "rare5CharList": [
           "char_308_swire",
           "char_367_swllow",
           "char_215_mantic"
         ],
-        "scrollIndex": 7.0,
-        "main6RarityCharId": "char_180_amgoat",
-        "sub6RarityCharId": "char_340_shwaz"
+        "scrollIndex": 7.0
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5693,14 +5741,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_250_phatom",
+        "sub6RarityCharId": "char_213_mostma",
         "rare5CharList": [
           "char_144_red",
           "char_173_slchan",
           "char_274_astesi"
-        ],
-        "scrollIndex": 7.0,
-        "main6RarityCharId": "char_250_phatom",
-        "sub6RarityCharId": "char_213_mostma"
+        ]
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5722,6 +5770,10 @@
       "freeBackColor": null,
       "gachaRuleType": "FESCLASSIC",
       "dynMeta": {
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.166662,
+          "TIER_6": 0.25
+        },
         "rarityPickCharDict": {
           "TIER_5": [
             "char_128_plosis",
@@ -5790,14 +5842,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_225_haak",
-        "sub6RarityCharId": "char_179_cgbird",
         "rare5CharList": [
           "char_106_franka",
           "char_107_liskam",
           "char_243_waaifu"
         ],
-        "scrollIndex": 7.0
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_225_haak",
+        "sub6RarityCharId": "char_179_cgbird"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5819,14 +5871,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_2013_cerber",
-        "sub6RarityCharId": "char_172_svrash",
         "rare5CharList": [
           "char_143_ghost",
           "char_128_plosis",
           "char_158_milu"
         ],
-        "scrollIndex": 7.0
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_2013_cerber",
+        "sub6RarityCharId": "char_172_svrash"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5877,14 +5929,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_134_ifrit",
-        "sub6RarityCharId": "char_010_chen",
         "rare5CharList": [
           "char_115_headbr",
           "char_242_otter",
           "char_279_excu"
         ],
-        "scrollIndex": 7.0
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_134_ifrit",
+        "sub6RarityCharId": "char_010_chen"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -5940,6 +5992,10 @@
         "star6ChooseRuleConst": "本期中坚甄选可从以下6★干员范围内自选<color=#00a8ff>2名干员</color>，使其<color=#00a8ff>合计出现概率占6★出率的50%</color>",
         "star5ChooseRuleConst": "本期中坚甄选可从以下5★干员范围内自选<color=#00a8ff>3名干员</color>，使其<color=#00a8ff>合计出现概率占5★出率的50%</color>",
         "scrollIndex": 7.0,
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.166662,
+          "TIER_6": 0.25
+        },
         "rarityPickCharDict": {
           "TIER_5": [
             "char_115_headbr",
@@ -6003,14 +6059,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "scrollIndex": 7.0,
-        "main6RarityCharId": "char_017_huang",
-        "sub6RarityCharId": "char_291_aglina",
         "rare5CharList": [
           "char_195_glassb",
           "char_379_sesa",
           "char_254_vodfox"
-        ]
+        ],
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_017_huang",
+        "sub6RarityCharId": "char_291_aglina"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6032,14 +6088,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_147_shining",
-        "sub6RarityCharId": "char_103_angel",
         "rare5CharList": [
           "char_243_waaifu",
           "char_129_bluep",
           "char_164_nightm"
         ],
-        "scrollIndex": 7.0
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_147_shining",
+        "sub6RarityCharId": "char_103_angel"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6165,14 +6221,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
+        "main6RarityCharId": "char_263_skadi",
+        "sub6RarityCharId": "char_248_mgllan",
         "rare5CharList": [
           "char_174_slbell",
           "char_226_hmau",
           "char_171_bldsk"
         ],
-        "scrollIndex": 7.0,
-        "main6RarityCharId": "char_263_skadi",
-        "sub6RarityCharId": "char_248_mgllan"
+        "scrollIndex": 7.0
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6194,6 +6250,14 @@
       "freeBackColor": null,
       "gachaRuleType": "FESCLASSIC",
       "dynMeta": {
+        "chooseRuleConst": "<color=#00a8ff>【中坚甄选】</color>期间，可在<color=#00a8ff>甄选范围内选择并锁定</color>本期出率提升的<color=#00a8ff>2名6★干员</color>和<color=#00a8ff>3名5★干员</color>。\n选定的过程中，可进一步配置<color=#00a8ff>1名6★干员</color>和<color=#00a8ff>1名5★干员</color>进入<color=#00a8ff>采购中心可供兑换</color>，且上述选定的干员将在<color=#ffd800>【高级凭证区】</color>和<color=#00a8ff>【通用凭证区】</color>供兑换。\n本次中坚甄选卡池期间，概率提升的干员选定后<color=#00a8ff>本周期内不可再度变更</color>。",
+        "star6ChooseRuleConst": "本期中坚甄选可从以下6★干员范围内自选<color=#00a8ff>2名干员</color>，使其<color=#00a8ff>合计出现概率占6★出率的50%</color>",
+        "star5ChooseRuleConst": "本期中坚甄选可从以下5★干员范围内自选<color=#00a8ff>3名干员</color>，使其<color=#00a8ff>合计出现概率占5★出率的50%</color>",
+        "scrollIndex": 7.0,
+        "pickUpPerCharPercent": {
+          "TIER_6": 0.25,
+          "TIER_5": 0.166662
+        },
         "rarityPickCharDict": {
           "TIER_5": [
             "char_128_plosis",
@@ -6236,11 +6300,7 @@
             "char_222_bpipe"
           ]
         },
-        "homeDescConst": "中坚甄选可<color=#00a8ff>自由选择并锁定</color>本期概率提升干员！选定后本次寻访<color=#00a8ff>不可变更</color>。前10次寻访必定获得<color=#00a8ff>5★</color>以上干员！",
-        "chooseRuleConst": "<color=#00a8ff>【中坚甄选】</color>期间，可在<color=#00a8ff>甄选范围内选择并锁定</color>本期出率提升的<color=#00a8ff>2名6★干员</color>和<color=#00a8ff>3名5★干员</color>。\n选定的过程中，可进一步配置<color=#00a8ff>1名6★干员</color>和<color=#00a8ff>1名5★干员</color>进入<color=#00a8ff>采购中心可供兑换</color>，且上述选定的干员将在<color=#ffd800>【高级凭证区】</color>和<color=#00a8ff>【通用凭证区】</color>供兑换。\n本次中坚甄选卡池期间，概率提升的干员选定后<color=#00a8ff>本周期内不可再度变更</color>。",
-        "star6ChooseRuleConst": "本期中坚甄选可从以下6★干员范围内自选<color=#00a8ff>2名干员</color>，使其<color=#00a8ff>合计出现概率占6★出率的50%</color>",
-        "star5ChooseRuleConst": "本期中坚甄选可从以下5★干员范围内自选<color=#00a8ff>3名干员</color>，使其<color=#00a8ff>合计出现概率占5★出率的50%</color>",
-        "scrollIndex": 7.0
+        "homeDescConst": "中坚甄选可<color=#00a8ff>自由选择并锁定</color>本期概率提升干员！选定后本次寻访<color=#00a8ff>不可变更</color>。前10次寻访必定获得<color=#00a8ff>5★</color>以上干员！"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6262,14 +6322,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_213_mostma",
         "sub6RarityCharId": "char_180_amgoat",
         "rare5CharList": [
           "char_367_swllow",
           "char_140_whitew",
           "char_145_prove"
-        ],
-        "scrollIndex": 7.0,
-        "main6RarityCharId": "char_213_mostma"
+        ]
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6291,14 +6351,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "sub6RarityCharId": "char_225_haak",
         "rare5CharList": [
           "char_158_milu",
           "char_274_astesi",
           "char_148_nearl"
         ],
         "scrollIndex": 7.0,
-        "main6RarityCharId": "char_188_helage"
+        "main6RarityCharId": "char_188_helage",
+        "sub6RarityCharId": "char_225_haak"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6320,14 +6380,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_179_cgbird",
         "sub6RarityCharId": "char_202_demkni",
         "rare5CharList": [
           "char_215_mantic",
           "char_219_meteo",
           "char_308_swire"
         ],
-        "scrollIndex": 7.0
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_179_cgbird"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6349,14 +6409,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "sub6RarityCharId": "char_293_thorns",
         "rare5CharList": [
           "char_379_sesa",
           "char_144_red",
           "char_343_tknogi"
         ],
         "scrollIndex": 7.0,
-        "main6RarityCharId": "char_197_poca"
+        "main6RarityCharId": "char_197_poca",
+        "sub6RarityCharId": "char_293_thorns"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6407,6 +6467,13 @@
       "freeBackColor": null,
       "gachaRuleType": "FESCLASSIC",
       "dynMeta": {
+        "star6ChooseRuleConst": "本期中坚甄选可从以下6★干员范围内自选<color=#00a8ff>2名干员</color>，使其<color=#00a8ff>合计出现概率占6★出率的50%</color>",
+        "star5ChooseRuleConst": "本期中坚甄选可从以下5★干员范围内自选<color=#00a8ff>3名干员</color>，使其<color=#00a8ff>合计出现概率占5★出率的50%</color>",
+        "scrollIndex": 7.0,
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.166662,
+          "TIER_6": 0.25
+        },
         "rarityPickCharDict": {
           "TIER_5": [
             "char_128_plosis",
@@ -6450,10 +6517,7 @@
           ]
         },
         "homeDescConst": "中坚甄选可<color=#00a8ff>自由选择并锁定</color>本期概率提升干员！选定后本次寻访<color=#00a8ff>不可变更</color>。前10次寻访必定获得<color=#00a8ff>5★</color>以上干员！",
-        "chooseRuleConst": "<color=#00a8ff>【中坚甄选】</color>期间，可在<color=#00a8ff>甄选范围内选择并锁定</color>本期出率提升的<color=#00a8ff>2名6★干员</color>和<color=#00a8ff>3名5★干员</color>。\n选定的过程中，可进一步配置<color=#00a8ff>1名6★干员</color>和<color=#00a8ff>1名5★干员</color>进入<color=#00a8ff>采购中心可供兑换</color>，且上述选定的干员将在<color=#ffd800>【高级凭证区】</color>和<color=#00a8ff>【通用凭证区】</color>供兑换。\n本次中坚甄选卡池期间，概率提升的干员选定后<color=#00a8ff>本周期内不可再度变更</color>。",
-        "star6ChooseRuleConst": "本期中坚甄选可从以下6★干员范围内自选<color=#00a8ff>2名干员</color>，使其<color=#00a8ff>合计出现概率占6★出率的50%</color>",
-        "star5ChooseRuleConst": "本期中坚甄选可从以下5★干员范围内自选<color=#00a8ff>3名干员</color>，使其<color=#00a8ff>合计出现概率占5★出率的50%</color>",
-        "scrollIndex": 7.0
+        "chooseRuleConst": "<color=#00a8ff>【中坚甄选】</color>期间，可在<color=#00a8ff>甄选范围内选择并锁定</color>本期出率提升的<color=#00a8ff>2名6★干员</color>和<color=#00a8ff>3名5★干员</color>。\n选定的过程中，可进一步配置<color=#00a8ff>1名6★干员</color>和<color=#00a8ff>1名5★干员</color>进入<color=#00a8ff>采购中心可供兑换</color>，且上述选定的干员将在<color=#ffd800>【高级凭证区】</color>和<color=#00a8ff>【通用凭证区】</color>供兑换。\n本次中坚甄选卡池期间，概率提升的干员选定后<color=#00a8ff>本周期内不可再度变更</color>。"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6475,14 +6539,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
+        "main6RarityCharId": "char_136_hsguma",
         "sub6RarityCharId": "char_134_ifrit",
         "rare5CharList": [
           "char_254_vodfox",
           "char_143_ghost",
           "char_326_glacus"
         ],
-        "scrollIndex": 7.0,
-        "main6RarityCharId": "char_136_hsguma"
+        "scrollIndex": 7.0
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6504,14 +6568,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
+        "main6RarityCharId": "char_263_skadi",
         "sub6RarityCharId": "char_222_bpipe",
         "rare5CharList": [
           "char_218_cuttle",
           "char_436_whispr",
           "char_129_bluep"
         ],
-        "scrollIndex": 7.0,
-        "main6RarityCharId": "char_263_skadi"
+        "scrollIndex": 7.0
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6533,14 +6597,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "main6RarityCharId": "char_010_chen",
         "sub6RarityCharId": "char_017_huang",
         "rare5CharList": [
           "char_173_slchan",
           "char_101_sora",
           "char_115_headbr"
         ],
-        "scrollIndex": 7.0
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_010_chen"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6637,7 +6701,11 @@
         "chooseRuleConst": "<color=#00a8ff>【中坚甄选】</color>期间，可在<color=#00a8ff>甄选范围内选择并锁定</color>本期出率提升的<color=#00a8ff>2名6★干员</color>和<color=#00a8ff>3名5★干员</color>。\n选定的过程中，可进一步配置<color=#00a8ff>1名6★干员</color>和<color=#00a8ff>1名5★干员</color>进入<color=#00a8ff>采购中心可供兑换</color>，且上述选定的干员将在<color=#ffd800>【高级凭证区】</color>和<color=#00a8ff>【通用凭证区】</color>供兑换。\n本次中坚甄选卡池期间，概率提升的干员选定后<color=#00a8ff>本周期内不可再度变更</color>。",
         "star6ChooseRuleConst": "本期中坚甄选可从以下6★干员范围内自选<color=#00a8ff>2名干员</color>，使其<color=#00a8ff>合计出现概率占6★出率的50%</color>",
         "star5ChooseRuleConst": "本期中坚甄选可从以下5★干员范围内自选<color=#00a8ff>3名干员</color>，使其<color=#00a8ff>合计出现概率占5★出率的50%</color>",
-        "scrollIndex": 7.0
+        "scrollIndex": 7.0,
+        "pickUpPerCharPercent": {
+          "TIER_5": 0.166662,
+          "TIER_6": 0.25
+        }
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6746,14 +6814,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
+        "scrollIndex": 7.0,
+        "main6RarityCharId": "char_248_mgllan",
         "sub6RarityCharId": "char_340_shwaz",
         "rare5CharList": [
           "char_145_prove",
           "char_373_lionhd",
           "char_243_waaifu"
-        ],
-        "scrollIndex": 7.0,
-        "main6RarityCharId": "char_248_mgllan"
+        ]
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6775,14 +6843,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
-        "sub6RarityCharId": "char_2013_cerber",
         "rare5CharList": [
           "char_356_broca",
           "char_164_nightm",
           "char_415_flint"
         ],
         "scrollIndex": 7.0,
-        "main6RarityCharId": "char_112_siege"
+        "main6RarityCharId": "char_112_siege",
+        "sub6RarityCharId": "char_2013_cerber"
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -6833,14 +6901,14 @@
       "freeBackColor": null,
       "gachaRuleType": "CLASSIC",
       "dynMeta": {
+        "main6RarityCharId": "char_180_amgoat",
+        "sub6RarityCharId": "char_358_lisa",
         "rare5CharList": [
           "char_140_whitew",
           "char_455_nothin",
           "char_108_silent"
         ],
-        "scrollIndex": 7.0,
-        "main6RarityCharId": "char_180_amgoat",
-        "sub6RarityCharId": "char_358_lisa"
+        "scrollIndex": 7.0
       },
       "linkageRuleId": null,
       "linkageParam": null,
@@ -7601,7 +7669,8 @@
       4
     ]
   },
-  "recruitDetail": "<@rc.title>公开招募说明</>\r\n\r\n<@rc.em>※稀有职业需求招募说明※</>\r\n<@rc.em>当职业需求包含高级资深干员，且招募时限为9小时时，招募必得6星干员</>\r\n<@rc.em>当职业需求包含资深干员同时不包含高级资深干员，且招募时限为9小时，则该次招募必得5星干员</>\r\n\r\n<@rc.subtitle>※全部可能出现的干员※</>\r\n<@rc.eml>绿色高亮的不可寻访干员，可以在此招募</>\r\n\r\n★\\n<@rc.eml>Lancet-2</> / <@rc.eml>Castle-3</> / <@rc.eml>THRM-EX</> / <@rc.eml>正义骑士号</> / <@rc.eml>Friston-3</> / <@rc.eml>PhonoR-0</>\r\n--------------------\r\n★★\\n<@rc.eml>夜刀</> / <@rc.eml>黑角</> / <@rc.eml>巡林者</> / <@rc.eml>杜林</> / <@rc.eml>12F</>\r\n--------------------\r\n★★★\\n<@rc.eml>安德切尔</> / 芬 / 香草 / 翎羽 / 玫兰莎 / 米格鲁 / 克洛丝 / 炎熔 / 芙蓉 / 安赛尔 / 史都华德 / 梓兰 / 空爆 / 月见夜 / 泡普卡 / 斑点\r\n--------------------\r\n★★★★\\n<@rc.eml>艾丝黛尔</> / <@rc.eml>清流</> / 夜烟 / 远山 / 杰西卡 / 流星 / 白雪 / 清道夫 / 红豆 / 杜宾 / 缠丸 / 霜叶 / 慕斯 / 砾 / 暗索 / 末药 / 调香师 / 角峰 / 蛇屠箱 / 古米 / 地灵 / 阿消 / 猎蜂 / 格雷伊 / 苏苏洛 / 桃金娘 / 红云 / 梅 / 安比尔 / 宴 / 刻刀 / 波登可 / 卡达 / 孑 / 酸糖 / 芳汀 / 泡泡 / 杰克\r\n--------------------\r\n★★★★★\\n<@rc.eml>因陀罗</> / <@rc.eml>火神</> / 白面鸮 / 凛冬 / 德克萨斯 / 幽灵鲨 / 蓝毒 / 白金 / 陨星 / 梅尔 / 赫默 / 华法琳 / 临光 / 红 / 雷蛇 / 可颂 / 普罗旺斯 / 守林人 / 崖心 / 初雪 / 真理 / 狮蝎 / 食铁兽 / 夜魔 / 诗怀雅 / 格劳克斯 / 星极 / 送葬人 / 槐琥 / 灰喉 / 苇草 / 布洛卡 / 吽 / 惊蛰 / 慑砂 / 巫恋 / 极境 / 石棉 / 月禾 / 莱恩哈特 / 断崖 / 安哲拉 / 贾维 / 蜜蜡 / 燧石 /四月 / 奥斯塔 / 絮雨\r\n--------------------\r\n★★★★★★\\n能天使 / 推进之王 / 伊芙利特 / 闪灵 / 夜莺 / 星熊 / 塞雷娅 / 银灰 / 斯卡蒂 / 陈 / 黑 / 赫拉格 / 麦哲伦 / 莫斯提马 / 煌 / 阿 / 刻俄柏 / 风笛 / 傀影 / 温蒂 / 早露 / 铃兰 / 棘刺 / 森蚺 / 史尔特尔 / 瑕光 / 泥岩",
+  "recruitDetail": "<@rc.title>公开招募说明</>\r\n\r\n<@rc.em>※稀有职业需求招募说明※</>\r\n<@rc.em>当职业需求包含高级资深干员，且招募时限为9小时时，招募必得6星干员</>\r\n<@rc.em>当职业需求包含资深干员同时不包含高级资深干员，且招募时限为9小时，则该次招募必得5星干员</>\r\n\r\n<@rc.subtitle>※全部可能出现的干员※</>\r\n<@rc.eml>绿色高亮的不可寻访干员，可以在此招募</>\r\n\r\n★\\n<@rc.eml>Lancet-2</> / <@rc.eml>Castle-3</> / <@rc.eml>THRM-EX</> / <@rc.eml>正义骑士号</> / <@rc.eml>Friston-3</> / <@rc.eml>PhonoR-0</>\r\n--------------------\r\n★★\\n<@rc.eml>夜刀</> / <@rc.eml>黑角</> / <@rc.eml>巡林者</> / <@rc.eml>杜林</> / <@rc.eml>12F</>\r\n--------------------\r\n★★★\\n<@rc.eml>安德切尔</> / 芬 / 香草 / 翎羽 / 玫兰莎 / 米格鲁 / 克洛丝 / 炎熔 / 芙蓉 / 安赛尔 / 史都华德 / 梓兰 / 空爆 / 月见夜 / 泡普卡 / 斑点\r\n--------------------\r\n★★★★\\n<@rc.eml>艾丝黛尔</> / <@rc.eml>清流</> / 夜烟 / 远山 / 杰西卡 / 流星 / 白雪 / 清道夫 / 红豆 / 杜宾 / 缠丸 / 霜叶 / 慕斯 / 砾 / 暗索 / 末药 / 调香师 / 角峰 / 蛇屠箱 / 古米 / 地灵 / 阿消 / 猎蜂 / 格雷伊 / 苏苏洛 / 桃金娘 / 红云 / 梅 / 安比尔 / 宴 / 刻刀 / 波登可 / 卡达 / 孑 / 酸糖 / 芳汀 / 泡泡 / 杰克 / 松果\r\n--------------------\r\n★★★★★\\n<@rc.eml>因陀罗</> / <@rc.eml>火神</> / 白面鸮 / 凛冬 / 德克萨斯 / 幽灵鲨 / 蓝毒 / 白金 / 陨星 / 梅尔 / 赫默 / 华法琳 / 临光 / 红 / 雷蛇 / 可颂 / 普罗旺斯 / 守林人 / 崖心 / 初雪 / 真理 / 狮蝎 / 食铁兽 / 夜魔 / 诗怀雅 / 格劳克斯 / 星极 / 送葬人 / 槐琥 / 灰喉 / 苇草 / 布洛卡 / 吽 / 惊蛰 / 慑砂 / 巫恋 / 极境 / 石棉 / 月禾 / 莱恩哈特 / 断崖 / 安哲拉 / 贾维 / 蜜蜡 / 燧石 /四月 / 奥斯塔 / 絮雨 / 卡夫卡\r\n--------------------\r\n★★★★★★\\n能天使 / 推进之王 / 伊芙利特 / 闪灵 / 夜莺 / 星熊 / 塞雷娅 / 银灰 / 斯卡蒂 / 陈 / 黑 / 赫拉格 / 麦哲伦 / 莫斯提马 / 煌 / 阿 / 刻俄柏 / 风笛 / 傀影 / 温蒂 / 早露 / 铃兰 / 棘刺 / 森蚺 / 史尔特尔 / 瑕光 / 泥岩 / 山",
+  "showGachaLogEntry": true,
   "carousel": [
     {
       "poolId": "BOOT_0_1_1",
@@ -9438,6 +9507,20 @@
       "spriteId": "picNorm_55_0_3"
     },
     {
+      "poolId": "LIMITED_56_0_1",
+      "index": 362,
+      "startTime": 1730433600,
+      "endTime": 1731614399,
+      "spriteId": "picLimited_56_0_1"
+    },
+    {
+      "poolId": "NORM_56_0_2",
+      "index": 366,
+      "startTime": 1730923200,
+      "endTime": 1732132799,
+      "spriteId": "picNorm_56_0_2"
+    },
+    {
       "poolId": "CLASSIC_ATTAIN_45_0_2",
       "index": 996,
       "startTime": 1703750400,
@@ -9553,6 +9636,12 @@
       "openTime": 1722484800,
       "endTime": 1723665599,
       "freeCount": 1
+    },
+    {
+      "poolId": "LIMITED_56_0_1",
+      "openTime": 1730433600,
+      "endTime": 1731614399,
+      "freeCount": 1
     }
   ],
   "limitTenGachaItem": [
@@ -9623,6 +9712,10 @@
     {
       "itemId": "LIMITED_TKT_GACHA_10_5301",
       "endTime": 1723665599
+    },
+    {
+      "itemId": "LIMITED_TKT_GACHA_10_5601",
+      "endTime": 1731614399
     }
   ],
   "linkageTenGachaItem": [
