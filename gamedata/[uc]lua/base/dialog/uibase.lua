@@ -217,7 +217,7 @@ function UIBase:AsignDelegate(obj, delegateName, func, ...)
     end
     
     self:_AddToDoWhenClose(function()
-        if obj ~= nil then
+        if not CS.Torappu.Lua.Util.IsDestroyed(obj) then
             obj[delegateName] = nil;
         end
     end);
