@@ -1033,6 +1033,22 @@
           "valueStr": "lrmm_0"
         }
       ]
+    },
+    {
+      "difficultyMask": 7,
+      "key": "char_skill_blackb_add",
+      "professionMask": 256,
+      "buildableMask": 3,
+      "blackboard": [
+        {
+          "key": "char",
+          "valueStr": "trap_162_lrctrl"
+        },
+        {
+          "key": "sp_recover_ratio",
+          "value": 0.4
+        }
+      ]
     }
   ],
   "globalBuffs": null,
