@@ -213,6 +213,22 @@
       "canPreview": true,
       "hasAdditionalPanel": true
     },
+    "act2mainss_zone1": {
+      "zoneID": "act2mainss_zone1",
+      "zoneIndex": 0,
+      "type": "MAINLINE_ACTIVITY",
+      "zoneNameFirst": "Dissociative Recombination",
+      "zoneNameSecond": "离解复合",
+      "zoneNameTitleCurrent": "15",
+      "zoneNameTitleUnCurrent": "15",
+      "zoneNameTitleEx": "EPISODE",
+      "zoneNameThird": "EPISODE 15",
+      "lockedText": "完成3-8以解锁",
+      "antiSpoilerId": "main_15",
+      "canPreview": true,
+      "sixStarMilestoneGroupId": "main_15",
+      "bindMainlineRetroZoneId": "permanent_main_1_zone1"
+    },
     "weekly_1": {
       "zoneID": "weekly_1",
       "zoneIndex": 1,
@@ -3853,6 +3869,22 @@
       "lockedText": null,
       "canPreview": false
     },
+    "permanent_main_1_zone1": {
+      "zoneID": "permanent_main_1_zone1",
+      "zoneIndex": 0,
+      "type": "MAINLINE_RETRO",
+      "zoneNameFirst": "Dissociative Recombination",
+      "zoneNameSecond": "离解复合",
+      "zoneNameTitleCurrent": "15",
+      "zoneNameTitleUnCurrent": "15",
+      "zoneNameTitleEx": "EPISODE",
+      "zoneNameThird": "EPISODE 15",
+      "lockedText": "完成3-8以解锁",
+      "antiSpoilerId": "main_15",
+      "canPreview": true,
+      "sixStarMilestoneGroupId": "main_15",
+      "bindMainlineZoneId": "act2mainss_zone1"
+    },
     "permanent_sidestory_1_zone1": {
       "zoneID": "permanent_sidestory_1_zone1",
       "zoneIndex": 0,
@@ -4734,6 +4766,10 @@
     }
   },
   "zoneValidInfo": {
+    "act2mainss_zone1": {
+      "startTs": 1743998400,
+      "endTs": 1745179199
+    },
     "act6fun_zone1": {
       "startTs": 1743494400,
       "endTs": 1744055999
@@ -5599,7 +5635,7 @@
       "zoneIndex": 0,
       "startStageId": "main_00-01",
       "endStageId": "main_00-11",
-      "mainlneBgName": "mbg_chapter_0_1",
+      "gameMusicId": "music_3in1bg_main0",
       "recapId": "",
       "recapPreStageId": "",
       "buttonName": "",
@@ -5617,7 +5653,7 @@
       "zoneIndex": 1,
       "startStageId": "main_01-01",
       "endStageId": "main_01-12",
-      "mainlneBgName": "mbg_chapter_0_2",
+      "gameMusicId": "music_3in1bg_main1",
       "recapId": "",
       "recapPreStageId": "",
       "buttonName": "",
@@ -5635,7 +5671,7 @@
       "zoneIndex": 2,
       "startStageId": "tr_11",
       "endStageId": "main_02-10",
-      "mainlneBgName": "mbg_chapter_0_3",
+      "gameMusicId": "music_3in1bg_main2",
       "recapId": "",
       "recapPreStageId": "",
       "buttonName": "",
@@ -5653,7 +5689,7 @@
       "zoneIndex": 3,
       "startStageId": "main_03-01",
       "endStageId": "main_03-08",
-      "mainlneBgName": "mbg_chapter_0_4",
+      "gameMusicId": "music_3in1bg_main3",
       "recapId": "",
       "recapPreStageId": "",
       "buttonName": "",
@@ -5671,7 +5707,7 @@
       "zoneIndex": 0,
       "startStageId": "main_04-01",
       "endStageId": "main_04-10",
-      "mainlneBgName": "mbg_chapter_1_1",
+      "gameMusicId": "music_3in1bg_main4",
       "recapId": "",
       "recapPreStageId": "",
       "buttonName": "",
@@ -5689,7 +5725,7 @@
       "zoneIndex": 1,
       "startStageId": "main_05-01",
       "endStageId": "st_05-01",
-      "mainlneBgName": "mbg_chapter_1_2",
+      "gameMusicId": "music_3in1bg_main5",
       "recapId": "",
       "recapPreStageId": "",
       "buttonName": "",
@@ -5707,7 +5743,7 @@
       "zoneIndex": 2,
       "startStageId": "main_06-01",
       "endStageId": "st_06-03",
-      "mainlneBgName": "mbg_chapter_1_3",
+      "gameMusicId": "music_3in1bg_main6",
       "recapId": "",
       "recapPreStageId": "",
       "buttonName": "",
@@ -5725,7 +5761,7 @@
       "zoneIndex": 3,
       "startStageId": "st_07-01",
       "endStageId": "st_07-04",
-      "mainlneBgName": "mbg_chapter_1_4",
+      "gameMusicId": "music_3in1bg_main7",
       "recapId": "",
       "recapPreStageId": "",
       "buttonName": "",
@@ -5743,7 +5779,7 @@
       "zoneIndex": 4,
       "startStageId": "main_08-01",
       "endStageId": "st_08-06",
-      "mainlneBgName": "mbg_chapter_1_5",
+      "gameMusicId": "music_3in1bg_main8",
       "recapId": "",
       "recapPreStageId": "",
       "buttonName": "",
@@ -5761,7 +5797,7 @@
       "zoneIndex": 0,
       "startStageId": "st_09-01",
       "endStageId": "st_09-04",
-      "mainlneBgName": "mbg_chapter_2_1",
+      "gameMusicId": "music_3in1bg_main9",
       "recapId": "obt/main/level_main_9_chapter_recap",
       "recapPreStageId": "st_08-06",
       "buttonName": "前情提要",
@@ -5780,7 +5816,7 @@
       "zoneIndex": 1,
       "startStageId": "st_10-01",
       "endStageId": "st_10-04",
-      "mainlneBgName": "mbg_chapter_2_2",
+      "gameMusicId": "music_3in1bg_main10",
       "recapId": "obt/main/main_10_zone_enter",
       "recapPreStageId": "st_09-04",
       "buttonName": "观看序曲",
@@ -5800,7 +5836,7 @@
       "zoneIndex": 2,
       "startStageId": "easy_11-01",
       "endStageId": "st_11-03",
-      "mainlneBgName": "mbg_chapter_2_3",
+      "gameMusicId": "music_3in1bg_main11",
       "recapId": "obt/main/main_11_zone_enter",
       "recapPreStageId": "st_10-04",
       "buttonName": "观看序曲",
@@ -5820,7 +5856,7 @@
       "zoneIndex": 3,
       "startStageId": "st_12-01",
       "endStageId": "st_12-03",
-      "mainlneBgName": "mbg_chapter_2_4",
+      "gameMusicId": "music_3in1bg_main12",
       "recapId": "obt/main/main_12_zone_enter",
       "recapPreStageId": "st_11-03",
       "buttonName": "观看序曲",
@@ -5840,7 +5876,7 @@
       "zoneIndex": 4,
       "startStageId": "st_13-01",
       "endStageId": "st_13-03",
-      "mainlneBgName": "mbg_chapter_2_5",
+      "gameMusicId": "music_3in1bg_main13",
       "recapId": "",
       "recapPreStageId": "st_12-03",
       "buttonName": "",
@@ -5860,7 +5896,7 @@
       "zoneIndex": 5,
       "startStageId": "st_14-01",
       "endStageId": "st_14-03",
-      "mainlneBgName": "mbg_chapter_2_6",
+      "gameMusicId": "music_3in1bg_main14",
       "recapId": "",
       "recapPreStageId": "st_13-03",
       "buttonName": "",
@@ -5871,6 +5907,24 @@
         1,
         2,
         4
+      ]
+    },
+    "act2mainss_zone1": {
+      "zoneId": "act2mainss_zone1",
+      "chapterId": "chapter_3",
+      "preposedZoneId": "main_3",
+      "zoneIndex": 0,
+      "startStageId": "st_15-01",
+      "endStageId": "st_15-03",
+      "gameMusicId": "music_3in1bg_main15",
+      "recapId": "",
+      "recapPreStageId": "st_13-03",
+      "buttonName": "",
+      "buttonStyle": "NONE",
+      "spoilAlert": false,
+      "zoneOpenTime": -1,
+      "diffGroup": [
+        2
       ]
     }
   },
@@ -8032,6 +8086,24 @@
       "hard_13-04"
     ]
   },
+  "mainlineZoneIdList": [
+    "main_0",
+    "main_1",
+    "main_2",
+    "main_3",
+    "main_4",
+    "main_5",
+    "main_6",
+    "main_7",
+    "main_8",
+    "main_9",
+    "main_10",
+    "main_11",
+    "main_12",
+    "main_13",
+    "main_14",
+    "permanent_main_1_zone1"
+  ],
   "zoneMetaData": {
     "ZoneRecordMissionData": {
       "tough_12-06": {
