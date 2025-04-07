@@ -2018,6 +2018,8 @@
           "module_avatar_simple"
         ],
         "rarity": 4,
+        "skinTmplCnt": 1,
+        "canChangeTmpl": false,
         "isTimeLimit": false,
         "timeLimitInfoList": []
       },
@@ -2046,6 +2048,8 @@
           "module_avatar_simple"
         ],
         "rarity": 4,
+        "skinTmplCnt": 1,
+        "canChangeTmpl": false,
         "isTimeLimit": false,
         "timeLimitInfoList": []
       },
@@ -2074,6 +2078,8 @@
           "module_avatar_simple"
         ],
         "rarity": 4,
+        "skinTmplCnt": 1,
+        "canChangeTmpl": false,
         "isTimeLimit": true,
         "timeLimitInfoList": [
           {
@@ -2108,6 +2114,8 @@
           "module_avatar_simple"
         ],
         "rarity": 4,
+        "skinTmplCnt": 1,
+        "canChangeTmpl": false,
         "isTimeLimit": false,
         "timeLimitInfoList": []
       },
@@ -2135,6 +2143,8 @@
           "module_avatar_simple"
         ],
         "rarity": 5,
+        "skinTmplCnt": 1,
+        "canChangeTmpl": false,
         "isTimeLimit": true,
         "timeLimitInfoList": [
           {
@@ -2168,6 +2178,8 @@
           "module_avatar_simple"
         ],
         "rarity": 5,
+        "skinTmplCnt": 1,
+        "canChangeTmpl": false,
         "isTimeLimit": true,
         "timeLimitInfoList": [
           {
@@ -2201,6 +2213,8 @@
           "module_avatar_simple"
         ],
         "rarity": 5,
+        "skinTmplCnt": 1,
+        "canChangeTmpl": false,
         "isTimeLimit": true,
         "timeLimitInfoList": [
           {
@@ -2234,6 +2248,8 @@
           "module_avatar_simple"
         ],
         "rarity": 5,
+        "skinTmplCnt": 1,
+        "canChangeTmpl": false,
         "isTimeLimit": true,
         "timeLimitInfoList": [
           {
@@ -2268,6 +2284,8 @@
           "module_avatar_simple"
         ],
         "rarity": 4,
+        "skinTmplCnt": 1,
+        "canChangeTmpl": false,
         "isTimeLimit": true,
         "timeLimitInfoList": [
           {
@@ -2301,6 +2319,8 @@
           "module_avatar_simple"
         ],
         "rarity": 5,
+        "skinTmplCnt": 1,
+        "canChangeTmpl": false,
         "isTimeLimit": true,
         "timeLimitInfoList": [
           {
@@ -2335,6 +2355,8 @@
           "module_avatar_simple"
         ],
         "rarity": 4,
+        "skinTmplCnt": 1,
+        "canChangeTmpl": false,
         "isTimeLimit": true,
         "timeLimitInfoList": [
           {
@@ -2369,6 +2391,8 @@
           "module_avatar_simple"
         ],
         "rarity": 4,
+        "skinTmplCnt": 1,
+        "canChangeTmpl": false,
         "isTimeLimit": true,
         "timeLimitInfoList": [
           {
@@ -2403,6 +2427,8 @@
           "module_avatar_simple"
         ],
         "rarity": 4,
+        "skinTmplCnt": 1,
+        "canChangeTmpl": false,
         "isTimeLimit": true,
         "timeLimitInfoList": [
           {
@@ -2437,6 +2463,8 @@
           "module_avatar_simple"
         ],
         "rarity": 4,
+        "skinTmplCnt": 1,
+        "canChangeTmpl": false,
         "isTimeLimit": true,
         "timeLimitInfoList": [
           {
@@ -4073,6 +4101,32 @@
         "multiv3_battle_nice_work",
         "multiv3_battle_thanks",
         "multiv3_battle_sorry"
+      ]
+    }
+  },
+  "storyVariantData": {
+    "obt/main/level_main_15-15_end_variation01": {
+      "plotTaskId": "spiecalplot_act2mainss_1",
+      "spStoryId": "obt/main/level_main_15-15_end_variation01",
+      "storyId": "obt/main/level_main_15-15_end",
+      "priority": 1,
+      "startTime": 1743998400,
+      "endTime": 1745179199,
+      "template": "PerformanceStoryH5GameChoice",
+      "param": [
+        "B"
+      ]
+    },
+    "obt/main/level_main_15-15_end_variation02": {
+      "plotTaskId": "spiecalplot_act2mainss_2",
+      "spStoryId": "obt/main/level_main_15-15_end_variation02",
+      "storyId": "obt/main/level_main_15-15_end",
+      "priority": 2,
+      "startTime": 1743998400,
+      "endTime": 1745179199,
+      "template": "PerformanceStoryH5GameChoice",
+      "param": [
+        "A"
       ]
     }
   }

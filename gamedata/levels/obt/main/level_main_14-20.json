@@ -12,7 +12,8 @@
     "isPredefinedCardsSelectable": false,
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
-    "configBlackBoard": null
+    "configBlackBoard": null,
+    "enemyTauntLevelPow": 0
   },
   "levelId": null,
   "mapId": null,
@@ -491,7 +492,7 @@
   "tilesDisallowToLocate": [],
   "runes": [
     {
-      "difficultyMask": 7,
+      "difficultyMask": 15,
       "key": "char_skill_cd_mul",
       "professionMask": 1023,
       "buildableMask": 3,
@@ -503,6 +504,7 @@
       ]
     }
   ],
+  "optionalRunes": null,
   "globalBuffs": null,
   "routes": [
     {
@@ -1803,6 +1805,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1827,6 +1830,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1851,6 +1855,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1875,6 +1880,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1899,6 +1905,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1923,6 +1930,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1947,6 +1955,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1971,6 +1980,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1995,6 +2005,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2019,6 +2030,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2043,6 +2055,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2067,6 +2080,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2091,6 +2105,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2115,6 +2130,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2139,6 +2155,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2163,6 +2180,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2187,6 +2205,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2211,6 +2230,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2235,6 +2255,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2259,6 +2280,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2283,6 +2305,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2307,6 +2330,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2331,6 +2355,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2355,6 +2380,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2379,6 +2405,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
