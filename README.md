@@ -1,4 +1,7 @@
 # ArknightsResource  
+> 2025.04.13 仓库维护说明：弃用旧版图像资源增量上传，变更为lfs模式。
+>
+> 2025.04.13H 仓库临时不可用说明：用久了huggingface忘记github的LFS有1GB限制了。。13日中~下午修完bug后回滚回正常的git file模式。 因该操作为force操作，因此可能需要各位用户重新clone，为此抱歉（）
 
 ## **0x00 声明**  
 
