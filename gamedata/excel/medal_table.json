@@ -2984,6 +2984,48 @@
       "medalRewardGroup": []
     },
     {
+      "medalId": "medal_tower_complete_18",
+      "medalName": "行裕物流安全认证章",
+      "medalType": "towerMedal",
+      "slotId": 31,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassTower",
+      "unlockParam": [
+        "tower_n_18",
+        "0",
+        "0"
+      ],
+      "getMethod": "完成【尚蜀夜市】",
+      "description": "尚蜀夜市保全任务圆满结束后由委托方颁发的奖章。\n在罗德岛的努力下，编钟“晨音”已被顺利回收。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1744747200,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
+      "medalId": "medal_hardtower_complete_18",
+      "medalName": "行裕物流应急认证章",
+      "medalType": "towerMedal",
+      "slotId": 32,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassTower",
+      "unlockParam": [
+        "tower_n_18",
+        "0",
+        "1"
+      ],
+      "getMethod": "完成【尚蜀夜市】应急补给模式",
+      "description": "在应急补给条件下完成尚蜀夜市保全任务后，由委托方颁发的特别奖章。\n在您的精妙指挥下，编钟“晨音”以最小代价被顺利回收。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1744747200,
+      "expireTimes": [],
+      "medalRewardGroup": []
+    },
+    {
       "medalId": "medal_growth_evolve1_01",
       "medalName": "干员晋升奖章·I",
       "medalType": "growthMedal",
@@ -15070,7 +15112,7 @@
       "expireTimes": [
         {
           "start": 1715198400,
-          "end": 1713686399,
+          "end": 1745222399,
           "type": "TEMP"
         },
         {
@@ -15101,7 +15143,7 @@
       "expireTimes": [
         {
           "start": 1715198400,
-          "end": 1713686399,
+          "end": 1745222399,
           "type": "TEMP"
         },
         {
@@ -15133,7 +15175,7 @@
       "expireTimes": [
         {
           "start": 1715198400,
-          "end": 1713686399,
+          "end": 1745222399,
           "type": "TEMP"
         },
         {
@@ -15165,7 +15207,7 @@
       "expireTimes": [
         {
           "start": 1715198400,
-          "end": 1713686399,
+          "end": 1745222399,
           "type": "TEMP"
         },
         {
@@ -15196,7 +15238,7 @@
       "expireTimes": [
         {
           "start": 1715198400,
-          "end": 1713686399,
+          "end": 1745222399,
           "type": "TEMP"
         },
         {
@@ -15230,7 +15272,7 @@
       "expireTimes": [
         {
           "start": 1715198400,
-          "end": 1713686399,
+          "end": 1745222399,
           "type": "TEMP"
         },
         {
@@ -15263,7 +15305,7 @@
       "expireTimes": [
         {
           "start": 1715198400,
-          "end": 1713686399,
+          "end": 1745222399,
           "type": "TEMP"
         },
         {
@@ -15295,7 +15337,7 @@
       "expireTimes": [
         {
           "start": 1715198400,
-          "end": 1713686399,
+          "end": 1745222399,
           "type": "TEMP"
         },
         {
@@ -15327,7 +15369,7 @@
       "expireTimes": [
         {
           "start": 1715198400,
-          "end": 1713686399,
+          "end": 1745222399,
           "type": "TEMP"
         },
         {
@@ -15360,7 +15402,7 @@
       "expireTimes": [
         {
           "start": 1715198400,
-          "end": 1713686399,
+          "end": 1745222399,
           "type": "TEMP"
         },
         {
@@ -29769,6 +29811,34 @@
       "isHidden": true
     },
     {
+      "medalId": "medal_hidden_tower_18",
+      "medalName": "“特辣毛血旺”",
+      "medalType": "hiddenMedal",
+      "slotId": 21,
+      "preMedalIdList": [],
+      "rarity": 2,
+      "template": "PassTower",
+      "unlockParam": [
+        "tower_n_18",
+        "1",
+        "0"
+      ],
+      "getMethod": "委托方许诺，如果尚蜀夜市保全工作没有出现失误，将会为罗德岛准备特别的答谢晚宴。",
+      "description": "以行裕物流委托方在答谢宴上准备的菜点为灵感制成的奖章。\n在玉门展开物流业务的同时，杜小姐也不忘拓展其他业务，曾经在行裕客栈颇有名气的几道菜就被她带去了玉门，比如这道毛血旺。",
+      "advancedMedal": null,
+      "originMedal": null,
+      "displayTime": 1744747200,
+      "expireTimes": [
+        {
+          "start": -1,
+          "end": 1744747200,
+          "type": "INIT"
+        }
+      ],
+      "medalRewardGroup": [],
+      "isHidden": true
+    },
+    {
       "medalId": "medal_hidden_story_lolxh_1",
       "medalName": "“夜游船”",
       "medalType": "hiddenMedal",
@@ -31400,7 +31470,7 @@
       "expireTimes": [
         {
           "start": 1715198400,
-          "end": 1713686399,
+          "end": 1745222399,
           "type": "TEMP"
         },
         {
@@ -33066,7 +33136,7 @@
           "sharedExpireTimes": [
             {
               "start": 1715198400,
-              "end": 1713686399,
+              "end": 1745222399,
               "type": "TEMP"
             },
             {
