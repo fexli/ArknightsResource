@@ -1,4 +1,7 @@
 # ArknightsResource  
+
+### 注：若只需要获取gamedata数据，可参考[ArknightsGamedataPure](https://github.com/closure-studio/ArknightsGamedataPure)
+
 > 2025.04.13 仓库维护说明：弃用旧版图像资源增量上传，变更为lfs模式。
 >
 > 2025.04.13H 仓库临时不可用说明：用久了huggingface忘记github的LFS有1GB限制了。。13日中~下午修完bug后回滚回正常的git file模式。 因该操作为force操作，因此可能需要各位用户重新clone，为此抱歉（）
@@ -36,14 +39,13 @@
 |spine|干员spine| 干员spine文件，包括atlas/skel/material.png（****） |
 
 注：  
-- \*:avg/npcs中包含summary.json为全部npc合并文件介绍，导出有bug临时禁用
+- \*:avg/npcs中包含summary.json为全部npc合并文件介绍
 - \*\*:gamedata为官服数据，已适配新版(2.0.01及以后)flatbuffer全部数据
 - \*\*\*:蚀刻章下分为raw蚀刻章套组图、group合并后的蚀刻章套组图
 - \*\*\*\*:spine中png的图像大小已经过处理，可以直接导入Spine查看器使用
 
 ## **0x03 后续计划**
 
-- 修复avgs npc face数据
 - 支持enemy spine
 - 支持recruit更新
 - ???...
