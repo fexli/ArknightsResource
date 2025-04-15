@@ -1,51 +1,58 @@
-# ArknightsResource  
+<h1 align="center">ArknightsResource</h1>
+<p align="center">
+<a href="/README.md" target="_blank"> English </a> | <a href="/README_CN.md" target="_blank">中文</a>
+</p>
 
-### 注：若只需要获取gamedata数据，可参考[ArknightsGamedataPure](https://github.com/closure-studio/ArknightsGamedataPure)
+### Note: For gamedata only, please refer to [ArknightsGamedataPure](https://github.com/closure-studio/ArknightsGamedataPure)
 
-> 2025.04.13 仓库维护说明：弃用旧版图像资源增量上传，变更为lfs模式。
+> 2025.04.13 Repository Update: Deprecated incremental image uploads in favor of LFS mode.
 >
-> 2025.04.13H 仓库临时不可用说明：用久了huggingface忘记github的LFS有1GB限制了。。13日中~下午修完bug后回滚回正常的git file模式。 因该操作为force操作，因此可能需要各位用户重新clone，为此抱歉（）
+> 2025.04.13H Temporary Unavailability Notice: Forgot GitHub's 1GB LFS limit while accustomed to HuggingFace :(. Rolled back to standard git file mode after bug fixes in the afternoon. This force operation may require users to re-clone the repository. Our apologies for the inconvenience.
 
-## **0x00 声明**  
+# **0x00 Legal Notice**  
 
-### **本项目所涉及的所有项目内文件版权均属上海鹰角网络科技有限公司所有，项目建立仅用于学习交流，若侵权请联系。**  
+### **All files contained in this project are copyrighted by Hypergryph Network Technology Co., Ltd. This project is solely for educational and research purposes. Please contact us for any copyright concerns.**  
 
-### **All files involved in this project are copyrighted by Hypergryph Network Technology co., Ltd. The project is only established for learning and communication purposes. If any infringement occurs, please contact us.**  
+## **0x01 Project Description**  
 
-## **0x01 说明**  
+Arknights gamedata and resource parser  
+Automated gamedata & resource parsing system powered by ArkResourceAutoUpdateBot
 
-《明日方舟》游戏数据与常用资源解析  
-基于ArkResourceAutoUpdateBot的自动化游戏数据&常用资源解析  
+## **0x02 Directory Structure**  
 
-## **0x02 目录解释**  
+| Directory        | Type       | Description                                                               |
+|------------------|------------|---------------------------------------------------------------------------|
+| avatar           | Avatars    | Contains DEFAULT avatar set and ASSISTANT portrait set (operator profile) |
+| avgs             | Story AVG  | All story AVG backgrounds, NPCs (Note 1), and items                       |
+| brand            | Apparel    | Clothing brand icons                                                      |
+| camplogo         | Factions   | Operator faction icons                                                    |
+| charpack         | Full Art   | Operator full illustrations (b-suffixed for low-res)                      |
+| charpor          | Portraits  | Operator busts (for profile/gacha simulator)                              |
+| clue             | Clues      | Seven clue icons                                                          |
+| enemy            | Enemies    | Enemy gallery (square format)                                             |
+| gacha            | Gacha      | Gacha banners (*_full for originals, other for simulator)                 |
+| gamedata         | Game Data  | Core gamedata (Note 2)                                                    |
+| items            | Items      | Framed item icons                                                         |
+| kvimg            | Promo Art  | Costume display images                                                    |
+| mapreview        | Maps       | PRTS map previews                                                         |
+| medal            | Medals     | Medal sets (Note 3)                                                       |
+| skills           | Skills     | Operator skill icons (square)                                             |
+| spine            | Spine      | Operator spine files (atlas/skel/material.png) (Note 4)                   |
+| map_camera_views | CameraView | Map camera positioning (Note 5)                                           |
+ 
+- 注5：map_camera_views中summary.json为全解析数据，maps.json为适配[MaaResource](https://github.com/MaaAssistantArknights/MaaResource)的[地图信息](https://github.com/MaaAssistantArknights/MaaResource/tree/main/resource/Arknights-Tile-Pos)处理的数据文件，可以使用[levels_split_gen.py](https://github.com/yuanyan3060/ArknightsGameResource/blob/main/levels_split_gen.py)和gamedata生成对应关卡数据用于MAA作战数据
+- Note 1: avg/npcs/summary.json contains consolidated NPC data
+- Note 2: Official CN server data, compatible with flatbuffer format (v2.0.01+)
+- Note 3: /raw for original medal sets, /group for merged sets
+- Note 4: Spine PNGs are pre-optimized for Spine viewer (fixed the abnormal image size issue)
+- Note 5: summary.json contains full parsed data, maps.json is formatted for [MaaResource](https://github.com/MaaAssistantArknights/MaaResource)'s [pos tile data](https://github.com/MaaAssistantArknights/MaaResource/tree/main/resource/Arknights-Tile-Pos). Use [levels_split_gen.py](https://github.com/yuanyan3060/ArknightsGameResource/blob/main/levels_split_gen.py) with gamedata to generate MAA combat data.
 
-|目录|类型| 说明                                        |
-|----|----|-------------------------------------------|
-|avatar|头像源文件| 包含DEFAULT默认头像集和ASSISTANT助手头像集(干员简介页)      |
-|avgs|AVG背景图| 包含全部AVG、BG、NPC(*)、剧情Items等图像源文件           |
-|brand|服装品牌| 服装品牌图标                                    |
-|camplogo|阵营| 干员阵营所属图标                                  |
-|charpack|干员立绘| 干员立绘(其中带b为低分辨率图)                          |
-|charpor|干员半身像| 干员半身像(干员页、抽卡模拟)                           |
-|clue|线索图像| 七个线索图像                                    |
-|enemy|敌人图鉴| 敌人图鉴(正方形)                                 |
-|gacha|卡池图鉴| 卡池图像(分为_full整图和解析抽卡图，用于抽卡模拟器)             |
-|gamedata|游戏基础数据| 游戏gamedata(**)                            |
-|items|物品| 带框游戏物品图标                                  |
-|kvimg|KV广告图| 服装展示图像                                    |
-|mapreview|地图预览图| PRTS地图预览图                                 |
-|medal|蚀刻章| 蚀刻章与蚀刻章组图(***)                            |
-|skills|技能图标| 干员技能图标(正方形)                               |
-|spine|干员spine| 干员spine文件，包括atlas/skel/material.png（****） |
+## **0x03 Roadmap**
+> The current dataset generally meets the requirements. For any additional needs in the future, please feel free to submit new issues.
 
-注：  
-- \*:avg/npcs中包含summary.json为全部npc合并文件介绍
-- \*\*:gamedata为官服数据，已适配新版(2.0.01及以后)flatbuffer全部数据
-- \*\*\*:蚀刻章下分为raw蚀刻章套组图、group合并后的蚀刻章套组图
-- \*\*\*\*:spine中png的图像大小已经过处理，可以直接导入Spine查看器使用
-
-## **0x03 后续计划**
-
-- 支持enemy spine
-- 支持recruit更新
-- ???...
+## **0x04 Special Thanks**
+- [Closure Studio](https://github.com/closure-studio/) ~~Behold my 512GB beast~~
+- [OpenArknightsFBS](https://github.com/MooncellWiki/OpenArknightsFBS) ~~For quick diff references~~
+- [MaaAssistantArknights](https://github.com/MaaAssistantArknights/MaaAssistantArknights) ~~Docta, go take a rest~~
+- [ArknightsGameResource](https://github.com/yuanyan3060/ArknightsGameResource) ~~It's Teddy, we're doomed (lol)~~
+- [DICE-LAB](https://github.com/DICE-LAB-SYX) ~~Slacking off~~
