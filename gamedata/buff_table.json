@@ -2314,6 +2314,10 @@
       {
         "key": "interval",
         "value": 1.0
+      },
+      {
+        "key": "sp",
+        "value": -1.0
       }
     ]
   },
@@ -3522,9 +3526,9 @@
     "overrideOnEventPriority": false,
     "onEventPriority": 0,
     "audioSignal": "ep_break_sanity_audio",
-    "lifeTimeType": -2147483647,
+    "lifeTimeType": 0,
     "takeSnapshotWhenExtend": false,
-    "durationKey": "ep_break_duration",
+    "durationKey": null,
     "lifeTime": 0.0,
     "triggerLifeType": 0,
     "triggerCnt": 0,
@@ -3576,7 +3580,7 @@
     "overrideOnEventPriority": false,
     "onEventPriority": 0,
     "audioSignal": null,
-    "lifeTimeType": 0,
+    "lifeTimeType": -2147483646,
     "takeSnapshotWhenExtend": false,
     "durationKey": null,
     "lifeTime": 0.0,
