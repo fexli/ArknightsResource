@@ -2118,9 +2118,9 @@
     "overrideOnEventPriority": false,
     "onEventPriority": 0,
     "audioSignal": null,
-    "lifeTimeType": -2147483647,
+    "lifeTimeType": -2147483646,
     "takeSnapshotWhenExtend": false,
-    "durationKey": "ep_break_duration",
+    "durationKey": null,
     "lifeTime": 0.0,
     "triggerLifeType": 0,
     "triggerCnt": 0,
@@ -2131,10 +2131,6 @@
     "priorityBBKeys": null,
     "stripBlackboardParamsWithBuffKey": false,
     "blackboard": [
-      {
-        "key": "duration",
-        "value": 10.0
-      },
       {
         "key": "magic_resistance",
         "value": -20.0
@@ -2184,9 +2180,9 @@
     "overrideOnEventPriority": false,
     "onEventPriority": 0,
     "audioSignal": "ep_break_fire_audio",
-    "lifeTimeType": -2147483647,
+    "lifeTimeType": -2147483646,
     "takeSnapshotWhenExtend": false,
-    "durationKey": "ep_break_duration",
+    "durationKey": null,
     "lifeTime": 0.0,
     "triggerLifeType": 0,
     "triggerCnt": 0,
@@ -2197,10 +2193,6 @@
     "priorityBBKeys": null,
     "stripBlackboardParamsWithBuffKey": false,
     "blackboard": [
-      {
-        "key": "duration",
-        "value": 10.0
-      },
       {
         "key": "ep_fire_damage",
         "value": 7000.0
@@ -2286,9 +2278,9 @@
     "overrideOnEventPriority": false,
     "onEventPriority": 0,
     "audioSignal": null,
-    "lifeTimeType": -2147483647,
+    "lifeTimeType": -2147483646,
     "takeSnapshotWhenExtend": false,
-    "durationKey": "ep_break_duration",
+    "durationKey": null,
     "lifeTime": 0.0,
     "triggerLifeType": 0,
     "triggerCnt": 0,
@@ -2299,14 +2291,6 @@
     "priorityBBKeys": null,
     "stripBlackboardParamsWithBuffKey": false,
     "blackboard": [
-      {
-        "key": "sp_loss",
-        "value": 15.0
-      },
-      {
-        "key": "damage_duration",
-        "value": 15.0
-      },
       {
         "key": "damage",
         "value": 100.0
@@ -3464,9 +3448,9 @@
     "overrideOnEventPriority": false,
     "onEventPriority": 0,
     "audioSignal": null,
-    "lifeTimeType": -2147483647,
+    "lifeTimeType": -2147483646,
     "takeSnapshotWhenExtend": false,
-    "durationKey": "ep_break_duration",
+    "durationKey": null,
     "lifeTime": 0.0,
     "triggerLifeType": 0,
     "triggerCnt": 0,
@@ -3580,9 +3564,9 @@
     "overrideOnEventPriority": false,
     "onEventPriority": 0,
     "audioSignal": null,
-    "lifeTimeType": -2147483646,
+    "lifeTimeType": -2147483647,
     "takeSnapshotWhenExtend": false,
-    "durationKey": null,
+    "durationKey": "ep_break_duration",
     "lifeTime": 0.0,
     "triggerLifeType": 0,
     "triggerCnt": 0,
@@ -3625,9 +3609,9 @@
     "overrideOnEventPriority": false,
     "onEventPriority": 0,
     "audioSignal": null,
-    "lifeTimeType": 0,
+    "lifeTimeType": -2147483647,
     "takeSnapshotWhenExtend": false,
-    "durationKey": null,
+    "durationKey": "ep_break_duration",
     "lifeTime": 0.0,
     "triggerLifeType": 0,
     "triggerCnt": 0,
@@ -3670,9 +3654,9 @@
     "overrideOnEventPriority": false,
     "onEventPriority": 0,
     "audioSignal": null,
-    "lifeTimeType": 0,
+    "lifeTimeType": -2147483647,
     "takeSnapshotWhenExtend": false,
-    "durationKey": null,
+    "durationKey": "ep_break_duration",
     "lifeTime": 0.0,
     "triggerLifeType": 0,
     "triggerCnt": 0,
@@ -3715,9 +3699,9 @@
     "overrideOnEventPriority": false,
     "onEventPriority": 0,
     "audioSignal": null,
-    "lifeTimeType": 0,
+    "lifeTimeType": -2147483647,
     "takeSnapshotWhenExtend": false,
-    "durationKey": null,
+    "durationKey": "ep_break_duration",
     "lifeTime": 0.0,
     "triggerLifeType": 0,
     "triggerCnt": 0,
