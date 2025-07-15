@@ -123987,7 +123987,7 @@
                     "phase": 2,
                     "level": 60
                   },
-                  "requiredPotentialRank": 4,
+                  "requiredPotentialRank": 5,
                   "prefabKey": "2",
                   "name": "精准导流",
                   "description": null,
@@ -124100,7 +124100,7 @@
                     "phase": 2,
                     "level": 60
                   },
-                  "requiredPotentialRank": 4,
+                  "requiredPotentialRank": 5,
                   "prefabKey": "2",
                   "name": "精准导流",
                   "description": null,
@@ -124504,6 +124504,367 @@
           {
             "key": "def",
             "value": 71.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      }
+    ]
+  },
+  "uniequip_002_radian": {
+    "phases": [
+      {
+        "equipLevel": 1,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "在【岁的界园志异】中，召唤物持有上限<@ba.kw>+5</>，且召唤物被击倒或撤退时，有<@ba.kw>25％</>概率被回收",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": "radian_equip_1_1_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "prob",
+                      "value": 0.25
+                    },
+                    {
+                      "key": "recharge_cnt",
+                      "value": 10.0
+                    },
+                    {
+                      "key": "max_deck_stack_cnt",
+                      "value": 5.0
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 125.0
+          },
+          {
+            "key": "atk",
+            "value": 27.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 2,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "在【岁的界园志异】中，召唤物持有上限<@ba.kw>+5</>，且召唤物被击倒或撤退时，有<@ba.kw>25％</>概率被回收",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "可以使用5个召唤物（最多同时部署3个），功能随技能选择而改变。在【岁的界园志异】中，召唤物再部署时间降低25％，且被击倒或撤退时电弧自身回复1点技力",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "卡带里的灵感",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "max_hp",
+                      "value": 0.12
+                    },
+                    {
+                      "key": "def",
+                      "value": 0.12
+                    },
+                    {
+                      "key": "atk",
+                      "value": 0.12
+                    },
+                    {
+                      "key": "cnt",
+                      "value": 5.0
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "radian_equip_1_2_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "respawn_time",
+                      "value": -0.25
+                    },
+                    {
+                      "key": "prob",
+                      "value": 0.25
+                    },
+                    {
+                      "key": "recharge_cnt",
+                      "value": 10.0
+                    },
+                    {
+                      "key": "sp",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "max_deck_stack_cnt",
+                      "value": 5.0
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 145.0
+          },
+          {
+            "key": "atk",
+            "value": 36.0
+          }
+        ],
+        "tokenAttributeBlackboard": {}
+      },
+      {
+        "equipLevel": 3,
+        "parts": [
+          {
+            "resKey": null,
+            "target": "DISPLAY",
+            "isToken": false,
+            "validInGameTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": null
+            },
+            "overrideTraitDataBundle": {
+              "candidates": [
+                {
+                  "additionalDescription": "在【岁的界园志异】中，召唤物持有上限<@ba.kw>+5</>，且召唤物被击倒或撤退时，有<@ba.kw>25％</>概率被回收",
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "blackboard": [],
+                  "overrideDescripton": null,
+                  "prefabKey": null,
+                  "rangeId": null
+                }
+              ]
+            }
+          },
+          {
+            "resKey": null,
+            "target": "TALENT_DATA_ONLY",
+            "isToken": false,
+            "validInGameTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "可以使用5个召唤物（最多同时部署3个），功能随技能选择而改变。在【岁的界园志异】中，召唤物再部署时间降低50％，且被击倒或撤退时电弧自身回复2点技力",
+                  "talentIndex": 0,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "1",
+                  "name": "卡带里的灵感",
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "max_hp",
+                      "value": 0.12
+                    },
+                    {
+                      "key": "def",
+                      "value": 0.12
+                    },
+                    {
+                      "key": "atk",
+                      "value": 0.12
+                    },
+                    {
+                      "key": "cnt",
+                      "value": 5.0
+                    }
+                  ],
+                  "isHideTalent": false
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          },
+          {
+            "resKey": "radian_equip_1_3_p1",
+            "target": "TALENT",
+            "isToken": false,
+            "validInGameTag": null,
+            "addOrOverrideTalentDataBundle": {
+              "candidates": [
+                {
+                  "displayRangeId": false,
+                  "upgradeDescription": "",
+                  "talentIndex": -1,
+                  "unlockCondition": {
+                    "phase": 2,
+                    "level": 60
+                  },
+                  "requiredPotentialRank": 0,
+                  "prefabKey": "10_root",
+                  "name": null,
+                  "description": null,
+                  "rangeId": null,
+                  "blackboard": [
+                    {
+                      "key": "respawn_time",
+                      "value": -0.5
+                    },
+                    {
+                      "key": "prob",
+                      "value": 0.25
+                    },
+                    {
+                      "key": "recharge_cnt",
+                      "value": 10.0
+                    },
+                    {
+                      "key": "sp",
+                      "value": 2.0
+                    },
+                    {
+                      "key": "max_deck_stack_cnt",
+                      "value": 5.0
+                    }
+                  ],
+                  "isHideTalent": true
+                }
+              ]
+            },
+            "overrideTraitDataBundle": {
+              "candidates": null
+            }
+          }
+        ],
+        "attributeBlackboard": [
+          {
+            "key": "max_hp",
+            "value": 165.0
+          },
+          {
+            "key": "atk",
+            "value": 43.0
           }
         ],
         "tokenAttributeBlackboard": {}
