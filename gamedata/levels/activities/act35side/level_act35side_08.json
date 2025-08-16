@@ -12,7 +12,8 @@
     "isPredefinedCardsSelectable": false,
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
-    "configBlackBoard": null
+    "configBlackBoard": null,
+    "enemyTauntLevelPow": 0
   },
   "levelId": null,
   "mapId": null,
@@ -1057,7 +1058,7 @@
   "tilesDisallowToLocate": [],
   "runes": [
     {
-      "difficultyMask": 7,
+      "difficultyMask": 15,
       "key": "env_system_new",
       "professionMask": 1023,
       "buildableMask": 3,
@@ -1081,6 +1082,7 @@
       ]
     }
   ],
+  "optionalRunes": null,
   "globalBuffs": null,
   "routes": [
     {
@@ -2844,7 +2846,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2867,7 +2871,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2895,7 +2901,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2918,7 +2926,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2941,7 +2951,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2964,7 +2976,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2987,7 +3001,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -3010,7 +3026,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -3033,7 +3051,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -3056,7 +3076,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -3079,7 +3101,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -3102,7 +3126,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -3125,7 +3151,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -3148,7 +3176,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -3171,7 +3201,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -3194,7 +3226,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -3217,7 +3251,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -3240,7 +3276,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -3263,7 +3301,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -3286,7 +3326,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -3309,7 +3351,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -3332,7 +3376,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -3355,7 +3401,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -3378,7 +3426,9 @@
               "refreshType": 0,
               "weight": 0,
               "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -3394,5 +3444,6 @@
   "excludeCharIdList": null,
   "randomSeed": 1117436372,
   "operaConfig": null,
+  "cameraPlugin": null,
   "runtimeData": null
 }
