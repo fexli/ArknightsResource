@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>兑换码浏览器</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+
+        .code-display {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            font-size: 2em;
+            font-weight: bold;
+            color: #495057;
+            letter-spacing: 2px;
+            min-height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .code-display:hover {
+            border-color: #667eea;
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.2);
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 30px 0;
+        }
+
+        .nav-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 50px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-btn:hover {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .nav-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .copy-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 18px 40px;
+            border-radius: 50px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            margin: 20px 0;
+        }
+
+        .copy-btn:hover {
+            background: #218838;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(40, 167, 69, 0.3);
+        }
+
+        .copy-btn:active {
+            transform: translateY(0);
+        }
+
+        .counter {
+            color: #6c757d;
+            font-size: 1.1em;
+            margin-top: 20px;
+        }
+
+        .success-message {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #28a745;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transform: translateX(400px);
+            transition: transform 0.3s ease;
+            z-index: 1000;
+        }
+
+        .success-message.show {
+            transform: translateX(0);
+        }
+
+        .add-codes {
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .add-codes textarea {
+            width: 100%;
+            height: 100px;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            padding: 15px;
+            font-size: 1em;
+            resize: vertical;
+            margin-bottom: 15px;
+        }
+
+        .add-codes button {
+            background: #17a2b8;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .add-codes button:hover {
+            background: #138496;
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .code-display {
+                font-size: 1.5em;
+                padding: 20px;
+            }
+            
+            .nav-btn {
+                padding: 12px 20px;
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎁 兑换码浏览器</h1>
+        
+        <div class="code-display" id="codeDisplay">
+            请添加兑换码
+        </div>
+        
+        <div class="navigation">
+            <button class="nav-btn" id="prevBtn" onclick="previousCode()">
+                ← 上一个
+            </button>
+            
+            <button class="copy-btn" id="copyBtn" onclick="copyCode()">
+                📋 复制兑换码
+            </button>
+            
+            <button class="nav-btn" id="nextBtn" onclick="nextCode()">
+                下一个 →
+            </button>
+        </div>
+        
+        <div class="counter" id="counter">
+            0 / 0
+        </div>
+        
+        <!-- <div class="add-codes">
+            <h3>添加兑换码</h3>
+            <p style="color: #6c757d; margin-bottom: 15px;">每行一个兑换码，或者用逗号分隔</p>
+            <textarea id="codeInput" placeholder="请输入兑换码，每行一个或逗号分隔&#10;例如：&#10;ABC123&#10;DEF456&#10;GHI789"></textarea>
+            <button onclick="addCodes()">添加兑换码</button>
+        </div> -->
+    </div>
+
+    <div class="success-message" id="successMessage">
+        ✅ 兑换码已复制到剪贴板！
+    </div>
+
+    <script>
+        let codes = [];
+        let currentIndex = 0;
+
+        // 初始化一些示例兑换码
+        function initializeSampleCodes() {
+            codes = [
+                'kuk9pd9h49',
+                'kmgz7xkypw',
+                'sjwkr6e5ma',
+                'vrdzdzr5tt',
+                'kum22zs47j',
+                'kmhsbqwtr3',
+                'sjycv7vh3a',
+                'vrgc9ez4y4',
+                'mjvm844kt3',
+                'mb3k9s5gaw',
+                'tkgb3nf8jb',
+                'wxvfq79r2n',
+                'mjw7zfpkfh',
+                'mb469wuyek',
+                'tkgrfz3nnc',
+                'wxydvqc8mp',
+                'mjkbhxnjrb',
+                'mamvdnzf76',
+                'tkncaaqret',
+                'wy4dgmkdkz',
+                'n2c4sh3nq6',
+                'mrh54q9ajx',
+                'tnmf4vrpx2',
+                'xsxtg422hs',
+                'n2chp3vj75',
+                'mrjtpsuwvh',
+                'tnm9rs2mur',
+                'wzgtuj25at',
+                'n2act6pte6',
+                'mra99cdmmz',
+                'tnj5a7fn48',
+                'wzewk9yvxc',
+                'nnggr4ggr5',
+                'ncddb93s4d',
+                'v6frtyqtt2',
+                'yusg9xtmsa',
+                'nnezpcqhjt',
+                'ncb6hnmze5',
+                'v6ay6agvne',
+                'yup74qvquv',
+                'nnd4uhbubg',
+                'nc9bk5w2kd',
+                'v5zqjnxppt',
+                'yukvhp8cmd',
+                'p39q6dgsyp',
+                'nqegtmkqgq',
+                'vun3scczpj',
+                'zmdw9j266h',
+                'p3bbpbvn3z',
+                'nqfvuhdqyk',
+                'vuusffpcyw',
+                'zmfmt76jw6',
+                'p3brs4d343',
+                'nqfx3bkyua',
+                'vuzz7g3na7',
+                'zmgnpgaub8',
+                'pgrudncjaq',
+                'p4tmsygg7y',
+                'vxq8jwfsff',
+                'znzygepwsf',
+                'pgq7rzafev',
+                'p4tcbvq4hx',
+                'vxqacctc5f',
+                'znz5m2c7qf',
+                '5js3e99gt8',
+                '5bpr2rrd7n',
+                'espgua3sy7',
+                'fv68fayhgq',
+                '5jsnfkqyqu',
+                '5bqb36knee',
+                'vxqam5mrvv',
+                'znza4pf7yb'
+            ];
+            currentIndex = 0;
+            updateDisplay();
+        }
+
+        function updateDisplay() {
+            const codeDisplay = document.getElementById('codeDisplay');
+            const counter = document.getElementById('counter');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const copyBtn = document.getElementById('copyBtn');
+
+            if (codes.length === 0) {
+                codeDisplay.textContent = '请添加兑换码';
+                counter.textContent = '0 / 0';
+                prevBtn.disabled = true;
+                nextBtn.disabled = true;
+                copyBtn.disabled = true;
+                return;
+            }
+
+            codeDisplay.textContent = codes[currentIndex];
+            counter.textContent = `${currentIndex + 1} / ${codes.length}`;
+            
+            prevBtn.disabled = currentIndex === 0;
+            nextBtn.disabled = currentIndex === codes.length - 1;
+            copyBtn.disabled = false;
+        }
+
+        function previousCode() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                updateDisplay();
+            }
+        }
+
+        function nextCode() {
+            if (currentIndex < codes.length - 1) {
+                currentIndex++;
+                updateDisplay();
+            }
+        }
+
+        async function copyCode() {
+            if (codes.length === 0) return;
+            
+            try {
+                await navigator.clipboard.writeText(codes[currentIndex]);
+                showSuccessMessage();
+            } catch (err) {
+                // 降级方案
+                const textArea = document.createElement('textarea');
+                textArea.value = codes[currentIndex];
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                showSuccessMessage();
+            }
+        }
+
+        function showSuccessMessage() {
+            const message = document.getElementById('successMessage');
+            message.classList.add('show');
+            setTimeout(() => {
+                message.classList.remove('show');
+            }, 2000);
+        }
+
+        function addCodes() {
+            const input = document.getElementById('codeInput');
+            const text = input.value.trim();
+            
+            if (!text) {
+                alert('请输入兑换码！');
+                return;
+            }
+
+            // 分割输入，支持换行和逗号分隔
+            let newCodes = text.split(/[\n,，]/).map(code => code.trim()).filter(code => code);
+            
+            if (newCodes.length === 0) {
+                alert('没有找到有效的兑换码！');
+                return;
+            }
+
+            // 添加到现有列表
+            codes = codes.concat(newCodes);
+            
+            // 如果是第一次添加，设置当前索引
+            if (codes.length === newCodes.length) {
+                currentIndex = 0;
+            }
+            
+            updateDisplay();
+            input.value = '';
+            
+            alert(`成功添加 ${newCodes.length} 个兑换码！`);
+        }
+
+        // 键盘快捷键支持
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'A') {
+                e.preventDefault();
+                previousCode();
+            } else if (e.key === 'ArrowRight' || e.key === 'd' || e.key === 'D') {
+                e.preventDefault();
+                nextCode();
+            } else if (e.key === 'c' || e.key === 'C') {
+                e.preventDefault();
+                copyCode();
+            }
+        });
+
+        // 触摸滑动支持
+        let startX = 0;
+        let endX = 0;
+
+        document.getElementById('codeDisplay').addEventListener('touchstart', function(e) {
+            startX = e.touches[0].clientX;
+        });
+
+        document.getElementById('codeDisplay').addEventListener('touchend', function(e) {
+            endX = e.changedTouches[0].clientX;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            const swipeThreshold = 50;
+            const diff = startX - endX;
+            
+            if (Math.abs(diff) > swipeThreshold) {
+                if (diff > 0) {
+                    // 向左滑动，下一个
+                    nextCode();
+                } else {
+                    // 向右滑动，上一个
+                    previousCode();
+                }
+            }
+        }
+
+        // 页面加载时初始化
+        window.onload = function() {
+            initializeSampleCodes();
+        };
+    </script>
+</body>
+</html> 
