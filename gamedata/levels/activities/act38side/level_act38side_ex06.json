@@ -10,9 +10,11 @@
     "isTrainingLevel": false,
     "isHardTrainingLevel": false,
     "isPredefinedCardsSelectable": false,
+    "displayRestTime": false,
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
-    "configBlackBoard": null
+    "configBlackBoard": null,
+    "enemyTauntLevelPow": 0
   },
   "levelId": null,
   "mapId": null,
@@ -1816,7 +1818,7 @@
   "tilesDisallowToLocate": [],
   "runes": [
     {
-      "difficultyMask": 7,
+      "difficultyMask": 15,
       "key": "env_system_new",
       "professionMask": 1023,
       "buildableMask": 3,
@@ -1861,23 +1863,235 @@
     },
     {
       "difficultyMask": 2,
-      "key": "level_enemy_replace",
+      "key": "level_hidden_group_disable",
       "professionMask": 1023,
       "buildableMask": 3,
       "blackboard": [
         {
           "key": "key",
-          "valueStr": "enemy_10041_cnvfire"
-        },
+          "valueStr": "normal"
+        }
+      ]
+    },
+    {
+      "difficultyMask": 2,
+      "key": "level_hidden_group_enable",
+      "professionMask": 1023,
+      "buildableMask": 3,
+      "blackboard": [
         {
-          "key": "value",
-          "valueStr": "enemy_10041_cnvfire_1"
+          "key": "key",
+          "valueStr": "fstar"
+        }
+      ]
+    },
+    {
+      "difficultyMask": 1,
+      "key": "level_hidden_group_enable",
+      "professionMask": 1023,
+      "buildableMask": 3,
+      "blackboard": [
+        {
+          "key": "key",
+          "valueStr": "normal"
+        }
+      ]
+    },
+    {
+      "difficultyMask": 1,
+      "key": "level_hidden_group_disable",
+      "professionMask": 1023,
+      "buildableMask": 3,
+      "blackboard": [
+        {
+          "key": "key",
+          "valueStr": "fstar"
         }
       ]
     }
   ],
+  "optionalRunes": null,
   "globalBuffs": null,
   "routes": [
+    {
+      "motionMode": 0,
+      "startPosition": {
+        "row": 5,
+        "col": 12
+      },
+      "endPosition": {
+        "row": 7,
+        "col": 6
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 4,
+            "col": 12
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 4,
+            "col": 11
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 4,
+            "col": 10
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 5,
+            "col": 10
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 5,
+            "col": 9
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 5,
+            "col": 8
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 4,
+            "col": 8
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 4,
+            "col": 7
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 4,
+            "col": 6
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 5,
+            "col": 6
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 6,
+            "col": 6
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        }
+      ],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": true
+    },
     {
       "motionMode": 0,
       "startPosition": {
@@ -7957,6 +8171,185 @@
       "visitEveryCheckPoint": true
     },
     {
+      "motionMode": 0,
+      "startPosition": {
+        "row": 5,
+        "col": 12
+      },
+      "endPosition": {
+        "row": 7,
+        "col": 6
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 4,
+            "col": 12
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 4,
+            "col": 11
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 4,
+            "col": 10
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 5,
+            "col": 10
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 5,
+            "col": 9
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 5,
+            "col": 8
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 4,
+            "col": 8
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 4,
+            "col": 7
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 4,
+            "col": 6
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 5,
+            "col": 6
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": 0,
+          "time": 0.0,
+          "position": {
+            "row": 6,
+            "col": 6
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        }
+      ],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": true
+    },
+    {
       "motionMode": 1,
       "startPosition": {
         "row": 5,
@@ -8341,6 +8734,10 @@
             "m_defined": false,
             "m_value": 0.0
           },
+          "epBreakRecoverSpeed": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
           "stunImmune": {
             "m_defined": false,
             "m_value": false
@@ -8366,6 +8763,14 @@
             "m_value": false
           },
           "fearedImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -8418,7 +8823,7 @@
       "overwrittenData": {
         "name": {
           "m_defined": true,
-          "m_value": "引线火焰"
+          "m_value": "引线火焰_1"
         },
         "description": {
           "m_defined": true,
@@ -8509,6 +8914,10 @@
             "m_defined": false,
             "m_value": 0.0
           },
+          "epBreakRecoverSpeed": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
           "stunImmune": {
             "m_defined": true,
             "m_value": true
@@ -8536,6 +8945,14 @@
           "fearedImmune": {
             "m_defined": true,
             "m_value": true
+          },
+          "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -8631,7 +9048,7 @@
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": true,
-              "hiddenGroup": null,
+              "hiddenGroup": "normal",
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
@@ -8640,6 +9057,32 @@
               "dontBlockWave": true,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
+            },
+            {
+              "actionType": 0,
+              "managedByScheduler": true,
+              "key": "enemy_10041_cnvfire_1",
+              "count": 1,
+              "preDelay": 0.0,
+              "interval": 1.0,
+              "routeIndex": 1,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": true,
+              "hiddenGroup": "fstar",
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 0,
+              "dontBlockWave": true,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -8652,30 +9095,6 @@
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10038_cnvpiz_2",
-              "count": 1,
-              "preDelay": 0.0,
-              "interval": 1.0,
-              "routeIndex": 1,
-              "blockFragment": false,
-              "autoPreviewRoute": false,
-              "autoDisplayEnemyInfo": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false,
-              "hiddenGroup": null,
-              "randomSpawnGroupKey": null,
-              "randomSpawnGroupPackKey": null,
-              "randomType": 0,
-              "refreshType": 0,
-              "weight": 0,
-              "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
-            },
-            {
-              "actionType": 0,
-              "managedByScheduler": true,
-              "key": "enemy_10039_cnvber_2",
               "count": 1,
               "preDelay": 0.0,
               "interval": 1.0,
@@ -8693,18 +9112,14 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
-            }
-          ]
-        },
-        {
-          "preDelay": 0.0,
-          "actions": [
+            },
             {
               "actionType": 0,
               "managedByScheduler": true,
-              "key": "enemy_10031_cnvsld_2",
+              "key": "enemy_10039_cnvber_2",
               "count": 1,
               "preDelay": 0.0,
               "interval": 1.0,
@@ -8722,15 +9137,21 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
-            },
+            }
+          ]
+        },
+        {
+          "preDelay": 0.0,
+          "actions": [
             {
-              "actionType": 1,
+              "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10031_cnvsld_2",
               "count": 1,
-              "preDelay": 3.0,
+              "preDelay": 0.0,
               "interval": 1.0,
               "routeIndex": 4,
               "blockFragment": false,
@@ -8746,15 +9167,16 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
             {
-              "actionType": 0,
+              "actionType": 1,
               "managedByScheduler": true,
               "key": "enemy_10031_cnvsld_2",
               "count": 1,
-              "preDelay": 0.0,
+              "preDelay": 3.0,
               "interval": 1.0,
               "routeIndex": 5,
               "blockFragment": false,
@@ -8770,6 +9192,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -8794,6 +9217,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -8818,6 +9242,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -8842,6 +9267,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -8866,6 +9292,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -8890,6 +9317,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -8914,6 +9342,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -8938,15 +9367,16 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
             {
-              "actionType": 5,
+              "actionType": 0,
               "managedByScheduler": true,
-              "key": "enemy_10039_cnvber_2",
+              "key": "enemy_10031_cnvsld_2",
               "count": 1,
-              "preDelay": 5.0,
+              "preDelay": 0.0,
               "interval": 1.0,
               "routeIndex": 13,
               "blockFragment": false,
@@ -8962,6 +9392,32 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
+            },
+            {
+              "actionType": 5,
+              "managedByScheduler": true,
+              "key": "enemy_10039_cnvber_2",
+              "count": 1,
+              "preDelay": 5.0,
+              "interval": 1.0,
+              "routeIndex": 14,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -8974,30 +9430,6 @@
               "actionType": 0,
               "managedByScheduler": true,
               "key": "enemy_10034_cnvsax_2",
-              "count": 1,
-              "preDelay": 3.0,
-              "interval": 1.0,
-              "routeIndex": 14,
-              "blockFragment": false,
-              "autoPreviewRoute": true,
-              "autoDisplayEnemyInfo": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false,
-              "hiddenGroup": null,
-              "randomSpawnGroupKey": null,
-              "randomSpawnGroupPackKey": null,
-              "randomType": 0,
-              "refreshType": 0,
-              "weight": 0,
-              "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
-            },
-            {
-              "actionType": 0,
-              "managedByScheduler": true,
-              "key": "enemy_10033_cnvbsk_2",
               "count": 1,
               "preDelay": 3.0,
               "interval": 1.0,
@@ -9015,6 +9447,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -9023,11 +9456,11 @@
               "managedByScheduler": true,
               "key": "enemy_10033_cnvbsk_2",
               "count": 1,
-              "preDelay": 6.0,
+              "preDelay": 3.0,
               "interval": 1.0,
               "routeIndex": 16,
               "blockFragment": false,
-              "autoPreviewRoute": false,
+              "autoPreviewRoute": true,
               "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
@@ -9039,20 +9472,16 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
-            }
-          ]
-        },
-        {
-          "preDelay": 20.0,
-          "actions": [
+            },
             {
               "actionType": 0,
               "managedByScheduler": true,
-              "key": "enemy_10034_cnvsax_2",
+              "key": "enemy_10033_cnvbsk_2",
               "count": 1,
-              "preDelay": 3.0,
+              "preDelay": 6.0,
               "interval": 1.0,
               "routeIndex": 17,
               "blockFragment": false,
@@ -9068,15 +9497,21 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
-            },
+            }
+          ]
+        },
+        {
+          "preDelay": 20.0,
+          "actions": [
             {
               "actionType": 0,
               "managedByScheduler": true,
-              "key": "enemy_10033_cnvbsk_2",
+              "key": "enemy_10034_cnvsax_2",
               "count": 1,
-              "preDelay": 6.0,
+              "preDelay": 3.0,
               "interval": 1.0,
               "routeIndex": 18,
               "blockFragment": false,
@@ -9092,6 +9527,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -9100,7 +9536,7 @@
               "managedByScheduler": true,
               "key": "enemy_10033_cnvbsk_2",
               "count": 1,
-              "preDelay": 3.0,
+              "preDelay": 6.0,
               "interval": 1.0,
               "routeIndex": 19,
               "blockFragment": false,
@@ -9116,18 +9552,14 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
-            }
-          ]
-        },
-        {
-          "preDelay": 20.0,
-          "actions": [
+            },
             {
               "actionType": 0,
               "managedByScheduler": true,
-              "key": "enemy_10038_cnvpiz_2",
+              "key": "enemy_10033_cnvbsk_2",
               "count": 1,
               "preDelay": 3.0,
               "interval": 1.0,
@@ -9145,16 +9577,22 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
-            },
+            }
+          ]
+        },
+        {
+          "preDelay": 20.0,
+          "actions": [
             {
               "actionType": 0,
               "managedByScheduler": true,
-              "key": "enemy_10033_cnvbsk_2",
-              "count": 6,
+              "key": "enemy_10038_cnvpiz_2",
+              "count": 1,
               "preDelay": 3.0,
-              "interval": 10.0,
+              "interval": 1.0,
               "routeIndex": 21,
               "blockFragment": false,
               "autoPreviewRoute": false,
@@ -9169,6 +9607,32 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
+            },
+            {
+              "actionType": 0,
+              "managedByScheduler": true,
+              "key": "enemy_10033_cnvbsk_2",
+              "count": 6,
+              "preDelay": 3.0,
+              "interval": 10.0,
+              "routeIndex": 22,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -9196,7 +9660,7 @@
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": true,
-              "hiddenGroup": null,
+              "hiddenGroup": "normal",
               "randomSpawnGroupKey": null,
               "randomSpawnGroupPackKey": null,
               "randomType": 0,
@@ -9205,6 +9669,32 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
+            },
+            {
+              "actionType": 0,
+              "managedByScheduler": true,
+              "key": "enemy_10041_cnvfire_1",
+              "count": 1,
+              "preDelay": 0.0,
+              "interval": 1.0,
+              "routeIndex": 1,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": true,
+              "hiddenGroup": "fstar",
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 0,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -9227,30 +9717,6 @@
               "count": 1,
               "preDelay": 6.0,
               "interval": 10.0,
-              "routeIndex": 1,
-              "blockFragment": false,
-              "autoPreviewRoute": true,
-              "autoDisplayEnemyInfo": false,
-              "isUnharmfulAndAlwaysCountAsKilled": true,
-              "hiddenGroup": null,
-              "randomSpawnGroupKey": null,
-              "randomSpawnGroupPackKey": null,
-              "randomType": 0,
-              "refreshType": 0,
-              "weight": 10,
-              "dontBlockWave": false,
-              "forceBlockWaveInBranch": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
-            },
-            {
-              "actionType": 0,
-              "managedByScheduler": true,
-              "key": "enemy_10040_cnvbln",
-              "count": 1,
-              "preDelay": 2.0,
-              "interval": 10.0,
               "routeIndex": 2,
               "blockFragment": false,
               "autoPreviewRoute": true,
@@ -9265,15 +9731,16 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
             {
               "actionType": 0,
               "managedByScheduler": true,
-              "key": "enemy_10040_cnvbln_2",
+              "key": "enemy_10040_cnvbln",
               "count": 1,
-              "preDelay": 30.0,
+              "preDelay": 2.0,
               "interval": 10.0,
               "routeIndex": 3,
               "blockFragment": false,
@@ -9289,6 +9756,32 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
+              "extraMeta": null,
+              "actionId": null
+            },
+            {
+              "actionType": 0,
+              "managedByScheduler": true,
+              "key": "enemy_10040_cnvbln_2",
+              "count": 1,
+              "preDelay": 30.0,
+              "interval": 10.0,
+              "routeIndex": 4,
+              "blockFragment": false,
+              "autoPreviewRoute": true,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": true,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": 0,
+              "refreshType": 0,
+              "weight": 10,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false,
+              "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -9310,6 +9803,8 @@
         "hidden": true,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "trap_186_cnvfwks",
           "level": 1,

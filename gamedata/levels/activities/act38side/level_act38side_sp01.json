@@ -10,9 +10,11 @@
     "isTrainingLevel": true,
     "isHardTrainingLevel": false,
     "isPredefinedCardsSelectable": false,
+    "displayRestTime": false,
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
-    "configBlackBoard": null
+    "configBlackBoard": null,
+    "enemyTauntLevelPow": 0
   },
   "levelId": null,
   "mapId": null,
@@ -990,7 +992,7 @@
   "tilesDisallowToLocate": [],
   "runes": [
     {
-      "difficultyMask": 7,
+      "difficultyMask": 15,
       "key": "env_system_new",
       "professionMask": 1023,
       "buildableMask": 3,
@@ -1006,7 +1008,7 @@
       ]
     },
     {
-      "difficultyMask": 7,
+      "difficultyMask": 15,
       "key": "char_attribute_mul",
       "professionMask": 1023,
       "buildableMask": 3,
@@ -1026,6 +1028,7 @@
       ]
     }
   ],
+  "optionalRunes": null,
   "globalBuffs": null,
   "routes": [
     {
@@ -1842,6 +1845,7 @@
               "dontBlockWave": true,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1866,6 +1870,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1890,6 +1895,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1914,6 +1920,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1938,6 +1945,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1962,6 +1970,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -1986,6 +1995,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2010,6 +2020,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2034,6 +2045,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2058,6 +2070,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2082,6 +2095,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2106,6 +2120,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2130,6 +2145,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2154,6 +2170,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2183,6 +2200,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2207,6 +2225,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2231,6 +2250,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2255,6 +2275,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2279,6 +2300,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2303,6 +2325,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2327,6 +2350,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2351,6 +2375,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2375,6 +2400,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             },
@@ -2399,6 +2425,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2435,6 +2462,7 @@
               "dontBlockWave": false,
               "forceBlockWaveInBranch": false,
               "isValid": false,
+              "notCountInTotal": false,
               "extraMeta": null,
               "actionId": null
             }
@@ -2457,6 +2485,8 @@
         "hidden": false,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "char_341_sntlla",
           "level": 10,
@@ -2477,6 +2507,8 @@
         "hidden": false,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "char_206_gnosis",
           "level": 10,
@@ -2494,6 +2526,8 @@
         "hidden": false,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "char_4013_kjera",
           "level": 10,
@@ -2514,6 +2548,8 @@
         "hidden": true,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "trap_186_cnvfwks",
           "level": 1,
@@ -2532,6 +2568,8 @@
         "hidden": false,
         "alias": null,
         "uniEquipIds": null,
+        "showSpIllust": false,
+        "masterInfos": null,
         "inst": {
           "characterKey": "trap_001_crate",
           "level": 1,
