@@ -90,7 +90,9 @@
     "permanent_sidestory_27_zone3": "permanent_sidestory_27_Adventure_That_Cannot_Waits_For_The_Sun",
     "permanent_sidestory_28_zone1": "permanent_sidestory_28_i_portatori_dei_velluti",
     "permanent_sidestory_28_zone2": "permanent_sidestory_28_i_portatori_dei_velluti",
-    "permanent_sidestory_28_zone3": "permanent_sidestory_28_i_portatori_dei_velluti"
+    "permanent_sidestory_28_zone3": "permanent_sidestory_28_i_portatori_dei_velluti",
+    "permanent_sidestory_29_zone1": "permanent_sidestory_29_Exodus_From_The_Pale_Sea",
+    "permanent_sidestory_29_zone2": "permanent_sidestory_29_Exodus_From_The_Pale_Sea"
   },
   "stageValidInfo": {
     "act9d0_01": {
@@ -4980,6 +4982,118 @@
     "act38side_s05#f#": {
       "startTs": 1765224000,
       "endTs": -1
+    },
+    "act39side_st01": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_tr01": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_01": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_02": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_03": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_04": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_05": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_06": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_st02": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_07": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_08": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_st03": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_ex01": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_ex01#f#": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_ex02": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_ex02#f#": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_ex03": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_ex03#f#": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_ex04": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_ex04#f#": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_ex05": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_ex05#f#": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_ex06": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_ex06#f#": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_ex07": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_ex07#f#": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_ex08": {
+      "startTs": 1767297600,
+      "endTs": -1
+    },
+    "act39side_ex08#f#": {
+      "startTs": 1767297600,
+      "endTs": -1
     }
   },
   "stages": null,
@@ -5572,6 +5686,22 @@
       "haveTrail": false,
       "customActId": null,
       "customActType": "TYPE_ACT38SIDE",
+      "trapDomainId": null
+    },
+    "permanent_sidestory_29_Exodus_From_The_Pale_Sea": {
+      "retroId": "permanent_sidestory_29_Exodus_From_The_Pale_Sea",
+      "type": 0,
+      "linkedActId": [
+        "act39side",
+        "act39sre"
+      ],
+      "startTime": 1767297600,
+      "trailStartTime": -1,
+      "index": 29,
+      "name": "出苍白海",
+      "haveTrail": false,
+      "customActId": null,
+      "customActType": "DEFAULT",
       "trapDomainId": null
     }
   },
@@ -8006,6 +8136,87 @@
       "relatedFullPotentialItemId": null,
       "themeColor": "af471d",
       "fullPotentialItemId": "voucher_full_lessng"
+    },
+    "permanent_sidestory_24_The_Rides_To_Lake_Silberneherze": {
+      "retroId": "permanent_sidestory_24_The_Rides_To_Lake_Silberneherze",
+      "trailStartTime": 1766433600,
+      "trailRewardList": [
+        {
+          "trailRewardId": "trailReward_sidestory_24_1",
+          "starCount": 12,
+          "rewardItem": {
+            "id": "char_4114_harold",
+            "count": 1,
+            "type": "CHAR"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_24_2",
+          "starCount": 24,
+          "rewardItem": {
+            "id": "voucher_full_harold",
+            "count": 1,
+            "type": "VOUCHER_FULL_POTENTIAL"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_24_3",
+          "starCount": 36,
+          "rewardItem": {
+            "id": "uni_set_postOffice",
+            "count": 1,
+            "type": "UNI_COLLECTION"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_24_4",
+          "starCount": 48,
+          "rewardItem": {
+            "id": "furni_terratimes_Kjerag_01",
+            "count": 1,
+            "type": "FURN"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_24_5",
+          "starCount": 56,
+          "rewardItem": {
+            "id": "avatar_activity_RS",
+            "count": 1,
+            "type": "PLAYER_AVATAR"
+          }
+        }
+      ],
+      "stageList": [
+        "act30side_01",
+        "act30side_02",
+        "act30side_03",
+        "act30side_04",
+        "act30side_05",
+        "act30side_06",
+        "act30side_07",
+        "act30side_08",
+        "act30side_ex01",
+        "act30side_ex01#f#",
+        "act30side_ex02",
+        "act30side_ex02#f#",
+        "act30side_ex03",
+        "act30side_ex03#f#",
+        "act30side_ex04",
+        "act30side_ex04#f#",
+        "act30side_ex05",
+        "act30side_ex05#f#",
+        "act30side_ex06",
+        "act30side_ex06#f#",
+        "act30side_ex07",
+        "act30side_ex07#f#",
+        "act30side_ex08",
+        "act30side_ex08#f#"
+      ],
+      "relatedChar": "char_4114_harold",
+      "relatedFullPotentialItemId": null,
+      "themeColor": "3f8cd1",
+      "fullPotentialItemId": "voucher_full_harold"
     }
   },
   "stageList": {
