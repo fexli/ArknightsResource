@@ -5632,10 +5632,10 @@
         "act31sre"
       ],
       "startTime": 1741550400,
-      "trailStartTime": -1,
+      "trailStartTime": 1769025600,
       "index": 25,
       "name": "怀黍离",
-      "haveTrail": false,
+      "haveTrail": true,
       "customActId": null,
       "customActType": "DEFAULT",
       "trapDomainId": null
@@ -126555,6 +126555,3448 @@
       "startButtonOverrideId": null,
       "isStagePatch": false,
       "mainStageId": "act39side_ex01"
+    },
+    "act40side_st01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_01-10",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_st01",
+      "levelId": null,
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-ST-1",
+      "name": "陈皮菊花茶",
+      "description": "四十年的陈皮与今秋新摘的菊花同泡一杯，陈年旧味是否还经得起细品？",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01"
+    },
+    "act40side_tr01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_st01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_tr01",
+      "levelId": "Activities/act40side/level_act40side_tr01",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-TR-1",
+      "name": "翡翠墨玉",
+      "description": "爽口前菜。苦瓜与木耳，放入酱油、白糖、老陈醋，再撒上把辣椒，酸甜苦辣，滋味俱全。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": -1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": true,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 3,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01"
+    },
+    "act40side_01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_tr01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_01",
+      "levelId": "Activities/act40side/level_act40side_01",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-1",
+      "name": "一清二白",
+      "description": "小葱拌豆腐，要这口味“清清白白”，须得功底深厚。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": null,
+      "dangerLevel": "LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 9,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": 2
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01"
+    },
+    "act40side_02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_02",
+      "levelId": "Activities/act40side/level_act40side_02",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-2",
+      "name": "糖瓜粘",
+      "description": "“二十三，糖瓜粘，灶君爷爷要上天。上天言好事，坏事把嘴关。”\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": null,
+      "dangerLevel": "LV.35",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 9,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": 2
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01"
+    },
+    "act40side_03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_02",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_03",
+      "levelId": "Activities/act40side/level_act40side_03",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-3",
+      "name": "油泼扯面",
+      "description": "有的面越揉越筋道，越摔打越爱反弹。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 9,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 1,
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": 2
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01"
+    },
+    "act40side_04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_04",
+      "levelId": "Activities/act40side/level_act40side_04",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-4",
+      "name": "雪里蕻",
+      "description": "鲜菜入坛，压实，封口。待时候到了，坛盖再压也压不住外溢的香气，封口再牢也总得开盖。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 12,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 12,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01"
+    },
+    "act40side_05": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_04",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_05",
+      "levelId": "Activities/act40side/level_act40side_05",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-5",
+      "name": "醍醐汤",
+      "description": "饭后茶饮。解得了腻，解不了新愁旧憾，入口虽甘，回味却苦涩悠远。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.30",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 12,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 12,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "CARD_EXP",
+            "id": "2002",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "CARD_EXP",
+            "id": "2002",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "CARD_EXP",
+            "id": "2001",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30042",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "CARD_EXP",
+            "id": "2002",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01"
+    },
+    "act40side_st02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_05",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_st02",
+      "levelId": null,
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-ST-2",
+      "name": "雷公栗",
+      "description": "要栗子开口，用蛮力最难，且容易自伤。不如一栗沾油，一栗沾水，放入锅内，再用剩下的栗子盖住，置于火上炙烤，待得发出雷声即可。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01"
+    },
+    "act40side_06": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_st02",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_06",
+      "levelId": "Activities/act40side/level_act40side_06",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-6",
+      "name": "胜肉火方",
+      "description": "冬瓜挖空做出肉的造型，内里填入素火腿，再淋上芡汁——浓油赤酱的“红烧肉”足以骗过眼睛，却骗不过嘴。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.50",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 12,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 12,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01"
+    },
+    "act40side_07": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_06",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_07",
+      "levelId": "Activities/act40side/level_act40side_07",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-7",
+      "name": "五省盘",
+      "description": "五种牲肉所做的肉盘。“省”亦有省察之意，曾有官员于百珍宴上将其随谏言献给真龙。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.60",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 21,
+      "apFailReturn": 21,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 210,
+      "goldGain": 210,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 21,
+      "completeFavor": 21,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "30093",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30094",
+            "dropType": 3
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30093",
+            "dropType": 2
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30094",
+            "dropType": 3
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30012",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30013",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30063",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30073",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "31013",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "31053",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "3003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01"
+    },
+    "act40side_08": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_07",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_08",
+      "levelId": "Activities/act40side/level_act40side_08",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-8",
+      "name": "金玉藏心",
+      "description": "炸至金黄的锅巴如一只锅盖将盘子罩住。待上桌时，敲开锅巴，内里藏的是什么菜方才真相大白。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": null,
+      "dangerLevel": "精英2 LV.10",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 21,
+      "apFailReturn": 21,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 210,
+      "goldGain": 210,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 21,
+      "completeFavor": 21,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "31013",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "31014",
+            "dropType": 3
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "31013",
+            "dropType": 2
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "31014",
+            "dropType": 3
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "CARD_EXP",
+            "id": "2001",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30042",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "CARD_EXP",
+            "id": "2002",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30023",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30043",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30083",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "31023",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "31043",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "CARD_EXP",
+            "id": "2003",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01"
+    },
+    "act40side_09": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_08",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_09",
+      "levelId": "Activities/act40side/level_act40side_09",
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-9",
+      "name": "长寿面",
+      "description": "长寿面的好坏从来不在于口味，而在于是谁为寿星做了这碗面，彼时内心又怀着怎样的祝福。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": null,
+      "dangerLevel": "精英2 LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 21,
+      "apFailReturn": 21,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 210,
+      "goldGain": 210,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 21,
+      "completeFavor": 21,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "MATERIAL",
+            "id": "31053",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "31054",
+            "dropType": 3
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "31053",
+            "dropType": 2
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "31054",
+            "dropType": 3
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 4
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30052",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30033",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30053",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30093",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "31033",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "30103",
+            "dropType": 4
+          },
+          {
+            "occPercent": 4,
+            "type": "MATERIAL",
+            "id": "31063",
+            "dropType": 4
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01"
+    },
+    "act40side_st03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_09",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_st03",
+      "levelId": null,
+      "zoneId": "permanent_sidestory_30_zone1",
+      "code": "OR-ST-3",
+      "name": "须问汤",
+      "description": "一锅浊汤，一点清明。与其问道，不如自寻。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_st01"
+    },
+    "act40side_ex01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_st03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_ex01",
+      "levelId": "Activities/act40side/level_act40side_ex01",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-1",
+      "name": "酸",
+      "description": "为做团圆饭酿的一坛醋，越放越陈，越陈越香，却始终没有开封的机会。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": "act40side_ex01#f#",
+      "dangerLevel": "精英1 LV.50",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01"
+    },
+    "act40side_ex01#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act40side_ex01",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act40side_ex01#f#",
+      "levelId": "Activities/act40side/level_act40side_ex01",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-1",
+      "name": "酸",
+      "description": "<@lv.fs>附加条件：</>\\n场上出现额外的<@lv.item>“饱食”</>",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01"
+    },
+    "act40side_ex02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_ex02",
+      "levelId": "Activities/act40side/level_act40side_ex02",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-2",
+      "name": "甜",
+      "description": "从炎国寄来的糕点，酥皮表面嵌着晶莹的糖粒儿。边啃糕点，边听妈妈读信，是她那些年最期待的事。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": "act40side_ex02#f#",
+      "dangerLevel": "精英1 LV.60",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01"
+    },
+    "act40side_ex02#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act40side_ex02",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act40side_ex02#f#",
+      "levelId": "Activities/act40side/level_act40side_ex02",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-2",
+      "name": "甜",
+      "description": "<@lv.fs>附加条件：</>\\n场上出现额外的<@lv.item>飘香</>",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 10,
+      "apFailReturn": 10,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 100,
+      "goldGain": 100,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 10,
+      "completeFavor": 10,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01"
+    },
+    "act40side_ex03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex02",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_ex03",
+      "levelId": "Activities/act40side/level_act40side_ex03",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-3",
+      "name": "苦",
+      "description": "粗劣的浓茶泡饭，便是一日的饭食。他低头扒饭，女儿书房的方向，从不敢多望一眼。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": "act40side_ex03#f#",
+      "dangerLevel": "精英2 LV.1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01"
+    },
+    "act40side_ex03#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act40side_ex03",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act40side_ex03#f#",
+      "levelId": "Activities/act40side/level_act40side_ex03",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-3",
+      "name": "苦",
+      "description": "<@lv.fs>附加条件：</>\\n可部署的箱子数量大幅减少",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01"
+    },
+    "act40side_ex04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_ex04",
+      "levelId": "Activities/act40side/level_act40side_ex04",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-4",
+      "name": "辣",
+      "description": "每到冬天，火锅店的生意总是火爆。麻辣鲜香的锅底，熏人眼睛又呛人鼻子。屋外寒风呼啸，屋内的客人们却吃得汗流浃背，热火朝天。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": "act40side_ex04#f#",
+      "dangerLevel": "精英2 LV.1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01"
+    },
+    "act40side_ex04#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act40side_ex04",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act40side_ex04#f#",
+      "levelId": "Activities/act40side/level_act40side_ex04",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-4",
+      "name": "辣",
+      "description": "<@lv.fs>附加条件：</>\\n战场有3个位置无法部署",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01"
+    },
+    "act40side_ex05": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex04",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_ex05",
+      "levelId": "Activities/act40side/level_act40side_ex05",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-5",
+      "name": "咸",
+      "description": "日新月异的城中，总有他们劳作的身影。腌肉腌菜，咸鲜适口，挥汗后不错的选择。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": "act40side_ex05#f#",
+      "dangerLevel": "精英2 LV.10",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01"
+    },
+    "act40side_ex05#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act40side_ex05",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act40side_ex05#f#",
+      "levelId": "Activities/act40side/level_act40side_ex05",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-5",
+      "name": "咸",
+      "description": "<@lv.fs>附加条件：</>\\n出现额外的<@lv.item>“里子”</>",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01"
+    },
+    "act40side_ex06": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex05",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_ex06",
+      "levelId": "Activities/act40side/level_act40side_ex06",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-6",
+      "name": "鲜",
+      "description": "大厨家的孩子，最神气活现的便是掏出饭盒的时候。一盒精美鲜香的饭食，大大方方分享给前来围观的小同学们，自己倒是饿得肚子咕咕叫。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": "act40side_ex06#f#",
+      "dangerLevel": "精英2 LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01"
+    },
+    "act40side_ex06#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act40side_ex06",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act40side_ex06#f#",
+      "levelId": "Activities/act40side/level_act40side_ex06",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-6",
+      "name": "鲜",
+      "description": "<@lv.fs>附加条件：</>\\n出现额外的<@lv.item>招财</>",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01"
+    },
+    "act40side_ex07": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex06",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_ex07",
+      "levelId": "Activities/act40side/level_act40side_ex07",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-7",
+      "name": "涩",
+      "description": "院中的柿子，模样虽好，口味却涩。只要不去尝，便可对其抱有甜美的幻想。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": "act40side_ex07#f#",
+      "dangerLevel": "精英2 LV.35",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01"
+    },
+    "act40side_ex07#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act40side_ex07",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act40side_ex07#f#",
+      "levelId": "Activities/act40side/level_act40side_ex07",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-7",
+      "name": "涩",
+      "description": "<@lv.fs>附加条件：</>\\n<@lv.item><火灶></>和<@lv.item><废弃火灶></>位置改变，部分敌人类型改变",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01"
+    },
+    "act40side_ex08": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_ex07",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_ex08",
+      "levelId": "Activities/act40side/level_act40side_ex08",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-8",
+      "name": "百味灵明",
+      "description": "火中生百味，灶内有乾坤。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": "act40side_ex08#f#",
+      "dangerLevel": "精英2 LV.40",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01"
+    },
+    "act40side_ex08#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act40side_ex08",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act40side_ex08#f#",
+      "levelId": "Activities/act40side/level_act40side_ex08",
+      "zoneId": "permanent_sidestory_30_zone2",
+      "code": "OR-EX-8",
+      "name": "百味灵明",
+      "description": "<@lv.fs>附加条件：</>\\n<@lv.item><火灶></>所需技力增加",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_ex01"
+    },
+    "act40side_s01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_st03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_s01",
+      "levelId": "Activities/act40side/level_act40side_sub-1-1",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-1",
+      "name": "周岁宴",
+      "description": "抓周仪式上，小孩懵懂伸手，大人翘首期待。小手向右，喜笑颜开；小手向左，心急如火。兹事体大呀！\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": "act40side_s01#f#",
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01"
+    },
+    "act40side_s01#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act40side_s01",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act40side_s01#f#",
+      "levelId": "Activities/act40side/level_act40side_sub-1-1",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-1",
+      "name": "周岁宴",
+      "description": "<@lv.fs>附加条件：</>\\n<@lv.item>“废食”</>召唤技能冷却时间减少",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01"
+    },
+    "act40side_s02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_s01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_s02",
+      "levelId": "Activities/act40side/level_act40side_sub-1-2",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-2",
+      "name": "新婚宴",
+      "description": "安抚完为礼金不欢而散的父母，应付完喋喋不休说教的远房亲戚，小两口躲在没有客人的角落，吃起了已经冷掉的饭菜。如释重负，相视失笑。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": "act40side_s02#f#",
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01"
+    },
+    "act40side_s02#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act40side_s02",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act40side_s02#f#",
+      "levelId": "Activities/act40side/level_act40side_sub-1-2",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-2",
+      "name": "新婚宴",
+      "description": "<@lv.fs>附加条件：</>\\n辅助、特种干员部署费用提升至3倍",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 15,
+      "apFailReturn": 15,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 150,
+      "goldGain": 150,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 15,
+      "completeFavor": 15,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01"
+    },
+    "act40side_s03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_s02",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_s03",
+      "levelId": "Activities/act40side/level_act40side_sub-1-3",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-3",
+      "name": "寿辰宴",
+      "description": "一年难得聚齐一次，却还为那一点身外物攀比谁更会尽孝。不见想念，见了聒噪。然而，端上每个人儿时最爱的菜时，饭桌上紧绷的氛围不觉柔和了起来。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": "act40side_s03#f#",
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01"
+    },
+    "act40side_s03#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act40side_s03",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act40side_s03#f#",
+      "levelId": "Activities/act40side/level_act40side_sub-1-3",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-3",
+      "name": "寿辰宴",
+      "description": "<@lv.fs>附加条件：</>\\n<@lv.item>“饮露餐风”</>造成的伤害提升",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01"
+    },
+    "act40side_s04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_s03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_s04",
+      "levelId": "Activities/act40side/level_act40side_sub-1-4",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-4",
+      "name": "白事宴",
+      "description": "两腿一蹬飘然去，心烦只有在世人。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": "act40side_s04#f#",
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 1,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01"
+    },
+    "act40side_s04#f#": {
+      "stageType": "ACTIVITY",
+      "difficulty": "FOUR_STAR",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_02-08",
+          "completeState": 2
+        },
+        {
+          "stageId": "act40side_s04",
+          "completeState": 3
+        }
+      ],
+      "stageId": "act40side_s04#f#",
+      "levelId": "Activities/act40side/level_act40side_sub-1-4",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-S-4",
+      "name": "白事宴",
+      "description": "<@lv.fs>附加条件：</>\\n<@lv.item>无谓</>生命值提升",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownNight",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 20,
+      "apFailReturn": 20,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 3,
+      "dailyStageDifficulty": 0,
+      "expGain": 200,
+      "goldGain": 200,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 20,
+      "completeFavor": 20,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01"
+    },
+    "act40side_mo01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act40side_st03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act40side_mo01",
+      "levelId": "Activities/act40side/level_act40side_mo01",
+      "zoneId": "permanent_sidestory_30_zone3",
+      "code": "OR-MO-1",
+      "name": "一日三餐",
+      "description": "吃给别人看的饭，只求光鲜。吃进自己肚子里的饭，苦甜自知。\\n<@lv.item><火灶></>召唤“人间烟火”对沿途所有敌方单位造成真实伤害。\\n<@lv.item><废弃火灶></>召唤“饮露餐风”对所有沿途我方单位造成真实伤害。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_OR_downtownDay",
+      "canPractice": false,
+      "canBattleReplay": true,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": "",
+      "etCost": 0,
+      "etFailReturn": 0,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": -1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 5,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act40side_s01"
     }
   },
   "ruleData": {
@@ -135499,7 +138941,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -135550,7 +138992,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -135578,7 +139020,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -135621,7 +139063,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -135668,7 +139110,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -135715,7 +139157,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -135758,7 +139200,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -135805,7 +139247,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -135856,7 +139298,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -135907,7 +139349,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -135982,7 +139424,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -137224,7 +140666,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -137252,7 +140694,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -137296,7 +140738,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -137324,7 +140766,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -137368,7 +140810,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -137396,7 +140838,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -137440,7 +140882,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -137468,7 +140910,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -137512,7 +140954,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -137556,7 +140998,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -137600,7 +141042,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -137632,7 +141074,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -137676,7 +141118,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
@@ -137708,7 +141150,7 @@
                     "filterTagExcludeFilter": null,
                     "subProfessionExcludeFilter": null,
                     "mapTagFilter": null,
-                    "heightTypeMask": 3
+                    "heightTypeMask": 0
                   },
                   "blackboard": [
                     {
