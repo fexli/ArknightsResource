@@ -227,7 +227,8 @@
       "antiSpoilerId": "main_15",
       "canPreview": true,
       "sixStarMilestoneGroupId": "main_15",
-      "bindMainlineRetroZoneId": "permanent_main_1_zone1"
+      "bindMainlineRetroZoneId": "permanent_main_1_zone1",
+      "diamondRewardCount": 42
     },
     "act3mainss_zone1": {
       "zoneID": "act3mainss_zone1",
@@ -243,7 +244,8 @@
       "antiSpoilerId": "main_15",
       "canPreview": false,
       "sixStarMilestoneGroupId": "main_16",
-      "bindMainlineRetroZoneId": "permanent_main_2_zone1"
+      "bindMainlineRetroZoneId": "permanent_main_2_zone1",
+      "diamondRewardCount": 39
     },
     "weekly_1": {
       "zoneID": "weekly_1",
@@ -914,6 +916,58 @@
       "type": "ROGUELIKE",
       "zoneNameFirst": null,
       "zoneNameSecond": null,
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "act20mini_zone1": {
+      "zoneID": "act20mini_zone1",
+      "zoneIndex": 0,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "暗账",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "act2break_zone1": {
+      "zoneID": "act2break_zone1",
+      "zoneIndex": 0,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "核心突破",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "act2break_zone2": {
+      "zoneID": "act2break_zone2",
+      "zoneIndex": 1,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "全力以赴",
+      "zoneNameTitleCurrent": null,
+      "zoneNameTitleUnCurrent": null,
+      "zoneNameTitleEx": null,
+      "zoneNameThird": null,
+      "lockedText": null,
+      "canPreview": false
+    },
+    "act2break_zone3": {
+      "zoneID": "act2break_zone3",
+      "zoneIndex": 2,
+      "type": "ACTIVITY",
+      "zoneNameFirst": null,
+      "zoneNameSecond": "特别战线",
       "zoneNameTitleCurrent": null,
       "zoneNameTitleUnCurrent": null,
       "zoneNameTitleEx": null,
@@ -5682,6 +5736,22 @@
     }
   },
   "zoneValidInfo": {
+    "act20mini_zone1": {
+      "startTs": 1773097200,
+      "endTs": 1773691199
+    },
+    "act2break_zone1": {
+      "startTs": 1771920000,
+      "endTs": 1773691199
+    },
+    "act2break_zone2": {
+      "startTs": 1772524800,
+      "endTs": 1773691199
+    },
+    "act2break_zone3": {
+      "startTs": 1771920000,
+      "endTs": 1773691199
+    },
     "act49side_zone1": {
       "startTs": 1770678000,
       "endTs": 1772481599
