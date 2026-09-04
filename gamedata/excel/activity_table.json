@@ -1,5 +1,49 @@
 {
   "basicInfo": {
+    "act54side": {
+      "id": "act54side",
+      "type": "TYPE_ACT54SIDE",
+      "name": "月行水上",
+      "startTime": 1788476400,
+      "endTime": 1789675199,
+      "rewardEndTime": 1790279999,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act54side",
+      "medalGroupId": null,
+      "ungroupedMedalIds": [
+        "medal_hidden_54side_01",
+        "medal_hidden_54side_02"
+      ],
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": 0,
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act61sign": {
+      "id": "act61sign",
+      "type": "CHECKIN_ONLY",
+      "name": "此夜同行签到活动",
+      "startTime": 1788476400,
+      "endTime": 1789675199,
+      "rewardEndTime": 1789675199,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": 1,
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act44sre": {
       "id": "act44sre",
       "type": "TYPE_ACT44SIDE",
@@ -6682,6 +6726,13 @@
     }
   },
   "homeActConfig": {
+    "act61sign": {
+      "actId": "act61sign",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "132ff7",
+      "actTopBarText": "此夜同行签到活动"
+    },
     "act60sign": {
       "actId": "act60sign",
       "isPopupAfterCheckin": false,
@@ -7818,6 +7869,8 @@
     }
   },
   "zoneToActivity": {
+    "act54side_zone1": "act54side",
+    "act54side_zone2": "act54side",
     "act44sre_zone1": "act44sre",
     "act44sre_zone2": "act44sre",
     "act44sre_zone3": "act44sre",
@@ -8122,6 +8175,759 @@
     "act2access": 1745674200
   },
   "missionData": [
+    {
+      "id": "54sideActivity_1",
+      "sortId": 1,
+      "description": "通关SR-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 40
+        },
+        {
+          "type": "FURN",
+          "id": "furni_dessertShop_arch_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_2",
+      "sortId": 2,
+      "description": "通关SR-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 40
+        },
+        {
+          "type": "FURN",
+          "id": "furni_dessertShop_pillar_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_3",
+      "sortId": 3,
+      "description": "通关SR-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 70
+        },
+        {
+          "type": "FURN",
+          "id": "furni_dessertShop_ceilingLamp_01",
+          "count": 2
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_4",
+      "sortId": 4,
+      "description": "通关SR-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 70
+        },
+        {
+          "type": "CHAR",
+          "id": "char_4220_kormr",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_5",
+      "sortId": 5,
+      "description": "通关SR-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 70
+        },
+        {
+          "type": "FURN",
+          "id": "furni_dessertShop_wallShelf_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_6",
+      "sortId": 6,
+      "description": "以3星评价完成SR-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_05",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_7",
+      "sortId": 7,
+      "description": "通关SR-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_dessertShop_cashier_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_8",
+      "sortId": 8,
+      "description": "以3星评价完成SR-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_06",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_dessertShop_wallpaper_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_9",
+      "sortId": 9,
+      "description": "通关SR-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_dessertShop_valance_01",
+          "count": 2
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_10",
+      "sortId": 10,
+      "description": "以3星评价完成SR-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_07",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "FURN",
+          "id": "furni_dessertShop_floor_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_11",
+      "sortId": 11,
+      "description": "通关SR-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 100
+        },
+        {
+          "type": "FURN",
+          "id": "furni_dessertShop_carpet_01",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_12",
+      "sortId": 12,
+      "description": "以3星评价完成SR-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_08",
+        "3"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "MATERIAL",
+          "id": "mod_unlock_token",
+          "count": 1
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_13",
+      "sortId": 13,
+      "description": "通关SR-EX-1",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_ex01",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_14",
+      "sortId": 14,
+      "description": "通关SR-EX-2",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_ex02",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 60
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_15",
+      "sortId": 15,
+      "description": "通关SR-EX-3",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_ex03",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_16",
+      "sortId": 16,
+      "description": "通关SR-EX-4",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_ex04",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_17",
+      "sortId": 17,
+      "description": "通关SR-EX-5",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_ex05",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_18",
+      "sortId": 18,
+      "description": "通关SR-EX-6",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_ex06",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_19",
+      "sortId": 19,
+      "description": "通关SR-EX-7",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_ex07",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_20",
+      "sortId": 20,
+      "description": "通关SR-EX-8",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteAnyStage",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_ex08",
+        "2"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_21",
+      "sortId": 21,
+      "description": "通关活动关卡15次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_01^act54side_02^act54side_03^act54side_04^act54side_05^act54side_06^act54side_07^act54side_08^act54side_ex01^act54side_ex01#f#^act54side_ex02^act54side_ex02#f#^act54side_ex03^act54side_ex03#f#^act54side_ex04^act54side_ex04#f#^act54side_ex05^act54side_ex05#f#^act54side_ex06^act54side_ex06#f#^act54side_ex07^act54side_ex07#f#^act54side_ex08^act54side_ex08#f#",
+        "15"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 80
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_22",
+      "sortId": 22,
+      "description": "通关活动关卡45次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_01^act54side_02^act54side_03^act54side_04^act54side_05^act54side_06^act54side_07^act54side_08^act54side_ex01^act54side_ex01#f#^act54side_ex02^act54side_ex02#f#^act54side_ex03^act54side_ex03#f#^act54side_ex04^act54side_ex04#f#^act54side_ex05^act54side_ex05#f#^act54side_ex06^act54side_ex06#f#^act54side_ex07^act54side_ex07#f#^act54side_ex08^act54side_ex08#f#",
+        "45"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 100
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
+    {
+      "id": "54sideActivity_23",
+      "sortId": 23,
+      "description": "通关活动关卡85次,不含教学关",
+      "type": "ACTIVITY",
+      "itemBgType": "COMMON",
+      "preMissionIds": null,
+      "template": "CompleteStageAct",
+      "templateType": "0",
+      "param": [
+        "0",
+        "act54side_01^act54side_02^act54side_03^act54side_04^act54side_05^act54side_06^act54side_07^act54side_08^act54side_ex01^act54side_ex01#f#^act54side_ex02^act54side_ex02#f#^act54side_ex03^act54side_ex03#f#^act54side_ex04^act54side_ex04#f#^act54side_ex05^act54side_ex05#f#^act54side_ex06^act54side_ex06#f#^act54side_ex07^act54side_ex07#f#^act54side_ex08^act54side_ex08#f#",
+        "85"
+      ],
+      "unlockCondition": null,
+      "unlockParam": null,
+      "missionGroup": "act54side",
+      "toPage": null,
+      "periodicalPoint": 0,
+      "rewards": [
+        {
+          "type": "ACTIVITY_ITEM",
+          "id": "act54side_token_tape",
+          "count": 120
+        }
+      ],
+      "backImagePath": null,
+      "foldId": null,
+      "haveSubMissionToUnlock": false,
+      "countEndTs": -1
+    },
     {
       "id": "44sreActivity_1",
       "sortId": 1,
@@ -124520,6 +125326,41 @@
   ],
   "missionGroup": [
     {
+      "id": "act54side",
+      "title": null,
+      "type": "ACTIVITY",
+      "preMissionGroup": null,
+      "period": null,
+      "rewards": [],
+      "missionIds": [
+        "54sideActivity_1",
+        "54sideActivity_2",
+        "54sideActivity_3",
+        "54sideActivity_4",
+        "54sideActivity_5",
+        "54sideActivity_6",
+        "54sideActivity_7",
+        "54sideActivity_8",
+        "54sideActivity_9",
+        "54sideActivity_10",
+        "54sideActivity_11",
+        "54sideActivity_12",
+        "54sideActivity_13",
+        "54sideActivity_14",
+        "54sideActivity_15",
+        "54sideActivity_16",
+        "54sideActivity_17",
+        "54sideActivity_18",
+        "54sideActivity_19",
+        "54sideActivity_20",
+        "54sideActivity_21",
+        "54sideActivity_22",
+        "54sideActivity_23"
+      ],
+      "startTs": 1788476400,
+      "endTs": 1790279999
+    },
+    {
       "id": "act44sre",
       "title": null,
       "type": "ACTIVITY",
@@ -129701,6 +130542,204 @@
       }
     },
     "CHECKIN_ONLY": {
+      "act61sign": {
+        "checkInList": {
+          "0": {
+            "itemList": [
+              {
+                "id": "LINKAGE_TKT_GACHA_10_7701",
+                "count": 1,
+                "type": "LINKAGE_TKT_GACHA_10"
+              },
+              {
+                "id": "ap_supply_lt_120",
+                "count": 1,
+                "type": "AP_SUPPLY"
+              }
+            ],
+            "order": 1,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 1,
+            "isDynItem": false
+          },
+          "1": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "mod_update_token_1",
+                "count": 10,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 2,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "2": {
+            "itemList": [
+              {
+                "id": "2003",
+                "count": 20,
+                "type": "CARD_EXP"
+              },
+              {
+                "id": "7002",
+                "count": 5,
+                "type": "TKT_INST_FIN"
+              }
+            ],
+            "order": 3,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "3": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "3401",
+                "count": 300,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 4,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "4": {
+            "itemList": [
+              {
+                "id": "avatar_special_94",
+                "count": 1,
+                "type": "PLAYER_AVATAR"
+              },
+              {
+                "id": "3003",
+                "count": 20,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 5,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 2,
+            "isDynItem": false
+          },
+          "5": {
+            "itemList": [
+              {
+                "id": "3302",
+                "count": 20,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "2004",
+                "count": 10,
+                "type": "CARD_EXP"
+              }
+            ],
+            "order": 6,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "6": {
+            "itemList": [
+              {
+                "id": "4003",
+                "count": 200,
+                "type": "DIAMOND_SHD"
+              },
+              {
+                "id": "4001",
+                "count": 30000,
+                "type": "GOLD"
+              }
+            ],
+            "order": 7,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "7": {
+            "itemList": [
+              {
+                "id": "LINKAGE_TKT_GACHA_10_7701",
+                "count": 1,
+                "type": "LINKAGE_TKT_GACHA_10"
+              },
+              {
+                "id": "mod_update_token_2",
+                "count": 3,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 8,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 3,
+            "isDynItem": false
+          },
+          "8": {
+            "itemList": [
+              {
+                "id": "32001",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "7001",
+                "count": 5,
+                "type": "TKT_RECRUIT"
+              }
+            ],
+            "order": 9,
+            "color": 0,
+            "keyItem": 0,
+            "showItemOrder": 0,
+            "isDynItem": false
+          },
+          "9": {
+            "itemList": [
+              {
+                "id": "mod_unlock_token",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              }
+            ],
+            "order": 10,
+            "color": 0,
+            "keyItem": 1,
+            "showItemOrder": 0,
+            "isDynItem": false
+          }
+        },
+        "apSupplyOutOfDateDict": {
+          "ap_supply_lt_120": 1790539199
+        },
+        "extraCheckinList": null
+      },
       "act60sign": {
         "checkInList": {
           "0": {
@@ -384849,7 +385888,403 @@
           "coinItemId": "act53side_token_photo"
         }
       }
-    }
+    },
+    "TYPE_ACT54SIDE": {
+      "act54side": {
+        "cards": {
+          "tarot_1": {
+            "cardId": "tarot_1",
+            "sortId": 1,
+            "name": "节制",
+            "charName": "吉阿达",
+            "descUpright": "平衡、耐心、谨慎、调和",
+            "descReverse": "焦躁、极端、仓促、鲁莽",
+            "unlockStageId": "act54side_01"
+          },
+          "tarot_2": {
+            "cardId": "tarot_2",
+            "sortId": 2,
+            "name": "倒吊人",
+            "charName": "裘里奥",
+            "descUpright": "沉思、等待、牺牲、改变视角",
+            "descReverse": "拖延、停滞、漠然、优柔寡断",
+            "unlockStageId": "act54side_01"
+          },
+          "tarot_3": {
+            "cardId": "tarot_3",
+            "sortId": 3,
+            "name": "隐者",
+            "charName": "执行者",
+            "descUpright": "审视、独处、求真、寻找自我",
+            "descReverse": "逃避、孤独、被困、自命不凡",
+            "unlockStageId": "act54side_02"
+          },
+          "tarot_4": {
+            "cardId": "tarot_4",
+            "sortId": 4,
+            "name": "星",
+            "charName": "班长",
+            "descUpright": "希望、治愈、新生、信念",
+            "descReverse": "绝望、挫败、自苛、妄求",
+            "unlockStageId": "act54side_02"
+          },
+          "tarot_5": {
+            "cardId": "tarot_5",
+            "sortId": 5,
+            "name": "教宗",
+            "charName": "班主任",
+            "descUpright": "知识、信仰、道德、导师",
+            "descReverse": "无知、受限、伪善、背叛",
+            "unlockStageId": "act54side_03"
+          },
+          "tarot_6": {
+            "cardId": "tarot_6",
+            "sortId": 6,
+            "name": "力量",
+            "charName": "梵里妮",
+            "descUpright": "勇敢、真诚、自信、毅力",
+            "descReverse": "怯懦、恐惧、自卑、强硬",
+            "unlockStageId": "act54side_04"
+          },
+          "tarot_7": {
+            "cardId": "tarot_7",
+            "sortId": 7,
+            "name": "魔术师",
+            "charName": "安德切尔",
+            "descUpright": "意志、创造、智谋、资源充沛",
+            "descReverse": "诡计、操纵、游移、滥用能力",
+            "unlockStageId": "act54side_05"
+          },
+          "tarot_8": {
+            "cardId": "tarot_8",
+            "sortId": 8,
+            "name": "战车",
+            "charName": "伊蒂达",
+            "descUpright": "胜利、专注、决心、控制力",
+            "descReverse": "冲动、失控、无力、走错路",
+            "unlockStageId": "act54side_05"
+          }
+        },
+        "spreads": {
+          "spread_1": {
+            "spreadId": "spread_1",
+            "sortId": 1,
+            "availTimesDivination": 1,
+            "unlockStageId": null,
+            "unlockSpreadId": null,
+            "spreadsToUnlock": [
+              "spread_2"
+            ],
+            "name": "时间之流",
+            "nameEnglish": "The Flow",
+            "spreadInfoList": [
+              {
+                "sortId": 1,
+                "name": "过去",
+                "nameEnglish": "Past"
+              },
+              {
+                "sortId": 2,
+                "name": "现在",
+                "nameEnglish": "Present"
+              },
+              {
+                "sortId": 3,
+                "name": "未来",
+                "nameEnglish": "Future"
+              }
+            ],
+            "rewards": [
+              {
+                "id": "30014",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "4001",
+                "count": 20000,
+                "type": "GOLD"
+              }
+            ]
+          },
+          "spread_2": {
+            "spreadId": "spread_2",
+            "sortId": 2,
+            "availTimesDivination": 1,
+            "unlockStageId": "act54side_02",
+            "unlockSpreadId": "spread_1",
+            "spreadsToUnlock": [
+              "spread_3"
+            ],
+            "name": "铳与手",
+            "nameEnglish": "The Gun",
+            "spreadInfoList": [
+              {
+                "sortId": 1,
+                "name": "行动",
+                "nameEnglish": "Trigger"
+              },
+              {
+                "sortId": 2,
+                "name": "方式",
+                "nameEnglish": "Bullet"
+              },
+              {
+                "sortId": 3,
+                "name": "目标",
+                "nameEnglish": "Aim"
+              },
+              {
+                "sortId": 4,
+                "name": "反应",
+                "nameEnglish": "Recoil"
+              }
+            ],
+            "rewards": [
+              {
+                "id": "31014",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "4001",
+                "count": 20000,
+                "type": "GOLD"
+              }
+            ]
+          },
+          "spread_3": {
+            "spreadId": "spread_3",
+            "sortId": 3,
+            "availTimesDivination": 1,
+            "unlockStageId": "act54side_03",
+            "unlockSpreadId": "spread_2",
+            "spreadsToUnlock": [
+              "spread_4"
+            ],
+            "name": "饼与馅",
+            "nameEnglish": "The Crepe",
+            "spreadInfoList": [
+              {
+                "sortId": 1,
+                "name": "表象",
+                "nameEnglish": "Wrap"
+              },
+              {
+                "sortId": 2,
+                "name": "内情",
+                "nameEnglish": "Filling"
+              },
+              {
+                "sortId": 3,
+                "name": "感触",
+                "nameEnglish": "Flavor"
+              },
+              {
+                "sortId": 4,
+                "name": "余存",
+                "nameEnglish": "Residue"
+              }
+            ],
+            "rewards": [
+              {
+                "id": "31064",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "4001",
+                "count": 20000,
+                "type": "GOLD"
+              }
+            ]
+          },
+          "spread_4": {
+            "spreadId": "spread_4",
+            "sortId": 4,
+            "availTimesDivination": 1,
+            "unlockStageId": "act54side_04",
+            "unlockSpreadId": "spread_3",
+            "spreadsToUnlock": [
+              "spread_5"
+            ],
+            "name": "此与彼",
+            "nameEnglish": "The Gate",
+            "spreadInfoList": [
+              {
+                "sortId": 1,
+                "name": "彼在",
+                "nameEnglish": "Remote"
+              },
+              {
+                "sortId": 2,
+                "name": "此在",
+                "nameEnglish": "Local"
+              },
+              {
+                "sortId": 3,
+                "name": "通行",
+                "nameEnglish": "Transit"
+              },
+              {
+                "sortId": 4,
+                "name": "开启",
+                "nameEnglish": "Access"
+              }
+            ],
+            "rewards": [
+              {
+                "id": "31104",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "4001",
+                "count": 20000,
+                "type": "GOLD"
+              }
+            ]
+          },
+          "spread_5": {
+            "spreadId": "spread_5",
+            "sortId": 5,
+            "availTimesDivination": 1,
+            "unlockStageId": "act54side_05",
+            "unlockSpreadId": "spread_4",
+            "spreadsToUnlock": [
+              "spread_6"
+            ],
+            "name": "本真之环",
+            "nameEnglish": "The Halo",
+            "spreadInfoList": [
+              {
+                "sortId": 1,
+                "name": "输出",
+                "nameEnglish": "Output"
+              },
+              {
+                "sortId": 2,
+                "name": "输入",
+                "nameEnglish": "Input"
+              },
+              {
+                "sortId": 3,
+                "name": "处理",
+                "nameEnglish": "Process"
+              },
+              {
+                "sortId": 4,
+                "name": "内核",
+                "nameEnglish": "Kernel"
+              },
+              {
+                "sortId": 5,
+                "name": "记忆",
+                "nameEnglish": "Memory"
+              }
+            ],
+            "rewards": [
+              {
+                "id": "31114",
+                "count": 1,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "4001",
+                "count": 20000,
+                "type": "GOLD"
+              }
+            ]
+          },
+          "spread_6": {
+            "spreadId": "spread_6",
+            "sortId": 6,
+            "availTimesDivination": -1,
+            "unlockStageId": "act54side_05",
+            "unlockSpreadId": "spread_5",
+            "spreadsToUnlock": [],
+            "name": "正与反",
+            "nameEnglish": "The Coin",
+            "spreadInfoList": [
+              {
+                "sortId": 1,
+                "name": "所得",
+                "nameEnglish": "Gain"
+              },
+              {
+                "sortId": 2,
+                "name": "所失",
+                "nameEnglish": "Cost"
+              }
+            ],
+            "rewards": []
+          }
+        },
+        "specialZoneStageInfos": [
+          {
+            "stageId": "act54side_ex01",
+            "sortId": 1,
+            "hasUrgentStage": true
+          },
+          {
+            "stageId": "act54side_ex02",
+            "sortId": 2,
+            "hasUrgentStage": true
+          },
+          {
+            "stageId": "act54side_ex03",
+            "sortId": 3,
+            "hasUrgentStage": true
+          },
+          {
+            "stageId": "act54side_ex04",
+            "sortId": 4,
+            "hasUrgentStage": true
+          },
+          {
+            "stageId": "act54side_ex05",
+            "sortId": 5,
+            "hasUrgentStage": true
+          },
+          {
+            "stageId": "act54side_ex06",
+            "sortId": 6,
+            "hasUrgentStage": true
+          },
+          {
+            "stageId": "act54side_ex07",
+            "sortId": 7,
+            "hasUrgentStage": true
+          },
+          {
+            "stageId": "act54side_ex08",
+            "sortId": 8,
+            "hasUrgentStage": true
+          }
+        ],
+        "zoneAdditionDataMap": {
+          "act54side_zone1": {
+            "zoneId": "act54side_zone1",
+            "unlockText": "尚未解锁"
+          },
+          "act54side_zone2": {
+            "zoneId": "act54side_zone2",
+            "unlockText": "完成「通学路」后解锁"
+          }
+        },
+        "constData": {
+          "divinationUnlockStageId": "act54side_st01",
+          "finalReward": {
+            "id": "furni_act77d0_shelf_01",
+            "count": 1,
+            "type": "FURN"
+          },
+          "activityItemId": "act54side_token_tape",
+          "divinationEnterDelay": 1.0
+        }
+      }
+    },
+    "ACT_DP": {}
   },
   "extraData": {
     "MAINLINE_BP": {
@@ -384870,6 +386305,9 @@
     }
   },
   "activityItems": {
+    "act54side": [
+      "act54side_token_tape"
+    ],
     "act44sre": [
       "act44side_token_ticket_rep_1",
       "act44side_token_information_rep_1",
@@ -394343,6 +395781,26 @@
       ],
       "picGroups": [],
       "startTs": 1787342400
+    },
+    {
+      "id": "dis_side_54",
+      "type": "ACTIVITY",
+      "funcId": "act54side",
+      "endTs": 1789675199,
+      "sortId": 161,
+      "itemId": "act54side_token_tape",
+      "timeNodes": [
+        {
+          "title": "<月行水上>活动已开放",
+          "ts": 1788476400
+        },
+        {
+          "title": "\"殡仪堂\"内关卡已开放",
+          "ts": 1789113600
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1788476400
     }
   ],
   "actFunData": {
@@ -423213,7 +424671,7 @@
         "clueName": "一包血样",
         "clueOwner": "华法琳的线索",
         "clueDesc": "我把这些字写在了采样管的标签上，以确保你在用这份血样做任何事之前都能看见，并且理解它的意义。\n医疗部的样本库里并不包含凯尔希的血样，原因你也知道，她从不让人给她做体检，谁拿她都没办法。\n至于这支采样管里的血样——它是从Mon3tr身上抽取的，按她的说法，她们体内的血液成分是一模一样的，除了和矿石病相关的部分。所以将这份样本当作凯尔希的血样来研究也完全没有问题。Mon3tr还执意在标签上代为签名。\n我们研究过了，各方面指数没有什么稀奇的，仅从这份血样来看，她只是一个普通的泰拉菲林。真不知道凯尔希之前到底在躲什么，她和普通人又能有多大区别呢。\n最后，别搞砸了。经过处理成功封存的血样就只有这些了，除非你再从凯尔希身上抽一管......不多说了，我等着你们的好消息。\n",
-        "unlockDesc": "通关H17-1",
+        "unlockDesc": "以3星评价通关H17-1",
         "clueOwnerPic": "clue_bldsk",
         "pageRes": "clue_15"
       },
@@ -423228,7 +424686,7 @@
         "clueName": "一枚方解石",
         "clueOwner": "Mon3tr的线索",
         "clueDesc": "可露希尔，我把它借给你了。虽然我并不认为仅凭它或它所承载的信息就能将凯尔希带回我们身边，但我们已经不能错过任何可能性了。\n此前，我已经向你、向博士、向许多关心凯尔希的人解释过“双生循环”的含义，至于凯尔希为什么一定要切断循环系统，你们有各自的猜测和观点。\n但对我而言，在她做出决定的那一刻前，不，直到现在也是一样，我始终与她站在一起。我见过她见过的每一粒沙尘和每一滴雨，也记得她记得的每一个画面和每一个音调。这枚方解石，承载了属于凯尔希的所有记忆和信息，所以，不严谨地说，是的，我把凯尔希的“灵魂”借给了你。\n但是——你一定要清楚：那些编码过的信息或是未经编码的原始数据，无论你用什么样的程序或是什么样的设备来读取、来复原，它们终究都是静止的信息，是已经停滞的生命的副本，那并不是凯尔希，不是你我熟悉的那个拥有情绪、动作和呼吸的凯尔希。\n你是推崇理性的研究者，你明白这目前在理论上无法成立，即便我们这样渴望，它也无法将凯尔希带回来......\n至少，仅凭它还不够。但无论如何，我们都还是会继续寻找一切可能的办法，带她回来。\n",
-        "unlockDesc": "通关H17-2",
+        "unlockDesc": "以3星评价通关H17-2",
         "clueOwnerPic": "clue_monstr",
         "pageRes": "clue_16"
       },
@@ -423242,7 +424700,7 @@
         "clueName": "一次机会",
         "clueOwner": "阿米娅&魔王的线索",
         "clueDesc": "阿米娅，这是你请求调取的与特蕾西娅的“花圃”相关的全部可查信息。\n我仍然需要提醒你们这样做的风险，正因为我是这里最了解这类逆行相变工程的......信息系统。这件事的确存在理论可行性，“花圃”就是这类工程在可控熵范围内最接近成功的一次试验。\n但我们现在谈论的是凯尔希。尽管她的存在形式集合了如此之多的特异性，仍然没有人能够保证，这些特异性必定以有利于我们目标的形式发挥作用。即使是博士也不能。\n你们付出全部的努力，失败的概率仍将远高于成功的概率。如果博士在有意地回避这一点，那么，阿米娅，也许你应该对此有所准备。\n但如果......你们终究完成了这件事，那么，她也许会获得一次于她而言亦是绝无仅有的机会：真正的、有朽的生命。也许你会有......和她一起老去的机会。阿米娅。\n",
-        "unlockDesc": "通关H17-3",
+        "unlockDesc": "以3星评价通关H17-3",
         "clueOwnerPic": "clue_cetsyr",
         "pageRes": "clue_17"
       },
@@ -423258,7 +424716,7 @@
         "clueName": "一份希望",
         "clueOwner": "可露希尔的线索",
         "clueDesc": "这是一份不完整的说明书，或者原理解析，或者商业计划书......\n得益于Mon3tr提供的关于石棺的资料，我花费了一小段时间，终于制作出了这批原型机，具体的名字还没想好，目前它的代号是“便携创生舱”。\n简单来说，我根据凯尔希留下的资料，对石棺模型进行了一些简单的逆向工程。其实也没有那么简单，整个过程还是很费脑筋的，尤其是利用能量将物质结构（字迹被涂抹）这方面，远远超出了我们目前掌握的技术水平。但至少在生理结构修复和生命维持的功能上，我已经搞懂了个七七八八，并且将大部分研究成果都应用到了这批“便携创生舱”上。\n只要在受伤时将它装备在身上，它就可以像石棺那样对使用者的机体组织进行持续修复。尽管受限于体积和能源功率，它的治疗效果也已经远远超出现在市面上可以找到的任何便携医疗设备！\n虽然暂时还没找到几样关键的稀缺材料的替代品，但小批量投放已经完全可以提上日程了。而且它并不是一次性的，使用寿命也相当可观！试想一下，在不久后的罗德岛，外勤干员们只需要花费一小笔购物凭证就能将它兑换到手——其实只要能找到稳定的材料供应商，免费发放给大家也是可以做到的......吧？总之，我会怀着这样的希望继续优化它的！\n说到这里，我突然觉得，到时候它正式的产品名，叫“一份希望”，好像也不错？\n",
-        "unlockDesc": "通关H17-4",
+        "unlockDesc": "以3星评价通关H17-4",
         "clueOwnerPic": "clue_closur",
         "pageRes": "clue_18"
       }
@@ -429182,7 +430640,30 @@
     }
   },
   "activityTemplateMissionStyles": {
+    "act54side": {
+      "isMissionBgCustomType": true,
+      "bigRewardType": 2,
+      "bigRewardParamList": [
+        "char_4220_kormr",
+        "通关SR-4后可招募此干员",
+        "254b5b",
+        "36,-84"
+      ],
+      "isMissionListCommonType": false,
+      "isMissionItemCommonType": false,
+      "missionItemMainColor": null,
+      "isMissionItemCompleteUseMainColor": false,
+      "missionItemCompleteColor": null,
+      "isMissionRewardItemCommonType": true,
+      "isClaimAllBtnCommonType": false,
+      "claimAllBtnMainColor": null,
+      "claimAllBtnTips": null,
+      "titleType": "CUSTOM",
+      "coinType": "COMMON",
+      "coinBackColor": "06B6FF"
+    },
     "act44sre": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4199_makiri",
@@ -429204,6 +430685,7 @@
       "coinBackColor": "313131"
     },
     "act53side": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4236_tmslot",
@@ -429225,6 +430707,7 @@
       "coinBackColor": "72c7dc"
     },
     "act1arkhub": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 2,
       "bigRewardParamList": [],
       "isMissionListCommonType": false,
@@ -429241,6 +430724,7 @@
       "coinBackColor": "8c2a2a"
     },
     "act43sre": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4198_christ",
@@ -429262,6 +430746,7 @@
       "coinBackColor": "a52945"
     },
     "act42sre": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4194_rmixer",
@@ -429283,6 +430768,7 @@
       "coinBackColor": "009bd5"
     },
     "act4mainss": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4226_veen",
@@ -429304,6 +430790,7 @@
       "coinBackColor": "ed5335"
     },
     "act51side": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4223_botany",
@@ -429325,6 +430812,7 @@
       "coinBackColor": "9a2c34"
     },
     "act41sre": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4177_brigid",
@@ -429346,6 +430834,7 @@
       "coinBackColor": "9993ff"
     },
     "act2autochess": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 3,
       "bigRewardParamList": [],
       "isMissionListCommonType": true,
@@ -429362,6 +430851,7 @@
       "coinBackColor": null
     },
     "act49side": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4221_ju",
@@ -429383,6 +430873,7 @@
       "coinBackColor": "0d3330"
     },
     "act40sre": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4172_xingzh",
@@ -429404,6 +430895,7 @@
       "coinBackColor": "8c2a2a"
     },
     "act48side": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4166_varkis",
@@ -429425,6 +430917,7 @@
       "coinBackColor": "d66017"
     },
     "act39sre": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4163_rosesa",
@@ -429446,6 +430939,7 @@
       "coinBackColor": "1526f1"
     },
     "act47side": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4213_skybx",
@@ -429467,6 +430961,7 @@
       "coinBackColor": "dead43"
     },
     "act1autochess": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 3,
       "bigRewardParamList": [],
       "isMissionListCommonType": true,
@@ -429483,6 +430978,7 @@
       "coinBackColor": null
     },
     "act38sre": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_1502_crosly",
@@ -429504,6 +431000,7 @@
       "coinBackColor": "a41836"
     },
     "act46side": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_1047_halo2",
@@ -429525,6 +431022,7 @@
       "coinBackColor": "a42626"
     },
     "act3mainss": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 4,
       "bigRewardParamList": [
         "char_445_wscoot@epoque#49",
@@ -429546,6 +431044,7 @@
       "coinBackColor": "28929c"
     },
     "act1vhalfidle": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 3,
       "bigRewardParamList": [],
       "isMissionListCommonType": true,
@@ -429562,6 +431061,7 @@
       "coinBackColor": null
     },
     "act37sre": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4162_cathy",
@@ -429583,6 +431083,7 @@
       "coinBackColor": "dea65c"
     },
     "act45side": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 3,
       "bigRewardParamList": [],
       "isMissionListCommonType": true,
@@ -429599,6 +431100,7 @@
       "coinBackColor": "b40048"
     },
     "act35sre": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4139_papyrs",
@@ -429620,6 +431122,7 @@
       "coinBackColor": "8f45d6"
     },
     "act44side": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4199_makiri",
@@ -429641,6 +431144,7 @@
       "coinBackColor": "313131"
     },
     "act43side": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4198_christ",
@@ -429662,6 +431166,7 @@
       "coinBackColor": "a52945"
     },
     "act34sre": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4137_udflow",
@@ -429682,6 +431187,7 @@
       "coinBackColor": "499791"
     },
     "act42side": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4194_rmixer",
@@ -429703,6 +431209,7 @@
       "coinBackColor": "009bd5"
     },
     "act33sre": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4131_odda",
@@ -429723,6 +431230,7 @@
       "coinBackColor": "b73636"
     },
     "act2mainss": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 4,
       "bigRewardParamList": [
         "char_4131_odda@whirlwind#8",
@@ -429744,6 +431252,7 @@
       "coinBackColor": "a41836"
     },
     "act41side": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4177_brigid",
@@ -429765,6 +431274,7 @@
       "coinBackColor": "9993ff"
     },
     "act40side": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4172_xingzh",
@@ -429786,6 +431296,7 @@
       "coinBackColor": "8c2a2a"
     },
     "act31sre": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4119_wanqin",
@@ -429806,6 +431317,7 @@
       "coinBackColor": "afc04c"
     },
     "act30sre": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4114_harold",
@@ -429826,6 +431338,7 @@
       "coinBackColor": "46637d"
     },
     "act39side": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4163_rosesa",
@@ -429847,6 +431360,7 @@
       "coinBackColor": "1526f1"
     },
     "act1vautochess": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 3,
       "bigRewardParamList": [],
       "isMissionListCommonType": true,
@@ -429863,6 +431377,7 @@
       "coinBackColor": null
     },
     "act29sre": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 3,
       "bigRewardParamList": [],
       "isMissionListCommonType": true,
@@ -429879,6 +431394,7 @@
       "coinBackColor": "9b816d"
     },
     "act38side": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_1502_crosly",
@@ -429900,6 +431416,7 @@
       "coinBackColor": "a41836"
     },
     "act37side": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4162_cathy",
@@ -429921,6 +431438,7 @@
       "coinBackColor": "dea65c"
     },
     "act28sre": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4104_coldst",
@@ -429942,6 +431460,7 @@
       "coinBackColor": "98985e"
     },
     "act36side": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4143_sensi",
@@ -429963,6 +431482,7 @@
       "coinBackColor": null
     },
     "act27sre": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4106_bryota",
@@ -429984,6 +431504,7 @@
       "coinBackColor": "fb7595"
     },
     "act35side": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4139_papyrs",
@@ -430005,6 +431526,7 @@
       "coinBackColor": "8f45d6"
     },
     "permanent_main_1_Dissociative_Recombination": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 4,
       "bigRewardParamList": [
         "char_4131_odda@whirlwind#8",
@@ -430026,6 +431548,7 @@
       "coinBackColor": "a41836"
     },
     "permanent_main_2_Abnormal_Spectrum": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 4,
       "bigRewardParamList": [
         "char_445_wscoot@epoque#49",
@@ -430047,6 +431570,7 @@
       "coinBackColor": "28929c"
     },
     "permanent_main_3_One_Day_More": {
+      "isMissionBgCustomType": false,
       "bigRewardType": 1,
       "bigRewardParamList": [
         "char_4226_veen",

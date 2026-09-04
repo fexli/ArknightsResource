@@ -7,14 +7,120 @@
     "costIncreaseTime": 1.0,
     "moveMultiplier": 0.5,
     "steeringEnabled": true,
+    "reachableCheckIgnoreStartTile": false,
     "isTrainingLevel": false,
     "isHardTrainingLevel": false,
     "isPredefinedCardsSelectable": false,
     "displayRestTime": false,
-    "maxPlayTime": 0.0,
-    "functionDisableMask": 1135869952,
-    "configBlackBoard": null,
-    "enemyTauntLevelPow": 4,
+    "maxPlayTime": 360.0,
+    "functionDisableMask": 0,
+    "configBlackBoard": [
+      {
+        "key": "rect_1",
+        "valueStr": "(7,10),(15,16)"
+      },
+      {
+        "key": "rect_2",
+        "valueStr": "(15,12),(21,14)"
+      },
+      {
+        "key": "rect_3",
+        "valueStr": "(15,6),(21,12)"
+      },
+      {
+        "key": "rect_4",
+        "valueStr": "(21,10),(27,16)"
+      },
+      {
+        "key": "rect_5",
+        "valueStr": "(27,12),(33,14)"
+      },
+      {
+        "key": "rect_6",
+        "valueStr": "(15,14),(21,20)"
+      },
+      {
+        "key": "rect_7",
+        "valueStr": "(10,4),(15,10)"
+      },
+      {
+        "key": "rect_8",
+        "valueStr": "(15,0),(21,6)"
+      },
+      {
+        "key": "rect_9",
+        "valueStr": "(21,4),(27,10)"
+      },
+      {
+        "key": "rect_10",
+        "valueStr": "(27,6),(33,12)"
+      },
+      {
+        "key": "rect_11",
+        "valueStr": "(33,10),(39,16)"
+      },
+      {
+        "key": "rect_12",
+        "valueStr": "(27,14),(33,20)"
+      },
+      {
+        "key": "rect_13",
+        "valueStr": "(21,16),(27,22)"
+      },
+      {
+        "key": "rect_14",
+        "valueStr": "(15,20),(21,26)"
+      },
+      {
+        "key": "rect_15",
+        "valueStr": "(9,16),(15,22)"
+      },
+      {
+        "key": "rect_16",
+        "valueStr": "(0,10),(7,16)"
+      },
+      {
+        "key": "rect_17",
+        "valueStr": "(0,17),(9,31)"
+      },
+      {
+        "key": "rect_18",
+        "valueStr": "(9,26),(31,38)"
+      },
+      {
+        "key": "rect_19",
+        "valueStr": "(32,32),(38,38)"
+      },
+      {
+        "key": "rect_20",
+        "valueStr": ""
+      },
+      {
+        "key": "enable_war_fog",
+        "value": 1.0
+      },
+      {
+        "key": "enable_camera",
+        "value": 1.0
+      },
+      {
+        "key": "disable_character_gbuff",
+        "value": 0.0
+      },
+      {
+        "key": "disable_enemy_gbuff",
+        "value": 0.0
+      },
+      {
+        "key": "CAMERA_VIEW_LEVEL",
+        "value": 3.0
+      },
+      {
+        "key": "CAMERA_START_GRID",
+        "valueStr": "(4,4)"
+      }
+    ],
+    "enemyTauntLevelPow": 0,
     "deployCostPostDelta": 0,
     "deployCostPostDeltaMinCost": 0
   },
