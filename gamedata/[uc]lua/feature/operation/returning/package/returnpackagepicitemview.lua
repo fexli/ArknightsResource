@@ -27,7 +27,7 @@ function ReturnPackagePicItemView:_EventOnJumpGPShopClick()
   if not _ToastIfLocked(CS.Torappu.UI.UILockTarget.SHOP_ENTRY) then
     return;
   end
-  CS.Torappu.GameAnalytics.RecordShopTitleClicked(CS.Torappu.ShopType.GIFTPACKAGE, CS.Torappu.UI.Shop.ShopPage.Referrer.BACKFLOW);
+  CS.Torappu.GameAnalytics.RecordShopTitleClicked(CS.Torappu.ShopType.GIFTPACKAGE, CS.Torappu.UI.Shop.ShopPage.Referrer.BACKFLOW, self.m_viewModel.giftPackagePic);
   CS.Torappu.GameAnalytics.RecordShopTabClicked("");
   CS.Torappu.GameAnalytics.RecordShopItemClicked(self.m_viewModel.giftPackageId);
   local param = CS.Torappu.UI.Shop.ShopPage.Params();

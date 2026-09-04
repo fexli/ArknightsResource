@@ -10,18 +10,18 @@
 [Character(name="char_003_kalts_1",fadetime=0.2,block=true)]
 [name="凯尔希"]   你们回来了。
 [Character(name="char_003_kalts_1", name2="char_002_amiya_1", focus=2)]
-[name="阿米娅"]   ......嗯。
+[name="阿米娅"]   ……嗯。
 [Character(name="char_003_kalts_1", name2="char_002_amiya_1", focus=1)]
 [name="凯尔希"]   ——
 [name="凯尔希"]   详细情况我从侦查小队那里了解过了。
 [name="凯尔希"]   阿米娅，让我检查一下你的手。
 [Character(name="char_003_kalts_1", name2="char_002_amiya_1", focus=2)]
-[name="阿米娅"]   不用了，凯尔希医生.....
+[name="阿米娅"]   不用了，凯尔希医生……
 [Character(name="char_003_kalts_1", name2="char_002_amiya_1", focus=1)]
 [name="凯尔希"]   阿米娅。
 [Character(name="char_003_kalts_1", name2="char_002_amiya_1", focus=2)]
-[name="阿米娅"]   我，我......
-[name="阿米娅"]   ......好吧。
+[name="阿米娅"]   我，我……
+[name="阿米娅"]   ……好吧。
 [Dialog]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
 [Character]
@@ -33,12 +33,12 @@
 [name="凯尔希"]   听着，阿米娅——
 [name="凯尔希"]   小心一点。
 [Character(name="char_003_kalts_1", name2="char_002_amiya_1#2", focus=2)]
-[name="阿米娅"]   凯尔希医生，我......
-[name="阿米娅"]   ......我想休息一下。
+[name="阿米娅"]   凯尔希医生，我……
+[name="阿米娅"]   ……我想休息一下。
 [Character(name="char_003_kalts_1", name2="char_002_amiya_1#2", focus=1)]
 [name="凯尔希"]   去吧。
 [Character(name="char_002_amiya_1")]
-[name="阿米娅"]   嗯......
+[name="阿米娅"]   嗯……
 [Dialog(fadetime=0.6)]
 [Character(fadetime=0.6)]
 [Delay(time=0.6)]
@@ -50,7 +50,7 @@
 [name="凯尔希"]   你刚回罗德岛的时候，大概也是这种气氛，
 [name="凯尔希"]   这种情绪从来没有离开过阿米娅。
 [name="凯尔希"]   这不行。
-[name="凯尔希"]   ......Dr.{@nickname}，你去陪陪她。
+[name="凯尔希"]   ……Dr.{@nickname}，你去陪陪她。
 [name="凯尔希"]   别搞砸了。
 [Dialog]
 [Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]
@@ -63,36 +63,36 @@
 [name="阿米娅"]   门开着。
 [Blocker(a=0, fadetime=0.6, block=true)]
 [Background(screenadapt="coverall", image="bg_rhodesroom", width=1, height=1, fadetime=2, block=true)]
-[name="阿米娅"]   ......
+[name="阿米娅"]   ……
 [Character(name="char_002_amiya_1#2")]
-[name="阿米娅"]   {@nickname}博士......？
+[name="阿米娅"]   {@nickname}博士……？
 [name="阿米娅"]   心事？我吗？
 [Character(name="char_002_amiya_1#10")]
-[name="阿米娅"]   ......被你发现了呀......哈哈......
+[name="阿米娅"]   ……被你发现了呀……哈哈……
 [Character(name="char_002_amiya_1#2")]
 [name="阿米娅"]   我以为我一直藏得很好呢。
-[name="阿米娅"]   是的，我是有一点心事......就一点点。
+[name="阿米娅"]   是的，我是有一点心事……就一点点。
 [name="阿米娅"]   我已经习惯了这么做了。
 [name="阿米娅"]   毕竟不能增加大家的负担呢。
 [name="阿米娅"]   是吧，博士？
-[name="阿米娅"]   ......
+[name="阿米娅"]   ……
 [Character(name="char_002_amiya_1")]
-[name="阿米娅"]   ......我不明白。
-[name="阿米娅"]   博士......我不明白。
+[name="阿米娅"]   ……我不明白。
+[name="阿米娅"]   博士……我不明白。
 [Character(name="char_002_amiya_1", focus=-1)]
 [Decision(options="（沉默）", values="1")]
 [Predicate(references="1")]
 [Character(name="char_002_amiya_1")]
-[name="阿米娅"]   不，我......我知道我们在做什么。我也知道，牺牲是不可避免的。
-[name="阿米娅"]   可我......我不知道......
-[name="阿米娅"]   为什么我只能看着一个个可以被拯救的人......在我眼前消逝呢？
+[name="阿米娅"]   不，我……我知道我们在做什么。我也知道，牺牲是不可避免的。
+[name="阿米娅"]   可我……我不知道……
+[name="阿米娅"]   为什么我只能看着一个个可以被拯救的人……在我眼前消逝呢？
 [Character(name="char_002_amiya_1#4")]
-[name="阿米娅"]   明明触手可及......也许有时候就差一点点......
-[name="阿米娅"]   我知道我身上的责任......我会继续走下去......
-[name="阿米娅"]   但现在......我真的好累。
-[name="阿米娅"]   ......
+[name="阿米娅"]   明明触手可及……也许有时候就差一点点……
+[name="阿米娅"]   我知道我身上的责任……我会继续走下去……
+[name="阿米娅"]   但现在……我真的好累。
+[name="阿米娅"]   ……
 [Character(name="char_002_amiya_1#4", focus=-1)]
-[Decision(options="......;阿米娅......", values="1;2")]
+[Decision(options="……;阿米娅……", values="1;2")]
 [Predicate(references="1;2")]
 [Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
 [Character(fadetime=0)]
@@ -141,7 +141,7 @@
 [Character(name="char_003_kalts_1", name2="char_002_amiya_1#3", focus=1)]
 [name="凯尔希"]   不行，去吧。
 [Character(name="char_003_kalts_1", name2="char_002_amiya_1#5", focus=2)]
-[name="阿米娅"]   呜......
+[name="阿米娅"]   呜……
 [Character(name="char_003_kalts_1", name2="char_002_amiya_1#4", focus=2)]
 [name="阿米娅"]   凯尔希医生可不许欺负{@nickname}博士哦。
 [Character(name="char_003_kalts_1", name2="char_002_amiya_1#4", focus=1)]
@@ -151,7 +151,7 @@
 [Character(fadetime=0)]
 [Blocker(a=0, fadetime=0.3, block=true)]
 [Character(name="char_003_kalts_1#3")]
-[name="凯尔希"]   ......你。
+[name="凯尔希"]   ……你。
 [name="凯尔希"]   这么简单的事情都做不到。
 [Character(name="char_003_kalts_1#2")]
 [name="凯尔希"]   算了，我已经料到会是这种结果。
@@ -163,7 +163,7 @@
 [name="凯尔希"]   ——？
 [name="凯尔希"]   怎么了，那个表情。
 [Character(name="char_003_kalts_1", focus=-1)]
-[Decision(options="请问，阿米娅的戒指是？;......", values="1;2")]
+[Decision(options="请问，阿米娅的戒指是？;……", values="1;2")]
 [Predicate(references="1")]
 [Character(name="char_003_kalts_1#2")]
 [name="凯尔希"]   这与她的身体状况有关。

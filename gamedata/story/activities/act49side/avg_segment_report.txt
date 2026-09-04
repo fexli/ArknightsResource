@@ -28,7 +28,7 @@ AVG 演出指令段分析报告 (act49side)
     level_act49side_02_end.txt: 142 段
     level_act49side_09_beg.txt: 135 段
     level_act49side_02_beg.txt: 133 段
-    ... 其余 12 个文件
+    …… 其余 12 个文件
 
 【2. 段落长度分布】
   长度 1: 2812 次 (72.2%)
@@ -203,7 +203,7 @@ AVG 演出指令段分析报告 (act49side)
   {charslot, delay, playsound, stopsound}: 13 次
   {header, stopmusic}: 12 次
   {blocker, header, stopmusic}: 12 次
-  {bgeffect, blocker, charslot, delay, ...} (7 种): 11 次
+  {bgeffect, blocker, charslot, delay, ……} (7 种): 11 次
   {blocker, charslot, delay, playsound}: 10 次
   {camerashake, playsound}: 10 次
   {camerashake, charslot}: 9 次
@@ -219,8 +219,8 @@ AVG 演出指令段分析报告 (act49side)
     [playsound] [PlaySound(key="$d_avg_slmddrprn",volume=0, channel="f", loop=true)]
     [soundvolume] [SoundVolume(volume=1, channel="f",fadetime=2)]
   长度 5 示例:
-    [avgdisplay] [avgdisplay(id = "1",style = "bg",name = "bg_black",afrom=0.6,ato=0,du...
+    [avgdisplay] [avgdisplay(id = "1",style = "bg",name = "bg_black",afrom=0.6,ato=0,du……
     [avgdisplay] [avgdisplay(id = "1")]
-    [playsound] [PlaySound(key="$d_avg_rainheavy_loop", volume=0, loop=true, channel="...
+    [playsound] [PlaySound(key="$d_avg_rainheavy_loop", volume=0, loop=true, channel="……
     [soundvolume] [SoundVolume(volume=0.8, channel="ra",fadetime=1)]
     [charslot] [charslot(slot = "m", name = "avg_1050_chen3_1#11$2",focus="m")]

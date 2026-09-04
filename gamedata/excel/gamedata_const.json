@@ -1015,6 +1015,9 @@
     "autochess.gray": "<color=#777777>{0}</color>",
     "autochess.dgreen": "<color=#40B196>{0}</color>",
     "vecbreakv2.highlight": "<color=#d8741a>{0}</color>",
+    "dp.level.dis": "<color=#909090>{0}</color>",
+    "dp.level.rich": "<color=#4970ff>{0}</color>",
+    "dp.level.raid": "<color=#ff1f1f>{0}</color>",
     "duel.ping.low": "<color=#7fa826>{0}</color>",
     "duel.ping.medium": "<color=#ec7a00>{0}</color>",
     "duel.ping.high": "<color=#ff3d3d>{0}</color>",
@@ -1206,7 +1209,7 @@
     "ba.buffres": {
       "termId": "ba.buffres",
       "termName": "抵抗",
-      "description": "<$ba.stun>晕眩</>、<$ba.cold>寒冷</>、<$ba.frozen>冻结</>等异常状态的持续时间减半，<$ba.palsy>麻痹</>等效果每5秒流失1层（同名效果不叠加）"
+      "description": "<$ba.stun>晕眩</>、<$ba.cold>寒冷</>、<$ba.frozen>冻结</>、<$ba.fear>恐惧</>、<$ba.attract>诱导</>等异常状态的持续时间减半；<$ba.palsy>麻痹</>等状态每5秒流失1层（同名效果不叠加）"
     },
     "ba.invisible": {
       "termId": "ba.invisible",
@@ -1507,6 +1510,11 @@
       "termId": "ba.airprotect",
       "termName": "对空庇护",
       "description": "受到来自空中的物理和法术伤害降低相应比例（同名效果取最高）"
+    },
+    "ba.sees": {
+      "termId": "ba.sees",
+      "termName": "S.E.E.S.",
+      "description": "包括结城理、埃癸斯、岳羽由加莉、虎狼丸"
     },
     "cc.bd_A_1": {
       "termId": "cc.bd_A_1",
@@ -1912,11 +1920,16 @@
       "termId": "cc.bd_wang_2",
       "termName": "实地",
       "description": "由以下干员的基建技能提供\n望\n每有一间制造站，实地+1"
+    },
+    "cc.tag.sees": {
+      "termId": "cc.tag.sees",
+      "termName": "S.E.E.S.",
+      "description": "包含以下干员\n结城理、埃癸斯、岳羽由加莉、虎狼丸"
     }
   },
   "storyReviewUnlockItemLackTip": "事相碎片数量不足，请前往采购凭证区或活动期间商店获取",
-  "dataVersion": "76.0.0",
-  "resPrefVersion": "76d0d0",
+  "dataVersion": "77.0.0",
+  "resPrefVersion": "77d0d0",
   "announceWebBusType": "ak_announcement",
   "videoPlayerWebBusType": "ak_video_player",
   "gachaLogBusType": "ak_gacha_log",

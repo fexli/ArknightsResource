@@ -1,0 +1,517 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Background(image="bg_deserttownD",screenadapt="coverall")]
+[PlayMusic(intro="$m_dia_street_intro", key="$m_dia_street_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=2)]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="m",name="avg_394_hadiya_1#11$2",duration=2)]
+[Delay(time=2.5)]
+[name="哈蒂娅"]是我赢了！
+[Dialog]
+[charslot]
+萨尔贡的部族市集广场上，一场武力试炼刚刚得见分晓。
+比武场地里，一手执剑一手执杖的卡普里尼微笑着看向面前已经单膝跪地的对手。
+萨尔贡亲兵喘着粗气，他额头上的汗珠反射着夏日的阳光。
+[name="裁判"]本场结果，来自剑角的哈蒂娅，获胜！
+[Dialog]
+[playsound(key="$d_avg_crwddiscuss_outside", loop=true, channel="bgs",volume=0)]
+[Dialog]
+[SoundVolume(volume=0.8, channel="bgs",fadetime=3)]
+[delay(time=3.5)]
+[charslot(slot="m",name="avg_394_hadiya_1#1$2",focus="m")]
+[name="哈蒂娅"]感谢大家，这场战斗也很酣畅淋漓！
+[charslot(slot="m",name="avg_394_hadiya_1#2$2",focus="m")]
+[name="哈蒂娅"]（不过这还只是第一场，在这个部族要赢下两场决斗，王酋才会给我信物……）
+[name="哈蒂娅"]（还差最后两个信物，就能让帕夏兑现他的承诺！）
+[Dialog]
+[charslot]
+[name="裁判"]本场就此结束，下一场比试将在明天举行。
+[Dialog]
+[SoundVolume(volume=0, channel="bgs",fadetime=3)]
+[delay(time=3.5)]
+场地中央的裁判面无表情地宣读着，场外围观的人群开始一边私语着一边散去。
+但哈蒂娅似乎丝毫不在意人群的反应，她走向依然跪在地上的对手，向对方伸出了手。
+[charslot(slot="m",name="avg_394_hadiya_1#10$2",focus="m")]
+[name="哈蒂娅"]你的表现也很不错，是个可敬的对手。
+[name="哈蒂娅"]来吧，站起来！
+[Dialog]
+[charslot]
+然而面对着少女伸出的手，阳光下的亲兵却发出了一声哂笑，然后用手背将她的手打到一边。
+[Dialog]
+[name="亲兵"]*萨尔贡粗口*，别对我发善心。你是赢了，不代表我会服你。
+[name="亲兵"]你用的手段就算打败了我，先祖们也是不会承认的。
+[name="亲兵"]赶紧走吧，我不想再在我们部族里见到你。
+[Dialog]
+[playsound(key="$d_avg_clothmovement")]
+[charslot(slot="m",name="avg_npc_164",afrom=0,ato=1,duration=1)]
+[charslot(slot="m",posfrom="0,-50",posto="0,0",duration=2)]
+[delay(time=2.5)]
+亲兵说着，拿起掉在身边的佩刀，用刀撑地站起身来，扫了扫腿上沾着的沙尘。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_394_hadiya_1#6$2",focus="m")]
+[name="哈蒂娅"]你在说些什么，全程我没有一个小动作，是正面拼赢的战斗，可没有使出什么手段！
+[charslot(slot="m",name="avg_394_hadiya_1#8$2",focus="m")]
+[name="哈蒂娅"]裁判先生，您也应该看到了！
+[Dialog]
+[charslot]
+然而面对她的抗议，裁判依然面无表情，并不对哈蒂娅所说的话表示肯定。
+[charslot(slot="m",name="avg_npc_164",focus="m")]
+[name="亲兵"]你用的武器，还不算是手段吗？我们哪有用你这种花哨玩意儿的？
+[charslot(slot="m",name="avg_394_hadiya_1#7$2",focus="m")]
+[name="哈蒂娅"]为什么你们都要揪着武器的问题不放呢？我刚才用剑的方式，不也完全是萨尔贡式的吗？
+[name="哈蒂娅"]我甚至都没有用出组合剑的技法，都是按照你们设定的规则来的！
+[charslot(slot="m",name="avg_npc_164",focus="m")]
+[name="亲兵"]谁管你用的是什么技法，你就说它跟我手里这把刀是不是一看就知道不一样？
+[name="亲兵"]还说不是手段，睁眼说瞎话的货色。
+[charslot(slot="m",name="avg_394_hadiya_1#7$2",focus="m")]
+[name="哈蒂娅"]我也不打算再和你争吵了，我是接受了帕夏的试炼才来挑战的，可不是只用赢下你一个对手。
+[name="哈蒂娅"]我已经得到了十三位王酋的认可，你们的部族信物我也要拿到，不管你认不认同我都会做到的。
+[Dialog]
+[charslot]
+然而听了她说的话，亲兵反而哈哈大笑起来。
+[charslot(slot="m",name="avg_npc_164",focus="m")]
+[name="亲兵"]哈哈哈，你是脑袋被沙漠驮兽踢过，还是真的天真到和小孩子一样？
+[charslot(slot="m",name="avg_394_hadiya_1#4$2",focus="m")]
+[name="哈蒂娅"]……？
+[charslot(slot="m",name="avg_npc_164",focus="m")]
+[name="亲兵"]谁跟你说的在荒野上跟这些部族打一圈，帕夏就能给你分一块地？这不是做梦是什么？
+[charslot(slot="m",name="avg_394_hadiya_1#4$2",focus="m")]
+[name="哈蒂娅"]这可是你们的帕夏亲口说的。
+[name="哈蒂娅"]他这么给我承诺过，只要我完成挑战，兑现承诺才是理所当然的。
+[charslot(slot="m",name="avg_npc_164",focus="m")]
+[name="亲兵"]理所当然？说什么胡话呢？
+[name="亲兵"]我们哪个部族占着哪块地，那是多少年前就说定了的事情，每粒沙子那都是有主的。
+[name="亲兵"]谁要是说要从旁边的部族里抢一块地下来，那绝对得打到天昏地暗去。
+[name="亲兵"]你就不想想，你一个外面来的小姑娘，凭什么和其他部族抢地盘？
+[charslot(slot="m",name="avg_394_hadiya_1#2$2",focus="m")]
+[name="哈蒂娅"]我知道情况没有那么简单，不会只是我和帕夏之间的事情。
+[name="哈蒂娅"]荒野上的一切都要靠自己的剑刃拼出来，只要帕夏能兑现承诺给我一块地，接下来的问题我相信自己能解决。
+[charslot(slot="m",name="avg_npc_164",focus="m")]
+[name="亲兵"]哦？是吗？
+[name="亲兵"]口气倒是挺大。跟我还好说，你要是惹到那些更狠的部族，到时候如果你还能说出这话算你有种。
+[charslot(slot="m",name="avg_394_hadiya_1#7$2",focus="m")]
+[name="哈蒂娅"]我……
+[charslot(slot="m",name="avg_npc_164",focus="m")]
+[name="亲兵"]唉，想要送死的傻子多了去了，倒也不缺你一个，你爱怎么办怎么办吧。
+[Dialog]
+[playsound(key="$d_gen_walk_n")]
+[charslot(duration=2)]
+[Delay(time=2.5)]
+亲兵说完后嘴边带着无奈的笑，头也不回地离开了场地。沉默的裁判也跟在亲兵身后，再没有正眼看哈蒂娅一次。
+[charslot(slot="m",name="avg_394_hadiya_1#9$2",focus="m")]
+[name="哈蒂娅"]不会是这样的……绝对，不会是这样的……
+[charslot(slot="m",name="avg_394_hadiya_1#9$2",focus="none")]
+烈阳带来一阵燥热的风，她依然站在比武场地中央，握着剑柄的手上不自觉地用上了更强的力量。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_srgmarket", screenadapt="coverall", block=true)]
+[delay(time=2.5)]
+[PlayMusic(key="$wasteland_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_only_medium", pos = "-400,-200", block = false)]<p=2>半个小时后</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[SoundVolume(volume=0.8, channel="bgs",fadetime=3)]
+[delay(time=3.5)]
+[charslot(slot="l",name="avg_npc_973_1#1$1",duration=1.5)]
+[charslot(slot="r",name="avg_394_hadiya_1#10$2",duration=1.5)]
+[Delay(time=2.5)]
+[charslot(slot="l",name="avg_npc_973_1#1$1",focus="l")]
+[name="罗德岛干员"]哈蒂娅，刚才的决斗赢得很精彩！
+[name="罗德岛干员"]但没想到那个亲兵居然还说那些话，真是令人气愤……
+[charslot(slot="r",name="avg_394_hadiya_1#10$2",focus="r")]
+[name="哈蒂娅"]没事的，接受挑战本来就是我的私事，罗德岛给我提供移动手段和休整支援我已经非常感激了。
+[name="哈蒂娅"]如果在试炼过程里还要罗德岛的各位帮我出头，我反而不能接受。
+[name="哈蒂娅"]而且不管他怎么不服气，结果是不会变的，赢了就是赢了。
+[charslot(slot="r",name="avg_394_hadiya_1#1$2",focus="r")]
+[name="哈蒂娅"]我现在只需要想好怎样应对接下来的第二场对决就行。
+[charslot(slot="l",name="avg_npc_973_1#1$1",focus="l")]
+[name="罗德岛干员"]嗯，办事处的大家都看在眼里，有这种心态无论什么挑战都能应对的！
+[name="罗德岛干员"]不过……
+[charslot(slot="r",name="avg_394_hadiya_1#5$2",focus="r")]
+[name="哈蒂娅"]怎么了？
+[charslot(slot="l",name="avg_npc_973_1#1$1",focus="l")]
+[name="罗德岛干员"]可能我不该提这个，哈蒂娅有想过挑战完成之后的事情吗？
+[name="罗德岛干员"]虽然我也完全不认同那个人说的话，但是……
+[charslot(slot="r",name="avg_394_hadiya_1#1$2",focus="r")]
+[name="哈蒂娅"]怎么回事，你认为我还会因为那些话产生动摇吗？
+[name="哈蒂娅"]对我来说很简单，先不去想如果出了问题会怎么样，那样只会让我犹豫不决。
+[name="哈蒂娅"]不管挑战完成之后会发生什么事，我都会为了部族，也为了我自己坚持下去。
+[Dialog]
+[charslot(slot="r",name="avg_394_hadiya_1#1$2",focus="none")]
+卡普里尼少女坚定地看着前方说着，身边的干员也跟着默默点了点头。
+但在两人的身边，在声音传递到市集的摊位上之后，传来了窃笑的声音。
+[name="年轻的摊贩"]为了部族……吃错药了吧，这种话也说得出口。
+[name="年老的摊贩"]这人是谁啊？看起来一点都不像是从哪个部族来的……身上东西那么复杂。
+[name="年轻的摊贩"]听说是哥伦比亚来的……装成什么部族的后裔，到处宣扬说要复兴部族……亏她敢来我们的地盘……
+[name="年老的摊贩"]复兴部族？这倒是不好说，看那个角……说不定人家真是呢……
+[name="年轻的摊贩"]是又怎么样，帕夏还能真给她地不成……给外族人一块地不怕手底下的部族造反？
+[name="年老的摊贩"]说的也是……
+摊位上的话语虽然声音不是很大，但说话人很明显没有试着掩藏，哈蒂娅和她身旁的随行干员都听得清清楚楚。
+随行干员的手不再揣在上衣口袋中了，她的表情明显是想做出驳斥，但哈蒂娅已经先一步拉住了随行干员的手臂。
+[charslot(slot="r",name="avg_394_hadiya_1#7$2",focus="r")]
+[name="哈蒂娅"]快走吧，我们早点回办事处。
+[name="哈蒂娅"]这里没什么我们该做的事情了。
+[Dialog]
+[playsound(key="$rungeneral")]
+[charslot(slot="r",afrom=1,ato=0,duration=1)]
+[charslot(slot="r",posfrom="0,0",posto="100,0",duration=2)]
+[charslot(slot="l",afrom=1,ato=0,duration=1)]
+[charslot(slot="l",posfrom="0,0",posto="100,0",duration=2)]
+[delay(time=2.5)]
+卡普里尼再没有多说什么，拉着随行干员快速穿过了私语交接的市集。
+[Dialog]
+[SoundVolume(volume=0, channel="bgs",fadetime=3)]
+[delay(time=3.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[stopsound(channel="bgs")]
+[charslot]
+[Background(image="bg_desert_3", screenadapt="coverall", block=true)]
+[delay(time=2.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="l",name="avg_npc_973_1#1$1",duration=2)]
+[charslot(slot="r",name="avg_394_hadiya_1#5$2",duration=2)]
+[Delay(time=2.5)]
+[charslot(slot="r",name="avg_394_hadiya_1#5$2",focus="none")]
+很快，两人就走出了当地部族的核心聚居地，罗德岛的用车就停在荒野上。
+离开了气氛紧张的部族领地，哈蒂娅和随行干员都不再紧绷着脸，从容的感觉回到了两人的面孔上。
+[charslot(slot="r",name="avg_394_hadiya_1#1$2",focus="r")]
+[name="哈蒂娅"]好了，接下来就是回办事处休息了，可以选部电影看一看，再来两瓶气泡水就更好了。
+[charslot(slot="l",name="avg_npc_973_1#1$1",focus="l")]
+[name="罗德岛干员"]可别太过放松哦，还有一场比试没有进行呢。
+[Dialog]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="l",afrom=1,ato=0,duration=1)]
+[charslot(slot="l",posfrom="0,0",posto="-100,0",duration=2)]
+[delay(time=2.5)]
+[charslot(slot="r",name="avg_394_hadiya_1#1$2",focus="r")]
+[name="哈蒂娅"]我知道，但是放松也是必要的嘛，就……
+[charslot(slot="r",name="avg_394_hadiya_1#4$2",focus="r")]
+[name="哈蒂娅"]……
+[charslot(slot="r",name="avg_394_hadiya_1#4$2",focus="none")]
+她的话没有说完，在卡普里尼打开车门之前，她注意到轮胎边上的血红色印记。
+[name="罗德岛干员"]怎么了，哈蒂娅？
+随行干员本来已经走到了驾驶座的门前，哈蒂娅突然停下话语后她又绕了回来，也看到了地上的血色标记。
+[Dialog]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="l",name="avg_npc_973_1#1$1",afrom=0,ato=1,duration=1)]
+[charslot(slot="l",posfrom="-100,0",posto="0,0",duration=2)]
+[delay(time=2.5)]
+[charslot(slot="l",name="avg_npc_973_1#1$1",focus="l")]
+[name="罗德岛干员"]这……这又是什么意思？
+[charslot(slot="l",name="avg_npc_973_1#1$1",focus="none")]
+卡普里尼很清楚，虽然她来到荒野上的时间还不足以让她完全理解萨尔贡的每一个文化细节，但她认得出这个标志的含义。
+[charslot(slot="r",name="avg_394_hadiya_1#7$2",focus="r")]
+[name="哈蒂娅"]用驮兽血画的驱逐标记……说明我们不受欢迎。
+[name="哈蒂娅"]我已经在好几个部族里遇到过这个标记了，但之前大多都是画在决斗场地的出入口附近。
+[name="哈蒂娅"]在罗德岛的车旁边这样明目张胆地画，还是第一次……
+[charslot(slot="r",name="avg_394_hadiya_1#7$2",focus="none")]
+少女略加思索，然后用鞋子刨起脚边的土，将地上的印记抹去。
+[charslot(slot="r",name="avg_394_hadiya_1#2$2",focus="r")]
+[name="哈蒂娅"]……
+[charslot(slot="l",name="avg_npc_973_1#1$1",focus="l")]
+[name="罗德岛干员"]哈蒂娅，我们还是早点回去吧。
+[charslot(slot="r",name="avg_394_hadiya_1#2$2",focus="r")]
+[name="哈蒂娅"]嗯，赶快离开为好。
+[Dialog]
+[charslot(slot="r",name="avg_394_hadiya_1#2$2",focus="all")]
+[delay(time=2)]
+[charslot(slot="r",afrom=1,ato=0,duration=1)]
+[charslot(slot="r",posfrom="0,0",posto="50,0",duration=2)]
+[charslot(slot="l",afrom=1,ato=0,duration=1)]
+[charslot(slot="l",posfrom="0,0",posto="-50,0",duration=2)]
+[delay(time=2.5)]
+[playsound(key="$d_avg_cardoorc")]
+[delay(time=1)]
+[playsound(key="$d_avg_carpassby")]
+[delay(time=2.5)]
+哈蒂娅打开车门坐了上去，但直到引擎发动，车子开始加速，她一直都没有看向前方的路，而是怔怔望着天空。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[gridbg(imagegroup="38_g20_skyblue_L1/38_g20_skyblue_r1/38_g20_skyblue_L2/38_g20_skyblue_r2", solidwidth="1280/1280/1280/1280", solidheight="720/720/720/720",x=-600,y=200,fadetime=0)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="哈蒂娅"]（试炼和挑战……我在这里的理由……）
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[gridbg]
+[Background(image="21_G9_rhodes_xqoffice", screenadapt="coverall", block=true)]
+[delay(time=1)]
+[PlayMusic(key="$calm_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_394_hadiya_1#4$1",duration=2)]
+[Delay(time=2.5)]
+[charslot(slot="m",name="avg_394_hadiya_1#4$1",focus="none")]
+哈蒂娅坐在桌前，桌面上放着一叠打开的信件。她时不时举起其中某一封，短暂阅读之后又将其放下。
+房间外传来其他干员一边轻松地聊天一边走过的声音，然而卡普里尼只是继续看着桌面上的信件出神。
+[charslot(slot="m",name="avg_394_hadiya_1#4$1",focus="m")]
+[name="哈蒂娅"]塞尔玛……
+[charslot(slot="m",name="avg_394_hadiya_1#4$1",focus="none")]
+自从她只身来到萨尔贡，和五十七街的联络就只剩下了塞尔玛发来的信件。
+正是因为有这些信件，她仿佛能看得到荒漠之外，哥伦比亚的移动城市里发生着的事情。
+[Dialog]
+[playsound(key="$d_avg_paper1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.8, r=0, g=0, b=0, fadetime=1, block=true)]
+[Subtitle(text="哈蒂娅，你还好吗？塔拉玛阿姨的店关门了……", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot(slot="m",name="avg_394_hadiya_1#9$1",focus="m")]
+[name="哈蒂娅"]那家店，我和她一起帮忙了那么长时间……
+[Dialog]
+[playsound(key="$d_avg_paper1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.8, r=0, g=0, b=0, fadetime=1, block=true)]
+[Subtitle(text="哈蒂娅，你还习惯那边的生活吗？最近因为铁掌帮的事情，警察又开始封锁街区了……", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot(slot="m",name="avg_394_hadiya_1#9$1",focus="m")]
+[name="哈蒂娅"]塞尔玛和我的家人不会受欺负吧，如果我还在的话……
+[Dialog]
+[playsound(key="$d_avg_paper1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.8, r=0, g=0, b=0, fadetime=1, block=true)]
+[Subtitle(text="别担心，哈蒂娅。我虽然不能去萨尔贡，但会一直为你祝福的！", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot(slot="m",name="avg_394_hadiya_1#3$1",focus="m")]
+[name="哈蒂娅"]塞尔玛要是知道了驱逐标记的事情，一定会像被警察强行讯问那一次一样生气的。
+[charslot(slot="m",name="avg_394_hadiya_1#2$1",focus="m")]
+[name="哈蒂娅"]所以我从来都没有向她说过这件事……
+[charslot(slot="m",name="avg_394_hadiya_1#2$1",focus="none")]
+卡普里尼的手抚过那些信件，她的手指感受到了一些信封沾上的沙粒，那是信使带着它们穿越过沙漠的证据。
+[charslot(slot="m",name="avg_394_hadiya_1#2$1",focus="m")]
+[name="哈蒂娅"]可我呢，我真的有像回信里自己写的那样，变成了一个适应了荒野生活的人吗？
+[charslot(slot="m",name="avg_394_hadiya_1#2$1",focus="none")]
+她看向桌子上摆着的气泡水，又抬起头看向墙上贴着的电影海报，最后视线回到自己手上的半指手套。
+[charslot(slot="m",name="avg_394_hadiya_1#1$1",focus="m")]
+[name="哈蒂娅"]完全没有啊。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[gridbg]
+[Background(image="bg_leithanienroom", screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[charslot(slot="m",name="avg_394_hadiya_1#5$1",focus="m")]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_394_hadiya_1#5$1",focus="none")]
+[name="哈蒂娅的父亲"]哈蒂娅……
+[name="哈蒂娅的父亲"]我不愿意强迫你去做什么事情，但……
+[charslot(slot="m",name="avg_394_hadiya_1#10$1",focus="m")]
+[name="哈蒂娅"]放心吧，爸爸，无论在什么地方，我都不会让你们失望的。
+[name="哈蒂娅"]相信我！
+[charslot(slot="m",name="avg_394_hadiya_1#10$1",focus="none")]
+[name="哈蒂娅的父亲"]……
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[gridbg]
+[Background(image="21_G9_rhodes_xqoffice", screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[charslot(slot="m",name="avg_394_hadiya_1#3$1",focus="m")]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_394_hadiya_1#3$1",focus="m")]
+[name="哈蒂娅"]如果我想，可以抛下这一切回到五十七街去。然而我不能回去，不可能……
+[charslot(slot="m",name="avg_394_hadiya_1#5$1",focus="m")]
+[name="哈蒂娅"]但坚持留在这里，忍着部族人的白眼，去挑战那个该死的试炼的理由，到底是什么？
+[charslot(slot="m",name="avg_394_hadiya_1#5$1",focus="none")]
+她揉了揉头发，最终还是将所有信件都收到一起，塞进了桌子抽屉里。
+[charslot(slot="m",name="avg_394_hadiya_1#1$1",focus="m")]
+[name="哈蒂娅"]去外面散散心吧。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[gridbg]
+[Background(image="31_g2_luo_reception", screenadapt="coverall", block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="m",name="avg_394_hadiya_1#1$1",duration=2)]
+[Delay(time=2.5)]
+[charslot]
+哈蒂娅走在办事处的走廊上，她看向前方，萨尔贡下午的阳光已经投射进了入口，清晰可见。
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=1,g=1, b=1, fadetime=0.03, block=true)]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$fightgeneral", volume=1)]
+[Blocker(a=0, r=1,g=1, b=1, fadetime=0.3, block=true)]
+[Dialog]
+她明明已经快要走到门口，却在光线变暗的地方停了下来。随后很快，她的腿上传来了一种特别的撞击感。
+[Dialog]
+[charslot]
+[name="？？？"]哇，对不起，哈蒂娅小姐！
+[Dialog]
+[charslot(slot="l",name="avg_394_hadiya_1#1$2",duration=2)]
+[charslot(slot="r",name="char_411_tomimi_1#4",duration=2)]
+[Delay(time=2.5)]
+[charslot(slot="r",name="char_411_tomimi_1#4",focus="r")]
+[name="特米米"]呜呜，是我没注意尾巴。您没事吧？
+[charslot(slot="r",name="char_411_tomimi_1#4",focus="none")]
+举着捕梦网的阿达克利斯少女有些拘谨地缩着身体，手中还抱着一个盒子。
+[charslot(slot="l",name="avg_394_hadiya_1#10$2",focus="l")]
+[name="哈蒂娅"]啊，是特米米啊。没事的，你要出去执行任务吗？
+[charslot(slot="r",name="char_411_tomimi_1#1",focus="r")]
+[name="特米米"]不是的，嘉维尔今天又没吃午餐，我要给她把吃的送过去！
+[name="特米米"]和她说过了这样对身体不好，我很担心。
+[charslot(slot="l",name="avg_394_hadiya_1#1$1",focus="l")]
+[name="哈蒂娅"]真好，有点羡慕嘉维尔有你这样的朋友一直陪着。
+[name="哈蒂娅"]我的朋友都在哥伦比亚，没法来萨尔贡。
+[charslot(slot="r",name="char_411_tomimi_1#4",focus="r")]
+[name="特米米"]为什么呢，为什么他们不来？
+[charslot(slot="l",name="avg_394_hadiya_1#1$1",focus="l")]
+[name="哈蒂娅"]他们有自己的社区，我本来也是那个社区的一员，所有的生活和记忆都是从那个叫五十七街的地方开始的。
+[name="哈蒂娅"]让他们离开移动城市来这片荒野里生活，实在是很难做到。
+[charslot(slot="r",name="char_411_tomimi_1#4",focus="r")]
+[name="特米米"]但你们是朋友对不对？
+[charslot(slot="l",name="avg_394_hadiya_1#4$1",focus="l")]
+[name="哈蒂娅"]是啊？
+[charslot(slot="r",name="char_411_tomimi_1#7",focus="r")]
+[name="特米米"]唔，我觉得，没有那么难。
+[name="特米米"]嘉维尔离开阿卡胡拉的时候，我也很不愿意，也很着急。
+[charslot(slot="r",name="char_411_tomimi_1#1",focus="r")]
+[name="特米米"]不过，哪怕是部落外面，没有见过的地方，我也很努力、很努力地走出来了。
+[name="特米米"]一开始，我也很害怕，什么都不明白。但我想到嘉维尔都过来了，那我也，嗯，我也可以。
+[charslot(slot="l",name="avg_394_hadiya_1#9$1",focus="l")]
+[name="哈蒂娅"]特米米……
+[charslot(slot="r",name="char_411_tomimi_1#2",focus="r")]
+[name="特米米"]不好意思，我提到嘉维尔，就会说太多……
+[charslot(slot="l",name="avg_394_hadiya_1#10$1",focus="l")]
+[name="哈蒂娅"]没事的，不如说，谢谢你和我说这些，特米米！
+[name="哈蒂娅"]你还拿着她的餐呢，快给她送去吧。
+[charslot(slot="r",name="char_411_tomimi_1#1",focus="r")]
+[name="特米米"]对哦，又忘记这件事了，得快一些。
+[charslot(slot="r",name="char_411_tomimi_1#3",focus="r")]
+[name="特米米"]之后再见，哈蒂娅小姐！
+[Dialog]
+[playsound(key="$rungeneral")]
+[charslot(slot="r",afrom=1,ato=0,duration=1)]
+[charslot(slot="r",posfrom="0,0",posto="100,0",duration=2)]
+[delay(time=2.5)]
+[charslot]
+特米米说完小跑着进入了午后的光线之中，很快就从哈蒂娅的视野中消失了。
+[charslot(slot="m",name="avg_394_hadiya_1#2$1",focus="m")]
+[name="哈蒂娅"]（对啊，特米米，阿卡胡拉……）
+[name="哈蒂娅"]（虽然很多事情情况并不一样，但我能用我的方法做到一些事情。）
+[charslot(slot="m",name="avg_394_hadiya_1#3$1",focus="m")]
+[name="哈蒂娅"]在行动前不要怀疑最后能否成功，爸爸，你曾经这么跟我说过。
+[charslot(slot="m",name="avg_394_hadiya_1#1$1",focus="m")]
+[name="哈蒂娅"]也许我也应该对自己重复这句话。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[gridbg]
+[Background(image="bg_desert_1", screenadapt="coverall", block=true)]
+[delay(time=1)]
+[PlayMusic(intro="$path_intro", key="$path_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="l",name="avg_npc_973_1#1$1",duration=2)]
+[charslot(slot="r",name="avg_394_hadiya_1#1$2",duration=2)]
+[Delay(time=2.5)]
+[charslot(slot="r",name="avg_394_hadiya_1#1$2",focus="r")]
+[name="哈蒂娅"]就说在办事处里怎么没有看见你，原来还在洗车啊。
+[charslot(slot="l",name="avg_npc_973_1#1$1",focus="l")]
+[name="罗德岛干员"]啊，哈蒂娅。总是要把车子维护得好一些嘛，明天还要带你去参加比试的。
+[charslot(slot="r",name="avg_394_hadiya_1#5$2",focus="r")]
+[name="哈蒂娅"]嗯，刚好我就是想找你说这件事的。
+[name="哈蒂娅"]这个部族的试炼，我们不用再去了。
+[charslot(slot="l",name="avg_npc_973_1#1$1",focus="l")]
+[name="罗德岛干员"]咦？为什么突然决定不去了？
+[charslot(slot="r",name="avg_394_hadiya_1#2$2",focus="r")]
+[name="哈蒂娅"]他们已经把驱逐标记画到了罗德岛的车边上，这种不欢迎已经很过分了。
+[name="哈蒂娅"]如果只是我，那不成问题，但要是对像你一样的干员进行威胁那是绝对不能接受的。
+[charslot(slot="r",name="avg_394_hadiya_1#5$2",focus="r")]
+[name="哈蒂娅"]那位帕夏也从来没说过只允许挑战十五个部族，况且……
+[charslot(slot="r",name="avg_394_hadiya_1#1$2",focus="r")]
+[name="哈蒂娅"]我现在有个不一样的计划。
+[charslot(slot="l",name="avg_npc_973_1#1$1",focus="l")]
+[name="罗德岛干员"]不一样的计划？
+[charslot(slot="r",name="avg_394_hadiya_1#1$2",focus="r")]
+[name="哈蒂娅"]在之前的试炼过程中我就想过这件事，那个亲兵说的话你也听到了。
+[name="哈蒂娅"]就算是通过了试炼，帕夏也兑现了承诺，我想要得到各个部族的一致认同几乎是不可能的事情。
+[name="哈蒂娅"]你也问过我，到底试炼结束之后要做什么。
+[charslot(slot="l",name="avg_npc_973_1#1$1",focus="l")]
+[name="罗德岛干员"]可是当时哈蒂娅你回答的是，会为了部族坚持下去的。
+[name="罗德岛干员"]重建部族不正是你的理想吗？
+[charslot(slot="r",name="avg_394_hadiya_1#2$2",focus="r")]
+[name="哈蒂娅"]不，即便到了现在，剑角的复兴对我来说还是一个很抓不清本质的事情。
+[name="哈蒂娅"]如果只是为了剑角这个名字，可能我根本想不清到底接下来还要做什么。
+[charslot(slot="r",name="avg_394_hadiya_1#4$2",focus="r")]
+[name="哈蒂娅"]但我刚才遇见了特米米，听了她说的话我突然想清楚了，我还有家人和朋友在哥伦比亚。
+[name="哈蒂娅"]他们和我一样，在五十七街也忍受着不公的对待，我曾经天真地以为来到萨尔贡能逃离那些不公。
+[charslot(slot="l",name="avg_npc_973_1#1$1",focus="l")]
+[name="罗德岛干员"]可这些部族，他们的所作所为还是一样的……
+[charslot(slot="r",name="avg_394_hadiya_1#3$2",focus="r")]
+[name="哈蒂娅"]是的，所以我明白了，等待他们接纳我是没有用的，试着让自己变得“更萨尔贡”也没有意义。
+[charslot(slot="r",name="avg_394_hadiya_1#7$2",focus="r")]
+[name="哈蒂娅"]我要先在萨尔贡建立一个营地，不是以剑角的名义，而是以我个人的名义，能接纳属于我们族群的人们。
+[charslot(slot="l",name="avg_npc_973_1#1$1",focus="l")]
+[name="罗德岛干员"]建立营地？可是如果没有得到当地帕夏的许可的话，这样做难道不会比完成试炼阻力更大吗？
+[name="罗德岛干员"]跟着他们的规则走，都已经遇到这么多困难了……
+[charslot(slot="r",name="avg_394_hadiya_1#7$2",focus="none")]
+哈蒂娅摇了摇头，接着握紧了手中的剑。
+[charslot(slot="r",name="avg_394_hadiya_1#2$2",focus="r")]
+[name="哈蒂娅"]那个亲兵虽然也打心底里不接纳我，但他说的话不是没有道理的。
+[charslot(slot="r",name="avg_394_hadiya_1#1$2",focus="r")]
+[name="哈蒂娅"]再怎么完美地完成试炼，也是把解释的权力交到帕夏和那些王酋们的手里，这一次我想自己做决定。
+[name="哈蒂娅"]一个哥伦比亚式的营地，用我和我的族群熟知的方式建立起来，让我的族人能在此立足。
+[charslot(slot="r",name="avg_394_hadiya_1#1$2",focus="none")]
+随行干员看着卡普里尼，她记得哈蒂娅在午间坐上返程的车时，双眼里还有着清晰可见的迷惘。
+但此时手握着武器的女孩眼中，露出的光彩已然不同。
+[charslot(slot="l",name="avg_npc_973_1#1$1",focus="l")]
+[name="罗德岛干员"]那，既然哈蒂娅这样决定了，如果有什么我们能帮上忙的地方——
+[charslot(slot="r",name="avg_394_hadiya_1#1$2",focus="r")]
+[name="哈蒂娅"]放心，该借助的力量，我是不会放过的。
+[charslot(slot="l",name="avg_npc_973_1#1$1",focus="l")]
+[name="罗德岛干员"]这样那些试炼也就可以中止了对吧，能少和不怀善意的人打交道，倒也是一件好事。
+[charslot(slot="r",name="avg_394_hadiya_1#1$2",focus="r")]
+[name="哈蒂娅"]不，最后两个信物，我也一定要拿到。
+[charslot(slot="l",name="avg_npc_973_1#1$1",focus="l")]
+[name="罗德岛干员"]嗯？
+[charslot(slot="r",name="avg_394_hadiya_1#5$2",focus="r")]
+[name="哈蒂娅"]我可以失败，但我不会服输。不管是试炼还是营地，都会是一场我和萨尔贡的对决。
+[name="哈蒂娅"]而这场对决，我要用自己的方式赢下来。不仅如此——
+[charslot(slot="r",name="avg_394_hadiya_1#5$2",focus="none")]
+哈蒂娅看向天空，散发着光芒的天体已经逐渐转成了夕阳。
+她舒了一口气，将手中的剑和战杖组合在一起，锁定装置咬合的瞬间剑刃就随之变换了形状，在夕阳下正如尖锐的双角。
+[charslot(slot="r",name="avg_394_hadiya_1#1$2",focus="r")]
+[name="哈蒂娅"]明天我们就去下一个部族，接受他们的挑战。
+[name="哈蒂娅"]我要让他们明白，哪怕遵循着荒野和萨尔贡的规则，这柄不会屈服的剑也要取得胜利。
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[gridbg]
+[stopmusic(fadetime=2)]
+[image]
+[charslot]

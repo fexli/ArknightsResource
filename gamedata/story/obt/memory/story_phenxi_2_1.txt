@@ -1,0 +1,1091 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Delay(time=1)]
+[Background(image="26_g8_laterano_dwelling",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[PlayMusic(key="$normal_loop", volume=0.6)]
+[Delay(time=2)]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="m",name="avg_300_phenxi_1#1$1",duration=2)]
+[Delay(time=2.5)]
+[name="菲亚梅塔"]这是什么……《遍游泰拉》？这杂志纸质刊不是早停了吗……还是创刊号？什么时候放在这的……
+[name="菲亚梅塔"]……书架上没有。除非莫斯提马特意把东西藏在书后面。
+[name="菲亚梅塔"]肯定没那么简单。
+[Dialog]
+[playsound(key="$d_avg_clothmovement")]
+[charslot(slot="m",posfrom="0,0",posto="0,-10",duration=2)]
+[delay(time=2.5)]
+[multiline(name="菲亚梅塔")]茶几下层呢……
+[charslot(slot="m",name="avg_300_phenxi_1#2$1",posfrom="0,-10",posto="0,-10",focus="m")]
+[multiline(name="菲亚梅塔")]*拉特兰俚语*！她还没学会打完牌把纸牌装起来吗？
+[charslot(slot="m",name="avg_300_phenxi_1#1$1",posfrom="0,-10",posto="0,-10",focus="m")]
+[name="菲亚梅塔"]但她一个人怎么打牌？……算了，先捡起来……
+[Dialog]
+[playsound(key="$d_avg_clothmovement")]
+[charslot(slot="m",posfrom="0,-10",posto="0,0",duration=2)]
+[delay(time=2.5)]
+[charslot(slot="m",name="avg_300_phenxi_1#1$1",focus="m")]
+[name="菲亚梅塔"]厨房，应该不会吧……嗯，这厨房起码一万年没开过火了。除非她蠢到把伞塞进冰箱……
+[Dialog]
+[playsound(key="$d_avg_clothmovement")]
+[charslot(slot="m",posfrom="0,0",posto="-10,0",duration=1)]
+[delay(time=1.5)]
+[playsound(key="$d_avg_clothmovement")]
+[charslot(slot="m",posfrom="-10,0",posto="0,0",duration=1)]
+[delay(time=1.5)]
+[charslot(slot="m",name="avg_300_phenxi_1#8$1",focus="m")]
+[multiline(name="菲亚梅塔")]好吧，没蠢到那地步。
+[multiline(name="菲亚梅塔")]但这套杯子怎么不收进橱子里，扣在冰箱顶上好看？
+[Dialog]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="m",afrom=1,ato=0,duration=1)]
+[charslot(slot="m",posfrom="0,0",posto="-200,0",duration=1.5)]
+[delay(time=2.5)]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="m",name="avg_213_mostma_1#1$2",bstart=0.1,bend=0.5,afrom=0,ato=1,duration=1)]
+[charslot(slot="m",posfrom="300,0",posto="100,0",duration=1.5)]
+[delay(time=2.5)]
+[name="？？？"]……
+[charslot(slot="m",focus="none")]
+[name="菲亚梅塔"]等等，玄关的鞋柜我检查过没……她最好别让我再找着蕾缪乐的鞋子……
+[Dialog]
+[stopmusic(fadetime=2)]
+[charslot(slot="m",afrom=1,ato=0,duration=1)]
+[charslot(slot="m",posfrom="100,0",posto="150,0",duration=1.5)]
+[delay(time=2.5)]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",afrom=0,ato=1,duration=1)]
+[charslot(slot="l",posfrom="200,0",posto="0,0",duration=1.5)]
+[charslot(slot="r",name="avg_213_mostma_1#1$2",bstart=0.1,bend=0.5,afrom=0,ato=1,duration=1)]
+[charslot(slot="r",posfrom="-200,0",posto="0,0",duration=1.5)]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$fightgeneral", volume=1)]
+[Blocker(a=0, r=1,g=1, b=1, fadetime=0.5, block=true)]
+[Dialog]
+[delay(time=0.5)]
+[playMusic(key="$comedy_loop", volume=0.6)]
+[charslot(slot="l",focus="r")]
+[charslot(slot="r",name="avg_213_mostma_1#4$2",bstart=0.1,bend=0.5,afrom=0,ato=1,focus="r")]
+[name="？？？"]哇哦，擅闯民宅！
+[Dialog]
+[playsound(key="$d_avg_clothmovement")]
+[charslot(slot="r",name="avg_213_mostma_1#12$1",duration=1,focus="r")]
+[name="莫斯提马"]菲亚梅塔，你被逮捕了！
+[charslot(slot="l",name="avg_300_phenxi_1#7$1",focus="l")]
+[name="菲亚梅塔"]……
+[name="菲亚梅塔"]有本事拿真铳，再用雪糕铳指着我我就把它塞进你的嗓子眼儿！
+[Dialog]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot(slot="l",name="avg_300_phenxi_1#4$1",focus="l")]
+[name="菲亚梅塔"]唔——
+[charslot(slot="r",name="avg_213_mostma_1#7$1",focus="r")]
+[name="莫斯提马"]不客气。甜吗？
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]——一点都不甜，你会不会买？
+[charslot(slot="r",name="avg_213_mostma_1#12$1",focus="r")]
+[name="莫斯提马"]别挑三拣四。伞呢？
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]影子都没看见。快一个月没下雨了，你确定伞放在家里？
+[charslot(slot="r",name="avg_213_mostma_1#10$1",focus="r")]
+[name="莫斯提马"]不确定啊，我只是提供一些有可能的地点——你才是侦探吧？我只是心急如焚又无能为力的委托人而已……
+[name="莫斯提马"]看在报酬的分上，拜托“苦牢谜探”快点破案好不好？
+[charslot(slot="l",name="avg_300_phenxi_1#7$1",focus="l")]
+[name="菲亚梅塔"]别叫那个破名字了，他们最近的品味越来越差。
+[charslot(slot="r",name="avg_213_mostma_1#10$1",focus="r")]
+[name="莫斯提马"]不好吗？好歹从蓝卡坞烂片转向小众独立游戏了——别瞪了，我替你眼睛痛。
+[name="莫斯提马"]你要是不爱听，就更应该快去找伞嘛。我说到做到哦……
+[name="莫斯提马"]只要你找到我弄丢的伞，我就再也不叫你的“职务名”……
+[name="莫斯提马"]也绝不再要求你，停止做我的“监管人”。
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[name="菲亚梅塔"]……其实这是个圈套吧。
+[charslot(slot="r",name="avg_213_mostma_1#7$1",focus="r")]
+[name="莫斯提马"]当然啦。
+[charslot(slot="r",name="avg_213_mostma_1#12$1",focus="r")]
+[name="莫斯提马"]你应下来的时候，不是心知肚明？
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]呵。就算这个赌约是你的圈套，我也会赢的，莫斯提马。
+[name="菲亚梅塔"]说好的，我赢了，你就再也不要和我说这种屁话——再也不要让我听到你对我指手画脚。
+[charslot(slot="r",name="avg_213_mostma_1#4$1",focus="r")]
+[name="莫斯提马"]天啊，菲亚梅塔说我指手画脚？我要给蕾缪安打电话，这世界上至少该有一个讲道理的人……
+[charslot(slot="l",name="avg_300_phenxi_1#4$1",focus="l")]
+[name="菲亚梅塔"]……
+[charslot(slot="r",name="avg_213_mostma_1#4$1",focus="r")]
+[name="莫斯提马"]……
+[charslot(slot="r",name="avg_213_mostma_1#6$1",focus="r")]
+[name="莫斯提马"]我没那个意思，菲亚梅塔，你别这么可怜，我心里会难过……
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]放屁。
+[name="菲亚梅塔"]我没有想起什么。但是，你把那些东西拿出来干什么，杂志，纸牌，那套杯子……
+[name="菲亚梅塔"]……拖鞋，靠垫，骰塔，蕾缪安盘头发的夹子，安多恩的词典……
+[charslot(slot="r",name="avg_213_mostma_1#1$1",focus="r")]
+[name="莫斯提马"]……我只是没收起来。
+[charslot(slot="r",name="avg_213_mostma_1#1$1",focus="r")]
+[name="莫斯提马"]毕竟这十来年我住在这儿的时间很少，没怎么收拾。
+[name="莫斯提马"]这么说来，也许我该把这间房子卖了，是不是还方便一点……
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]你敢。
+[charslot(slot="l",name="avg_300_phenxi_1#2$1",focus="l")]
+[name="菲亚梅塔"]这房子不是你一个人出的钱，你没权利一个人把它卖掉。
+[charslot(slot="r",name="avg_213_mostma_1#4$1",focus="r")]
+[name="莫斯提马"]太沉重了，菲亚梅塔！那要是联系不上安多恩，我一辈子都不能卖掉这房子了？
+[name="莫斯提马"]谁知道他那个修道院现在开到哪儿了，难道我想卖房，还要追到大地不知道哪个角落，去敲他的门——
+[charslot(slot="r",name="avg_213_mostma_1#7$1",focus="r")]
+[name="莫斯提马"]“你好啊队长，我们四个凑钱买的那间房子，对就是我以前租的那间，最近我想卖了，这是合同，你也来签个名吧！”
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[name="菲亚梅塔"]……可以投票，我们有三个人呢，三对一就是多数了，不用找他。
+[charslot(slot="r",name="avg_213_mostma_1#1$1",focus="r")]
+[name="莫斯提马"]那你是同意我卖房了？
+[Dialog]
+[charslot(slot="l",name="avg_300_phenxi_1#6$1",focus="l")]
+[playsound(key="$d_avg_clothmovement")]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[charslot(slot="l",posfrom="0,0",posto="100,0",duration=0.5)]
+[delay(time=0.5)]
+[charslot(slot="l",focus="l")]
+[name="菲亚梅塔"]……闭嘴！找伞！不是在找伞吗？你给我好好想想，你到底带着那把破伞去过哪些地方！
+[charslot(slot="r",name="avg_213_mostma_1#6$1",focus="r")]
+[name="莫斯提马"]好好好，我想……别抓领子，喘不上气了……
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_bar_1", screenadapt="coverall", block=true)]
+[delay(time=2.5)]
+[PlayMusic(intro="$bar_intro", key="$bar_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",duration=2)]
+[charslot(slot="r",name="avg_213_mostma_1#1$2",duration=2)]
+[Delay(time=2.5)]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]……还开着啊，这家店。
+[name="菲亚梅塔"]白天还是人很少。不过你竟然……最近一个人来过？
+[charslot(slot="r",name="avg_213_mostma_1#12$2",focus="r")]
+[name="莫斯提马"]呵呵，我可不像你。东西好吃，酒好喝，我就还会来。没什么奇怪的吧。
+[name="莫斯提马"]还是说，你在怪我没叫上你？
+[name="莫斯提马"]抱歉嘛，我一直不太确定在拉特兰期间，叫你陪我算不算让你加班。理论上，我们现在都在休假？
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]……
+[Dialog]
+[name="菲亚梅塔"]——老板？
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="none")]
+[name="老板"]我是。请问有什么需要？
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]我的朋友，说她弄丢了一把伞，可能是丢在你们这儿了。你们最近有捡到失物吗？
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="none")]
+[name="老板"]是什么时候的事呢？
+[charslot(slot="r",name="avg_213_mostma_1#1$2",focus="r")]
+[name="莫斯提马"]呃，昨天？前天？上周末……？
+[charslot(slot="r",name="avg_213_mostma_1#1$2",focus="none")]
+[name="老板"]这……您记得伞长什么样吗？
+[charslot(slot="r",name="avg_213_mostma_1#1$2",focus="r")]
+[name="莫斯提马"]蓝色，直柄伞，打开之后伞沿有几行白线。
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]……
+[charslot(slot="r",name="avg_213_mostma_1#1$2",focus="none")]
+[name="老板"]好像没见过……
+[charslot(slot="r",name="avg_213_mostma_1#1$2",focus="r")]
+[name="莫斯提马"]那我们能自己找找吗？也许我随手放在什么不起眼的地方了。
+[charslot(slot="r",name="avg_213_mostma_1#1$2",focus="none")]
+[name="老板"]现在没什么客人，倒也不是不行……
+[charslot(slot="r",name="avg_213_mostma_1#12$2",focus="r")]
+[name="莫斯提马"]呵呵，还以为你会说要和我们一起找呢。
+[charslot(slot="r",name="avg_213_mostma_1#12$2",focus="none")]
+[name="老板"]哈哈，如果是我妈，确实会这么说！……您认识我妈妈？
+[charslot(slot="r",name="avg_213_mostma_1#12$2",focus="r")]
+[name="莫斯提马"]嗯，我们十多年前经常来。
+[charslot(slot="r",name="avg_213_mostma_1#12$2",focus="none")]
+[name="老板"]等等，戍卫队的红发黎博利和蓝发萨科塔……是不是还有两个人来着，一个粉头发，一个灰头发？
+[charslot(slot="r",name="avg_213_mostma_1#12$2",focus="r")]
+[name="莫斯提马"]哦，是以前的同事。
+[charslot(slot="r",name="avg_213_mostma_1#12$2",focus="none")]
+[name="老板"]真是你们啊！我接手这里时我妈说过，要是你们再来，要我好好招待，还要问清楚为什么不再来了。
+[name="老板"]但一直没见到你们……
+[charslot(slot="r",name="avg_213_mostma_1#10$2",focus="r")]
+[name="莫斯提马"]工作调动，不好意思啊。
+[charslot(slot="r",name="avg_213_mostma_1#10$2",focus="none")]
+[name="老板"]哎哟，不至于不至于！那你们找伞吧，有什么需要就叫我。
+[Dialog]
+[playsound(key="$d_gen_walk_n")]
+[Delay(time=2.5)]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]……你最近真的来过？我看这新老板对你一点印象都没有。
+[charslot(slot="r",name="avg_213_mostma_1#1$2",focus="r")]
+[name="莫斯提马"]他记性不好吧。
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]行了。你上次来，坐在哪？
+[Dialog]
+[playsound(key="$doorknockquite")]
+[charslot(slot="r",name="avg_213_mostma_1#12$2",focus="r")]
+[Delay(time=2.5)]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]……
+[charslot(slot="r",name="avg_213_mostma_1#12$2",focus="r")]
+[name="莫斯提马"]别这副表情，这位置一开始就是我选的吧？我就是喜欢坐在这啊。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_bar_1", screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[delay(time=2.5)]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",posfrom="-200,0",posto="-200,0",focus="l")]
+[charslot(slot="m",name="avg_npc_1811_1#1$1",focus="m")]
+[charslot(slot="r",name="avg_213_mostma_1#12$1",bstart=0.2,bend=0.8,posfrom="200,0",posto="200,0",focus="r")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_1811_1#3$1",focus="m")]
+[name="蕾缪安"]咦，希望我们换到窗边的座位……？
+[charslot(slot="r",name="avg_213_mostma_1#12$1",bstart=0.2,bend=0.8,posfrom="200,0",posto="200,0",focus="r")]
+[name="莫斯提马"]呵呵，老板想要看起来人气旺一点吧。我可以啊……墙角那张桌子？
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",posfrom="-200,0",posto="-200,0",focus="l")]
+[name="菲亚梅塔"]……行吧，我没意见。
+[charslot(slot="m",name="avg_npc_1811_1#11$1",focus="m")]
+蕾缪安将视线投向他们的队长，莫斯提马和菲亚梅塔或许没留心，但她知道这个人不爱引人注意。
+但年轻的灰发萨科塔并没有反对的意思，他点点头，第一个站了起来。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_bar_1", screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[delay(time=2.5)]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",posfrom="-200,0",posto="-200,0",focus="l")]
+[charslot(slot="m",name="avg_npc_1811_1#1$1",focus="m")]
+[charslot(slot="r",name="avg_213_mostma_1#12$1",bstart=0.2,bend=0.8,posfrom="200,0",posto="200,0",focus="r")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_1811_1#9$1",focus="m")]
+[name="蕾缪安"]喝酒的话，不玩游戏就没意思了吧？来玩国王游戏？
+[charslot(slot="r",name="avg_213_mostma_1#4$1",bstart=0.2,bend=0.8,posfrom="200,0",posto="200,0",focus="r")]
+[name="莫斯提马"]就四个人？
+[charslot(slot="m",name="avg_npc_1811_1#1$1",focus="m")]
+[name="蕾缪安"]嗯……那简单一点，用花色区分，国王只能提问题，不能要求别人做出格的事，这样可以吧？
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",posfrom="-200,0",posto="-200,0",focus="l")]
+[name="菲亚梅塔"]和抽签真心话的区别是什么啊……
+[charslot(slot="r",name="avg_213_mostma_1#12$1",bstart=0.2,bend=0.8,posfrom="200,0",posto="200,0",focus="r")]
+[name="莫斯提马"]区别是蕾缪安可以做国王……
+[charslot(slot="m",name="avg_npc_1811_1#10$1",focus="m")]
+[name="蕾缪安"]我会是好国王哦。
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",posfrom="-200,0",posto="-200,0",focus="l")]
+[name="菲亚梅塔"]……你好歹掩饰一下自己的意图吧……
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",posfrom="-200,0",posto="-200,0",focus="none")]
+菲亚梅塔看得出蕾缪安的打算。
+最近一次任务收尾时，爆发了超出预计规模的战斗。安多恩险些负伤，只是用源石技艺护住了自己才堪堪避过。
+如果他们的队长在指挥这种规模的战斗时，仍然坚持只让队友掩护，独自切入，下一次未必还有这样的幸运。
+这在蕾缪安眼中，毫无疑问是“信任问题”。
+所以现在她来“处理问题”了。
+[charslot(slot="m",name="avg_npc_1811_1#9$1",focus="m")]
+[name="蕾缪安"]真幸运呢，抽到国王了~
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",posfrom="-200,0",posto="-200,0",focus="l")]
+[name="菲亚梅塔"]……
+[charslot(slot="m",name="avg_npc_1811_1#9$1",focus="m")]
+[name="蕾缪安"]那今天晚上，大家就来交换秘密吧~
+[name="蕾缪安"]第一个人会是谁呢……就请抽到草花的人告诉我，最近一次出任务的时候，对于队长命令的想法吧？
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_1800_1#1$3",duration=2)]
+[Delay(time=2.5)]
+[name="安多恩"]……
+[charslot(slot="m",name="avg_npc_1800_1#1$3",focus="none")]
+菲亚梅塔看见安多恩慢吞吞地捏了捏手里的纸牌，把纸牌弯成了弧形，又按在桌面，拿起桌上免费的冰水喝了一口。
+[charslot(slot="m",name="avg_npc_1800_1#6$3",focus="m")]
+[name="安多恩"]……可能我需要解释一下。其实我计算过的，给你们安排的位置，角度、射程和火力，我的源石技艺范围和强度……
+[Dialog]
+[charslot]
+菲亚梅塔也端起桌上的杯子，一口喝干了杯中的水。
+[charslot(slot="l",name="avg_300_phenxi_1#6$1",posfrom="-200,0",posto="-200,0",focus="l")]
+[charslot(slot="m",name="avg_npc_1811_1#9$1",focus="l")]
+[charslot(slot="r",name="avg_213_mostma_1#12$1",bstart=0.2,bend=0.8,posfrom="-200,0",posto="-200,0",posfrom="200,0",posto="200,0",focus="l")]
+[name="菲亚梅塔"]谁问你这个了？
+[name="菲亚梅塔"]我抽到的也是草花。草花J，看到了？我先说。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_bar_1", screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[delay(time=2.5)]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[charslot(slot="r",name="avg_213_mostma_1#1$2",focus="r")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[name="菲亚梅塔"]……从那天之后，每次来，我们都坐这张桌子。
+[charslot(slot="r",name="avg_213_mostma_1#12$2",focus="r")]
+[name="莫斯提马"]你想起来啦？
+[charslot(slot="l",name="avg_300_phenxi_1#10$1",focus="l")]
+[name="菲亚梅塔"]呵呵，不止这个。我还想起就是那之后的第二天，你说你的伞丢了，要安多恩去找，说这是队长责任。
+[charslot(slot="l",name="avg_300_phenxi_1#9$1",focus="l")]
+[name="菲亚梅塔"]“蓝色的伞，伞沿有几行白线”？
+[charslot(slot="r",name="avg_213_mostma_1#12$2",focus="r")]
+[name="莫斯提马"]嗯嗯，没错。
+[name="莫斯提马"]但最后把伞交给我的，是你们两个，对吧？
+[charslot(slot="r",name="avg_213_mostma_1#10$2",focus="r")]
+[name="莫斯提马"]你把我想得太坏了，你不觉得使唤别人也是一种拉近关系的方式吗？而且，和我们不一样，他休息的时候闲得很吧。
+[name="莫斯提马"]菲亚梅塔跳了出来，才把那件事变得像是我在欺负队友一样……
+[charslot(slot="l",name="avg_300_phenxi_1#10$1",focus="l")]
+[name="菲亚梅塔"]你就是啊，就算安多恩没觉得，但你就是。我很清楚。
+[charslot(slot="r",name="avg_213_mostma_1#10$2",focus="r")]
+[name="莫斯提马"]好吧。
+[name="莫斯提马"]当年你们能帮我找到那把伞，现在也一定可以吧，侦探小姐？
+[charslot(slot="l",name="avg_300_phenxi_1#9$1",focus="l")]
+[name="菲亚梅塔"]行啊。老实交代你“昨天前天或者上周末”在这里的行动轨迹，从吧台点单花了几秒到卫生间用的哪一个隔间，每一点我都要知道。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_bar_1", screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[delay(time=2.5)]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[charslot(slot="r",name="avg_213_mostma_1#1$2",focus="r")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="r",name="avg_213_mostma_1#1$2",focus="none")]
+[name="老板"]你们找到伞了吗？
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]……
+[charslot(slot="r",name="avg_213_mostma_1#1$2",focus="none")]
+[name="老板"]……伞这种东西，难免弄丢的嘛。我自己也经常丢伞，后来就只能想，旧的不去，新的不来！把它当成消耗品就行了。
+[name="老板"]对了，我知道一家很不错的制伞工坊……！留个联系方式？我发给你们。
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]行，谢谢老板。
+[charslot(slot="r",name="avg_213_mostma_1#1$2",focus="r")]
+[name="莫斯提马"]要是之后伞又从哪个边边角角冒出来了，您也告诉我们一声吧。
+[charslot(slot="r",name="avg_213_mostma_1#1$2",focus="none")]
+[name="老板"]那是当然。祝你们顺利！
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="26_g9_laterano_street", screenadapt="coverall", block=true)]
+[delay(time=2.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",duration=2)]
+[charslot(slot="r",name="avg_213_mostma_1#1$2",duration=2)]
+[Delay(time=2.5)]
+[charslot(slot="r",name="avg_213_mostma_1#4$2",focus="r")]
+[name="莫斯提马"]菲亚梅塔，走这么快干什么，我还没说接下来要去哪——
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]还能是哪？
+[name="菲亚梅塔"]你家，布里安扎的店，接下来要去哪里我比你清楚。
+[name="菲亚梅塔"]反正你就是这个意思对吧——这是那一年我和安多恩给你找伞的时候，走过的地方。
+[Dialog]
+[charslot(slot="r",name="avg_213_mostma_1#4$2",focus="r")]
+[Delay(time=1)]
+[charslot(slot="r",name="avg_213_mostma_1#12$2",focus="r")]
+[name="莫斯提马"]其实，我以为你会更早想起来的。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="26_g12_laterano_office", screenadapt="coverall", block=true)]
+[delay(time=2.5)]
+[PlayMusic(intro="$m_dia_street_intro", key="$m_dia_street_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",duration=2)]
+[charslot(slot="r",name="avg_213_mostma_1#1$2",duration=2)]
+[Delay(time=2.5)]
+[charslot(slot="r",name="avg_213_mostma_1#4$2",focus="r")]
+[name="莫斯提马"]……薇尔丽芙不在呢。
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]门掩着，应该只是走开一下，等等就好了。
+[charslot(slot="r",name="avg_213_mostma_1#10$2",focus="r")]
+[name="莫斯提马"]如果擅自搜查薇尔丽芙的办公室……哇哦，感觉会死。
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]薇尔丽芙不想被人看见的东西，你以为在这里转五分钟就能搜出来？
+[charslot(slot="r",name="avg_213_mostma_1#10$2",focus="r")]
+[name="莫斯提马"]就算搜不出什么，做这件事就足以被她杀掉了吧？而且，要是奥伦偷偷把情书放在了她办公室，又不告诉她……
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[name="菲亚梅塔"]我求求你了。
+[charslot(slot="r",name="avg_213_mostma_1#11$2",focus="r")]
+[name="莫斯提马"]好冷漠啊，菲亚梅塔。
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]……难道你真干过？
+[charslot(slot="r",name="avg_213_mostma_1#10$2",focus="r")]
+[name="莫斯提马"]呵呵，怎么可能。要是发生过那种事，奥伦的墓碑今年也该这么高了。
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]……能别把墓碑说得像生长期的小孩一样吗？
+[charslot(slot="r",name="avg_213_mostma_1#10$2",focus="r")]
+[name="莫斯提马"]说真的，真正搜查过薇尔丽芙办公室的不是你吗，菲亚梅塔侦探？
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]菲亚梅塔侦探没那么大本事，谢谢。
+[charslot(slot="r",name="avg_213_mostma_1#4$2",focus="r")]
+[name="莫斯提马"]咦，薇尔丽芙从那一天之后就再没在明面上给我们的队长穿小鞋，难道不是你们在她这里找伞的时候发现了她的把柄？
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]……你要是好奇，就直接问，不要在你的想象里发挥创作欲。
+[charslot(slot="r",name="avg_213_mostma_1#10$2",focus="r")]
+[name="莫斯提马"]好啊。那你们在薇尔丽芙的办公室，究竟找到了什么？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="26_g12_laterano_office", screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0.8, keep=true)]
+[delay(time=2.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_361_1#1$1",duration=2)]
+[Delay(time=2.5)]
+[name="薇尔丽芙"]安多恩，菲亚梅塔，现在不是你们的执勤时间，你们在七厅办公区域蹑手蹑脚、东张西望，有什么企图？
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[charslot(slot="r",name="avg_npc_1800_1#1$3",focus="l")]
+[name="菲亚梅塔"]你在说什么，薇尔丽芙？我们只是来找落下的东西，莫斯提马说……
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_361_1#1$1",focus="m")]
+[name="薇尔丽芙"]你们“队长”在场，现在不由你发言，菲亚梅塔。
+[name="薇尔丽芙"]回答我，安多恩。
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_1800_1#1$3",focus="r")]
+[name="安多恩"]如菲亚梅塔所言，我们来找莫斯提马可能遗落在这里的雨伞，薇尔丽芙辅佐官。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_361_1#1$1",focus="m")]
+[name="薇尔丽芙"]你是莫斯提马的保姆吗？
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_1800_1#6$3",focus="r")]
+[name="安多恩"]我是她的队长。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_361_1#1$1",focus="m")]
+[name="薇尔丽芙"]队长的职责就是跟在她屁股后面捡东西，再在报告中欺瞒上峰？
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_1800_1#1$3",focus="r")]
+[name="安多恩"]我不认为发生过你所指控的事。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_361_1#1$1",focus="m")]
+[name="薇尔丽芙"]注意你的态度。如果你无法胜任特勤小队队长的工作——
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#6$1",focus="l")]
+[charslot(slot="r",name="avg_npc_1800_1#1$3",focus="l")]
+[name="菲亚梅塔"]够了，薇尔丽芙！
+[name="菲亚梅塔"]纯找茬啊你！你又不是我们上司，什么欺瞒上峰！
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_361_1#1$1",focus="m")]
+[name="薇尔丽芙"]特勤小队所执行任务中与七厅事务相关的行动报告，我有权调阅——
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#6$1",focus="l")]
+[charslot(slot="r",name="avg_npc_1800_1#1$3",focus="l")]
+[name="菲亚梅塔"]你看我们报告干嘛？
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_361_1#5$1",focus="m")]
+[name="薇尔丽芙"]我不看，怎么找机会投诉你们队长？
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#2$1",focus="l")]
+[charslot(slot="r",name="avg_npc_1800_1#1$3",focus="l")]
+[name="菲亚梅塔"]……你有病吗当着我们的面说这话？
+[charslot(slot="r",name="avg_npc_1800_1#6$3",focus="r")]
+[name="安多恩"]我没关系。我了解薇尔丽芙的担忧。
+[charslot(slot="l",name="avg_300_phenxi_1#6$1",focus="l")]
+[name="菲亚梅塔"]什么担忧！薇尔丽芙就是看你不爽，想要蕾缪安做我们队长、把你踹下去而已！
+[charslot(slot="r",name="avg_npc_1800_1#1$3",focus="r")]
+[name="安多恩"]原来是这样。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_361_1#4$1",focus="m")]
+[name="薇尔丽芙"]哦，你似乎并无不满……？那简单一点也好。
+[charslot(slot="m",name="avg_npc_361_1#1$1",focus="m")]
+[name="薇尔丽芙"]你自己请辞吧？
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#7$1",focus="l")]
+[charslot(slot="r",name="avg_npc_1800_1#1$3",focus="l")]
+[name="菲亚梅塔"]薇尔丽芙，你别太过分。我知道你和蕾缪安关系好，但是你这样针对我们队，蕾缪安也不会高兴的。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_361_1#7$1",focus="m")]
+[name="薇尔丽芙"]你有两点错误。第一，我和蕾缪安关系好？恐怕你有所误会。
+[charslot(slot="m",name="avg_npc_361_1#1$1",focus="m")]
+[name="薇尔丽芙"]第二，我并未针对你们小队，我对你们队寄予厚望。我针对的是这个伊比利亚人。
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#3$1",focus="l")]
+[charslot(slot="r",name="avg_npc_1800_1#1$3",focus="l")]
+[name="菲亚梅塔"]伊比利亚人？……哦，安多恩老家是吧。但他是萨科塔，你现在说什么伊比利亚人？我没听说过归国萨科塔要被区别对待。
+[charslot(slot="l",name="avg_300_phenxi_1#7$1",focus="l")]
+[name="菲亚梅塔"]薇尔丽芙枢机辅佐官，拉特兰的规则，你应该比我更熟知。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_361_1#1$1",focus="m")]
+[name="薇尔丽芙"]……菲亚梅塔，有些事情你不会明白。
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#7$1",focus="l")]
+[charslot(slot="r",name="avg_npc_1800_1#1$3",focus="l")]
+[name="菲亚梅塔"]我明白的是，你现在的做法和公正没有半点关系。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_361_1#1$1",focus="m")]
+[name="薇尔丽芙"]……
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#7$1",focus="r")]
+[charslot(slot="r",name="avg_npc_1800_1#10$3",focus="r")]
+[name="安多恩"]薇尔丽芙辅佐官，你桌上这个八音盒，是蕾缪安送给你的吗？
+[name="安多恩"]这个八音盒是莱塔尼亚工艺品，装饰纹样却是鲁珀图案。
+[charslot(slot="r",name="avg_npc_1800_1#6$3",focus="r")]
+[name="安多恩"]之前我们在鲁珀坎边境执行任务，完成后，蕾缪安离队了一段时间，回来后她说是去买纪念品了。
+[name="安多恩"]这是她给你带的“纪念品”吗？
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_361_1#1$1",focus="m")]
+[name="薇尔丽芙"]你想说什么？
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#7$1",focus="r")]
+[charslot(slot="r",name="avg_npc_1800_1#6$3",focus="r")]
+[name="安多恩"]蕾缪安要做什么，我不会妨碍她。我相信你的安排，但还要有人担一些责任。
+[name="安多恩"]或者，你会保护她吗？
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_361_1#1$1",focus="m")]
+[name="薇尔丽芙"]……蕾缪安需要别人保护吗？
+[name="薇尔丽芙"]不过，我明白你的意思了。你想得未免有些多。
+[name="薇尔丽芙"]那好吧。菲亚梅塔，我要问你一个问题。
+[name="薇尔丽芙"]在这个问题上，我不相信蕾缪安。但我相信你。
+[Dialog]
+[charslot]
+薇尔丽芙看了一眼安多恩，安多恩对她礼貌地微笑。
+她又看向菲亚梅塔，她早就知道这位年轻的黎博利。
+帕特里奇昂家的“那个孩子”，预科毕业后直接加入了戍卫队，教皇厅中、戍卫队里，有许多双眼睛都看着她。
+每个人都看得见她未来的道路。
+但薇尔丽芙知道菲亚梅塔真正可贵的品质是什么，那是即使在许多人头顶光环的拉特兰，也并不容易做到的一件事。
+她总是诚实。
+[charslot(slot="m",name="avg_npc_361_1#1$1",focus="m")]
+[name="薇尔丽芙"]菲亚梅塔，你信任你身边的这个人……你信任这名“队长”吗？
+[Dialog]
+[charslot]
+菲亚梅塔眨了眨眼睛。她知道安多恩刚才说的是之前蕾缪安帮薇尔丽芙干私活的事，蕾缪安拿到报酬之后，他们四个可是吃了顿好的。
+这让薇尔丽芙郑重的发问在菲亚梅塔眼中变得可爱了——圣灵啊，她有点怀疑自己了，竟然会觉得薇尔丽芙可爱？
+不过，现在可不能发笑。于是她清了清嗓子，郑重其事地回答。
+[charslot(slot="l",name="avg_300_phenxi_1#9$1",focus="l")]
+[charslot(slot="r",name="avg_npc_1800_1#1$3",focus="l")]
+[name="菲亚梅塔"]当然。我信任队长，就像信任我的每一名队友一样。
+[name="菲亚梅塔"]安多恩值得我的信任。
+[Dialog]
+[charslot]
+菲亚梅塔坦然地看向薇尔丽芙的眼睛，却似乎听到了一声极轻的叹息。
+是薇尔丽芙吗？她那时没有在意。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="26_g12_laterano_office", screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", amount=0, keep=true)]
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[charslot(slot="r",name="avg_213_mostma_1#1$2",focus="r")]
+[delay(time=2.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="m",name="avg_npc_361_1#1$1",focus="none",duration=2)]
+[Delay(time=2.5)]
+[name="薇尔丽芙"]……
+[Dialog]
+[playMusic(key="$saferoom_loop", volume=0.6)]
+[charslot(slot = "l", action="jump",posfrom="0,0",posto="0,0",power=5, times=1,duration=0.5)]
+[charslot(slot="l",name="avg_300_phenxi_1#3$1",focus="l")]
+[charslot(slot = "r", action="jump",posfrom="0,0",posto="0,0",power=5, times=1,duration=0.5)]
+[charslot(slot="r",name="avg_213_mostma_1#4$2",focus="r")]
+[Delay(time=0.5)]
+[charslot(slot="l",afrom=1,ato=0,duration=1)]
+[charslot(slot="l",posfrom="0,0",posto="-100,0",duration=1.5)]
+[charslot(slot="r",afrom=1,ato=0,duration=1)]
+[charslot(slot="r",posfrom="0,0",posto="100,0",duration=1.5)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_361_1#1$1",focus="m")]
+[name="薇尔丽芙"]我的办公室不是给你们叙旧的地方。
+[name="薇尔丽芙"]……不过，现在你明白我的意思了吗，菲亚梅塔？
+[name="薇尔丽芙"]安多恩是个危险分子。只有你不知道。
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#4$1",focus="l")]
+[charslot(slot="r",name="avg_213_mostma_1#4$2",focus="l")]
+菲亚梅塔想要反驳，喉头却有点发紧，她说不出话。
+[charslot(slot="r",name="avg_213_mostma_1#1$2",focus="r")]
+[name="莫斯提马"]不，她知道。
+[name="莫斯提马"]薇尔丽芙，萨科塔总是这么自大，你也不例外。
+[charslot(slot="r",name="avg_213_mostma_1#5$2",focus="r")]
+[name="莫斯提马"]你以为没有光环，菲亚梅塔就不知道安多恩是什么人了吗？
+[name="莫斯提马"]她信任他，你觉得这是菲亚梅塔做错了吗？
+[charslot(slot="r",name="avg_213_mostma_1#1$2",focus="r")]
+[name="莫斯提马"]如果我们，我、你、蕾缪安，甚至安多恩，如果我们能做到菲亚梅塔做到了的事，你觉得事情会怎样？
+[charslot(slot="r",name="avg_213_mostma_1#1$2",focus="none")]
+菲亚梅塔想要阻止莫斯提马，她知道莫斯提马只是被薇尔丽芙激出了一点脾气，于是开始胡言乱语。
+她知道莫斯提马并不那样想。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_361_1#7$1",focus="m")]
+[name="薇尔丽芙"]我以为你不会说这种话，莫斯提马。“如果，会怎样”？你最清楚这大地之上没有如果。
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#4$1",focus="r")]
+[charslot(slot="r",name="avg_213_mostma_1#7$2",focus="r")]
+[name="莫斯提马"]你说得对。
+[charslot(slot="r",name="avg_213_mostma_1#8$2",focus="r")]
+[name="莫斯提马"]可错的依旧不是菲亚梅塔。所以收回你的话。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_361_1#2$1",focus="m")]
+[name="薇尔丽芙"]可以。我收回。
+[name="薇尔丽芙"]菲亚梅塔，请原谅，我没有指责你的意思。当年你给我的答案，不是一个坏答案。
+[name="薇尔丽芙"]世事如此难测，我们轻易说出一些“想要改变过去”的话，是不负责任的。
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#4$1",focus="r")]
+[charslot(slot="r",name="avg_213_mostma_1#12$2",focus="r")]
+[name="莫斯提马"]你知道你这话听起来像谁吗？
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_361_1#5$1",focus="m")]
+[name="薇尔丽芙"]是吗？那菲亚梅塔，希望不会让你不快。
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[charslot(slot="r",name="avg_213_mostma_1#12$2",focus="l")]
+[name="菲亚梅塔"]……你们两个，在说什么“希望不会让你不快”的时候，才是最让人不快的。
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]说都说了。
+[charslot(slot="l",name="avg_300_phenxi_1#4$1",focus="l")]
+[name="菲亚梅塔"]我明白你的意思。我现在已经明白了。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_361_1#7$1",focus="m")]
+[name="薇尔丽芙"]……菲亚梅塔。
+[charslot(slot="m",name="avg_npc_361_1#1$1",focus="m")]
+[name="薇尔丽芙"]好了，不说这些了。你们两位，还不打算说明一下来意？
+[charslot(slot="m",name="avg_npc_361_1#6$1",focus="m")]
+[name="薇尔丽芙"]——你们究竟在我的办公室做什么？真的把我这里当俱乐部？
+[name="薇尔丽芙"]还是说莫斯提马，你找阁下商量的事，处理好了？
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_213_mostma_1#7$2",focus="r")]
+[name="莫斯提马"]急什么。
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]我们来找一把伞。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_361_1#7$1",focus="m")]
+[name="薇尔丽芙"]……哈？
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[charslot(slot="r",name="avg_213_mostma_1#12$2",focus="l")]
+[name="菲亚梅塔"]嗯。莫斯提马“又把伞弄丢了”，可能丢在你这里了，我们来找找。
+[Dialog]
+[charslot]
+[charslot(slot="m",name="avg_npc_361_1#7$1",focus="m")]
+[name="薇尔丽芙"]……
+[charslot(slot="m",name="avg_npc_361_1#1$1",focus="m")]
+[name="薇尔丽芙"]好吧，让我想想。我记得应该是……
+[name="薇尔丽芙"]“我确实见到了一把无主的伞，虽然不知道是谁的，不过我让人带去戍卫队休息室了。”
+[charslot(slot="m",name="avg_npc_361_1#6$1",focus="m")]
+[name="薇尔丽芙"]莫斯提马，你能找到吗？
+[Dialog]
+[charslot]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_213_mostma_1#7$2",focus="r")]
+[name="莫斯提马"]说实话，我不知道。
+[Dialog]
+[charslot]
+莫斯提马回答薇尔丽芙的时候，却对菲亚梅塔笑着。那笑容在拉特兰的正午有些炫目，又在兜帽泛蓝的阴影里阴阴凉凉。
+菲亚梅塔突然意识到，如果莫斯提马不想戴着那顶帽子，现在或许也无妨了。
+但她已经习惯了。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="77_g1_dorm", screenadapt="coverall", block=true)]
+[delay(time=2.5)]
+[PlayMusic(key="$normal_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playsound(key="$d_gen_walk_n")]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",duration=2)]
+[charslot(slot="r",name="avg_213_mostma_1#12$1",duration=2)]
+[Delay(time=2.5)]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]这里有什么，莫斯提马？
+[charslot(slot="r",name="avg_213_mostma_1#12$1",focus="r")]
+[name="莫斯提马"]沙发、冰箱、书柜、铳架……录像机换成了投影仪，蕾缪安买的小推车也不见了。
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]伞呢？
+[charslot(slot="r",name="avg_213_mostma_1#12$1",focus="r")]
+[name="莫斯提马"]我不知道啊，菲亚梅塔。找找看？
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[name="菲亚梅塔"]……休息一下吧，我们也很久没有回过这里了。
+[charslot(slot="r",name="avg_213_mostma_1#5$1",focus="r")]
+[name="莫斯提马"]我的话，昨天、前天或者上周末……
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[name="菲亚梅塔"]如果你有“剧本”的话，那在帕特里奇昂出现之前，我用不着找你那把伞。
+[charslot(slot="r",name="avg_213_mostma_1#4$1",focus="r")]
+[name="莫斯提马"]咦，帕特里奇昂？还有他的事？
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]嗯。那一次我们找到这里，等在休息室里的是帕特里奇昂。
+[name="菲亚梅塔"]我不记得在那个时间点，你们有没有在安多恩面前胡说过什么那老头要我做铳骑的话，不过那应该是安多恩第一次碰上他本人。
+[charslot(slot="r",name="avg_213_mostma_1#1$1",focus="r")]
+[name="莫斯提马"]然后呢？
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[name="菲亚梅塔"]还能怎么，帕特里奇昂撒泼打滚呗，好像是那一年的铳骑训练申请快截止了，他把文书带来说要捏着我的手填上。
+[charslot(slot="r",name="avg_213_mostma_1#7$1",focus="r")]
+[name="莫斯提马"]其实哦，我有时候在想，如果老爷子没有从你小时候就到处吹嘘菲亚梅塔要做铳骑，你会不会现在已经是了？
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]关他屁事。
+[name="菲亚梅塔"]反正那时候不可能。我走了你们怎么办？
+[name="菲亚梅塔"]什么表情？哦我自作多情，行了吧。我替你说了，你就闭嘴吧。
+[charslot(slot="r",name="avg_213_mostma_1#7$1",focus="r")]
+[name="莫斯提马"]……你替我说了，那我不就只能说……
+[charslot(slot="r",name="avg_213_mostma_1#5$1",focus="r")]
+[name="莫斯提马"]是啊，如果没有你，我们三个大概做不了多久队友。
+[charslot(slot="l",name="avg_300_phenxi_1#3$1",focus="l")]
+[name="菲亚梅塔"]……你，真的这么想？
+[charslot(slot="r",name="avg_213_mostma_1#10$1",focus="r")]
+[name="莫斯提马"]这是事实啊，菲亚梅塔。
+[charslot(slot="r",name="avg_213_mostma_1#9$1",focus="r")]
+[name="莫斯提马"]有人不是说，他是从你身上学会喜欢拉特兰的吗。这句话我倒是同意。
+[charslot(slot="r",name="avg_213_mostma_1#7$1",focus="r")]
+[name="莫斯提马"]如果不是你在，说不定他早就走了。
+[charslot(slot="l",name="avg_300_phenxi_1#4$1",focus="l")]
+[name="菲亚梅塔"]我不明白……
+[charslot(slot="r",name="avg_213_mostma_1#9$1",focus="r")]
+[name="莫斯提马"]你不明白吗？看看我和蕾缪安，我就不用说了，蕾缪安呢？蕾缪安简直就像拉特兰本身。
+[name="莫斯提马"]拉特兰的好处，她身上都有，拉特兰的坏处，她身上也全有。
+[charslot(slot="r",name="avg_213_mostma_1#7$1",focus="r")]
+[name="莫斯提马"]安多恩被拉特兰吸引，但拉特兰又让他无法忍受，他是不会留在这里的。
+[charslot(slot="r",name="avg_213_mostma_1#1$1",focus="r")]
+[name="莫斯提马"]你明白的，菲亚梅塔，你也明白的。
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[name="菲亚梅塔"]如果他真的“早就走了”，现在看来，说不定还是件好事，是吗……
+[charslot(slot="r",name="avg_213_mostma_1#6$1",focus="r")]
+[name="莫斯提马"]“过去是不能改变的”，可在过去还没有发生的时候，想要改变它有什么错呢？
+[charslot(slot="l",name="avg_300_phenxi_1#4$1",focus="l")]
+[name="菲亚梅塔"]……
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[name="菲亚梅塔"]我没有那么想。
+[charslot(slot="r",name="avg_213_mostma_1#9$1",focus="r")]
+[name="莫斯提马"]我们都有不知道的事。
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]莫斯提马。你很想赢下这个赌约吗？
+[name="菲亚梅塔"]安多恩在锁与匙中看见的东西，你之前骗了我，说你不知道。现在，说。
+[charslot(slot="r",name="avg_213_mostma_1#9$1",focus="r")]
+[name="莫斯提马"]……唉。
+[name="莫斯提马"]他看见的大概是萨科塔的起源。我确实没有目睹，只是通过别的方式知道了。
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]萨科塔的起源……和萨卡兹同源的事？
+[charslot(slot="r",name="avg_213_mostma_1#1$1",focus="r")]
+[name="莫斯提马"]嗯。现在，至少在一部分人那里已经不是秘密了，包括你。
+[name="莫斯提马"]他想从锁匙那里知道更多关于律法的事，只是后来放弃了锁匙，直接去找老家伙了，然后嘛……
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[name="菲亚梅塔"]然后他又发疯。
+[charslot(slot="r",name="avg_213_mostma_1#10$1",focus="r")]
+[name="莫斯提马"]然后被你揍了。
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]别撇开，你也揍了。
+[charslot(slot="r",name="avg_213_mostma_1#5$1",focus="r")]
+[name="莫斯提马"]挺过瘾的。
+[charslot(slot="r",name="avg_213_mostma_1#7$1",focus="r")]
+[name="莫斯提马"]至于现在嘛……律法都被他和费德里科炸成废铁了，还能说什么。
+[charslot(slot="r",name="avg_213_mostma_1#9$1",focus="r")]
+[name="莫斯提马"]你说我骗了你……好吧，就算是我骗了。
+[charslot(slot="r",name="avg_213_mostma_1#1$1",focus="r")]
+[name="莫斯提马"]可是，安多恩看见的也许是他想找的东西，但锁匙里的这些陈芝麻烂谷子，是你想要的真相吗？
+[charslot(slot="r",name="avg_213_mostma_1#1$1",focus="r")]
+[name="莫斯提马"]萨科塔萨卡兹，光环律法，历史和隐秘，这些对你，对菲亚梅塔，重要吗？
+[charslot(slot="r",name="avg_213_mostma_1#9$1",focus="r")]
+[name="莫斯提马"]也许我是不该骗你，但真正的难题是……
+[charslot(slot="r",name="avg_213_mostma_1#6$1",focus="r")]
+[name="莫斯提马"]菲亚梅塔，我要怎么做，才能让你满意呢？
+[charslot(slot="r",name="avg_213_mostma_1#9$1",focus="r")]
+[name="莫斯提马"]即使在那一天，你也不愿说再见。
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]……
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[name="菲亚梅塔"]……那件事之后，我有时会想，我错过的事就只有一件吗？我不知道的事情究竟有多少？
+[charslot(slot="l",name="avg_300_phenxi_1#4$1",focus="l")]
+[name="菲亚梅塔"]在你们眼中，在我眼中……那些过去，到底是什么样子？
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[name="菲亚梅塔"]那样的日子，我是在乎的……
+[charslot(slot="l",name="avg_300_phenxi_1#4$1",focus="l")]
+[name="菲亚梅塔"]可我在乎的东西，其实存在过吗？我不愿意这样想……但它一直、一直冒出来。
+[name="菲亚梅塔"]走进来前我在想，沙发上会不会坐着一个帕特里奇昂。
+[name="菲亚梅塔"]然后我想起来，我没和你说过这件事，看来，安多恩也没有说。
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]那天我和帕特里奇昂吵到差点动手，是安多恩解的围。大概他觉得自己有义务帮我保密。
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[name="菲亚梅塔"]就像你说的，我们都有不知道的事。
+[charslot(slot="r",name="avg_213_mostma_1#6$1",focus="r")]
+[name="莫斯提马"]……我让你失望了吗？
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[name="菲亚梅塔"]没有。我只是在想……那把伞会在哪里呢。
+[charslot(slot="r",name="avg_213_mostma_1#7$1",focus="r")]
+[name="莫斯提马"]现在真的只能请你告诉我了，菲亚梅塔侦探。
+[charslot(slot="r",name="avg_213_mostma_1#10$1",focus="r")]
+[name="莫斯提马"]我们接下来要去哪里？找帕特里奇昂吗？
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]不用了。
+[name="菲亚梅塔"]三天……不，五天之后，我来找你。
+[charslot(slot="l",name="avg_300_phenxi_1#4$1",focus="l")]
+[name="菲亚梅塔"]你应该还没出发吧，那时候？
+[charslot(slot="r",name="avg_213_mostma_1#10$1",focus="r")]
+[name="莫斯提马"]没有，不会的。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="26_g10_laterano_roof", screenadapt="coverall", block=true)]
+[delay(time=2.5)]
+[PlayMusic(intro="$warm_intro", key="$warm_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[animtext(id = "at1", name = "group_location_stamp", style="avg_only_medium", pos = "-400,-200", block = false)]<p=2>五天后</>
+[delay(time=3)]
+[animtextclean]
+[delay(time=1)]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",duration=2)]
+[charslot(slot="r",name="avg_213_mostma_1#10$1",duration=2)]
+[Delay(time=2.5)]
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]……
+[charslot(slot="r",name="avg_213_mostma_1#7$1",focus="r")]
+[name="莫斯提马"]这片屋顶修补好之后，其实还蛮适合看风景的，对吧。我有点喜欢上这里了。
+[charslot(slot="r",name="avg_213_mostma_1#10$1",focus="r")]
+[name="莫斯提马"]其实三年前我就以为是结束了，可惜世事莫测。好在也没有晚太多。
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]莫斯提马。薇尔丽芙说，你之后不再做万国信使了，只挂名，不接任务。
+[charslot(slot="r",name="avg_213_mostma_1#10$1",focus="r")]
+[name="莫斯提马"]其实还没有完全敲定来着……
+[charslot(slot="l",name="avg_300_phenxi_1#4$1",focus="l")]
+[name="菲亚梅塔"]因为我吗？
+[charslot(slot="r",name="avg_213_mostma_1#7$1",focus="r")]
+[name="莫斯提马"]……不，当然不是了。
+[charslot(slot="r",name="avg_213_mostma_1#1$1",focus="r")]
+[name="莫斯提马"]因为拉特兰的隐秘不再隐秘，由堕天使来行使万国信使职能的风险已经不同于以往。
+[charslot(slot="r",name="avg_213_mostma_1#7$1",focus="r")]
+[name="莫斯提马"]安多恩已经被流放，更重要的是，他不会、也不需要再追寻锁匙中的秘密。他从律法本身得到了答案——还稍微多做了一点。
+[charslot(slot="r",name="avg_213_mostma_1#2$1",focus="r")]
+[name="莫斯提马"]伊万杰利斯塔十一世为保护律法隐秘所做的布置已经完成了使命，这十年以来，我真正的工作……已经结束了。
+[charslot(slot="l",name="avg_300_phenxi_1#4$1",focus="l")]
+[name="菲亚梅塔"]……
+[charslot(slot="l",name="avg_300_phenxi_1#2$1",focus="l")]
+[name="菲亚梅塔"]你说得像是明天就要躺回你的小房子里，从此过上退休生活一样。
+[name="菲亚梅塔"]可你没有，你甚至要卖掉它。
+[charslot(slot="l",name="avg_300_phenxi_1#7$1",focus="l")]
+[name="菲亚梅塔"]而且——锁匙还在你这里。
+[charslot(slot="r",name="avg_213_mostma_1#7$1",focus="r")]
+[name="莫斯提马"]这一点嘛……今时今日，我只能说我也不介意这件事就是了。
+[charslot(slot="r",name="avg_213_mostma_1#10$1",focus="r")]
+[name="莫斯提马"]但你说的基本上没错，菲亚梅塔，我要去过我的退休生活了。
+[name="莫斯提马"]只是不在拉特兰。
+[charslot(slot="r",name="avg_213_mostma_1#5$1",focus="r")]
+[name="莫斯提马"]你呢？你要和我一起退休吗，让一切都结束？
+[charslot(slot="l",name="avg_300_phenxi_1#3$1",focus="l")]
+[name="菲亚梅塔"]……
+[charslot(slot="l",name="avg_300_phenxi_1#6$1",focus="l")]
+[name="菲亚梅塔"]你的赌约，到底是什么意思。
+[name="菲亚梅塔"]如果你的工作结束了，万国信使莫斯提马的监管人这一职位当然也就消失了。
+[charslot(slot="l",name="avg_300_phenxi_1#7$1",focus="l")]
+[name="菲亚梅塔"]那你的赌约又是什么意思？！
+[charslot(slot="r",name="avg_213_mostma_1#10$1",focus="r")]
+[name="莫斯提马"]……你觉得呢？
+[name="莫斯提马"]你找到我的伞了吗？
+[Dialog]
+[playsound(key="$d_avg_clothmovement")]
+[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=0.5)]
+[charslot(slot="r",name="avg_213_mostma_1#4$1",focus="r")]
+[name="莫斯提马"]——我要是没接住，它可就掉下去了哦？
+[charslot(slot="l",name="avg_300_phenxi_1#6$1",focus="l")]
+[name="菲亚梅塔"]少说废话。
+[charslot(slot="r",name="avg_213_mostma_1#11$1",focus="r")]
+[name="莫斯提马"]你从哪里找到的……这把伞？
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[name="菲亚梅塔"]……
+[name="菲亚梅塔"]这不是你弄丢的那一把。
+[charslot(slot="l",name="avg_300_phenxi_1#4$1",focus="l")]
+[name="菲亚梅塔"]是我找工坊新做的。
+[charslot(slot="r",name="avg_213_mostma_1#5$1",focus="r")]
+[name="莫斯提马"]……呵呵。
+[charslot(slot="r",name="avg_213_mostma_1#10$1",focus="r")]
+[name="莫斯提马"]你觉得这算作弊吗？
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]……
+[charslot(slot="l",name="avg_300_phenxi_1#4$1",focus="l")]
+[name="菲亚梅塔"]那把伞早就不存在了。
+[charslot(slot="l",name="avg_300_phenxi_1#1$1",focus="l")]
+[name="菲亚梅塔"]但我知道在哪里能找到它。
+[charslot(slot="r",name="avg_213_mostma_1#10$1",focus="r")]
+[name="莫斯提马"]……
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="l")]
+[name="菲亚梅塔"]——在过去。
+[charslot(slot="l",name="avg_300_phenxi_1#8$1",focus="none")]
+她沉默了一瞬，像是满怀希冀地，又像是孤注一掷般开口。
+[charslot(slot="l",name="avg_300_phenxi_1#9$1",focus="l")]
+[name="菲亚梅塔"]莫斯提马，带我回到过去吧。
+[Dialog]
+[charslot(slot="l",name="avg_300_phenxi_1#9$1",focus="none")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2, block=true)]
+[Subtitle(text="莫斯提马发现菲亚梅塔在笑，可她的眼睛又那么伤心，像夜晚的篝火一样红，像被篝火烘烤的沙土一样烫。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_wilderness_m", screenadapt="coverall", block=true)]
+[delay(time=1)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2, block=true)]
+[Subtitle(text="萨尔贡荒地的夜晚很冷，天空却很明亮，她往睡熟的菲亚梅塔身边靠了靠。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="她想起她们看的第一部电影，那银幕上曾经遥远的地方，想起她们站在中学小卖部门口喝汽水，聊旅行的话题。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="拉特兰的日光晒得她胸口发热，就像又坐在了那团火前。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="莫斯提马握紧锁匙，展开了时间。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="26_g8_laterano_dwelling", screenadapt="coverall", block=true)]
+[delay(time=1)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2, block=true)]
+[Subtitle(text="那间屋子像水一样流动，台灯绕着菲亚梅塔的头发打旋儿，照着二十面骰转出一个一点。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_bar_1", screenadapt="coverall", block=true)]
+[delay(time=1)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2, block=true)]
+[Subtitle(text="布里安扎门口的风铃当啷撞进四个人，像弹子游戏盘里的银色小珠在桌子间滚动，落进窗边的座位。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="26_g12_laterano_office", screenadapt="coverall", block=true)]
+[delay(time=1)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2, block=true)]
+[Subtitle(text="教皇厅的石柱柔软地晃动，侦探和助手滑过置物篮、茶几底和沙发后，紫色的影子幽幽地淌了过来。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="77_g1_dorm", screenadapt="coverall", block=true)]
+[delay(time=1)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2, block=true)]
+[Subtitle(text="风从休息室打开的窗户拂过菲亚梅塔和莫斯提马的脸颊，将小推车中摊开的书翻过几页，一张纸飘飘荡荡。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="26_g1_laterano_cathedralfront", screenadapt="coverall", block=true)]
+[delay(time=1)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2, block=true)]
+[Subtitle(text="铳骑走出无人的休息室，支离破碎的云俯冲成急雨，门口靠着的伞跳进铳骑手中，散成蓝色的涟漪。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="26_g10_laterano_roof", screenadapt="coverall", block=true)]
+[delay(time=1)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2, block=true)]
+[Subtitle(text="菲亚梅塔下意识伸出手，想接住涟漪迸散的水雾，却看见年轻的莫斯提马站在她面前。", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="嫩黄色木头的伞柄挂在菲亚梅塔伸出的手上，晃荡晃荡，莫斯提马笑眯眯地看着她，说……", x=300, y=370, alignment="center", size=24, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="l",name="avg_300_phenxi_1#9$1",duration=2)]
+[charslot(slot="r",name="avg_213_mostma_1#10$1",duration=2)]
+[delay(time=2.5)]
+[charslot(slot="r",name="avg_213_mostma_1#5$1",focus="r")]
+[name="莫斯提马"]找到了啊。
+[charslot(slot="r",name="avg_213_mostma_1#5$1",focus="none")]
+蓝色的伞挂在堕天使手上晃荡晃荡。
+菲亚梅塔的手还伸在慢慢逸散的嫩黄色和蓝色的影雾中，一滴水落下，将变幻的虚影彻底驱散。
+[charslot(slot="r",name="avg_213_mostma_1#10$1",focus="r")]
+[name="莫斯提马"]你赢啦，你找到了，是在那里，我看到了。
+[name="莫斯提马"]不要哭啦……
+[charslot(slot="r",name="avg_213_mostma_1#10$1",focus="none")]
+菲亚梅塔却摇摇头，拿起了在堕天使手中微微摇晃的伞。
+[charslot(slot="l",name="avg_300_phenxi_1#4$1",focus="l")]
+[name="菲亚梅塔"]……我以为我记得很清楚，一定做得一模一样。
+[name="菲亚梅塔"]看到了才发现，原来不一样。
+[charslot(slot="r",name="avg_213_mostma_1#10$1",focus="r")]
+[name="莫斯提马"]……都说你赢了，这也是找到……
+[charslot(slot="l",name="avg_300_phenxi_1#4$1",focus="l")]
+[name="菲亚梅塔"]但是。
+[charslot(slot="l",name="avg_300_phenxi_1#9$1",focus="l")]
+[name="菲亚梅塔"]但是现在，我把这把新的伞交给你。
+[charslot(slot="l",name="avg_300_phenxi_1#9$1",focus="none")]
+她再一次伸出手，那柄伞横在她掌心，像一支铳，又像一柄剑。
+[charslot(slot="r",name="avg_213_mostma_1#10$1",focus="r")]
+[name="莫斯提马"]……
+[name="莫斯提马"]好。我会好好带着的。
+[charslot(slot="l",name="avg_300_phenxi_1#9$1",focus="l")]
+[name="菲亚梅塔"]在你走之前，还要陪我去一个地方。
+[name="菲亚梅塔"]大概，我有一份申请该交了。
+[charslot(slot="r",name="avg_213_mostma_1#5$1",focus="r")]
+[name="莫斯提马"]好啊。一点也不迟，菲亚梅塔，一点也不迟。
+[charslot(slot="l",name="avg_300_phenxi_1#10$1",focus="l")]
+[name="菲亚梅塔"]嗯，只是很远，但不算迟。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_churchmeadow", screenadapt="coverall", block=true)]
+[delay(time=2.5)]
+[PlayMusic(key="$calm_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[charslot(slot="m",name="avg_213_mostma_1#1$1",duration=2)]
+[Delay(time=2.5)]
+[name="莫斯提马"]……
+[charslot(slot="m",name="avg_213_mostma_1#1$1",focus="none")]
+[name="伊比利亚女人"]确实很像奇迹。
+[name="伊比利亚女人"]朝圣者看到拉特兰城从地平线上显现的样子，以为自己得见天国，那一瞬间的幸福，大概比拉特兰真正能给予的都要多吧？
+[charslot(slot="m",name="avg_213_mostma_1#5$1",focus="m")]
+[name="莫斯提马"]可能哦。
+[charslot(slot="m",name="avg_213_mostma_1#5$1",focus="none")]
+[name="伊比利亚女人"]堕天使也会向着拉特兰回头吗？
+[charslot(slot="m",name="avg_213_mostma_1#10$1",focus="m")]
+[name="莫斯提马"]这风景很美啊。你不喜欢看风景？
+[charslot(slot="m",name="avg_213_mostma_1#10$1",focus="none")]
+[name="伊比利亚女人"]是要抓紧些欣赏。
+[name="伊比利亚女人"]那位监管人小姐呢？你是怎么摆脱她的？
+[charslot(slot="m",name="avg_213_mostma_1#10$1",focus="m")]
+[name="莫斯提马"]不用啊。
+[Dialog]
+[charslot]
+莫斯提马举起束紧的、如剑一般的伞，流畅地挥了一下。
+[charslot(slot="m",name="avg_213_mostma_1#7$1",focus="m")]
+[name="莫斯提马"]我从来就不需要摆脱她。
+[Dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[gridbg]
+[stopmusic(fadetime=2)]
+[image]
+[charslot]

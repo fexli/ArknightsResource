@@ -1,0 +1,773 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="77_g3_schoolgate",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1.5)]
+[playMusic(intro="$m_avg3_act54side_intro",key="$m_avg3_act54side_loop", volume=0.6)]
+[delay(time=1)]
+[Background(image="77_g3_schoolgate",xScale=1.7, yScale=1.7, fadetime=1.5,screenadapt="coverall")]
+[backgroundTween(xFrom = 0, xTo = -350,yFrom = 0, yTo = 150, duration=0, block=false)]
+[charslot(slot="l",name="avg_npc_2387_1#1$3", posfrom="0,0", posto="0,-50",afrom=1, ato=0,duration=0)]
+[charslot(slot = "l", action="zoom", poszoom = "0.5,0.5", scale=1.2, duration = 0)]
+[charslot(slot="l",afrom=0,ato=1,duration=1.5)]
+[charslot(slot="r",name="avg_4219_yukari_1#7$4", posfrom="0,0", posto="0,-50",afrom=1, ato=0,duration=0)]
+[charslot(slot = "r", action="zoom", poszoom = "0.5,0.5", scale=1.2, duration = 0)]
+[charslot(slot="r",afrom=0,ato=1,duration=1.5)]
+[delay(time=2)]
+[charslot(slot = "r",name="avg_4219_yukari_1#7$4", action="zoom", poszoom = "0.5,0.5", scale=1.2, duration = 0,focus="r")]
+[name="岳羽由加莉"]（哈欠）呼啊……好困……
+[name="岳羽由加莉"]没有影时间，结果就是在拉特兰进行夜间调查的时候，时间还在一直向前走，真的变成熬夜了……暗影也一直冒出来……
+[charslot(slot = "l",name="avg_npc_2387_1#1$3", action="zoom", poszoom = "0.5,0.5", scale=1.2, duration = 0,focus="l")]
+[name="山岸风花"]是啊，我也有点困……好在博士收集到足够的信息后就让我们回宿舍休息了，多少还是睡了一觉……
+[charslot(slot = "r",name="avg_4219_yukari_1#4$4", action="zoom", poszoom = "0.5,0.5", scale=1.2, duration = 0,focus="r")]
+[name="岳羽由加莉"]博士还说，白天在学校还是要好好上课呢。等下得小心不能在听课时睡着了……
+[charslot(slot = "l",name="avg_npc_2387_1#12$3", action="zoom", poszoom = "0.5,0.5", scale=1.2, duration = 0,focus="l")]
+[name="山岸风花"]咦，由加莉没看课表吗？今天上午好像是室外课程……
+[name="山岸风花"]“不是铳，胜似铳”，这是教怎么用铳的课程吗……？
+[charslot(slot = "r",name="avg_4219_yukari_1#4$4", action="zoom", poszoom = "0.5,0.5", scale=1.2, duration = 0,focus="n")]
+[name="结城理"]不好说。
+[name="结城理"]街上的萨科塔，几乎每个人都会随身携带铳，感觉并不只是装饰品……
+[name="结城理"]不过也多亏了这一点，没有人在意我们的召唤器。
+[charslot(slot = "r",name="avg_4219_yukari_1#8$4", action="zoom", poszoom = "0.5,0.5", scale=1.2, duration = 0,focus="r")]
+[name="岳羽由加莉"]嗯……这么说来，大家现在有带召唤器吗？
+[charslot(slot = "r",name="avg_4219_yukari_1#8$4", action="zoom", poszoom = "0.5,0.5", scale=1.2, duration = 0,focus="n")]
+[name="结城理"]带了。
+[charslot(slot = "l",name="avg_npc_2387_1#3$3", action="zoom", poszoom = "0.5,0.5", scale=1.2, duration = 0,focus="l")]
+[name="山岸风花"]带了……毕竟这里没有影时间，无法确定暗影什么时候会出现。我想，还是保险一点比较好……
+[charslot(slot = "r",name="avg_4219_yukari_1#1$4", action="zoom", poszoom = "0.5,0.5", scale=1.2, duration = 0,focus="r")]
+[name="岳羽由加莉"]太好了，不是只有我一个人带了……
+[Dialog]
+[curtain(direction = 3,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0.7)]
+[delay(time=1)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[delay(time=0.5)]
+[curtain(direction = 3,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0)]
+[curtain(direction = 7,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0)]
+[Background(image="77_g3_schoolgate",screenadapt="coverall")]
+[delay(time=0.5)]
+[curtain(direction = 7,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0.7)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_2377_1#5$1",focus="m")]
+[name="班长"]早上好！在聊什么呀？
+[charslot(slot="m",name="avg_4219_yukari_1#1$4",focus="m")]
+[multiline(name="岳羽由加莉")]早上好。我们在聊……今天上午的课。
+[charslot(slot="m",name="avg_4219_yukari_1#12$4",focus="m")]
+[multiline(name="岳羽由加莉")]“不是铳，胜似铳”，这个课名有点看不懂……
+[charslot(slot="m",name="avg_npc_2377_1#4$1",focus="m")]
+[name="班长"]哦，是“非铳”课呀。我想想该怎么解释……
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[name="班长"]嗯……大家来到拉特兰，肯定更想了解铳械吧？但是，铳械学起来很难，所以学校专门给非萨科塔学生开设了“非铳”课。
+[name="班长"]“非铳”课和铳械课是一起上的，合称是“类铳型武装课程”。二者主要是教学器械不同，老师也会分开指导。
+[charslot(slot="m",name="avg_npc_2377_1#2$1",focus="m")]
+[name="班长"]如果想要尝试铳械，其实也没问题。只是对非萨科塔学生来说，想要真正掌握还是太难了……
+[charslot(slot="m",name="avg_npc_2377_1#5$1",focus="m")]
+[name="班长"]铳械以外，我很推荐榴弹发射器哦，释放火力的手感很不错，而且也更容易上手。
+[charslot(slot="m",name="avg_4219_yukari_1#6$4",focus="m")]
+[name="岳羽由加莉"]……阿米娅？你在说什么……什么火力？
+[Dialog]
+[curtain(direction = 3,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0.7)]
+[delay(time=1)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[delay(time=1)]
+[curtain(direction = 3,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0)]
+[curtain(direction = 7,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0)]
+[Background(image="77_g18_firingrange",screenadapt="coverall")]
+[delay(time=1)]
+[curtain(direction = 7,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0.7)]
+[Delay(time=1.5)]
+[CameraShake(duration=2, xstrength=30, ystrength=30, vibrato=40, randomness=60, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_bulletbarrage", volume=1,channel="bullet")]
+[Delay(time=3)]
+[CameraShake(duration=0.3, xstrength=50, ystrength=50, vibrato=70, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$grenade_explosion", volume=1,channel="ex1")]
+[StopSound(channel="ex1",fadetime=1)]
+[Delay(time=1.01)]
+[CameraShake(duration=0.3, xstrength=50, ystrength=50, vibrato=70, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$grenade_explosion", volume=1,channel="ex2")]
+[StopSound(channel="ex2",fadetime=1)]
+[Delay(time=1.01)]
+[CameraShake(duration=0.3, xstrength=50, ystrength=50, vibrato=70, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$grenade_explosion", volume=1,channel="ex1")]
+[StopSound(channel="ex3",fadetime=1)]
+[Delay(time=1.5)]
+[Background(image="77_g18_firingrange",xScale=1.4, yScale=1.4,screenadapt="coverall",screenadapt="coverall")]
+[backgroundTween(xFrom = 0, xTo = -150,yFrom = 0, yTo = 50, duration=0, block=false)]
+[charslot(slot="l",name="avg_npc_2387_1#7$3", posfrom="0,0", posto="0,-100",duration=0)]
+[charslot(slot = "l", action="zoom", poszoom = "0.5,0.5", scale=1.3, duration = 0)]
+[name="山岸风花"]……
+[charslot]
+[Background(image="77_g18_firingrange",xScale=1.4, yScale=1.4,screenadapt="coverall",screenadapt="coverall")]
+[backgroundTween(xFrom = 0, xTo = 250,yFrom = 0, yTo = 50, duration=0, block=false)]
+[charslot(slot="r",name="avg_4219_yukari_1#6$4", posfrom="0,0", posto="0,-100",duration=0)]
+[charslot(slot = "r", action="zoom", poszoom = "0.5,0.5", scale=1.3, duration = 0)]
+[name="岳羽由加莉"]……
+[Dialog]
+[charslot]
+[Background(image="77_g18_firingrange",screenadapt="coverall")]
+[charslot(slot="l",name="avg_4219_yukari_1#6$4",focus="l")]
+[charslot(slot="r",name="avg_npc_2387_1#7$3",focus="l")]
+[name="岳羽由加莉"]竟然要在学校的课程中使用真正的铳械吗……亲眼看到，还是有点让人震惊……
+[charslot(slot="r",name="avg_npc_2387_1#2$3",focus="r")]
+[name="山岸风花"]嗯……其实我还挺感兴趣的……铳械也是一种机械吧，说不定很有趣呢……
+[charslot(slot="l",name="avg_4219_yukari_1#7$4",focus="l")]
+[name="岳羽由加莉"]风花，你真是……该说你是内心强大呢，还是好奇心旺盛呢……
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#5$5",focus="m")]
+[name="结城理"]我理解风花的心情。这里的铳和我们使用的“枪”不同，是真正的武器……能有了解的机会也挺难得的。
+[Dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot="m",name="avg_npc_2377_1#2$1",afrom=0, ato=1,duration=1.5,focus="m")]
+[Delay(time=2)]
+[name="班长"]我回来啦。问过卡拉老师了，虽然基础教学的部分之前已经结束了，不过你们是转学生，特殊照顾一下也没问题哦。
+[charslot]
+[dialog]
+[PlaySound(key="$d_gen_walk_n")]
+[charslot(slot="m",name="avg_npc_2382_1#1$1",focus="m",duration=2)]
+[delay(time=3)]
+[name="卡拉"]这么说，你们就是Dr.{@nickname}班上新来的那几个外国转学生了。之前对铳械有了解吗？
+[charslot(slot="m",name="avg_4217_makoto_1#1$5",focus="m")]
+[name="结城理"]应该不太了解。
+[charslot(slot="m",name="avg_npc_2382_1#1$1",focus="m")]
+[name="卡拉"]“应该”？为什么会说“应该”？
+[charslot(slot="m",name="avg_4217_makoto_1#1$5",focus="m")]
+[name="结城理"]……
+[charslot(slot="m",name="avg_npc_2382_1#1$1",focus="m")]
+[name="卡拉"]哦？你们好像也带着铳啊……
+[charslot(slot="m",name="avg_4217_makoto_1#1$5",focus="m")]
+[name="结城理"]……这个召唤器只是外形相似而已。您要确认看看吗？
+[charslot(slot="m",name="avg_npc_2382_1#1$1",focus="m")]
+[name="卡拉"]……外形确实很相似，但这并不是铳。你们既然都使用这种法杖，应该是学习同一种源石技艺的术师吧。
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#1$4",focus="r")]
+[charslot(slot="r",name="avg_npc_2387_1#3$3",focus="r")]
+[name="山岸风花"]（小声）由加莉，召唤人格面具……算是源石技艺吗？按其他科目老师讲的内容来看，源石技艺是类似魔法那样的能力吧？
+[charslot(slot="l",name="avg_4219_yukari_1#10$4",focus="l")]
+[name="岳羽由加莉"]（小声）应该……还是不太一样吧？不过，不知道要怎么和老师解释，先糊弄过去吧……
+[charslot(slot="l",name="avg_4219_yukari_1#1$4",focus="l")]
+[name="岳羽由加莉"]嗯，没错，差不多……就是您说的那样。只是我们老家的说法可能不太一样。
+[charslot]
+[charslot(slot="m",name="avg_npc_2382_1#1$1",focus="m")]
+[name="卡拉"]是术师的话，确实可以尝试一下。你们的源石技艺是哪一种？如果是咒法化形系或者塑能转换系，对铳械应该会好理解一些。
+[name="卡拉"]就是指可以操纵物体，让它们动起来或者变样，或者是能发射电流、火球、能量束之类的源石技艺。
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#12$4",focus="l")]
+[charslot(slot="r",name="avg_npc_2387_1#3$3",focus="l")]
+[name="岳羽由加莉"]都不太一样……
+[charslot]
+[charslot(slot="m",name="avg_npc_2382_1#1$1",focus="m")]
+[name="卡拉"]好吧，总之先试试铳械的感觉吧。挑一把你们喜欢的，然后我来讲解持铳方式。
+[name="卡拉"]如果想了解不同铳的区别，也可以问梵里妮同学，她家是开制铳工坊的。阿米娅，去帮忙叫一下梵妮。
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[name="班长"]好~
+[Dialog]
+[curtain(direction = 3,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0.7)]
+[delay(time=1)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[delay(time=1)]
+[curtain(direction = 3,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0)]
+[curtain(direction = 7,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0)]
+[Background(image="77_g18_firingrange",screenadapt="coverall")]
+[delay(time=1)]
+[curtain(direction = 7,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0.7)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_1779_1#1$2",focus="m")]
+[name="梵里妮"]……最后，是狙击铳，射程最远，后坐力，大。铳托要，顶住肩部……这里可以，调节，长度。
+[name="梵里妮"]你喜欢，哪一种？
+[charslot(slot="m",name="avg_4217_makoto_1#5$5",focus="m")]
+[name="结城理"]（拿起一把小型铳）
+[charslot(slot="m",name="avg_npc_2382_1#1$1",focus="m")]
+[name="卡拉"]和你们的召唤器很像，觉得亲切？这倒是个好开始。
+[name="卡拉"]来，站到这里，注意铳口不要对人，举起来试试吧。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[PlaySound(key="$d_avg_pistol_pickup", volume=1)]
+[Image(image="77_i06", screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="卡拉"]肩膀沉下去。食指现在不要放到扳机上，伸直放在铳侧。
+[name="卡拉"]手臂太紧张了。
+[name="卡拉"]阿米娅，来，给结城示范一下手臂动作。
+[Image(image="77_i06",fadetime=1, xScale=1.6, yScale=1.6,screenadapt="coverall")]
+[ImageTween(xFrom = 0, xTo = 300,yFrom = 0, yTo = -50, duration=0, block=false)]
+[name="班长"]结城同学，手肘这里可以弯一点，这样可以降低后坐力的影响，会比较灵活！
+[Delay(time=1.01)]
+[Image(image="77_i06",fadetime=1, xScale=1.6, yScale=1.6,screenadapt="coverall")]
+[ImageTween(xFrom = 0, xTo = 120,yFrom = 0, yTo = 100, duration=0, block=false)]
+[name="梵里妮"]……脚尖，要朝着，目标方向。
+[name="梵里妮"]手指不要，握这么紧……左手，往上来一点，压住右手。
+[Delay(time=1.01)]
+[Image(image="77_i06",fadetime=1, xScale=1.6, yScale=1.6,screenadapt="coverall")]
+[ImageTween(xFrom = 0, xTo = 300,yFrom = 0, yTo = -50, duration=0, block=false)]
+[name="班长"]结城同学，你在屏息吗？现在不用的，放松就好。
+[Delay(time=1.01)]
+[Image(image="77_i06",fadetime=1, xScale=1.6, yScale=1.6,screenadapt="coverall")]
+[ImageTween(xFrom = 0, xTo = 120,yFrom = 0, yTo = 100, duration=0, block=false)]
+[name="梵里妮"]眼睛，不要闭，不看准星的眼睛，也睁开吧。
+[Delay(time=1.01)]
+[Image(image="77_i06",fadetime=1, xScale=1.5, yScale=1.5,screenadapt="coverall")]
+[ImageTween(xFrom = 0, xTo = -200,yFrom = 0, yTo = -150, duration=0, block=false)]
+[name="卡拉"]不错，姿势很完美！
+[name="卡拉"]现在，感受铳和子弹中的源石回路，能把它们连通起来吗？
+[name="结城理"]……
+[Dialog]
+[Delay(time=1.5)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=false)]
+[PlaySound(key="$d_avg_keyboard_confirm", volume=1)]
+[ImageTween(xFrom = -200, xTo = 0, yFrom =-150, yTo = -150,duration=10, block=false)]
+[charslot]
+[Background(image="77_g18_firingrange",screenadapt="coverall")]
+[Delay(time=2)]
+[Image]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="l",name="avg_4219_yukari_1#6$4",focus="l")]
+[charslot(slot="r",name="avg_npc_2387_1#9$3",focus="l")]
+[name="岳羽由加莉"]哎呀……
+[charslot(slot="r",name="avg_npc_2387_1#9$3",focus="r")]
+[name="山岸风花"]和我们一样呢……
+[charslot]
+[charslot(slot="m",name="avg_npc_2382_1#1$1",focus="m")]
+[name="卡拉"]没事，把铳放下吧。这也很正常，非萨科塔要理解铳械的击发一般都会有些困难。
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#6$4",focus="r")]
+[charslot(slot="r",name="avg_npc_2387_1#9$3",focus="r")]
+[name="山岸风花"]对萨科塔来说很简单吗？
+[charslot]
+[charslot(slot="m",name="avg_npc_2382_1#1$1",focus="m")]
+[name="卡拉"]不太一样。萨科塔几乎不需要去“理解”铳械回路的结构，我们和铳械交流的方式更像是共感……
+[name="卡拉"]……
+[name="卡拉"]唉，其实我有点担心。今年七年级学生初次上手铳械，进展明显比往年要慢。
+[charslot(slot="m",name="avg_npc_2382_1#1$1",focus="n")]
+[name="？？？"]但最后大家还是都掌握了，不是吗？只要耐心一点，孩子们总能学会的。
+[charslot(slot="m",name="avg_npc_2382_1#1$1",focus="m")]
+[name="卡拉"]安德切尔，你怎么来了，今天有低年级的课吗？
+[charslot]
+[Dialog]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot="m",name="char_211_adnach_1#2",afrom=0, ato=1,duration=1.5,focus="m")]
+[Delay(time=2)]
+[name="安德切尔"]哈哈，我只是应博士所托暂时帮忙而已。博士说今天有新来的学生在上铳武课，我就过来看看。
+[charslot(slot="m",name="avg_npc_2382_1#1$1",focus="m")]
+[name="卡拉"]这位是安德切尔，Dr.{@nickname}之前的学生，虽然不是教师，但他的天赋可是很厉害的，也很擅长指导学生。
+[charslot(slot="m",name="char_211_adnach_1",focus="m")]
+[name="安德切尔"]只是个“歪光环”而已……
+[charslot(slot="m",name="avg_npc_2382_1#1$1",focus="m")]
+[name="卡拉"]舛异光环却不愿意进教皇厅，连铳都不能用了，我是搞不懂你。
+[charslot(slot="m",name="char_211_adnach_1#2",focus="m")]
+[name="安德切尔"]我觉得弩也很好哦？只是因为光环的样子就早早决定一生的道路，也很不划算吧。
+[name="安德切尔"]别聊我的事啦。这几位就是结城、岳羽和山岸同学吧，你们进展到哪里了？
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#6$4",focus="r")]
+[charslot(slot="r",name="avg_npc_2387_1#9$3",focus="r")]
+[name="山岸风花"]“感受源石回路”……到这里就没办法了。
+[charslot(slot="l",name="avg_4219_yukari_1#1$4",focus="l")]
+[name="岳羽由加莉"]不过，听起来并不是一定要学会铳械才可以，对吗？
+[charslot]
+[charslot(slot="m",name="char_211_adnach_1",focus="m")]
+[name="安德切尔"]当然了。能不能使用铳械并不是能定义一个人的事，就算这里是拉特兰也一样。
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#1$4",focus="l")]
+[charslot(slot="r",name="avg_npc_2387_1#9$3",focus="l")]
+[name="岳羽由加莉"]那我就要去试试那边的弓了哦，卡拉老师，可以吧？
+[charslot]
+[charslot(slot="m",name="avg_npc_2382_1#1$1",focus="m")]
+[name="卡拉"]当然没问题，结城，山岸，你们也想试试非铳武器吗？
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#1$4",focus="r")]
+[charslot(slot="r",name="avg_npc_2387_1#2$3",focus="r")]
+[name="山岸风花"]唔……好的！其实我刚才就想试试阿米娅说的榴弹发射器了。
+[charslot(slot="l",name="avg_4219_yukari_1#6$4",focus="l")]
+[name="岳羽由加莉"]榴弹发射器？！风花，你真的想选那种不得了的东西啊……
+[charslot(slot="r",name="avg_npc_2387_1#8$3",focus="r")]
+[name="山岸风花"]啊哈哈……平时可没有办法接触到，机会难得嘛……
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image]
+[Background(image="77_g18_firingrange",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="l",name="avg_4054_malist_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_190_clour_1#3$1",focus="r")]
+[name="生气的学生"]不准再逃了！我们是一个小组的，你再逃，我就把你当成猎物捉回靶场！
+[charslot(slot="l",name="avg_4054_malist_1#10$1",focus="l")]
+[name="无奈的学生"]饶了我吧，不管是铳是弓还是弩我都没有兴趣啊！有这个时间让我在活动室画图行不行……
+[charslot(slot="r",name="avg_190_clour_1#5$1",focus="r")]
+[multiline(name="生气的学生")]不行。你一直逃课，我们组的排名就一直低，那个人问起来会很麻烦……
+[charslot(slot="l",posfrom="0,0", posto="-200,0",afrom=1, ato=0,duration=1)]
+[Delay(time=1.1)]
+[charslot(slot="r",name="avg_190_clour_1#3$1",focus="r")]
+[multiline(name="生气的学生")]你怎么还想跑！
+[Dialog]
+[charslot(slot="r",posfrom="0,0", posto="-400,0",afrom=1, ato=0,duration=1)]
+[Delay(time=1.5)]
+[charslot]
+[charslot(slot="m",name="avg_4219_yukari_1#4$4",focus="m")]
+[name="岳羽由加莉"]虽然快下课了，但那两位同学这样追赶不会很危险吗……？
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[name="班长"]不会的，斯第奇同学对学校的建筑很了解，他不会跑到危险的地方的。
+[charslot(slot="m",name="avg_npc_2387_1#12$3",focus="m")]
+[name="山岸风花"]已经要下课了吗？我还想再研究一下这个发射器呢……
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[name="班长"]风花喜欢的话，放学也可以来玩哦。市区里还有公共靶场，休息日也可以去。
+[charslot(slot="m",name="avg_npc_2377_1#2$1",focus="m")]
+[name="班长"]还好你们不用考铳武许可协议，不然要补好多课和实弹练习，可能真得把休息日全泡在靶场才行……
+[charslot(slot="m",name="avg_4219_yukari_1#6$4",focus="m")]
+[name="岳羽由加莉"]刚才就想问了，课上用的真的全都是实弹……？
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[name="班长"]是呀。其实十一、十二年级的铳械课都是实弹练习，两年内要在合法监督下打满一万三千六百发实弹，毕业才能考证呢。
+[charslot(slot="m",name="avg_4219_yukari_1#6$4",focus="m")]
+[name="岳羽由加莉"]真、真的是实弹啊……虽然大概知道这是拉特兰人的风俗了，但还是觉得有点可怕……
+[charslot(slot="m",name="avg_npc_2377_1#2$1",focus="m")]
+[name="班长"]由加莉这样想也很正常啦，第一次来拉特兰的人，大多都会觉得不习惯。
+[charslot(slot="m",name="avg_npc_2377_1#3$1",focus="m")]
+[name="班长"]我之前遇到过一位乌萨斯游客，她被冰淇淋机旁突然响起的铳声吓坏了……
+[charslot(slot="m",name="avg_npc_2387_1#1$3",focus="m")]
+[name="山岸风花"]我能理解。虽然也开始习惯拉特兰的这一点了……回宿舍的路上会经过一处靶场，每天都很热闹呢。
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[multiline(name="班长")]是呀，对拉特兰人来说，还是这种“热闹”更亲切。
+[charslot(slot="m",name="avg_npc_2377_1#1$1",focus="m")]
+[multiline(name="班长")]如果哪一天，街上的铳声完全消失了……大概才比较可怕吧。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image]
+[Background(image="77_g1_dorm",screenadapt="coverall")]
+[Delay(time=2)]
+[playMusic(intro="$m_avg2_act54side_intro",key="$m_avg2_act54side_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_2388_1#1$1",focus="m")]
+[name="天田乾"]结城哥，听说你们今天上铳械课了，有趣吗？
+[charslot(slot="m",name="avg_4217_makoto_1#1$1",focus="m")]
+[name="结城理"]挺有趣的。不过，并没有学会。
+[charslot(slot="m",name="avg_npc_2387_1#12$1",focus="m")]
+[name="山岸风花"]我们都没有学会……这里的“铳”好像比我们那边的枪械复杂很多，不懂“源石技艺”的话，连扳机都无法扣动。
+[charslot(slot="m",name="avg_npc_2388_1#3$1",focus="m")]
+[name="天田乾"]这样啊……我还挺在意的。今天我们班上在聊未来想要的守护铳……
+[charslot(slot="m",name="avg_npc_2388_1#1$1",focus="m")]
+[name="天田乾"]你们知道“守护铳”吗？拉特兰，竟然会在每个萨科塔小学生十二岁的时候给他们发一把真铳……！
+[charslot(slot="m",name="avg_npc_2388_1#3$1",focus="m")]
+[name="天田乾"]真是难以置信……但这就叫做风土人情的不同吧。嗯，我明白。
+[charslot(slot="m",name="avg_4219_yukari_1#12$1",focus="m")]
+[name="岳羽由加莉"]对我们来说令人吃惊的事，在这里却是理所当然呢。十二岁就能拿到铳了啊……
+[charslot(slot="m",name="avg_npc_2387_1#1$1",focus="m")]
+[name="山岸风花"]天田确实也快要十二岁了呢，会得到“守护铳”吗？
+[charslot(slot="m",name="avg_4219_yukari_1#6$1",focus="m")]
+[name="岳羽由加莉"]别别别，别认真想这种事啦……再说，我们并不是萨科塔啊。
+[charslot(slot="m",name="avg_npc_2387_1#12$1",focus="m")]
+[name="山岸风花"]说到这点，你们觉不觉得今天卡拉老师讲到萨科塔和铳械“交流”的时候，有点奇怪，好像在烦恼什么……
+[Dialog]
+[PlaySound(key="$doorknockquite", volume=1)]
+[charslot(slot="m",name="avg_npc_2387_1#12$1",focus="n")]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_2387_1#7$1",focus="m")]
+[name="山岸风花"]咦，会是谁……
+[charslot]
+[Dialog]
+[PlaySound(key="$dooropenquite", volume=1)]
+[charslot(slot="l",name="avg_npc_2378_1#1$1",afrom=0, ato=1,duration=1.5)]
+[charslot(slot="r",name="avg_npc_2379_1#1$1",afrom=0, ato=1,duration=1.5)]
+[Delay(time=2)]
+[charslot(slot="r",name="avg_npc_2379_1#3$1",focus="r")]
+[name="裘里奥"]惊喜！亲爱的表弟表妹们，吉阿达小姐和我来看你们啦。
+[charslot(slot="l",name="avg_npc_2378_1#2$1",focus="l")]
+[name="吉阿达"]就算是按照对执行者撒的谎，你在这里的假表亲也只有一位。
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[name="吉阿达"]我们只是路过，但裘里奥说可以提前和你们讲一下志愿实践的安排。
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]以及给你们带两盒邻街的泡芙，以防你们还没有发现这家完美的泡芙店！
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#1$1",focus="m")]
+[name="结城理"]圣罗可街的泡芙店？我记得你提过。
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[multiline(name="裘里奥")]哇，你记得！
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="r")]
+[multiline(name="裘里奥")]……但我和你提过吗？我怎么不记得了……
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]说正事。
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[name="吉阿达"]殡仪堂内部已经能看到志愿实践的日程表了，你们在殡仪堂的实习是后天开始。
+[name="吉阿达"]因为你填了两个相关的岗位，所以会实习两天，也就是后天和大后天。
+[charslot]
+[charslot(slot="m",name="avg_4219_yukari_1#6$1",focus="m")]
+[name="岳羽由加莉"]咦，不是明天吗？
+[Dialog]
+[charslot(slot="m",name="avg_npc_2387_1#3$1",focus="m")]
+[PlaySound(key="$d_avg_terminal", volume=1)]
+[Delay(time=1.5)]
+[name="山岸风花"]我看看……明天好像要先去甜食礼堂参加志愿实践，然后才是殡仪堂……
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]明天你们在甜食礼堂工作啊，真想翘班过去玩！
+[Dialog]
+[charslot(slot="l",name="avg_npc_2378_1#9$1")]
+[charslot(slot="r",name="avg_npc_2379_1#10$1")]
+[Delay(time=1.5)]
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="r")]
+[multiline(name="裘里奥")]——只是开玩笑，不会真的翘班啦！
+[charslot(slot="r",name="avg_npc_2379_1#3$1",focus="r")]
+[multiline(name="裘里奥")]我怎么会把葬礼全部交给吉阿达呢？
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]……
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="r")]
+[name="裘里奥"]……？
+[charslot(slot="r",name="avg_npc_2379_1#5$1",focus="r")]
+[multiline(name="裘里奥")]对了对了，说正事对吧！
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[multiline(name="裘里奥")]吉阿达小姐直接把你们要到她的工作项目里了哦！
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]虽然看起来冷淡，但吉阿达小姐完全是个细心又体贴的人啊。
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[stopmusic(fadetime=2)]
+[name="吉阿达"]你在说什么？这是早就约好的事，和我体不体贴有什么关系。
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[name="吉阿达"]结城，先和你说好，完成当天的实习工作、填好记录之后可以提前走，但不能直接翘班。我也需要对单位有交代。
+[charslot(slot="l",name="avg_npc_2378_1#2$1",focus="l")]
+[name="吉阿达"]通知完了。你们好好休息。
+[charslot(slot="r",name="avg_npc_2379_1#5$1",focus="r")]
+[name="裘里奥"]啊？就要走了吗，泡芙还没拆呢，不分享一下吗？
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]是我要走。你想留下或者做什么都行，甜点本来也是你要买的。
+[charslot(slot="l",name="avg_npc_2378_1#2$1",focus="l")]
+[name="吉阿达"]再见。
+[Dialog]
+[PlaySound(key="$doorclosequite", volume=1)]
+[charslot(slot="l",afrom=1, ato=0,duration=1.5,focus="l")]
+[Delay(time=2)]
+[charslot]
+[playMusic(intro="$mist_n_intro", key="$mist_n_loop", volume=0.6)]
+[charslot(slot="m",name="avg_npc_2388_1#9$1",focus="m")]
+[name="天田乾"]……
+[charslot(slot="m",name="avg_npc_2388_1#13$1",focus="m")]
+[name="天田乾"]我都不敢说话了……
+[charslot(slot="m",name="avg_4220_kormr_1#5$1",focus="m")]
+[name="虎狼丸"]汪……
+[charslot(slot="m",name="avg_npc_2387_1#5$1",focus="m")]
+[name="山岸风花"]之前听队长和裘里奥先生说，吉阿达小姐是个热心温柔的人……她，是心情不太好吗？
+[charslot(slot="m",name="avg_npc_2379_1#7$1",focus="m")]
+[name="裘里奥"]唉……应该是我的问题。抱歉啊，大概是我惹吉阿达生气了……
+[charslot(slot="m",name="avg_npc_2379_1#7$1",focus="m")]
+[name="裘里奥"]她最近压力很大……
+[name="裘里奥"]本来我们在工作上就有矛盾，然后又有志愿实践的事。学生的实习其实帮不上什么忙啊，只会增加带教和讲解的工作量而已。
+[charslot(slot="m",name="avg_4219_yukari_1#6$1",focus="m")]
+[name="岳羽由加莉"]……
+[charslot(slot="m",name="avg_npc_2379_1#5$1",focus="m")]
+[name="裘里奥"]啊！我是不是又说错话了，不是怪你们的意思！完全没有！只是想解释一下吉阿达的情况……
+[charslot(slot="m",name="avg_npc_2379_1#11$1",focus="m")]
+[name="裘里奥"]其实我们之前在讨论葬礼场地布置的事，吉阿达和我解释了她的想法，但最后我还是不想改……
+[charslot(slot="m",name="avg_npc_2379_1#12$1",focus="m")]
+[name="裘里奥"]她气笑了，我还以为是被我的方案逗笑的，问她是不是很喜欢，结果就……
+[charslot(slot="m",name="avg_npc_2379_1#11$1",focus="m")]
+[name="裘里奥"]我本来也是想趁着来看你们，一起吃点甜点，让她开心点的……
+[charslot(slot="m",name="avg_4219_yukari_1#7$1",focus="m")]
+[name="岳羽由加莉"]嗯……裘里奥先生的心意还是好的……
+[charslot(slot="m",name="avg_npc_2379_1#12$1",focus="m")]
+[name="裘里奥"]但是我做得很不好吗？
+[charslot(slot="m",name="avg_npc_2387_1#12$1",focus="m")]
+[name="山岸风花"]唔……也不能完全这么说吧，毕竟人的性格和行事方式不同……
+[charslot(slot="m",name="avg_npc_2387_1#1$1",focus="m")]
+[name="山岸风花"]不如说，我会觉得你们两位关系挺好的呢。
+[charslot(slot="m",name="avg_npc_2379_1#5$1",focus="m")]
+[name="裘里奥"]咦？真的吗？其实她没有生气？
+[charslot(slot="m",name="avg_4219_yukari_1#7$1",focus="m")]
+[name="岳羽由加莉"]绝对生气了。
+[charslot(slot="m",name="avg_npc_2379_1#7$1",focus="m")]
+[name="裘里奥"]唉……
+[charslot(slot="m",name="avg_npc_2387_1#1$1",focus="m")]
+[name="山岸风花"]但是，吉阿达小姐确实和裘里奥先生一起买了泡芙，然后一起来到了这里看望我们……对吧？
+[charslot(slot="m",name="avg_npc_2387_1#1$1",focus="m")]
+[name="山岸风花"]虽然态度有点冷淡，但如果真的讨厌你，我想她是不会愿意和你一起做这些事的。
+[charslot(slot="m",name="avg_npc_2379_1#11$1",focus="m")]
+[name="裘里奥"]唉，其实我也不想总是惹她生气。只是，偏偏在她最看重的事上，我却是一定不能……不想让步的。
+[charslot(slot="m",name="avg_npc_2387_1#3$1",focus="m")]
+[name="山岸风花"]这样吗……
+[charslot(slot="m",name="avg_npc_2379_1#10$1",focus="m")]
+[name="裘里奥"]往好处想，我和她终归都是想办好这场葬礼，所以之后我们肯定能和好的啦。
+[charslot(slot="m",name="avg_4220_kormr_1#1$1",focus="m")]
+[name="虎狼丸"]汪嗷！
+[charslot(slot="m",name="avg_npc_2379_1#10$1",focus="m")]
+[name="裘里奥"]虎狼丸也同意，对吧？
+[charslot(slot="m",name="avg_npc_2379_1#3$1",focus="m")]
+[name="裘里奥"]不用担心我们啦，你们自己也有在烦恼的事吧？放心，我们可是大人，会处理好的！
+[charslot(slot="m",name="avg_npc_2379_1#1$1",focus="m")]
+[name="裘里奥"]我也该走啦。明天你们还要去甜食礼堂实习对吧？不要兴奋到睡不着哦。
+[charslot(slot="m",name="avg_4217_makoto_1#13$1",focus="m")]
+[name="结城理"]泡芙，不吃了吗？
+[charslot(slot="m",name="avg_npc_2379_1#10$1",focus="m")]
+[name="裘里奥"]啊……没事，你们吃吧。本来也是给你们买的嘛，我就不和小孩子抢了！
+[charslot(slot="m",name="avg_npc_2379_1#10$1",focus="m")]
+[name="裘里奥"]总之，你们照顾好自己哦。后天见啦。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[Background(image="77_g12_street_night",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[PlayMusic(intro="$ponder_intro", key="$ponder_loop", volume=0.6)]
+[delay(time=1)]
+[charslot(slot="l",name="avg_4217_makoto_1#1$3",focus="r")]
+[charslot(slot="r",name="avg_npc_2388_1#3$2",focus="r")]
+[name="天田乾"]博士今天不来吗？
+[charslot(slot="l",name="avg_4217_makoto_1#1$3",focus="l")]
+[name="结城理"]博士说既然确认了拉特兰人看不见暗影，之后的夜间行动就交给我们，收集到新的情报就报告过去。博士自己好像有别的工作要做。
+[charslot(slot="r",name="avg_npc_2388_1#3$2",focus="r")]
+[name="天田乾"]好吧。说起来，博士给人的感觉有点神秘呢……博士真的只是普通的教师吗？
+[charslot(slot="l",name="avg_4217_makoto_1#2$3",focus="l")]
+[name="结城理"]（摇头）
+[charslot(slot="l",name="avg_4217_makoto_1#1$3",focus="l")]
+[name="结城理"]我从一开始就不觉得博士是普通的教师。
+[charslot(slot="r",name="avg_npc_2388_1#1$2",focus="r")]
+[name="天田乾"]嗯……博士几乎立刻就理解了“不同世界”的事，而且，也很快想到了利用风花姐的能力来定位门扉的办法……
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#1$2",focus="r")]
+[charslot(slot="r",name="avg_npc_2387_1#7$2",focus="r")]
+[name="山岸风花"]……咦，什么？在说我吗？
+[charslot(slot="l",name="avg_4219_yukari_1#10$2",focus="l")]
+[name="岳羽由加莉"]只是在聊博士啦。不过风花，你好像有心事……？
+[charslot(slot="r",name="avg_npc_2387_1#10$2",focus="r")]
+[name="山岸风花"]嗯……
+[charslot(slot="l",name="avg_4219_yukari_1#4$2",focus="l")]
+[name="岳羽由加莉"]……晚上裘里奥先生跟我们告别的时候，你好像想对他说什么……是这件事吗？
+[charslot(slot="r",name="avg_npc_2387_1#10$2",focus="r")]
+[name="山岸风花"]由加莉真敏锐呢……
+[charslot(slot="r",name="avg_npc_2387_1#5$2",focus="r")]
+[name="山岸风花"]我确实在想吉阿达小姐和裘里奥先生的事。总觉得他们两位可以好好相处的……
+[name="山岸风花"]虽然吉阿达小姐对裘里奥先生冷冰冰的，但我觉得她可能也很难受。
+[charslot(slot="r",name="avg_npc_2387_1#10$2",focus="r")]
+[name="山岸风花"]不知道怎么好好传达自己的心情，结果被认为是讨厌对方，这种事情……太难过了。
+[charslot(slot="l",name="avg_4219_yukari_1#1$2",focus="l")]
+[name="岳羽由加莉"]……风花真温柔啊。不过，就像裘里奥先生说的，他们两个都是大人了，应该能处理好的。风花你不用太担心……
+[charslot(slot="r",name="avg_npc_2387_1#5$2",focus="r")]
+[name="山岸风花"]嗯……
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_explosion", volume=0.8)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_4219_yukari_1#6$2",focus="m")]
+[name="岳羽由加莉"]……等等，这是什么声音？虽然已经了解拉特兰的风格了，但在半夜发出这么大的声音是不是也有点夸张了……！
+[charslot]
+[charslot(slot="l",name="avg_4217_makoto_1#1$3",focus="r")]
+[charslot(slot="r",name="avg_npc_2388_1#2$2",focus="r")]
+[name="天田乾"]噢！课上好像讲过，拉特兰人能从铳响中感受到与主的连接，获得内心的安宁什么的……
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#12$2",focus="l")]
+[charslot(slot="r",name="avg_npc_2387_1#7$2",focus="l")]
+[name="岳羽由加莉"]说是这么说，这声音也太大了吧？这样真能安宁吗……
+[charslot(slot="r",name="avg_npc_2387_1#11$2",focus="r")]
+[name="山岸风花"]等等……我好像感觉到了暗影的反应，就在前面！这个声音，说不定不是市民发出的，是暗影在大闹……！
+[charslot(slot="l",name="avg_4219_yukari_1#6$2",focus="l")]
+[name="岳羽由加莉"]不会吧，暗影……！前面好像是靶场，在那里大闹吗……
+[charslot(slot="l",name="avg_4219_yukari_1#9$2",focus="l")]
+[name="岳羽由加莉"]这个时间点，不知道靶场里还有没有人……如果被袭击了就不好了！
+[charslot]
+[charslot(slot="l",name="avg_4217_makoto_1#8$3",focus="l")]
+[charslot(slot="r",name="avg_npc_2388_1#13$2",focus="l")]
+[name="结城理"]赶紧过去看看吧。
+[Dialog]
+[stopmusic(fadetime=2)]
+[PlaySound(key="$d_avg_crowdrun",volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[Background(image="77_g19_firingrange_night",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[playMusic(intro="$plot_intro", key="$plot_loop", volume=0.6)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_4220_kormr_1#2$1",focus="m")]
+[name="虎狼丸"]汪嗷！
+[charslot]
+[Dialog]
+[PlaySound(key="$d_avg_magicchange", volume=1)]
+[PlaySound(key="$d_avg_atmosphere_horror",channel="horror",loop=true,volume=0.6)]
+[stopsound(channel="horror",fadetime=5)]
+[CameraEffect(effect="Chaos",from = "chaos_none", to = "chaos_hard", fadetime =1.5, keep=true)]
+[Delay(time=2)]
+[Background(image="77_g20_firingrange_dark",screenadapt="coverall", fadetime=1)]
+[Delay(time=1.2)]
+[CameraEffect(effect="Chaos", keep= false, fadetime =1.5)]
+[Delay(time=2)]
+[charslot(slot="l",name="avg_4219_yukari_1#5$2",focus="l")]
+[charslot(slot="r",name="avg_npc_2387_1#11$2",focus="l")]
+[name="岳羽由加莉"]果然是暗影……！
+[charslot(slot="r",name="avg_npc_2387_1#11$2",focus="r")]
+[name="山岸风花"]不太对劲……它们在追赶什么？
+[charslot(slot="r",name="avg_npc_2387_1#7$2",focus="r")]
+[name="山岸风花"]不对，不是追赶，是……有人在驱赶它们？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image(image="77_i07", xScale=1.6, yScale=1.6, screenadapt="coverall")]
+[Background(image="bg_black", screenadapt="coverall")]
+[ImageTween(xFrom = 0, xTo = -100, yFrom=0, yTo=-90,duration=0, block=false)]
+[ImageTween(xFrom = -100, xTo = 70,duration=30, block=false)]
+[PlaySound(key="$d_avg_ascend_blastoff", volume=1,channel="aigis01")]
+[Delay(time=1.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="？？？"]……发射器部署！
+[name="？？？"]全弹齐射——！
+[Dialog]
+[Image(image="77_i07",fadetime=0.3, screenadapt="coverall")]
+[PlaySound(key="$d_avg_launch_missile", volume=1,channel="aigis02")]
+[PlaySound(key="$d_avg_cannon", volume=1)]
+[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Delay(time=1.2)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=false)]
+[Delay(time=0.3)]
+[playsound(key="$d_avg_autocannon",volume=1)]
+[PlaySound(key="$d_avg_bulletbarrage", volume=1,channel="aigis04")]
+[stopsound(channel="aigis04",fadetime=2.5)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[bgeffect(name="$eb_burn",layer=1)]
+[playsound(key="$d_avg_cannon",volume=1)]
+[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=80, fadeout=true, block=false)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=false)]
+[Delay(time=0.3)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=50, randomness=80, fadeout=true, block=false)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=false)]
+[Delay(time=0.3)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=50, randomness=80, fadeout=true, block=false)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=false)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+熟悉的声音和自天而降的弹雨一同落下。
+所有人望向上空，少女的身姿在腾起的烟幕中回旋。
+[dialog]
+[Image(image="77_i07",fadetime=0.3, screenadapt="coverall")]
+[PlaySound(key="$grenade_explosion", volume=1, channel="ex2")]
+[PlaySound(key="$d_gen_explo_n", volume=1, channel="ex3")]
+[Blocker(a=1,r=1, g=1, b=1,  fadetime=0.1, block=true)]
+[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_gen_explo_n")]
+[PlaySound(key="$d_sp_ballista")]
+[PlaySound(key="$d_avg_rockfall", volume=1)]
+[Blocker(a=0,r=0, g=0, a=0, fadetime=2, block=false)]
+[delay(time=2)]
+地面的暗影在炮弹的追踪下奔逃相撞，似乎发出了无声的尖叫。
+金发的少女再次升向空中，身后神明般凛然的身影张开双臂，坚盾屹立在少女的后方。
+[bgeffect]
+[curtain(direction = 0,fillfrom = 0.01,fillto = 0.2, grad=true, fadetime=1.5)]
+[curtain(direction = 4,fillfrom = 0.01,fillto = 0.2, grad=true, fadetime=1.5)]
+[Image(image="77_i07", xScale=2, yScale=2,x=-400,y=-200,fadetime=0.5, screenadapt="coverall")]
+[name="？？？"]蓄力——
+[name="？？？"]发射！
+[Dialog]
+少女如同坠落的金色流星，划破颜色诡异的天幕，重重击向被驱赶至一处的暗影！
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.3, block=false)]
+[PlaySound(key="$d_avg_kaltswhoosh", volume=0.8, loop=true, channel="fly")]
+[ImageTween(xScaleFrom=2,xScaleTo=2.5,yScaleFrom=2,yScaleTo=2.5,xFrom = -400, xTo = -540, yFrom=-200, yTo=-320,duration=0.1, block=false)]
+[curtain(direction = 0,fillfrom = 0.2,fillto = 0.01, grad=true, fadetime=0.5)]
+[curtain(direction = 4,fillfrom = 0.2,fillto = 0.01, grad=true, fadetime=0.5)]
+[delay(time=1)]
+[Background(image="77_g20_firingrange_dark",screenadapt="coverall")]
+[PlaySound(key="$d_avg_flying_side_kick", volume=1,channel="aigis03")]
+[Delay(time=0.6)]
+[image]
+[curtain]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=true)]
+[StopSound(channel="fly", fadetime=0.5)]
+[Effect(name="$e_aigis_02", layer=1)]
+[Delay(time=1.4)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.5, block=true)]
+[PlaySound(key="$d_sp_ballista")]
+[PlaySound(key="$d_gen_explo_n", volume=1, delay=0.05)]
+[PlaySound(key="$d_gen_explo_n", volume=1, delay=0.1)]
+[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Image]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]
+[Delay(time=1)]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot="m",name="avg_4218_aigis_1#4$2",afrom=0, ato=1,duration=1.5,focus="m")]
+[Delay(time=3)]
+[charslot(slot="m",name="avg_4217_makoto_1#3$3",focus="m")]
+[name="结城理"]埃癸斯！
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#1$2",focus="r")]
+[charslot(slot="r",name="avg_npc_2387_1#8$2",focus="r")]
+[name="山岸风花"]太好了……找到埃癸斯了！
+[charslot(slot="l",name="avg_4219_yukari_1#1$2",focus="l")]
+[name="岳羽由加莉"]埃癸斯，这边！
+[charslot]
+[charslot(slot="m",name="avg_4218_aigis_1#9$2",focus="m")]
+[name="埃癸斯"]理，各位！原来你们在这里……！
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#1$2",focus="r")]
+[charslot(slot="r",name="avg_npc_2387_1#1$2",focus="r")]
+[name="山岸风花"]太好了，终于会合了……！我们来到这里已经有几天了……埃癸斯是刚刚才到拉特兰吗？
+[charslot]
+[charslot(slot="m",name="avg_4218_aigis_1#11$2",focus="m")]
+[name="埃癸斯"]拉特兰？
+[charslot(slot="m",name="avg_npc_2388_1#1$2",focus="m")]
+[name="天田乾"]啊，要给埃癸斯说明一下吧——就是，我们现在所在的，是一个叫做拉特兰的国家……
+[charslot(slot="m",name="avg_4219_yukari_1#5$2",focus="m")]
+[name="岳羽由加莉"]——天田，小心！！
+[Dialog]
+[charslot]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.3, block=true)]
+[PlaySound(key="$d_avg_arrow", volume=1,channel="arrow1")]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=false)]
+[Delay(time=1)]
+[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[PlaySound(key="$e_skill_skulsrsword", volume=0.9)]
+[PlaySound(key="$d_avg_attack_heavy")]
+[delay(time=1)]
+[charslot(slot="m",name="avg_4219_yukari_1#9$2",focus="m")]
+[name="岳羽由加莉"]可恶，这些暗影怎么这么顽强！
+[charslot(slot="m",name="avg_4218_aigis_1#1$2",focus="m")]
+[name="埃癸斯"]……暗影？不，这些不是——
+[charslot(slot="m",name="avg_4220_kormr_1#2$2",focus="m")]
+[name="虎狼丸"]嗷呜！！
+[charslot(slot="m",name="avg_npc_2388_1#7$2",focus="m")]
+[name="天田乾"]它们又攻过来了！
+[charslot(slot="m",name="avg_4217_makoto_1#8$3",focus="m")]
+[name="结城理"]先战斗，详细情况回宿舍之后再讨论。
+[charslot(slot="m",name="avg_4218_aigis_1#7$2",focus="m")]
+[name="埃癸斯"]……了解！
+[name="埃癸斯"]理，请给我作战指示！
+[Dialog]
+[Delay(time=1)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[gridbg]
+[stopmusic(fadetime=2)]
+[Image]
+[charslot]

@@ -1,0 +1,695 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="26_g11_laterano_alley",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1.5)]
+[playMusic(intro="$relax_intro", key="$relax_loop", volume=0.6)]
+[charslot(slot="l",name="avg_4218_aigis_1#1$1",focus="l")]
+[charslot(slot="r",name="avg_4217_makoto_1#1$5",focus="l")]
+[name="埃癸斯"]那么从今天开始，我会和大家一起去上学。是这样吧？
+[charslot(slot="r",name="avg_4217_makoto_1#1$5",focus="r")]
+[name="结城理"]嗯。昨晚发生的事情都报告给博士了，也得到了指示。
+[charslot(slot="r",name="avg_4217_makoto_1#1$5",focus="r")]
+[name="结城理"]博士回复说，今天埃癸斯和我们一起行动比较好。
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#12$4",focus="l",posfrom="0,0", posto="-100,0",duration=0)]
+[charslot(slot="m",name="avg_npc_2388_1#1$4",focus="l")]
+[charslot(slot="r",name="avg_npc_2387_1#1$3",focus="l",posfrom="0,0", posto="100,0",duration=0)]
+[name="岳羽由加莉"]不过今天，志愿实践就要开始了对吧……埃癸斯是不是得先去办理入学？
+[charslot(slot="r",name="avg_npc_2387_1#1$3",focus="r")]
+[name="山岸风花"]嗯……去甜食礼堂之前要先到学校集合，到学校之后问一下吧？
+[charslot(slot="m",name="avg_npc_2388_1#3$4",focus="m")]
+[name="天田乾"]我觉得说不定博士都已经安排好了……
+[charslot(slot="l",name="avg_4219_yukari_1#1$4",focus="l")]
+[name="岳羽由加莉"]这么说，确实有可能……
+[charslot]
+[charslot(slot="l",name="avg_4218_aigis_1#1$1",focus="l")]
+[charslot(slot="r",name="avg_4217_makoto_1#1$5",focus="l")]
+[name="埃癸斯"]我们可以出发了吗？
+[charslot(slot="r",name="avg_4217_makoto_1#1$5",focus="r")]
+[name="结城理"]走吧，去学校。
+[Dialog]
+[stopmusic(fadetime=2)]
+[curtain(direction = 3,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0.7)]
+[delay(time=1)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[delay(time=0.5)]
+[curtain(direction = 3,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0)]
+[curtain(direction = 7,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0)]
+[Background(image="77_g3_schoolgate",screenadapt="coverall")]
+[delay(time=0.5)]
+[curtain(direction = 7,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0.7)]
+[Delay(time=1.5)]
+[playMusic(intro="$m_avg3_act54side_intro",key="$m_avg3_act54side_loop", volume=0.6)]
+[charslot(slot="m",name="avg_4218_aigis_1#9$1",focus="m")]
+[name="埃癸斯"]早上好。
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[name="班长"]早上好，你一定就是埃癸斯同学吧？
+[charslot(slot="m",name="avg_4218_aigis_1#1$1",focus="m")]
+[name="埃癸斯"]是的，我是埃癸斯。
+[charslot(slot="m",name="avg_4219_yukari_1#1$4",focus="m")]
+[name="岳羽由加莉"]阿米娅，博士没有来吗？
+[charslot(slot="m",name="avg_npc_2377_1#2$1",focus="m")]
+[name="班长"]博士说今天没有课，要去补觉……
+[charslot(slot="m",name="avg_npc_2387_1#9$3",focus="m")]
+[name="山岸风花"]欸……那，埃癸斯的入学手续怎么办？我们今天是要去甜食礼堂实习对吧……
+[charslot(slot="m",name="avg_npc_2387_1#9$3",focus="m")]
+[name="山岸风花"]要把埃癸斯一个人留在学校办理入学吗……？
+[charslot(slot="m",name="avg_4219_yukari_1#10$4",focus="m")]
+[name="岳羽由加莉"]还是说，博士已经奇迹般地把所有手续都办好了……？
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[name="班长"]这个时间行政处的老师也才刚刚上班，我想就是博士应该也做不到吧……
+[charslot(slot="m",name="avg_npc_2388_1#9$4",focus="m")]
+[name="天田乾"]竟然……
+[charslot(slot="m",name="avg_4219_yukari_1#6$4",focus="m")]
+[name="岳羽由加莉"]但是，阿米娅看起来胸有成竹的样子？
+[charslot(slot="m",name="avg_npc_2377_1#2$1",focus="m")]
+[name="班长"]埃癸斯同学，你比较想留在学校，还是去甜食礼堂呀？
+[charslot(slot="m",name="avg_4218_aigis_1#6$1",focus="m")]
+[name="埃癸斯"]我想和理还有大家一起行动。而且，那位博士似乎也是这样指示的。
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[name="班长"]那我就明白了。
+[name="班长"]埃癸斯同学，入学手续先搁置一下，你直接和我们去甜食礼堂吧！
+[charslot(slot="m",name="avg_npc_2387_1#7$3",focus="m")]
+[name="山岸风花"]咦，埃癸斯可以直接参加实习吗？
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[name="班长"]我觉得我已经明白博士的处理方式了——你们还记得上次博士的话吧。
+[charslot(slot="m",name="avg_4217_makoto_1#2$5",focus="m")]
+[name="结城理"]那我也明白了。
+[charslot(slot="m",name="avg_npc_2377_1#2$1",focus="m")]
+[name="班长"]如果博士在这里，大概就会说，“既然埃癸斯还不是学校的学生，那想去哪里都是她的自由”。
+[charslot(slot="m",name="avg_4217_makoto_1#1$5",focus="m")]
+[name="结城理"]“只是要一起行动的话，埃癸斯作为甜食礼堂的顾客待在那里就好。”
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[name="班长"]在拉特兰的生活就是理解规则的生活呢……
+[charslot(slot="m",name="avg_4217_makoto_1#10$5",focus="m")]
+[name="结城理"]等实习完，我买一份甜点给博士当做谢礼吧。阿米娅可以帮忙带给博士吗？
+[charslot(slot="m",name="avg_npc_2377_1#5$1",focus="m")]
+[name="班长"]好呀。带一盒杯子蛋糕回去吧，博士最近好像喜欢加手指饼的那一款。
+[Dialog]
+[stopmusic(fadetime=2)]
+[curtain(direction = 3,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0.7)]
+[delay(time=1)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[delay(time=1)]
+[curtain(direction = 3,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0)]
+[curtain(direction = 7,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0)]
+[Background(image="77_g11_dessert",screenadapt="coverall")]
+[delay(time=1)]
+[playmusic(intro="$farce_intro", key="$farce_loop", volume=0.6)]
+[curtain(direction = 7,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0.7)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_368_1#1$1",focus="m")]
+[name="凯拉"]……那么，阿米娅、由加莉，你们两位到后场，要听面包师的指挥。
+[name="凯拉"]风花和结城同学待在前场，和柜台、服务区的营业员一起工作。
+[name="凯拉"]至于这两位……是埃癸斯和天田同学对吗？你们不在实践的名单上……
+[charslot(slot="m",name="avg_npc_2388_1#1$4",focus="m")]
+[name="天田乾"]那，我们可以作为客人待在这里吗？埃癸斯和我，还有虎狼丸……
+[charslot(slot="m",name="avg_npc_368_1#1$1",focus="m")]
+[name="凯拉"]可以呀。不过，使用桌位的话要点单哦~
+[charslot(slot="m",name="avg_4220_kormr_1#4$3",focus="m")]
+[name="虎狼丸"]汪！
+[charslot(slot="m",name="avg_npc_368_1#1$1",focus="m")]
+[name="凯拉"]实习的同学注意佩戴名牌，这是作为实习营业员的标志。好了，还有问题吗？
+[dialog]
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#7$6",focus="m",duration=2)]
+[delay(time=3)]
+[name="结城理"]……有，为什么只有我要换整套衣服？
+[charslot(slot="m",name="avg_npc_368_1#1$1",focus="m")]
+[name="凯拉"]你有特别的工作安排！今天我请了摄影师来给甜食礼堂拍宣传影像，你要配合拍摄~
+[charslot(slot="m",name="avg_npc_1795_1#1$2",focus="m")]
+[name="摄影师"]你好呀实习小哥，今天就拜托啦。
+[charslot(slot="m",name="avg_npc_368_1#1$1",focus="m")]
+[name="凯拉"]结城同学应该不会害怕镜头吧？不要紧张，正常工作就好，我想要自然又日常的效果……
+[charslot]
+[name="？？？"]早上好凯拉姐！
+[Dialog]
+[PlaySound(key="$rungeneral", volume=1,channel="1")]
+[StopSound(channel="1",fadetime=1.5)]
+[charslot(slot="l",name="avg_npc_1793_1#3$1",afrom=0, ato=1,duration=1.5)]
+[charslot(slot="r",name="avg_npc_368_1#1$1")]
+[Delay(time=2)]
+[charslot(slot="r",name="avg_npc_368_1#1$1",focus="r")]
+[name="凯拉"]……
+[name="凯拉"]你又来了呀，伊蒂达。
+[charslot(slot="l",name="avg_npc_1793_1#1$1",focus="l")]
+[name="伊蒂达"]你上周答应我，会考虑让我的冰淇淋在礼堂摊位销售的！考虑得怎么样了呀？
+[charslot(slot="r",name="avg_npc_368_1#1$1",focus="r")]
+[name="凯拉"]嗯……伊蒂达，今天有点忙呢，要不你改天再来？来，送你一盒饼干。
+[charslot(slot="l",name="avg_npc_1793_1#6$1",focus="l")]
+[name="伊蒂达"]凯拉姐，我已经收了你多少盒饼干了，你还记得吗……
+[Dialog]
+[charslot(slot="l",name="avg_npc_1793_1#2$1",focus="l")]
+[Delay(time=1.5)]
+[charslot]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=60, randomness=80, fadeout=true, block=false)]
+[Background(image="77_g11_dessert",xScale=1.3, yScale=1.3,screenadapt="coverall")]
+[backgroundTween(xFrom = 0, xTo = 150, duration=0, block=false)]
+[charslot(slot = "m",name="avg_npc_1793_1#8$1", action="zoom", poszoom = "0.5,0.5", scale=1.2, duration = 0)]
+[name="伊蒂达"]今天我不会走的！我带来了一车冰淇淋，一定要让你理解无糖冰淇淋的优点！
+[charslot]
+[Background(image="77_g11_dessert",screenadapt="coverall")]
+[charslot(slot="m",name="avg_4218_aigis_1#1$1",focus="m")]
+[name="埃癸斯"]无糖冰淇淋吗？我很有兴趣。
+[charslot(slot="m",name="avg_npc_2388_1#9$4",focus="m")]
+[name="天田乾"]埃癸斯……？
+[charslot(slot="m",name="avg_4218_aigis_1#3$1",focus="m")]
+[name="埃癸斯"]因为，冰淇淋的制作是必然要使用到糖的，是这样吧。
+[charslot]
+[charslot(slot="l",name="avg_npc_1793_1#8$1",focus="r")]
+[charslot(slot="r",name="avg_npc_368_1#1$1",focus="r")]
+[name="凯拉"]没错。糖在冰淇淋成形中会起到很重要的作用——稳定结构、降低冰点……冰淇淋中放不放糖，并不只是口味的问题。
+[name="凯拉"]“无糖冰淇淋”，简直就是自相矛盾……不可能存在，就算存在也不应该叫做冰淇淋……！
+[name="凯拉"]伊蒂达，就算你再不愿意承认——冰淇淋，也是不可以没有糖的！
+[charslot(slot="l",name="avg_npc_1793_1#4$1",focus="l")]
+[name="伊蒂达"]那是过去的想法！如果拉特兰可以没有神，冰淇淋为什么不可以没有糖？
+[charslot(slot="l",name="avg_npc_1793_1#6$1",focus="l")]
+[name="伊蒂达"]凯拉姐不接受无糖冰淇淋，是害怕卖不出去？是因为不好吃？还是……只因为你觉得这样不对？
+[charslot(slot="r",name="avg_npc_368_1#1$1",focus="r")]
+[name="凯拉"]我并不害怕卖不出去，我自己也会开发失败的新品……但是，“冰淇淋必须加糖”绝对不是我的个人想法！
+[name="凯拉"]作为街坊，我愿意照顾小伊蒂达的生意，但作为这间甜食礼堂的司务，我不能做这么轻率的事。
+[charslot(slot="l",name="avg_npc_1793_1#7$1",focus="l")]
+[name="伊蒂达"]那如果大家愿意接受我的无糖冰淇淋呢？
+[charslot(slot="l",name="avg_npc_1793_1#9$1",focus="l")]
+[multiline(name="伊蒂达")]凯拉姐，就今天，你给我一个……
+[charslot(slot="l",name="avg_npc_1793_1#8$1",focus="l")]
+[multiline(name="伊蒂达")]半个柜台！如果大家真的喜欢它们，你再考虑考虑我的提议，好不好？
+[charslot(slot="r",name="avg_npc_368_1#1$1",focus="r")]
+[name="凯拉"]唉……
+[Dialog]
+[curtain(direction = 3,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0.7)]
+[delay(time=1)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[delay(time=1)]
+[curtain(direction = 3,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0)]
+[curtain(direction = 7,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0)]
+[Background(image="77_g11_dessert",screenadapt="coverall")]
+[delay(time=1)]
+[curtain(direction = 7,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0.7)]
+[Delay(time=1.5)]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot="l",name="avg_4219_yukari_1#1$4",afrom=0, ato=1,duration=1.5)]
+[charslot(slot="r",name="avg_npc_2377_1#7$1",afrom=0, ato=1,duration=1.5)]
+[Delay(time=2)]
+[charslot(slot="l",name="avg_4219_yukari_1#1$4",focus="l")]
+[multiline(name="岳羽由加莉")]埃癸斯，天田，我和阿米娅出来休息了……
+[charslot(slot="l",name="avg_4219_yukari_1#6$4",focus="l")]
+[multiline(name="岳羽由加莉")]欸？结城在做什么？
+[charslot]
+[charslot(slot="l",name="avg_4218_aigis_1#1$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2388_1#1$4",focus="l")]
+[name="埃癸斯"]在进行售卖冰淇淋的比赛。
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#6$4",focus="r")]
+[charslot(slot="r",name="avg_npc_2377_1#4$1",focus="r")]
+[name="班长"]比赛吗？对手是谁呀？
+[charslot]
+[charslot(slot="l",name="avg_4218_aigis_1#1$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2388_1#1$4",focus="l")]
+[name="埃癸斯"]名叫伊蒂达的女孩。
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#8$4",focus="l")]
+[charslot(slot="r",name="avg_npc_2377_1#4$1",focus="l")]
+[name="岳羽由加莉"]旁边那位？不是说小学生不能参加志愿实践吗……
+[charslot]
+[charslot(slot="l",name="avg_4218_aigis_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2388_1#2$4",focus="r")]
+[name="天田乾"]那位不是小学生啦，好像是附近的一位冰淇淋师，想在这座甜食礼堂售卖她的“无糖冰淇淋”。
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#12$4",focus="l")]
+[charslot(slot="r",name="avg_npc_2377_1#4$1",focus="l")]
+[name="岳羽由加莉"]无糖冰淇淋……？到“甜食礼堂”来的客人会买这样的冰淇淋吗？
+[name="岳羽由加莉"]而且，她现在卖的好像就是摊位上普通的冰淇淋啊。还是说无糖冰淇淋就长这样？
+[charslot]
+[charslot(slot="l",name="avg_4218_aigis_1#9$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2388_1#2$4",focus="l")]
+[name="埃癸斯"]伊蒂达现在售卖的正是店中提供的普通冰淇淋，负责售卖无糖冰淇淋的是理。凯拉说，这样才比较公平。
+[charslot(slot="r",name="avg_npc_2388_1#1$4",focus="r")]
+[name="天田乾"]她说，如果无论是谁都能顺利卖出无糖冰淇淋，才能证明客人们是喜欢无糖冰淇淋本身。
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#12$4",focus="r")]
+[charslot(slot="r",name="avg_npc_2377_1#3$1",focus="r")]
+[name="班长"]向拉特兰人兜售无糖冰淇淋吗……我有点想象不来……
+[charslot]
+[charslot(slot="l",name="avg_4218_aigis_1#10$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2388_1#1$4",focus="l")]
+[name="埃癸斯"]我认为凯拉非常善良。她一定很想答应伊蒂达的请求，才会这样安排。
+[charslot(slot="l",name="avg_4218_aigis_1#9$1",focus="l")]
+[name="埃癸斯"]因为，毫无疑问，理一定能比伊蒂达卖出更多的冰淇淋。
+[charslot(slot="r",name="avg_npc_2388_1#13$4",focus="r")]
+[name="天田乾"]从目前的状况来看，也许是这样吧……
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image(image="77_i08_3", screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="顾客A"]伊蒂达？你今天在礼堂帮忙吗，帮我拿五盒覆盆子葡萄干冰淇淋吧。
+[name="伊蒂达"]什么……葡萄干可是超级高糖食物，冰淇淋本身的含糖量就不低，如果再加葡萄干的话，含糖量有可能超过30%！！
+[name="伊蒂达"]这款冰淇淋一盒是400克，也就是说吃一盒冰淇淋就可能摄入超过120克糖！五盒就是600克！
+[name="伊蒂达"]安娜姐你好好想一想，你要吃这——么多糖吗？
+[name="顾客A"]呃……我每周都是这么吃的？
+[name="伊蒂达"]糖！是非常邪恶的！会带来龋齿、嗜睡、炎症、激素失调、皮肤老化、体重增加……简直就是一切健康问题的帮凶！
+[name="伊蒂达"]安娜姐……不为自己的身体考虑一下吗？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[Image]
+[Background(image="77_g11_dessert",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_4219_yukari_1#7$4",focus="m")]
+[name="岳羽由加莉"]……这样“推销”吗……
+[charslot(slot="m",name="avg_4219_yukari_1#10$4",focus="m")]
+[name="岳羽由加莉"]可是，结城那边的情况，好像也有点微妙吧……他是不是有点紧张？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image(image="77_i08_2", screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="顾客B"]这些冰淇淋之前没见过，是新品吗？
+[name="结城理"]是新品。
+[name="顾客B"]……不为我介绍一下吗？好像是比较少见的口味啊。
+[name="结城理"]是特别配方的无糖冰淇淋。
+[name="顾客B"]然后呢，具体是哪里“特别”？
+[name="结城理"]很健康。
+[name="顾客B"]……
+[name="结城理"]……
+[name="顾客B"]……
+[name="结城理"]您要买吗？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[Image]
+[Background(image="77_g11_dessert",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_2388_1#13$4",focus="m")]
+[name="天田乾"]……
+[charslot(slot="m",name="avg_4218_aigis_1#9$1",focus="m")]
+[name="埃癸斯"]有益身体健康的冰淇淋，对人类来说是非常吸引人的食物吧。如果是我，一定会买。
+[charslot(slot="m",name="avg_4219_yukari_1#7$4",focus="m")]
+[name="岳羽由加莉"]嗯……嗯？不对，你是机器人吧……话说埃癸斯，你有钱吗？
+[charslot(slot="m",name="avg_4218_aigis_1#1$1",focus="m")]
+[name="埃癸斯"]我没有拉特兰的货币。
+[charslot(slot="m",name="avg_npc_2388_1#5$4",focus="m")]
+[name="天田乾"]……要是结城哥什么都卖不出去，实习的成绩会怎么算啊……
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_doorbell",volume=1)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_2387_1#2$3",focus="m")]
+[name="山岸风花"]欢迎光临。
+[Dialog]
+[charslot]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot="l",name="avgnew_173_slchan_1#1$1",afrom=0, ato=1,duration=1.5)]
+[charslot(slot="r",name="avg_npc_361_1#1$1",afrom=0, ato=1,duration=1.5)]
+[Delay(time=2)]
+[charslot(slot="l",name="avgnew_173_slchan_1#3$1",focus="l")]
+[name="顾客C"]薇尔丽芙，没想到你推荐的甜品店竟然会是这样的社区集市……
+[charslot(slot="r",name="avg_npc_361_1#6$1",focus="r")]
+[name="薇尔丽芙"]我猜恩希亚小姐会更喜欢这种。
+[charslot(slot="l",name="avgnew_173_slchan_1#10$1",focus="l")]
+[name="顾客C"]你说得没错，我喜欢这里！薇尔丽芙有推荐的甜品吗？
+[charslot(slot="r",name="avg_npc_361_1#6$1",focus="r")]
+[name="薇尔丽芙"]我喜欢这里的无花果冰淇淋。
+[charslot(slot="l",name="avgnew_173_slchan_1#1$1",focus="l")]
+[name="顾客C"]我看看，冰淇淋是在……
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image(image="77_i08_1", screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="结城理"]你好。
+[name="伊蒂达"]要买冰淇淋吗，我推荐那边的无糖冰淇淋哦！
+[name="结城理"]这边是无糖冰淇淋。
+[name="顾客C"]无花果冰淇淋在哪一边？
+[name="伊蒂达"]好吧，在我这……咦，不好意思！已经卖完了。
+[name="顾客C"]这样啊……那你们刚才说的无糖冰淇淋好吃吗？
+[name="薇尔丽芙"]……无糖冰淇淋？凯拉怎么会允许这种东西出现？
+[name="伊蒂达"]什么叫“这种东西”！无糖冰淇淋可是拉特兰历史上前所未有的伟大革新！
+[name="薇尔丽芙"]恩希亚小姐，如果你想了解拉特兰特色食物的话，我建议你考虑其他选项。
+[name="顾客C"]我来这里就是想再多了解了解现在的拉特兰呀。我对“伟大革新”很感兴趣哦。
+[name="顾客C"]这些无糖冰淇淋我都要了！可以打包吗？
+[name="结城理"]可以。谢谢惠顾。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[Image]
+[Background(image="77_g11_dessert",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Delay(time=1)]
+[charslot(slot="l",name="avg_npc_1793_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_368_1#1$1",focus="r")]
+[name="凯拉"]……真的全部都卖掉了？所有的无糖冰淇淋？
+[charslot(slot="l",name="avg_npc_1793_1#3$1",focus="l")]
+[name="伊蒂达"]是的，凯拉姐！
+[charslot(slot="r",name="avg_npc_368_1#1$1",focus="r")]
+[name="凯拉"]那原本的冰淇淋备货呢？伊蒂达，你该没有耍小花招吧？我来看看台账……
+[name="凯拉"]喔~也卖掉了不少嘛！这样看下来，好像是平手……
+[charslot(slot="l",name="avg_npc_1793_1#6$1",focus="l")]
+[name="伊蒂达"]……唉！不管我怎么解释糖的坏处，大家对那些高糖甜品还是照买不误。
+[name="伊蒂达"]为什么大家就是不相信糖很坏呢……我找到的好多哥伦比亚论文都是这么说的！
+[charslot(slot="r",name="avg_npc_368_1#1$1",focus="r")]
+[name="凯拉"]虽然我不懂什么哥伦比亚论文……但拉特兰人怎么可能抛弃甜食呢，伊蒂达。
+[name="凯拉"]我们从小就是吃着甜食长大的呀。
+[name="凯拉"]伊蒂达知道我最喜欢玛德琳蛋糕吧？那是因为，我拿到守护铳后的第一次实弹练习，头晕得要命，妈妈给我准备好的甜食就是玛德琳。
+[name="凯拉"]我永远都会记得咀嚼那块蛋糕的时候，嘴里散开的甜味。
+[name="凯拉"]甜味是味道，也是我们的生活和记忆……
+[name="凯拉"]不论发生了多大的变故，只要这些记忆在那里，拉特兰人的生活就不是那么轻易能改变的……
+[name="凯拉"]我们还是会喜欢甜食，我还是会在练完铳后吃一块玛德琳。
+[name="凯拉"]伊蒂达，你希望大家喜欢上你的无糖冰淇淋，却对大家现在喜欢的东西视而不见，这样真的好吗？
+[charslot(slot="l",name="avg_npc_1793_1#7$1",focus="l")]
+[name="伊蒂达"]……凯拉姐，我……
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#1$7",focus="m")]
+[name="结城理"]凯拉小姐，你尝过伊蒂达的冰淇淋吗？
+[name="结城理"]我自己买了几份留下来，想和同学分享……
+[charslot(slot="m",name="avg_4217_makoto_1#1$7",focus="m")]
+[name="结城理"]要尝尝看吗？其实我觉得味道挺好的。
+[charslot]
+[charslot(slot="l",name="avg_npc_1793_1#7$1",focus="r")]
+[charslot(slot="r",name="avg_npc_368_1#1$1",focus="r")]
+[name="凯拉"]唔……
+[Dialog]
+[Delay(time=1)]
+[charslot(slot="r",name="avg_npc_368_1#1$1",focus="r")]
+[name="凯拉"]咦……和之前试吃的时候不一样？虽然只有一点点，但确实有甜味……
+[charslot(slot="l",name="avg_npc_1793_1#11$1",focus="l")]
+[name="伊蒂达"]嗯……我尝试了一下无糖甜味剂……很难买到呢！要从国外邮购，只有最近新开的一家物流公司能送货……
+[charslot(slot="l",name="avg_npc_1793_1#9$1",focus="l")]
+[multiline(name="伊蒂达")]因为和糖的甜味还是不太一样，所以我觉得也没有必要放太多，但是……
+[charslot(slot="l",name="avg_npc_1793_1#1$1",focus="l")]
+[multiline(name="伊蒂达")]嗯，至少可以作为一种无糖冰淇淋的新口味吧……
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#1$7",focus="m")]
+[name="结城理"]虽然比赛结果是平手，不过，无糖冰淇淋确实卖完了。
+[charslot]
+[charslot(slot="l",name="avg_npc_1793_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_368_1#1$1",focus="r")]
+[name="凯拉"]好吧，如果要证明“有人可以接受无糖冰淇淋”，这样的确也足够了……
+[name="凯拉"]伊蒂达，我们找时间聊聊租用柜台的细节吧。
+[charslot(slot="l",name="avg_npc_1793_1#3$1",focus="l")]
+[name="伊蒂达"]凯拉姐……！谢谢你……
+[charslot(slot="l",name="avg_npc_1793_1#11$1",focus="l")]
+[multiline(name="伊蒂达")]还有这位店员……“理”，是这么读的吗？
+[charslot(slot="l",name="avg_npc_1793_1#10 $1",focus="l")]
+[multiline(name="伊蒂达")]也谢谢你！
+[charslot(slot="l",name="avg_npc_1793_1#1$1",focus="l")]
+[name="伊蒂达"]请收下我的名片——如果你和同学还想买无糖冰淇淋的话，可以发邮件订购，支持送货上门！
+[Dialog]
+[curtain(direction = 3,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0.7)]
+[delay(time=1)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[delay(time=1)]
+[curtain(direction = 3,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0)]
+[curtain(direction = 7,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0)]
+[Background(image="77_g11_dessert",screenadapt="coverall")]
+[delay(time=1)]
+[curtain(direction = 7,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0.7)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_368_1#1$1",focus="m")]
+[name="凯拉"]好啦，实习时间也差不多了，同学们可以把终端拿出来让我签字了哦。
+[name="凯拉"]齐塔，你拍到不错的照片了吗？
+[charslot(slot="m",name="avg_npc_1795_1#1$2",focus="m")]
+[name="摄影师"]超出预期呀！竟然还在这里见到了那位有名的运动员……
+[charslot(slot="m",name="avg_npc_368_1#1$1",focus="m")]
+[name="凯拉"]运动员？谁哦？
+[charslot(slot="m",name="avg_npc_1795_1#1$2",focus="m")]
+[name="摄影师"]是拯救无糖冰淇淋的人~
+[Dialog]
+[stopmusic(fadetime=2)]
+[curtain(direction = 3,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0.7)]
+[delay(time=1)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[delay(time=1)]
+[curtain(direction = 3,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0)]
+[curtain(direction = 7,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0)]
+[Background(image="26_g9_laterano_street",screenadapt="coverall")]
+[delay(time=1)]
+[PlayMusic(intro="$m_dia_street_intro", key="$m_dia_street_loop", volume=0.6)]
+[curtain(direction = 7,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0.7)]
+[Delay(time=1.5)]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot="l",name="avgnew_173_slchan_1#1$1",afrom=0, ato=1,duration=1.5)]
+[charslot(slot="r",name="avg_npc_361_1#3$1",afrom=0, ato=1,duration=1.5)]
+[Delay(time=2)]
+[charslot(slot="r",name="avg_npc_361_1#3$1",focus="r")]
+[name="薇尔丽芙"]恩希亚小姐，我理解你的好奇心。但并不是什么东西都和拉特兰的变革有关，至少无糖冰淇淋肯定不是。
+[name="薇尔丽芙"]你让我把这么多无糖冰淇淋“带给朋友分享”，我很难解释。
+[charslot(slot="l",name="avgnew_173_slchan_1#6$1",focus="l")]
+[name="顾客C"]欸？我没有想那么多啦，其实这冰淇淋味道还不错……
+[charslot(slot="l",name="avgnew_173_slchan_1#1$1",focus="l")]
+[name="顾客C"]你也不用这样紧盯着我，虽然我之前对你那么说……其实我是为了私心来的。
+[charslot(slot="l",name="avgnew_173_slchan_1#1$1",focus="l")]
+[name="顾客C"]只是想看看拉特兰人现在的生活……毕竟，现在我们的处境有点相像了，不是吗？
+[charslot(slot="r",name="avg_npc_361_1#1$1",focus="r")]
+[name="薇尔丽芙"]你是这么想的吗？
+[charslot(slot="l",name="avgnew_173_slchan_1#1$1",focus="l")]
+[multiline(name="顾客C")]对啊，我就是这么想的……
+[charslot(slot="l",name="avgnew_173_slchan_1#3$1",focus="l")]
+[multiline(name="顾客C")]咦，前面有运动用品店？
+[Dialog]
+[PlaySound(key="$rungeneral", volume=1,channel="1")]
+[StopSound(channel="1",fadetime=1.5)]
+[charslot(slot="l",afrom=1, ato=0,duration=1.5,focus="l")]
+[Delay(time=2)]
+[charslot(slot="r",name="avg_npc_361_1#4$1",focus="r")]
+[name="薇尔丽芙"]恩希亚小姐，拉特兰的运动用品是指——
+[charslot(slot="r",name="avg_npc_361_1#1$1",focus="r")]
+[name="薇尔丽芙"]唉。这么单纯的姑娘，应付起来也是一种麻烦。
+[name="薇尔丽芙"]这么多冰淇淋啊……蕾缪安妹妹的物流公司，能送冰品吗……
+[charslot(slot="r",name="avg_npc_361_1#7$1",focus="r")]
+[name="薇尔丽芙"]（小声）要是那个无赖在，就能全部丢给他吃了。
+[charslot(slot="r",name="avg_npc_361_1#1$1",focus="r")]
+[name="薇尔丽芙"]……可不要死在外面了。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3.5, block=true)]
+[charslot]
+[Image]
+[Background(image="77_g17_square_dark",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3.5, block=true)]
+[Delay(time=1)]
+[PlayMusic(intro="$ponder_intro", key="$ponder_loop", volume=0.6)]
+[charslot(slot="r",name="avg_npc_2388_1#1$2",focus="r")]
+[charslot(slot="l",name="avg_4219_yukari_1#1$2",focus="r")]
+[name="天田乾"]今天在出发调查之前休息了一下，精神好多了……
+[charslot(slot="r",name="avg_npc_2388_1#3$2",focus="r")]
+[name="天田乾"]不过，我在想之前埃癸斯说的事，关于那些“暗影”……
+[charslot]
+[charslot(slot="l",name="avg_4218_aigis_1#8$2",focus="l")]
+[charslot(slot="r",name="avg_npc_2387_1#1$2",focus="l")]
+[name="埃癸斯"]嗯。虽然和暗影有些相似，但我想它们确实不是暗影。至少，和我们世界的暗影是不同的。
+[name="埃癸斯"]所以我觉得，可以考虑换一种叫法。比如，就叫“怪物”怎么样？更简单也更清楚。
+[charslot(slot="r",name="avg_npc_2387_1#3$2",focus="r")]
+[name="山岸风花"]嗯，也是。之前我觉得它们的反应和暗影有相似之处，就那样称呼了……区分开也好。
+[name="山岸风花"]既然埃癸斯也确认了它们不是暗影，那还是叫做怪物吧。
+[charslot]
+[charslot(slot="r",name="avg_npc_2388_1#3$2",focus="r")]
+[charslot(slot="l",name="avg_4219_yukari_1#1$2",focus="r")]
+[name="天田乾"]但是……如果它们不是暗影，那之前我们猜测“怪物可能和我们一样，是从门扉来到拉特兰的”这一点，还能成立吗？
+[charslot(slot="r",name="avg_npc_2388_1#13$2",focus="r")]
+[name="天田乾"]本来还想着，也许能通过调查它们来寻找门扉呢……
+[charslot(slot="r",name="avg_npc_2388_1#13$2",focus="r")]
+[name="天田乾"]而且昨晚虽然和埃癸斯会合了，但还是没有见到门扉……
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#1$3",focus="m")]
+[name="结城理"]和博士联络时，博士也提到了这一点。不过……
+[charslot(slot="m",name="avg_4217_makoto_1#8$3",focus="m")]
+[name="结城理"]我们消灭这些怪物，并不只是为了自己。
+[charslot]
+[charslot(slot="r",name="avg_npc_2388_1#13$2",focus="l")]
+[charslot(slot="l",name="avg_4219_yukari_1#9$2",focus="l")]
+[name="岳羽由加莉"]嗯，怪物对拉特兰人会造成怎样的伤害，现在还没有搞明白呢……
+[charslot(slot="l",name="avg_4219_yukari_1#4$2",focus="l")]
+[name="岳羽由加莉"]昨天，埃癸斯在靶场里，又遇见怪物接触到拉特兰人的情况了。
+[charslot]
+[charslot(slot="l",name="avg_4218_aigis_1#1$2",focus="l")]
+[charslot(slot="r",name="avg_npc_2387_1#3$2",focus="l")]
+[name="埃癸斯"]没错，拉特兰人很友善。
+[charslot(slot="l",name="avg_4218_aigis_1#11$2",focus="l")]
+[name="埃癸斯"]为了驱逐怪物，我不得不在平民面前使用了热武器，他们不仅不回避，还有人对我鼓掌喝彩，说我的持铳思路和装扮技巧别具一格。
+[charslot]
+[charslot(slot="r",name="avg_npc_2388_1#13$2",focus="l")]
+[charslot(slot="l",name="avg_4219_yukari_1#7$2",focus="l")]
+[multiline(name="岳羽由加莉")]不，这部分就先别管了……
+[charslot(slot="l",name="avg_4219_yukari_1#4$2",focus="l")]
+[multiline(name="岳羽由加莉")]我记得你说在疏散人群的时候，有人不小心碰到怪物，从它身体中间穿过去了，有这回事吧？
+[charslot]
+[charslot(slot="l",name="avg_4218_aigis_1#7$2",focus="l")]
+[charslot(slot="r",name="avg_npc_2387_1#3$2",focus="l")]
+[name="埃癸斯"]不错，确实有这样的事。
+[charslot]
+[charslot(slot="r",name="avg_npc_2388_1#13$2",focus="l")]
+[charslot(slot="l",name="avg_4219_yukari_1#10$2",focus="l")]
+[name="岳羽由加莉"]那个人身上……有发生什么吗？
+[charslot]
+[charslot(slot="l",name="avg_4218_aigis_1#6$2",focus="l")]
+[charslot(slot="r",name="avg_npc_2387_1#3$2",focus="l")]
+[name="埃癸斯"]那位长着羽毛的女性随后把她的武器交给了我，说很羡慕我。
+[charslot(slot="l",name="avg_4218_aigis_1#11$2",focus="l")]
+[name="埃癸斯"]我不明白。难道她在羡慕我的持铳思路和装扮技巧？
+[charslot(slot="l",name="avg_4218_aigis_1#1$2",focus="l")]
+[name="埃癸斯"]不过，因为她和怪物接触了，我也留意了她的身体状况，她看起来并没有受伤。
+[charslot]
+[charslot(slot="r",name="avg_npc_2388_1#13$2",focus="l")]
+[charslot(slot="l",name="avg_4219_yukari_1#4$2",focus="l")]
+[name="岳羽由加莉"]这样啊，那就好……
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#1$3",focus="m")]
+[name="结城理"]根据博士的调查，拉特兰城内目前并没有出现身患无气力症的人，一些疑似的情况也排查过了，应该不是。
+[charslot]
+[charslot(slot="r",name="avg_npc_2388_1#13$2",focus="l")]
+[charslot(slot="l",name="avg_4219_yukari_1#6$2",focus="l")]
+[name="岳羽由加莉"]博士……这么厉害？这真的是普通教师在几天内能做到的事吗……
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#5$3",focus="m")]
+[name="结城理"]我也问了这个问题。博士说，“因为有可靠的朋友帮忙”……
+[charslot(slot="m",name="avg_4217_makoto_1#2$3",focus="m")]
+[name="结城理"]只是，寻找门扉的事，现在确实有点失去方向……
+[charslot]
+[charslot(slot="l",name="avg_4218_aigis_1#1$2",focus="r")]
+[charslot(slot="r",name="avg_npc_2387_1#3$2",focus="r")]
+[name="山岸风花"]……虽然，埃癸斯能确认那些怪物不是暗影的话，它们是通过门扉来到拉特兰的可能性下降了……
+[charslot(slot="r",name="avg_npc_2387_1#11$2",focus="r")]
+[name="山岸风花"]但是，我在想……它们的气息毕竟还是和暗影很相似。
+[charslot(slot="l",name="avg_4218_aigis_1#7$2",focus="l")]
+[name="埃癸斯"]嗯，如果要说相似性，确实是存在的。
+[charslot(slot="r",name="avg_npc_2387_1#11$2",focus="r")]
+[name="山岸风花"]而且经过这几天的夜间调查，我们也确认了，只有在怪物出没的地方，街道才会发生现在这样的异变……
+[charslot]
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="77_g17_square_dark",xScale=1.7, yScale=1.7,x=0,y=-60,duration=0.5,block=true)]
+[delay(time=0.5)]
+[backgroundTween(yFrom = -60, yTo = -240,x=0, duration=10, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=false)]
+[delay(time=4)]
+风花停下脚步，抬头望向了夜空中金黄色的天体。
+[dialog]
+[Background(image="77_g17_square_dark",screenadapt="coverall",fadetime=2)]
+[delay(time=2)]
+[charslot(slot="m",name="avg_npc_2387_1#3$2",focus="m")]
+[name="山岸风花"]这幅景象，看起来难道不是很熟悉吗……
+[charslot(slot="m",name="avg_npc_2388_1#9$2",focus="m")]
+[name="天田乾"]等等……昨天，也是满月？昨天、前天……甚至从我们开始调查的第一天，是不是一直都是满月？
+[charslot(slot="m",name="avg_4219_yukari_1#6$2",focus="m")]
+[name="岳羽由加莉"]……原来拉特兰的月亮不会盈缺？因为是不同的世界吗……
+[charslot(slot="m",name="avg_4219_yukari_1#10$2",focus="m")]
+[name="岳羽由加莉"]我觉得风花说得有道理。毕竟只有我们才能看见这幅景象和这些怪物，我们又是因为门扉才来到拉特兰的……
+[charslot(slot="m",name="avg_4219_yukari_1#7$2",focus="m")]
+[name="岳羽由加莉"]这一系列事件，怎么想都还是应该有些关系吧？
+[charslot(slot="m",name="avg_4217_makoto_1#1$3",focus="m")]
+[name="结城理"]嗯。如果之前的假设错了，至少我们也排除了一个错误的方向。
+[charslot(slot="m",name="avg_4217_makoto_1#1$3",focus="m")]
+[name="结城理"]继续调查下去，才能找到新的线索。
+[charslot(slot="m",name="avg_4220_kormr_1#6$1",focus="m")]
+[name="虎狼丸"]汪汪，汪！
+[charslot(slot="m",name="avg_4217_makoto_1#10$3",focus="m")]
+[name="结城理"]虎狼丸，谢谢你赞同我。
+[charslot(slot="m",name="avg_4218_aigis_1#7$2",focus="m")]
+[name="埃癸斯"]虎狼丸在说，很奇怪，一直没有敌人出现。
+[charslot(slot="m",name="avg_4217_makoto_1#7$3",focus="m")]
+[name="结城理"]……确实。
+[charslot(slot="m",name="avg_npc_2388_1#13$2",focus="m")]
+[name="天田乾"]啊，没错，之前只要环境出现异变，怪物很快就会出现了……为什么这次在异变的景象中走了这么久，还没有看见怪物？
+[charslot(slot="m",name="avg_npc_2387_1#3$2",focus="m")]
+[multiline(name="山岸风花")]我感知到的暗影反应……
+[charslot(slot="m",name="avg_npc_2387_1#6$2",focus="m")]
+[multiline(name="山岸风花")]不对，怪物的反应，确实就在附近……
+[charslot(slot="m",name="avg_4220_kormr_1#2$1",focus="m")]
+[name="虎狼丸"]……汪呜！
+[charslot(slot="m",name="avg_4218_aigis_1#4$2",focus="m")]
+[name="埃癸斯"]虎狼丸说，那边有可疑的气味。
+[Dialog]
+[PlaySound(key="$d_avg_crowdrun", volume=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[Background(image="77_g17_square_dark",screenadapt="coverall")]
+[charslot]
+[delay(time=1)]
+[charslot(slot="l",name="avg_npc_2388_1#13$2")]
+[charslot(slot="r",name="avg_4220_kormr_1#2$1")]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = false, fadetime=2, block=true)]
+[Delay(time=1.5)]
+[charslot(slot="l",name="avg_npc_2388_1#1$2",focus="l")]
+[name="天田乾"]是辆坏掉的告解车？虎狼丸，我们第一天不就是从告解车里出来的吗，这在拉特兰很常见啦。
+[charslot(slot="l",name="avg_npc_2388_1#3$2",focus="l")]
+[name="天田乾"]不过这种设施损坏的情况，等到白天的时候要不要报告给执行者……
+[charslot(slot="r",name="avg_4220_kormr_1#2$1",focus="r")]
+[playsound(key="$d_avg_dogbarkangry")]
+[name="虎狼丸"]汪嗷！
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image(image="77_i09", xScale=1.2, yScale=1.2, screenadapt="coverall")]
+[ImageTween(xFrom = 0, xTo = -100, duration=0, block=false)]
+[curtain(direction = 2,fillfrom = 0.01,fillto = 0.35, grad=true, fadetime=0)]
+[curtain(direction = 6,fillfrom = 0.01,fillto = 0.35, grad=true, fadetime=0)]
+[Delay(time=2)]
+[PlaySound(key="$runsand", volume=1)]
+[playmusic(intro="$m_bat1_act54side_intro", key="$m_bat1_act54side_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="天田乾"]等等，虎狼丸，为什么突然冲出去——
+[Dialog]
+[curtain(direction = 2,fillfrom = 0.35,fillto = 0.8, grad=true, fadetime=1)]
+[curtain(direction = 6,fillfrom = 0.35,fillto = 0.35, grad=true, fadetime=1)]
+[Delay(time=1.5)]
+[Image(image="77_i09", xScale=1.1, yScale=1.1, screenadapt="coverall")]
+[curtain(direction = 2,fillfrom = 0.8,fillto = 0.55, grad=true, fadetime=1)]
+[curtain(direction = 6,fillfrom = 0.8,fillto = 0.01, grad=true, fadetime=1)]
+[PlaySound(key="$d_avg_confession_vehicle_fled_loop",loop=true, volume=1,channel="car1")]
+[Delay(time=1.5)]
+[name="天田乾"]哇啊啊啊告解车怎么跑起来了，不是轮子都没了吗……脚？长脚了？！
+[name="虎狼丸"]嗷呜——汪——！
+[name="埃癸斯"]虎狼丸说——那不是普通的告解车——
+[Dialog]
+[curtain(direction = 2,fillfrom = 0.55,fillto = 0.01, grad=true, fadetime=1)]
+[curtain(direction = 6,fillfrom = 0.01,fillto = 0.01, grad=true, fadetime=1)]
+[Image(image="77_i09",fadetime=0.5, xScale=1, yScale=1, screenadapt="coverall")]
+[Delay(time=1.5)]
+[name="天田乾"]这辆车——怎么跑得那么快——还一直在拐弯——
+[name="天田乾"]虎狼丸——等等大家啦——
+[CameraShake(duration=0.3, xstrength=50, ystrength=50, vibrato=70, randomness=90, fadeout=true, block=false)]
+[Image(image="77_i09",fadetime=1, screenadapt="coverall")]
+[name="岳羽由加莉"]……真是熟悉的感觉……这种追逐战……
+[name="虎狼丸"]——汪！
+[stopsound(channel="car1",fadetime=1)]
+[Dialog]
+[Delay(time=1)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[gridbg]
+[stopmusic(fadetime=2)]
+[Image]
+[charslot]

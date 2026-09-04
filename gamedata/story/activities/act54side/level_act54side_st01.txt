@@ -1,0 +1,641 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="bg_black",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlayMusic(intro="$drift_intro", key="$drift_loop", volume=0.6)]
+[delay(time=1)]
+[Sticker(id="st1", multi = true, text="今天，我把啤酒杯送给了楼下的卡罗叔叔。他记性太坏，隔两周就要问一次杯子是从哪家工坊买的。", x=300,y=250, alignment="left", size=24, delay=0.04, width=700,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n我当然没想瞒他，但那家工坊的老板绝不愿意做两个相同的杯子，这我可没办法。",block = true)]
+[Sticker(id="st1")]
+[delay(time=0.5)]
+[Sticker(id="st1", multi = true, text="把杯子送给他之前，我找他要了一杯免费的酒作为交换。卡罗满面笑容地——", x=300,y=250, alignment="left", size=24, delay=0.04, width=700,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n他满面笑容地、尴尬地眯起了一只眼，用一种不同寻常的低声调，偷偷摸摸、不好意思地问我：",block = true)]
+[Sticker(id="st1", multi = true, text="\n\n“你今天想喝什么？”",block = true)]
+[Sticker(id="st1")]
+[delay(time=0.5)]
+[Sticker(id="st1", multi = true, text="我肯定是笑了，他看起来松了一口气，说：“这么说，你好多了？那来一杯黄油薄巧热奶啤，五份糖？”", x=300,y=250, alignment="left", size=24, delay=0.04, width=700,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n我说好，到畅饮台拿了一个厚纸杯，把这杯免费的酒端回了家。",block = true)]
+[Sticker(id="st1")]
+[delay(time=0.5)]
+[Sticker(id="st1", multi = true, text="天色暗了，月光落进窗户，像冰一片片堆叠。饮料冒出的热气越来越薄，月光里的屋子却像是越来越烫，让我想起那一天。", x=300,y=250, alignment="left", size=24, delay=0.04, width=700,block = true)]
+[Sticker(id="st1", multi = true, text="\n\n那一天，无尽的热切的感情烘烤着我的心，就像煎锅里的黄油一样，它幸福地融化了。",block = true)]
+[Sticker(id="st1", multi = true, text="\n\n歌声在耳边轻哼，我啜饮甜蜜的液体，“啦啦啦，啦啦……”",block = true)]
+[Sticker(id="st1")]
+[delay(time=1)]
+[Blocker(a=0.7, r=0, g=0, b=0, fadetime=0, block=true)]
+[Subtitle(text="“从前……河流……山麓……”", x=300, y=350, alignment="center", size=25, delay=0.04, width=700)]
+[Subtitle(text="“大地的各处……都已见识……”", x=300, y=350, alignment="center", size=25, delay=0.04, width=700)]
+[focusout(duration=0, type="bg", from=0, to=0.8, block=true)]
+[Background(image="bg_ibtownd",xScale=1.2, yScale=1.2, fadetime=1,screenadapt="coverall")]
+[backgroundTween(xFrom = 100, xTo = -100, duration=40, block=false)]
+[Subtitle(text="“……伊比利亚的盐滩……萨尔贡的沙砾……”", x=300, y=350, alignment="center", size=25, delay=0.04, width=700)]
+[Delay(time=0.5)]
+[Background(image="bg_desert_1",xScale=1.2, yScale=1.2, fadetime=1,screenadapt="coverall")]
+[backgroundTween(xFrom = 100, xTo = -100, duration=40, block=false)]
+[Delay(time=2.5)]
+[Background(image="bg_wilderness_1",xScale=1.2, yScale=1.2, fadetime=1,screenadapt="coverall")]
+[backgroundTween(xFrom = 100, xTo = -100, duration=40, block=false)]
+[Subtitle(text="“……哥伦比亚的冷风……去年的草根……”", x=300, y=350, alignment="center", size=25, delay=0.04, width=700)]
+[Delay(time=0.5)]
+[Background(image="28_g3_slumstreets_night",xScale=1.2, yScale=1.2, fadetime=1,screenadapt="coverall")]
+[backgroundTween(xFrom = 100, xTo = -100, duration=40, block=false)]
+[Subtitle(text="“莱塔尼亚酒馆里……踏步舞声永不息……”", x=300, y=350, alignment="center", size=25, delay=0.04, width=700)]
+[Delay(time=0.5)]
+[Background(image="bg_23_G01",xScale=1.2, yScale=1.2, fadetime=1,screenadapt="coverall")]
+[backgroundTween(xFrom = 100, xTo = -100, duration=40, block=false)]
+[Subtitle(text="“卡西米尔骄阳如剑……”", x=300, y=350, alignment="center", size=25, delay=0.04, width=700)]
+[Delay(time=0.5)]
+[Background(image="bg_iceforest_2",xScale=1.2, yScale=1.2, fadetime=1,screenadapt="coverall")]
+[backgroundTween(xFrom = 100, xTo = -100, duration=40, block=false)]
+[Subtitle(text="“乌萨斯的春天雪水沸腾作炊烟……”", x=300, y=350, alignment="center", size=25, delay=0.04, width=700)]
+[Delay(time=0.5)]
+[Background(image="26_g1_laterano_cathedralfront",xScale=1.2, yScale=1.2, fadetime=1,screenadapt="coverall")]
+[backgroundTween(xFrom = 100, xTo = -100, duration=40, block=false)]
+[Subtitle(text="“最后我来到拉特兰……”", x=300, y=350, alignment="center", size=25, delay=0.04, width=700)]
+[Subtitle(text="“没有地方可与拉特兰相比。”", x=300, y=350, alignment="center", size=25, delay=0.04, width=700)]
+[Subtitle(text="“糖与铳与信心……”", x=300, y=350, alignment="center", size=25, delay=0.04, width=700)]
+[Subtitle(text="“我将拉特兰一饮而尽。”", x=300, y=350, alignment="center", size=25, delay=0.04, width=700)]
+[Dialog]
+[Subtitle]
+[stopmusic(fadetime=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="26_g1_laterano_cathedralfront",screenadapt="coverall")]
+[focusout(duration=0, type="bg", from=0.8, to=0, block=true)]
+[Delay(time=3)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]
+[PlayMusic(key="$normal_loop", volume=0.6)]
+[Delay(time=1)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="26_g9_laterano_street",screenadapt="coverall")]
+[Delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="77_g9_gate",screenadapt="coverall")]
+[Delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="77_g6_funeralhome",xScale=1, yScale=1,screenadapt="coverall")]
+[Delay(time=2)]
+[charslot(slot="l",name="avg_npc_2378_1#1$1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[charslot(slot="l",name="avg_npc_2378_1#11$1")]
+[Delay(time=2)]
+[charslot(slot="l",name="avg_npc_2378_1#2$1")]
+[Delay(time=2)]
+[PlaySound(key="$d_gen_dooropen")]
+[delay(time=2)]
+[PlaySound(key="$rungeneral", volume=1,channel="1")]
+[delay(time=1)]
+[charslot(slot="r",name="avg_npc_2379_1#2$1",afrom=0, ato=1,duration=0.5)]
+[charslot(slot="r",name="avg_npc_2379_1#1$1",posfrom="40,0", posto="0,0",duration=1.5)]
+[Delay(time=2)]
+[charslot(slot="r",name="avg_npc_2379_1#1$1",focus="r")]
+[name="裘里奥"]送到了！只是迟了二十分钟而已，我们有一整个上午呢。就当是多看了一个被否决的选项好啦！
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]“多看了一个被否决的选项”，这就叫做浪费时间吧？
+[charslot(slot="r",name="avg_npc_2379_1#11$1",focus="r")]
+[multiline(name="裘里奥")]没说不是……
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[multiline(name="裘里奥")]但比起骂我还是先来看看东西吧不然浪费的时间就更多了对不对吉阿达小姐！
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]……请介绍吧，裘里奥先生。不用炫耀你的语速，你没有在主持派对，我也没有这么急。
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[multiline(name="吉阿达")]鉴于你说你花了整整六天在这件事情上，
+[multiline(name="吉阿达")]我很期待。
+[dialog]
+[Background(image="77_g6_funeralhome",xScale=1.9, yScale=1.9,screenadapt="coverall")]
+[backgroundTween(xFrom = -400, xTo = -550,y=-360, duration=40, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[name="裘里奥"]我知道你不是真心的，但是没关系。我们就从四轮驱动带可调节雨篷的这一款开始吧！
+[name="吉阿达"]不好意思？
+[charslot]
+[Dialog]
+[PlaySound(key="$d_avg_awning_adjust", volume=1)]
+[delay(time=1)]
+[name="裘里奥"]四轮驱动，驾驶座椅附带可调节雨蓬，十二岁以上皆可驾驶，虽然速度最高只有每小时二十五公里……
+[name="裘里奥"]但我觉得这也是优点，再快的话来宾就需要有执照才能驾驶了。
+[name="吉阿达"]你还打算让他们驾驶？
+[multiline(name="裘里奥")]唔，其实我是觉得来宾可以坐在驾驶席上和姨妈合影，你不觉得效果会很好吗？
+[multiline(name="裘里奥")]至于要不要开放给来宾驾驶，如果你赞同的话……
+[name="吉阿达"]……
+[multiline(name="裘里奥")]好的，你不赞同，明白了！
+[charslot]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[multiline(name="裘里奥")]下一个。
+[Dialog]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[delay(time=2)]
+[Background(image="77_g6_funeralhome",xScale=2, yScale=2,screenadapt="coverall")]
+[backgroundTween(xFrom = 100, xTo = 380,yTo = 50, duration=40, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$d_avg_brilliant_appearance", volume=1)]
+[delay(time=1)]
+[name="裘里奥"]“杯糕小子”等身雕像！陪伴我长大，想必也陪伴了我姨妈甚至奶奶长大的甜品牌子！而且确认过，有正版授权。
+[name="吉阿达"]……好吧，杯糕小子主题的款式我见过，但一般只是印制图案，你这一件……
+[name="裘里奥"]我托了四层关系才找到的艺术家怎么会做那种量产品。这个等比例雕像款只此一件，更特别的是——
+[Dialog]
+[PlaySound(key="$d_avg_statue_open", volume=1)]
+[Delay(time=2)]
+[name="裘里奥"]看，雕像是可以打开的，内部贴合身体，四肢可动，可遥控可编程。
+[name="裘里奥"]如果你想的话，我们可以让它在现场跳一曲《薇拉·珍》，我很喜欢那首歌，我觉得姨妈也……
+[name="吉阿达"]……
+[charslot]
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[curtain(direction = 2,fillfrom = 0.01,fillto = 0.6, grad=true, fadetime=0)]
+[curtain(direction = 6,fillfrom = 0.01,fillto = 0.1, grad=true, fadetime=0)]
+[Background(image="77_g6_funeralhome",xScale=1.9, yScale=1.9,screenadapt="coverall")]
+[backgroundTween(xFrom = 0, xTo = -650, duration=0, block=false)]
+[charslot(slot="l",name="avg_npc_2379_1#12$1", posfrom="0,0", posto="-130,-250",duration=0,focus="l")]
+[charslot(slot = "l",name="avg_npc_2379_1#12$1", action="zoom", poszoom = "0.5,0.5", scale=1.4, duration = 0,focus="l")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[multiline(name="裘里奥")]好的，你不想，明白了。
+[multiline(name="裘里奥")]那下一个……
+[dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[curtain(direction = 6,fillfrom = 0.1,fillto = 0.6, grad=true, fadetime=0.5)]
+[Delay(time=0.51)]
+[backgroundTween(xFrom = -650, xTo = 0, duration=0, block=false)]
+[charslot]
+[Delay(time=0.1)]
+[charslot]
+[Dialog]
+[Background(image="bg_black",screenadapt="coverall")]
+[curtain(direction = 2,fillfrom = 0.1,fillto = 0.01, grad=true, fadetime=0)]
+[curtain(direction = 6,fillfrom = 0.6,fillto = 0.01, grad=true, fadetime=0)]
+[delay(tim=0.5)]
+[Dialog]
+[PlaySound(key="$d_avg_button")]
+[delay(time=1.5)]
+[PlaySound(key="$d_avg_circulating_refrigeration_loop", volume=1, loop=true,channel="cold")]
+[Background(image="77_g6_funeralhome",screenadapt="coverall")]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="all")]
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="all")]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]喔！是吉阿达小姐喜欢的体现功能性的设计——保鲜盒造型，而且真的能保鲜！内置莱塔尼亚产冰冻源石技艺模块，四循环制冷。
+[name="裘里奥"]透明材质也很方便让姨妈和宾客合影！考虑到内部设计，可能要挑选一下放进棺材的遗物……
+[charslot(slot="l",name="avg_npc_2378_1#12$1",focus="l")]
+[name="吉阿达"]哦，原来你还记得我们是在选棺材。
+[dialog]
+[charslot(slot="l",name="avg_npc_2378_1#12$1",focus="l")]
+[PlaySound(key="$d_avg_button")]
+[delay(time=1.5)]
+[StopSound(channel="cold", fadetime=1)]
+[name="吉阿达"]把遗体放在保鲜盒里，还有内部设计……什么设计呢，把它变成豆乳萨科塔盒子吗？
+[charslot(slot="r",name="avg_npc_2379_1#3$1",focus="r")]
+[multiline(name="裘里奥")]好主意！
+[charslot(slot="r",name="avg_npc_2379_1#2$1",focus="r")]
+[multiline(name="裘里奥")]……我猜你想听的回答不是这个。
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="r")]
+[name="裘里奥"]拜托，吉阿达小姐，你能为我的派对着想一下吗？作为场地布置的核心，棺材的款式基本决定了整个派对场地的风格，这很重要。
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]首先，是“葬礼”场地，不是“派对”场地，葬礼才是这场仪式的本质。派对只是附加部分，裘里奥先生，就算没有也无妨……
+[charslot(slot="r",name="avg_npc_2379_1#8$1",focus="r")]
+[name="裘里奥"]不不不，必须有，你很清楚——合法遗嘱，公证所强制执行，执行者为此专门把我从哥伦比亚拎回拉特兰。
+[name="裘里奥"]律法在上，在姨妈的葬礼上办好这场派对就是我人生中最重要的事！——至少在这一个月里是。
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]我不是拒绝这场派对，我是说在性质上“派对”不是葬礼必需的部分……
+[charslot(slot="r",name="avg_npc_2379_1#7$1",focus="r")]
+[name="裘里奥"]吉阿达小姐，我知道你很在乎这场葬礼，我知道黎博利要当上葬礼经纪肯定不容易，见到你之前，我都不知道黎博利还能做葬礼经纪……
+[charslot(slot="l",name="avg_npc_2378_1#2$1",focus="l")]
+[name="吉阿达"]（深呼吸）
+[charslot(slot="r",name="avg_npc_2379_1#5$1",focus="r")]
+[name="裘里奥"]——抱歉！抱歉！我又说错话了是不是，你生气了？
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="l")]
+[name="吉阿达"]我没有。
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[multiline(name="吉阿达")]而且这不重要。我知道你需要鼓捣一些……
+[charslot(slot="l",name="avg_npc_2378_1#2$1",focus="l")]
+[multiline(name="吉阿达")]嗯……有趣的东西，
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[multiline(name="吉阿达")]这是你的工作，我没意见。
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]但我希望裘里奥先生能理解，棺木与死者首先是葬礼的中心，然后才是你的……派对舞台上的，设施。
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[name="吉阿达"]你不用这么紧张地看着我……这是我独立负责的第一场葬礼没错，但我也是拉特兰人，我知道拉特兰葬礼的风格。
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[multiline(name="吉阿达")]但我们完全可以选择一些更加……适中的选项，对吧？
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="l")]
+[multiline(name="吉阿达")]比如，我看看……
+[Dialog]
+[Delay(time=1.5)]
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[name="吉阿达"]这个巧克力曲奇造型的棺材就挺不错，也没有什么特殊功能，你不觉得这样就刚好吗？
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="r")]
+[multiline(name="裘里奥")]可是这个只是工坊送过来推销的流行款……
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[multiline(name="裘里奥")]你的第一场葬礼，不想来点更特别的东西吗，吉阿达小姐？
+[charslot(slot="l",name="avg_npc_2378_1#2$1",focus="l")]
+[name="吉阿达"]不是我的葬礼……
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="l")]
+[name="吉阿达"]算了，我看今天也不可能在棺材问题上达成共识。我先找你问清楚另一件事。
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]你之前设计的那个“宾客入场方式”——
+[name="吉阿达"]坐滑梯滑进装满波波球的礼物盒里，把波波球扔进外面的筐里，按扔球的结果抽奖——
+[name="吉阿达"]我还没同意吧？
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="l")]
+[name="吉阿达"]为什么礼物盒已经做好了？
+[charslot]
+吉阿达满面无奈地指向摆在准备室角落里，和充气儿童泳池差不多大小、蛋糕造型的礼物盒。
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]噢，原来你看到了！我本来想等棺材定下来了就来说这件事，你之前不是说不太理解吗，我打算给你现场演示——
+[charslot]
+[Dialog]
+[stopmusic(fadetime=2)]
+[PlaySound(key="$d_avg_chairrub", volume=1)]
+[Delay(time=1)]
+像是在配合裘里奥“现场演示”的宣言，“蛋糕”的顶部突然动了一下。
+[charslot(slot="l",name="avg_npc_2378_1#12$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="l")]
+[name="吉阿达"]……这个礼物盒，是电动的？
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="r")]
+[name="裘里奥"]应该不是吧……给工坊下订单的时候没提这要求呀，这个盖子也不用开很多次……
+[name="裘里奥"]呃，我过去看看……？
+[Dialog]
+[charslot]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_chairrub", volume=1)]
+[Delay(time=1)]
+然而他一步也走不动，因为吉阿达紧紧拽住了他的袖子，无助地盯着那个礼物盒——它又在动了。
+有着精美裱花造型的盒盖又往上顶了一下，随后倾斜，滑落，拉出一道漫长尖锐的刮蹭声……
+然后，两人都看到了那只伸出礼物盒的手。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[PlaySound(key="$d_avg_pushcoffinlid", volume=1)]
+[Delay(time=1.5)]
+[Image(image="77_i01", xScale=2.4, yScale=2.4, screenadapt="coverall")]
+[ImageTween(xFrom = 0, xTo = 320, yFrom=0, yTo=-100,duration=0, block=false)]
+[ImageTween(xFrom = 320, xTo =240,duration=20, block=false)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[PlayMusic(intro="$farce_intro", key="$farce_loop", volume=0.6)]
+[name="？？？"]……这是……哪里？
+[Dialog]
+[Image(image="77_i01", xScale=2.4, yScale=2.4, screenadapt="coverall",fadetime=2)]
+[ImageTween(xFrom = 0, xTo = -620, yFrom=0, yTo=280,duration=0, block=false)]
+[ImageTween(xFrom = -620, xTo =-570,duration=30, block=false)]
+[Delay(time=2)]
+[name="？？？"]陌生的地方……这里不是塔尔塔罗斯？
+[name="？？？"]……
+[name="？？？"]大家呢……？
+[Dialog]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+[Image(image="77_i01", xScale=1, yScale=1,fadetime=2.5, screenadapt="coverall")]
+[Delay(time=1.5)]
+于礼物盒中坐起的少年似乎还有些不适，皱着眉头望向四周——
+三人面面相觑。
+[name="？？？"]……有人？不……那是光环……还有羽毛……吗？
+[name="吉阿达"]……裘里奥，这是你准备的吗？
+[name="裘里奥"]什么准备，准备什么？这个孩子吗？
+[name="裘里奥"]不不，我说的演示是我自己来的意思，我还不至于要把孩子关在礼物盒里来，呃……给你“惊喜”啊！
+[name="？？？"]……
+[name="？？？"]（奇怪的语言……但能听懂……）
+[name="？？？"]（塔尔塔罗斯中的暗影……会说话吗？）
+[name="吉阿达"]你还好吗？
+[name="？？？"]……还好。
+[name="裘里奥"]你是工坊的学徒吗？不小心把自己关进礼物盒里了？谢天谢地，这盒子不是密封的……
+[name="裘里奥"]还是先出来吧，小子。我去给你倒杯热可可……呃，茶水间在哪，吉阿达？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image]
+[Background(image="77_g6_funeralhome",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+[charslot(slot="m",name="avg_4217_makoto_1#9$4",focus="m",duration=2)]
+[delay(time=3)]
+[charslot]
+[charslot(slot="r",name="avg_npc_2379_1#1$1",focus="l")]
+[charslot(slot="l",name="avg_npc_2378_1#12$1",focus="l")]
+[name="吉阿达"]……我理一理，意思是说，你叫结城理，和朋友一起来到拉特兰，在城外被野兽袭击了，醒来时就在这个盒子里了？
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#9$4",focus="m")]
+[name="结城理"]（这里的情况……“拉特兰”也好，这两位也好……）
+[name="结城理"]（在搞清楚状况之前，还是慎重一点吧。）
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[name="结城理"]……差不多是这样。
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#12$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="r")]
+[name="裘里奥"]我检查了一下，似乎没见到其他的孩子。
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="l")]
+[name="吉阿达"]也许是工坊的人救了他，回城时出了什么差错……
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[name="结城理"]……抱歉，两位，其实我还有些事情没明白。
+[charslot(slot="m",name="avg_4217_makoto_1#13$4",focus="m")]
+[name="结城理"]我来到了……“拉特兰”，这部分明白了。但这里具体是……？
+[charslot(slot="m",name="avg_4217_makoto_1#5$4",focus="m")]
+[name="结城理"]我似乎看到了很多游乐装置，这里是……主题乐园吗？你们两位是这里的工作人员……？
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#12$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="l")]
+[name="吉阿达"]对外国人可能有点难理解……这些东西其实是，棺材……
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#13$4",focus="m")]
+[name="结城理"]……葬礼用的那种？
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="l")]
+[name="吉阿达"]嗯。这里是拉特兰新建的殡仪堂，我是在这里工作的葬礼经纪。
+[charslot(slot="r",name="avg_npc_2379_1#1$1",focus="r")]
+[name="裘里奥"]我嘛，是派对设计师，现在算是临时在殡仪堂工作。
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]我们确实正在准备一场葬礼，今天是要为葬礼选一副棺材。
+[name="裘里奥"]发现你之前，我和吉阿达小姐正在为这件事吵架呢！
+[charslot(slot="l",name="avg_npc_2378_1#4$1",focus="l")]
+[name="吉阿达"]什么吵架？！我只是在和你讨论工作！
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#5$4",focus="m")]
+[name="结城理"]吵架不太好吧……
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#8$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="l")]
+[name="吉阿达"]……抱歉，我不该在孩子面前发脾气。
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[multiline(name="裘里奥")]噢噢，你承认自己在发脾气了——
+[charslot(slot="r",name="avg_npc_2379_1#3$1",focus="r")]
+[multiline(name="裘里奥")]欸，我有个想法！
+[name="裘里奥"]理，你愿不愿意帮我们一个忙？
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]等会儿我来试用一下这些棺材，拜托你和吉阿达一起看一下效果——毕竟我自己躺进去就没法从观赏视角判断了嘛！
+[charslot(slot="r",name="avg_npc_2379_1#3$1",focus="r")]
+[name="裘里奥"]你一看就是诚实的孩子，一定会公正地判断对不对——
+[charslot(slot="l",name="avg_npc_2378_1#12$1",focus="l")]
+[name="吉阿达"]裘里奥，你在说什么胡话？现在应该赶紧送他去公证所。
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="r")]
+[name="裘里奥"]直接送他去公证所吗？他是外国人，又没有身份证明，三天之内公证所就要遣送他出境了。
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]……这和你要结城帮忙有什么关系？他还没有成年，即使你让他和我们一起工作，殡仪堂也不可能雇用他……
+[charslot(slot="r",name="avg_npc_2379_1#3$1",focus="r")]
+[name="裘里奥"]没那么复杂！只是一点点人与人之间的互相帮助——
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[multiline(name="裘里奥")]理，如果你愿意帮我……
+[charslot(slot="r",name="avg_npc_2379_1#11$1",focus="r")]
+[multiline(name="裘里奥")]呃，帮我们的话，
+[charslot(slot="r",name="avg_npc_2379_1#3$1",focus="r")]
+[multiline(name="裘里奥")]我就和公证所说你是我的亲戚，怎么样？有公民做担保就可以留下了嘛。
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]……你在教“诚实的孩子”对执行者撒谎？
+[charslot(slot="l",name="avg_npc_2378_1#2$1",focus="l")]
+[name="吉阿达"]要挟小孩子也太难看了。
+[charslot(slot="r",name="avg_npc_2379_1#5$1",focus="r")]
+[name="裘里奥"]要、要挟小孩子？！等一下，你怎么会理解成这样，我不是这个意思……
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#9$4",focus="m")]
+[name="结城理"]（虽然外貌有点奇特……但听起来，他们两位不是坏人。）
+[name="结城理"]（“拉特兰”似乎是某个国家的名字，虽然完全没听说过……如果S.E.E.S.的同伴们也都误入了这里的话，得快点找到他们才行。）
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[name="结城理"]好，我可以帮忙。
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#12$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2379_1#5$1",focus="l")]
+[name="吉阿达"]结城，不用听他胡说，就算你不想帮忙，我也可以替你担保。其他的事之后再想办法。
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#10$4",focus="m")]
+[name="结城理"]你们两位对我很亲切，如果有能帮得上忙的事，我很愿意去做。
+[name="结城理"]之后请再和我介绍一下“公证所”的事，可以吗？
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#12$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2379_1#3$1",focus="r")]
+[name="裘里奥"]好呀好呀！吉阿达，你看，这就叫互相帮助嘛。
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="l")]
+[name="吉阿达"]……
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#10$4",focus="m")]
+[name="结城理"]我也很感谢吉阿达小姐。
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#12$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2379_1#3$1",focus="l")]
+[name="吉阿达"]你们两个……
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[multiline(name="裘里奥")]好啦好啦，吉阿达，理，我们开工吧？我看看……
+[charslot(slot="r",name="avg_npc_2379_1#3$1",focus="r")]
+[multiline(name="裘里奥")]从名字叫“全速回归圣灵”的那一款开始好了！
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=4, block=true)]
+[charslot]
+[Background(image="26_g12_laterano_office",screenadapt="coverall")]
+[Delay(time=3)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[playMusic(key="$normal_loop", volume=0.6)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_372_1#10$1",focus="m")]
+[name="执行者"]好……基本信息登记完毕，这是你的临时认证码和终端。
+[charslot(slot="m",name="avg_npc_372_1#3$1",focus="m")]
+[name="执行者"]下一步是，我看看……你们已经选好学校了吗，还是说结城同学自己选？
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="r")]
+[name="裘里奥"]学校？
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[name="吉阿达"]……他只是来探亲，没有在拉特兰入学的打算。
+[charslot]
+[charslot(slot="m",name="avg_npc_372_1#8$1",focus="m")]
+[name="执行者"]不可以哦。他还没有成年，你们登记的是“暂无离境计划”，那就必须要入学了。刚好现在是三月份，时机还不错。
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#2$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="l")]
+[name="吉阿达"]……
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]没问题没问题！小孩子是应该上学才对，执行者先生方便让我看一下学校名单吗？
+[charslot(slot="r",name="avg_npc_2379_1#11$1",focus="r")]
+[multiline(name="裘里奥")]……唔……
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[multiline(name="裘里奥")]找到了！
+[name="裘里奥"]圣马尔索综合学校，就这个吧。
+[charslot(slot="l",name="avg_npc_2378_1#12$1",focus="l")]
+[name="吉阿达"]……你为什么专门翻到我的学校？
+[charslot(slot="r",name="avg_npc_2379_1#5$1",focus="r")]
+[name="裘里奥"]欸？这是我小时候读的学校啊。
+[charslot]
+[charslot(slot="m",name="avg_npc_372_1#3$1",focus="m")]
+[name="执行者"]选好了？那我就录入了哦。请稍等一会儿。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[Background(image="26_g12_laterano_office",screenadapt="coverall")]
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#1$1")]
+[charslot(slot="r",name="avg_npc_2379_1#1$1")]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = false, fadetime=2, block=true)]
+[charslot(slot="l",name="avg_npc_2378_1#12$1",focus="l")]
+[name="吉阿达"]（小声）结城不是要去找同伴吗，上学还怎么找……
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]（小声）放学了找呀，实在不行还能翘课嘛。
+[charslot(slot="r",name="avg_npc_2379_1#3$1",focus="r")]
+[name="裘里奥"]（小声）理，你应该不是那种不敢翘课的好学生吧？翘课来殡仪堂帮忙也可以哦。
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#5$4",focus="m")]
+[name="结城理"]（小声）我没有翘过课……只是偶尔上课睡觉。
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#4$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2379_1#3$1",focus="l")]
+[name="吉阿达"]（小声）……既然去上学了就不许翘课，无论是翘课还是上课睡觉都不可以！
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[Background(image="26_g12_laterano_office",screenadapt="coverall")]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = false, fadetime=2, block=true)]
+[charslot(slot="m",name="avg_npc_372_1#3$1",focus="m")]
+[name="执行者"]录入好了，学校那边也确认了，今天就可以去报到。
+[charslot(slot="m",name="avg_npc_372_1#10$1",focus="m")]
+[name="执行者"]一开始我还以为这个孩子是来参加葬礼的呢，没想到是要在这边暂住啊。之前没听说维韦塔女士在东国也有亲戚呢。
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2379_1#5$1",focus="r")]
+[name="裘里奥"]……您认识我姨妈？
+[charslot]
+[charslot(slot="m",name="avg_npc_372_1#10$1",focus="m")]
+[name="执行者"]不认识，只是认识执行她遗嘱的同事，听说他从哥伦比亚带了一位派对设计师回来给维韦塔女士办葬礼……哦不，派对。
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#2$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2379_1#5$1",focus="l")]
+[name="吉阿达"]……
+[charslot]
+[charslot(slot="m",name="avg_npc_372_1#3$1",focus="m")]
+[name="执行者"]我还挺好奇的，那个遗嘱登记的时间是二十年前，那时候裘里奥先生才六岁吧？为什么她会指名你在她的葬礼上办派对呢？
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#2$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2379_1#11$1",focus="r")]
+[name="裘里奥"]我……我也不记得了。
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[name="吉阿达"]不好意思，执行者先生，我们可以走了吗？
+[charslot]
+[charslot(slot="m",name="avg_npc_372_1#10$1",focus="m")]
+[name="执行者"]当然当然，一切顺利！记得给我好评哦~
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="26_g11_laterano_alley",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[name="结城理"]我现在要去的，是你们两位就读过的学校吗？
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2379_1#1$1",focus="r")]
+[name="裘里奥"]是啊哈哈，还挺巧的，没想到和吉阿达小姐还是校友……完全想象不出吉阿达小姐穿我们学校校服的样子嘛。
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[name="吉阿达"]确实没怎么穿过，我是便服上学派。
+[charslot(slot="r",name="avg_npc_2379_1#5$1",focus="r")]
+[name="裘里奥"]咦，我们学校可以这样……？
+[charslot(slot="l",name="avg_npc_2378_1#12$1",focus="l")]
+[name="吉阿达"]你真的和我读过同一所学校？
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]真的呀真的呀，圣马尔索区的小孩基本都是读这间学校吧？我小时候就住这里啊。
+[name="裘里奥"]圣马尔索区的主路经常有安魂教堂的仪柩车经过，坐在路边看，修士和家属的心情就会像风一样一阵一阵地拂过来……对不对？
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="l")]
+[name="吉阿达"]好像是这样……以前大家要在城市停驻时去安魂教堂办葬礼……
+[Dialog]
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="n")]
+[Delay(time=1)]
+[PlaySound(key="$d_sp_ballista", volume=0.4)]
+[PlaySound(key="$grenade_explosion", volume=0.4)]
+[Delay(time=2)]
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#3$4",focus="m")]
+[name="结城理"]什么声音？
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2379_1#1$1",focus="r")]
+[name="裘里奥"]爆炸啊。
+[charslot(slot="r",name="avg_npc_2379_1#3$1",focus="r")]
+[name="裘里奥"]是圣罗可街吧，那边新开了一家泡芙店，人气很旺哦。
+[Dialog]
+[charslot]
+[PlaySound(key="$d_avg_bulletbarrage", volume=0.4)]
+[Delay(time=4)]
+[charslot(slot="m",name="avg_4217_makoto_1#13$4",focus="m")]
+[name="结城理"]……你好冷静。而且刚才的声音又是……是枪声吗？
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2379_1#3$1",focus="l")]
+[name="吉阿达"]对，快到学校了。
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#13$4",focus="m")]
+[name="结城理"]……？
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]那边的学生，应该是来接你的吧。
+[Dialog]
+[stopmusic(fadetime=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=2, block=true)]
+[charslot]
+[Background(image="77_g3_schoolgate",xScale=1.8, yScale=1.8,screenadapt="coverall")]
+[backgroundTween(xFrom = 0, xTo = -70,yFrom = 0, yTo = -250, duration=0, block=false)]
+[Delay(time=2)]
+[playMusic(intro="$m_avg3_act54side_intro",key="$m_avg3_act54side_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[backgroundTween(yFrom = -250, yTo = 100, duration=10, block=false)]
+[Delay(time=4)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=2, block=true)]
+[curtain(direction = 0,fillfrom = 0.01,fillto = 0.2, grad=true, fadetime=1.5)]
+[curtain(direction = 4,fillfrom = 0.01,fillto = 0.2, grad=true, fadetime=1.5)]
+[delay(time=1.5)]
+[Background(image="77_g3_schoolgate",xScale=1.9, yScale=1.9, fadetime=1.5,screenadapt="coverall")]
+[backgroundTween(xFrom = 0, xTo = -250,yFrom = 0, yTo = 200, duration=0, block=false)]
+[backgroundTween(xFrom = -250, xTo = -350, duration=30, block=false)]
+[charslot(slot="r",name="avg_npc_2377_1#4$1", posfrom="0,0", posto="0,30",afrom=1, ato=0,duration=0,focus="r")]
+[charslot(slot = "r", action="zoom", poszoom = "0.5,0.5", scale=1.4, duration = 0)]
+[charslot(slot="r",afrom=0,ato=1,duration=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=false)]
+[Delay(time=2.5)]
+[name="？？？"]……
+[charslot(slot="r",name="avg_npc_2377_1#8$1", posfrom="0,0", posto="0,30",duration=0,focus="r")]
+[charslot(slot = "r",name="avg_npc_2377_1#8$1", action="zoom", poszoom = "0.5,0.5", scale=1.4, duration = 0)]
+[name="？？？"]啊，来了！
+[name="？？？"]同学，这边！
+[Dialog]
+[charslot]
+[curtain(direction = 0,fillfrom = 0.2,fillto = 0.01, grad=true, fadetime=1.5)]
+[Background(image="77_g3_schoolgate",screenadapt="coverall",fadetime=1.5)]
+[curtain(direction = 4,fillfrom = 0.2,fillto = 0.01, grad=true, fadetime=1.5)]
+[Delay(time=2)]
+[PlaySound(key="$rungeneral", volume=1,channel="2")]
+[StopSound(channel="2",fadetime=1.5)]
+[charslot(slot="m",name="avg_npc_2377_1#2$1",afrom=0, ato=1,duration=1.5,focus="m")]
+[Delay(time=2)]
+[charslot(slot="m",name="avg_npc_2377_1#5$1",focus="m")]
+[name="？？？"]你好！请问，是结城理同学吗？
+[Dialog]
+[Delay(time=1)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[gridbg]
+[stopmusic(fadetime=2)]
+[Image]
+[charslot]

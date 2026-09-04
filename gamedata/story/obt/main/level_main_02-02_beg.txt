@@ -8,17 +8,17 @@
 [PlayMusic(intro="$mist_loop", key="$mist_loop", volume=0.8, crossfade=1.5, delay=0.5)]
 [Character(name="char_003_kalts_1",name2="char_2005_weiyw_1")]
 [Character(name="char_002_amiya_1")]
-[name="阿米娅"]   ......凯尔希医生！
+[name="阿米娅"]   ……凯尔希医生！
 [Character(name="char_003_kalts_1")]
 [Delay(time=0.6)]
-[name="凯尔希"]   ——阿米娅......
+[name="凯尔希"]   ——阿米娅……
 [Character(name="char_003_kalts_1#3")]
-[name="凯尔希"]   ......{@nickname}。
+[name="凯尔希"]   ……{@nickname}。
 [name="凯尔希"]   你来了。
 [PlaySound(key="$d_gen_doorclose", volume=0.5)]
 [Delay(time=1)]
 [Character(name="char_003_kalts_1#3", focus=-1)]
-[Decision(options="......", values="1")]
+[Decision(options="……", values="1")]
 [Predicate(references="1")]
 [Character(name="char_010_chen_1")]
 [name="陈"]   咳咳。
@@ -43,7 +43,7 @@
 [image]
 [Blocker(a=0, fadetime=0.6, block=true)]
 [Character(name="char_003_kalts_1", name2="char_010_chen_1", focus=2)]
-[name="陈"]   ......
+[name="陈"]   ……
 [Character(name="char_003_kalts_1", name2="char_010_chen_1", focus=1)]
 [name="凯尔希"]   简单的感染者检疫是不能对抗整合运动的，想必龙门近卫局再清楚不过。
 [name="凯尔希"]   整合运动不会乖乖过检，更不会等到当局反应过来才行动。所以————
@@ -53,7 +53,7 @@
 [name="陈"]   关于龙门的防卫情报，龙门近卫局方面比罗德岛更了解。对于整合运动的渗透，也已经做了相应准备。
 [name="陈"]   只是龙门目前没有将相关机密行动的方针通知罗德岛的义务。
 [Character(name="char_003_kalts_1", name2="char_2005_weiyw_1", focus=2)]
-[name="魏彦吾"]    ......
+[name="魏彦吾"]    ……
 [name="魏彦吾"]    凯尔希小姐，请继续说。
 [Character(name="char_003_kalts_1", name2="char_2005_weiyw_1", focus=1)]
 [name="凯尔希"]   龙门的确有对付手无寸铁的感染者的经验，但恐怕龙门目前没有面对集团化感染者暴徒的经验，这可能会让龙门造成不必要的损失。
@@ -106,19 +106,19 @@
 [name="魏彦吾"]   冷静些，陈警官，他们是客人。
 [name="魏彦吾"]   ——我的客人。
 [Character(name="char_2005_weiyw_1", name2="char_010_chen_1#5", focus=2)]
-[name="陈"]   .....
+[name="陈"]   ……
 [name="陈"]   是。
 [Character(name="char_2005_weiyw_1", name2="char_010_chen_1", focus=2)]
 [name="陈"]   在他们违反龙门法律之前，我会容忍，长官。
 [Character(name="char_2005_weiyw_1", name2="char_003_kalts_1", focus=1)]
 [name="魏彦吾"]   啊，不好意思。我想起来了，有这么一句——
-[name="魏彦吾"]   ——没错，呣......
+[name="魏彦吾"]   ——没错，呣……
 [name="魏彦吾"]   我所看重的就只有一点。
 [name="魏彦吾"]   实力。
 [name="魏彦吾"]   据我所知，罗德岛也参与清剿了附近的感染者吧？
 [name="魏彦吾"]   陈警官，以目前确切了解的情报，罗德岛在军事力量的实力如何？
 [Character(name="char_010_chen_1")]
-[name="陈"]   ......请容我简要描述一下我所见的罗德岛的行动情况。
+[name="陈"]   ……请容我简要描述一下我所见的罗德岛的行动情况。
 [name="陈"]   ——详情如下——
 [stopSound(channel="2", fadetime=1)]
 [Delay(time=0.6)]

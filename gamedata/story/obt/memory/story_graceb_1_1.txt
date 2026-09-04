@@ -1,0 +1,572 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="26_g8_laterano_dwelling",screenadapt="coverall", block=true)]
+[Delay(time=1)]
+[PlayMusic(key="$normal_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=0.5)]
+[charslot(slot="l",name="avg_4187_graceb_1#13$1",duration=1)]
+[charslot(slot="r",name="avg_npc_1801_1#1$1",duration=1)]
+[delay(time=1.5)]
+[charslot(slot="l",name="avg_4187_graceb_1#13$1",focus="l")]
+[name="努艾达"]好了好了。故事时间结束了。
+[charslot(slot="r",name="avg_npc_1801_1#1$1",focus="r")]
+[name="急切的孩子"]可是……
+[charslot(slot="l",name="avg_4187_graceb_1#14$1",focus="l")]
+[name="努艾达"]是谁昨天还说想再长高十厘米的？怎么今天就不按时吃饭了？快去，大家都在等你一起唱餐前的赞美诗呢。
+[multiline(name="努艾达")]只是这次别再把故事里的内容编进赞美诗了，好吗？
+[charslot(slot="l",name="avg_4187_graceb_1#6$1",focus="l")]
+[multiline(name="努艾达")]大家会被带歪——
+[charslot(slot="r",name="avg_npc_1801_1#1$1",focus="r")]
+[name="急切的孩子"]嗯？
+[name="急切的孩子"]努艾达修女？
+[charslot(slot="l",name="avg_4187_graceb_1#12$1",focus="l")]
+[name="努艾达"]没事，你先去吧。
+[Dialog]
+[charslot(slot="l",name="avg_4187_graceb_1#12$1",focus="all")]
+[delay(time=0.3)]
+[PlaySound(key="$d_avg_walk_stage", volume=1,loop="false", channel="cw")]
+[stopsound(fadetime=2.5, channel="cw")]
+[charslot(slot="r",afrom=1,ato=0,duration=1)]
+[Delay(time=2)]
+[charslot(slot="l",name="avg_4187_graceb_1#1$1",focus="l")]
+[name="努艾达"]奥罗拉。
+[Dialog]
+[charslot]
+[delay(time=0.5)]
+[charslot(slot="m",name="avg_npc_1782_1#8$1",duration=1)]
+[delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_1782_1#8$1",focus="m")]
+[name="奥罗拉"]……
+[charslot(slot="m",name="avg_4187_graceb_1#1$1",focus="m")]
+[name="努艾达"]平常这个时间，你都不在的。
+[charslot(slot="m",name="avg_npc_1782_1#8$1",focus="m")]
+[name="奥罗拉"]所以？
+[charslot(slot="m",name="avg_4187_graceb_1#12$1",focus="m")]
+[name="努艾达"]……更不会抱着这种包装精美的礼品袋。你抱着它的模样，像是抱着一颗扎手的仙人球。
+[charslot(slot="m",name="avg_npc_1782_1#8$1",focus="m")]
+[name="奥罗拉"]孩子们还在等你领唱，修女。
+[charslot(slot="m",name="avg_4187_graceb_1#12$1",focus="m")]
+[name="努艾达"]但你今天很反常，奥罗拉。如果出了什么事，我想知道。
+[charslot(slot="m",name="avg_npc_1782_1#7$1",focus="m")]
+[name="奥罗拉"]去见一个倒霉的蠢货，就这样。这事与你无关。
+[charslot(slot="m",name="avg_4187_graceb_1#11$1",focus="m")]
+[name="努艾达"]……
+[charslot(slot="m",name="avg_4187_graceb_1#1$1",focus="m")]
+[name="努艾达"]是潘格尼尼先生，对不对？
+[charslot(slot="m",name="avg_npc_1782_1#9$1",focus="m")]
+[name="奥罗拉"]啧。
+[charslot(slot="m",name="avg_4187_graceb_1#1$1",focus="m")]
+[name="努艾达"]我们当初刚离开玻利瓦尔的时候，你说过你在拉特兰有仇要报。但那只是针对帕特里奇昂先生……
+[name="努艾达"]可最后满身是血被送进医院的，却是潘格尼尼先生。
+[charslot(slot="m",name="avg_npc_1782_1#9$1",focus="m")]
+[multiline(name="奥罗拉")]一个甘愿为别人挡子弹的蠢货。
+[charslot(slot="m",name="avg_npc_1782_1#2$1",focus="m")]
+[multiline(name="奥罗拉")]呵，不值得同情。
+[charslot(slot="m",name="avg_4187_graceb_1#1$1",focus="m")]
+[name="努艾达"]但你还是打算去看望他。
+[Dialog]
+[stopmusic(fadetime=2)]
+[charslot(slot="m",name="avg_4187_graceb_1#2$1",focus="m")]
+[name="努艾达"]我不希望你去，奥罗拉。
+[Dialog]
+[charslot(duration=0.2)]
+[delay(time=0.3)]
+[charslot(slot="l",name="avg_4187_graceb_1#2$1",focus="all")]
+[PlaySound(key="$d_avg_runstop", volume=1)]
+[charslot(slot="r",name="avg_npc_1782_1#6$1",afrom=0,ato=1,duration=0.7)]
+[delay(time=0.5)]
+[PlaySound(key="$d_avg_clothmovement_heavy2", volume=0.5)]
+[CameraShake(duration=0.5, xstrength=8, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]
+[delay(time=0.7)]
+[charslot(slot="r",name="avg_npc_1782_1#6$1",focus="r")]
+[name="奥罗拉"]你说什么？
+[charslot(slot="l",name="avg_4187_graceb_1#1$1",focus="l")]
+[name="努艾达"]我说，我不希望你去。
+[charslot(slot="r",name="avg_npc_1782_1#6$1",focus="r")]
+[name="奥罗拉"]我很想问，你以为你是谁，能管得了我做什么不做什么？
+[name="奥罗拉"]但我也很好奇，你为什么这么关注一件和你没有半点关系的事。
+[name="奥罗拉"]所以，你最好利索点，把理由给我说清楚。
+[charslot(slot="l",name="avg_4187_graceb_1#2$1",focus="l")]
+[name="努艾达"]你还记得吗，我是怎么当上修女的？
+[charslot(slot="r",name="avg_npc_1782_1#6$1",focus="r")]
+[name="奥罗拉"]你讲过，不止给我，你甚至给那份无聊的《拉特兰周报》也讲了一遍。
+[charslot(slot="l",name="avg_4187_graceb_1#4$1",focus="l")]
+[name="努艾达"]那就请你再听我讲一次吧。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_wild_m",screenadapt="coverall", block=true)]
+[focusout(duration=0.1, type="char", from=0, to=1, block=true)]
+[focusout(duration=0.1, type="bg", from=0, to=1, block=true)]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.8, block=true)]
+[delay(time=1)]
+[PlayMusic(key="$monastery_sad_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[CameraEffect(effect="Grayscale", fadetime=1, keep=true, initamount=0.8, amount=0, block=true)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,duration=1)]
+[delay(time=2)]
+[charslot]
+[name="虚弱的修女"]谁……
+[Dialog]
+[playsound(key="$d_avg_walkmeadow",volume=0.8)]
+[charslot(slot="m",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9, posfrom = "0,-120", posto = "0,-120",afrom=0,ato=0,duration=0)]
+[charslot(slot="m",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,action="zoom",poszoom="0.5,0.5",scale=1.2,duration=0,isblock=true)]
+[charslot(slot="m",afrom=0,ato=1,duration=1,focus="m",isblock=true)]
+[delay(time=2)]
+[PlaySound(key="$d_avg_cnstrctnck", volume=0.7)]
+[Delay(time=1.5)]
+[charslot]
+血污蒙住了修女的眼睛，她看不清眼前人的面容。
+[Dialog]
+[delay(time=1)]
+[name="虚弱的修女"]你要……带我……去哪？
+修女想挣扎却动弹不得，只能任由对方拖着自己往前走。
+[name="虚弱的修女"]等……等等……
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_wild_m",screenadapt="coverall", block=true)]
+[focusout(duration=0.1, type="char", from=1, to=0, block=true)]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[focusout(duration=1, type="bg", from=1, to=0, block=true)]
+[delay(time=1.5)]
+[charslot(slot="l",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,duration=1)]
+[charslot(slot="r",name="avg_npc_369_1#1$1",duration=1)]
+[delay(time=1.5)]
+[charslot(slot="r",name="avg_npc_369_1#1$1",focus="r")]
+[name="虚弱的修女"]你是谁？
+[charslot(slot="l",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,focus="l")]
+[name="沉默的少女"]（沉默地翻动地上的尸体）
+[charslot(slot="r",name="avg_npc_369_1#1$1",focus="r")]
+[name="虚弱的修女"]那是……
+[name="虚弱的修女"]不，不不不不。
+[charslot(slot ="r", action="shake", power=6, times=40, duration=0.3,focus="r")]
+[name="虚弱的修女"]管事先生！修士先生！醒醒！
+[name="虚弱的修女"]他们……
+[charslot(slot="l",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,focus="l")]
+[name="沉默的少女"]（指指头顶）
+[charslot(slot="r",name="avg_npc_369_1#1$1",focus="r")]
+[name="虚弱的修女"]啊……光环。光环灭了。那他们都已经死了。
+[name="虚弱的修女"]为什么？怎么回事？
+[name="虚弱的修女"]是你干的吗？是你杀了他们？
+[charslot(slot="l",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,focus="l")]
+[name="沉默的少女"]（摇摇头）
+[charslot(slot="r",name="avg_npc_369_1#1$1",focus="r")]
+[name="虚弱的修女"]但你为什么在翻他们的尸体……
+[name="虚弱的修女"]又为什么留我一命？
+[charslot(slot="l",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,focus="l")]
+[name="沉默的少女"]（沉默）
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="26_g8_laterano_dwelling",screenadapt="coverall", block=true)]
+[charslot(slot="l",name="avg_4187_graceb_1#11$1")]
+[charslot(slot="r",name="avg_npc_1782_1#9$1")]
+[delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot(slot="l",name="avg_4187_graceb_1#11$1",focus="l")]
+[name="努艾达"]解释起来太麻烦了……她身上没什么是我需要知道的，我也没必要和她说话。我的族人灌进我脑子里的知识，就够我活下去了。
+[name="努艾达"]我本来只是想翻那几具尸体，拉特兰来的萨科塔，身上应该有好东西。把她拖走，也只是因为她趴在那太碍事了。
+[charslot(slot="r",name="avg_npc_1782_1#9$1",focus="r")]
+[name="奥罗拉"]呵。报纸上登出来的说法可是“你救了她”。
+[charslot(slot="l",name="avg_4187_graceb_1#2$1",focus="l")]
+[name="努艾达"]人大概总是比较愿意接受事实更美好的那一面吧。
+[charslot(slot="l",name="avg_4187_graceb_1#1$1",focus="l")]
+[name="努艾达"]那是一场突发性的源石活动，规模小到几乎称不上天灾，但杀死几个毫无防备的旅人还是绰绰有余。
+[name="努艾达"]刺出地面的源石结晶贯穿了那个她称作“管事”的人，又扎穿了她的肩膀。
+[name="努艾达"]我猜，如果我没把她从那上面拔下来，她身上的源石可能确实会快速活性化，当场要了她的命吧。
+[charslot(slot="l",name="avg_4187_graceb_1#11$1",focus="l")]
+[name="努艾达"]……如果这算是“我救了她”的话。
+[charslot(slot="r",name="avg_npc_1782_1#11$1",focus="r")]
+[name="奥罗拉"]她也这么觉得？
+[charslot(slot="l",name="avg_4187_graceb_1#1$1",focus="l")]
+[name="努艾达"]我其实都不知道她有没有明白发生了什么。
+[name="努艾达"]我只是指了指树上挂着的源石粉尘，指了指从地上长出来的源石晶簇，她就没再追问了。
+[charslot(slot="l",name="avg_4187_graceb_1#4$1",focus="l")]
+[name="努艾达"]我猜，她也宁愿相信那是一场意外，而不是我杀了那些人吧。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_wild_m",screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.8, block=true)]
+[charslot(slot="l",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9)]
+[charslot(slot="r",name="avg_npc_369_1#1$1")]
+[delay(time=1)]
+[playMusic(key="$saferoom_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[CameraEffect(effect="Grayscale", fadetime=1, keep=true, initamount=0.8, amount=0, block=true)]
+[delay(time=1)]
+[charslot(slot="r",name="avg_npc_369_1#1$1",focus="r")]
+[name="虚弱的修女"]抱歉之前怀疑你。
+[charslot(slot="l",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,focus="l")]
+[name="沉默的少女"]（摇摇头）
+[charslot(slot="r",name="avg_npc_369_1#1$1",focus="r")]
+[name="虚弱的修女"]你一直跟着我，是要和我一起走吗，回修道院？
+[name="虚弱的修女"]那是个还算安全的地方。我们有几片玉米田，不算大，但够几十个人吃了。
+[name="虚弱的修女"]有位老修士，原本是替辛嘉斯的种植园主掌勺的。哪怕只有玉米和仙人掌，他也能每天都做出不重样的饭菜。
+[name="虚弱的修女"]这次本来还说好要给他带些哥伦比亚产的调味料回去的。可惜那些东西都被源石污染了。
+[name="虚弱的修女"]但愿他不会太失望。
+[charslot(slot="l",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,focus="l")]
+[name="沉默的少女"]（点点头）
+[charslot(slot="r",name="avg_npc_369_1#1$1",focus="r")]
+[name="虚弱的修女"]动身之前，能先搭把手吗？
+[name="虚弱的修女"]我想把绷带拆下来清理一下。总是散发出那种腐烂的气味，谁闻着都不舒服吧。
+[charslot(slot="l",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,focus="l")]
+[PlaySound(key="$d_avg_clothtrailground", volume=1)]
+[name="沉默的少女"]（迟疑地伸手）
+[charslot(slot="r",name="avg_npc_369_1#1$1",focus="r")]
+[name="虚弱的修女"]啊……也对。那里面大概都是源石碎屑吧，别把你也感染了。
+[name="虚弱的修女"]抱歉，没过脑子就找你帮忙。
+[charslot(slot="l",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,focus="l")]
+[name="沉默的少女"]（摇摇头）
+[name="沉默的少女"]（尝试扯下绷带）
+[name="沉默的少女"]（甩掉溢流到手上的血）
+[PlaySound(key="$d_avg_tearfabric", volume=1)]
+[CameraShake(duration=0.5, xstrength=12, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="沉默的少女"]（更用力地尝试扯下绷带）
+[charslot(slot="r",name="avg_npc_369_1#1$1",focus="r")]
+[name="虚弱的修女"]呼……
+[name="虚弱的修女"]那里有圣主，慈爱像父亲。所有恶人祂都惩罚，所有不公祂都铲除♪
+[name="虚弱的修女"]所有人都由祂来爱，不论生着疮疤，还是长着石头♪
+[charslot(slot="l",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,focus="l")]
+[name="沉默的少女"]（歪头）
+[charslot(slot="r",name="avg_npc_369_1#1$1",focus="r")]
+[name="虚弱的修女"]你想学吗，这首赞美诗？
+[name="虚弱的修女"]好吧，你也不会回答我。但我想教给你。
+[name="虚弱的修女"]因为这首诗，描绘的是一个很美的地方。一个和我们脚下这片土地截然不同的地方。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="26_g8_laterano_dwelling",screenadapt="coverall", block=true)]
+[charslot(slot="l",name="avg_4187_graceb_1#4$1")]
+[charslot(slot="r",name="avg_npc_1782_1#9$1")]
+[delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot(slot="r",name="avg_npc_1782_1#9$1",focus="r")]
+[name="奥罗拉"]行了。如果你又只是要重复一遍那个修女多么多么虔诚，你们之间相处得多么多么温馨，你又怎么怎么被感动了，我懒得听。
+[name="奥罗拉"]这些和我的事也没关系。
+[charslot(slot="l",name="avg_4187_graceb_1#14$1",focus="l")]
+[name="努艾达"]不……不。如果只是把之前讲过的版本再重复一遍，我不会浪费你的时间让你再听一遍。
+[name="努艾达"]那位修女确实虔诚得过分，坚韧得惊人。
+[charslot(slot="l",name="avg_4187_graceb_1#13$1",focus="l")]
+[name="努艾达"]但我的族人也虔诚得过分，他们只是不信仰“主”，而信仰羽蛇的血脉。我杀过的很多人都坚韧得惊人，手脚都断了还要反抗。
+[name="努艾达"]没人会因为在别人身上看到了这种稀松平常的特质，就产生任何改变。
+[charslot(slot="l",name="avg_4187_graceb_1#1$1",focus="l")]
+[name="努艾达"]那位修女唯一的特别之处，是她的死法。
+[name="努艾达"]一伙真正玻利瓦尔人的游击队洗劫了我们。只不过，他们也都已经走投无路，很脆弱，很好杀。
+[charslot(slot="r",name="avg_npc_1782_1#11$1",focus="r")]
+[name="奥罗拉"]你以前讲的都是你事后到场，只看到了奄奄一息的修女。如果你一开始就杀了那些游击队，那修女又是怎么……
+[charslot(slot="l",name="avg_4187_graceb_1#18$1",focus="l")]
+[name="努艾达"]她自己害死了自己。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_wild_m",screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.8, block=true)]
+[delay(time=1)]
+[playMusic(intro="$ponder_intro", key="$ponder_loop", volume=0.6)]
+[PlaySound(key="$d_avg_battlefield_environment", volume=0.4, loop=true, channel="warn")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[CameraEffect(effect="Grayscale", fadetime=1, keep=true, initamount=0.8, amount=0, block=true)]
+[delay(time=1)]
+[StopSound(channel="warn", fadetime=2)]
+[charslot(slot="m",name="avg_npc_2323_1#1$1",focus="m")]
+[CameraShake(duration=0.5, xstrength=12, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="绝望的游击队员"]你、你是什么东西！别过来！！！
+[Dialog]
+[playsound(key="$d_avg_broadswordblood",volume=0.7)]
+[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=1,g=0.2, b=0.2, fadetime=0, block=true)]
+[Blocker(a=0.4, r=1,g=0.2, b=0.2, fadetime=0.03, block=true)]
+[Blocker(a=0, r=1,g=0.2, b=0.2, fadetime=0.5, block=true)]
+[Delay(time=0.2)]
+[PlaySound(key="$bodyfalldown2", volume=1)]
+[charslot(duration=1)]
+[delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_2322_1#1$1",focus="m")]
+[name="惊恐的游击队员"]别动手，我这就滚，我这就——
+[Dialog]
+[playsound(key="$d_avg_swordwhoosh_heavy",volume=0.8)]
+[PlaySound(key="$d_avg_spurtblood",volume=1,delay=0.5)]
+[CameraShake(duration=1, xstrength=12, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=0, r=1,g=0.2, b=0.2, fadetime=0, block=true)]
+[Blocker(a=0.4, r=1,g=0.2, b=0.2, fadetime=0.03, block=true)]
+[Blocker(a=0, r=1,g=0.2, b=0.2, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[PlaySound(key="$bodyfalldown3", volume=1)]
+[charslot(duration=0.7)]
+[delay(time=1.7)]
+[charslot(slot="m",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,duration=1)]
+[delay(time=2)]
+[charslot(slot="m",name="avg_npc_369_1#1$1",focus="m")]
+[name="虚弱的修女"]可以了。已经没事了。
+[charslot(slot="m",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,focus="m")]
+[PlaySound(key="$d_avg_knife", volume=1)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="沉默的少女"]（砍下手臂）
+[charslot(slot="m",name="avg_npc_369_1#1$1",focus="m")]
+[name="虚弱的修女"]不用再砍了，他们都已经爬不起来了。
+[charslot(slot="m",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,focus="m")]
+[playsound(key="$d_avg_broadswordblood",volume=0.5)]
+[name="沉默的少女"]（撕开胸腔）
+[charslot(slot="m",name="avg_npc_369_1#1$1",focus="m")]
+[name="虚弱的修女"]你在干什么？他们都没气儿了……
+[charslot(slot="m",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,focus="m")]
+[PlaySound(key="$d_avg_headknock",volume=1)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[name="沉默的少女"]（劈碎头颅）
+[charslot(slot="m",name="avg_npc_369_1#1$1",focus="m")]
+[name="虚弱的修女"]你……
+[charslot(slot="m",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,focus="m")]
+[PlaySound(key="$d_avg_tear", volume=1)]
+[name="沉默的少女"]（拔出斧子）
+[Dialog]
+[charslot]
+这一回，修女的眼睛没有被血污蒙住。所以这一回，她看得一清二楚，少女是怎么像撕纸一样撕碎了那些游击队员。
+她说的话，少女一句也没有理会，只是专心翻弄着那几具已经不成样子的尸体，就像之前翻弄修女死去的同伴的尸体。
+于是修女没再说什么，只是沉默地等待少女做完她的事。
+[charslot(slot="m",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,focus="m")]
+[name="沉默的少女"]（收起斧子，转过身来）
+[charslot(slot="m",name="avg_npc_369_1#1$1",focus="m")]
+[name="虚弱的修女"]……好。
+[name="虚弱的修女"]那我们回……我们走吧。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="bg_fogwoods",screenadapt="coverall", block=true)]
+[charslot(slot="m",name="avg_npc_369_1#1$1")]
+[delay(time=1.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_369_1#1$1",focus="m")]
+[name="虚弱的修女"]就到这吧……够了。我没法再走了。
+[name="虚弱的修女"]我可能确实，走不到修道院了。
+[charslot(slot="m",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,focus="m")]
+[name="沉默的少女"]……为什么？
+[charslot(slot="m",name="avg_npc_369_1#1$1",focus="m")]
+[name="虚弱的修女"]哈……我还以为你不会说话。
+[charslot(slot="m",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,focus="m")]
+[name="沉默的少女"]之前我没必要和你说话，你身上没什么我需要知道的。但现在，你做了一件我不能理解的事。
+[name="沉默的少女"]我杀了那些游击队的人之后，你就改换了行进的方向。什么都没说，但换了方向。
+[name="沉默的少女"]那座修道院有几片玉米田，是吗？可我们却走进了一片云雾林。这附近甚至没有能长出玉米的土地。
+[charslot(slot="m",name="avg_npc_369_1#1$1",focus="m")]
+[name="虚弱的修女"]……你还是发现了。
+[name="虚弱的修女"]我不想带你回修道院。不……应该说，我其实很想。但我不敢。
+[name="虚弱的修女"]你之前留了我一命，刚刚又救了我一命，我很感谢你。
+[name="虚弱的修女"]但，看到你杀人的样子，我又忍不住会怀疑……
+[name="虚弱的修女"]怀疑我的同伴是不是从最开始就是你杀的，怀疑你留着我是不是只是为了找到修道院。
+[name="虚弱的修女"]不……我可能甚至都没想那么多。我当时只是很害怕。
+[name="虚弱的修女"]修道院一直藏得很好，这些年来不论辛嘉斯、联合政府还是真正玻利瓦尔人的兵，都不知道我们在哪。
+[name="虚弱的修女"]我们不需要一个刽子手，更不需要一个……杀起人来不受控制的狂人。
+[name="虚弱的修女"]我的伤是好不了的，我回修道院也派不上别的用场。但如果你真的是个那样的狂人，我至少还能把你引走，至少……
+[charslot(slot="m",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,focus="m")]
+[name="沉默的少女"]如果我告诉你，我从来都只是试图在这里活下去呢？
+[name="沉默的少女"]我流浪的荒野上没有玉米田，我需要从死人身上扒东西才能换口饭吃，不论他们是修士，还是士兵。
+[name="沉默的少女"]而杀人……杀人从来都是这样的事。不把他们撕碎，他们就会爬起来杀了你。真正在这片土地上挣扎求生的人，谁都是这样。
+[charslot(slot="m",name="avg_npc_369_1#1$1",focus="m")]
+[name="虚弱的修女"]……是吗。是吗。哈。
+[name="虚弱的修女"]如果真是这样……那我就只是个因为疑神疑鬼，而浪费了自己最后一点生命的傻子吧。
+[name="虚弱的修女"]那我对不起你，也对不起修道院的同伴们。老修士向来对我视如己出，我其实至少该给他一个交代的。
+[name="虚弱的修女"]但愿主不会太苛责我。
+[charslot(slot="m",name="avg_4187_graceb_1#1$1",bstart=0.5,bend=0.9,focus="m")]
+[name="沉默的少女"]……
+[name="沉默的少女"]主不会的。
+[name="沉默的少女"]因为你的怀疑……其实没错。我确实是个杀起人来不受控制的狂人。
+[name="沉默的少女"]所以现在，我会杀了你。
+[charslot(slot="m",name="avg_npc_369_1#1$1",focus="m")]
+[name="虚弱的修女"]果然是这样，果然……
+[name="虚弱的修女"]那就动手吧。你找不到那座修道院了，你想怎么泄愤都无所谓。
+[name="虚弱的修女"]那里有圣主，慈爱像母亲。所有祷告祂都听见，所有愿望祂都实现♪
+[name="虚弱的修女"]所有人都由祂来爱，不论没有腿脚，还是少了手臂♪
+[Dialog]
+[charslot]
+努艾达看得清楚，修女脸上没有半分惧色。她宁静地颂唱着她的赞美诗，她天真地对她的刽子手微笑。
+努艾达对着那一抹微笑劈了下去。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall", block=true)]
+[playsound(key="$d_avg_broadswordblood",volume=1)]
+[delay(time=1.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=2)]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="26_g8_laterano_dwelling",screenadapt="coverall", block=true)]
+[charslot(slot="l",name="avg_4187_graceb_1#2$1")]
+[charslot(slot="r",name="avg_npc_1782_1#9$1")]
+[delay(time=0.5)]
+[PlayMusic(intro="$loneliness_intro", key="$loneliness_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
+[delay(time=1)]
+[charslot(slot="l",name="avg_4187_graceb_1#2$1",focus="l")]
+[name="努艾达"]她死得很干脆。
+[charslot(slot="r",name="avg_npc_1782_1#9$1",focus="r")]
+[name="奥罗拉"]好过被冻雾和矿石病折磨一整个晚上，死的时候还清醒地知道自己是个傻子。
+[charslot(slot="r",name="avg_npc_1782_1#11$1",focus="r")]
+[name="奥罗拉"]努艾达啊努艾达，你是真没救了。
+[name="奥罗拉"]她怀疑你是恶人，你就真装成那个恶人？好让她以为自己拯救了修道院，让她死在自己的幻想里？
+[charslot(slot="l",name="avg_4187_graceb_1#4$1",focus="l")]
+[name="努艾达"]也许吧。
+[charslot(slot="r",name="avg_npc_1782_1#11$1",focus="r")]
+[name="奥罗拉"]但为什么？明明——
+[charslot(slot="l",name="avg_4187_graceb_1#11$1",focus="l")]
+[name="努艾达"]明明她都接受不了我的存在。她能承受同伴的死，能忍受身体溃烂的疼痛，却唯独接受不了我杀人。
+[name="努艾达"]哪怕那是玻利瓦尔，哪怕结果是她得救，她也不能接受一个十三岁的孩子会那样杀人。
+[charslot(slot="r",name="avg_npc_1782_1#6$1",focus="r")]
+[name="奥罗拉"]*拉特兰粗口*。
+[charslot(slot="l",name="avg_4187_graceb_1#1$1",focus="l")]
+[name="努艾达"]别生气，奥罗拉。那是很久之前的事了，我早就不在意了。
+[name="努艾达"]我讲这些，只是为了让你明白，我确实能理解你。我知道仅仅因为施行暴力就被人排斥，是怎样的感受。
+[charslot(slot="l",name="avg_4187_graceb_1#11$1",focus="l")]
+[name="努艾达"]……毕竟，我之前每次直接说能理解你，你都会骂我根本不懂。
+[charslot(slot="l",name="avg_4187_graceb_1#12$1",focus="l")]
+[name="努艾达"]可你天生就是个会暴力行事的人。误伤了潘格尼尼先生，你其实根本不觉得愧疚吧？你也说了，他是个不值得同情的蠢货。
+[name="努艾达"]但你为什么还是要去探望他？难道仅仅是因为回到了这座不接纳你有任何残忍、不容忍你有任何暴力的城市？
+[charslot(slot="r",name="avg_npc_1782_1#7$1",focus="r")]
+[name="奥罗拉"]啧。我甚至都没必要待在这座城市，更没必要服从它的期望。
+[charslot(slot="l",name="avg_4187_graceb_1#11$1",focus="l")]
+[name="努艾达"]可你正在这么做。
+[charslot(slot="l",name="avg_4187_graceb_1#14$1",focus="l")]
+[name="努艾达"]你说得对，奥罗拉，你没必要服从它的期望。如果你不感到愧疚，就别去探望。别做那些违背本心的事。
+[Dialog]
+[charslot(slot="l",name="avg_4187_graceb_1#14$1",focus="all")]
+[delay(time=0.3)]
+[PlaySound(key="$d_avg_pick_lock", volume=1)]
+[charslot(slot = "m", name = "avg_npc_1782_1#12$1",posfrom = "200,0", posto = "200,0",duration=1.5)]
+[Delay(time=2)]
+努艾达踮起脚，扣上了奥罗拉的头盔。
+[charslot(slot="l",name="avg_4187_graceb_1#13$1",focus="l")]
+[name="努艾达"]这座城市怎么看你都不重要。我能理解你的残忍、你的暴力，它们从来都没什么不好。
+[name="努艾达"]一个人是没法过两种生活的。前脚在屋里扮演温柔的修女，后脚就在院子里掩埋尸块——你没来修道院之前，那种日子我过够了。
+[name="努艾达"]正因为你杀人的时候眼都不会眨一下，我才能放心地让你代劳所有那些残忍的事。从那时起，我才终于活得轻松了些。
+[name="努艾达"]我只需要你，真正的你。
+[name="努艾达"]所以，如果你需要做什么违背本心的事，请一定，都让我来代劳。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="61_g12_firearmsworkshop",screenadapt="coverall", block=true)]
+[delay(time=2)]
+[playMusic(intro="$m_dia_street_intro", key="$m_dia_street_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=0.5)]
+[PlaySound(key="$doorknockquite", volume=1)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_1779_1#3$2",focus="m")]
+[name="梵里妮"]稍等，这就，来，来了……
+[Dialog]
+[charslot(duration=0.5)]
+[delay(time=0.7)]
+[PlaySound(key="$dooropenquite", volume=1)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_1781_1#3$1",focus="m")]
+[name="潘格尼尼"]梵妮，谁让你开门了？无非又是教皇厅的人搞什么屁用没有的慰问……
+[Dialog]
+[charslot]
+[name="？？？"]抱歉，打扰到你们了吗？
+[charslot(slot="m",name="avg_npc_1781_1#3$1",focus="m")]
+[name="潘格尼尼"]你谁啊你？
+[Dialog]
+[charslot]
+[delay(time=0.3)]
+[charslot(slot="m",name="avg_4187_graceb_1#14$1",duration=1)]
+[delay(time=1.5)]
+[charslot(slot="m",name="avg_4187_graceb_1#14$1",focus="m")]
+[name="努艾达"]请叫我努艾达就好。请放心，我没带那些除了垫桌角之外什么用都没有的“慰问品”。
+[name="努艾达"]这瓶药膏是我们自己磨的，镇痛效果稍差些，但不会像医院的药一样有成瘾风险。
+[name="努艾达"]不介意的话，这些冰淇淋也请您收下。我们听取了一位叫伊蒂达的姑娘的建议，用了比较……特殊的配方。
+[charslot(slot="m",name="avg_4187_graceb_1#13$1",focus="m")]
+[name="努艾达"]请相信，它虽然和一般的冰淇淋一样甜，但绝对不含一粒糖，不会影响您康复。
+[charslot(slot="m",name="avg_npc_1781_1#3$1",focus="m")]
+[name="潘格尼尼"]你说话倒确实不像教皇厅的人。怎么，难道帕特里奇昂自己不好意思来，拜托无辜的小姑娘替他来挨骂了？
+[charslot(slot="m",name="avg_4187_graceb_1#12$1",focus="m")]
+[name="努艾达"]这方面也请放心，我确实不为教皇厅工作，也真的不认识帕特里奇昂先生。我是自己要来的。
+[charslot(slot="m",name="avg_npc_1781_1#3$1",focus="m")]
+[name="潘格尼尼"]图啥？
+[charslot(slot="m",name="avg_4187_graceb_1#15$1",focus="m")]
+[name="努艾达"]也许只是因为我是个修女吧，这是我该做的事。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="26_g8_laterano_dwelling",screenadapt="coverall", block=true)]
+[charslot(slot="l",name="avg_4187_graceb_1#1$1")]
+[charslot(slot="r",name="avg_npc_1782_1#12$1")]
+[delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=0.5)]
+[charslot(slot="r",name="avg_npc_1782_1#12$1",focus="r")]
+[name="奥罗拉"]所以为什么，你还是当了修女？
+[name="奥罗拉"]你告诉我，我没必要服从那些期望，那你呢？
+[charslot(slot="l",name="avg_4187_graceb_1#1$1",focus="l")]
+[name="努艾达"]因为我很清楚当初那个修女为什么接受不了我杀人。
+[name="努艾达"]她太天真，天真到哪怕已经身处那样的一片土地，也想象不到人们只是为了活着就不得不变成什么模样。
+[charslot(slot="l",name="avg_4187_graceb_1#11$1",focus="l")]
+[name="努艾达"]那她一定来自一个很美的地方，一个和玻利瓦尔截然不同的地方，就像她在赞美诗里唱的那样。
+[charslot(slot="l",name="avg_4187_graceb_1#4$1",focus="l")]
+[name="努艾达"]我心底里，到底还是想知道那是个什么样的地方。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[charslot]
+[Background(image="39_g1_monasteryentrance",screenadapt="coverall", block=true)]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true, initamount=0, amount=0.8, block=true)]
+[delay(time=1)]
+[PlayMusic(key="$calm_loop", volume=0.6)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1)]
+[CameraEffect(effect="Grayscale", fadetime=1, keep=true, initamount=0.8, amount=0, block=true)]
+[delay(time=1)]
+[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="那里有圣主，慈爱像母亲。所有祷告祂都听见，所有愿望祂都实现♪", x=300, y=350, alignment="center", size=24, delay=0.04, width=700)]
+[Subtitle(text="所有人都由祂来爱，不论没有腿脚，还是少了手臂♪", x=300, y=350, alignment="center", size=23, delay=0.04, width=700)]
+[subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[delay(time=0.5)]
+[name="忧心的老修士"]谁啊，在门口唱赞美诗？
+[name="忧心的老修士"]修女？是你回来了吗？怎么花了这么久……
+[name="忧心的老修士"]不……不对。你是谁？
+[Dialog]
+[charslot]
+[delay(time=0.3)]
+[charslot(slot="m",name="avg_4187_graceb_1#13$1",duration=1)]
+[delay(time=1.5)]
+[charslot(slot="m",name="avg_4187_graceb_1#13$1",focus="m")]
+[name="努艾达"]她只是收到教皇厅的命令，紧急回拉特兰复命去了。我是来接替她的，您叫我努艾达就好。
+[Dialog]
+[charslot]
+[name="忧心的老修士"]是吗，是这样吗……怎么这么突然？她都没和我说声，这孩子……
+[charslot(slot="m",name="avg_4187_graceb_1#14$1",focus="m")]
+[name="努艾达"]她交接工作的时候，倒是总和我提起您。您要的调味料，她也托我给您带来了。
+[name="努艾达"]没什么其他事的话，我就先去干活了。但愿我劈柴的声音，不会吵到您。
+[Dialog]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[Image]

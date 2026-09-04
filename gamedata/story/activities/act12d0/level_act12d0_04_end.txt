@@ -9,8 +9,8 @@
 [PlaySound(key="$fightgeneral")] 
 [CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]
 [CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]
-[name="阿达克利斯喽喽A"]  嘎哈......
-[name="阿达克利斯喽喽B"]  太、太强了......
+[name="阿达克利斯喽喽A"]  嘎哈……
+[name="阿达克利斯喽喽B"]  太、太强了……
 [Character(name="avg_npc_071")]
 [name="乌代"]  算你厉害！
 [Character(name="avg_npc_070")]
@@ -20,12 +20,12 @@
 [Character]
 [Dialog]
 [Character(name="char_416_zumama_1#2")]
-[name="森蚺"]  ......
+[name="森蚺"]  ……
 [Character(name="char_411_tomimi_1")]
 [name="特米米"]  唔，不愧是祖玛玛，果然很厉害。
 [name="特米米"]  虽然只有一个人，一般的阿达克利斯也不是她的对手，就像嘉维尔一样。
-[name="特米米"]  但是......
-[Decision(options="你好像很熟悉她。;......;好帅的女孩子。",values="1;2;3")]
+[name="特米米"]  但是……
+[Decision(options="你好像很熟悉她。;……;好帅的女孩子。",values="1;2;3")]
 [Predicate(references="1")]
 [Character(name="char_411_tomimi_1#2")]
 [name="特米米"]  嗯，祖玛玛和嘉维尔从前开始就是我们这一带最厉害的两个人呢。
@@ -70,13 +70,13 @@
 [name="嘉维尔"]  是啊，特米米叫我回来的。
 [name="嘉维尔"]  嗯？等等，你居然也会说萨尔贡语？
 [Character(name="char_187_ccheal_1#3", name2="char_416_zumama_1#2", focus=2)]
-[name="森蚺"]  ......既然你也会这种语言，看来这种语言确实是外面的语言没错。
+[name="森蚺"]  ……既然你也会这种语言，看来这种语言确实是外面的语言没错。
 [name="森蚺"]  我学习了很久。
-[name="森蚺"]  ......我以为你不会再回来了。
+[name="森蚺"]  ……我以为你不会再回来了。
 [Character(name="char_187_ccheal_1#3", name2="char_416_zumama_1#2", focus=1)]
 [name="嘉维尔"]  我会回来的，不是现在，未来也会回来的，这里是我的家。
 [Character(name="char_187_ccheal_1#3", name2="char_416_zumama_1#2", focus=2)]
-[name="森蚺"]  ......你要当大酋长？
+[name="森蚺"]  ……你要当大酋长？
 [Character(name="char_187_ccheal_1#3", name2="char_416_zumama_1#2", focus=1)]
 [name="嘉维尔"]  不，本来我只是找你有点事，打完再找你也没关系的。
 [name="嘉维尔"]  但是，你这家伙变得这么厉害了，这让我怎么忍得住啊！
@@ -102,7 +102,7 @@
 [Character(name="char_187_ccheal_1", name2="char_416_zumama_1", focus=1)]
 [name="嘉维尔"]  你呢，上次的时候你不是在捣鼓自己的东西没有参加吗？终于捣鼓好了？
 [Character(name="char_187_ccheal_1", name2="char_416_zumama_1#3", focus=2)]
-[name="森蚺"]  ......是。
+[name="森蚺"]  ……是。
 [name="森蚺"]  你马上就会见到。
 [Dialog]
 [Character]
@@ -110,16 +110,16 @@
 [Background(image="bg_temple_1",screenadapt="coverall")]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
 [Character(name="char_411_tomimi_1#4")]
-[name="特米米"]  呜呜呜，嘉维尔不是说她不会出手的吗......
-[Decision(options="嘉维尔出乎你的意料了？;......;这才是嘉维尔。",values="1;2;3")]
+[name="特米米"]  呜呜呜，嘉维尔不是说她不会出手的吗……
+[Decision(options="嘉维尔出乎你的意料了？;……;这才是嘉维尔。",values="1;2;3")]
 [Predicate(references="1")]
 [Character(name="char_411_tomimi_1#2")]
 [CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]
-[name="特米米"]  诶？没、没有的事！只、只是.......
+[name="特米米"]  诶？没、没有的事！只、只是……
 [Predicate(references="2")]
 [Character(name="char_411_tomimi_1#2")]
-[name="特米米"]  博士也看入迷了......
-[name="特米米"]  呜呜，虽然确实很帅，但是......
+[name="特米米"]  博士也看入迷了……
+[name="特米米"]  呜呜，虽然确实很帅，但是……
 [Predicate(references="3")]
 [Character(name="char_411_tomimi_1#4")]
 [name="特米米"]  呜呜，虽然这么说是没错。
@@ -136,7 +136,7 @@
 [PlaySound(key="$livecrowd", volume=0.7, loop=false, channel="people")]
 [Character(name="char_416_zumama_1#2",fadetime=1,block=true)]
 [delay(time=1)]
-[name="森蚺"]  ......你还是那么强，嘉维尔。
+[name="森蚺"]  ……你还是那么强，嘉维尔。
 [Character(name="char_187_ccheal_1", name2="char_416_zumama_1#2", focus=1)]
 [name="嘉维尔"]  嘿，你也不差啊，祖玛玛！
 [Character(name="char_187_ccheal_1", name2="char_416_zumama_1", focus=2)]
@@ -173,7 +173,7 @@
 [name="嘉维尔"]  虽然不知道你在说什么，不过我可没那么轻易倒下啊！
 [Character(name="char_416_zumama_1#2")]
 [name="森蚺"]  不，你会轻易地倒下。
-[name="森蚺"]  ......大祭司，瞄准，开炮！
+[name="森蚺"]  ……大祭司，瞄准，开炮！
 [Dialog]
 [Character]
 [Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]

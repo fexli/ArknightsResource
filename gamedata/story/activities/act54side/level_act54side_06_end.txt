@@ -1,0 +1,189 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="77_g10_gate_night",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1.5)]
+[PlayMusic(key="$darkness_03_loop", volume=0.6)]
+[charslot(slot="m",name="avg_4217_makoto_1#1$3",focus="m")]
+[name="结城理"]是这里……
+[charslot(slot="m",name="avg_4218_aigis_1#5$2",focus="m")]
+[name="埃癸斯"]但是，这里并没有怪物的踪迹。强大的怪物，普通的怪物，都没有。
+[charslot(slot="m",name="avg_npc_2387_1#9$2",focus="m")]
+[name="山岸风花"]我们追踪到一半的时候，怪物的气息就开始变得断断续续……现在，已经完全感知不到了。
+[charslot(slot="m",name="avg_npc_2387_1#11$2",focus="m")]
+[name="山岸风花"]但在这个过程中，怪物的位置并没有发生过变化……应该就是这附近没错。
+[charslot(slot="m",name="avg_npc_2388_1#3$2",focus="m")]
+[name="天田乾"]……这个时间的殡仪堂，还有人在吗……
+[charslot(slot="m",name="avg_4219_yukari_1#6$2",focus="m")]
+[name="岳羽由加莉"]确认一下，怪物该不会是躲进了殡仪堂里吧？
+[charslot(slot="m",name="avg_npc_2387_1#9$2",focus="m")]
+[name="山岸风花"]（摇头）只是躲进建筑物内部的话，我不会感知不到的，何况是那么强烈的气息……
+[charslot(slot="m",name="avg_4219_yukari_1#6$2",focus="m")]
+[name="岳羽由加莉"]真奇怪……难道已经被消灭了吗？在我们之外，还有能消灭怪物的人？
+[charslot(slot="m",name="avg_npc_2387_1#9$2",focus="m")]
+[name="山岸风花"]不太可能……之前从来没有发生过这种情况。
+[name="山岸风花"]根据之前所有调查的情况来看，现在在拉特兰城里，应该只有我们能够消灭怪物……
+[name="山岸风花"]这么强烈的反应，为什么就消失了……？
+[dialog]
+[charslot]
+殡仪堂附近比其他街区要冷清不少，静夜中的脚步声格外清晰。
+熟悉的身影从建筑的阴影中走了出来，看见结城理等人，愣住一秒，匆匆熄灭了手中的烟卷。
+[dialog]
+[PlaySound(key="$d_gen_walk_n")]
+[charslot(slot="m",name="avg_npc_2378_1#12$1",focus="m",duration=2)]
+[delay(time=2)]
+[name="吉阿达"]你们在这里干什么？这个时间来殡仪堂……还带着武器？
+[charslot(slot="m",name="avg_4219_yukari_1#10$2",focus="m")]
+[name="岳羽由加莉"]呃……那个……我们刚刚在靶场训练！回宿舍的路上，想起有东西落在这里了……
+[charslot(slot="m",name="avg_npc_2378_1#1$1",focus="m")]
+[name="吉阿达"]训练到这么晚？虽然宿舍大概没有宵禁，但玩得太晚了也不好。
+[charslot(slot="m",name="avg_4219_yukari_1#6$2",focus="m")]
+[name="岳羽由加莉"]那个……明天是休息日嘛，就稍微……
+[name="岳羽由加莉"]吉阿达小姐呢，加班到这么晚吗……？
+[charslot(slot="m",name="avg_npc_2378_1#1$1",focus="m")]
+[name="吉阿达"]嗯。
+[charslot(slot="m",name="avg_4217_makoto_1#1$3",focus="m")]
+[name="结城理"]吉阿达小姐有看到什么遗落的物品吗？
+[charslot(slot="m",name="avg_npc_2378_1#11$1",focus="m")]
+[name="吉阿达"]啊……不知道。你们要是掉了东西就去找吧。侧门开着，自便。
+[charslot(slot="m",name="avg_4217_makoto_1#13$3",focus="m")]
+[name="结城理"]……
+[charslot(slot="m",name="avg_4220_kormr_1#7$1",focus="m")]
+[name="虎狼丸"]汪嗷……
+[charslot(slot="m",name="avg_npc_2387_1#12$2",focus="m")]
+[name="山岸风花"]虽然不太可能……吉阿达小姐，你在附近，有看到奇怪的东西吗？或者，听到异常的响声……之类的？
+[charslot(slot="m",name="avg_npc_2378_1#11$1",focus="m")]
+[name="吉阿达"]没有。
+[name="吉阿达"]……也可能有，我没注意到。
+[charslot(slot="m",name="avg_4217_makoto_1#1$3",focus="m")]
+[name="结城理"]……
+[name="结城理"]吉阿达小姐，刚才在做什么呢？
+[charslot(slot="m",name="avg_npc_2378_1#7$1",focus="m")]
+[name="吉阿达"]……做我最近每天都在做的事——和裘里奥吵架。
+[charslot(slot="m",name="avg_4217_makoto_1#13$3",focus="m")]
+[name="结城理"]还是白天没决定的那个问题……？
+[charslot(slot="m",name="avg_npc_2378_1#11$1",focus="m")]
+[name="吉阿达"]嗯。
+[name="吉阿达"]不过，这次是他赢了。
+[charslot(slot="m",name="avg_npc_2378_1#2$1",focus="m")]
+[name="吉阿达"]他说得没错……我是在利用这场葬礼。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[Background(image="77_g6_funeralhome",screenadapt="coverall")]
+[Delay(time=1)]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true,amount=0.5, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[PlayMusic(intro="$loneliness_intro", key="$loneliness_loop", volume=0.6)]
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2379_1#7$1",focus="r")]
+[name="裘里奥"]吉阿达，我不明白。之前的争执……你觉得我的想法很难接受，我能想象。
+[name="裘里奥"]但今天，关于遗容……你在顾虑什么？
+[name="裘里奥"]就因为“葬礼上应当悲伤”吗？
+[charslot(slot="r",name="avg_npc_2379_1#11$1",focus="r")]
+[name="裘里奥"]你之前好像说，不想和我“畅想拉特兰的未来”，重点是“不想畅想”，还是“不想和我”？
+[name="裘里奥"]其实你就是想改变我们，改变拉特兰，是吗？至少是改变拉特兰的葬礼风俗、追思方式。
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="l")]
+[name="吉阿达"]……如果我说是呢。
+[name="吉阿达"]一场葬礼当然不会有那么大作用，但这是一个开始……至少我要开始。
+[charslot(slot="r",name="avg_npc_2379_1#7$1",focus="r")]
+[name="裘里奥"]……吉阿达，你好像一位革新家啊。
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[name="吉阿达"]只是工作而已。
+[charslot(slot="r",name="avg_npc_2379_1#11$1",focus="r")]
+[name="裘里奥"]但是，你要把这场葬礼变成……你的一场试验，或者宣告吗？
+[charslot(slot="l",name="avg_npc_2378_1#6$1",focus="l")]
+[name="吉阿达"]……
+[charslot(slot="r",name="avg_npc_2379_1#11$1",focus="r")]
+[name="裘里奥"]其实所有这些事，我们争论的事，说到底都应该看死者的意愿，对不对？
+[name="裘里奥"]是因为死者已经无法说出她的想法了，我们这些人才……不得不越俎代庖。
+[charslot(slot="r",name="avg_npc_2379_1#7$1",focus="r")]
+[name="裘里奥"]因为可怜的姨妈死去了，甚至没有一位能为她操办葬礼的家人。
+[name="裘里奥"]只有我这个不成器的、根本没有血缘关系的远房外甥。只有你，安魂殡仪堂的一位葬礼经纪。
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]……没错，死者已逝，没有人能僭称自己代表了死者的真意。我不能，难道你可以？
+[name="吉阿达"]谁都不能。别装作你没有对这场葬礼寄托什么，你和我，都是在用这场葬礼追求自己想要的东西——
+[charslot(slot="r",name="avg_npc_2379_1#6$1",focus="r")]
+[name="裘里奥"]……
+[charslot(slot="r",name="avg_npc_2379_1#8$1",focus="r")]
+[name="裘里奥"]不……吉阿达，你忘记了……不，是你一直在回避——姨妈的遗嘱。
+[name="裘里奥"]不论这份遗嘱有多老旧，但它就是姨妈本人留下的、最直接的意愿。
+[charslot(slot="r",name="avg_npc_2379_1#7$1",focus="r")]
+[name="裘里奥"]她想要一场派对，她想要有人在她的葬礼上玩得开心。至少在她走进公证所、登记这条遗嘱的那一天，她是这样想的。
+[charslot(slot="l",name="avg_npc_2378_1#2$1",focus="l")]
+[name="吉阿达"]……
+[name="吉阿达"]你根本不了解死者，你甚至不记得她的样子，别说得像你亲眼见到她立下遗嘱一样。已经过去二十年了……
+[charslot(slot="r",name="avg_npc_2379_1#8$1",focus="r")]
+[name="裘里奥"]你不愿意承认这条遗嘱代表了维韦塔的意愿，真的是因为它太陈旧了，还是因为它对你的“愿景”不利？
+[charslot(slot="r",name="avg_npc_2379_1#11$1",focus="r")]
+[name="裘里奥"]你说我不了解姨妈，好，我承认。公平地说，对她而言我基本就是个陌生人了。
+[charslot(slot="r",name="avg_npc_2379_1#7$1",focus="r")]
+[name="裘里奥"]可是吉阿达小姐，你呢？在她去世之前，你见过她，和她说过哪怕一句话吗？
+[name="裘里奥"]刚才那个问题，不是在指控，我是真的想问……
+[name="裘里奥"]——吉阿达，你要把维韦塔的葬礼变成你的一场试验或者宣告吗？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot]
+[CameraEffect(effect="Grayscale", fadetime=0, keep=true,amount=0, block=true)]
+[Background(image="77_g10_gate_night",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]
+[charslot(slot="m",name="avg_npc_2378_1#11$1",focus="m")]
+[name="吉阿达"]他说得没错。我一直试图回避那条遗嘱，把它当成死者年轻时的玩笑……不是因为它陈旧或者荒唐，而是因为它对我不利。
+[charslot(slot="m",name="avg_npc_2387_1#10$2",focus="m")]
+[name="山岸风花"]吉阿达小姐……
+[charslot(slot="m",name="avg_npc_2378_1#8$1",focus="m")]
+[name="吉阿达"]其实在遗物里，我听到一首……
+[charslot(slot="m",name="avg_npc_2378_1#2$1",focus="m")]
+[name="吉阿达"]没什么。再继续找借口就有点难看了。
+[name="吉阿达"]虽然裘里奥经常看不懂别人的表情，听不懂别人的心情，但他真的很聪明，他说得完全没错。
+[charslot(slot="m",name="avg_npc_2378_1#8$1",focus="m")]
+[name="吉阿达"]我就是想改变这里，为什么我不能呢？
+[name="吉阿达"]我也是……拉特兰人。
+[charslot(slot="m",name="avg_npc_2378_1#2$1",focus="m")]
+[name="吉阿达"]我知道，从小就知道，拉特兰是萨科塔的圣城。当然了，每个黎博利都知道，所以在不知道多少代人之前，黎博利才会来到这里……
+[charslot(slot="m",name="avg_npc_2378_1#7$1",focus="m")]
+[name="吉阿达"]……不正是为了学习天使的生活？
+[name="吉阿达"]一直以来都是如此……所以我们分享了圣城的和平、繁盛和幸福。圣城如此赐福于黎博利。
+[charslot(slot="m",name="avg_npc_2378_1#11$1",focus="m")]
+[name="吉阿达"]可是未来呢，谁还会赐福给我们？
+[charslot(slot="m",name="avg_npc_2378_1#8$1",focus="m")]
+[name="吉阿达"]你们见到了现在的拉特兰，你们喜欢这个地方吗？
+[charslot(slot="m",name="avg_npc_2378_1#2$1",focus="m")]
+[name="吉阿达"]……不，算了，不要告诉我。
+[charslot(slot="m",name="avg_npc_2378_1#11$1",focus="m")]
+[name="吉阿达"]如果是去年春天，你们来到这里，我不知道这座城市在你们眼中会不会更可爱一点。
+[name="吉阿达"]但现在……它成了这样，到处都是像我和裘里奥一样不知所措的人。
+[name="吉阿达"]我不该做些什么吗……我想要做些什么……
+[charslot(slot="m",name="avg_npc_2378_1#8$1",focus="m")]
+[name="吉阿达"]如果我也能改变这里，是不是才能证明，这里也是我的家？
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image(image="77_i10", xScale=1.3,yScale=1.3,x=-300,y=200, fadetime=2, block=true)]
+[ImageTween(xScaleFrom=1.3,yScaleFrom=1.3,xScaleTo=1,yScaleTo=1,xfrom=-300,xTo=0,yFrom=200,yTo=0,duration=40,block=false)]
+[Delay(time=0.5)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+像是意识到失言，吉阿达低下了头，摆了摆手，转身离开了。她没有回到殡仪堂，走向了街道的另一头。
+没人还记得那个“遗落了东西”的借口。黎博利的脚步很轻，在阒然无声的夜里像露水跌落的涟漪，倏忽消散。
+风花看着吉阿达的背影，“只要把话说开，那两人应该就能和好”的想法，也和渐远的跫音一样散落得无声无息。
+她甚至开始疑惑，如果他们真的来得早一点，来到一个心声通传的拉特兰，就不会在这里见到寂寞的人吗？
+也许她是知道答案的。
+[dialog]
+[Image(image="77_i10", xScale=1,yScale=1, fadetime=3, block=true)]
+残月淡薄的光洒落在洁白的城市，这里以幸福称誉于大地。
+夜雾轻柔地浮起，隐去了黎博利的身影。
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[Background]
+[Image]

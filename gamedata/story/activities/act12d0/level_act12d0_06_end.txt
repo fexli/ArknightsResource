@@ -16,7 +16,7 @@
 [Character(name="avg_npc_070")]
 [name="族长B"]  老实说，祖玛玛搞出来的阵仗真厉害，要不是我是嘉维尔的追随者，说不定也要去加入祖玛玛了。
 [Character]
-[name="？？？"]  ......没关系。
+[name="？？？"]  ……没关系。
 [name="？？？"]  有你们几个部族的人也足够了。
 [Character(name="avg_npc_070")]
 [name="族长B"]  喂，我们真的能战胜祖玛玛吗？
@@ -30,7 +30,7 @@
 [Character]
 [Image(image="ac12_6",xScale=1, yScale=1, fadetime=0)]
 [Blocker(a=0, fadetime=2, block=true)]
-[name="？？？"]  .......
+[name="？？？"]  ……
 [name="？？？"]  但是，这是唯一能让嘉维尔留下来的方法。
 [name="？？？"]  不要忘了，我们是为了什么才成立的“嘉维尔意志”！
 [name="？？？"]  “嘉维尔意志”不只是一个部族，是我们所有希望嘉维尔成为大酋长的人的联盟！
@@ -40,7 +40,7 @@
 [name="族长A"]  没错，嘉维尔才是应该领导我们的人！
 [Character(name="avg_npc_070")]
 [name="族长C"]  嘿，要是我不同意，我就不会站在这里了！
-[name="佩塔"]  ......佩塔不喜欢，但是佩塔会做。
+[name="佩塔"]  ……佩塔不喜欢，但是佩塔会做。
 [Character]
 [name="？？？"]  那么你们到了祖玛玛部族外面等我来找你们，明白了吗？
 [name="其他族长"]  好。
@@ -76,7 +76,7 @@
 [Character]
 [Character(name="char_415_flint_1#2",fadetime=1,block=true)]
 [delay(time=1)]
-[name="燧石"]  ......这里是......哪里......
+[name="燧石"]  ……这里是……哪里……
 [Character(name="char_187_ccheal_1", name2="char_415_flint_1#2", focus=1)]
 [name="嘉维尔"]  你醒了，克玛尔。
 [Character(name="char_187_ccheal_1", name2="char_415_flint_1", focus=2)]
@@ -87,7 +87,7 @@
 [Character(name="char_415_flint_1", name2="char_017_homura_summer", focus=2)]
 [name="煌"]  嘿，你终于醒了，小姑娘。
 [Character(name="char_415_flint_1#3")]
-[name="燧石"]  ......
+[name="燧石"]  ……
 [Character(name="char_187_ccheal_1", name2="char_017_homura_summer", focus=2)]
 [CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]
 [name="煌"]  喂，嘉维尔，她干什么，怎么刚醒就忽然向我弯腰了？！
@@ -105,8 +105,8 @@
 [name="嘉维尔"]  大概意思就是觉得你太强了，想做你小弟，这样的感觉吧。
 [Character(name="char_017_homura_summer")]
 [CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]
-[name="煌"]  ......博士，怎么办啊，我从没遇到过这种事！
-[Decision(options="这要由你来决定。;......;不关我事。",values="1;2;3")]
+[name="煌"]  ……博士，怎么办啊，我从没遇到过这种事！
+[Decision(options="这要由你来决定。;……;不关我事。",values="1;2;3")]
 [Predicate(references="1;2;3")]
 [Character(name="char_187_ccheal_1", name2="char_017_homura_summer", focus=2)]
 [name="煌"]  呃，要不让她先跟着我们？

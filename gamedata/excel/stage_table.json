@@ -83061,6 +83061,1235 @@
       "isStagePatch": false,
       "mainStageId": null
     },
+    "act54side_st01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "main_01-10",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act54side_st01",
+      "levelId": null,
+      "zoneId": "act54side_zone1",
+      "code": "SR-ST-1",
+      "name": "月落",
+      "description": "穿过十层云又十层雨，十层晴天和一千条闪电，月亮落入了水中，涟漪微微波动。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_SR_street",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act54side_st01"
+    },
+    "act54side_tr01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act54side_st01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act54side_tr01",
+      "levelId": "Activities/act54side/level_act54side_tr01",
+      "zoneId": "act54side_zone1",
+      "code": "SR-TR-1",
+      "name": "月影",
+      "description": "喃喃自语的深夜中，月光投下万物的影子。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_SR_street",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": -1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": true,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 3,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act54side_st01"
+    },
+    "act54side_01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act54side_tr01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act54side_01",
+      "levelId": "Activities/act54side/level_act54side_01",
+      "zoneId": "act54side_zone1",
+      "code": "SR-1",
+      "name": "月出",
+      "description": "转学生难免需要一些时间适应环境，第一个朋友不妨就从老师交起。",
+      "hardStagedId": null,
+      "dangerLevel": "LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_SR_street",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 9,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act54side_st01"
+    },
+    "act54side_02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act54side_01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act54side_02",
+      "levelId": "Activities/act54side/level_act54side_02",
+      "zoneId": "act54side_zone1",
+      "code": "SR-2",
+      "name": "月涌",
+      "description": "它只是存在，就牵引大地上的一切，那力量微弱遥远，却也无可置疑。",
+      "hardStagedId": null,
+      "dangerLevel": "LV.35",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_SR_street",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 9,
+      "apFailReturn": 9,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 90,
+      "goldGain": 90,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 9,
+      "completeFavor": 9,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30031",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30061",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30041",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30051",
+            "dropType": 2
+          },
+          {
+            "occPercent": 3,
+            "type": "MATERIAL",
+            "id": "30021",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30011",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act54side_st01"
+    },
+    "act54side_03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act54side_02",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act54side_03",
+      "levelId": "Activities/act54side/level_act54side_03",
+      "zoneId": "act54side_zone1",
+      "code": "SR-3",
+      "name": "月晕",
+      "description": "来拉特兰不能不试试铳械，不是为了学会，而是为了明白学不会。拉特兰就是这种地方。",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.1",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_SR_street",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 12,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 12,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act54side_st01"
+    },
+    "act54side_04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act54side_03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act54side_04",
+      "levelId": "Activities/act54side/level_act54side_04",
+      "zoneId": "act54side_zone1",
+      "code": "SR-4",
+      "name": "月移",
+      "description": "许多无法察觉的因素都在改变它的轨迹，也有一些原因就摆在眼前。",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.20",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_SR_street",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 12,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 12,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30042",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 2
+          },
+          {
+            "occPercent": 1,
+            "type": "MATERIAL",
+            "id": "30042",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30032",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act54side_st01"
+    },
+    "act54side_05": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act54side_04",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act54side_05",
+      "levelId": "Activities/act54side/level_act54side_05",
+      "zoneId": "act54side_zone1",
+      "code": "SR-5",
+      "name": "月斜",
+      "description": "它并不夜升日落，西斜也不代表黎明将临。",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.30",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_SR_street",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 12,
+      "apFailReturn": 12,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 120,
+      "goldGain": 120,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 12,
+      "completeFavor": 12,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30062",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30022",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act54side_st01"
+    },
+    "act54side_06": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act54side_05",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act54side_06",
+      "levelId": "Activities/act54side/level_act54side_06",
+      "zoneId": "act54side_zone1",
+      "code": "SR-6",
+      "name": "月蚀",
+      "description": "遮挡它的是你自己的影子。",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.50",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_SR_street",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 21,
+      "apFailReturn": 21,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 210,
+      "goldGain": 210,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 21,
+      "completeFavor": 21,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "31073",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "31073",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act54side_st01"
+    },
+    "act54side_07": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act54side_06",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act54side_07",
+      "levelId": "Activities/act54side/level_act54side_07",
+      "zoneId": "act54side_zone1",
+      "code": "SR-7",
+      "name": "月悬",
+      "description": "它常在你以为它不在时出现，反之亦然。",
+      "hardStagedId": null,
+      "dangerLevel": "精英1 LV.60",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_SR_street",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 21,
+      "apFailReturn": 21,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 210,
+      "goldGain": 210,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 21,
+      "completeFavor": 21,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "31053",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "31053",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act54side_st01"
+    },
+    "act54side_08": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act54side_07",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act54side_08",
+      "levelId": "Activities/act54side/level_act54side_08",
+      "zoneId": "act54side_zone1",
+      "code": "SR-8",
+      "name": "月满",
+      "description": "拉特兰，请抬起头。映在你眼中的，那是什么？",
+      "hardStagedId": null,
+      "dangerLevel": "精英2 LV.10",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_SR_mortuary",
+      "canPractice": true,
+      "canBattleReplay": true,
+      "apCost": 21,
+      "apFailReturn": 21,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 1,
+      "dailyStageDifficulty": 0,
+      "expGain": 210,
+      "goldGain": 210,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 21,
+      "completeFavor": 21,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 2
+          },
+          {
+            "type": "MATERIAL",
+            "id": "30043",
+            "dropType": 2
+          },
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act54side_token_tape",
+            "dropType": 2
+          },
+          {
+            "occPercent": 2,
+            "type": "MATERIAL",
+            "id": "30043",
+            "dropType": 2
+          },
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "canMultipleBattle": true,
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act54side_st01"
+    },
+    "act54side_st02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act54side_08",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act54side_st02",
+      "levelId": null,
+      "zoneId": "act54side_zone1",
+      "code": "SR-ST-2",
+      "name": "满月一生",
+      "description": "万事有始，万物有终，在那之间，我们以自己的方式而活。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_SR_mortuary",
+      "canPractice": true,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 1,
+      "practiceTicketCost": 0,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": true,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "DIAMOND",
+            "id": "4002",
+            "dropType": 8
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act54side_st01"
+    },
     "act53side_st01": {
       "stageType": "ACTIVITY",
       "difficulty": "NORMAL",
@@ -340198,6 +341427,26 @@
       "emissionColor": "#54541f",
       "highlandBuildableColor": null,
       "highlandEmissionColor": null
+    },
+    "LATELANSTREET": {
+      "themeId": "LATELANSTREET",
+      "unitColor": "#ffffff",
+      "buildableColor": "#FFFF37",
+      "themeType": null,
+      "trapTintColor": null,
+      "emissionColor": null,
+      "highlandBuildableColor": null,
+      "highlandEmissionColor": null
+    },
+    "LATELANFUNERAL": {
+      "themeId": "LATELANFUNERAL",
+      "unitColor": "#ffffff",
+      "buildableColor": "#FFFF37",
+      "themeType": null,
+      "trapTintColor": null,
+      "emissionColor": "#424200",
+      "highlandBuildableColor": null,
+      "highlandEmissionColor": null
     }
   },
   "tileInfo": {
@@ -340722,6 +341971,18 @@
       "name": "隐蔽的兔子洞出口",
       "description": "进入兔子洞入口的敌人，有可能从此处出现",
       "isFunctional": true
+    },
+    "tile_replace_road": {
+      "tileKey": "tile_replace_road",
+      "name": "交接！",
+      "description": "可以直接部署干员替代原有干员，且原有干员再部署时间大幅缩短",
+      "isFunctional": true
+    },
+    "tile_replace_wall": {
+      "tileKey": "tile_replace_wall",
+      "name": "交接！",
+      "description": "可以直接部署干员替代原有干员，且原有干员再部署时间大幅缩短",
+      "isFunctional": true
     }
   },
   "forceOpenTable": {
@@ -341129,6 +342390,22 @@
       "id": "26",
       "startTime": 1782460800,
       "endTime": 1783627199,
+      "forceOpenList": [
+        "weekly_1",
+        "weekly_2",
+        "weekly_3",
+        "weekly_4",
+        "weekly_5",
+        "weekly_6",
+        "weekly_7",
+        "weekly_8",
+        "weekly_9"
+      ]
+    },
+    "27": {
+      "id": "27",
+      "startTime": 1790668800,
+      "endTime": 1792439999,
       "forceOpenList": [
         "weekly_1",
         "weekly_2",
@@ -577373,6 +578650,50 @@
       "startTs": 1715155200,
       "endTs": -1
     },
+    "act54side_st01": {
+      "startTs": 1788476400,
+      "endTs": 1789675199
+    },
+    "act54side_tr01": {
+      "startTs": 1788476400,
+      "endTs": 1789675199
+    },
+    "act54side_01": {
+      "startTs": 1788476400,
+      "endTs": 1789675199
+    },
+    "act54side_02": {
+      "startTs": 1788476400,
+      "endTs": 1789675199
+    },
+    "act54side_03": {
+      "startTs": 1788476400,
+      "endTs": 1789675199
+    },
+    "act54side_04": {
+      "startTs": 1788476400,
+      "endTs": 1789675199
+    },
+    "act54side_05": {
+      "startTs": 1788476400,
+      "endTs": 1789675199
+    },
+    "act54side_06": {
+      "startTs": 1788476400,
+      "endTs": 1789675199
+    },
+    "act54side_07": {
+      "startTs": 1788476400,
+      "endTs": 1789675199
+    },
+    "act54side_08": {
+      "startTs": 1788476400,
+      "endTs": 1789675199
+    },
+    "act54side_st02": {
+      "startTs": 1788476400,
+      "endTs": 1789675199
+    },
     "act53side_st01": {
       "startTs": 1785538800,
       "endTs": 1787342399
@@ -590486,7 +591807,7 @@
       "mainlineData": {
         "zoneId": "main_2",
         "decoImageId": "deco_seperated_hearts",
-        "desc": "为了得到龙门支持，罗德岛与执政者魏彦吾达成合作。\n通过企鹅物流的情报，阿米娅找到了乌萨斯女孩米莎。\n与此同时，整合运动也派出了干部对米莎展开追捕。\n看似普通的女孩究竟有什么特别身份，\n能吸引多方势力的关注......",
+        "desc": "为了得到龙门支持，罗德岛与执政者魏彦吾达成合作。\n通过企鹅物流的情报，阿米娅找到了乌萨斯女孩米莎。\n与此同时，整合运动也派出了干部对米莎展开追捕。\n看似普通的女孩究竟有什么特别身份，\n能吸引多方势力的关注……",
         "backgroundId": "storybg_seperated_hearts",
         "tags": []
       }
@@ -590504,7 +591825,7 @@
       "mainlineData": {
         "zoneId": "main_3",
         "decoImageId": "deco_stinging_shock",
-        "desc": "米莎的真实身份浮出水面，罗德岛对她展开营救。\n被整合运动劫走的米莎，却开始怀疑起来。\n究竟应该选择眼前之人，还是正确之人......\n她就这样站在了悬崖边，做出了自己的决定。",
+        "desc": "米莎的真实身份浮出水面，罗德岛对她展开营救。\n被整合运动劫走的米莎，却开始怀疑起来。\n究竟应该选择眼前之人，还是正确之人……\n她就这样站在了悬崖边，做出了自己的决定。",
         "backgroundId": "storybg_stinging_shock",
         "tags": []
       }
@@ -590630,7 +591951,7 @@
       "mainlineData": {
         "zoneId": "main_10",
         "decoImageId": "deco_shatterpoint",
-        "desc": "小丘郡的混战后，\n罗德岛和深池同时向伦蒂尼姆靠近。\n推进之王回到了久违的故乡，\n面对的却是战火纷飞的城市......\n而高耸的碎片大厦里，两个萨卡兹正目睹着这一切。\n逝去的人本不应在此，\n那此刻的“她”又究竟是谁？",
+        "desc": "小丘郡的混战后，\n罗德岛和深池同时向伦蒂尼姆靠近。\n推进之王回到了久违的故乡，\n面对的却是战火纷飞的城市……\n而高耸的碎片大厦里，两个萨卡兹正目睹着这一切。\n逝去的人本不应在此，\n那此刻的“她”又究竟是谁？",
         "backgroundId": "storybg_shatterpoint",
         "tags": []
       }
@@ -590666,7 +591987,7 @@
       "mainlineData": {
         "zoneId": "main_12",
         "decoImageId": "deco_all_quiet_under_the_thunder",
-        "desc": "一发炮弹从飞空艇射出，战争正式打响。\n开斯特公爵的密使“灰礼帽”找到了罗德岛，\n多方考虑下，罗德岛选择与他达成合作。\n与此同时，正在撤离中的自救军遭遇了工人们的背叛。\n一切似乎都在往最糟糕的方向发展......\n漩涡中的罗德岛，又将何去何从？",
+        "desc": "一发炮弹从飞空艇射出，战争正式打响。\n开斯特公爵的密使“灰礼帽”找到了罗德岛，\n多方考虑下，罗德岛选择与他达成合作。\n与此同时，正在撤离中的自救军遭遇了工人们的背叛。\n一切似乎都在往最糟糕的方向发展……\n漩涡中的罗德岛，又将何去何从？",
         "backgroundId": "storybg_all_quiet_under_the_thunder",
         "tags": []
       }
@@ -590684,7 +592005,7 @@
       "mainlineData": {
         "zoneId": "main_13",
         "decoImageId": "deco_the_whirlpool_that_is_passion",
-        "desc": "在萨卡兹的攻势下，伦蒂尼姆彻底沦陷。\n阿米娅被赦罪师萨卢斯掳走，情急之下博士只身追去。\n另一边，伊内丝一行在莫名的幻境中，\n看见了萨卡兹一族数千年来经历的苦难......\n昔日的流亡者如今成了侵略者，\n而维娜必须带领人民，保卫本属于他们的家园。",
+        "desc": "在萨卡兹的攻势下，伦蒂尼姆彻底沦陷。\n阿米娅被赦罪师萨卢斯掳走，情急之下博士只身追去。\n另一边，伊内丝一行在莫名的幻境中，\n看见了萨卡兹一族数千年来经历的苦难……\n昔日的流亡者如今成了侵略者，\n而维娜必须带领人民，保卫本属于他们的家园。",
         "backgroundId": "storybg_the_whirlpool_that_is_passion",
         "tags": []
       }
@@ -590869,7 +592190,7 @@
       "coreRewardId": "char_4162_cathy",
       "relevantActivityId": "act37side",
       "ssData": {
-        "desc": "踏上阶梯的维娜·维多利亚回过头，\n看见了昔日格拉斯哥帮的同伴，看见了城市的伤痕。\n战争已经结束，但血仍在流。\n葬礼上缺席的那个人，背弃王冠的那个人，\n回到诺伯特区废墟的那个人......\n维娜·维多利亚的英雄时刻已经随着战争结束而落幕，\n但她仍是维娜。",
+        "desc": "踏上阶梯的维娜·维多利亚回过头，\n看见了昔日格拉斯哥帮的同伴，看见了城市的伤痕。\n战争已经结束，但血仍在流。\n葬礼上缺席的那个人，背弃王冠的那个人，\n回到诺伯特区废墟的那个人……\n维娜·维多利亚的英雄时刻已经随着战争结束而落幕，\n但她仍是维娜。",
         "backgroundId": "storybg_ending_a_grand_overture",
         "tags": [
           "tag_15"
@@ -590908,7 +592229,7 @@
       "coreRewardId": "char_405_absin",
       "relevantActivityId": "act10d5",
       "collectData": {
-        "desc": "切尔诺伯格的那个冬天如此漫长。\n残留的寒意，至今仍纠缠着彼得海姆中学的幸存者。\n那些无法改变、无法面对、无法挽回的事......\n那些必须铭记、必须前行、必须信赖的原因。",
+        "desc": "切尔诺伯格的那个冬天如此漫长。\n残留的寒意，至今仍纠缠着彼得海姆中学的幸存者。\n那些无法改变、无法面对、无法挽回的事……\n那些必须铭记、必须前行、必须信赖的原因。",
         "backgroundId": "storybg_children_of_ursus"
       }
     },
@@ -591146,7 +592467,7 @@
       "coreRewardId": "char_1502_crosly",
       "relevantActivityId": "act38side",
       "ssData": {
-        "desc": "新沃尔西尼，和平的表象下暗流涌动。\n一场车祸，将脆弱的宁静彻底打破。\n家族与暴力有无数套伪装，秩序之旗却容不得污迹。\n法官，杀手，獠牙，裁缝，感染者......\n一辆出租车如幽灵般在城市里穿行，\n拉普兰德为盛大的演出精心编织着惊喜。\n赌局也好，阴谋也罢，趁着狂欢节，都一起来吧！",
+        "desc": "新沃尔西尼，和平的表象下暗流涌动。\n一场车祸，将脆弱的宁静彻底打破。\n家族与暴力有无数套伪装，秩序之旗却容不得污迹。\n法官，杀手，獠牙，裁缝，感染者……\n一辆出租车如幽灵般在城市里穿行，\n拉普兰德为盛大的演出精心编织着惊喜。\n赌局也好，阴谋也罢，趁着狂欢节，都一起来吧！",
         "backgroundId": "storybg_i_portatori_dei_velluti",
         "tags": [
           "tag_12",
@@ -591172,7 +592493,7 @@
       "coreRewardId": "char_4023_rfalcn@epoque#52",
       "relevantActivityId": "act20mini",
       "collectData": {
-        "desc": "狂欢之后，新沃尔西尼归于日常。\n摒弃了家族的影响，一切由“公平”决定，\n这座过分年轻的城市敞开了门户，\n卡西米尔人、莱塔尼亚人、哥伦比亚人......各怀鬼胎。\n如今正站在十字街头的叙拉古，\n该如何重新定义“铳与秩序”？",
+        "desc": "狂欢之后，新沃尔西尼归于日常。\n摒弃了家族的影响，一切由“公平”决定，\n这座过分年轻的城市敞开了门户，\n卡西米尔人、莱塔尼亚人、哥伦比亚人……各怀鬼胎。\n如今正站在十字街头的叙拉古，\n该如何重新定义“铳与秩序”？",
         "backgroundId": "storybg_crossing"
       }
     },
@@ -591230,7 +592551,7 @@
       "coreRewardId": "char_496_wildmn",
       "relevantActivityId": "act13side",
       "ssData": {
-        "desc": "耀骑士的归来，\n将这一届特别锦标赛推往了一个新的高潮。\n同时，在霓虹灯没有照到的角落，\n那些被消失的怒吼也即将冲破桎梏。\n舞台之上，骑士之路交错蔓延。\n舞台之下，城市之殇箭在弦上。\n他们终将交汇......",
+        "desc": "耀骑士的归来，\n将这一届特别锦标赛推往了一个新的高潮。\n同时，在霓虹灯没有照到的角落，\n那些被消失的怒吼也即将冲破桎梏。\n舞台之上，骑士之路交错蔓延。\n舞台之下，城市之殇箭在弦上。\n他们终将交汇……",
         "backgroundId": "storybg_near_light",
         "tags": [
           "tag_11",
@@ -591271,7 +592592,7 @@
       "coreRewardId": "char_383_snsant",
       "relevantActivityId": "act6d5",
       "collectData": {
-        "desc": "根据古老的传说，巨大的怪物随时可能来袭！\n龙门这座孤城，如何用一场惊天爆炸度过年关？\n燃情巨制《龙门末日守城》......不，该叫《洪炉示岁》！\n总之，敬请期待！",
+        "desc": "根据古老的传说，巨大的怪物随时可能来袭！\n龙门这座孤城，如何用一场惊天爆炸度过年关？\n燃情巨制《龙门末日守城》……不，该叫《洪炉示岁》！\n总之，敬请期待！",
         "backgroundId": "storybg_ancient_forge"
       }
     },
@@ -591395,7 +592716,7 @@
       "coreRewardId": "char_4172_xingzh",
       "relevantActivityId": "act40side",
       "ssData": {
-        "desc": "一场离别的雨，打湿了禁城内外无数人的肩袖。\n一封寄往维多利亚的信，包裹起言语难明的思愁。\n一把突如其来的火，烧毁半生心血，好不干净。\n一锅炖煮了百年的汤，是否来得及为他送上一线生机？\n或许那些所谓的“过去”，从来都称不上什么权谋算计，\n不过是人们面对无奈之事做出的无奈之举......\n此事古难全。如有相见，当尽欢。",
+        "desc": "一场离别的雨，打湿了禁城内外无数人的肩袖。\n一封寄往维多利亚的信，包裹起言语难明的思愁。\n一把突如其来的火，烧毁半生心血，好不干净。\n一锅炖煮了百年的汤，是否来得及为他送上一线生机？\n或许那些所谓的“过去”，从来都称不上什么权谋算计，\n不过是人们面对无奈之事做出的无奈之举……\n此事古难全。如有相见，当尽欢。",
         "backgroundId": "storybg_such_is_the_joy_of_our_reunion",
         "tags": [
           "tag_13",
@@ -591625,7 +592946,7 @@
       "coreRewardId": "char_4137_udflow",
       "relevantActivityId": "act34side",
       "ssData": {
-        "desc": "名为弥利亚留姆的城市突出重围，\n代表阿戈尔首次寻求与陆地的合作。\n倾巢而出的大群向着陆地和天空泛起涟漪的位置迁徙。\n失落的先辈降临故地，独行的深海猎人再次沉向深渊，\n熄灭的信标重新亮起......\n前所未有的超级航道在浪涛间生成，联通海洋与陆地—\n阿戈尔与海嗣，谁能奔向最后的生机？",
+        "desc": "名为弥利亚留姆的城市突出重围，\n代表阿戈尔首次寻求与陆地的合作。\n倾巢而出的大群向着陆地和天空泛起涟漪的位置迁徙。\n失落的先辈降临故地，独行的深海猎人再次沉向深渊，\n熄灭的信标重新亮起……\n前所未有的超级航道在浪涛间生成，联通海洋与陆地—\n阿戈尔与海嗣，谁能奔向最后的生机？",
         "backgroundId": "storybg_path_of_life",
         "tags": [
           "tag_13",
@@ -591744,7 +593065,7 @@
       "coreRewardId": "char_4017_puzzle",
       "relevantActivityId": "act22side",
       "ssData": {
-        "desc": "塔拉，一个定义模糊的地区，一片泥泞的沼泽......\n一处只能在旧歌谣中寻得的家园。\n她曾经从这里逃离，如今埋藏了所有身份又回到这里。\n“鬼魂”正从阴影中浮现，深池的行军正在土地上留下焦痕。\n被血脉赋予生命之火的红龙，必须负担起生命之重。\n是怎样的火照亮了我？如今的我，是谁的影子？",
+        "desc": "塔拉，一个定义模糊的地区，一片泥泞的沼泽……\n一处只能在旧歌谣中寻得的家园。\n她曾经从这里逃离，如今埋藏了所有身份又回到这里。\n“鬼魂”正从阴影中浮现，深池的行军正在土地上留下焦痕。\n被血脉赋予生命之火的红龙，必须负担起生命之重。\n是怎样的火照亮了我？如今的我，是谁的影子？",
         "backgroundId": "storybg_what_the_firelight_casts",
         "tags": [
           "tag_12",
@@ -591767,7 +593088,7 @@
       "coreRewardId": "char_4177_brigid",
       "relevantActivityId": "act41side",
       "ssData": {
-        "desc": "纳斯尔纱，一座饱经摧残的城市，一颗疲惫的心脏......\n一个被密林与迷雾守护的秘密。\n拉芙希妮怀揣对和平的愿景，应约而至。\n而那个操纵死火的人，已备好了足以长谈的故事。\n由红龙杀死红龙，将祝福还给赐者，让逝者归于火中，\n至那时，火焰为塔拉带来的，会是一个怎样的未来？",
+        "desc": "纳斯尔纱，一座饱经摧残的城市，一颗疲惫的心脏……\n一个被密林与迷雾守护的秘密。\n拉芙希妮怀揣对和平的愿景，应约而至。\n而那个操纵死火的人，已备好了足以长谈的故事。\n由红龙杀死红龙，将祝福还给赐者，让逝者归于火中，\n至那时，火焰为塔拉带来的，会是一个怎样的未来？",
         "backgroundId": "storybg_when_elegies_are_ashes",
         "tags": [
           "tag_12",
@@ -591839,7 +593160,7 @@
       "coreRewardId": "char_486_takila",
       "relevantActivityId": "act12side",
       "ssData": {
-        "desc": "盛夏，陈应邀来到了位于玻利瓦尔的多索雷斯度假。\n却没想到，与林雨霞在此地重逢。\n同时，这座玻利瓦尔最为独特的城市一年一度的狂欢，\n极限铁人大奖赛，拉开帷幕。\n然而，光鲜总是伴随着腐败，酝酿已久的暗流，\n也即将汹涌而出，它势要淹没这座城市。\n陈与林雨霞嗅到的一丝危机是......",
+        "desc": "盛夏，陈应邀来到了位于玻利瓦尔的多索雷斯度假。\n却没想到，与林雨霞在此地重逢。\n同时，这座玻利瓦尔最为独特的城市一年一度的狂欢，\n极限铁人大奖赛，拉开帷幕。\n然而，光鲜总是伴随着腐败，酝酿已久的暗流，\n也即将汹涌而出，它势要淹没这座城市。\n陈与林雨霞嗅到的一丝危机是……",
         "backgroundId": "storybg_dossoles_holiday",
         "tags": [
           "tag_11",
@@ -591923,7 +593244,7 @@
       "coreRewardId": "char_4106_bryota",
       "relevantActivityId": "act27side",
       "ssData": {
-        "desc": "汐斯塔搬上了移动城市，离开了那座火山。\n新家园已然建立，旅人们却不愿舍弃回忆。\n火山学者伸手触碰往事，云朵忽而似绒毛飘落。\n晚风融化了夏夜的梦，木吉他奏起温柔的气泡声。\n大地的脉搏炽热，名为爱的火山终会喷薄......\n是告别，是重逢，也是心中恒久的歌。",
+        "desc": "汐斯塔搬上了移动城市，离开了那座火山。\n新家园已然建立，旅人们却不愿舍弃回忆。\n火山学者伸手触碰往事，云朵忽而似绒毛飘落。\n晚风融化了夏夜的梦，木吉他奏起温柔的气泡声。\n大地的脉搏炽热，名为爱的火山终会喷薄……\n是告别，是重逢，也是心中恒久的歌。",
         "backgroundId": "storybg_so_long_adele",
         "tags": [
           "tag_16",
@@ -592051,7 +593372,7 @@
       "coreRewardId": "char_131_flameb",
       "relevantActivityId": "act4d0",
       "collectData": {
-        "desc": "硝烟中的低语，刀尖下的抉择......\n战争从来不以围墙划分其边界，\n而战场中，也从不缺乏被掩埋的故事。",
+        "desc": "硝烟中的低语，刀尖下的抉择……\n战争从来不以围墙划分其边界，\n而战场中，也从不缺乏被掩埋的故事。",
         "backgroundId": "storybg_operational_intelligence"
       }
     },
@@ -592161,7 +593482,7 @@
       "coreRewardId": "char_347_jaksel@whirlwind#2",
       "relevantActivityId": "act10mini",
       "collectData": {
-        "desc": "卡拉顿的阴云之下，一场大火将“绿意火花”焚为废墟，\n也摧毁了苏茜那微小却遥不可及的梦想。\n在浓烟背后，一场针对感染者的丑陋阴谋正在扩张......",
+        "desc": "卡拉顿的阴云之下，一场大火将“绿意火花”焚为废墟，\n也摧毁了苏茜那微小却遥不可及的梦想。\n在浓烟背后，一场针对感染者的丑陋阴谋正在扩张……",
         "backgroundId": "storybg_a_light_spark_in_darkness"
       }
     },
@@ -592195,7 +593516,7 @@
       "coreRewardId": "char_183_skgoat@epoque#30",
       "relevantActivityId": "act16mini",
       "collectData": {
-        "desc": "博士与阿米娅回到了雷姆必拓，在暴行的陪伴下，\n他们走过曾经的旅途，却意外遇上一辆冲关的运载车。\n追逐巨兽的人，又能否找到记忆中的目光......",
+        "desc": "博士与阿米娅回到了雷姆必拓，在暴行的陪伴下，\n他们走过曾经的旅途，却意外遇上一辆冲关的运载车。\n追逐巨兽的人，又能否找到记忆中的目光……",
         "backgroundId": "storybg_to_the_grinning_valley"
       }
     },
@@ -592212,7 +593533,7 @@
       "coreRewardId": "char_282_catap@summer#17",
       "relevantActivityId": "act17mini",
       "collectData": {
-        "desc": "从魂灵熔炉中喷涌而出的火光，\n为卡兹戴尔带来了一朵短暂却炫目的烟花，\n以及一场......关于未来的好梦。",
+        "desc": "从魂灵熔炉中喷涌而出的火光，\n为卡兹戴尔带来了一朵短暂却炫目的烟花，\n以及一场……关于未来的好梦。",
         "backgroundId": "storybg_a_kazdelian_rescue"
       }
     },
@@ -592229,7 +593550,7 @@
       "coreRewardId": "char_4104_coldst",
       "relevantActivityId": "act28side",
       "ssData": {
-        "desc": "能源塔的余热，曾温暖着达维镇。\n人们期盼着的明天，却如烟囱口的白烟一般消散。\n无法解决的问题，难以保护的东西......\n寒风凛冽，这个冬天注定漫长无歇。\n杰西卡站在雪地中，铳口朝天——\n为一个虚无缥缈的承诺，为一声无可奈何的叹息，\n为一座盛满家与梦的废墟。",
+        "desc": "能源塔的余热，曾温暖着达维镇。\n人们期盼着的明天，却如烟囱口的白烟一般消散。\n无法解决的问题，难以保护的东西……\n寒风凛冽，这个冬天注定漫长无歇。\n杰西卡站在雪地中，铳口朝天——\n为一个虚无缥缈的承诺，为一声无可奈何的叹息，\n为一座盛满家与梦的废墟。",
         "backgroundId": "storybg_come_catastrophes_or_wakes_of_vultures",
         "tags": [
           "tag_13"
@@ -592407,7 +593728,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "第一次苏醒",
-      "displayDesc": "博士......抓紧我的手！！",
+      "displayDesc": "博士……抓紧我的手！！",
       "storySetId": "setId_mainline_0_1",
       "sortId": 2
     },
@@ -592418,7 +593739,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "带来胜利之人",
-      "displayDesc": "也许连你自己都可能还不太相信......但是我相信你。请指挥——罗德岛！",
+      "displayDesc": "也许连你自己都可能还不太相信……但是我相信你。请指挥——罗德岛！",
       "storySetId": "setId_mainline_0_1",
       "sortId": 3
     },
@@ -592440,7 +593761,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "信条",
-      "displayDesc": "如果争端能够避免，那我们应当沉默；如果战斗是必要的，那就战斗到最后。罗德岛的信条......从来没有改变过！",
+      "displayDesc": "如果争端能够避免，那我们应当沉默；如果战斗是必要的，那就战斗到最后。罗德岛的信条……从来没有改变过！",
       "storySetId": "setId_mainline_0_1",
       "sortId": 5,
       "relatedStoryId": "obt/main/level_main_00-01_beg",
@@ -592466,7 +593787,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "撕扯",
-      "displayDesc": "哼，逃跑......又能逃到哪里？去，撕碎他们。",
+      "displayDesc": "哼，逃跑……又能逃到哪里？去，撕碎他们。",
       "storySetId": "setId_mainline_0_1",
       "sortId": 7,
       "relatedStoryId": "obt/main/level_main_00-02_end",
@@ -592544,7 +593865,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "反击",
-      "displayDesc": "不会让你伤害他们的，我不会......允许你这么做的！",
+      "displayDesc": "不会让你伤害他们的，我不会……允许你这么做的！",
       "storySetId": "setId_mainline_0_2",
       "sortId": 6,
       "relatedStoryId": "obt/main/level_main_01-08_beg",
@@ -592557,7 +593878,7 @@
       ],
       "cgSource": "BACKGROUND",
       "displayName": "家",
-      "displayDesc": "走吧......我们回家。",
+      "displayDesc": "走吧……我们回家。",
       "storySetId": "setId_mainline_0_2",
       "sortId": 7,
       "relatedStoryId": "obt/main/level_main_01-12_end",
@@ -592583,7 +593904,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "重逢",
-      "displayDesc": "我终于......找到你了。",
+      "displayDesc": "我终于……找到你了。",
       "storySetId": "setId_mainline_0_3",
       "sortId": 2,
       "relatedStoryId": "obt/main/level_main_02-05_beg",
@@ -592665,7 +593986,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "表情",
-      "displayDesc": "这是我第一次看到......她是那样的眼神......",
+      "displayDesc": "这是我第一次看到……她是那样的眼神……",
       "storySetId": "setId_mainline_1_1",
       "sortId": 2,
       "relatedStoryId": "obt/main/level_main_04-02_end",
@@ -592717,7 +594038,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "余悸",
-      "displayDesc": "我要去追击罗德岛了。在清剿他们之后，我们才能......去龙门。",
+      "displayDesc": "我要去追击罗德岛了。在清剿他们之后，我们才能……去龙门。",
       "storySetId": "setId_mainline_1_1",
       "sortId": 6,
       "relatedStoryId": "obt/main/level_main_04-10_end",
@@ -592730,7 +594051,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "眺望",
-      "displayDesc": "阿米娅......龙门......危险了。",
+      "displayDesc": "阿米娅……龙门……危险了。",
       "storySetId": "setId_mainline_1_1",
       "sortId": 7,
       "relatedStoryId": "obt/main/level_main_04-10_end",
@@ -592782,7 +594103,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "好公民",
-      "displayDesc": "大姐......虽然我们一直都怕你，但我们其实......都撑你。一直......都......撑你......",
+      "displayDesc": "大姐……虽然我们一直都怕你，但我们其实……都撑你。一直……都……撑你……",
       "storySetId": "setId_mainline_1_2",
       "sortId": 3,
       "relatedStoryId": "obt/main/level_main_05-03_end",
@@ -592953,7 +594274,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "脏活累活",
-      "displayDesc": "让感染者协助普通人对抗感染者......算了，反正也不是第一次了。",
+      "displayDesc": "让感染者协助普通人对抗感染者……算了，反正也不是第一次了。",
       "storySetId": "setId_mainline_1_3",
       "sortId": 2,
       "relatedStoryId": "obt/main/level_main_06-01_beg",
@@ -593005,7 +594326,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "遗物",
-      "displayDesc": "浮士德把梅菲斯特托付给了我们......这是他最后的命令。我们会做到。",
+      "displayDesc": "浮士德把梅菲斯特托付给了我们……这是他最后的命令。我们会做到。",
       "storySetId": "setId_mainline_1_3",
       "sortId": 6,
       "relatedStoryId": "obt/main/level_main_06-06_end",
@@ -593057,7 +594378,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "绝望",
-      "displayDesc": "梅菲斯特他似乎......精神受到了一点创伤。",
+      "displayDesc": "梅菲斯特他似乎……精神受到了一点创伤。",
       "storySetId": "setId_mainline_1_3",
       "sortId": 10,
       "relatedStoryId": "obt/main/level_main_06-09_end",
@@ -593084,7 +594405,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "应允",
-      "displayDesc": "现在开始，我在你身边。我在你们身边。我......愿意加入罗德岛。",
+      "displayDesc": "现在开始，我在你身边。我在你们身边。我……愿意加入罗德岛。",
       "storySetId": "setId_mainline_1_3",
       "sortId": 12,
       "relatedStoryId": "obt/main/level_main_06-15_end",
@@ -593162,7 +594483,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "嘱托",
-      "displayDesc": "如果有感染者的孩子，送你玩具小熊的话......收下吧。那是乌萨斯人教她们做的。因我们的失误而丧生的米莎，教她们做的。",
+      "displayDesc": "如果有感染者的孩子，送你玩具小熊的话……收下吧。那是乌萨斯人教她们做的。因我们的失误而丧生的米莎，教她们做的。",
       "storySetId": "setId_mainline_1_4",
       "sortId": 5,
       "relatedStoryId": "obt/main/level_main_07-02_end",
@@ -593256,7 +594577,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "我们的约定",
-      "displayDesc": "不论你现在是什么样子，不管你现在是不是过去的塔露拉。塔露拉......我们约好的。",
+      "displayDesc": "不论你现在是什么样子，不管你现在是不是过去的塔露拉。塔露拉……我们约好的。",
       "storySetId": "setId_mainline_1_4",
       "sortId": 12,
       "relatedStoryId": "obt/main/level_st_07-03",
@@ -593413,7 +594734,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "归宿",
-      "displayDesc": "霜星......我们给那些感染者找一个家。",
+      "displayDesc": "霜星……我们给那些感染者找一个家。",
       "storySetId": "setId_mainline_1_5",
       "sortId": 9,
       "relatedStoryId": "obt/main/level_main_08-06_beg",
@@ -593467,7 +594788,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "相逢，别离",
-      "displayDesc": "啊，塔露拉......可是我们所有人......相逢就是......为了别离。",
+      "displayDesc": "啊，塔露拉……可是我们所有人……相逢就是……为了别离。",
       "storySetId": "setId_mainline_1_5",
       "sortId": 13,
       "relatedStoryId": "obt/main/level_main_08-10_end",
@@ -593572,7 +594893,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "普瑞赛斯",
-      "displayDesc": "......不准忘记我。",
+      "displayDesc": "……不准忘记我。",
       "storySetId": "setId_mainline_1_5",
       "sortId": 21,
       "relatedStoryId": "obt/main/level_main_08-14_end",
@@ -593599,7 +594920,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "谎言",
-      "displayDesc": "你听见他们哭喊了！\n你听见他们喊救命......你听得见他们手指刮刨仓库大门的声音！",
+      "displayDesc": "你听见他们哭喊了！\n你听见他们喊救命……你听得见他们手指刮刨仓库大门的声音！",
       "storySetId": "setId_mainline_1_5",
       "sortId": 23,
       "relatedStoryId": "obt/main/level_main_08-15_beg",
@@ -593625,7 +594946,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "无法逃脱的火",
-      "displayDesc": "是你的仇恨让你盲目，让你已经看不清自己，逃脱不了你的身份......火焰，是你还没走出那场大火，“塔露拉”！",
+      "displayDesc": "是你的仇恨让你盲目，让你已经看不清自己，逃脱不了你的身份……火焰，是你还没走出那场大火，“塔露拉”！",
       "storySetId": "setId_mainline_1_5",
       "sortId": 25,
       "relatedStoryId": "obt/main/level_main_08-16_beg",
@@ -593690,7 +595011,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "站起来",
-      "displayDesc": "但你不能，你比我还清楚，塔露拉，你不能倒下......！",
+      "displayDesc": "但你不能，你比我还清楚，塔露拉，你不能倒下……！",
       "storySetId": "setId_mainline_1_5",
       "sortId": 30,
       "relatedStoryId": "obt/main/level_main_08-17_end",
@@ -593717,7 +595038,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "欣喜",
-      "displayDesc": "Ace，Scout，我好像做到了。温暖的事情，也许......我不会忘。我不该忘。哪怕痛苦，我也......努力记住。",
+      "displayDesc": "Ace，Scout，我好像做到了。温暖的事情，也许……我不会忘。我不该忘。哪怕痛苦，我也……努力记住。",
       "storySetId": "setId_mainline_1_5",
       "sortId": 32,
       "relatedStoryId": "obt/main/level_main_08-17_end",
@@ -593782,7 +595103,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "等待的结果",
-      "displayDesc": "无论这片大地上还有多少冰冷的故事......我也相信博士的心是温暖的。欢迎回家，博士。",
+      "displayDesc": "无论这片大地上还有多少冰冷的故事……我也相信博士的心是温暖的。欢迎回家，博士。",
       "storySetId": "setId_mainline_1_5",
       "sortId": 37,
       "relatedStoryId": "obt/main/level_st_08-06",
@@ -593822,7 +595143,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "安眠",
-      "displayDesc": "各位战友......晚安。",
+      "displayDesc": "各位战友……晚安。",
       "storySetId": "setId_mainline_1_5",
       "sortId": 40,
       "relatedStoryId": "obt/main/level_st_08-06",
@@ -593861,7 +595182,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "“球”",
-      "displayDesc": "有声音......从球里传出来的！卧倒！！！",
+      "displayDesc": "有声音……从球里传出来的！卧倒！！！",
       "storySetId": "setId_mainline_2_1",
       "sortId": 2,
       "relatedStoryId": "obt/main/level_main_09-05_beg",
@@ -593952,7 +595273,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "“活着回来”",
-      "displayDesc": "啊哈，老朋友......看来到最后，我还是没能遵守你的命令。",
+      "displayDesc": "啊哈，老朋友……看来到最后，我还是没能遵守你的命令。",
       "storySetId": "setId_mainline_2_1",
       "sortId": 9,
       "relatedStoryId": "obt/main/level_main_09-17_end",
@@ -593991,7 +595312,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "阻拦者",
-      "displayDesc": "......塔露拉，你不该踏出那个房间。",
+      "displayDesc": "……塔露拉，你不该踏出那个房间。",
       "storySetId": "setId_mainline_2_1",
       "sortId": 12,
       "relatedStoryId": "obt/main/level_st_09-04",
@@ -594004,7 +595325,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "燃火者",
-      "displayDesc": "总有一天，我们都会跨过这场风雪，走到自己该到的终点......",
+      "displayDesc": "总有一天，我们都会跨过这场风雪，走到自己该到的终点……",
       "storySetId": "setId_mainline_2_1",
       "sortId": 13,
       "relatedStoryId": "obt/main/level_st_09-04",
@@ -594018,7 +595339,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "战争",
-      "displayDesc": "......我听到了风暴的声音，他们也听到了。他们迫不及待地想要变成风暴的一部分，肆意地在空中吼叫，去吞吃我们眼前这座可恨的城市。",
+      "displayDesc": "……我听到了风暴的声音，他们也听到了。他们迫不及待地想要变成风暴的一部分，肆意地在空中吼叫，去吞吃我们眼前这座可恨的城市。",
       "storySetId": "setId_mainline_2_2",
       "sortId": 1,
       "relatedStoryId": "obt/main/level_st_10-01",
@@ -594123,7 +595444,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "行动计划",
-      "displayDesc": "记住，我们五个人来的，必须五个人一起回去。不......我们要带着更多战友，从这座萨卡兹的监狱里走出去。",
+      "displayDesc": "记住，我们五个人来的，必须五个人一起回去。不……我们要带着更多战友，从这座萨卡兹的监狱里走出去。",
       "storySetId": "setId_mainline_2_2",
       "sortId": 9,
       "relatedStoryId": "obt/main/level_main_10-08_end",
@@ -594176,7 +595497,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "磐蟹",
-      "displayDesc": "洛洛，我把准备送给老比尔的磐蟹带来了。你看......",
+      "displayDesc": "洛洛，我把准备送给老比尔的磐蟹带来了。你看……",
       "storySetId": "setId_mainline_2_2",
       "sortId": 13,
       "relatedStoryId": "obt/main/level_main_10-12_end",
@@ -594189,7 +595510,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "血魔",
-      "displayDesc": "他看起来就像一个照片会被刊登在报纸上，喜好对伦蒂尼姆的政治经济局势侃侃而谈的年轻贵族。假如......他脚下的地面不是浸透了鲜血的话。",
+      "displayDesc": "他看起来就像一个照片会被刊登在报纸上，喜好对伦蒂尼姆的政治经济局势侃侃而谈的年轻贵族。假如……他脚下的地面不是浸透了鲜血的话。",
       "storySetId": "setId_mainline_2_2",
       "sortId": 14,
       "relatedStoryId": "obt/main/level_main_10-15_beg",
@@ -594242,7 +595563,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "绝境逢生",
-      "displayDesc": "那个怪物还会追上来......但也许不是今天。",
+      "displayDesc": "那个怪物还会追上来……但也许不是今天。",
       "storySetId": "setId_mainline_2_2",
       "sortId": 18,
       "relatedStoryId": "obt/main/level_main_10-15_end",
@@ -594284,7 +595605,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "被遗忘的骑士",
-      "displayDesc": "父亲说过，身为坎伯兰家族的人，必须得拥有最高远的目标！那么......您会督促我的，是吗？当然，我也不会输给您！",
+      "displayDesc": "父亲说过，身为坎伯兰家族的人，必须得拥有最高远的目标！那么……您会督促我的，是吗？当然，我也不会输给您！",
       "storySetId": "setId_mainline_2_3",
       "sortId": 1,
       "relatedStoryId": "obt/main/level_main_11-01_beg",
@@ -594323,7 +595644,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "还有将来",
-      "displayDesc": "命运罔顾我们的意愿，夺走了可能很美好的过去。好在，我们还有将来......",
+      "displayDesc": "命运罔顾我们的意愿，夺走了可能很美好的过去。好在，我们还有将来……",
       "storySetId": "setId_mainline_2_3",
       "sortId": 4,
       "relatedStoryId": "obt/main/level_main_11-07_end",
@@ -594493,7 +595814,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "歉意",
-      "displayDesc": "“原谅我......”那最后一个音节彻底淹没在了碎石堆中。大门轰然关闭。",
+      "displayDesc": "“原谅我……”那最后一个音节彻底淹没在了碎石堆中。大门轰然关闭。",
       "storySetId": "setId_mainline_2_3",
       "sortId": 17,
       "relatedStoryId": "obt/main/level_main_11-17_end",
@@ -594573,7 +595894,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "自白",
-      "displayDesc": "个人的影响终究是有限的，无论是谁。哪怕凯尔希这个名字和她承载的记忆已经在这片大地上行走了如此之久，我能做的......可称得上微不足道。",
+      "displayDesc": "个人的影响终究是有限的，无论是谁。哪怕凯尔希这个名字和她承载的记忆已经在这片大地上行走了如此之久，我能做的……可称得上微不足道。",
       "storySetId": "setId_mainline_2_4",
       "sortId": 4,
       "relatedStoryId": "obt/main/level_st_12-02",
@@ -594612,7 +595933,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "变形者",
-      "displayDesc": "......饶了我们吧。不如让我们尽快结束这一切。",
+      "displayDesc": "……饶了我们吧。不如让我们尽快结束这一切。",
       "storySetId": "setId_mainline_2_4",
       "sortId": 7,
       "relatedStoryId": "obt/main/level_main_12-14_beg",
@@ -594651,7 +595972,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "归途",
-      "displayDesc": "好吧，我可以勉强当做是回家。还有......谢谢。",
+      "displayDesc": "好吧，我可以勉强当做是回家。还有……谢谢。",
       "storySetId": "setId_mainline_2_4",
       "sortId": 10,
       "relatedStoryId": "obt/main/level_main_12-18_beg",
@@ -594703,7 +596024,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "至亲诀别",
-      "displayDesc": "我还以为......会更高一点，衣服有点大了。戴......菲恩，别着急......",
+      "displayDesc": "我还以为……会更高一点，衣服有点大了。戴……菲恩，别着急……",
       "storySetId": "setId_mainline_2_5",
       "sortId": 2,
       "relatedStoryId": "obt/main/level_main_13-02_beg",
@@ -594810,7 +596131,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "理念的延伸",
-      "displayDesc": "从所有角度来说，我们都......只能是他们的继承者，是他们理念的延伸。他们两人，才是萨卡兹能团结起来的原因。",
+      "displayDesc": "从所有角度来说，我们都……只能是他们的继承者，是他们理念的延伸。他们两人，才是萨卡兹能团结起来的原因。",
       "storySetId": "setId_mainline_2_5",
       "sortId": 10,
       "relatedStoryId": "obt/main/level_main_13-15_beg",
@@ -594850,7 +596171,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "自骸骨之上坠落",
-      "displayDesc": "我已经把提卡兹的血还给故乡......去看吧，去伦蒂尼姆看看——我在毁灭的帷幕后等着你们。",
+      "displayDesc": "我已经把提卡兹的血还给故乡……去看吧，去伦蒂尼姆看看——我在毁灭的帷幕后等着你们。",
       "storySetId": "setId_mainline_2_5",
       "sortId": 13,
       "relatedStoryId": "obt/main/level_main_13-19_end",
@@ -594943,7 +596264,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "鄙夷与失望",
-      "displayDesc": "赫德雷，你太胆小了。你甚至连活下去的勇气都没有。这才是你最可耻的地方。这也是......最令我失望的地方。",
+      "displayDesc": "赫德雷，你太胆小了。你甚至连活下去的勇气都没有。这才是你最可耻的地方。这也是……最令我失望的地方。",
       "storySetId": "setId_mainline_2_6",
       "sortId": 6,
       "relatedStoryId": "obt/main/level_main_14-06_beg",
@@ -595008,7 +596329,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "重锤",
-      "displayDesc": "继续战斗吧。直至......胜利真的到来的那一刻。",
+      "displayDesc": "继续战斗吧。直至……胜利真的到来的那一刻。",
       "storySetId": "setId_mainline_2_6",
       "sortId": 11,
       "relatedStoryId": "obt/main/level_main_14-09_end",
@@ -595021,7 +596342,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "用鲜血烧尽残垣",
-      "displayDesc": "如果......焚尽所有腐朽才能换来新生，那我既是烈焰，也是薪柴。这就是，我选择的血的归处。",
+      "displayDesc": "如果……焚尽所有腐朽才能换来新生，那我既是烈焰，也是薪柴。这就是，我选择的血的归处。",
       "storySetId": "setId_mainline_2_6",
       "sortId": 12,
       "relatedStoryId": "obt/main/level_main_14-10_beg",
@@ -595034,7 +596355,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "临行",
-      "displayDesc": "哀珐尼尔，河谷最美的波光，最动人的歌声......我们不得不留在原地，注视着你远行......但无论你去往何方，我们的祝福都将陪伴着你。",
+      "displayDesc": "哀珐尼尔，河谷最美的波光，最动人的歌声……我们不得不留在原地，注视着你远行……但无论你去往何方，我们的祝福都将陪伴着你。",
       "storySetId": "setId_mainline_2_6",
       "sortId": 13,
       "relatedStoryId": "obt/main/level_main_14-10_end",
@@ -595047,7 +596368,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "天降烈日",
-      "displayDesc": "那就一起上吧。前路......将由我来照亮。",
+      "displayDesc": "那就一起上吧。前路……将由我来照亮。",
       "storySetId": "setId_mainline_2_6",
       "sortId": 14,
       "relatedStoryId": "obt/main/level_main_14-11_beg",
@@ -595060,7 +596381,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "名字",
-      "displayDesc": "我有名字的。我叫丽兹，是你的敌人。奎萨图什塔，我阻止你......是因为你说的每一句话，我都不同意。",
+      "displayDesc": "我有名字的。我叫丽兹，是你的敌人。奎萨图什塔，我阻止你……是因为你说的每一句话，我都不同意。",
       "storySetId": "setId_mainline_2_6",
       "sortId": 15,
       "relatedStoryId": "obt/main/level_main_14-11_end",
@@ -595112,7 +596433,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "愤怒之下",
-      "displayDesc": "死魂灵将自己的情绪凝为长矛的虚影，悬于四处。可为何......愤怒之下还隐藏着更深的情绪？",
+      "displayDesc": "死魂灵将自己的情绪凝为长矛的虚影，悬于四处。可为何……愤怒之下还隐藏着更深的情绪？",
       "storySetId": "setId_mainline_2_6",
       "sortId": 19,
       "relatedStoryId": "obt/main/level_main_14-15_beg",
@@ -595139,7 +596460,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "最初的光",
-      "displayDesc": "那束微弱的红光开始生长，膨胀......照亮了创造它的那只手......照亮了——特蕾西娅。",
+      "displayDesc": "那束微弱的红光开始生长，膨胀……照亮了创造它的那只手……照亮了——特蕾西娅。",
       "storySetId": "setId_mainline_2_6",
       "sortId": 21,
       "relatedStoryId": "obt/main/level_main_14-16_end",
@@ -595217,7 +596538,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "我们相伴",
-      "displayDesc": "我是一个很幸运的人，凯尔希。我的每一次远去，都有我最好的朋友陪伴我......谢谢你。",
+      "displayDesc": "我是一个很幸运的人，凯尔希。我的每一次远去，都有我最好的朋友陪伴我……谢谢你。",
       "storySetId": "setId_mainline_2_6",
       "sortId": 27,
       "relatedStoryId": "obt/main/level_main_14-20_end",
@@ -595270,7 +596591,7 @@
       ],
       "cgSource": "BACKGROUND",
       "displayName": "“下坠”",
-      "displayDesc": "这些根系在破碎，它们......正在向上飘浮？！",
+      "displayDesc": "这些根系在破碎，它们……正在向上飘浮？！",
       "storySetId": "setId_mainline_2_6",
       "sortId": 31,
       "relatedStoryId": "obt/main/level_main_14-20_end",
@@ -595310,7 +596631,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "未来",
-      "displayDesc": "在这些未来，以及更遥远的未来之中......还有我爱的人们的影子吗？",
+      "displayDesc": "在这些未来，以及更遥远的未来之中……还有我爱的人们的影子吗？",
       "storySetId": "setId_mainline_2_6",
       "sortId": 34,
       "relatedStoryId": "obt/main/level_spst_14-01",
@@ -595376,7 +596697,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "同行者",
-      "displayDesc": "Mon3tr是她的同行者，是她亲自引导的共生体......更是她自己。",
+      "displayDesc": "Mon3tr是她的同行者，是她亲自引导的共生体……更是她自己。",
       "storySetId": "setId_mainline_3_1",
       "sortId": 5,
       "relatedStoryId": "obt/main/level_main_15-05_end",
@@ -595402,7 +596723,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "浪涌的中心",
-      "displayDesc": "从这里回望边界，你们已经不知不觉在通路上前行了很远，而奇点......奇点近在眼前。",
+      "displayDesc": "从这里回望边界，你们已经不知不觉在通路上前行了很远，而奇点……奇点近在眼前。",
       "storySetId": "setId_mainline_3_1",
       "sortId": 7,
       "relatedStoryId": "obt/main/level_main_15-06_end",
@@ -595428,7 +596749,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "“新来的客人”",
-      "displayDesc": "她们，是谁......？是新来的客人吗？泡普卡记得，舷窗的那一边好像是甲板，她们是迷路了吗？",
+      "displayDesc": "她们，是谁……？是新来的客人吗？泡普卡记得，舷窗的那一边好像是甲板，她们是迷路了吗？",
       "storySetId": "setId_mainline_3_1",
       "sortId": 9,
       "relatedStoryId": "obt/main/level_main_15-10_beg",
@@ -595482,7 +596803,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "告别",
-      "displayDesc": "博士......这份使命并非枷锁。这早已是我自己的选择。",
+      "displayDesc": "博士……这份使命并非枷锁。这早已是我自己的选择。",
       "storySetId": "setId_mainline_3_1",
       "sortId": 13,
       "relatedStoryId": "obt/main/level_main_15-12_end",
@@ -595581,7 +596902,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "她无处不在",
-      "displayDesc": "普瑞赛斯的身形也彻底被源石所遮挡......每一块源石的碎片中，每一个源石的棱面上，你们都能清晰地看到普瑞赛斯的眼睛。",
+      "displayDesc": "普瑞赛斯的身形也彻底被源石所遮挡……每一块源石的碎片中，每一个源石的棱面上，你们都能清晰地看到普瑞赛斯的眼睛。",
       "storySetId": "setId_mainline_3_1",
       "sortId": 20,
       "relatedStoryId": "obt/main/level_main_15-16_beg",
@@ -595751,7 +597072,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "地底之光",
-      "displayDesc": "最终......整个乌萨斯都将看到我们，畏惧我们，承认我们。到那时，我们会拥有一个光明的未来。",
+      "displayDesc": "最终……整个乌萨斯都将看到我们，畏惧我们，承认我们。到那时，我们会拥有一个光明的未来。",
       "storySetId": "setId_mainline_3_2",
       "sortId": 10,
       "relatedStoryId": "obt/main/level_main_16-14_beg",
@@ -595777,7 +597098,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "帝国之阵",
-      "displayDesc": "直到此刻......人们才知道他们面对的是什么。乌萨斯。这就是乌萨斯。",
+      "displayDesc": "直到此刻……人们才知道他们面对的是什么。乌萨斯。这就是乌萨斯。",
       "storySetId": "setId_mainline_3_2",
       "sortId": 12,
       "relatedStoryId": "obt/main/level_main_16-16_beg",
@@ -595830,7 +597151,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "远北的声音",
-      "displayDesc": "“矿区与城市的同伴们。”\n“我们来自远北。”\n“我们正在被......”\n“屠杀。”",
+      "displayDesc": "“矿区与城市的同伴们。”\n“我们来自远北。”\n“我们正在被……”\n“屠杀。”",
       "storySetId": "setId_mainline_3_2",
       "sortId": 16,
       "relatedStoryId": "obt/main/level_main_16-17_beg",
@@ -595859,7 +597180,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "愤怒界线",
-      "displayDesc": "剑锋闪烁，青焰升腾，她以此告诫制造屠杀的刽子手，无论是炮火、士兵，还是军舰本身，在怒火消弭、背弃都得到清算前......这界线他们将永不可跨越。",
+      "displayDesc": "剑锋闪烁，青焰升腾，她以此告诫制造屠杀的刽子手，无论是炮火、士兵，还是军舰本身，在怒火消弭、背弃都得到清算前……这界线他们将永不可跨越。",
       "storySetId": "setId_mainline_3_2",
       "sortId": 18,
       "relatedStoryId": "obt/main/level_main_16-18_end",
@@ -595885,7 +597206,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "无名者之灯",
-      "displayDesc": "也许我应该把它带走，带去圣骏堡......然后让所有人瞧瞧......这盏没有名字的矿灯，和那些没有名字的人。",
+      "displayDesc": "也许我应该把它带走，带去圣骏堡……然后让所有人瞧瞧……这盏没有名字的矿灯，和那些没有名字的人。",
       "storySetId": "setId_mainline_3_2",
       "sortId": 20,
       "relatedStoryId": "obt/main/level_spst_16-02",
@@ -595913,7 +597234,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "“垂怜”",
-      "displayDesc": "温暖的光芒过后，她会带着人们迈向永恒......她，或者是“祂”。",
+      "displayDesc": "温暖的光芒过后，她会带着人们迈向永恒……她，或者是“祂”。",
       "storySetId": "setId_mainline_3_3",
       "sortId": 2,
       "relatedStoryId": "obt/main/level_main_17-01_beg",
@@ -595929,7 +597250,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "无数失败",
-      "displayDesc": "到底还缺少什么......我们需要一个答案。",
+      "displayDesc": "到底还缺少什么……我们需要一个答案。",
       "storySetId": "setId_mainline_3_3",
       "sortId": 3,
       "relatedStoryId": "obt/main/level_main_tr28_end",
@@ -596090,7 +597411,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "抗拒别离",
-      "displayDesc": "不可动摇的决意，无数的遗憾，对离别的畏惧......还有对那些如今仅存在于回忆里的温情，深沉的不舍。",
+      "displayDesc": "不可动摇的决意，无数的遗憾，对离别的畏惧……还有对那些如今仅存在于回忆里的温情，深沉的不舍。",
       "storySetId": "setId_mainline_3_3",
       "sortId": 15,
       "relatedStoryId": "obt/main/level_main_17-16_end",
@@ -596168,7 +597489,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "往何处去",
-      "displayDesc": "来吧，乌萨斯人，请追随先驱者的步伐。在我的眼中，你们已然......身处天国。",
+      "displayDesc": "来吧，乌萨斯人，请追随先驱者的步伐。在我的眼中，你们已然……身处天国。",
       "storySetId": "setId_mainline_3_3",
       "sortId": 21,
       "relatedStoryId": "obt/main/level_st_17-02",
@@ -596194,7 +597515,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "议会之上",
-      "displayDesc": "“我以乌萨斯皇帝，唯一君主的权力宣布......帝国议会，即刻解散。”",
+      "displayDesc": "“我以乌萨斯皇帝，唯一君主的权力宣布……帝国议会，即刻解散。”",
       "storySetId": "setId_mainline_3_3",
       "sortId": 23,
       "relatedStoryId": "obt/main/level_st_17-03",
@@ -596250,7 +597571,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "战士",
-      "displayDesc": "在即将倒塌的废墟里见到她的第一眼开始，我就确信......她将会是最优秀的萨卡兹战士。",
+      "displayDesc": "在即将倒塌的废墟里见到她的第一眼开始，我就确信……她将会是最优秀的萨卡兹战士。",
       "storySetId": "setId_ssLine_act9d0",
       "sortId": 1,
       "relatedStoryId": "activities/act9d0/level_act9d0_01_beg",
@@ -596263,7 +597584,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "伪装",
-      "displayDesc": "......呵。你为什么觉得自己能猜透我的想法？还是说你和伊内丝一样有什么古怪的源石技艺？",
+      "displayDesc": "……呵。你为什么觉得自己能猜透我的想法？还是说你和伊内丝一样有什么古怪的源石技艺？",
       "storySetId": "setId_ssLine_act9d0",
       "sortId": 2,
       "relatedStoryId": "activities/act9d0/level_act9d0_01_end",
@@ -596302,7 +597623,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "萨卡兹的王",
-      "displayDesc": "萨卡兹的王......失去了卡兹戴尔的那位......殿下她......是不是个......白发的女性？",
+      "displayDesc": "萨卡兹的王……失去了卡兹戴尔的那位……殿下她……是不是个……白发的女性？",
       "storySetId": "setId_ssLine_act9d0",
       "sortId": 5,
       "relatedStoryId": "activities/act9d0/level_act9d0_02_end",
@@ -596328,7 +597649,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "暗流",
-      "displayDesc": "在卡兹戴尔之外的大地上，有一些......感染者势力正在崛起。",
+      "displayDesc": "在卡兹戴尔之外的大地上，有一些……感染者势力正在崛起。",
       "storySetId": "setId_ssLine_act9d0",
       "sortId": 7,
       "relatedStoryId": "activities/act9d0/level_act9d0_04_beg",
@@ -596354,7 +597675,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "临终前的十五分钟",
-      "displayDesc": "......告诉我，年轻人，我面前的景色可美？",
+      "displayDesc": "……告诉我，年轻人，我面前的景色可美？",
       "storySetId": "setId_ssLine_act18d0",
       "sortId": 1,
       "relatedStoryId": "activities/act18d0/level_act18d0_st01",
@@ -596380,7 +597701,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "暗道",
-      "displayDesc": "这条通道只有老伊辛知道，从来没有人踏足过这里。一座圣坛，一座坟墓......这条道路畅通无阻。",
+      "displayDesc": "这条通道只有老伊辛知道，从来没有人踏足过这里。一座圣坛，一座坟墓……这条道路畅通无阻。",
       "storySetId": "setId_ssLine_act18d0",
       "sortId": 3,
       "relatedStoryId": "activities/act18d0/level_act18d0_07_end",
@@ -596431,7 +597752,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "闲暇",
-      "displayDesc": "刚才说的事，都是在你常规日程之外的......博士，你还在听吗？",
+      "displayDesc": "刚才说的事，都是在你常规日程之外的……博士，你还在听吗？",
       "storySetId": "setId_ssLine_act8mini",
       "sortId": 2,
       "relatedStoryId": "activities/act8mini/level_act8mini_st05"
@@ -596467,7 +597788,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "未完成的告别",
-      "displayDesc": "我一直是你的同伴。从前，现在，未来......我会一直陪伴着你们。那么......",
+      "displayDesc": "我一直是你的同伴。从前，现在，未来……我会一直陪伴着你们。那么……",
       "storySetId": "setId_ssLine_act33side",
       "sortId": 1,
       "relatedStoryId": "activities/act33side/level_act33side_st01",
@@ -596651,7 +597972,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "跨越泪水之河",
-      "displayDesc": "抱歉，我没有能力改变故事的结局。但是你可以，阿米娅......你会走上一条艰难的道路。就像试图跨越泪水之河的小布人。",
+      "displayDesc": "抱歉，我没有能力改变故事的结局。但是你可以，阿米娅……你会走上一条艰难的道路。就像试图跨越泪水之河的小布人。",
       "storySetId": "setId_ssLine_act33side",
       "sortId": 15,
       "relatedStoryId": "activities/act33side/level_act33side_09_end",
@@ -596677,7 +597998,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "馈赠",
-      "displayDesc": "博士，姑且再让我最后一次如此称呼你......这是我对你小小的报复。也是我对你......最后的馈赠。",
+      "displayDesc": "博士，姑且再让我最后一次如此称呼你……这是我对你小小的报复。也是我对你……最后的馈赠。",
       "storySetId": "setId_ssLine_act33side",
       "sortId": 17,
       "relatedStoryId": "activities/act33side/level_act33side_10_end",
@@ -596703,7 +598024,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "燃尽腐朽的火焰",
-      "displayDesc": "我将会消失在理想之中，而她......她会成为燃尽所有腐朽的火焰。",
+      "displayDesc": "我将会消失在理想之中，而她……她会成为燃尽所有腐朽的火焰。",
       "storySetId": "setId_ssLine_act33side",
       "sortId": 19,
       "relatedStoryId": "activities/act33side/level_act33side_10_end",
@@ -596730,7 +598051,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "失落的巴别塔",
-      "displayDesc": "殿下，我回来了......过去，我站在这里时，迎接我的总是你。但这次......你不在。",
+      "displayDesc": "殿下，我回来了……过去，我站在这里时，迎接我的总是你。但这次……你不在。",
       "storySetId": "setId_ssLine_act33side",
       "sortId": 21,
       "relatedStoryId": "activities/act33side/level_act33side_10_end",
@@ -596743,7 +598064,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "永远平等",
-      "displayDesc": "特雷西斯，我会向所有萨卡兹宣誓......我们永远平等。",
+      "displayDesc": "特雷西斯，我会向所有萨卡兹宣誓……我们永远平等。",
       "storySetId": "setId_ssLine_act33side",
       "sortId": 22,
       "relatedStoryId": "activities/act33side/level_act33side_10_end",
@@ -596757,7 +598078,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "最初的相遇",
-      "displayDesc": "我——名字......？妈妈......叫我......阿米娅......",
+      "displayDesc": "我——名字……？妈妈……叫我……阿米娅……",
       "storySetId": "setId_ssLine_act33side",
       "sortId": 23,
       "relatedStoryId": "activities/act33side/level_act33side_st03",
@@ -596772,7 +598093,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "我们的故事",
-      "displayDesc": "这是一个街头混混成长为英雄的故事，这是一个关于勇气与友情，信念与权力的故事......是我一生中，最快乐的一段时光。",
+      "displayDesc": "这是一个街头混混成长为英雄的故事，这是一个关于勇气与友情，信念与权力的故事……是我一生中，最快乐的一段时光。",
       "storySetId": "setId_ssLine_act37side",
       "sortId": 1,
       "relatedStoryId": "activities/act37side/level_act37side_st01",
@@ -596800,7 +598121,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "恐惧",
-      "displayDesc": "我们到家了，可并不是一切都按照我们预想的那样发展。我很怕，回归即是告别——我很怕......我们会失去维娜。",
+      "displayDesc": "我们到家了，可并不是一切都按照我们预想的那样发展。我很怕，回归即是告别——我很怕……我们会失去维娜。",
       "storySetId": "setId_ssLine_act37side",
       "sortId": 3,
       "relatedStoryId": "activities/act37side/level_act37side_02_beg",
@@ -596920,7 +598241,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "不再是童话的故事",
-      "displayDesc": "......抱歉，黛安。",
+      "displayDesc": "……抱歉，黛安。",
       "storySetId": "setId_ssLine_act37side",
       "sortId": 12,
       "relatedStoryId": "activities/act37side/level_act37side_08_end",
@@ -596999,7 +598320,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "欢迎回家，各位",
-      "displayDesc": "是的，维娜。我也希望如此......敬格拉斯哥帮，敬你们大家。欢迎回家，各位。",
+      "displayDesc": "是的，维娜。我也希望如此……敬格拉斯哥帮，敬你们大家。欢迎回家，各位。",
       "storySetId": "setId_ssLine_act37side",
       "sortId": 18,
       "relatedStoryId": "activities/act37side/level_act37side_st02",
@@ -597076,7 +598397,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "于洪流之中",
-      "displayDesc": "如果泰拉已不在它的童年期，而是已经到了无暇轻松谈论未来的时刻......特蕾西娅小姐警告过我这种可能。",
+      "displayDesc": "如果泰拉已不在它的童年期，而是已经到了无暇轻松谈论未来的时刻……特蕾西娅小姐警告过我这种可能。",
       "storySetId": "setId_ssLine_act18mini",
       "sortId": 5,
       "relatedStoryId": "activities/act18mini/level_act18mini_st06"
@@ -597101,7 +598422,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "“异类”",
-      "displayDesc": "一只只手先后举起......很快，大会里就剩下最后几个没有动作的人。他们格格不入。",
+      "displayDesc": "一只只手先后举起……很快，大会里就剩下最后几个没有动作的人。他们格格不入。",
       "storySetId": "setId_ssLine_act51side",
       "sortId": 2,
       "relatedStoryId": "activities/act51side/level_act51side_st01",
@@ -597180,7 +598501,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "“敬明天”",
-      "displayDesc": "敬......自由与幸福的灵魂。",
+      "displayDesc": "敬……自由与幸福的灵魂。",
       "storySetId": "setId_ssLine_act51side",
       "sortId": 8,
       "relatedStoryId": "activities/act51side/level_act51side_06_end",
@@ -597207,7 +598528,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "“还有明天”",
-      "displayDesc": "......多么简单的祷告词。",
+      "displayDesc": "……多么简单的祷告词。",
       "storySetId": "setId_ssLine_act51side",
       "sortId": 10,
       "relatedStoryId": "activities/act51side/level_act51side_06_end",
@@ -597260,7 +598581,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "乌萨斯的孩子们",
-      "displayDesc": "伊戈尔的拳头砸碎了枷锁，一个人影跨过废墟，接着是十个，百个......",
+      "displayDesc": "伊戈尔的拳头砸碎了枷锁，一个人影跨过废墟，接着是十个，百个……",
       "storySetId": "setId_ssLine_act51side",
       "sortId": 14,
       "relatedStoryId": "activities/act51side/level_act51side_08_end",
@@ -597273,7 +598594,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "烈夏的决意",
-      "displayDesc": "只因为......这是最快的方式。",
+      "displayDesc": "只因为……这是最快的方式。",
       "storySetId": "setId_ssLine_act51side",
       "sortId": 15,
       "relatedStoryId": "activities/act51side/level_act51side_08_end",
@@ -597367,7 +598688,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "拉特兰黎博利的愤怒",
-      "displayDesc": "他有什么理由，就随手毁了这一切......？！！那样的日子......那样的日子，我是在乎的啊......",
+      "displayDesc": "他有什么理由，就随手毁了这一切……？！！那样的日子……那样的日子，我是在乎的啊……",
       "storySetId": "setId_ssLine_act16side",
       "sortId": 5,
       "relatedStoryId": "activities/act16side/level_act16side_04_end",
@@ -597432,7 +598753,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "菲亚梅塔的愧疚",
-      "displayDesc": "如果我没有离开......如果我留在那里，如果我和你们在一起，是不是这一切就不会发生？",
+      "displayDesc": "如果我没有离开……如果我留在那里，如果我和你们在一起，是不是这一切就不会发生？",
       "storySetId": "setId_ssLine_act16side",
       "sortId": 10,
       "relatedStoryId": "activities/act16side/level_act16side_08_beg",
@@ -597471,7 +598792,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "紧急应对机制",
-      "displayDesc": "启动紧急应对机制。现输出适格人员名单......",
+      "displayDesc": "启动紧急应对机制。现输出适格人员名单……",
       "storySetId": "setId_ssLine_act26side",
       "sortId": 1,
       "relatedStoryId": "activities/act26side/level_act26side_st01",
@@ -597510,7 +598831,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "圣堂大火",
-      "displayDesc": "现在我正......我正看着那些我珍视的东西，在我眼前燃烧。燃烧。消失殆尽。",
+      "displayDesc": "现在我正……我正看着那些我珍视的东西，在我眼前燃烧。燃烧。消失殆尽。",
       "storySetId": "setId_ssLine_act26side",
       "sortId": 4,
       "relatedStoryId": "activities/act26side/level_act26side_04_end",
@@ -597551,7 +598872,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "主教的忏悔",
-      "displayDesc": "在一群人与另一群人之间，我必须做出选择......选择。是的，我早已做过不止一次选择......",
+      "displayDesc": "在一群人与另一群人之间，我必须做出选择……选择。是的，我早已做过不止一次选择……",
       "storySetId": "setId_ssLine_act26side",
       "sortId": 7,
       "relatedStoryId": "activities/act26side/level_act26side_05_end",
@@ -597564,7 +598885,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "“罪人”献上头颅",
-      "displayDesc": "如今首恶伏诛，剩下的只是一群流民，不足挂齿......希望......希望拉特兰的各位使者，能够就此手下留情，不再继续追究。",
+      "displayDesc": "如今首恶伏诛，剩下的只是一群流民，不足挂齿……希望……希望拉特兰的各位使者，能够就此手下留情，不再继续追究。",
       "storySetId": "setId_ssLine_act26side",
       "sortId": 8,
       "relatedStoryId": "activities/act26side/level_act26side_06_end",
@@ -597687,7 +599008,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "告解车内的密谋",
-      "displayDesc": "“那座圣堂，那场仪式。如果所有异样都指向它们......”\n“那我们就该想点办法破坏它们，对吧？”",
+      "displayDesc": "“那座圣堂，那场仪式。如果所有异样都指向它们……”\n“那我们就该想点办法破坏它们，对吧？”",
       "storySetId": "setId_ssLine_act42side",
       "sortId": 3,
       "relatedStoryId": "activities/act42side/level_act42side_01_end",
@@ -597727,7 +599048,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "牧首的“共感”",
-      "displayDesc": "金发萨科塔立于某道门廊之下，她在祷告，她在不安，她的呼吸急促，身体因此肉眼可见地颤栗着......蕾缪安感觉自己快被对方汹涌的情绪淹没。",
+      "displayDesc": "金发萨科塔立于某道门廊之下，她在祷告，她在不安，她的呼吸急促，身体因此肉眼可见地颤栗着……蕾缪安感觉自己快被对方汹涌的情绪淹没。",
       "storySetId": "setId_ssLine_act42side",
       "sortId": 6,
       "relatedStoryId": "activities/act42side/level_act42side_03_end",
@@ -597740,7 +599061,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "不愿说的秘密",
-      "displayDesc": "小乐，姐姐能感受到你的情绪，纠结、急切、焦虑，甚至不知道该从何解释......但将试图破坏万国峰会的危险分子捉拿归案，这是姐姐的职责所在。",
+      "displayDesc": "小乐，姐姐能感受到你的情绪，纠结、急切、焦虑，甚至不知道该从何解释……但将试图破坏万国峰会的危险分子捉拿归案，这是姐姐的职责所在。",
       "storySetId": "setId_ssLine_act42side",
       "sortId": 7,
       "relatedStoryId": "activities/act42side/level_act42side_04_beg",
@@ -597794,7 +599115,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "谢谢你，Mon3tr",
-      "displayDesc": "眼下来不及抒发什么感慨，你和Mon3tr正在虚假与真实里狂奔，逃避身后......不，寻找宿命的线索。",
+      "displayDesc": "眼下来不及抒发什么感慨，你和Mon3tr正在虚假与真实里狂奔，逃避身后……不，寻找宿命的线索。",
       "storySetId": "setId_ssLine_act42side",
       "sortId": 11,
       "relatedStoryId": "activities/act42side/level_act42side_06_beg",
@@ -597875,7 +599196,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "“恩赐”",
-      "displayDesc": "或许那金属回应的，不是魔王威严的感召，也不是请它御敌的呼唤......而仅仅只是那个最简单、最纯粹的念头，那一声“祈祷”......“活着”。",
+      "displayDesc": "或许那金属回应的，不是魔王威严的感召，也不是请它御敌的呼唤……而仅仅只是那个最简单、最纯粹的念头，那一声“祈祷”……“活着”。",
       "storySetId": "setId_ssLine_act42side",
       "sortId": 17,
       "relatedStoryId": "activities/act42side/level_act42side_08_end",
@@ -597888,7 +599209,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "道别",
-      "displayDesc": "时间已经过去太久了......好在时间已经过去太久了，恩与怨都变得没那么沉重。",
+      "displayDesc": "时间已经过去太久了……好在时间已经过去太久了，恩与怨都变得没那么沉重。",
       "storySetId": "setId_ssLine_act42side",
       "sortId": 18,
       "relatedStoryId": "activities/act42side/level_act42side_09_beg",
@@ -597901,7 +599222,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "并无兴趣",
-      "displayDesc": "门后面......是一台机器，对吧？既然如此，答案注定是无聊的。",
+      "displayDesc": "门后面……是一台机器，对吧？既然如此，答案注定是无聊的。",
       "storySetId": "setId_ssLine_act42side",
       "sortId": 19,
       "relatedStoryId": "activities/act42side/level_act42side_09_end",
@@ -597940,7 +599261,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "铳械师的第一课",
-      "displayDesc": "梵里妮，好孩子，不要惧怕堕入地狱。这是你应该学会的第一课......也是我的第一课。",
+      "displayDesc": "梵里妮，好孩子，不要惧怕堕入地狱。这是你应该学会的第一课……也是我的第一课。",
       "storySetId": "setId_ssLine_act42side",
       "sortId": 22,
       "relatedStoryId": "activities/act42side/level_act42side_10_end",
@@ -597953,7 +599274,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "及时救援",
-      "displayDesc": "真不愿承认，我能感受到你们在想什么啊......所以，把嘴闭上吧。拉特兰，起码不需要被你们，用这种方式拯救！",
+      "displayDesc": "真不愿承认，我能感受到你们在想什么啊……所以，把嘴闭上吧。拉特兰，起码不需要被你们，用这种方式拯救！",
       "storySetId": "setId_ssLine_act42side",
       "sortId": 23,
       "relatedStoryId": "activities/act42side/level_act42side_10_end",
@@ -598019,7 +599340,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "俯瞰谢拉格",
-      "displayDesc": "外力。一点微小的外力。只要这轻轻一推......雪崩就会掩埋整个谢拉格，包括它所隐瞒的阴谋和发生过的一切。",
+      "displayDesc": "外力。一点微小的外力。只要这轻轻一推……雪崩就会掩埋整个谢拉格，包括它所隐瞒的阴谋和发生过的一切。",
       "storySetId": "setId_ssLine_act14side",
       "sortId": 1,
       "relatedStoryId": "activities/act14side/level_act14side_01_beg",
@@ -598216,7 +599537,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "都是误会",
-      "displayDesc": "......所以，一切都是误会？没有隐情，没有追杀，没有什么可能在车上的重要人物，什么都没有？",
+      "displayDesc": "……所以，一切都是误会？没有隐情，没有追杀，没有什么可能在车上的重要人物，什么都没有？",
       "storySetId": "setId_ssLine_act30side",
       "sortId": 4,
       "relatedStoryId": "activities/act30side/level_act30side_03_beg",
@@ -598242,7 +599563,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "兄友妹恭",
-      "displayDesc": "......你的坏毛病一点没变！",
+      "displayDesc": "……你的坏毛病一点没变！",
       "storySetId": "setId_ssLine_act30side",
       "sortId": 6,
       "relatedStoryId": "activities/act30side/level_act30side_st02",
@@ -598307,7 +599628,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "再次探查车厢",
-      "displayDesc": "卡西米尔的征战骑士，和代表商业联合会的发言人坐在同一趟列车的车厢里......原来这就是希瓦艾什准备的后手。",
+      "displayDesc": "卡西米尔的征战骑士，和代表商业联合会的发言人坐在同一趟列车的车厢里……原来这就是希瓦艾什准备的后手。",
       "storySetId": "setId_ssLine_act30side",
       "sortId": 11,
       "relatedStoryId": "activities/act30side/level_act30side_08_end",
@@ -598411,7 +599732,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "众怒",
-      "displayDesc": "愤怒、畏惧、不安......各种情绪在手无寸铁的人群中弥漫，却无从撼动他们对面全副武装的军队。",
+      "displayDesc": "愤怒、畏惧、不安……各种情绪在手无寸铁的人群中弥漫，却无从撼动他们对面全副武装的军队。",
       "storySetId": "setId_ssLine_act46side",
       "sortId": 7,
       "relatedStoryId": "activities/act46side/level_act46side_09_beg",
@@ -598534,7 +599855,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "神迹再临",
-      "displayDesc": "甲板上的人们向极远处望去。他们看到了空中浓云仿佛被某种神力撕开的缺口，看到了沐浴在光辉下的古老圣山。\n那是何等美丽的绝景......足以摄人心魄，使人敬畏。",
+      "displayDesc": "甲板上的人们向极远处望去。他们看到了空中浓云仿佛被某种神力撕开的缺口，看到了沐浴在光辉下的古老圣山。\n那是何等美丽的绝景……足以摄人心魄，使人敬畏。",
       "storySetId": "setId_ssLine_act46side",
       "sortId": 16,
       "relatedStoryId": "activities/act46side/level_act46side_10_end",
@@ -598809,7 +600130,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "燃烧",
-      "displayDesc": "叙拉古的符号在花车上燃烧，那浴火的身影带来了毁灭的预兆：一切，都将化为灰烬......",
+      "displayDesc": "叙拉古的符号在花车上燃烧，那浴火的身影带来了毁灭的预兆：一切，都将化为灰烬……",
       "storySetId": "setId_ssLine_act38side",
       "sortId": 4,
       "relatedStoryId": "activities/act38side/level_act38side_02_end",
@@ -598888,7 +600209,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "司机与乘客",
-      "displayDesc": "......我确实知道一些事情，愿意让我这个司机载你一程吗？",
+      "displayDesc": "……我确实知道一些事情，愿意让我这个司机载你一程吗？",
       "storySetId": "setId_ssLine_act38side",
       "sortId": 10,
       "relatedStoryId": "activities/act38side/level_act38side_07_end",
@@ -598954,7 +600275,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "对峙",
-      "displayDesc": "数十万新沃尔西尼人到时候看到的，是两支队伍夹道欢迎，其乐融融的场面......还是两拨人激烈火并，横尸遍地，属于叙拉古人的狂欢迎来真正的高潮？",
+      "displayDesc": "数十万新沃尔西尼人到时候看到的，是两支队伍夹道欢迎，其乐融融的场面……还是两拨人激烈火并，横尸遍地，属于叙拉古人的狂欢迎来真正的高潮？",
       "storySetId": "setId_ssLine_act38side",
       "sortId": 15,
       "relatedStoryId": "activities/act38side/level_act38side_09_end",
@@ -599074,7 +600395,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "“头狼”",
-      "displayDesc": "跟他们说......荒野从不失约，等我。",
+      "displayDesc": "跟他们说……荒野从不失约，等我。",
       "storySetId": "setId_ssLine_act38side",
       "sortId": 24,
       "relatedStoryId": "activities/act38side/level_act38side_st04",
@@ -599150,7 +600471,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "并肩",
-      "displayDesc": "玛莉娅......准备好了吗？",
+      "displayDesc": "玛莉娅……准备好了吗？",
       "storySetId": "setId_ssLine_act13d5",
       "sortId": 5,
       "relatedStoryId": "activities/act13d5/level_act13d5_08_end",
@@ -599407,7 +600728,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "无言的友谊",
-      "displayDesc": "既然想要留下点什么就不要来捣乱啊......不就是为了你才......呵，真是个糟糕的反派。",
+      "displayDesc": "既然想要留下点什么就不要来捣乱啊……不就是为了你才……呵，真是个糟糕的反派。",
       "storySetId": "setId_ssLine_act6d5",
       "sortId": 4,
       "relatedStoryId": "activities/act6d5/level_act6d5_st03"
@@ -599419,7 +600740,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "泥翁镇？",
-      "displayDesc": "这还真......新奇。总是听年说大炎地大物博无奇不有......还有这种景观？",
+      "displayDesc": "这还真……新奇。总是听年说大炎地大物博无奇不有……还有这种景观？",
       "storySetId": "setId_ssLine_act16d5",
       "sortId": 1,
       "relatedStoryId": "activities/act16d5/level_act16d5_01_beg",
@@ -599432,7 +600753,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "夕",
-      "displayDesc": "小僧本以为走过百余幅画卷，至少得见先生大半阅历，未曾想......不过是先生画海之一隅，不值一提......",
+      "displayDesc": "小僧本以为走过百余幅画卷，至少得见先生大半阅历，未曾想……不过是先生画海之一隅，不值一提……",
       "storySetId": "setId_ssLine_act16d5",
       "sortId": 2,
       "relatedStoryId": "activities/act16d5/level_act16d5_08_end",
@@ -599484,7 +600805,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "坦然之年",
-      "displayDesc": "嚯嚯，还是老样子，脾气上来了就嘴上不饶人......不过，你刚才喊我“姐姐”了？",
+      "displayDesc": "嚯嚯，还是老样子，脾气上来了就嘴上不饶人……不过，你刚才喊我“姐姐”了？",
       "storySetId": "setId_ssLine_act16d5",
       "sortId": 6,
       "relatedStoryId": "activities/act16d5/level_act16d5_10_beg",
@@ -599497,7 +600818,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "夙愿",
-      "displayDesc": "......夕啊，你能帮我，画出那婆山镇吗？",
+      "displayDesc": "……夕啊，你能帮我，画出那婆山镇吗？",
       "storySetId": "setId_ssLine_act16d5",
       "sortId": 7,
       "relatedStoryId": "activities/act16d5/level_act16d5_st03",
@@ -599536,7 +600857,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "奇妙的物件",
-      "displayDesc": "这是什么......尚蜀难道流行这样古怪的宠物吗......？",
+      "displayDesc": "这是什么……尚蜀难道流行这样古怪的宠物吗……？",
       "storySetId": "setId_ssLine_act15side",
       "sortId": 3,
       "relatedStoryId": "activities/act15side/level_act15side_01_end",
@@ -599964,7 +601285,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "血色灾厄",
-      "displayDesc": "那是亘古以来便存在于人们内心的恐惧。天灾，兽害，病患，饥馑......这方天地已经不是他们熟悉的家园。",
+      "displayDesc": "那是亘古以来便存在于人们内心的恐惧。天灾，兽害，病患，饥馑……这方天地已经不是他们熟悉的家园。",
       "storySetId": "setId_ssLine_act31side",
       "sortId": 10,
       "relatedStoryId": "activities/act31side/level_act31side_06_beg",
@@ -600003,7 +601324,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "锦绣山河",
-      "displayDesc": "数不清的绸缎仿佛是从天上坠下，每一匹绸缎，都是一座城市，一段历史，一方人间烟火。国祚？不......应该是人心才对。",
+      "displayDesc": "数不清的绸缎仿佛是从天上坠下，每一匹绸缎，都是一座城市，一段历史，一方人间烟火。国祚？不……应该是人心才对。",
       "storySetId": "setId_ssLine_act31side",
       "sortId": 13,
       "relatedStoryId": "activities/act31side/level_act31side_08_end",
@@ -600030,7 +601351,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "眷人间",
-      "displayDesc": "姐姐......这样算是“人”的生活吗？",
+      "displayDesc": "姐姐……这样算是“人”的生活吗？",
       "storySetId": "setId_ssLine_act31side",
       "sortId": 15,
       "relatedStoryId": "activities/act31side/level_act31side_st03",
@@ -600152,7 +601473,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "诘问",
-      "displayDesc": "你冒着风险，不惜代价，不顾性命也要走到这里......你应该有话要对我说。",
+      "displayDesc": "你冒着风险，不惜代价，不顾性命也要走到这里……你应该有话要对我说。",
       "storySetId": "setId_ssLine_act40side",
       "sortId": 9,
       "relatedStoryId": "activities/act40side/level_act40side_09_end",
@@ -600180,7 +601501,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "炽心",
-      "displayDesc": "虽然很难......但其实我一直盼着，我们“一家人”，能像那样，一起再吃一顿饭。",
+      "displayDesc": "虽然很难……但其实我一直盼着，我们“一家人”，能像那样，一起再吃一顿饭。",
       "storySetId": "setId_ssLine_act40side",
       "sortId": 11,
       "relatedStoryId": "activities/act40side/level_act40side_09_end",
@@ -600206,7 +601527,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "答案",
-      "displayDesc": "这个城市，这个庞大的国家，历史、时间，从不曾为谁停下脚步。只有此刻......",
+      "displayDesc": "这个城市，这个庞大的国家，历史、时间，从不曾为谁停下脚步。只有此刻……",
       "storySetId": "setId_ssLine_act40side",
       "sortId": 13,
       "relatedStoryId": "activities/act40side/level_act40side_09_end",
@@ -600259,7 +601580,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "石头记",
-      "displayDesc": "你......为了这块石头，烦了我一辈子，现在......我终于能逃掉了......",
+      "displayDesc": "你……为了这块石头，烦了我一辈子，现在……我终于能逃掉了……",
       "storySetId": "setId_ssLine_act19mini",
       "sortId": 1,
       "relatedStoryId": "activities/act19mini/level_act19mini_st03"
@@ -600299,7 +601620,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "竹简之味",
-      "displayDesc": "“哈哈......这是不是也算人们说的‘吃墨水’？”\n“嘿嘿，那这道菜就叫，‘墨水烤肉’！”",
+      "displayDesc": "“哈哈……这是不是也算人们说的‘吃墨水’？”\n“嘿嘿，那这道菜就叫，‘墨水烤肉’！”",
       "storySetId": "setId_ssLine_act49side",
       "sortId": 1,
       "relatedStoryId": "activities/act49side/level_act49side_02_beg",
@@ -600379,7 +601700,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "托付",
-      "displayDesc": "这柄书刀......必须托付给一个绝对公正，绝不会偏私的人，严加看管。",
+      "displayDesc": "这柄书刀……必须托付给一个绝对公正，绝不会偏私的人，严加看管。",
       "storySetId": "setId_ssLine_act49side",
       "sortId": 7,
       "relatedStoryId": "activities/act49side/level_act49side_07_end",
@@ -600472,7 +601793,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "刃化风沙",
-      "displayDesc": "那把短刀变作一把长剑，变作一道令人心悸的金黄......最终，变作铺天盖地涌向玉门的风沙。",
+      "displayDesc": "那把短刀变作一把长剑，变作一道令人心悸的金黄……最终，变作铺天盖地涌向玉门的风沙。",
       "storySetId": "setId_ssLine_act49side",
       "sortId": 14,
       "relatedStoryId": "activities/act49side/level_act49side_10_end",
@@ -600498,7 +601819,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "破梦人",
-      "displayDesc": "空间先是震动，而后扭曲、撕裂......\n如同被积蓄了千百年的武之一字，硬生生撕裂开来的梦的边界。",
+      "displayDesc": "空间先是震动，而后扭曲、撕裂……\n如同被积蓄了千百年的武之一字，硬生生撕裂开来的梦的边界。",
       "storySetId": "setId_ssLine_act49side",
       "sortId": 16,
       "relatedStoryId": "activities/act49side/level_act49side_11_beg",
@@ -600512,7 +601833,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "长生劫",
-      "displayDesc": "“你已经囿于自己愤恨的冲动和复仇的枷锁之中......你的演化已然到达终点。而我们，已经超越了你。”",
+      "displayDesc": "“你已经囿于自己愤恨的冲动和复仇的枷锁之中……你的演化已然到达终点。而我们，已经超越了你。”",
       "storySetId": "setId_ssLine_act49side",
       "sortId": 17,
       "relatedStoryId": "activities/act49side/level_act49side_11_beg",
@@ -600525,7 +601846,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "承岁怒",
-      "displayDesc": "“若能为大炎历史翻开新的一篇......我死何足惜？”",
+      "displayDesc": "“若能为大炎历史翻开新的一篇……我死何足惜？”",
       "storySetId": "setId_ssLine_act49side",
       "sortId": 18,
       "relatedStoryId": "activities/act49side/level_act49side_11_end",
@@ -600538,7 +601859,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "终亦狂",
-      "displayDesc": "那一枚源石，连带那枚源石所占据的一小片空间，就这样被睚裁下......狠狠戳刺进岁躯深处。",
+      "displayDesc": "那一枚源石，连带那枚源石所占据的一小片空间，就这样被睚裁下……狠狠戳刺进岁躯深处。",
       "storySetId": "setId_ssLine_act49side",
       "sortId": 19,
       "relatedStoryId": "activities/act49side/level_act49side_11_end",
@@ -600564,7 +601885,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "走向明日",
-      "displayDesc": "等你长大后，说不定也能够改变什么......\n所以......快快长大吧。",
+      "displayDesc": "等你长大后，说不定也能够改变什么……\n所以……快快长大吧。",
       "storySetId": "setId_ssLine_act49side",
       "sortId": 21,
       "relatedStoryId": "activities/act49side/level_act49side_st02",
@@ -600675,7 +601996,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "躯体凝结",
-      "displayDesc": "你的源石技艺确实与我有几分相似之处，但是......",
+      "displayDesc": "你的源石技艺确实与我有几分相似之处，但是……",
       "storySetId": "setId_ssLine_act15d0",
       "sortId": 8,
       "relatedStoryId": "activities/act15d0/level_act15d0_08_end",
@@ -600794,7 +602115,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "梦醒时分",
-      "displayDesc": "我多么希望带给你们安宁与幸福......可你们的未来不属于我。我不该让你们困在这里。我也......不该困住我自己。",
+      "displayDesc": "我多么希望带给你们安宁与幸福……可你们的未来不属于我。我不该让你们困在这里。我也……不该困住我自己。",
       "storySetId": "setId_ssLine_act19side",
       "sortId": 8,
       "relatedStoryId": "activities/act19side/level_act19side_08_end",
@@ -600926,7 +602247,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "骄傲的抗争者",
-      "displayDesc": "恐怕您忘了，我可以自豪地宣称，我是这片大地......不，现在是大地与天空，最优秀的高能物理学家之一。",
+      "displayDesc": "恐怕您忘了，我可以自豪地宣称，我是这片大地……不，现在是大地与天空，最优秀的高能物理学家之一。",
       "storySetId": "setId_ssLine_act25side",
       "sortId": 8,
       "relatedStoryId": "activities/act25side/level_act25side_09_beg",
@@ -600939,7 +602260,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "心中之火",
-      "displayDesc": "别开玩笑了，赫默！明明......我也好，塞雷娅也好，我们就在你的身边啊！",
+      "displayDesc": "别开玩笑了，赫默！明明……我也好，塞雷娅也好，我们就在你的身边啊！",
       "storySetId": "setId_ssLine_act25side",
       "sortId": 9,
       "relatedStoryId": "activities/act25side/level_act25side_09_end",
@@ -600952,7 +602273,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "银河将倾",
-      "displayDesc": "但我知道你会回来的。在我的梦即将实现的这一刻......你一定会在。",
+      "displayDesc": "但我知道你会回来的。在我的梦即将实现的这一刻……你一定会在。",
       "storySetId": "setId_ssLine_act25side",
       "sortId": 10,
       "relatedStoryId": "activities/act25side/level_act25side_10_beg",
@@ -600965,7 +602286,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "错误的星图",
-      "displayDesc": "我和你，我们的文明与你们的文明......在宇宙的尺度之下，果然还是很渺小啊。",
+      "displayDesc": "我和你，我们的文明与你们的文明……在宇宙的尺度之下，果然还是很渺小啊。",
       "storySetId": "setId_ssLine_act25side",
       "sortId": 11,
       "relatedStoryId": "activities/act25side/level_act25side_10_end",
@@ -601082,7 +602403,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "工作餐",
-      "displayDesc": "“您说的午餐就是这块......砖头？”",
+      "displayDesc": "“您说的午餐就是这块……砖头？”",
       "storySetId": "setId_ssLine_act47side",
       "sortId": 3,
       "relatedStoryId": "activities/act47side/level_act47side_01_beg",
@@ -601134,7 +602455,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "第一次接触",
-      "displayDesc": "“......既然如此，我同意加入莱茵生命。”",
+      "displayDesc": "“……既然如此，我同意加入莱茵生命。”",
       "storySetId": "setId_ssLine_act47side",
       "sortId": 7,
       "relatedStoryId": "activities/act47side/level_act47side_06_beg",
@@ -601163,7 +602484,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "梅希亚的汇报",
-      "displayDesc": "“梅希亚，别忘记......你姓‘塞勒涅’。”",
+      "displayDesc": "“梅希亚，别忘记……你姓‘塞勒涅’。”",
       "storySetId": "setId_ssLine_act47side",
       "sortId": 9,
       "relatedStoryId": "activities/act47side/level_act47side_07_end",
@@ -601202,7 +602523,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "倒影",
-      "displayDesc": "“或许......我们的栖身之所，我们的魂归之处，都可以在天上。”",
+      "displayDesc": "“或许……我们的栖身之所，我们的魂归之处，都可以在天上。”",
       "storySetId": "setId_ssLine_act47side",
       "sortId": 12,
       "relatedStoryId": "activities/act47side/level_act47side_08_end",
@@ -601260,7 +602581,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "聚首",
-      "displayDesc": "“莱茵生命已经完成新一轮的科研布局，但这还不够，我们需要回应科学对未知的一切恐慌，到达所有的未知之境......莱茵生命，需要成为转动那把钥匙的人。”",
+      "displayDesc": "“莱茵生命已经完成新一轮的科研布局，但这还不够，我们需要回应科学对未知的一切恐慌，到达所有的未知之境……莱茵生命，需要成为转动那把钥匙的人。”",
       "storySetId": "setId_ssLine_act47side",
       "sortId": 16,
       "relatedStoryId": "activities/act47side/level_act47side_st03",
@@ -601416,7 +602737,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "猎手本性",
-      "displayDesc": "猎物就该乖乖......困在陷阱里惨叫。你才是猎物，垃圾。",
+      "displayDesc": "猎物就该乖乖……困在陷阱里惨叫。你才是猎物，垃圾。",
       "storySetId": "setId_ssLine_act18d3",
       "sortId": 9,
       "relatedStoryId": "activities/act18d3/level_act18d3_st01",
@@ -601523,7 +602844,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "青年的梦想",
-      "displayDesc": "海......我已经记不得，上一次看见海面是什么时候了......",
+      "displayDesc": "海……我已经记不得，上一次看见海面是什么时候了……",
       "storySetId": "setId_ssLine_act17side",
       "sortId": 3,
       "relatedStoryId": "activities/act17side/level_act17side_st02"
@@ -601584,7 +602905,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "证明",
-      "displayDesc": "斯卡蒂，可别和我抢猎物喔，这场狩猎属于我，让我稍微......稍微发泄一下吧。",
+      "displayDesc": "斯卡蒂，可别和我抢猎物喔，这场狩猎属于我，让我稍微……稍微发泄一下吧。",
       "storySetId": "setId_ssLine_act17side",
       "sortId": 8,
       "relatedStoryId": "activities/act17side/level_act17side_st09"
@@ -601791,7 +603112,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "流明的思绪",
-      "displayDesc": "我或许会离开阿戈尔，放弃很多我曾经对它有过的憧憬和想象，但这绝不是因为......它即将毁灭。",
+      "displayDesc": "我或许会离开阿戈尔，放弃很多我曾经对它有过的憧憬和想象，但这绝不是因为……它即将毁灭。",
       "storySetId": "setId_ssLine_act34side",
       "sortId": 8,
       "relatedStoryId": "activities/act34side/level_act34side_07_end",
@@ -601817,7 +603138,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "“信标”",
-      "displayDesc": "乌尔比安确信自己不会认错，眼前这些源源不断从信标塔中脱离的奇妙个体......是曾经寄居在信标塔中的微型浮游机械，一段中止的历史，一个夭折的梦。",
+      "displayDesc": "乌尔比安确信自己不会认错，眼前这些源源不断从信标塔中脱离的奇妙个体……是曾经寄居在信标塔中的微型浮游机械，一段中止的历史，一个夭折的梦。",
       "storySetId": "setId_ssLine_act34side",
       "sortId": 10,
       "relatedStoryId": "activities/act34side/level_act34side_08_beg",
@@ -601830,7 +603151,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "航道",
-      "displayDesc": "起初，只是一点荧光；继而，是一根流动的线条；紧接着，是一方轻盈的网格，在海面延展开来......数以亿计的微型浮游机械与海的子嗣一同摆动身躯，与浪涛同沉同浮。",
+      "displayDesc": "起初，只是一点荧光；继而，是一根流动的线条；紧接着，是一方轻盈的网格，在海面延展开来……数以亿计的微型浮游机械与海的子嗣一同摆动身躯，与浪涛同沉同浮。",
       "storySetId": "setId_ssLine_act34side",
       "sortId": 11,
       "relatedStoryId": "activities/act34side/level_act34side_08_beg",
@@ -602083,7 +603404,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "遗留",
-      "displayDesc": "啊......安托的工作牌，竟然没有烧毁......她工作的时候，总是会抱怨工作牌碍事。很奇怪吧？明明大家都会挂在胸前，也不知道哪里碍事了......",
+      "displayDesc": "啊……安托的工作牌，竟然没有烧毁……她工作的时候，总是会抱怨工作牌碍事。很奇怪吧？明明大家都会挂在胸前，也不知道哪里碍事了……",
       "storySetId": "setId_ssLine_act11d0",
       "sortId": 2,
       "relatedStoryId": "activities/act11d0/level_act11d0_03_beg",
@@ -602399,7 +603720,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "爱之死",
-      "displayDesc": "今天的云，是不是很好看？薇薇安娜，别怕。会过去的，什么都......",
+      "displayDesc": "今天的云，是不是很好看？薇薇安娜，别怕。会过去的，什么都……",
       "storySetId": "setId_ssLine_act29side",
       "sortId": 10,
       "relatedStoryId": "activities/act29side/level_act29side_06_end",
@@ -602545,7 +603866,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "晚霞",
-      "displayDesc": "好了，费德里科。不着急启程的话，就好好看看这片云霞吧。这是崔林特尔梅最美的时刻。这样的美丽......短暂，且脆弱。很快，就要入夜了。",
+      "displayDesc": "好了，费德里科。不着急启程的话，就好好看看这片云霞吧。这是崔林特尔梅最美的时刻。这样的美丽……短暂，且脆弱。很快，就要入夜了。",
       "storySetId": "setId_ssLine_act29side",
       "sortId": 21,
       "relatedStoryId": "activities/act29side/level_act29side_st03",
@@ -602611,7 +603932,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "塔拉流民的勇气",
-      "displayDesc": "......我们要去哪里，才能从塔拉人的命运里逃出去？",
+      "displayDesc": "……我们要去哪里，才能从塔拉人的命运里逃出去？",
       "storySetId": "setId_ssLine_act22side",
       "sortId": 5,
       "relatedStoryId": "activities/act22side/level_act22side_06_end",
@@ -602624,7 +603945,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "深池的“领袖”",
-      "displayDesc": "你就是那场火的操纵者。你让Outcast为救你而死......你就是深池的“领袖”，是吗？",
+      "displayDesc": "你就是那场火的操纵者。你让Outcast为救你而死……你就是深池的“领袖”，是吗？",
       "storySetId": "setId_ssLine_act22side",
       "sortId": 6,
       "relatedStoryId": "activities/act22side/level_act22side_07_end",
@@ -602637,7 +603958,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "沃里克伯爵之死",
-      "displayDesc": "我看到......属于塔拉的新时代......近在眼前。",
+      "displayDesc": "我看到……属于塔拉的新时代……近在眼前。",
       "storySetId": "setId_ssLine_act22side",
       "sortId": 7,
       "relatedStoryId": "activities/act22side/level_act22side_st02",
@@ -602704,7 +604025,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "红龙的财宝",
-      "displayDesc": "财宝于无路处凭空铺成一条闪闪发光的路，送彻底癫狂的人群走出巢穴，走上大地......走向黑暗的来处，那残忍地张开大口的黑林。",
+      "displayDesc": "财宝于无路处凭空铺成一条闪闪发光的路，送彻底癫狂的人群走出巢穴，走上大地……走向黑暗的来处，那残忍地张开大口的黑林。",
       "storySetId": "setId_ssLine_act41side",
       "sortId": 3,
       "relatedStoryId": "activities/act41side/level_act41side_03_beg",
@@ -602769,7 +604090,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "跳到终局的舞",
-      "displayDesc": "锋芒贯穿红龙的身躯，但她仍然还在那里站着，仿佛什么都没发生，直到妹妹的手环上她的腰间，那身躯才缓缓倒下......正如一支跳到终局的舞。",
+      "displayDesc": "锋芒贯穿红龙的身躯，但她仍然还在那里站着，仿佛什么都没发生，直到妹妹的手环上她的腰间，那身躯才缓缓倒下……正如一支跳到终局的舞。",
       "storySetId": "setId_ssLine_act41side",
       "sortId": 8,
       "relatedStoryId": "activities/act41side/level_act41side_st02",
@@ -602795,7 +604116,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "还火于红龙",
-      "displayDesc": "爱布拉娜，愿塔拉......永远不再需要你的火。",
+      "displayDesc": "爱布拉娜，愿塔拉……永远不再需要你的火。",
       "storySetId": "setId_ssLine_act41side",
       "sortId": 10,
       "relatedStoryId": "activities/act41side/level_act41side_08_beg",
@@ -602808,7 +604129,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "红龙归来",
-      "displayDesc": "拉芙希妮·都柏林......从死亡的深渊归来了。",
+      "displayDesc": "拉芙希妮·都柏林……从死亡的深渊归来了。",
       "storySetId": "setId_ssLine_act41side",
       "sortId": 11,
       "relatedStoryId": "activities/act41side/level_act41side_08_end",
@@ -603289,7 +604610,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "认同的投票",
-      "displayDesc": "像是被斯第奇的话统一了意见一般，下一刻，一只，两只，三只......无数只手举了起来。",
+      "displayDesc": "像是被斯第奇的话统一了意见一般，下一刻，一只，两只，三只……无数只手举了起来。",
       "storySetId": "setId_ssLine_act20side",
       "sortId": 10,
       "relatedStoryId": "activities/act20side/level_act20side_09_end",
@@ -603367,7 +604688,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "月光与毛绒绒",
-      "displayDesc": "一只、两只、三只......路灯下，一只小兽停下脚步，安静地抬起头。\n月光下，毛绒绒的生物们在未建成地块跃动、滚动。",
+      "displayDesc": "一只、两只、三只……路灯下，一只小兽停下脚步，安静地抬起头。\n月光下，毛绒绒的生物们在未建成地块跃动、滚动。",
       "storySetId": "setId_ssLine_act27side",
       "sortId": 4,
       "relatedStoryId": "activities/act27side/level_act27side_01_end",
@@ -603458,7 +604779,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "岩浆温泉",
-      "displayDesc": "嘿，小心点，不要把岩浆抖得到处都是，很危险。虽然概率很小，但万一这时候有人路过——\n嗯？怎么吵吵闹闹的......真的有人想加入我们？",
+      "displayDesc": "嘿，小心点，不要把岩浆抖得到处都是，很危险。虽然概率很小，但万一这时候有人路过——\n嗯？怎么吵吵闹闹的……真的有人想加入我们？",
       "storySetId": "setId_ssLine_act27side",
       "sortId": 11,
       "relatedStoryId": "activities/act27side/level_act27side_08_end",
@@ -603538,7 +604859,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "跟上步伐",
-      "displayDesc": "来，跟我一起走，步子不要太大也不要太小，很好......往前走......再走。",
+      "displayDesc": "来，跟我一起走，步子不要太大也不要太小，很好……往前走……再走。",
       "storySetId": "setId_ssLine_act35side",
       "sortId": 3,
       "relatedStoryId": "activities/act35side/level_act35side_01_end",
@@ -603815,7 +605136,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "松了口气",
-      "displayDesc": "身旁的星熊在确认自己平安无事之后，露出放松的表情。她对着后面大概是吉星的人点了点头，算是打过招呼之后，转头看向远处......",
+      "displayDesc": "身旁的星熊在确认自己平安无事之后，露出放松的表情。她对着后面大概是吉星的人点了点头，算是打过招呼之后，转头看向远处……",
       "storySetId": "setId_ssLine_act44side",
       "sortId": 5,
       "relatedStoryId": "activities/act44side/level_act44side_03_end",
@@ -604025,7 +605346,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "招财猫的恐怖时刻",
-      "displayDesc": "他眼前的神明，站在钢珠机的顶端俯视着他......",
+      "displayDesc": "他眼前的神明，站在钢珠机的顶端俯视着他……",
       "storySetId": "setId_ssLine_act44side",
       "sortId": 21,
       "relatedStoryId": "activities/act44side/level_act44side_st03",
@@ -604039,7 +605360,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "纷飞的心意",
-      "displayDesc": "风和速度不会过问车厢中的信件是不是想要检查一下自己的“安全带”是否牢固。\n它们慌乱地在空中飞舞着，阳光下，信封上的一个个名字都闪闪发亮......\n难道还没有说出自己的“心意”，它们就会消失在这片荒野之中？\n所幸，它们可靠的信使恰巧能够追回一切......",
+      "displayDesc": "风和速度不会过问车厢中的信件是不是想要检查一下自己的“安全带”是否牢固。\n它们慌乱地在空中飞舞着，阳光下，信封上的一个个名字都闪闪发亮……\n难道还没有说出自己的“心意”，它们就会消失在这片荒野之中？\n所幸，它们可靠的信使恰巧能够追回一切……",
       "storySetId": "setId_ssLine_act53side",
       "sortId": 1,
       "relatedStoryId": "activities/act53side/level_act53side_st01",
@@ -604205,7 +605526,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "夜谈",
-      "displayDesc": "“对罗德岛而言，对这片大地而言，对信使安洁莉娜而言......我的位置究竟在哪里？”\n“旅行至此，我想，你已经找到答案了。”",
+      "displayDesc": "“对罗德岛而言，对这片大地而言，对信使安洁莉娜而言……我的位置究竟在哪里？”\n“旅行至此，我想，你已经找到答案了。”",
       "storySetId": "setId_ssLine_act53side",
       "sortId": 13,
       "relatedStoryId": "activities/act53side/level_act53side_09_end",
@@ -604377,7 +605698,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "本尼的决定",
-      "displayDesc": "他那时应该有更多选择的。我想......现在我也应该有......",
+      "displayDesc": "他那时应该有更多选择的。我想……现在我也应该有……",
       "storySetId": "setId_ssLine_act28side",
       "sortId": 2,
       "relatedStoryId": "activities/act28side/level_act28side_04_end",
@@ -604403,7 +605724,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "萨科塔之间",
-      "displayDesc": "你为什么那么在意我的表情，伍迪？从一进门开始，你就紧盯着我的脸阅读我的表情。什么时候......萨科塔之间相处也需要察言观色了。",
+      "displayDesc": "你为什么那么在意我的表情，伍迪？从一进门开始，你就紧盯着我的脸阅读我的表情。什么时候……萨科塔之间相处也需要察言观色了。",
       "storySetId": "setId_ssLine_act28side",
       "sortId": 4,
       "relatedStoryId": "activities/act28side/level_act28side_05_end",
@@ -604442,7 +605763,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "抢银行",
-      "displayDesc": "人生中第一次对金钱如此渴求，感觉有些......新奇。",
+      "displayDesc": "人生中第一次对金钱如此渴求，感觉有些……新奇。",
       "storySetId": "setId_ssLine_act28side",
       "sortId": 7,
       "relatedStoryId": "activities/act28side/level_act28side_07_end",
@@ -604455,7 +605776,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "里昂的愿望",
-      "displayDesc": "别担心，杰西卡，我不会死去的，因为我将永远留在这里......我将在她的怀抱中永远活着......",
+      "displayDesc": "别担心，杰西卡，我不会死去的，因为我将永远留在这里……我将在她的怀抱中永远活着……",
       "storySetId": "setId_ssLine_act28side",
       "sortId": 8,
       "relatedStoryId": "activities/act28side/level_act28side_08_beg",
@@ -604481,7 +605802,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "铳械为谁而鸣",
-      "displayDesc": "我的眼泪......不能代替他们表达自己的悲伤，但我的铳械会为他们的悲伤而鸣。",
+      "displayDesc": "我的眼泪……不能代替他们表达自己的悲伤，但我的铳械会为他们的悲伤而鸣。",
       "storySetId": "setId_ssLine_act28side",
       "sortId": 10,
       "relatedStoryId": "activities/act28side/level_act28side_08_end",
@@ -604496,7 +605817,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "新生",
-      "displayDesc": "不要为哭泣而感到羞耻......杰西卡，新生都是从哭泣开始的。",
+      "displayDesc": "不要为哭泣而感到羞耻……杰西卡，新生都是从哭泣开始的。",
       "storySetId": "setId_ssLine_act28side",
       "sortId": 11,
       "relatedStoryId": "activities/act28side/level_act28side_st03",
@@ -604562,7 +605883,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "“姐妹”",
-      "displayDesc": "你从不曾存在于劳拉的人生......劳拉也从不曾存在于你的人生......可是、可是若真是这样......莫伊拉，你还剩下什么？......你是谁？",
+      "displayDesc": "你从不曾存在于劳拉的人生……劳拉也从不曾存在于你的人生……可是、可是若真是这样……莫伊拉，你还剩下什么？……你是谁？",
       "storySetId": "setId_ssLine_act43side",
       "sortId": 5,
       "relatedStoryId": "activities/act43side/level_act43side_06_end",
@@ -604575,7 +605896,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "舞伴",
-      "displayDesc": "“莫伊拉”已经什么都不剩下的时候......我觉得自己变成了一面镜子，我可以是——任何人！",
+      "displayDesc": "“莫伊拉”已经什么都不剩下的时候……我觉得自己变成了一面镜子，我可以是——任何人！",
       "storySetId": "setId_ssLine_act43side",
       "sortId": 6,
       "relatedStoryId": "activities/act43side/level_act43side_07_beg",
@@ -604588,7 +605909,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "女士的餐后点评",
-      "displayDesc": "Miss.Christine摇晃着尾巴，她的目光在地面的影子间穿梭，最终锁定在了蒂比的影子上。“......应该给予你一点小小的报答。”",
+      "displayDesc": "Miss.Christine摇晃着尾巴，她的目光在地面的影子间穿梭，最终锁定在了蒂比的影子上。“……应该给予你一点小小的报答。”",
       "storySetId": "setId_ssLine_act43side",
       "sortId": 7,
       "relatedStoryId": "activities/act43side/level_act43side_07_end",
@@ -604602,7 +605923,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "来自女士的关心",
-      "displayDesc": "去见他吧，如果这是你必须去做的事情。如果你变成了一个疯子，到时候，我会吃掉你所有的情绪......哪怕再难下咽。",
+      "displayDesc": "去见他吧，如果这是你必须去做的事情。如果你变成了一个疯子，到时候，我会吃掉你所有的情绪……哪怕再难下咽。",
       "storySetId": "setId_ssLine_act43side",
       "sortId": 8,
       "relatedStoryId": "activities/act43side/level_act43side_07_end",
@@ -604628,7 +605949,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "与天灾共舞",
-      "displayDesc": "来吧——杜邦夫人，将和米兰妮·卢瑟福德一起，与天灾共舞......哪怕无人记录。",
+      "displayDesc": "来吧——杜邦夫人，将和米兰妮·卢瑟福德一起，与天灾共舞……哪怕无人记录。",
       "storySetId": "setId_ssLine_act43side",
       "sortId": 10,
       "relatedStoryId": "activities/act43side/level_act43side_08_end",
@@ -604673,7 +605994,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "新的“酒神”",
-      "displayDesc": "......欢迎你们，加入“剧团”。",
+      "displayDesc": "……欢迎你们，加入“剧团”。",
       "storySetId": "setId_ssLine_act43side",
       "sortId": 13,
       "relatedStoryId": "activities/act43side/level_act43side_st03",
@@ -604819,7 +606140,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "于墓前送别",
-      "displayDesc": "无论如何，就当是为了伊萨科斯......你也该更好地活下去。不是吗？",
+      "displayDesc": "无论如何，就当是为了伊萨科斯……你也该更好地活下去。不是吗？",
       "storySetId": "setId_ssLine_act48side",
       "sortId": 11,
       "relatedStoryId": "activities/act48side/level_act48side_07_end",
@@ -604883,7 +606204,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "欢迎来到猩红剧团",
-      "displayDesc": "帷幕拉开，灯光垂落，演员站在中央。这是什么声音，是谁在期待，是谁在......喝彩。",
+      "displayDesc": "帷幕拉开，灯光垂落，演员站在中央。这是什么声音，是谁在期待，是谁在……喝彩。",
       "storySetId": "setId_ssLine_act13d0",
       "sortId": 1,
       "relatedStoryId": "activities/act13d0/level_act13d0_st06"
@@ -604907,7 +606228,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "换个地方",
-      "displayDesc": "大家一直在说的罗德岛啊......是个什么样的地方呢？",
+      "displayDesc": "大家一直在说的罗德岛啊……是个什么样的地方呢？",
       "storySetId": "setId_ssLine_act10mini",
       "sortId": 1,
       "relatedStoryId": "activities/act10mini/level_act10mini_st05"
@@ -604968,7 +606289,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "沙地兽栖息地",
-      "displayDesc": "孔洞里钻出一只沙地兽，枝干上靠着两只沙地兽，水泽里泡着三只沙地兽......四只，五只，更多只。为什么这里，会有这么多活着的沙地兽？",
+      "displayDesc": "孔洞里钻出一只沙地兽，枝干上靠着两只沙地兽，水泽里泡着三只沙地兽……四只，五只，更多只。为什么这里，会有这么多活着的沙地兽？",
       "storySetId": "setId_ssLine_act16mini",
       "sortId": 2,
       "relatedStoryId": "activities/act16mini/level_act16mini_st05"
@@ -604980,7 +606301,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "对视",
-      "displayDesc": "猎人的女儿，挣脱黑暗的探井人，追逐那束光的旅者......从过去到现在，所有的她一同试探着，向那枚巨大的眼瞳伸出手。",
+      "displayDesc": "猎人的女儿，挣脱黑暗的探井人，追逐那束光的旅者……从过去到现在，所有的她一同试探着，向那枚巨大的眼瞳伸出手。",
       "storySetId": "setId_ssLine_act16mini",
       "sortId": 3,
       "relatedStoryId": "activities/act16mini/level_act16mini_st05"
@@ -605040,7 +606361,7 @@
       ],
       "cgSource": "IMAGE",
       "displayName": "“为了玻利瓦尔”",
-      "displayDesc": "她能看清台下每个人的表情：愤怒，迷茫，恐惧，叹息......可当他们目光相接时，所有的表情都一碰即碎。\n人们开始窃窃私语，三五成群地围成一圈，像是一片等待投食的羽兽。",
+      "displayDesc": "她能看清台下每个人的表情：愤怒，迷茫，恐惧，叹息……可当他们目光相接时，所有的表情都一碰即碎。\n人们开始窃窃私语，三五成群地围成一圈，像是一片等待投食的羽兽。",
       "storySetId": "setId_ssLine_act21mini",
       "sortId": 2,
       "relatedStoryId": "activities/act21mini/level_act21mini_st04"

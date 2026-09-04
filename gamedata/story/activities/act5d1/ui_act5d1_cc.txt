@@ -25,30 +25,30 @@
 [delay(time=2, black=true)]
 [Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]
 [Character(name="char_130_doberm_ex")]
-[name="杜宾"]   ......你们来了，比预定的时间晚了一些。
+[name="杜宾"]   ……你们来了，比预定的时间晚了一些。
 [PlayMusic(intro="$m_dia_street_intro", key="$m_dia_street_loop", volume=0.6, crossfade=1, delay=0.5)]
 [Character(name="char_145_prove_1",name2="char_291_aglina_1",focus=2)]
 [name="安洁莉娜"]   抱、抱歉，稍微绕了点远路，
-[name="安洁莉娜"]   幸好有普罗旺斯姐姐，不然麻烦就大啦......
+[name="安洁莉娜"]   幸好有普罗旺斯姐姐，不然麻烦就大啦……
 [Character(name="char_145_prove_1",name2="char_291_aglina_1",focus=1)]
-[name="普罗旺斯"]   整合运动在各地造成的骚乱比想象中还要......哎，不过能平安无事就好。
+[name="普罗旺斯"]   整合运动在各地造成的骚乱比想象中还要……哎，不过能平安无事就好。
 [Character(name="char_130_doberm_ex")]
 [name="杜宾"]   意料之中，现在的罗德岛就是面临这么多的麻烦。
 [name="杜宾"]   总之，辛苦二位了，但愿这份合约能为我们缓解窘境。
 [Character(name="char_130_doberm_ex",name2="char_291_aglina_1",focus=2)]
-[name="安洁莉娜"]   不光是我们难以获取物资补给......危机合约的合作人们似乎也都很煎熬。
-[name="安洁莉娜"]   大家都希望有一个人能够站出来，让这个几乎停滞的合约机制重新运转起来呢......
+[name="安洁莉娜"]   不光是我们难以获取物资补给……危机合约的合作人们似乎也都很煎熬。
+[name="安洁莉娜"]   大家都希望有一个人能够站出来，让这个几乎停滞的合约机制重新运转起来呢……
 [Character(name="char_145_prove_1",name2="char_291_aglina_1",focus=1)]
 [name="普罗旺斯"]   但你一路上都念叨着，可以为博士分担压力什么的——
 [Character(name="char_145_prove_1",name2="char_291_aglina_1",focus=2)]
 [name="安洁莉娜"]   这、这是每一位罗德岛干员的职责所在！
 [Character(name="char_145_prove_1",name2="char_291_aglina_1",focus=1)]
 [name="普罗旺斯"]   好，好。
-[name="普罗旺斯"]   ......不过，这也不是什么能立刻解决问题的万能道具啦，不如说，恰恰相反。
+[name="普罗旺斯"]   ……不过，这也不是什么能立刻解决问题的万能道具啦，不如说，恰恰相反。
 [name="普罗旺斯"]   切尔诺伯格被天灾摧毁之后产生了多大的连锁反应，这份合约的厚度就能说明问题。
-[name="普罗旺斯"]   就算是为了让罗德岛得到及时的援助......这样危险的任务真的要让精疲力尽的干员们......
+[name="普罗旺斯"]   就算是为了让罗德岛得到及时的援助……这样危险的任务真的要让精疲力尽的干员们……
 [Character(name="char_130_doberm_ex")]
-[name="杜宾"]   ......我明白你的担忧，但罗德岛从来就没有权利去考虑如何安然无恙地前进。
+[name="杜宾"]   ……我明白你的担忧，但罗德岛从来就没有权利去考虑如何安然无恙地前进。
 [name="杜宾"]   况且真正做出选择的人，也不是我们。
 [Dialog]
 [Character]
@@ -73,18 +73,18 @@
 [name="安洁莉娜"]   没事的，这也是信使的使命嘛。
 [Character(name="char_145_prove_1")]
 [name="普罗旺斯"]   既然我们已经确确实实地把所有文件都交到了杜宾教官手上，那接下来的事，就都交给博士啦。
-[name="普罗旺斯"]   如果是让博士来负责的话......你说对吧？
+[name="普罗旺斯"]   如果是让博士来负责的话……你说对吧？
 [Character(name="char_291_aglina_1")]
 [name="安洁莉娜"]   嗯，我们信任博士。
-[name="安洁莉娜"]   只是......也不要太勉强自己，好吗？
+[name="安洁莉娜"]   只是……也不要太勉强自己，好吗？
 [Dialog]
 [Character]
 [Decision(options="呃，好的？",values="1")]
 [Predicate(references="1")]
 [Character(name="char_002_amiya_1#4")]
-[name="阿米娅"]   啊......现在的博士，可能还不清楚状况吧？
+[name="阿米娅"]   啊……现在的博士，可能还不清楚状况吧？
 [Character(name="char_130_doberm_ex")]
-[name="杜宾"]   ......博士记不起很多事情，可我们也没有时间让你循序渐进地理解这一切，请理解。
+[name="杜宾"]   ……博士记不起很多事情，可我们也没有时间让你循序渐进地理解这一切，请理解。
 [name="杜宾"]   普罗旺斯，安洁莉娜，再次感谢你们，你们可以抓紧时间休息了。
 [name="杜宾"]   博士和阿米娅，跟我来，关于危机合约的解释，边走边说吧。
 [Dialog]
@@ -97,7 +97,7 @@
 [Decision(options="危机合约？那是什么？",values="1")]
 [Predicate(references="1")]
 [Character(name="char_130_doberm_ex")]
-[name="杜宾"]   ......要从那儿开始解释吗？好吧，长话短说。
+[name="杜宾"]   ……要从那儿开始解释吗？好吧，长话短说。
 [Dialog]
 [PlayMusic(intro="$lab_intro", key="$lab_loop", volume=0.6, crossfade=1, delay=0.5)]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]
@@ -121,14 +121,14 @@
 [Decision(options="那对方的目的是什么？",values="1")]
 [Predicate(references="1")]
 [Character(name="char_002_amiya_1#1")]
-[name="阿米娅"]   为了减轻天灾所造成的影响......这是最初的目的。
+[name="阿米娅"]   为了减轻天灾所造成的影响……这是最初的目的。
 [name="阿米娅"]   毕竟最早，危机合约是由天灾信使们设立的。
-[name="阿米娅"]   ......尽管我们只是各取所需，但“危机合约”的确有个一以贯之的信条。
+[name="阿米娅"]   ……尽管我们只是各取所需，但“危机合约”的确有个一以贯之的信条。
 [Character(name="char_130_doberm_ex")]
 [name="杜宾"]   “都是为了更多的生命。”他们总是标榜类似的话。
 [name="杜宾"]   我明白你的想法，这样空泛的口号的确会让人生疑，但我们过去的合作并不虚假，现在罗德岛会需要一份助力。
 [Character(name="char_002_amiya_1#1")]
-[name="阿米娅"]   ......杜宾教官说的对，无论如何，我们没有太多的选择。
+[name="阿米娅"]   ……杜宾教官说的对，无论如何，我们没有太多的选择。
 [name="阿米娅"]   博士，这些任务将会非常困难。但为了打破罗德岛面临的僵局，这将是我们唯一的突破口。
 [Dialog]
 [Character]
@@ -168,7 +168,7 @@
 [Character(name="char_002_amiya_1#2")]
 [name="阿米娅"]   没事的，我相信博士！
 [Character(name="char_130_doberm_ex")]
-[name="杜宾"]   ......我不会质疑博士的能力，这一点早就验证过无数次了，但我还是有必要重申一遍。
+[name="杜宾"]   ……我不会质疑博士的能力，这一点早就验证过无数次了，但我还是有必要重申一遍。
 [showitem(image="item_cc_hard")]
 [Character(name="char_130_doberm_ex")]
 [name="杜宾"]   根据合约内容，我们将把任务难度划分为“普通”和“困难”两个梯度。
@@ -177,21 +177,21 @@
 [name="杜宾"]   而在一些较为特殊的行动地点中，危险等级会上升。
 [Character(name="char_002_amiya_1#1")]
 [name="阿米娅"]   这样区分也是为了防止罗德岛在履行合约时出现不必要的损失，
-[name="阿米娅"]   我们......真的不能再轻易失去更多了。
+[name="阿米娅"]   我们……真的不能再轻易失去更多了。
 [Dialog]
 [hideitem]
 [Character(name="char_130_doberm_ex")]
-[name="杜宾"]   没错。但这只是最基本的数据预测，实战中将会出现各种意料不到的情况，到那时.....就只能依赖博士的指挥了。
+[name="杜宾"]   没错。但这只是最基本的数据预测，实战中将会出现各种意料不到的情况，到那时……就只能依赖博士的指挥了。
 [Dialog]
 [Character]
-[Decision(options="没问题，交给我;我们不会失去任何东西的;......",values="1;2;3")]
+[Decision(options="没问题，交给我;我们不会失去任何东西的;……",values="1;2;3")]
 [Predicate(references="1;2;3")]              
 [Character(name="char_002_amiya_1#1")]
-[name="阿米娅"]   博士......
+[name="阿米娅"]   博士……
 [Character(name="char_130_doberm_ex")]
-[name="杜宾"]   ......看你的样子，已经决定好该怎么做了。
+[name="杜宾"]   ……看你的样子，已经决定好该怎么做了。
 [name="杜宾"]   普罗旺斯和安洁莉娜带回了全部的可执行文件，剩下的你们自己翻翻看吧。
-[name="杜宾"]   博士，罗德岛现在的处境并不乐观，而现在，我们最有力的手段......就在你的手中。
+[name="杜宾"]   博士，罗德岛现在的处境并不乐观，而现在，我们最有力的手段……就在你的手中。
 [name="杜宾"]   期待你的表现。
 [Dialog]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]

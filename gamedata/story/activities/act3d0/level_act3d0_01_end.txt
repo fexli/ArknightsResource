@@ -3,7 +3,7 @@
 [Dialog]
 [Character]
 [Delay(time=1)]
-[Decision(options="原来是这样......",values="1")]
+[Decision(options="原来是这样……",values="1")]
 [Predicate(references="1")]
 [PlayMusic(intro="$farce_intro", key="$farce_loop", volume=0.8, crossfade=1.5)]
 [Character(name="char_145_prove_1")]
@@ -28,9 +28,9 @@
 [Character(name="char_145_prove_1",name2="char_166_skfire_3#2",focus=2)]
 [name="天火"]   谁会想到市长的女儿会独自去未开发的火山林地呢。
 [Character(name="char_348_ceylon_4#4")]
-[name="锡兰"]    那也是因为不得不做一些学者必须要去尝试的冒险......
+[name="锡兰"]    那也是因为不得不做一些学者必须要去尝试的冒险……
 [Character(name="char_145_prove_1")]
-[name="普罗旺斯"]   继续说回到刚才在火山脚下......
+[name="普罗旺斯"]   继续说回到刚才在火山脚下……
 [Dialog]
 [Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
 [Character]
@@ -43,7 +43,7 @@
 [name="普罗旺斯"]   不用客气。
 [name="普罗旺斯"]   不过，你为什么会一个人来这里？
 [name="普罗旺斯"]   如果只是在沙滩上散步的话，你走得稍微有些远了呢。
-[name="普罗旺斯"]   唔，从你身上带的工具来看......
+[name="普罗旺斯"]   唔，从你身上带的工具来看……
 [Character(name="char_145_prove_1",name2="char_166_skfire_3#2",focus=2)]
 [name="天火"]   普罗旺斯，她也和我们一样，是来查看状况。
 [Character(name="char_145_prove_1",name2="char_166_skfire_3#2",focus=1)]
@@ -58,7 +58,7 @@
 [Character(name="char_348_ceylon_4#2")]
 [name="锡兰"]   姑且不论裙子的事情，大体上你的判断没有错。
 [Character(name="char_145_prove_1")]
-[name="普罗旺斯"]   该说什么好呢，这么做还是有些危险的哦......没有准备完全的话。
+[name="普罗旺斯"]   该说什么好呢，这么做还是有些危险的哦……没有准备完全的话。
 [Character(name="char_145_prove_1",name2="char_166_skfire_3#3",focus=2)]
 [name="天火"]   没事。只要我在，哪怕是两手空空出门也会很安全。
 [Character(name="char_348_ceylon_4#5",name2="char_145_prove_1",focus=1)]
@@ -72,13 +72,13 @@
 [name="锡兰"]   不，刚才的事我认为只是个意外。当时我急着上山了，没有注意附近情况。
 [name="锡兰"]   我在这座城市长大，如果这里的源石虫真的有那么危险，那市长应该早就采取对策了。
 [Character(name="char_348_ceylon_4#2",name2="char_145_prove_1",focus=2)]
-[name="普罗旺斯"]   ......呃，好吧。不过，我觉得，或许它们的聚集是有原因的。
+[name="普罗旺斯"]   ……呃，好吧。不过，我觉得，或许它们的聚集是有原因的。
 [Character(name="char_348_ceylon_4#7",name2="char_145_prove_1",focus=1)]
-[name="锡兰"]   这里一直都是这样，怎么会......
+[name="锡兰"]   这里一直都是这样，怎么会……
 [Character(name="char_348_ceylon_4#8",name2="char_145_prove_1",focus=1)]
-[name="锡兰"]   等等，因为环境改变带来的狂躁化......原来如此，谢谢你，我的证据又多了一条！
+[name="锡兰"]   等等，因为环境改变带来的狂躁化……原来如此，谢谢你，我的证据又多了一条！
 [Character(name="char_145_prove_1",name2="char_166_skfire_3#2",focus=2)]
-[name="天火"]   ......普罗旺斯，看起来她和你发现了一样的东西。
+[name="天火"]   ……普罗旺斯，看起来她和你发现了一样的东西。
 [name="天火"]   虽然我对火山没有那么熟悉，但是作为一名专业而全面的学者，大致的了解还是有的。
 [Character(name="char_348_ceylon_4#8")]
 [name="锡兰"]   难道说，你们也是来寻找证据的吗？
@@ -91,11 +91,11 @@
 [Decision(options="火山爆发？！;开玩笑吧？！",values="1;2")]
 [Predicate(references="1;2")]
 [Character(name="char_145_prove_1")]
-[name="普罗旺斯"]   特殊的刺激性气味，加上异常的气温、狂躁化的源石虫.....
+[name="普罗旺斯"]   特殊的刺激性气味，加上异常的气温、狂躁化的源石虫……
 [name="普罗旺斯"]   况且在火山周围能遇到这种感染生物，也说明这火山也不太一般。要知道如果这山内有源石的话，矿业开采商可是会挤破头的。
 [Character(name="char_348_ceylon_4#7",name2="char_145_prove_1",focus=1)]
 [name="锡兰"]   火山的实际情况并没有多少人知道，而且通常也被市政厅和相关机构管理着。
-[name="锡兰"]   因为环境改变带来的生物狂躁化......至少对比以前的状况，我多少也能对现在的异变有些猜测。
+[name="锡兰"]   因为环境改变带来的生物狂躁化……至少对比以前的状况，我多少也能对现在的异变有些猜测。
 [name="锡兰"]   为了保障市民和城市的安全，我一直在到处寻找对此方面有专业经验的人。
 [name="锡兰"]   希望你们务必要帮助我，帮助我让汐斯塔市度过这个难关。
 [Delay(time=0.6)]

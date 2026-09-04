@@ -10,7 +10,7 @@
 [SoundVolume(volume=0.5, channel="er",fadetime=2)]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
 [delay(time=0.5)]
-[Decision(options="快......;我找到她了......", values="1;2")]
+[Decision(options="快……;我找到她了……", values="1;2")]
 [Predicate(references="1;2")]
 [name="可露希尔"]她脱离和刚才空间的链接了，信息洪流正在急速消退——
 [name="可露希尔"]Mon3tr，过来帮我一把！我要把凯尔希的底层代码完整转移出来，一段都不能落下！
@@ -18,7 +18,7 @@
 [stopsound(channel="inf", fadetime=2.5)]
 [stopsound(channel="er", fadetime=2.5)]
 [delay(time=1.5)]
-[name="可露希尔"]......转储盒已就位。现在，想象这是一个绝对安全的装置......
+[name="可露希尔"]……转储盒已就位。现在，想象这是一个绝对安全的装置……
 [name="Mon3tr"]我想象不出来——
 [name="可露希尔"]那就想办法用你俩之间的心电感应帮我把“异常代码”稳定下来！
 [name="Mon3tr"]我听不懂！
@@ -40,8 +40,8 @@
 [Dialog]
 [delay(time=1)]
 [name="可露希尔"]——！
-[name="Mon3tr"]成功了......我能感觉到。
-[name="Mon3tr"]......
+[name="Mon3tr"]成功了……我能感觉到。
+[name="Mon3tr"]……
 [name="Mon3tr"]真神奇啊。凯尔希和我，竟然也有过这么小的时候。
 [Dialog]
 [delay(time=1)]
@@ -49,7 +49,7 @@
 转储盒自带的检测程序正在运作，她目不转睛地盯着盒身上显示的信息，直到确认代码的自循环线程仍在运行。
 这才真正代表着转移的结束。
 [name="可露希尔"]太好了！石棺的能量输出也跟着稳定下来了！
-[name="可露希尔"]但这还只是第一步，临时转储盒的隔离能力有限，不能让凯尔希一直待在里面。接下来，必须找个相对安静的环境......
+[name="可露希尔"]但这还只是第一步，临时转储盒的隔离能力有限，不能让凯尔希一直待在里面。接下来，必须找个相对安静的环境……
 [Dialog]
 [stopsound(channel="inf1", fadetime=2.5)]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
@@ -62,7 +62,7 @@
 [Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
 [delay(time=1)]
 [name="？？？"]妈呀这是什么鬼地方怎么这么黑！
-[name="可露希尔"]......？
+[name="可露希尔"]……？
 [Dialog]
 [stopmusic(fadetime=2)]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
@@ -82,15 +82,15 @@
 [delay(time=1.5)]
 [charslot(slot="m",name="avg_npc_2244_1#1$1",focus="m")]
 [name="？？？"]欸，我好像又能看见了——
-[name="？？？"]......人？
+[name="？？？"]……人？
 [Dialog]
 [charslot]
-[Decision(options="这也是感染生物吗？;感染生物......会说话？", values="1;2")]
+[Decision(options="这也是感染生物吗？;感染生物……会说话？", values="1;2")]
 [Predicate(references="1;2")]
 [charslot(slot="m",name="avg_1037_amiya3_1#6$2",focus="m")]
 [name="阿米娅"]博士，我能感觉到外面正有军队在攻击这里。而且这里不是刚才的空间，我们又回到了一开始的地方——
 [charslot(slot="m",name="avg_1037_amiya3_1#5$2",focus="m")]
-[name="阿米娅"]......嗯？这是什么？
+[name="阿米娅"]……嗯？这是什么？
 [charslot(slot="m",name="avg_npc_2244_1#1$1",focus="m")]
 [name="？？？"]嘶，你自己不也长着兔子耳朵吗，难道认不出我是只鸡？
 [charslot(slot="m",name="avg_4228_closur_1#8$1",focus="m")]
@@ -100,12 +100,12 @@
 [name="？？？"]听好了，我不是什么“感染生物”，也不是什么“东西”！我是鸡，母鸡！很难懂吗？
 [Dialog]
 [charslot(slot="m",name="avg_npc_2244_1#1$1",focus="n")]
-[Decision(options="听起来好像很熟悉......;可你看上去像个房子。", values="1;2")]
+[Decision(options="听起来好像很熟悉……;可你看上去像个房子。", values="1;2")]
 [Predicate(references="1;2")]
 [charslot(slot="m",name="avg_npc_2244_1#1$1",focus="m")]
 [name="？？？"]你先别说话！
 [name="？？？"]（抖动尾羽）（环视四周）
-[name="？？？"]不对......
+[name="？？？"]不对……
 [name="？？？"]我不是让凯尔希那家伙把我放到黑家伙外面埋了吗？怎么不仅没死成，而且再睁眼就在这玩意儿里面了？
 [Dialog]
 [charslot(slot="m",name="avg_npc_2244_1#1$1",focus="n")]
@@ -128,12 +128,12 @@
 [charslot(slot="m",name="avg_npc_2242_1#5$1",duration=1)]
 [delay(time=1.5)]
 [charslot(slot="m",name="avg_npc_2242_1#5$1",focus="m")]
-[name="克利姆"]呃......
-[name="克利姆"]你们......让石棺停下来了？
+[name="克利姆"]呃……
+[name="克利姆"]你们……让石棺停下来了？
 [charslot(slot="m",name="avg_4228_closur_1#7$1",focus="m")]
 [name="可露希尔"]等等，原来你也进来了？我以为你留在上面了——
 [charslot(slot="m",name="avg_npc_2242_1#1$1",focus="m")]
-[name="克利姆"]......你走得太匆忙了，我都还没来得及问......你们拿到了识别码，这意味着你们一定认识拉达，对吗？
+[name="克利姆"]……你走得太匆忙了，我都还没来得及问……你们拿到了识别码，这意味着你们一定认识拉达，对吗？
 [charslot(slot="m",name="avg_1037_amiya3_1#5$2",focus="m")]
 [multiline(name="阿米娅")]您——您难道是拉达的父亲？而且还是那个帮助可露希尔进来的人吗？
 [charslot(slot="m",name="avg_1037_amiya3_1#17$2",focus="m")]
@@ -146,26 +146,26 @@
 [charslot(slot="m",name="avg_npc_2242_1#2$1",focus="m")]
 [name="克利姆"]丽塔总是这样，我永远都赶不上她的脚步。
 [charslot(slot="m",name="avg_1037_amiya3_1#2$2",focus="m")]
-[name="阿米娅"]......
+[name="阿米娅"]……
 [charslot(slot="m",name="avg_4228_closur_1#5$1",focus="m")]
-[name="可露希尔"]呃，你刚才问石棺是吧，我看看......
+[name="可露希尔"]呃，你刚才问石棺是吧，我看看……
 [charslot(slot="m",name="avg_4228_closur_1#6$1",focus="m")]
 [name="可露希尔"]石棺正在稳定下来，之前被用来武器化的模块也已经在能量对冲中熔毁了，现在只剩下了能量输出模块还在运作。
 [charslot(slot="m",name="avg_npc_2242_1#2$1",focus="m")]
-[name="克利姆"]啊，那真的......太好了。丽塔总是会做正确的选择。
-[name="克利姆"]你们救下了很多人，我应该......谢谢你们。
+[name="克利姆"]啊，那真的……太好了。丽塔总是会做正确的选择。
+[name="克利姆"]你们救下了很多人，我应该……谢谢你们。
 [charslot(slot="m",name="avg_1037_amiya3_1#16$2",focus="m")]
 [name="阿米娅"]我们也应该感谢您。等我们把这里的事情都处理好——
 [charslot(slot="m",name="avg_npc_2242_1#1$1",focus="m")]
 [multiline(name="克利姆")]你们应该马上离开了，第一集团军要放弃这里。
 [charslot(slot="m",name="avg_npc_2242_1#4$1",focus="m")]
-[multiline(name="克利姆")]还在外面的时候，他们的通讯里就频繁提到过......第四集团军。
+[multiline(name="克利姆")]还在外面的时候，他们的通讯里就频繁提到过……第四集团军。
 [charslot(slot="m",name="avg_1037_amiya3_1#10$2",focus="m")]
 [name="阿米娅"]可第四集团军不是还在中央区边界上吗？
 [charslot(slot="m",name="avg_1037_amiya3_1#6$2",focus="m")]
 [multiline(name="阿米娅")]他们难道要来抢夺石棺？！
 [charslot(slot="m",name="avg_npc_2242_1#10$1",focus="m")]
-[name="克利姆"]我不知道......没有人知道完整的情况。
+[name="克利姆"]我不知道……没有人知道完整的情况。
 [Dialog]
 [charslot]
 [Decision(options="我们不能就这样把石棺交到任何一个集团军手中。;至少要想办法暂时把它隐藏一下。", values="1;2")]
@@ -173,21 +173,21 @@
 [Decision(options="石棺聚集的能源有一个合理的出口。;我们可以利用出口将石棺的能量反应降至最低。", values="1;2")]
 [Predicate(references="1;2")]
 [charslot(slot="m",name="avg_npc_2242_1#10$1",focus="m")]
-[name="克利姆"]......你们的情报很周全，你也很聪明。
-[name="克利姆"]好了，这件事就交给我吧......你们应该离开，去做你们该做的事。
+[name="克利姆"]……你们的情报很周全，你也很聪明。
+[name="克利姆"]好了，这件事就交给我吧……你们应该离开，去做你们该做的事。
 [charslot(slot="m",name="avg_4228_closur_1#13$1",focus="m")]
 [multiline(name="可露希尔")]你确定要一个人留下来？！
 [charslot(slot="m",name="avg_4228_closur_1#12$1",focus="m")]
 [multiline(name="可露希尔")]这里正在遭受集团军的炮火，我们可以一起处理，然后一起离开！
 [charslot(slot="m",name="avg_npc_2242_1#9$1",focus="m")]
-[name="克利姆"]够了......
+[name="克利姆"]够了……
 [charslot(slot="m",name="avg_npc_2242_1#10$1",focus="m")]
-[name="克利姆"]我的妻子已经丧生在这里......至少给我们最后一点独处的时间吧。
+[name="克利姆"]我的妻子已经丧生在这里……至少给我们最后一点独处的时间吧。
 [charslot(slot="m",name="avg_4228_closur_1#12$1",focus="m")]
 [name="可露希尔"]可是——
 [charslot(slot="m",name="avg_npc_2242_1#10$1",focus="m")]
-[name="克利姆"]......别看我这样，其实我也是这里的研究员。
-[name="克利姆"]现在大家死的死，逃的逃，我对照看这里直至终局......
+[name="克利姆"]……别看我这样，其实我也是这里的研究员。
+[name="克利姆"]现在大家死的死，逃的逃，我对照看这里直至终局……
 [name="克利姆"]负有责任。
 [Dialog]
 [stopmusic(fadetime=2)]
@@ -208,7 +208,7 @@
 [delay(time=1)]
 [PlaySound(key="$d_avg_crowdrun", volume=1)]
 [delay(time=2.5)]
-石墙大门被炸出了一个缺口，数十双脚先后从其中踏出，接着是简易的推车、担架......
+石墙大门被炸出了一个缺口，数十双脚先后从其中踏出，接着是简易的推车、担架……
 [Dialog]
 [charslot(slot="l",name="char_1002_nsabr_1",focus="l")]
 [charslot(slot="r",name="char_1002_nsabr_1",focus="l")]
@@ -225,7 +225,7 @@
 [name="塔露拉"]这就是问题所在，他们退得过于干脆了。
 [name="塔露拉"]甚至不如说，在我们突入的这片区域里，火力和军力配置根本看不出来是保密区域的水平，像是人都故意被撤走了一样。
 [charslot(slot="m",name="avg_npc_2247_1#10$1",focus="m")]
-[name="塔露拉"]......我们进来之前，外面有些军人也没有对要撤离的感染者主动发起攻击。
+[name="塔露拉"]……我们进来之前，外面有些军人也没有对要撤离的感染者主动发起攻击。
 [charslot(slot="m",name="avg_npc_2247_1#9$1",focus="m")]
 [name="塔露拉"]不知道他们内部到底出了什么问题，又或者根本就是想把我们放进来一网打尽。安全起见，我们必须马上离开——
 [Dialog]
@@ -244,7 +244,7 @@
 一枚炮弹几乎擦过塔露拉的头顶，呼啸着击向人群的后方。
 四周响起了哭声，塔露拉看向炮弹袭来的方向——她看见了那艘高大战舰的指挥舰桥，第一集团军的旗帜随风扬起。
 [charslot(slot="m",name="avg_npc_2247_1#4$1",focus="m")]
-[name="塔露拉"]......直接轰击自己的城市，该死......
+[name="塔露拉"]……直接轰击自己的城市，该死……
 [charslot(slot="m",name="avg_npc_2247_1#3$1",focus="m")]
 [name="塔露拉"]通知到所有人，按计划路线撤退！我去想办法吸引他们的注意！
 [charslot(slot="m",name="char_1002_nsabr_1",focus="m")]
@@ -258,13 +258,13 @@
 [PlaySound(key="$d_avg_explosion", volume=0.7, loop=false, channel="explo",delay=1)]
 [PlaySound(key="$d_gen_explo_n", volume=0.7, loop=false, channel="explo1",delay=2)]
 [delay(time=2)]
-第二枚炮弹砸落在地，紧接着是第三枚......碎石起落，高墙坍塌，而绝处逢生后虚弱的感染者们，光是擦去眼泪就用尽了力气。
+第二枚炮弹砸落在地，紧接着是第三枚……碎石起落，高墙坍塌，而绝处逢生后虚弱的感染者们，光是擦去眼泪就用尽了力气。
 整合运动的成员们四处奔走，半拉半扶着感染者们撤离。只有一人注视着远方的炮火，驻足不前。
 [Dialog]
 [charslot(slot="m",name="avg_npc_2249_1#8$1",duration=0.7)]
 [delay(time=1)]
 [charslot(slot="m",name="avg_npc_2249_1#8$1",focus="m")]
-[name="西尔卡"]......
+[name="西尔卡"]……
 [charslot(slot="m",name="char_1002_nsabr_1",focus="m")]
 [name="整合运动成员C"]西尔卡女士？这里很危险，快和我们一起撤退吧。
 [charslot(slot="m",name="avg_npc_2249_1#8$1",focus="m")]
@@ -298,7 +298,7 @@
 [charslot(slot="m",name="avg_npc_2235_1#8$1",focus="m")]
 [name="阿纳托利"]现在是谁在操作舰炮？你们那可悲的手指，已经退化到只能用来搓牌了吗？
 [charslot(slot="m",name="avg_npc_1977_1#1$1",focus="m")]
-[name="舰炮指挥官"]这，我可以解释......
+[name="舰炮指挥官"]这，我可以解释……
 [charslot(slot="m",name="avg_npc_2235_1#8$1",focus="m")]
 [name="阿纳托利"]别以为你们的失职与懈怠能瞒得过我。为什么不集中火力轰击石墙大门区域？为什么主炮到现在都没有预热完毕？
 [charslot(slot="m",name="avg_npc_1977_1#1$1",focus="m")]
@@ -308,7 +308,7 @@
 [charslot(slot="m",name="avg_npc_2235_1#8$1",focus="m")]
 [name="阿纳托利"]我已经厌倦你们用廉价的同情心当借口搪塞我了，邦达连科中校。
 [charslot(slot="m",name="avg_npc_1977_1#1$1",focus="m")]
-[name="舰炮指挥官"]......啊——
+[name="舰炮指挥官"]……啊——
 [Dialog]
 [PlaySound(key="$d_avg_swordexsheath", volume=1)]
 [Delay(time=1)]
@@ -325,22 +325,22 @@
 [PlaySound(key="$d_gen_transmissionget",volume=0.6)]
 [delay(time=1)]
 [charslot(slot="m",name="avg_npc_2235_1#10$1",focus="n")]
-[name="慌乱的军官"]......喂，元帅，是、是我......万分抱歉，我知道这是小将军的私人通讯......
+[name="慌乱的军官"]……喂，元帅，是、是我……万分抱歉，我知道这是小将军的私人通讯……
 [name="慌乱的军官"]小将军，元帅的通讯我实在不敢挂断，求您了，还是接一下吧？
 [charslot(slot="m",name="avg_npc_2235_1#4$1",focus="m")]
-[name="阿纳托利"]......递过来，然后退下。
+[name="阿纳托利"]……递过来，然后退下。
 [Dialog]
 [charslot]
 [PlaySound(key="$d_avg_walkfast", volume=0.7)]
 [delay(time=1.5)]
 [charslot(slot="m",name="avg_npc_2235_1#10$1",focus="m")]
-[name="阿纳托利"]呵，“第一集团军的军人”，这个已然枯朽的荣誉......
+[name="阿纳托利"]呵，“第一集团军的军人”，这个已然枯朽的荣誉……
 [Dialog]
 [charslot]
-[name="通讯器里的声音"]......尊重你的下属，阿纳托利，这不是我第一次劝导你了。
+[name="通讯器里的声音"]……尊重你的下属，阿纳托利，这不是我第一次劝导你了。
 [name="通讯器里的声音"]但现在还有一件更要紧的事，你明明答应过我的，对吗？只要拿到石棺的资料，就马上回来。
 [charslot(slot="m",name="avg_npc_2235_1#9$1",focus="m")]
-[name="阿纳托利"]母亲......我试过了，我用尽了力气，只为了去讨得您梦寐以求的结果。
+[name="阿纳托利"]母亲……我试过了，我用尽了力气，只为了去讨得您梦寐以求的结果。
 [name="阿纳托利"]可您却让我，去坐视那群噬骨的蝼蚁爬满我的城市，还要让我去与贪生怕死的懦夫同列，在耻辱中逃窜——
 [charslot(slot="m",name="avg_npc_2235_1#5$1",focus="m")]
 [name="阿纳托利"]您简直在要我的命。
@@ -349,15 +349,15 @@
 [name="通讯器里的声音"]孩子，我所做的一切，都只为了让你远离这毫无意义的战场。
 [name="通讯器里的声音"]每分每秒，第四集团军都在迫近泽尔格勒，你要我如何眼睁睁地看着自己的儿子，陷入这片泥淖之中呢？
 [charslot(slot="m",name="avg_npc_2235_1#1$1",focus="m")]
-[name="阿纳托利"]第四集团军......呵呵，他们和城里那些叛国者，又有什么分别？他们都在背叛这个伟大的帝国，背叛您曾教导我的信条。
+[name="阿纳托利"]第四集团军……呵呵，他们和城里那些叛国者，又有什么分别？他们都在背叛这个伟大的帝国，背叛您曾教导我的信条。
 [name="阿纳托利"]我的母亲，是您一直让我做一个忠诚的人——可为什么现在，先放手的却是您呢？
 [Dialog]
 [charslot]
-[name="通讯器里的声音"]......
+[name="通讯器里的声音"]……
 [PlaySound(key="$d_avg_recorderglitch", volume=1)]
-[name="通讯器里的声音"]......滋滋......
+[name="通讯器里的声音"]……滋滋……
 [charslot(slot="m",name="avg_npc_2235_1#8$1",focus="m")]
-[name="阿纳托利"]......？
+[name="阿纳托利"]……？
 [Dialog]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
 [Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
@@ -374,7 +374,7 @@
 原本她想找到一个空旷显眼的地方，进一步释放自己的源石技艺，用自己的回归向第一集团军发出挑衅，以吸引注意。
 然而，那艘军舰突然间收敛了声音，就连展开的副炮也许久不见动静。
 [charslot(slot="m",name="avg_npc_2247_1#5$1",focus="m")]
-[name="塔露拉"]这究竟......
+[name="塔露拉"]这究竟……
 [Dialog]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
 [Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
@@ -393,7 +393,7 @@
 [delay(time=1)]
 [interlude(channel = 3, switch = true)]
 [charslot(slot="m",name="avg_npc_2249_1#3$1",focus="n")]
-[name="阿纳托利"]......你再重复一遍？
+[name="阿纳托利"]……你再重复一遍？
 [interlude(channel = 3, switch = false)]
 [charslot(slot="m",name="avg_npc_2249_1#3$1",focus="m")]
 [name="西尔卡"]您没有听错，我正在您位于保密区的住所，用您的私人频段，与您对话。
@@ -411,10 +411,10 @@
 [charslot(slot="m",name="avg_npc_2249_1#1$1",focus="m")]
 [name="西尔卡"]如您和元帅方才所应允的那样，我向您祈求暂时的停火，直到第一集团军能接应我登上军舰。
 [charslot(slot="m",name="avg_npc_2249_1#7$1",focus="m")]
-[name="西尔卡"]当然，除了我的性命之外......尽管难以启齿，我与叶甫根尼元帅，还有更深重的仇怨。
+[name="西尔卡"]当然，除了我的性命之外……尽管难以启齿，我与叶甫根尼元帅，还有更深重的仇怨。
 [interlude(channel = 4, switch = true)]
 [charslot(slot="m",name="avg_npc_2249_1#7$1",focus="n")]
-[name="斯韦特兰纳"]......女士，如果你以“难以启齿”为由，隐瞒我所需要的信息，那么我很乐意随时恢复开火。
+[name="斯韦特兰纳"]……女士，如果你以“难以启齿”为由，隐瞒我所需要的信息，那么我很乐意随时恢复开火。
 [name="斯韦特兰纳"]你为什么会认为，我们能够信任一个闯入自己家中的窃贼与刺客？
 [interlude(channel = 4, switch = false)]
 [charslot(slot="m",name="avg_npc_2249_1#1$1",focus="m")]
@@ -440,7 +440,7 @@
 [PlaySound(key="$d_gen_transmissionget",volume=0.6)]
 [delay(time=1)]
 [charslot(slot="m",name="avg_npc_2249_1#1$1",focus="n")]
-[name="叶甫根尼"]......耶夫塞？有什么消息需要汇报？
+[name="叶甫根尼"]……耶夫塞？有什么消息需要汇报？
 [charslot(slot="m",name="avg_npc_2249_1#1$1",focus="m")]
 [name="西尔卡"]叶甫根尼元帅，我是与他交接的间谍，出于紧急情况借用他的通讯设备。
 [charslot(slot="m",name="avg_npc_2249_1#1$1",focus="n")]
@@ -448,7 +448,7 @@
 [charslot(slot="m",name="avg_npc_2249_1#1$1",focus="m")]
 [name="西尔卡"]我是他安排在泽尔格勒城内的暗桩，辨识身份所用的密码已经在五分钟前发向指挥中心。
 [charslot(slot="m",name="avg_npc_2249_1#1$1",focus="n")]
-[name="叶甫根尼"]......
+[name="叶甫根尼"]……
 [name="叶甫根尼"]你说，“紧急情况”？
 [charslot(slot="m",name="avg_npc_2249_1#1$1",focus="m")]
 [name="西尔卡"]目前这座城市已经陷入战火，我暂时与他失去了联系。
@@ -472,10 +472,10 @@
 [charslot(slot="m",name="avg_npc_2249_1#3$1",focus="m")]
 [name="西尔卡"]恕我冒昧。隐患，指的是“情债”吗？
 [charslot(slot="m",name="avg_npc_2249_1#3$1",focus="n")]
-[name="叶甫根尼"]......情报传递，难道指的就是这些捕风捉影的见闻吗？
+[name="叶甫根尼"]……情报传递，难道指的就是这些捕风捉影的见闻吗？
 [charslot(slot="m",name="avg_npc_2249_1#2$1",focus="m")]
 [name="西尔卡"]但这的确和我得知的情报有关。
-[name="西尔卡"]整个乌萨斯上层，无人不知您的父亲——安德里安元帅，是一位典型的帝国军人，忠诚、坚毅，顽固而粗暴......
+[name="西尔卡"]整个乌萨斯上层，无人不知您的父亲——安德里安元帅，是一位典型的帝国军人，忠诚、坚毅，顽固而粗暴……
 [name="西尔卡"]但他们也知道，他还是一位闻名帝国的情种。“卡西安号”的舰长，是他最后一位情人的侄兄。
 [name="西尔卡"]现在都有人传言，在十多年前，集团军首长们回到圣骏堡，向陛下述职时，他和当时还不是元帅的斯韦特兰纳将军——
 [charslot(slot="m",name="avg_npc_2249_1#2$1",focus="n")]
@@ -486,14 +486,14 @@
 [name="阿纳托利"]（咬牙）
 [interlude(channel = 3, switch = false)]
 [charslot(slot="m",name="avg_npc_2249_1#12$1",focus="m")]
-[name="西尔卡"]即使您已经为家族荣誉殚精竭虑至此，甚至不惜亲手杀死自己的父亲，也要证明自己并未传承那血脉中的荒唐......
+[name="西尔卡"]即使您已经为家族荣誉殚精竭虑至此，甚至不惜亲手杀死自己的父亲，也要证明自己并未传承那血脉中的荒唐……
 [charslot(slot="m",name="avg_npc_2249_1#12$1",focus="n")]
 [name="叶甫根尼"]——！
 [charslot(slot="m",name="avg_npc_2249_1#2$1",focus="m")]
 [name="西尔卡"]我也必须遗憾地告诉您，至今仍有人并不认同您的这一做法，还在试图剥夺您的继承权，长官。
-[name="西尔卡"]甚至，您一直没能找到的，那位受到安德里安元帅小心保护的私生女，一个卑劣的库兰塔......如今也就在泽尔格勒城内。
+[name="西尔卡"]甚至，您一直没能找到的，那位受到安德里安元帅小心保护的私生女，一个卑劣的库兰塔……如今也就在泽尔格勒城内。
 [charslot(slot="m",name="avg_npc_2249_1#2$1",focus="n")]
-[name="叶甫根尼"]......你到底是什么人？！你的声音——
+[name="叶甫根尼"]……你到底是什么人？！你的声音——
 [charslot(slot="m",name="avg_npc_2249_1#2$1",focus="m")]
 [name="西尔卡"]更重要的是，如果您不抓紧机会打进泽尔格勒城将她灭口，她很快就会作为上面那些“传闻”的实证，来到您忠诚的军队之中。
 [name="西尔卡"]到那时，您的权威——
@@ -504,7 +504,7 @@
 [PlaySound(key="$transmission",volume=1)]
 [Delay(time=1.5)]
 [charslot(slot="m",name="avg_npc_2249_1#1$1",focus="m")]
-[name="西尔卡"]嗯......
+[name="西尔卡"]嗯……
 [charslot(slot="m",name="avg_npc_2249_1#3$1",focus="m")]
 [name="西尔卡"]那么如你们所闻，斯韦特兰纳元帅，阿纳托利将军——
 [interlude(channel = 3, switch = true)]
@@ -524,7 +524,7 @@
 [charslot(slot="m",name="avg_npc_2249_1#3$1",focus="m")]
 [name="西尔卡"]哦，尊敬的小将军，您可见过您的父亲吗？
 [charslot(slot="m",name="avg_npc_2249_1#2$1",focus="m")]
-[name="西尔卡"]或许有一天，我们会因同样的血脉再见......我亲爱的兄弟。
+[name="西尔卡"]或许有一天，我们会因同样的血脉再见……我亲爱的兄弟。
 [dialog]
 [charslot(duration=0.7)]
 [delay(time=1)]
@@ -541,7 +541,7 @@
 [Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=1.5, block=true)]
 [delay(time=1)]
 [charslot(slot="m",name="avg_npc_2235_1#10$1",focus="m")]
-[name="阿纳托利"]母亲......
+[name="阿纳托利"]母亲……
 [charslot(slot="m",name="avg_npc_2235_1#10$1",focus="n")]
 [name="斯韦特兰纳"]阿纳托利，不要轻易被欺骗。她只是想激怒你，这背后有什么目的我们可以——
 [Dialog]
@@ -554,16 +554,16 @@
 [charslot(slot="m",name="avg_npc_2235_1#7$1",focus="m")]
 [name="阿纳托利"]副官！
 [charslot(slot="m",name="avg_npc_1977_1#1$1",focus="m")]
-[name="惶恐的军官"]......小将军？
+[name="惶恐的军官"]……小将军？
 [charslot(slot="m",name="avg_npc_2235_1#8$1",focus="m")]
 [name="阿纳托利"]传我的命令，所有能调动的人员，全部前往保密区抓人。
 [charslot(slot="m",name="avg_npc_1977_1#1$1",focus="m")]
 [name="惶恐的军官"]但、但我们已经没有——
 [charslot(slot="m",name="avg_npc_2235_1#7$1",focus="m")]
 [CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]
-[name="阿纳托利"]你活不了多久了......杂种！！！
+[name="阿纳托利"]你活不了多久了……杂种！！！
 [charslot(slot = "m", name = "avg_npc_2246_1#10$1",focus="m")]
-[name="希尔达"]......
+[name="希尔达"]……
 [Dialog]
 [stopmusic(fadetime=2)]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
@@ -612,9 +612,9 @@
 [Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=1, block=true)]
 [Delay(time=0.5)]
 [charslot(slot="m",name="avg_npc_2225_1#11$1",focus="m")]
-[name="图林"]......我们又见面了，拉特科夫。
+[name="图林"]……我们又见面了，拉特科夫。
 [charslot(slot="m",name="avg_npc_1976_1#1$1",focus="m")]
-[name="寡言的军人"]......我不该放走你的。
+[name="寡言的军人"]……我不该放走你的。
 [name="寡言的军人"]我接到的命令，是肃清城中的叛国贼。
 [charslot(slot="m",name="avg_npc_2225_1#11$1",focus="m")]
 [name="图林"]你说的叛国贼，是我身后的这些民众吗？
@@ -637,7 +637,7 @@
 [charslot(slot="m",name="avg_1502_crosly_1#5$1",duration=1)]
 [Delay(time=2)]
 [charslot(slot="m",name="avg_npc_1976_1#1$1",focus="m")]
-[name="寡言的军人"]我指的是她......但如你所见，我们失败了。
+[name="寡言的军人"]我指的是她……但如你所见，我们失败了。
 [name="寡言的军人"]许多人都在说，整合运动来到了这里。我们判断，第一集团军的守备力量，不足以对抗他们。
 [name="寡言的军人"]如果小将军还有什么办法能对付整合运动，那就随他去想吧。
 [name="寡言的军人"]而我们，决定撤退了。
@@ -652,9 +652,9 @@
 [charslot(slot="m",name="avg_1502_crosly_1#1$1",focus="m")]
 [name="弑君者"]他在自作主张，或者说他们。
 [charslot(slot="m",name="avg_npc_2225_1#4$1",focus="m")]
-[name="图林"]......
+[name="图林"]……
 [charslot(slot="m",name="avg_1502_crosly_1#1$1",focus="m")]
-[name="弑君者"]......怎么了，图林？
+[name="弑君者"]……怎么了，图林？
 [Dialog]
 [charslot]
 她看到图林展开了纸张，手却微微发颤，而图林的目光扫过上面密密麻麻的文字——那视线是散的，落不到实处。
@@ -662,29 +662,29 @@
 [charslot(slot="m",name="avg_1502_crosly_1#5$1",focus="m")]
 [name="弑君者"]图林，需要帮助吗？
 [charslot(slot="m",name="avg_npc_2225_1#1$1",focus="m")]
-[name="图林"]......啊，柳德米拉......
+[name="图林"]……啊，柳德米拉……
 [charslot(slot="m",name="avg_npc_2225_1#4$1",focus="m")]
-[name="图林"]如果可以，能否帮我读一下这张纸的内容，我有些......
+[name="图林"]如果可以，能否帮我读一下这张纸的内容，我有些……
 [charslot(slot="m",name="avg_1502_crosly_1#5$1",focus="m")]
-[name="弑君者"]......“城门的控制室在东侧，需要输入通用密码，见附录”，这是城门的操作指南。
+[name="弑君者"]……“城门的控制室在东侧，需要输入通用密码，见附录”，这是城门的操作指南。
 [charslot(slot="m",name="avg_npc_2225_1#1$1",focus="m")]
 [name="图林"]原来如此，把它交给我的同伴吧，马上我们就能出去了。
 [Dialog]
 [charslot]
 一旁的矿工接过图纸后离开了，图林深深呼出一口气。
 [charslot(slot="m",name="avg_npc_2225_1#3$1",focus="m")]
-[name="图林"]谢谢你，柳德米拉。我见到那些文字，尤其是那些过于密集的......
+[name="图林"]谢谢你，柳德米拉。我见到那些文字，尤其是那些过于密集的……
 [charslot(slot="m",name="avg_1502_crosly_1#1$1",focus="m")]
 [name="弑君者"]我原本以为，你会是那种习惯读书的人。
 [charslot(slot="m",name="avg_npc_2225_1#4$1",focus="m")]
 [name="图林"]我确实对书上的知识与故事感兴趣，但大多数时候，都需要有人帮我读出来，因此也总是学得比其他人慢一些。
 [charslot(slot="m",name="avg_1502_crosly_1#5$1",focus="m")]
-[name="弑君者"]......
-[name="弑君者"]但是，“伊凡·图林”......
+[name="弑君者"]……
+[name="弑君者"]但是，“伊凡·图林”……
 [name="弑君者"]一位笔耕不辍的作家，近些年的乌萨斯语作家，没有人能比他写得更好，也没有人能比他写得更长。
-[name="弑君者"]圣骏堡的大学生最津津乐道的，就是他书中那些庞杂而精妙的引用，他们总是在赞叹伊凡·图林的阅读量......
+[name="弑君者"]圣骏堡的大学生最津津乐道的，就是他书中那些庞杂而精妙的引用，他们总是在赞叹伊凡·图林的阅读量……
 [charslot(slot="m",name="avg_npc_2225_1#4$1",focus="m")]
-[name="图林"]......
+[name="图林"]……
 [charslot(slot="m",name="avg_1502_crosly_1#5$1",focus="m")]
 [name="弑君者"]你是——
 [stopmusic(fadetime=2)]
@@ -696,7 +696,7 @@
 [charslot(slot="m",name="avg_npc_1969_1#1$1",focus="m")]
 [name="急切的矿工"]图林，我们成功了！
 [charslot(slot="m",name="avg_npc_2225_1#3$1",focus="m")]
-[name="图林"]......嗯。
+[name="图林"]……嗯。
 [name="图林"]所有人！听好指挥，我们要离开泽尔格勒了！
 [Dialog]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
@@ -720,9 +720,9 @@
 [SoundVolume(volume=0.6, channel="sn",fadetime=4)]
 [Image(image="73_i21", screenadapt="coverall",fadetime=3, block=true)]
 [delay(time=1)]
-[name="图林"]......柳德米拉，我需要另找个时间，再向你讲述那个作家的故事。
+[name="图林"]……柳德米拉，我需要另找个时间，再向你讲述那个作家的故事。
 [name="图林"]许多年前，他不得不离我们而去，直到某日，连我也彻底失去了他的音讯。
-[name="图林"]或许乌萨斯可以贬损他、放逐他，甚至杀死他......但乌萨斯永远摧毁不了他。
+[name="图林"]或许乌萨斯可以贬损他、放逐他，甚至杀死他……但乌萨斯永远摧毁不了他。
 [name="图林"]因为还有我们，而我们还有明天。
 [Dialog]
 [delay(time=1)]
@@ -755,9 +755,9 @@
 [Blocker(a=0, r=255, g=255, b=255, fadetime=0.8, block=true)]
 [delay(time=1)]
 [charslot(slot = "m", name = "avg_4226_veen_1#1$1",focus="m")]
-[name="斯乔帕"]至少......拖到“莫尔凡”失效了。
+[name="斯乔帕"]至少……拖到“莫尔凡”失效了。
 [charslot(slot = "m", name = "avg_4226_veen_1#2$1",focus="m")]
-[name="斯乔帕"]哈，这下......你们就只能堂堂正正地和我打了。
+[name="斯乔帕"]哈，这下……你们就只能堂堂正正地和我打了。
 [charslot(slot = "m", name = "avg_4226_veen_1#4$1",focus="m")]
 [CameraShake(duration=0.3,xstrength=20,ystrength=20,vibrato=30,randomness=90,fadeout=true,block=false)]
 [name="斯乔帕"]咳呃——
@@ -812,11 +812,11 @@
 [delay(time=1.5)]
 [charslot(slot="m",name="avg_npc_2241_1#4$1",focus="m")]
 [charslot(slot = "m", action="shake",random=true, power=5, times=60,duration=0.5)]
-[name="奥列格"]......我、斯乔帕——
+[name="奥列格"]……我、斯乔帕——
 [charslot(slot = "m", name = "avg_4226_veen_1#11$1",focus="m")]
 [name="斯乔帕"]奥列格，站到我身后。
 [charslot(slot = "m", name = "avg_npc_2237_1#1$1",focus="m")]
-[name="战争术师"]......本以为你只是个半吊子术师。没想到......
+[name="战争术师"]……本以为你只是个半吊子术师。没想到……
 [name="战争术师"]你活着，却逃离了你的命运。这意味着，你比以往任何时候，都更应死去。
 [charslot(slot = "m", name = "avg_4226_veen_1#1$1",focus="m")]
 [name="斯乔帕"]你应该把刚才那句话当成咒语来说的，“同胞”。
@@ -860,7 +860,7 @@
 [name="斯乔帕"]奥列格，立刻带所有人离开指挥室。
 [name="斯乔帕"]我最多只能争取两分钟时间——
 [charslot(slot = "m", name = "avg_npc_2237_1#1$1",focus="m")]
-[name="战争术师"]——如此......低劣的咒语——
+[name="战争术师"]——如此……低劣的咒语——
 [name="战争术师"]无耻的戏弄！
 [PlaySound(key="$d_avg_phantommagic", volume=1)]
 [name="战争术师"]（古老的乌萨斯方言）“我要你痛苦，要你应行的路永无尽头，要连水也不能替你洗清污浊——”
@@ -875,7 +875,7 @@
 [Background(image="73_g13_ursuswscommandroom",screenadapt="coverall",fadetime=1)]
 [Delay(time=1)]
 [charslot(slot = "m", name = "avg_4226_veen_1#5$1",focus="m")]
-[name="斯乔帕"]......
+[name="斯乔帕"]……
 [charslot(slot = "m", name = "avg_4226_veen_1#6$1",focus="m")]
 [name="斯乔帕"]快——
 [Dialog]
@@ -888,7 +888,7 @@
 极端的疼痛从全身各处袭来，在因抵抗而彻底脱力之前，他开口了——
 [stopmusic(fadetime=2)]
 [CameraEffect(effect="Chaos", keep= false)]
-[name="斯乔帕"]......
+[name="斯乔帕"]……
 [PlaySound(key="$d_avg_firemagic")]
 [spellsticker(id="spell2", action="show", style="fire", x=-210, y=283, xScale=1, yScale=1, angle=0, alpha=1, block=true)]<p=1>“火尽灰散，同归。”</><p=2>“Огонь угас, пепел рассеян, вместе падём.”</>
 [Dialog]
@@ -919,19 +919,19 @@
 [charslot(slot = "m", name = "avg_4226_veen_1#12$3",duration=1)]
 [Delay(time=1.5)]
 [charslot(slot = "m", name = "avg_4226_veen_1#12$3",focus="m")]
-[name="斯乔帕"]......什么......
-[name="斯乔帕"]怎么我去见了维伊......结果你也在这儿？
+[name="斯乔帕"]……什么……
+[name="斯乔帕"]怎么我去见了维伊……结果你也在这儿？
 [charslot(slot = "m", name = "avg_4226_veen_1#4$3",focus="m")]
 [name="斯乔帕"]咳、咳咳！要是我误伤了你，那其他人——
 [charslot(slot="m",name="avg_npc_2241_1#2$1",focus="m")]
 [name="奥列格"]你没死，你也没误伤谁！好吧，顶多是我感觉有点幻痛，但没事。
 [charslot(slot = "m", name = "avg_4226_veen_1#4$3",focus="m")]
-[name="斯乔帕"]......我没死？
+[name="斯乔帕"]……我没死？
 [charslot(slot="m",name="avg_npc_2241_1#2$1",focus="m")]
 [name="奥列格"]你当然没死！你叽里咕噜地念了一通，然后整个舱室都*乌萨斯粗口*的烧起来了。
 [name="奥列格"]但那黑色的火很快就灭了，那几个战争术师也不见了。
 [charslot(slot = "m", name = "avg_4226_veen_1#12$3",focus="m")]
-[name="斯乔帕"]......
+[name="斯乔帕"]……
 [name="斯乔帕"]他们撤退了。为什么？
 [charslot(slot="m",name="avg_npc_2241_1#2$1",focus="m")]
 [name="奥列格"]不知道，但总归是好事吧。而且我还以为是你把他们烧死了呢。
@@ -940,7 +940,7 @@
 [charslot(slot="m",name="avg_npc_2241_1#3$1",focus="m")]
 [name="奥列格"]说什么呢。你说你去见维伊了，我看那祖宗是不会想见你的，因为你可比它还厉害哩！
 [charslot(slot = "m", name = "avg_4226_veen_1#8$3",focus="m")]
-[name="斯乔帕"]......哼。
+[name="斯乔帕"]……哼。
 [charslot(slot = "m", name = "avg_4226_veen_1#10$3",focus="m")]
 [name="斯乔帕"]说什么，还能说什么？我说赶紧让所有人准备下船！
 [charslot(slot="m",name="avg_npc_2241_1#7$1",focus="m")]
@@ -964,14 +964,14 @@
 [StopSound(channel="sn", fadetime=2)]
 [charslot(slot = "l", name = "avg_4226_veen_1#3$3",focus="l")]
 [charslot(slot = "r", name = "avg_npc_2241_1#2$1",focus="l")]
-[name="斯乔帕"]......
+[name="斯乔帕"]……
 [charslot(slot="r",name="avg_npc_2241_1#2$1",focus="r")]
 [name="奥列格"]真决定了？现在喊大伙回来还来得及。
 [charslot(slot = "l", name = "avg_4226_veen_1#1$3",focus="l")]
 [name="斯乔帕"]我一定得让那家伙吃个教训，让他再也不能瞧不起咱们。
 [name="斯乔帕"]等事情都结束了，我会去找你们。
 [charslot(slot="r",name="avg_npc_2241_1#3$1",focus="r")]
-[name="奥列格"]哼，事情结束......咱们这些人的事情，真有结束的那天吗？
+[name="奥列格"]哼，事情结束……咱们这些人的事情，真有结束的那天吗？
 [charslot(slot = "l", name = "avg_4226_veen_1#2$3",focus="l")]
 [name="斯乔帕"]会有的，一定会。
 [name="斯乔帕"]就算是那些几百年来都没有说法的事，也终究会有说法的。
@@ -1051,16 +1051,16 @@
 等罗德岛一行人，外加一座聒噪的“小房子”，终于按照克利姆手绘的地图上的路线离开地下。
 抵达一片僻静的装饰林中时，天已经大亮了。
 [charslot(slot="m",name="avg_npc_2244_1#1$1",focus="m")]
-[name="聒噪的“小房子”"]......总之，我也不知道自己怎么就出现在那儿了。
+[name="聒噪的“小房子”"]……总之，我也不知道自己怎么就出现在那儿了。
 [name="聒噪的“小房子”"]既然你们说现在早就已经不是我所知道的那个时代，那我想必也没地方可去，又或者说，是想去哪儿都可以了。
 [name="聒噪的“小房子”"]喂，可露希尔，把你那个什么“镜子”再给我看两眼，让我熟悉下现在这个身体——
 [charslot(slot="m",name="avg_4228_closur_1#13$1",focus="m")]
 [name="可露希尔"]你说你被埋在石棺附近，而这副石棺的发掘现场附近曾有一片源石矿场，这也是切城后来在乌萨斯荒凉的东部得以快速发展的原因之一。
 [charslot(slot="m",name="avg_4228_closur_1#11$1",focus="m")]
-[name="可露希尔"]......
-[name="可露希尔"]遗体，源石矿场，从前的石棺......“小房子”，不小心被我弄撒了一点的“空白源石”，和现在被拆分了功能的“原型”——
+[name="可露希尔"]……
+[name="可露希尔"]遗体，源石矿场，从前的石棺……“小房子”，不小心被我弄撒了一点的“空白源石”，和现在被拆分了功能的“原型”——
 [charslot(slot="m",name="avg_4228_closur_1#7$1",focus="m")]
-[name="可露希尔"]......我明白了。我明白了！
+[name="可露希尔"]……我明白了。我明白了！
 [multiline(name="可露希尔")]也许可以试一试——
 [charslot(slot="m",name="avg_4228_closur_1#12$1",focus="m")]
 [multiline(name="可露希尔")]不，我必须得试一试。
@@ -1083,7 +1083,7 @@
 [charslot(slot="m",name="avg_4228_closur_1#14$1",focus="m")]
 [name="可露希尔"]没错，我也知道该怎么带她回来了。
 [charslot(slot="m",name="avg_4228_closur_1#1$1",focus="m")]
-[name="可露希尔"]石棺作为能源来源和创生舱，凯尔希的原始数据形成记忆，空白源石“奥卡”作为构形基底......再加上我们刚才找到的底层代码。
+[name="可露希尔"]石棺作为能源来源和创生舱，凯尔希的原始数据形成记忆，空白源石“奥卡”作为构形基底……再加上我们刚才找到的底层代码。
 [charslot(slot="m",name="avg_4228_closur_1#10$1",focus="m")]
 [name="可露希尔"]我一直在把复生实验当作某种生物学上的课题来对待，却没有意识到生命其实类似一个长期运行的进程，不是一段静态代码。
 [charslot(slot="m",name="avg_4228_closur_1#1$1",focus="m")]
@@ -1095,16 +1095,16 @@
 [Decision(options="如果按照你的比喻——;凯尔希，是自己选择了维持这个“闭环”。", values="1;2")]
 [Predicate(references="1;2")]
 [charslot(slot="m",name="avg_4228_closur_1#1$1",focus="m")]
-[name="可露希尔"]......而如果，她从建立起闭环的那一刻起，就不再只是作为被执行的程序，而是开始自行调用更新，并持续迭代。
+[name="可露希尔"]……而如果，她从建立起闭环的那一刻起，就不再只是作为被执行的程序，而是开始自行调用更新，并持续迭代。
 [charslot(slot="m",name="avg_4228_closur_1#10$1",focus="m")]
 [name="可露希尔"]那么，那条最初的自修改指令，就可以说是她一开始的“意识”。
 [charslot(slot="m",name="avg_4228_closur_1#1$1",focus="m")]
-[name="可露希尔"]虽然我是不懂“死魂灵”那些东西......但如果说，有什么东西，是刻在了她的灵魂最深处，或者代表着她身为人的意志本身的话——
+[name="可露希尔"]虽然我是不懂“死魂灵”那些东西……但如果说，有什么东西，是刻在了她的灵魂最深处，或者代表着她身为人的意志本身的话——
 [charslot(slot="m",name="avg_4228_closur_1#14$1",focus="m")]
 [name="可露希尔"]那一定就是那条最初的自修改指令了。
 [Dialog]
 [charslot]
-[Decision(options="......;......", values="1;2")]
+[Decision(options="……;……", values="1;2")]
 [Predicate(references="1;2")]
 [Decision(options="我明白了。", values="1")]
 [Predicate(references="1")]
@@ -1126,13 +1126,13 @@
 一切准备就绪，可露希尔开启电源，等待屏幕亮起。
 [Dialog]
 [charslot(slot="m",name="avg_4228_closur_1#12$1",focus="m")]
-[name="可露希尔"]......
+[name="可露希尔"]……
 [Dialog]
 [charslot]
 [PlaySound(key="$d_avg_systemstart",volume=1)]
 [Blocker(a=0.4, r=0, g=0, b=0, fadetime=1.5, block=true)]
 [delay(time=1)]
-[Sticker(id="st1", multi = true, text="System booting...", x=180,y=170, alignment="left", size=24, delay=0.1, width=700,block = true)]
+[Sticker(id="st1", multi = true, text="System booting……", x=180,y=170, alignment="left", size=24, delay=0.1, width=700,block = true)]
 [Sticker(id="st1")]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
 [delay(time=0.5)]
@@ -1147,7 +1147,7 @@
 [PlaySound(key="$d_avg_mechalock", volume=1)]
 [Sticker(id="st1", multi = true, text="生物模型构建-------------------100%", x=180,y=170, alignment="left", size=24, delay=0.07, width=700,block = true)]
 [Sticker(id="st1", multi = true, text="\n\n生理机能模拟-------------------100%",block = true)]
-[Sticker(id="st1", multi = true, text="\n\n......",block = true)]
+[Sticker(id="st1", multi = true, text="\n\n……",block = true)]
 [Sticker(id="st1", multi = true, text="\n\n神经元数据上传----------------100%",block = true)]
 [Sticker(id="st1")]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
@@ -1156,9 +1156,9 @@
 [charslot(slot="m",name="avg_4228_closur_1#7$1",focus="m")]
 [name="可露希尔"]——！
 [charslot(slot="m",name="avg_4179_monstr_1#8$1",focus="m")]
-[name="Mon3tr"]这是不是......
+[name="Mon3tr"]这是不是……
 [charslot(slot="m",name="avg_1037_amiya3_1#5$1",focus="m")]
-[name="阿米娅"]......
+[name="阿米娅"]……
 [Dialog]
 [charslot]
 在屏幕上最终跃出那行之前从未出现的提示时，所有人都下意识屏住了呼吸。

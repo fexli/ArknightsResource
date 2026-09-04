@@ -12,7 +12,7 @@
 [Blocker(a=0, fadetime=0.6, block=true)]
 [name="？？？"]   他们来了。
 [Character(name="char_010_chen_1", name2="char_015_lmg", focus=1)]
-[name="？？？"]   ......
+[name="？？？"]   ……
 [Dialog]
 [Character(fadetime=0.6)]
 [PlaySound(key="$radio")]
@@ -24,7 +24,7 @@
 [name="广播"]   请注意——
 [PlaySound(key="$radio")]
 [Character(name="char_002_amiya_1#1")]
-[name="阿米娅"]   和传闻中一样......
+[name="阿米娅"]   和传闻中一样……
 [Character(name="char_002_amiya_1#2")]
 [name="阿米娅"]   走吧，博士。
 [name="阿米娅"]   我们到了。
@@ -35,7 +35,7 @@
 [Character(name="char_010_chen_1#4")]
 [name="？？？"]   你们迟到了十四分钟，无谓地浪费了我十四分钟时间。
 [Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=2)]
-[name="阿米娅"]   ......抱歉，陈长官，这片区域刚才有整合————
+[name="阿米娅"]   ……抱歉，陈长官，这片区域刚才有整合————
 [Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=1)]
 [name="陈"]   行了，我知道。不过这些都不重要。
 [Character(name="char_010_chen_1")]
@@ -43,7 +43,7 @@
 [Character(name="char_010_chen_1", name2="char_002_amiya_1", focus=2)]
 [name="阿米娅"]   Dr.{@nickname}是罗德岛的顾问。凯尔希医生应该通知过龙门的各位。
 [Character(name="char_010_chen_1")]
-[name="陈"]   哼.......
+[name="陈"]   哼……
 [name="陈"]   好了，人已经到齐，现在你们需要跟我去见——
 [Character(name="char_010_chen_1", name2="char_015_lmg", focus=2)]
 [PlaySound(key="$d_gen_soldiersrun",volume=0.4)]
@@ -57,7 +57,7 @@
 [name="普通市民"]   发生，发生什么了！
 [name="感染者"]   放开我！！
 [Character(name="char_010_chen_1")]
-[name="陈"]   啧......怎么回事，汇报情况。
+[name="陈"]   啧……怎么回事，汇报情况。
 [Dialog]
 [Character(fadetime=0)]
 [CameraShake(duration=1.5, xstrength=10, ystrength=12, vibrato=15, randomness=90, fadeout=true, block=false)]
@@ -66,7 +66,7 @@
 [Character(name="char_010_chen_1", name2="char_015_lmg", focus=2)]
 [name="近卫局队员"]   有感染者——不服从管理——我们——
 [Character(name="char_010_chen_1", name2="char_015_lmg", focus=1)]
-[name="陈"]   ......我自己都看到了。
+[name="陈"]   ……我自己都看到了。
 [name="陈"]   算了。
 [Character(name="char_010_chen_1", name2="char_015_lmg", focus=1)]
 [name="陈"]   把他们全部拘押。
@@ -82,13 +82,13 @@
 [Character(name="char_010_chen_1", name2="char_015_lmg", focus=2)]
 [name="近卫局队员"]   明白，陈警司！
 [Character(name="char_015_lmg")]
-[name="近卫局队员"]   诸位，请注意......
+[name="近卫局队员"]   诸位，请注意……
 [PlaySound(key="$d_gen_walk_n",volume=0.6)]
 [Character(fadetime=2)]
 [Character(name="char_002_amiya_1#5")]
-[name="阿米娅"]   ......
-[name="阿米娅"]   （陈长官真的很严格......比我想象的要严格......）
-[Decision(options="......（点头）", values="1")]
+[name="阿米娅"]   ……
+[name="阿米娅"]   （陈长官真的很严格……比我想象的要严格……）
+[Decision(options="……（点头）", values="1")]
 [Predicate(references="1")]
 [Character(name="char_010_chen_1#4")]
 [name="陈"]   你们，
@@ -113,15 +113,15 @@
 [Character(name="char_002_amiya_1#6")]
 [name="阿米娅"]   好，好高的建筑！
 [Character(name="char_010_chen_1")]
-[name="陈"]   ......
+[name="陈"]   ……
 [Character(name="char_002_amiya_1#6")]
-[name="阿米娅"]   唔......
+[name="阿米娅"]   唔……
 [Character(name="char_002_amiya_1#5")]
-[name="阿米娅"]   对，对不......
+[name="阿米娅"]   对，对不……
 [Character(name="char_010_chen_1")]
 [name="陈"]   ——罗德岛的身手还算不错。
 [Character(name="char_002_amiya_1#2")]
-[name="阿米娅"]   啊......
+[name="阿米娅"]   啊……
 [name="阿米娅"]   谢谢陈长官夸奖。
 [Character(name="char_010_chen_1")]
 [name="陈"]   只不过——
@@ -139,7 +139,7 @@
 [name="？？？"]   我再提醒你一次。
 [name="？？？"]   龙门就是下一个切尔诺伯格。
 [Character(name="char_002_amiya_1#2")]
-[name="阿米娅"]   是凯尔希医生......！
+[name="阿米娅"]   是凯尔希医生……！
 [Character(name="char_010_chen_1")]
 [name="陈"]   你们罗德岛的代表已经和魏长官先行接触了。
 [name="陈"]   在这里等着。
@@ -148,7 +148,7 @@
 [Character(fadetime=0.6)]
 [Delay(time=1)]
 [Character(name="char_002_amiya_1#4")]
-[name="阿米娅"]   呼......那个陈警官，真的很难应付呢。
+[name="阿米娅"]   呼……那个陈警官，真的很难应付呢。
 [Character(name="char_002_amiya_1#2")]
 [name="阿米娅"]   博士，接下来的交涉就交给凯尔希医生。
 [name="阿米娅"]   请相信她吧。

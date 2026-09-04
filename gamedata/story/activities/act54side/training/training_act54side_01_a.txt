@@ -1,0 +1,22 @@
+[header(is_skippable=false, is_tutorial=true)]
+
+[battle.pause(pause=true)]
+[inputblocker(blockInput=true, black=0.3)]
+
+[popupdialog(dialogHead="$avatar_amiyaun", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")]老师，拉特兰的街道上，好像出现了一些影子似的怪物……说是影子，却又很坚韧，无法轻易击败。
+
+[Tutorial(tileX=4, tileY=5, focusWidth=140, focusHeight=140, \
+          animStyle="Highlight", focusStyle="HighlightCircle", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_amiyaun", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] \
+不过，这些影子怪物似乎都有各自的弱点。比如这只低飞的羽兽，好像非常害怕<@tu.kw>物理</>攻击。
+
+[Tutorial(tileX=4, tileY=3, focusWidth=140, focusHeight=140, \
+          animStyle="Highlight", focusStyle="HighlightCircle", black="$f_tut_black", \
+          protectTime=0.5, dialogHead="$avatar_amiyaun", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")] \
+这个吵吵嚷嚷的收音机，对<@tu.kw>法术</>和<@tu.kw>元素</>伤害很敏感。
+
+[popupdialog(dialogHead="$avatar_amiyaun", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")]如果影子怪物的弱点是物理或者法术，只要以对应的攻击方式造成足量的伤害，就能让它们倒地……！
+[popupdialog(dialogHead="$avatar_amiyaun", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")]如果影子怪物的弱点是元素，只要触发元素爆发，也能让它们倒地。
+[popupdialog(dialogHead="$avatar_amiyaun", dialogX="$f_lower_dialog_pos_x", dialogY="$f_lower_dialog_pos_y")]要对付眼前这两个敌人，可以部署狙击和术师干员，分别攻击它们的弱点。
+
+[battle.pause(pause=false)]

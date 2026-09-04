@@ -3,12 +3,9 @@ local list =
 {
   
   "HotFixes/TestStubHotfixer",
-  "HotFixes/ArkventHotfixer",
-  "HotFixes/ArkventDepthOfFieldHolderHotfixer",
-  "HotFixes/CopyDepthTextureHotfixer",
-  "HotFixes/RL06ShopHotfixer",
-  "HotFixes/SandboxV3BattleSaveManagerHotfixer",
-  "HotFixes/ArkhubPixelShowLimitHotfixer",
+  "HotFixes/UICharacterTabGroupHotfixer",
+  "HotFixes/AVGStickerAutoClickHotfixer",
+  "HotFixes/AVGDialogAutoClickHotfixer",
 };
 
 return list;

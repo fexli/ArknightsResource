@@ -19,7 +19,7 @@
 [Decision(options="干员不会站在沙地上扒城上去。", values="1")]
 [Predicate(references="1")]
 [Character(name="char_002_amiya_1")]
-[name="阿米娅"]  呃......有些时候我们是会这么做啦。
+[name="阿米娅"]  呃……有些时候我们是会这么做啦。
 [name="阿米娅"]  但是核心城正在移动中，要想进入下层基础结构，确实不容易。
 [Character(name="char_003_kalts_1")]
 [name="凯尔希"]  如果干员站在沙地上等着移动城邦驶过，无论是相对速度还是相对高度，都限制了干员的行动。
@@ -35,7 +35,7 @@
 [name="凯尔希"]  中立身份意味着我们在夹缝中依然拥有些许的自由，相应的，罗德岛不能拥有任何政治势力作为后盾。
 [name="凯尔希"]  隐蔽行事是我们的生存理念。派遣小队去救你时，也是一样。
 [name="凯尔希"]  五支小队。留下痕迹、清除痕迹；目标完成、目标失败。无论如何，罗德岛最多只能派出五支小队。
-[Decision(options="但更多小队意味着更多的武装力量！;......;即使没办法解决问题？", values="1;2;3")]
+[Decision(options="但更多小队意味着更多的武装力量！;……;即使没办法解决问题？", values="1;2;3")]
 [Predicate(references="1;2;3")]
 [Character(name="char_003_kalts_1")]
 [name="凯尔希"]  
@@ -56,23 +56,23 @@
 [Character(name="char_003_kalts_1")]
 [name="凯尔希"]  没错。我们还需要额外的致命砝码。
 [Character(name="char_002_amiya_1", name2="char_003_kalts_1", focus=1)]
-[name="阿米娅"]  ......
+[name="阿米娅"]  ……
 [name="阿米娅"]  博士和凯尔希，都变得很阴沉可怕。
-[name="阿米娅"]  就算我知道事情的必要性，你们也不用......露出那种笑容吧？
+[name="阿米娅"]  就算我知道事情的必要性，你们也不用……露出那种笑容吧？
 [Character(name="char_002_amiya_1", name2="char_003_kalts_1", focus=2)]
-[name="凯尔希"]  阿米娅......我笑了吗？
+[name="凯尔希"]  阿米娅……我笑了吗？
 [Character(name="char_002_amiya_1", name2="char_003_kalts_1", focus=1)]
 [name="阿米娅"]  我知道凯尔希医生笑了啦。虽然你嘴唇不动，但我是能感受到笑的。
 [Character(name="char_002_amiya_1", name2="char_003_kalts_1", focus=2)]
 [name="凯尔希"]  竟然是这样。
 [Character(name="char_002_amiya_1", name2="char_003_kalts_1", focus=1)]
-[name="阿米娅"]  ......真好！
+[name="阿米娅"]  ……真好！
 [Character(name="char_002_amiya_1", name2="char_003_kalts_1", focus=2)]
 [name="凯尔希"]  不，事先声明，我没有要和这个人修缮人际关系的意思。
-[Decision(options="呵，我也没这个意思。;......;有无必要取决于双方的自由意愿。", values="1;2;3")]
+[Decision(options="呵，我也没这个意思。;……;有无必要取决于双方的自由意愿。", values="1;2;3")]
 [Predicate(references="1;2;3")]
 [Character(name="char_002_amiya_1#6")]
-[name="阿米娅"]  欸......
+[name="阿米娅"]  欸……
 [Character(name="char_003_kalts_1")]
 [name="凯尔希"]  这五支小队，将分别由我、阿米娅与另外三位精英干员带领。
 [name="凯尔希"]  三支作战小队，一支侦察小队，以及一支特殊作业小队。
@@ -88,7 +88,7 @@
 [name="煌"]  迷迭香！等等！
 [playMusic(intro="$dignified_intro", key="$dignified_loop", volume=0.4)]
 [Character(name="char_017_homura_3#5", name2="avg_npc_042", focus=2)]
-[name="迷迭香"]  啊......煌。
+[name="迷迭香"]  啊……煌。
 [name="迷迭香"]  你伤得好重，怎么还跑出来？快回去。快点回去。
 [Character(name="char_017_homura_3#9", name2="avg_npc_042", focus=1)]
 [name="煌"]  你这次要出战？
@@ -109,14 +109,14 @@
 [name="迷迭香"]  因为可能会死？
 [Character(name="char_017_homura_3#6", name2="avg_npc_042", focus=1)]
 [name="煌"]  说啥啊！
-[name="煌"]  你怎么能，怎么......是怎么这么轻松地说出来啊！
+[name="煌"]  你怎么能，怎么……是怎么这么轻松地说出来啊！
 [name="煌"]  你年纪太小了，这么危险的任务，你是不该去的！
 [Character(name="char_017_homura_3#6", name2="avg_npc_042", focus=2)]
 [name="迷迭香"]  可阿米娅也要去。
 [Character(name="char_017_homura_3#5", name2="avg_npc_042", focus=1)]
-[name="煌"]  因为她......！她是......！
-[name="煌"]  她是......
-[name="煌"]  阿米娅......
+[name="煌"]  因为她……！她是……！
+[name="煌"]  她是……
+[name="煌"]  阿米娅……
 [Character(name="char_017_homura_3#5", name2="avg_npc_042", focus=2)]
 [name="迷迭香"]  她和我一样，是感染者，也是干员。
 [name="迷迭香"]  而且，我检查了日志。Ace和Scout都在切尔诺伯格，他们没回来。
@@ -124,13 +124,13 @@
 [name="迷迭香"]  我想去看看。我要明白是怎么回事。我要看看管整合运动的人，我要知道是谁做了什么。
 [name="迷迭香"]  我要知道在Ace和Scout身上发生了什么。
 [Character(name="char_017_homura_3#10", name2="avg_npc_042", focus=1)]
-[name="煌"]  迷迭香？这种事你......你可以不记的。
+[name="煌"]  迷迭香？这种事你……你可以不记的。
 [Character(name="char_017_homura_3#10", name2="avg_npc_042", focus=2)]
-[name="迷迭香"]  ......煌？
+[name="迷迭香"]  ……煌？
 [Character(name="char_017_homura_3#5", name2="avg_npc_042", focus=1)]
-[name="煌"]  (粗口)，我他妈在说什么......
+[name="煌"]  (粗口)，我他妈在说什么……
 [name="煌"]  不，对不起，我不该这么说。我不应该。**，我这张臭嘴！
-[name="煌"]  可是，他们的死......他们......
+[name="煌"]  可是，他们的死……他们……
 [Character(name="char_017_homura_3#5", name2="avg_npc_042", focus=2)]
 [name="迷迭香"]  煌。
 [Character(name="char_017_homura_3#5", name2="avg_npc_042", focus=1)]
@@ -138,16 +138,16 @@
 [Character(name="char_017_homura_3#5", name2="avg_npc_042", focus=2)]
 [name="迷迭香"]  煌变得很奇怪。说的话也支离破碎的。
 [Character(name="char_017_homura_3#5", name2="avg_npc_042", focus=1)]
-[name="煌"]  ......我不想你那么痛苦。为什么非要去回头看它？如果是你的话......是可以把记忆放走的啊。
+[name="煌"]  ……我不想你那么痛苦。为什么非要去回头看它？如果是你的话……是可以把记忆放走的啊。
 [name="煌"]  你可以把它就放在那里。让它就躺在那里，不要回头。
 [Character(name="char_017_homura_3#5", name2="avg_npc_042", focus=2)]
-[name="迷迭香"]  如果不看......记忆又能用来做什么呢？
-[name="迷迭香"]  不看的话......就是忘记。
+[name="迷迭香"]  如果不看……记忆又能用来做什么呢？
+[name="迷迭香"]  不看的话……就是忘记。
 [name="迷迭香"]  我不会去忘掉的。我绝对不会忘记任何一个人的死。 
 [Character(name="char_017_homura_3#5", name2="avg_npc_042", focus=1)]
 [name="煌"]  哈。对。你和我一样。你也是罗德岛的精英干员。
-[name="煌"]  不能代你去，真的，我......
-[name="煌"]  唔，呃......
+[name="煌"]  不能代你去，真的，我……
+[name="煌"]  唔，呃……
 [Character(name="char_017_homura_3#5", name2="avg_npc_042", focus=2)]
 [name="迷迭香"]  你又流血了？
 [Character(name="char_017_homura_3#5", name2="avg_npc_042", focus=1)]
@@ -156,7 +156,7 @@
 [name="迷迭香"]  我送你。
 [Character(name="char_017_homura_3#5", name2="avg_npc_042", focus=1)]
 [name="煌"]  哎哟。
-[name="煌"]  迷迭香......和阿米娅要好好的。
+[name="煌"]  迷迭香……和阿米娅要好好的。
 [Character(name="char_017_homura_3#5", name2="avg_npc_042", focus=2)]
 [name="迷迭香"]  嗯。我会的。
 [Dialog]
@@ -165,26 +165,26 @@
 [cameraEffect(effect="Grayscale", keep=true, amount=0, fadetime=0)]
 [Background(image="bg_laccolith",screenadapt="coverall")]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
-[Decision(options="很有必要吗？见她一面......？", values="1")]
+[Decision(options="很有必要吗？见她一面……？", values="1")]
 [Predicate(references="1")]
 [Character(name="char_002_amiya_1")]
-[name="阿米娅"]  Dr.{@nickname}......
+[name="阿米娅"]  Dr.{@nickname}……
 [name="阿米娅"]  罗德岛雇佣的精英干员们，都因为种种原因，将自身的精力和专业才能奉献给了罗德岛。
 [name="阿米娅"]  他们带领的小队会全心全意地支持他们的工作，因为精英干员在某些程度上，可以直接决定一种战术的运用方式。
-[name="阿米娅"]  但他们并不都......符合我们的想象。
+[name="阿米娅"]  但他们并不都……符合我们的想象。
 [name="阿米娅"]  精英干员煌，博士你是见过的。有关煌的很多传闻，可能博士都没听过，实际上，被干员们添油加醋得有些厉害。
 [name="阿米娅"]  但现在这一位精英干员，所有人对她的印象都不一样。
-[name="阿米娅"]  如果是博士，应该是能......慢慢地理解她和她的选择的。
+[name="阿米娅"]  如果是博士，应该是能……慢慢地理解她和她的选择的。
 [Character(name="char_003_kalts_1")]
 [name="凯尔希"]  ——
 [name="凯尔希"]  看你的反应，也许你已经见过了。
 [Character(name="char_002_amiya_1")]
-[name="阿米娅"]  啊？呜......
-[name="阿米娅"]  那......那这样就可以了吗？
+[name="阿米娅"]  啊？呜……
+[name="阿米娅"]  那……那这样就可以了吗？
 [Decision(options="还有什么需要注意的？", values="1")]
 [Predicate(references="1")]
 [Character(name="char_002_amiya_1")]
-[name="阿米娅"]  大致的安排就是这样。事实上，唔......很现实的，计划是计划，行动是行动。
+[name="阿米娅"]  大致的安排就是这样。事实上，唔……很现实的，计划是计划，行动是行动。
 [Character(name="char_003_kalts_1")]
 [name="凯尔希"]  只有行动才是重要的。计划只是行动的雏形，而行动中的意外事件会打破一切计划。
 [Decision(options="希望我们没人专做很糟糕的预言。", values="1")]
@@ -197,24 +197,24 @@
 [Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
 [playMusic(intro="$exciting_intro", key="$exciting_loop", volume=0.4)]
 [Character(name="avg_npc_012")]
-[name="工程干员"]  糟糕.......很糟糕！有些不对！
-[name="工程干员"]  ......沙尘的密度还是很稀疏，现在光线的角度，不大行！
+[name="工程干员"]  糟糕……很糟糕！有些不对！
+[name="工程干员"]  ……沙尘的密度还是很稀疏，现在光线的角度，不大行！
 [name="工程干员"]  我们没在阴影里！如果从舰桥观察下来，我们可能会在开始全力运作前就完全暴露啦！！
 [Character(name="avg_npc_012", name2="char_016_medic", focus=2)]
 [name="罗德岛干员"]  但已经不能再给机器添加外部遮蔽物了，一旦影响防尘器的空气流通，产生的上升气流，可能不足以保证沙尘浮动！
 [Character(name="avg_npc_012", name2="char_016_medic", focus=1)]
-[name="工程干员"]  怎么办，要把位置继续后移吗......？可能会赶不及！
+[name="工程干员"]  怎么办，要把位置继续后移吗……？可能会赶不及！
 [Character]
 [Dialog]
 [Character(name="char_148_nearl_1#3",fadetime=1,block=true)]
 [delay(time=1)]
-[name="临光"]  ......请交给我。
+[name="临光"]  ……请交给我。
 [name="临光"]  守林人，请监测实际效果，告诉我接下来要调整的方向。
 [Character(name="char_158_milu")]
-[name="守林人"]  骑士？你要......做什么？
+[name="守林人"]  骑士？你要……做什么？
 [Character(name="char_148_nearl_1#3")]
 [name="临光"]  改变光线的角度。
-[name="临光"]  如果是为了减少这片大地上的苦难......我相信，连太阳的光芒，也愿意为我一时颔首。
+[name="临光"]  如果是为了减少这片大地上的苦难……我相信，连太阳的光芒，也愿意为我一时颔首。
 [Dialog]
 [PlaySound(key="$b_char_defboost", volume=0.5, Delay=0.4)]
 [PlaySound(key="$flashback", volume=0.2, Delay=0.7)]
@@ -224,26 +224,26 @@
 [Character(name="char_401_elysm",fadetime=1,block=true)]
 [delay(time=1)]
 [name="极境"]  嗯？沙丘那边是谁？临光吗？她们不登车的还不撤退吗？
-[name="极境"]  她在干什么呢，沉思？摆造型......在这摆造型？
-[name="极境"]  ......等等，好亮，她整个人开始发光了欸......不，等，糟了！太刺眼了！
+[name="极境"]  她在干什么呢，沉思？摆造型……在这摆造型？
+[name="极境"]  ……等等，好亮，她整个人开始发光了欸……不，等，糟了！太刺眼了！
 [Character]
 [Dialog]
 [Blocker(a=1, r=0, g=0, b=0, fadetime=0.4, block=true)]
 [Character(name="char_401_elysm")]
-[name="极境"]  啊，谢谢队长......
+[name="极境"]  啊，谢谢队长……
 [name="极境"]  如果队长你的手指不是要把我的脑袋捏裂一样扒得那么紧的话，我会很感激你挡住了我的眼睛的。
 [name="极境"]  临光在做什么啊？
-[name="极境"]  临光没问题？可......就算队长你这么说，这光也比阳光澈烈太多了，她要干什么啊？
+[name="极境"]  临光没问题？可……就算队长你这么说，这光也比阳光澈烈太多了，她要干什么啊？
 [Dialog]
 [Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.2, block=true)]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
 [Character(name="char_401_elysm")]
-[name="极境"]  嗯？怎么会......周边的光芒好像被临光渐渐同化了？
-[name="极境"]  ......呼啊。
+[name="极境"]  嗯？怎么会……周边的光芒好像被临光渐渐同化了？
+[name="极境"]  ……呼啊。
 [name="极境"]  队长，整个区域内的光，已经慢慢调谐成同一种感觉了。
 [name="极境"]  我知道啊，我知道啦。我就是想说，你看，除了耀骑士，有谁能做到这种事呢？
 [name="极境"]  队长，看看沙丘影子的投向，你猜现在是下午，还是上午？
-[name="极境"]  唉，我......就是活跃下气氛。而且一会儿开始刮起沙尘，可就看不到影子咯？
+[name="极境"]  唉，我……就是活跃下气氛。而且一会儿开始刮起沙尘，可就看不到影子咯？
 [name="极境"]  我这就闭嘴。不好意思。
 [Character]
 [Dialog]
@@ -257,10 +257,10 @@
 [Character(name="avg_npc_012", name2="char_130_doberm_ex", focus=2)]
 [name="杜宾"]  我们只是做诱饵，不是要给整合运动表演飞行技术！
 [Character(name="avg_npc_012", name2="char_130_doberm_ex", focus=1)]
-[name="驾驶员"]  ......如果我们做得很好的话，整合运动的人也会心悦诚服地投降吧？
+[name="驾驶员"]  ……如果我们做得很好的话，整合运动的人也会心悦诚服地投降吧？
 [name="驾驶员"]  那个叫什么，武力展示？
 [Character(name="avg_npc_012", name2="char_130_doberm_ex", focus=2)]
-[name="杜宾"]  武力展示又不是叫你表演杂技......！
+[name="杜宾"]  武力展示又不是叫你表演杂技……！
 [CameraShake(duration=0.4, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]
 [Character(name="avg_npc_012", name2="char_130_doberm_ex", focus=1)]
 [name="驾驶员"]  教官，抓好了！
@@ -295,18 +295,18 @@
 [CameraShake(duration=0.8, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]
 [Character(name="char_002_amiya_1")]
 [name="阿米娅"]  沙尘掩盖住了我们载具的踪迹，记得戴好防护用具，别让沙尘进入精密器械！
-[name="阿米娅"]  但......阳光好清澈啊，为什么阳光能穿透沙尘？
-[name="阿米娅"]  核心城底部的可见度似乎增加了，简直是......法术。
-[name="阿米娅"]  我们没有......没有这个安排吧？是自然光吧？
+[name="阿米娅"]  但……阳光好清澈啊，为什么阳光能穿透沙尘？
+[name="阿米娅"]  核心城底部的可见度似乎增加了，简直是……法术。
+[name="阿米娅"]  我们没有……没有这个安排吧？是自然光吧？
 [playsound(key="$d_gen_transmissionget", volume=0.4)]
 [Character(name="char_002_amiya_1", name2="char_148_nearl_1", focus=2)]
-[name="临光"]  ......先别管这么多了！
+[name="临光"]  ……先别管这么多了！
 [Character(name="char_002_amiya_1#7")]
 [name="阿米娅"]  明白！牵引装置，准备发射！各干员，优先确定滑索是否已经完全固定在核心城底部的墙面上！
 [name="阿米娅"]  所有干员都完成转移后，载具会立刻驶走！尽管我很少这么说，但各位干员，我想，现在的阳光，是我们会走好运的兆头！
 [Character(name="char_148_nearl_1")]
-[name="临光"]  ......一定是！
-[name="临光"]  （一不小心让光芒变得太强烈了，只能往地面倾泻这种事我怎么说得出口......）
+[name="临光"]  ……一定是！
+[name="临光"]  （一不小心让光芒变得太强烈了，只能往地面倾泻这种事我怎么说得出口……）
 [name="临光"]  等等，核心城似乎在加速？
 [name="临光"]  即使整个装置借助了风势，也只能保证沙尘的泼洒涵盖到一公里以内的范围！一旦驶出范围，他们必定会发现我们！
 [Character(name="char_002_amiya_1")]
@@ -328,7 +328,7 @@
 [Character(name="avg_npc_012")]
 [name="驾驶员"]  来不及了！我们必须立刻减速！
 [name="驾驶员"]  一旦驶出扬尘的范围，切尔诺伯格核心城的光学观察装置可能会立刻捕捉到我们，潜入行动会因此失败！
-[name="驾驶员"]  无论你们还剩几个队员，都快......
+[name="驾驶员"]  无论你们还剩几个队员，都快……
 [Decision(options="已经不剩下队员了。", values="1")]
 [Predicate(references="1")]
 [Character(name="avg_npc_012")]
@@ -336,10 +336,10 @@
 [Decision(options="我自己来！;（默默戴上防尘面具）;请将搭扣给我，我一个人上去。", values="1;2;3")]
 [Predicate(references="1;2;3")]
 [Character(name="avg_npc_012")]
-[name="驾驶员"]  ......太危险了，博士！
+[name="驾驶员"]  ……太危险了，博士！
 [name="驾驶员"]  没有经过干员训练的人独自登城，简直离谱！
 [name="驾驶员"]  凯尔希医生居然没有给你安排战场辅助人员吗？
-[Decision(options="没有就没有，还能怎么样呢？;......;也许想锻炼我的身体素质才刻意没安排。", values="1;2;3")]
+[Decision(options="没有就没有，还能怎么样呢？;……;也许想锻炼我的身体素质才刻意没安排。", values="1;2;3")]
 [Predicate(references="1;2;3")]
 [Character(name="char_003_kalts_1")]
 [name="凯尔希"]  有。
@@ -384,14 +384,14 @@
 [name="罗德岛干员"]  可以确定入侵者只有一人。
 [Character(name="char_002_amiya_1#7")]
 [name="阿米娅"]  前面的血迹，分不清是整合运动的还是谁的，血液还没完全变性。
-[name="阿米娅"]  很可能就是陈警官......！我们必须加快速度。
+[name="阿米娅"]  很可能就是陈警官……！我们必须加快速度。
 [Character(name="char_002_amiya_1#6")]
 [name="阿米娅"]  啊，博士！
 [name="阿米娅"]  你安全抵达就好。
-[Decision(options="那也能叫安全......！;......很险。;托某人的福，我可能差点就见不着你了。", values="1;2;3")]
+[Decision(options="那也能叫安全……！;……很险。;托某人的福，我可能差点就见不着你了。", values="1;2;3")]
 [Predicate(references="1;2;3")]
 [Character(name="char_002_amiya_1")]
-[name="阿米娅"]  ......嗯？啊？！
+[name="阿米娅"]  ……嗯？啊？！
 [name="阿米娅"]  很，很危险吗？Dr.{@nickname}，有没有受伤？！
 [Decision(options="没事，走吧。只是心理创伤而已。", values="1")]
 [Predicate(references="1")]

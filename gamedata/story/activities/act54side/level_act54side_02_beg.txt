@@ -1,0 +1,723 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="77_g13_street_dark",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1.5)]
+[PlayMusic(intro="$suspenseful_intro", key="$suspenseful_loop", volume=0.6)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_arrow", volume=1,channel="arrow1")]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.3, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=false)]
+[Delay(time=1)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_swordwhoosh", volume=1,channel="sword1")]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.3, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=false)]
+[Delay(time=1)]
+靠近由加莉的暗影在众人的攻击下消散，稍远处又出现了诡异的闪光，由加莉和结城理交换了一个眼神。
+结城理会意地点点头，由加莉轻盈地跃上了街旁的圣像底座，向闪光的方向看去。
+结城理拾起从暗影消散的身躯中落下的箭矢，抛给了高居圣像之侧的由加莉。
+[Dialog]
+[PlaySound(key="$d_avg_bowstring_tightened", volume=1)]
+[Delay(time=2)]
+手指拂过，箭矢搭上了箭台，由加莉凝神屏息，在暗影进入有效射程的瞬间利落地拉弦放箭——
+[Dialog]
+[Delay(time=1)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[PlaySound(key="$d_avg_arrow", volume=1,channel="arrow2")]
+[Delay(time=1.5)]
+[PlaySound(key="$d_avg_magicchange", volume=1)]
+[PlaySound(key="$d_avg_atmosphere_horror",channel="horror",loop=true,volume=0.6)]
+[stopsound(channel="horror",fadetime=5)]
+[CameraEffect(effect="Chaos",from = "chaos_none", to = "chaos_hard", fadetime =1.5, keep=true)]
+[Delay(time=2)]
+[CameraEffect(effect="Chaos", keep= false, fadetime =1.5)]
+[Delay(time=2)]
+[name="？？？"]救救我，救救我——♪
+走调的歌声打破了宁静，一个摇晃的身影从小巷走上了这条街道，正挡在暗影之前。
+结城理的反应比由加莉的惊呼更快，他击落了箭矢，但已经无法阻止醉酒的萨科塔径直撞向暗影。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image(image="77_i04", xScale=1.4, yScale=1.4,screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+暗影仿佛张开了双臂，有一瞬间，萨科塔的身形完全隐没在了暗影之中。
+然后，萨科塔穿过了暗影，如同穿过空气。
+他视若不见，听若不闻，继续踉跄地走着，醉醺醺地唱着不成调子的歌。
+[Dialog]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="“……救救我，我不能孤单面对此生♪”", x=400, y=230, alignment="center",hidelog=true, size=26, delay=0.04, width=700,duration=0)]
+[Subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+他看起来一切无碍，除了那顶越来越暗淡的光环，被萨科塔短暂照亮的街角重又隐入夜色。
+[Dialog]
+[Image(image="77_i04",fadetime=1, xScale=1.2, yScale=1.2,screenadapt="coverall")]
+[Delay(time=1.01)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="“我在夜晚哭泣，仍然想相信你的谎言♪”", x=360, y=250, alignment="center",hidelog=true, size=26, delay=0.04, width=700,duration=0)]
+[Subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+被穿过的暗影不再前进，纹丝不动地立于萨科塔身后，简直像是……注视着他。
+[Dialog]
+[Image(image="77_i04",fadetime=1, xScale=1, yScale=1,screenadapt="coverall")]
+[Delay(time=1.01)]
+[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[Subtitle(text="“救救我，我已经赤裸无依……♪”", x=360, y=270, alignment="center",hidelog=true, size=26, delay=0.04, width=700,duration=0)]
+[Subtitle]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]
+由加莉能看见，更多的暗影正从街道尽头涌现。她下意识去摸身后的箭筒，已经空了。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image]
+[Background(image="77_g13_street_dark",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="？？？"]各位，我来支援大家！
+远处传来一声温柔的呼唤，黯淡的夜色中，由加莉看见了一抹熟悉的身影。
+短发少女举起手中的召唤器，对准自己。即使相隔遥远，似乎也能看见她眼中的坚定。
+异色的街道中，响起一声满含决意的呼唤。
+[name="？？？"]朱诺——传达这份祈愿吧！
+[Dialog]
+[PlaySound(key="$d_avg_waterdroplet", volume=1,channel="water1")]
+[Delay(time=1.5)]
+[PlaySound(key="$d_avg_watersubbreak", volume=1,channel="water3")]
+[Delay(time=0.3)]
+[Effect(name="$e_fuuka", layer=1)]
+[Delay(time=3)]
+[charslot(slot="m",name="avg_4220_kormr_1#1$2",focus="m")]
+[name="虎狼丸"]汪呜……？！
+[charslot(slot="m",name="avg_4219_yukari_1#6$2",focus="m")]
+[name="岳羽由加莉"]这声音……是风花吗！
+[charslot(slot="m",name="avg_4217_makoto_1#1$3",focus="m")]
+[name="结城理"]风花，帮大忙了。
+[charslot(slot="m",name="avg_4217_makoto_1#8$3",focus="m")]
+[name="结城理"]——大家，上吧！
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[Background(image="77_g13_street_dark",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[PlayMusic(intro="$ponder_intro", key="$ponder_loop", volume=0.6)]
+[delay(time=1)]
+[PlaySound(key="$d_avg_magicchange", volume=1)]
+[Background(image="77_g12_street_night",screenadapt="coverall",fadetime=2)]
+[delay(time=3)]
+[PlaySound(key="$rungeneral", volume=1,channel="1")]
+[StopSound(channel="1",fadetime=1.5)]
+[charslot(slot="m",name="avg_npc_2387_1#1$2",afrom=0, ato=1,duration=1.5,focus="m")]
+[Delay(time=2)]
+[name="山岸风花"]呼……还好赶上了。
+[charslot(slot="m",name="avg_npc_2388_1#2$2",focus="m")]
+[name="天田乾"]风花姐，太好了，你平安无事！还好有你及时支援……
+[charslot(slot="m",name="avg_npc_2387_1#2$2",focus="m")]
+[name="山岸风花"]太好了……大家都平安无事……
+[charslot(slot="m",name="avg_npc_2387_1#9$2",focus="m")]
+[name="山岸风花"]不过，那边倒下的那一位……是路人吗？他，是在唱歌吗……
+[charslot]
+[name="醉酒的路人"]……我爱你……直到……♪
+[name="醉酒的路人"]呼……呼……
+[charslot(slot="l",name="avg_4219_yukari_1#12$2",focus="l")]
+[charslot(slot="r",name="avg_npc_2387_1#9$2",focus="l")]
+[name="岳羽由加莉"]他好像……睡着了？
+[charslot(slot="r",name="avg_npc_2387_1#3$2",focus="r")]
+[name="山岸风花"]看起来是这样，虽然蜷缩了起来，但并没有受伤的迹象……
+[charslot]
+[charslot(slot="l",name="avg_4217_makoto_1#1$3",focus="r")]
+[charslot(slot="r",name="avg_npc_2388_1#13$2",focus="r")]
+[name="天田乾"]但他头上的这个……光环？变得很暗，几乎没有亮光了。
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#12$2",focus="l")]
+[charslot(slot="r",name="avg_npc_2387_1#3$2",focus="l")]
+[name="岳羽由加莉"]这个家伙难道看不见暗影吗，他刚才是自己撞进了暗影怀里吧？
+[charslot(slot="r",name="avg_npc_2387_1#9$2",focus="r")]
+[name="山岸风花"]看起来是那样的……而且，暗影都消灭之后，诡异的区域就消失了。这……并不是影时间？
+[charslot]
+[charslot(slot="l",name="avg_4217_makoto_1#1$3",focus="r")]
+[charslot(slot="r",name="avg_npc_2388_1#10$2",focus="r")]
+[name="天田乾"]应该不是，我和结城哥确认过了，时间没有暂停。
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#12$2",focus="r")]
+[charslot(slot="r",name="avg_npc_2387_1#9$2",focus="r")]
+[name="山岸风花"]不是影时间……那这些暗影是怎么回事？
+[charslot(slot="l",name="avg_4219_yukari_1#12$2",focus="l")]
+[name="岳羽由加莉"]还有，这到底是哪里？结城你们怎么这么冷静，像是已经知道了什么一样……
+[charslot(slot="r",name="avg_npc_2387_1#9$2",focus="r")]
+[name="山岸风花"]我也很在意……一开始我还在疑惑，塔尔塔罗斯中也会有这样的空间吗……总觉得有些奇怪。
+[charslot(slot="r",name="avg_npc_2387_1#5$2",focus="r")]
+[name="山岸风花"]也不知为何感觉不到大家的反应……
+[name="山岸风花"]用朱诺的力量来搜索也不太顺利，感觉很奇怪……一直有一种杂音般的干扰，怎么都感知不到大家的位置……
+[charslot(slot="r",name="avg_npc_2387_1#4$2",focus="r")]
+[name="山岸风花"]不过，最后终于感知到了类似暗影活动的反应，赶过来发现大家都在，真是太好了……
+[charslot(slot="l",name="avg_4219_yukari_1#1$2",focus="l")]
+[name="岳羽由加莉"]是啊，我刚醒来就发现了那些没见过的暗影，然后就一直在战斗……大家来了真是帮了大忙。
+[charslot(slot="l",name="avg_4219_yukari_1#12$2",focus="l")]
+[name="岳羽由加莉"]如果这里不是塔尔塔罗斯的话，那到底是什么地方？看街景的样子，好像也不是严户台……
+[charslot]
+[charslot(slot="l",name="avg_4217_makoto_1#1$3",focus="l")]
+[charslot(slot="r",name="avg_npc_2388_1#10$2",focus="l")]
+[name="结城理"]……似乎，我们是到了别的世界。
+[charslot]
+[charslot(slot="m",name="avg_4219_yukari_1#6$2",focus="m")]
+[name="岳羽由加莉"]别、别的世界？！
+[charslot]
+[charslot(slot="l",name="avg_4217_makoto_1#1$3",focus="r")]
+[charslot(slot="r",name="avg_npc_2388_1#3$2",focus="r")]
+[name="天田乾"]嗯，这个城市叫做“拉特兰”，居民是和我们不同的人类……
+[name="天田乾"]像这样有着光环和光翼的人叫做“萨科塔”，此外似乎还有叫做“黎博利”的族群。
+[charslot(slot="r",name="avg_npc_2388_1#13$2",focus="r")]
+[name="天田乾"]更具体的情况，我也还不太了解……
+[charslot(slot="l",name="avg_4217_makoto_1#1$3",focus="l")]
+[name="结城理"]回宿舍详细说吧。对了……
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#12$2",focus="l")]
+[charslot(slot="r",name="avg_npc_2387_1#3$2",focus="l")]
+[name="岳羽由加莉"]宿舍……？
+[charslot(slot="r",name="avg_npc_2387_1#7$2",focus="r")]
+[name="山岸风花"]咦，结城同学为什么拿出了手机，难道手机在这里还可以使用……？
+[charslot(slot="l",name="avg_4219_yukari_1#12$2",focus="l")]
+[name="岳羽由加莉"]不对吧，我记得结城的手机不长那样……搞不懂，反正交给他吧。
+[charslot]
+[Dialog]
+[playsound(key="$d_gen_transmissionget", volume=0.6)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_4217_makoto_1#1$3",focus="m")]
+[name="结城理"]Dr.{@nickname}，抱歉打扰了，我有事情想要拜托。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=4, block=true)]
+[charslot]
+[Background(image="77_g4_classroom",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]
+[playMusic(intro="$m_avg3_act54side_intro",key="$m_avg3_act54side_loop", volume=0.6)]
+[delay(time=1)]
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]……那么，阿米娅，这是今天入学的岳羽由加莉和山岸风花。你们认识一下，然后去领教材和校服。
+[charslot(slot="m",name="avg_npc_2377_1#4$1",focus="m")]
+[name="班长"]欸……？昨天放学的时候，还只有结城同学一个人……外国转学生……今天又多出来两位吗？
+[charslot(slot="m",name="avg_npc_2377_1#3$1",focus="m")]
+[name="班长"]我昨晚做的转学生问答小手册……不够用了……！
+[charslot(slot="m",name="avg_npc_2377_1#3$1",focus="m")]
+[name="班长"]请稍等一下，我要去一趟文印室……
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#1$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2387_1#1$1",focus="l")]
+[name="岳羽由加莉"]这位就是结城说的班长同学？没关系，我们有问题就直接问你好啦。
+[name="岳羽由加莉"]交换一下联系方式？
+[charslot(slot="r",name="avg_npc_2387_1#1$1",focus="r")]
+[name="山岸风花"]由加莉……好厉害……
+[charslot]
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[name="班长"]山岸同学也一起吧，这是我的认证码。
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2387_1#1$1",focus="r")]
+[multiline(name="山岸风花")]认证码……啊，是终端账户的号码吧。
+[charslot(slot="r",name="avg_npc_2387_1#2$1",focus="r")]
+[multiline(name="山岸风花")]好的，这是我的。
+[charslot(slot="l",name="avg_4219_yukari_1#1$1",focus="l")]
+[name="岳羽由加莉"]话说回来，既然是同年级，直接叫我由加莉就好。风花应该也更喜欢别人叫名字吧？
+[charslot(slot="r",name="avg_npc_2387_1#1$1",focus="r")]
+[name="山岸风花"]嗯，是啊。太客气的话我也会有点紧张……
+[charslot]
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[name="班长"]好呀，风花和由加莉都是结城同学的同伴吗？
+[charslot(slot="m",name="avg_4217_makoto_1#1$1",focus="m")]
+[name="结城理"]嗯。是在家乡上同一所学校的同伴。
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[name="班长"]是这样啊……能一起来拉特兰旅行，你们感情一定很好。
+[name="班长"]对了，老师，风花和由加莉的志愿实践……还来得及吗？
+[charslot(slot="m",name="avg_npc_2377_1#1$1",focus="m")]
+[name="班长"]老师一定有办法吧？不然之后她们要单独待在学校，也太寂寞了……
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]……我问一下六厅的朋友。大概只能和结城参加一样的实践了，你们可以吗？
+[charslot(slot="m",name="avg_4219_yukari_1#1$1",focus="m")]
+[name="岳羽由加莉"]没问题，结城和我们介绍过志愿实践的事了。
+[charslot(slot="m",name="avg_4219_yukari_1#10$1",focus="m")]
+[name="岳羽由加莉"]不过……这个“志愿实践”，小学生可以参加吗？那个，我有一个弟弟……
+[Dialog]
+[charslot]
+[interlude(maskid = "interlude_dialog_left", channel = 5, style=3, type = 3, name = "avg_npc_2380_1#1$1", icharpos = "0,0", offset="0,150")]
+[interlude(channel = 5, type=2, name="77_g4_classroom")]
+[Decision(options="我也不是万能的。;跳级来上中学就可以。", values="1;2")]
+[Predicate(references="1;2")]
+[interlude(channel = 5, clear = true, block = true)]
+[Delay(time=0.5)]
+[Predicate(references="1")]
+[charslot]
+[charslot(slot="m",name="avg_npc_2377_1#4$1",focus="m")]
+[name="班长"]老师……不是吗？
+[Predicate(references="2")]
+[charslot]
+[charslot(slot="m",name="avg_npc_2377_1#6$1",focus="m")]
+[name="班长"]老师，由加莉是在认真地问，不要和人开玩笑啦……
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]……
+[name="班主任"]好吧。
+[name="班主任"]其实也没什么难的。你们只是想要志愿实践的时候能一起行动，并不是想要那位小学生得到志愿实践的学分和实习证明，对吧？
+[charslot(slot="m",name="avg_4217_makoto_1#1$1",focus="m")]
+[name="结城理"]是这样没错。
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]小学生不能参加志愿实践，参加志愿实践的学生不能请假——那不参加志愿实践的小学生，不就可以请假了。
+[name="班主任"]至于请假了要待在哪里，那就是他自己的事了。
+[charslot(slot="m",name="avg_npc_2377_1#4$1",focus="m")]
+[name="班长"]欸……这么简单就可以？
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]在拉特兰的生活就是理解规则的生活，阿米娅。规则的要义不是限制，而是阐明，很多拉特兰人了解前一半，但还没有明白后一半。
+[charslot(slot="m",name="avg_npc_2377_1#3$1",focus="m")]
+[name="班长"]一定要说得这么难懂吗，老师……
+[charslot(slot="m",name="avg_4217_makoto_1#1$1",focus="m")]
+[name="结城理"]我好像能理解。谢谢你，Dr.{@nickname}。
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]你能理解？那再好不过。对世界多一些了解会很有用的，尤其是你。
+[name="班主任"]每个学生都要选择三个岗位参加实习，分别在三天里完成。结城你们大概是甜食礼堂一天，安魂殡仪堂两天。
+[name="班主任"]具体时间表发下来之后记得在终端上查看，你们和阿米娅都是。
+[name="班主任"]在那之前，要好好上课。你们逃课的话，我会知道的。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]
+[charslot]
+[Background(image="77_g6_funeralhome",screenadapt="coverall")]
+[Delay(time=1)]
+[charslot(slot="l",name="avg_npc_2378_1#1$1")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]
+[Delay(time=1.5)]
+[PlaySound(key="$dooropenquite", volume=1)]
+[charslot(slot="r",name="avg_npc_2379_1#10$1",afrom=0, ato=1,duration=1.5)]
+[delay(time=2)]
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]黄油榛果拿铁，吉阿达小姐！只加了两泵糖，珀拉说你不喜欢太甜的。
+[PlayMusic(key="$darkness_03_loop", volume=0.6)]
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[name="吉阿达"]……这是你的道歉？
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="r")]
+[name="裘里奥"]咦？不应该是我道歉吧，昨天冷冰冰地把我丢下的人不是吉阿达吗？
+[charslot(slot="l",name="avg_npc_2378_1#2$1",focus="l")]
+[name="吉阿达"]我不喜欢坚果。
+[charslot(slot="r",name="avg_npc_2379_1#5$1",focus="r")]
+[name="裘里奥"]欸——
+[charslot(slot="l",name="avg_npc_2378_1#10$1",focus="l")]
+[name="吉阿达"]骗你的。唔，味道不错。
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]其实我是来找你商量葬礼场地的布置，既然棺材款式已经确定了……
+[charslot(slot="r",name="avg_npc_2379_1#3$1",focus="r")]
+[name="裘里奥"]虽然我非常确定你和我想要的方向绝对不一样，但，商量一下呢？说不定我们能找到一个两全其美的方案，你也开心我也开心。
+[charslot(slot="l",name="avg_npc_2378_1#12$1",focus="l")]
+[name="吉阿达"]……开心？我上班不是为了开心……
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]不好吗？吉阿达小姐明明很喜欢工作吧，我看得出来！
+[charslot(slot="l",name="avg_npc_2378_1#2$1",focus="l")]
+[name="吉阿达"]我是葬礼经纪，为工作开心恐怕不太好。
+[charslot(slot="r",name="avg_npc_2379_1#5$1",focus="r")]
+[multiline(name="裘里奥")]……不是字面意思！我只是想……
+[charslot(slot="r",name="avg_npc_2379_1#11$1",focus="r")]
+[multiline(name="裘里奥")]唉，之前是我说错话了，其实我说没有见过黎博利葬礼经纪时，是想说佩服你……
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]我刚才还和珀拉打听了一下……听说你之前挽救了一场失控的葬礼？
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="l")]
+[name="吉阿达"]……谈不上。那种场面在前段时间不算少见，我只是……只是那一次，我想到了自己能做点什么。
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]我能知道吗？
+[Dialog]
+[charslot(slot="l",name="avg_npc_2378_1#2$1",focus="l")]
+[delay(time=1.5)]
+[name="吉阿达"]……那场葬礼的逝者是位喜剧演员，他的家人和同事决定在葬礼上重演他年轻时的成名作，以表致意。
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="l")]
+[name="吉阿达"]节目确实很精彩，不少宾客当场捧腹大笑。逝者的妻子却突然崩溃了，她流着泪冲上台要求表演者——也就是逝者的同事立刻停止表演。
+[name="吉阿达"]表演者停下了，但他尴尬的样子又引出了一阵笑声，逝者的妻子从悲痛变得愤怒，她红着眼睛质问所有宾客把她的丈夫当成什么了。
+[charslot(slot="r",name="avg_npc_2379_1#5$1",focus="r")]
+[name="裘里奥"]……好可怕的场面……
+[charslot(slot="l",name="avg_npc_2378_1#7$1",focus="l")]
+[name="吉阿达"]以前不会发生这种事，不是吗？
+[charslot(slot="r",name="avg_npc_2379_1#11$1",focus="r")]
+[name="裘里奥"]那你……做了什么？
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[name="吉阿达"]我请他们两人离开舞台，走到逝者的棺木旁，问他们愿不愿意为逝者选一份甜点放在棺木前。妻子选了蛋白酥，同事选了红莓曲奇。
+[name="吉阿达"]然后我请所有人都依次这样做了，请他们回忆与逝者曾经的交往，选一份甜点给他。或者只是选一份自己喜欢的，推荐给他，也可以。
+[name="吉阿达"]至少大家平静下来了。也有人放下甜点后，俯身对逝者说了几句无人能听清的话。
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]你好聪明……
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="l")]
+[name="吉阿达"]这和聪明没有关系。我只是明白……那个时候，大家都不知道自己该做什么了，甚至不知道自己该想什么。
+[charslot(slot="l",name="avg_npc_2378_1#2$1",focus="l")]
+[name="吉阿达"]我只是明白那样很难堪。
+[charslot(slot="r",name="avg_npc_2379_1#7$1",focus="r")]
+[name="裘里奥"]……是啊，以前不会这样。
+[charslot(slot="r",name="avg_npc_2379_1#2$1",focus="r")]
+[name="裘里奥"]没办法感受别人了，也没办法让别人感受到自己……
+[charslot(slot="r",name="avg_npc_2379_1#7$1",focus="r")]
+[name="裘里奥"]所以你担心我会让那样的可怕场面再一次发生吗？
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]你们一定要在葬礼上寻欢作乐，这种事情就会发生。
+[charslot(slot="r",name="avg_npc_2379_1#11$1",focus="r")]
+[name="裘里奥"]……吉阿达小姐，你认为葬礼必须是悲伤的场合吗？但拉特兰的葬礼，一直都是会有人大笑的啊。
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[name="吉阿达"]我知道。以前你们不需要仪式来引导情感，情感会走在前面。就算你们在葬礼上胡闹，也会“被理解”。
+[charslot(slot="l",name="avg_npc_2378_1#2$1",focus="l")]
+[name="吉阿达"]但现在不一样了。不然，为什么黎博利也可以做葬礼经纪了呢？
+[charslot(slot="r",name="avg_npc_2379_1#7$1",focus="r")]
+[name="裘里奥"]……你想要改变我们吗，吉阿达小姐？
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[name="吉阿达"]你们已经改变了。
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]我们都已经改变了。
+[charslot(slot="r",name="avg_npc_2379_1#7$1",focus="r")]
+[name="裘里奥"]所以……我们不应该留下一些不变的东西吗？
+[name="裘里奥"]因为是葬礼，就不敢或者不能欢笑了，即使我们一直都是那样做的——也不行？
+[charslot(slot="r",name="avg_npc_2379_1#8$1",focus="r")]
+[name="裘里奥"]这就是你认为拉特兰应该变成的样子吗？
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="l")]
+[name="吉阿达"]你说得太夸张了。我只是要对手中的工作负责，没打算和你在这里畅想拉特兰的未来。
+[charslot(slot="r",name="avg_npc_2379_1#7$1",focus="r")]
+[name="裘里奥"]你真的是这样想的吗？我觉得你并不……
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]你不能感受到我的心情。而且容我提醒，从来都不能。很高兴告诉你，即使不像你们那样互相“体谅”，我也可以做好我的工作。
+[charslot(slot="r",name="avg_npc_2379_1#11$1",focus="r")]
+[name="裘里奥"]我——我很抱歉，我没有那个意思。
+[charslot(slot="r",name="avg_npc_2379_1#2$1",focus="r")]
+[name="裘里奥"]……场地布置的方案，我再斟酌一下吧。晚点再来找你。
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=4, block=true)]
+[charslot]
+[Background(image="77_g1_dorm",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]
+[Delay(time=1.5)]
+[playMusic(intro="$m_avg2_act54side_intro",key="$m_avg2_act54side_loop", volume=0.6)]
+[charslot(slot="l",name="avg_4219_yukari_1#1$1",posfrom="0,0", posto="-100,0",duration=0,focus="m")]
+[charslot(slot="m",name="avg_npc_2388_1#11$1",focus="m")]
+[charslot(slot="r",name="avg_npc_2387_1#1$1",posfrom="0,0", posto="100,0",duration=0,focus="m")]
+[name="天田乾"]呼……好累……这里的小学数学课就这么难了……
+[charslot(slot="l",name="avg_4219_yukari_1#12$1",focus="l")]
+[name="岳羽由加莉"]好认真啊，天田。我都没什么心思上课了，总想着怎么才能回到原来的世界什么的……
+[charslot(slot="r",name="avg_npc_2387_1#2$1",focus="r")]
+[name="山岸风花"]呵呵。不过，我能理解天田的心情……老师在认真讲解，要是不好好听，会觉得有点失礼……
+[charslot(slot="r",name="avg_npc_2387_1#1$1",focus="r")]
+[name="山岸风花"]队长呢？
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#1$1",focus="m")]
+[name="结城理"]感觉可以从授课的内容中了解这个世界，还是认真听了。
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#12$1",focus="m",posfrom="0,0", posto="-100,0",duration=0)]
+[charslot(slot="m",name="avg_npc_2388_1#2$1",focus="m")]
+[charslot(slot="r",name="avg_npc_2387_1#1$1",focus="m",posfrom="0,0", posto="100,0",duration=0)]
+[name="天田乾"]确实，上课也是收集信息的一环。
+[charslot(slot="m",name="avg_npc_2388_1#1$1",focus="m")]
+[name="天田乾"]而且，有的课还挺有意思的。这里的历史课，听起来就像奇幻故事一样，什么红龙啦，天马骑士啦……
+[name="天田乾"]还有“源石技艺”，简直就是魔法……不过，总觉得那不是靠听课就能学会的东西。
+[charslot]
+[charslot(slot="m",name="avg_4220_kormr_1#3$3",focus="m")]
+[name="虎狼丸"]汪！
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#12$1",focus="m",posfrom="0,0", posto="-100,0",duration=0)]
+[charslot(slot="m",name="avg_npc_2388_1#1$1",focus="m")]
+[charslot(slot="r",name="avg_npc_2387_1#1$1",focus="m",posfrom="0,0", posto="100,0",duration=0)]
+[name="天田乾"]虎狼丸也这么觉得吧？
+[charslot(slot="r",name="avg_npc_2387_1#7$1",focus="r")]
+[name="山岸风花"]咦，虎狼丸换了新衣服……！
+[charslot(slot="m",name="avg_npc_2388_1#1$1",focus="m")]
+[name="天田乾"]嗯……虎狼丸接住了活动教室窗口落下来的钩针桌垫，这是失主的谢礼……
+[charslot(slot="m",name="avg_npc_2388_1#2$1",focus="m")]
+[name="天田乾"]虎狼丸的人气好高哦，到今天放学时，全校好像都已经知道“兽亲转学生”虎狼丸了，还有人想给虎狼丸拍海报……
+[charslot(slot="r",name="avg_npc_2387_1#2$1",focus="r")]
+[multiline(name="山岸风花")]呵呵，不愧是小虎……
+[charslot(slot="r",name="avg_npc_2387_1#3$1",focus="r")]
+[multiline(name="山岸风花")]不过，像这样坐在宿舍聊天，会觉得有点寂寞呢……只有我们几个的话。
+[charslot(slot="l",name="avg_4219_yukari_1#4$1",focus="l")]
+[name="岳羽由加莉"]嗯……不知道美鹤学姐和真田学长他们怎么样了，还有顺平那家伙……
+[charslot(slot="l",name="avg_4219_yukari_1#2$1",focus="l")]
+[stopmusic(fadetime=2)]
+[name="岳羽由加莉"]埃癸斯也……她是和我们一起进入门扉的，可直到现在我们都没有发现她的踪影……
+[charslot(slot="m",name="avg_npc_2388_1#4$1",focus="m")]
+[name="天田乾"]虎狼丸好像也没有发现埃癸斯的气味……
+[charslot(slot="r",name="avg_npc_2387_1#10$1",focus="r")]
+[name="山岸风花"]我这边，可能是因为杂音的干扰，也没有感知到像是埃癸斯的反应……
+[charslot(slot="m",name="avg_npc_2388_1#3$1",focus="m")]
+[PlayMusic(key="$darkness_03_loop", volume=0.6)]
+[name="天田乾"]说起来，我和结城哥讨论过。我们大家虽然都进入了同一扇门，但来到拉特兰的时间和地点似乎都是不同的……
+[charslot(slot="r",name="avg_npc_2387_1#7$1",focus="r")]
+[name="山岸风花"]我也注意到这一点了。昨天，我和由加莉是晚上才出现在拉特兰的，但天田和虎狼丸是在下午，而队长是在早上……
+[charslot(slot="l",name="avg_4219_yukari_1#6$1",focus="l")]
+[name="岳羽由加莉"]啊，时间确实不一样呢。所以风花和虎狼丸都找不到埃癸斯，其实可能是因为她还没有进入拉特兰，是这个意思吗？
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#9$1",focus="m")]
+[name="结城理"]我也是这样想的。
+[charslot(slot="m",name="avg_4217_makoto_1#1$1",focus="m")]
+[name="结城理"]而且，现在还有一个问题。
+[charslot(slot="m",name="avg_npc_2388_1#3$1",focus="m")]
+[name="天田乾"]是说回到原本世界的方法吧？既然我们大家都是进入了那扇凭空出现的门，之后就来到了这里……
+[charslot(slot="m",name="avg_4217_makoto_1#5$1",focus="m")]
+[name="结城理"]嗯，所以我想，如果在这个世界再次进入那扇门的话，也许就能回到原来的世界。
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#6$1",focus="r",posfrom="0,0", posto="-100,0",duration=0)]
+[charslot(slot="m",name="avg_npc_2388_1#3$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2387_1#12$1",focus="r",posfrom="0,0", posto="100,0",duration=0)]
+[name="山岸风花"]但是，门扉出现的时间和地点，都是不确定的……是吗？如果我们都是从那扇门里出来，来到拉特兰的话……
+[charslot(slot="m",name="avg_npc_2388_1#6$1",focus="m")]
+[name="天田乾"]我们是这样猜测的。
+[charslot(slot="l",name="avg_4219_yukari_1#12$1",focus="l")]
+[name="岳羽由加莉"]如果是这样的话，埃癸斯出现的时候，门也会出现……会发生这样的事吗？
+[charslot(slot="m",name="avg_npc_2388_1#10$1",focus="m")]
+[name="天田乾"]有可能……
+[charslot(slot="r",name="avg_npc_2387_1#9$1",focus="r")]
+[name="山岸风花"]但我们醒来时都没有看到门。即使我们是从门里出来的，门持续存在的时间可能也不长……可能在我们醒来之前就不见了。
+[charslot(slot="l",name="avg_4219_yukari_1#12$1",focus="l")]
+[name="岳羽由加莉"]有可能用朱诺的力量找到那扇门吗？
+[name="岳羽由加莉"]如果能感应到门的位置，追到那里，是不是就能同时找到埃癸斯和回去的路了？
+[charslot(slot="r",name="avg_npc_2387_1#3$1",focus="r")]
+[name="山岸风花"]由加莉说的有道理。我来试试看……
+[charslot]
+风花召唤出朱诺，专注地感知着气息，但还是渐渐皱起了眉头。
+[charslot(slot="l",name="avg_4219_yukari_1#12$1",focus="r",posfrom="0,0", posto="-100,0",duration=0)]
+[charslot(slot="m",name="avg_npc_2388_1#10$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2387_1#5$1",focus="r",posfrom="0,0", posto="100,0",duration=0)]
+[name="山岸风花"]……抱歉，好像不行。还是有那种……像是杂音一样的干扰。
+[charslot(slot="r",name="avg_npc_2387_1#10$1",focus="r")]
+[name="山岸风花"]昨晚在会合之前，我尝试感知大家的反应时也是这样，最后只能勉强感知到像是暗影的气息……
+[charslot(slot="r",name="avg_npc_2387_1#5$1",focus="r")]
+[name="山岸风花"]要是这个杂音能消失的话，说不定还能尝试一下用朱诺的力量来寻找门，但现在……
+[charslot(slot="l",name="avg_4219_yukari_1#2$1",focus="l")]
+[name="岳羽由加莉"]这样啊……
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#1$1",focus="m")]
+[name="结城理"]没关系，说不定会有别的办法。之后再打听一下门的事吧。
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#10$1",focus="l",posfrom="0,0", posto="-100,0",duration=0)]
+[charslot(slot="m",name="avg_npc_2388_1#10$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2387_1#5$1",focus="l",posfrom="0,0", posto="100,0",duration=0)]
+[name="岳羽由加莉"]其实，说到暗影……我有点在意，昨天晚上的事。
+[charslot(slot="l",name="avg_4219_yukari_1#2$1",focus="l")]
+[name="岳羽由加莉"]你们还记得昨天那个喝醉的路人被暗影“拥抱”的样子吗？说实话，那个画面让我有点不舒服……
+[name="岳羽由加莉"]虽然战斗结束后简单检查了一下，他似乎并没有受伤……
+[charslot(slot="l",name="avg_4219_yukari_1#12$1",focus="l")]
+[name="岳羽由加莉"]但是，被暗影袭击的话，是可能会患上“无气力症”的，对吧？如果那样就危险了……
+[charslot(slot="r",name="avg_npc_2387_1#9$1",focus="r")]
+[name="山岸风花"]嗯，要是拉特兰人也患上无气力症的话，那就糟糕了……
+[charslot(slot="l",name="avg_4219_yukari_1#12$1",focus="l")]
+[name="岳羽由加莉"]其实我在想，拉特兰既然没有影时间，为什么会有暗影呢？那些暗影，该不会和我们一样，是通过那扇门来到这里的吧……
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#9$1",focus="m")]
+[name="结城理"]暗影通过门来到拉特兰吗……嗯，我们不了解那扇门的原理，不能说没有这样的可能性……
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#12$1",focus="r",posfrom="0,0", posto="-100,0",duration=0)]
+[charslot(slot="m",name="avg_npc_2388_1#10$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2387_1#3$1",focus="r",posfrom="0,0", posto="100,0",duration=0)]
+[name="山岸风花"]嗯……如果它们真的是通过门出现在这里的话，也许……
+[charslot(slot="r",name="avg_npc_2387_1#11$1",focus="r")]
+[name="山岸风花"]像之前说的，暗影的反应，我现在还是能努力感知到的。如果它们是从门出来的话，也许能凭借这一点来寻找门……
+[charslot(slot="m",name="avg_npc_2388_1#1$1",focus="m")]
+[name="天田乾"]真的吗？那就不是完全没有线索了……太好了。
+[charslot(slot="l",name="avg_4219_yukari_1#3$1",focus="l")]
+[name="岳羽由加莉"]嗯……现在关于那些暗影，也只知道它们可能和门有关这一点了。
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#1$1",focus="m")]
+[name="结城理"]嗯，无论怎么看，都有必要继续调查那些暗影。
+[charslot(slot="m",name="avg_4217_makoto_1#8$1",focus="m")]
+[name="结城理"]而且，如果牵涉到了拉特兰人，甚至他们可能会因此遭遇危险的话……
+[name="结城理"]也许，我们还是应该借助一下这个世界的人的力量。
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#3$1",focus="r",posfrom="0,0", posto="-100,0",duration=0)]
+[charslot(slot="m",name="avg_npc_2388_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2387_1#3$1",focus="r",posfrom="0,0", posto="100,0",duration=0)]
+[name="山岸风花"]要报告给执行者吗？他们是类似警察那种职业的人，对吧……
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#9$1",focus="m")]
+[name="结城理"]话是这么说，但我们的情况……不确定他们会不会相信我们。我觉得，先和已经帮助过我们的人商量一下，也许比较好。
+[charslot(slot="m",name="avg_4217_makoto_1#1$1",focus="m")]
+[name="结城理"]而且，我们毕竟是学生，对吧。
+[dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=4, block=true)]
+[charslot]
+[Background(image="77_g1_dorm",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]
+[playMusic(intro="$mist_intro",key="$mist_loop", volume=0.6)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]……
+[name="班主任"]好了，你们说有“很重要，希望能帮忙保守秘密”的事，到这里可以说了吧。
+[charslot(slot="m",name="avg_4219_yukari_1#6$1",focus="m")]
+[name="岳羽由加莉"]（哇……看不见博士的表情，还真的有点心虚……）
+[charslot(slot="m",name="avg_4217_makoto_1#10$1",focus="m")]
+[name="结城理"]咳……Dr.{@nickname}，昨天深夜打扰，拜托你让由加莉和风花在宿舍住下的事，十分感谢。
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[multiline(name="班主任")]还好我当时还没睡，不然未必能接到你的电话……
+[multiline(name="班主任")]啊，我熬夜的事不要告诉阿米娅。
+[name="班主任"]相应地，我也就不问你为什么在凌晨突然变出两个老家同学了。
+[charslot(slot="m",name="avg_4217_makoto_1#1$1",focus="m")]
+[name="结城理"]……这件事可以告诉博士。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[PlaySound(key="$d_avg_sitsofa", volume=1)]
+[Image(image="77_i05", xScale=1.5,yScale=1.5,x=200,y=0,screenadapt="coverall")]
+[ImageTween(xFrom=200,xTo=150,duration=30, block=false)]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="班主任"]……
+[name="班主任"]你说吧。
+[name="结城理"]我们不是拉特兰人，而且……
+[name="班主任"]也不是东国人。你档案上的那位萨科塔表哥，和你也没有关系。
+[name="结城理"]嗯。我和我的同伴，来自另一个世界。如果我想得没错的话。
+[name="班主任"]这样啊。
+[name="结城理"]博士果然并不惊讶吗……
+[name="班主任"]还好。我之前只是不想深究这件事。
+[name="班主任"]但你既然主动告诉我，应该是遇到了麻烦……想回家，但找不到路？
+[dialog]
+[Image(image="77_i05", xScale=1.3,yScale=1.3,x=-120,y=0,fadetime=3,screenadapt="coverall",block=true)]
+[ImageTween(xScaleFrom = 1.3, xScaleTo = 1.2,yScaleFrom=1.3,yScaleTo=1.2,xFrom=-120,xTo=30,duration=30, block=false)]
+[name="结城理"]有这个原因……不过，来找博士主要还是因为，我们发现，拉特兰人可能会有危险。
+[name="结城理"]存在于我们原本世界的，名叫“暗影”的怪物……可能也出现在了拉特兰。
+[name="结城理"]在我们的世界，我们其实还是对抗暗影的组织——“特别课外活动部S.E.E.S.”的成员。
+[name="结城理"]如果可以，我希望能以牵涉最少、最不引人注意的方式回到原本的世界。
+[name="结城理"]但是，如果暗影会危害到拉特兰，我们不想坐视那种事发生。
+[name="班主任"]……详细说说吧，“暗影”，还有关于你们自己的事。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image(image="77_i05", screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="结城理"]……大致就是这样。
+[name="班主任"]“人格面具”“暗影”“无气力症”……是吗……
+[name="结城理"]博士如果想要详细了解哪一部分，可以提问，大家也能帮忙回答。
+[Dialog]
+[Decision(options="确实还想再问一下。;不用，已经都明白了。", values="1;2")]
+[Predicate(references="1")]
+[Decision(options="“人格面具”是怎么回事？;“暗影”是怎么回事？;“无气力症”是怎么回事？", values="3;4;5")]
+[Predicate(references="3")]
+[name="岳羽由加莉"]据说，那是我们心中的“另一个自己”……为了直面各种困难而存在的，心灵的力量。
+[name="岳羽由加莉"]我们可以召唤出属于自己的“人格面具”，与暗影作战。
+[Dialog]
+[Decision(options="“暗影”是怎么回事？;“无气力症”是怎么回事？", values="6;7")]
+[Predicate(references="17")]
+[name="岳羽由加莉"]据说，那是我们心中的“另一个自己”……为了直面各种困难而存在的，心灵的力量。
+[name="岳羽由加莉"]我们可以召唤出属于自己的“人格面具”，与暗影作战。
+[Predicate(references="4")]
+[name="山岸风花"]那是能够吞噬人类精神的怪物，其中还存在格外强大的大型暗影……
+[name="山岸风花"]除了我们这些拥有人格面具的人，普通人几乎无法抵抗暗影的袭击。而且在我们的世界里，暗影本来是只在影时间里出现的……
+[Dialog]
+[Decision(options="“人格面具”是怎么回事？;“无气力症”是怎么回事？", values="10;11")]
+[Predicate(references="10")]
+[name="岳羽由加莉"]据说，那是我们心中的“另一个自己”……为了直面各种困难而存在的，心灵的力量。
+[name="岳羽由加莉"]我们可以召唤出属于自己的“人格面具”，与暗影作战。
+[Dialog]
+[Decision(options="“无气力症”是怎么回事？", values="18")]
+[Predicate(references="18")]
+[name="天田乾"]普通人如果被暗影袭击，就会变得失魂落魄，连话都说不出来，几乎无法维持正常的生活……
+[name="天田乾"]不了解暗影和影时间的人，以为那是一种疾病，把它叫做“无气力症”。平时为了方便，我们也会这么说……
+[Predicate(references="6")]
+[name="山岸风花"]那是能够吞噬人类精神的怪物，其中还存在格外强大的大型暗影……
+[name="山岸风花"]除了我们这些拥有人格面具的人，普通人几乎无法抵抗暗影的袭击。而且在我们的世界里，暗影本来是只在影时间里出现的……
+[Dialog]
+[Decision(options="“无气力症”是怎么回事？", values="8")]
+[Predicate(references="14")]
+[name="山岸风花"]那是能够吞噬人类精神的怪物，其中还存在格外强大的大型暗影……
+[name="山岸风花"]除了我们这些拥有人格面具的人，普通人几乎无法抵抗暗影的袭击。而且在我们的世界里，暗影本来是只在影时间里出现的……
+[Dialog]
+[Decision(options="“暗影”是怎么回事？", values="16")]
+[Predicate(references="16")]
+[name="山岸风花"]那是能够吞噬人类精神的怪物，其中还存在格外强大的大型暗影……
+[name="山岸风花"]除了我们这些拥有人格面具的人，普通人几乎无法抵抗暗影的袭击。而且在我们的世界里，暗影本来是只在影时间里出现的……
+[Predicate(references="8")]
+[name="天田乾"]普通人如果被暗影袭击，就会变得失魂落魄，连话都说不出来，几乎无法维持正常的生活……
+[name="天田乾"]不了解暗影和影时间的人，以为那是一种疾病，把它叫做“无气力症”。平时为了方便，我们也会这么说……
+[Predicate(references="7")]
+[name="天田乾"]普通人如果被暗影袭击，就会变得失魂落魄，连话都说不出来，几乎无法维持正常的生活……
+[name="天田乾"]不了解暗影和影时间的人，以为那是一种疾病，把它叫做“无气力症”。平时为了方便，我们也会这么说……
+[Dialog]
+[Decision(options="“暗影”是怎么回事？", values="12")]
+[Predicate(references="12")]
+[name="山岸风花"]那是能够吞噬人类精神的怪物，其中还存在格外强大的大型暗影……
+[name="山岸风花"]除了我们这些拥有人格面具的人，普通人几乎无法抵抗暗影的袭击。而且在我们的世界里，暗影本来是只在影时间里出现的……
+[Predicate(references="11")]
+[name="天田乾"]普通人如果被暗影袭击，就会变得失魂落魄，连话都说不出来，几乎无法维持正常的生活……
+[name="天田乾"]不了解暗影和影时间的人，以为那是一种疾病，把它叫做“无气力症”。平时为了方便，我们也会这么说……
+[Dialog]
+[Decision(options="“人格面具”是怎么回事？", values="13")]
+[Predicate(references="13")]
+[name="岳羽由加莉"]据说，那是我们心中的“另一个自己”……为了直面各种困难而存在的，心灵的力量。
+[name="岳羽由加莉"]我们可以召唤出属于自己的“人格面具”，与暗影作战。
+[Predicate(references="5")]
+[name="天田乾"]普通人如果被暗影袭击，就会变得失魂落魄，连话都说不出来，几乎无法维持正常的生活……
+[name="天田乾"]不了解暗影和影时间的人，以为那是一种疾病，把它叫做“无气力症”。平时为了方便，我们也会这么说……
+[Dialog]
+[Decision(options="“人格面具”是怎么回事？;“暗影”是怎么回事？", values="19;15")]
+[Predicate(references="15")]
+[name="山岸风花"]那是能够吞噬人类精神的怪物，其中还存在格外强大的大型暗影……
+[name="山岸风花"]除了我们这些拥有人格面具的人，普通人几乎无法抵抗暗影的袭击。而且在我们的世界里，暗影本来是只在影时间里出现的……
+[Dialog]
+[Decision(options="“人格面具”是怎么回事？", values="17")]
+[Predicate(references="17")]
+[name="岳羽由加莉"]据说，那是我们心中的“另一个自己”……为了直面各种困难而存在的，心灵的力量。
+[name="岳羽由加莉"]我们可以召唤出属于自己的“人格面具”，与暗影作战。
+[Predicate(references="19")]
+[name="岳羽由加莉"]据说，那是我们心中的“另一个自己”……为了直面各种困难而存在的，心灵的力量。
+[name="岳羽由加莉"]我们可以召唤出属于自己的“人格面具”，与暗影作战。
+[Dialog]
+[Decision(options="“暗影”是怎么回事？", values="20")]
+[Predicate(references="20")]
+[name="山岸风花"]那是能够吞噬人类精神的怪物，其中还存在格外强大的大型暗影……
+[name="山岸风花"]除了我们这些拥有人格面具的人，普通人几乎无法抵抗暗影的袭击。而且在我们的世界里，暗影本来是只在影时间里出现的……
+[Predicate(references="2;3;4;5;8;12;13;16;17;18;20")]
+[name="结城理"]嗯。我们现在怀疑，暗影和我们一样，是通过那扇神秘的门扉来到拉特兰的。
+[name="结城理"]正如刚才所说，我们不能坐视拉特兰被暗影侵害。但我们毕竟不是拉特兰人，有很多不了解的事……
+[name="班主任"]我了解你的顾虑了。这件事情确实不适合公之于众。
+[name="班主任"]我来想想办法吧。
+[name="山岸风花"]博士，你愿意协助我们的调查？
+[name="班主任"]“协助”你们的调查吗……就当做是这样吧。
+[name="班主任"]不过，从你们的描述来看，拉特兰的情况和你们的世界其实不完全一样，对吧？
+[name="天田乾"]嗯，不太一样。发生异变的区域，虽然氛围很像影时间，但时间流逝是正常的，路人也没有异常的表现。
+[name="天田乾"]而且，从路人对暗影的反应来看，他们似乎察觉不到暗影的存在。即使路人接触到了暗影，好像也没有受到什么明显的伤害……
+[name="天田乾"]……不，“没有受到伤害”这点还不能确定。
+[name="班主任"]你叫天田对吧，由加莉说的“弟弟”应该就是你？不错，思考很严谨。
+[name="天田乾"]啊，是、是我没错……谢谢夸奖。
+[name="班主任"]你们今天也会去调查暗影吗？
+[name="结城理"]嗯，以现在的情形，不能放着不管。
+[name="班主任"]那，仅限今晚，我就和你们一起去吧，看看你们战斗的方式……以及，确认一下“拉特兰人看不见暗影”这件事。
+[name="班主任"]至于拉特兰是否出现了无气力症，之后我也会去确认。
+[name="结城理"]另外，我们还有一名叫做“埃癸斯”的同伴没有找到，我们很想尽快找到她……
+[name="班主任"]我可以帮你们打听。大体上，我赞同你们关于门扉的想法。
+[name="班主任"]不过，“埃癸斯”这个名字，听起来和你们的似乎不太一样……
+[name="班主任"]如果她已经进入了拉特兰，我应该会有所耳闻的。她确实有可能还没有出现在拉特兰。
+[name="班主任"]按照现在的推论，如果能够再次通过那扇门，也许你们就能回到原来的世界。
+[name="班主任"]如果以“暗影是通过门扉进入拉特兰的”这一假设为前提来行动，也许可以通过追踪暗影的行动轨迹来反向定位门扉的位置。
+[name="班主任"]即使门的位置会改变，如果能见到门出现的瞬间，也许可以找到关于出现机制的线索……
+[name="班主任"]先把这作为接下来要验证的假设吧。
+[name="班主任"]还有一点比较可疑，就是山岸所说的“杂音”。不过，造成这一点的可能因素太多了，目前只能作为次级的研究……调查方向。
+[name="班主任"]那么就先以前面说的思路，调查暗影的活动吧。结城，你是S.E.E.S.的队长，是吗？
+[name="结城理"]是的。
+[name="班主任"]那就带领好你的小队，开始调查吧。
+[Dialog]
+[Delay(time=1)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[bgeffect]
+[gridbg]
+[stopmusic(fadetime=2)]
+[Image]
+[charslot]

@@ -1,0 +1,937 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]
+[stopmusic]
+[Dialog]
+[Background(image="77_g5_corridor",screenadapt="coverall")]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[delay(time=1.5)]
+[playMusic(intro="$m_avg3_act54side_intro",key="$m_avg3_act54side_loop", volume=0.6)]
+[charslot(slot="m",name="avg_npc_2379_1#1$1",focus="m")]
+[name="裘里奥"]搬去哥伦比亚之后，没想到还会回到这所学校……
+[charslot(slot="m",name="avg_npc_2377_1#4$1",focus="m")]
+[name="学生"]你们两位是哥伦比亚人吗？我看过一些哥伦比亚电影，提卡伦多的治安真的那么糟糕？
+[charslot(slot="m",name="avg_4217_makoto_1#13$4",focus="m")]
+[name="结城理"]……
+[charslot(slot="m",name="avg_npc_2377_1#3$1",focus="m")]
+[name="学生"]啊，我是不是问了傻问题，毕竟拉特兰人也不会骑着铳上学……
+[charslot(slot="m",name="avg_npc_2379_1#3$1",focus="m")]
+[name="裘里奥"]哈哈，和拉特兰比起来，这片大地的任何一个城市都得说是“治安糟糕”。
+[charslot(slot="m",name="avg_4217_makoto_1#13$4",focus="m")]
+[name="结城理"]可是，刚才的爆炸和枪械声……
+[charslot(slot="m",name="avg_npc_2378_1#10$1",focus="m")]
+[name="吉阿达"]啊。
+[name="吉阿达"]忘记和你解释了。
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[name="学生"]铳声吗？是在上铳械课啦，我也是从靶场被老师叫过来接你们的。
+[charslot(slot="m",name="avg_4217_makoto_1#13$4",focus="m")]
+[name="结城理"]铳械课是什么……而且，爆炸又是怎么回事……？
+[charslot(slot="m",name="avg_npc_2379_1#1$1",focus="m")]
+[name="裘里奥"]是泡芙店的会员活动啦，他们每周都会给门口的泡芙雕像换口味，会员可以抽奖爆破上周的雕像。
+[charslot(slot="m",name="avg_npc_2378_1#10$1",focus="m")]
+[name="吉阿达"]拉特兰是这样。爆炸都有执行者见证，不危险的。
+[charslot(slot="m",name="avg_npc_2377_1#1$1",focus="m")]
+[multiline(name="学生")]嗯……我明白了，结城同学第一次来拉特兰，对很多事情都还不熟悉吧？
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[multiline(name="学生")]如果需要帮助，或者有什么疑问，都可以找我和老师。
+[Dialog]
+[curtain(direction = 3,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0.7)]
+[delay(time=1)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[delay(time=1)]
+[curtain(direction = 3,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0)]
+[curtain(direction = 7,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0)]
+[Background(image="77_g4_classroom",screenadapt="coverall")]
+[delay(time=1)]
+[curtain(direction = 7,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0.7)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_2380_1#1$1",bstart=0.2,bend=0.7,afrom=0, ato=1,duration=1.5)]
+[Delay(time=2)]
+[charslot(slot="m",name="avg_npc_2380_1#1$1",bstart=0.2,bend=0.7,focus="m")]
+[name="？？？"]辛苦了，阿米娅。
+[Dialog]
+[charslot(slot="r",name="avg_npc_2380_1#1$1",posfrom="0,0", posto="-200,0",afrom=1, ato=0,duration=0)]
+[charslot(slot="r",afrom=0, ato=1,duration=1.5)]
+[Delay(time=2)]
+[charslot(slot="r",name="avg_npc_2380_1#1$1",focus="r")]
+[charslot(slot="m",name="avg_npc_2380_1#1$1",bstart=0.2,bend=0.7,afrom=1, ato=0,duration=0)]
+[name="班主任"]结城理，对吗？我是你的班主任，{@nickname}，你可以叫我博士。
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[name="结城理"]博士……老师？
+[Dialog]
+[charslot]
+[interlude(maskid = "interlude_dialog_left", channel = 5, style=3, type = 3, name = "avg_npc_2380_1#1$1", icharpos = "0,0", offset="0,150")]
+[interlude(channel = 5, type=2, name="77_g4_classroom")]
+[Decision(options="不用加“老师”。;叫Dr.{@nickname}也可以。", values="1;2")]
+[Predicate(references="1;2")]
+[interlude(channel = 5, clear = true, block = true)]
+[Delay(time=0.5)]
+[Predicate(references="1")]
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[name="结城理"]明白了，博士。
+[Predicate(references="2")]
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[name="结城理"]好，Dr.{@nickname}。
+[Dialog]
+[Predicate(references="1;2")]
+[charslot]
+戴着兜帽的教师指向了教室中间第二排的座位。
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]你的座位在那里。
+[name="班主任"]把这几张表拿去填一下，不懂的地方可以问班长——就是阿米娅。
+[charslot(slot="m",name="avg_npc_2377_1#5$1",focus="m")]
+[name="班长"]嗯！
+[charslot(slot="m",name="avg_npc_2377_1#4$1",focus="m")]
+[name="班长"]咦……老师，结城同学刚来，也要填《志愿实践表》吗？
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]如果不填，你们去志愿实践时他就要一个人待在学校了。
+[charslot(slot="m",name="avg_4217_makoto_1#9$4",focus="m")]
+[name="结城理"]（好像也不错，可以趁机去找大家。）
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]不去志愿实践也得待在学校，学校现在对你有监护义务。
+[charslot(slot="m",name="avg_4217_makoto_1#3$4",focus="m")]
+[name="结城理"]（这位Dr.{@nickname}……知道我在想什么？）
+[Dialog]
+[charslot(slot="m",name="avg_4217_makoto_1#1$1",focus="n")]
+[charslot]
+[interlude(maskid = "interlude_dialog_left", channel = 5, style=3, type = 3, name = "avg_npc_2380_1#1$1", icharpos = "0,0", offset="0,150")]
+[interlude(channel = 5, type=2, name="77_g4_classroom")]
+[Decision(options="对，我看到了。;我不会读心。", values="1;2")]
+[Predicate(references="1;2")]
+[interlude(channel = 5, clear = true, block = true)]
+[Delay(time=0.5)]
+[Predicate(references="1")]
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#8$4",focus="m")]
+[name="结城理"]您看到什么了？
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]看到你的表情了。学生的想法都很好懂，你不用惊讶。对了，对我不必用敬语。
+[Predicate(references="2")]
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#5$4",focus="m")]
+[name="结城理"]……我说出来了吗？
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]没有。学生的想法都很好懂，仅此而已。对了，对我不必用敬语。
+[Predicate(references="1;2")]
+[charslot(slot="m",name="avg_4217_makoto_1#13$4",focus="m")]
+[name="结城理"]好。但是，“志愿实践”到底是什么？
+[charslot(slot="m",name="avg_npc_2379_1#12$1",focus="m")]
+[name="裘里奥"]那个，Dr.{@nickname}，理是在国外长大的，不了解拉特兰学校的事，能不能帮忙说明一下……
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]好。结城，你入学就读的是十一年级，也就是预科第一年，要进行第一次志愿实践，为将来的职业选择做准备了。
+[name="班主任"]简单来说，你要在这张表上填三种感兴趣的工作，学校会安排你们到相应岗位实习。
+[name="班主任"]胡乱填写或者填写没有实习条件的工作，六厅系统会调剂到接近的岗位。
+[charslot(slot="m",name="avg_npc_2377_1#1$1",focus="m")]
+[multiline(name="班长")]虽然有时不太明白调剂的依据……去年有位学姐填了“烈火爆炸狂”，结果被分配到了公证所。
+[charslot(slot="m",name="avg_npc_2377_1#3$1",focus="m")]
+[multiline(name="班长")]执行者，应该不是这种定位吧……
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]总之，今天是交表日。你如果想参加志愿实践，现在填完还能赶上。
+[charslot(slot="m",name="avg_npc_2378_1#1$1",focus="m")]
+[name="吉阿达"]这个孩子才刚到拉特兰，还遇到了危险，现在心情还很混乱，一定要立刻决定吗？
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]最好现在就决定。
+[charslot(slot="m",name="avg_4217_makoto_1#9$4",focus="m")]
+[name="结城理"]……
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]其实这个问题对你没有那么难吧？我猜，你很清楚自己要做什么事。
+[charslot(slot="m",name="avg_4217_makoto_1#2$4",focus="m")]
+[name="结城理"]（我现在要做的事是……首先，要找到同伴。也就是说，需要自由行动的时间……）
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[name="结城理"]嗯，我知道了。
+[name="结城理"]吉阿达小姐，志愿实践的第一项，我可以填“葬礼经纪”吗？
+[name="结城理"]第二项，我想填“在殡仪堂工作的派对设计师”。
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[name="结城理"]（小声）拜托了……如果你们需要我做什么，我也会尽力帮忙的。
+[charslot(slot="m",name="avg_npc_2378_1#12$1",focus="m")]
+[name="吉阿达"]……你这家伙，让人有点头疼啊。
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]要填三项，那最后一项你打算填什么？
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[name="结城理"]博士，或者班长，有什么建议吗？
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]填写率最高的工作是甜食礼堂营业员。如果你不想引人注目的话。
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[name="班长"]甜食礼堂就是一个类似集市的地方，不过卖的都是甜品。我也填了这个，如果结城同学选这个的话，我们应该可以被安排到一起实习。
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[name="结城理"]嗯，那最后一项就填甜食礼堂店员好了。
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[multiline(name="结城理")]这样就填完了……
+[charslot(slot="m",name="avg_4217_makoto_1#13$4",focus="m")]
+[multiline(name="结城理")]不对，还有一张纸？
+[Dialog]
+[PlaySound(key="$d_avg_paper1", volume=1)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_4217_makoto_1#5$4",focus="m")]
+[name="结城理"]《宿舍申请表》……
+[charslot(slot="m",name="avg_npc_2380_1#1$1",focus="m")]
+[name="班主任"]虽然本地学生几乎没人会申请入住宿舍，考虑到你的情况，我还是给你拿了一份。
+[name="班主任"]如何，结城理同学，要住宿舍吗？
+[charslot(slot="m",name="avg_4217_makoto_1#2$4",focus="m")]
+[name="结城理"]……
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Delay(time=2)]
+[Background(image="77_g1_dorm",xScale=1.5, yScale=1.5,screenadapt="coverall")]
+[backgroundTween(xFrom = -200, xTo = -150, duration=10, block=false)]
+[PlaySound(key="$dooropenquite", volume=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=2)]
+[PlayMusic(key="$normal_loop", volume=0.6)]
+[Background(image="77_g1_dorm",xScale=1.7, yScale=1.7,fadetime=1,screenadapt="coverall")]
+[backgroundTween(xFrom = 380, xTo = 250, duration=10, block=false)]
+[Delay(time=2)]
+[Background(image="77_g1_dorm",xScale=1, yScale=1,fadetime=1,screenadapt="coverall")]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_npc_2379_1#10$1",focus="m")]
+[name="裘里奥"]喔噢，我还是第一次来学校的宿舍，还不错嘛！不过，看起来没什么人……？
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[name="班长"]嗯，之前申请宿舍的同学很少，毕竟学校里都是本地学生。
+[charslot(slot="m",name="avg_npc_2379_1#11$1",focus="m")]
+[name="裘里奥"]其实理要是想和我一起住的话也……
+[charslot(slot="m",name="avg_npc_2378_1#1$1",focus="m")]
+[name="吉阿达"]自己还住在归国公寓的人在说什么呢。
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[name="结城理"]我住宿舍就好，习惯了。
+[charslot(slot="m",name="avg_npc_2377_1#1$1",focus="m")]
+[multiline(name="班长")]结城同学的房间在二楼，密码用终端就可以修改。
+[charslot(slot="m",name="avg_npc_2377_1#4$1",focus="m")]
+[multiline(name="班长")]唔……你的行李是之后再拿过来吗？
+[charslot(slot="m",name="avg_4217_makoto_1#5$4",focus="m")]
+[name="结城理"]行李……
+[charslot(slot="m",name="avg_npc_2378_1#10$1",focus="m")]
+[name="吉阿达"]是不是得帮结城买点生活用品？既然入学了，该准备的东西还是要准备好。
+[charslot(slot="m",name="avg_npc_2379_1#12$1",focus="m")]
+[name="裘里奥"]完全变成监护人了……
+[charslot(slot="m",name="avg_npc_2378_1#10$1",focus="m")]
+[name="吉阿达"]班长同学回去休息吧，之后交给我们就好。
+[charslot(slot="m",name="avg_npc_2377_1#7$1",focus="m")]
+[name="班长"]好，那我就先回学校去啦。
+[charslot(slot="m",name="avg_npc_2378_1#6$1",focus="m")]
+[name="吉阿达"]快到放学时间了，你不直接回家吗？
+[charslot(slot="m",name="avg_npc_2377_1#5$1",focus="m")]
+[name="班长"]我去接老师下班！
+[Dialog]
+[curtain(direction = 3,fillfrom = 0.01,fillto = 1, grad=true, fadetime=1.1)]
+[delay(time=1)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[delay(time=0.3)]
+[curtain(direction = 3,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0)]
+[curtain(direction = 7,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0)]
+[Background(image="26_g9_laterano_street",screenadapt="coverall")]
+[delay(time=0.3)]
+[curtain(direction = 7,fillfrom = 1,fillto = 0.01, grad=true, fadetime=1.1)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[name="结城理"]吉阿达小姐，裘里奥先生，今天很感谢你们。
+[name="结城理"]志愿实践的事就拜托了。
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2379_1#1$1",focus="l")]
+[name="吉阿达"]唉。你的意思是，想要我们两个在你志愿实践时开后门，好让你去找同伴，对吗？
+[charslot(slot="r",name="avg_npc_2379_1#1$1",focus="r")]
+[name="裘里奥"]突然那么说，害我想了一下。还以为理和我们一起工作之后真的对葬礼产生兴趣了……
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[name="吉阿达"]但你还有事瞒着我们吧，结城。
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[name="吉阿达"]既然你想找到同伴……为什么不让我们向执行者报案呢？
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[name="结城理"]……
+[charslot(slot="m",name="avg_4217_makoto_1#2$4",focus="m")]
+[name="结城理"]（差不多已经可以确定，这里并不是我原本身处的世界……城市、国家和族群的名字都闻所未闻。）
+[name="结城理"]（从在公证所的经历来看，拉特兰似乎有着严明的法律和规则……）
+[charslot(slot="m",name="avg_4217_makoto_1#9$4",focus="m")]
+[name="结城理"]（我来自其他世界这一点，虽然暂时蒙混过去了，但如果被执行者认真调查……不知道拉特兰会怎么对待我们这种情况。）
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2379_1#1$1",focus="l")]
+[name="吉阿达"]是之前提到遣返的事，吓到你了吗？
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[name="结城理"]……我会回家的，在找到同伴之后。
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[name="结城理"]但……我想先靠自己的力量来找，可以吗？
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]当然可以呀。
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]你是不是回答得太快了？
+[charslot(slot="r",name="avg_npc_2379_1#11$1",focus="r")]
+[name="裘里奥"]难道你会拒绝吗？
+[charslot(slot="l",name="avg_npc_2378_1#12$1",focus="l")]
+[name="吉阿达"]……
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#9$4",focus="m")]
+[name="结城理"]如果实在找不到线索……
+[charslot]
+少年的话被自远而近的一连串惊叫打断了，叫声里夹杂着或疑惑或惊喜的吵嚷。
+三人都被吸引了注意力，裘里奥踮脚向声音传来的方向张望，吉阿达则皱眉示意结城靠后。
+[Dialog]
+[PlaySound(key="$rungeneral", volume=0.7,channel="7")]
+[StopSound(channel="7",fadetime=1.5)]
+[Delay(time=2)]
+[playsound(key="$d_avg_dogbarknormal", volume=0.3)]
+此起彼伏的惊叫声越来越近，还有隐约的道歉声，急速奔跑的踏地声。结城理若有所感，向街边迈了一步……
+一个灰色的影子向他直冲而来——
+[Dialog]
+[PlaySound(key="$runsand", volume=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image(image="77_i02",xScale=1.9, yScale=1.9,x=-550,y=320,screenadapt="coverall")]
+[Delay(time=2)]
+[ImageTween(xFrom=-550, xTo=-500, duration=20, block=false)]
+[playsound(key="$d_avg_dogbarknormal", volume=0.5)]
+[name="？？？"]汪！汪呜——
+[name="？？？"]虎狼丸，慢点、慢点！这到底是哪儿，我们好像不在塔尔塔罗斯里……
+[dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[name="？？？"]这是在大街上吗……？街上的……是人类吗？好奇怪……
+[name="？？？"]虎狼丸！怎么越跑越快了、难道你找到——
+[name="？？？"]——！
+[dialog]
+[CameraShake(duration=0.6, xstrength=50, ystrength=20, vibrato=30, randomness=30, fadeout=true, block=false)]
+[playsound(key="$d_avg_dogbarknormal", volume=1)]
+[PlaySound(key="$d_avg_clothmovement", volume=1)]
+[PlaySound(key="$d_avg_runstop", volume=0.6)]
+[Image(image="77_i02",xScale=1.2, yScale=1.2,fadetime=1, screenadapt="coverall")]
+[ImageTween(xScaleFrom=1.2, yScaleFrom=1.2,xScaleTo=1, yScaleTo=1, duration=20, block=false)]
+[delay(time=2)]
+[name="？？？"]结城哥？！
+[name="？？？"]结城哥……是你吗？
+[name="结城理"]虎狼丸，还有天田……！
+[name="？？？"]太好了……虎狼丸真的找到结城哥了！
+[name="吉阿达"]结城……？
+[name="结城理"]嗯，这就是我的同伴……其中的两位。这位是天田乾，另一位……名叫虎狼丸。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image]
+[Background(image="26_g9_laterano_street",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[charslot(slot="m",name="avg_npc_2388_1#1$3",focus="m",duration=1)]
+[delay(time=2)]
+[name="天田乾"]……您好？
+[dialog]
+[charslot]
+[charslot(slot="m",name="avg_4220_kormr_1#4$1",focus="m",duration=1)]
+[delay(time=2)]
+[playsound(key="$d_avg_dogbarknormal", volume=1)]
+[name="虎狼丸"]汪呜汪呜！
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2379_1#5$1",focus="r")]
+[name="裘里奥"]……
+[charslot(slot="r",name="avg_npc_2379_1#1$1",focus="r")]
+[name="裘里奥"]啊哈哈哈，还好生活用品还没买，不用多跑一趟了……
+[charslot(slot="l",name="avg_npc_2378_1#12$1",focus="l")]
+[name="吉阿达"]（小声）裘里奥，这是……循兽？
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="r")]
+[name="裘里奥"]（小声）……更像是佩洛兽亲？嗯……佩洛兽亲吃循兽粮吗？
+[dialog]
+[charslot]
+[charslot(slot="m",name="avg_4220_kormr_1#6$1",focus="m")]
+[name="虎狼丸"]汪？
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image]
+[Background(image="77_g1_dorm",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[playMusic(intro="$m_avg2_act54side_intro",key="$m_avg2_act54side_loop", volume=0.6)]
+[charslot(slot="l",name="avg_npc_2378_1#10$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2379_1#1$1",focus="l")]
+[name="吉阿达"]……好了，和结城的老师联络过了，天田今天可以住在宿舍。之后也要去公证所和学校登记报到。
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="r")]
+[name="裘里奥"]啊哈哈……又多出来一个表弟啊……
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="r")]
+[name="裘里奥"]小理，你要不然，先稍微和我们讲一点你同伴的事？比如，一共有几个人之类的……？
+[name="裘里奥"]我好确认一下我的亲戚数量。
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#5$4",focus="m")]
+[multiline(name="结城理")]包括我在内，这次一起行……
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[multiline(name="结城理")]一起来拉特兰的同伴应该有五名，再加上虎狼丸。
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#10$1",focus="r")]
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="r")]
+[name="裘里奥"]那……吉阿达，咱俩分分？
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="l")]
+[name="吉阿达"]……不用每个人都装成亲戚吧，按照公民亲属的亲友身份登记应该也可以。
+[charslot]
+[charslot(slot="l",name="avg_4217_makoto_1#1$4",focus="r")]
+[charslot(slot="r",name="avg_npc_2388_1#13$3",focus="r")]
+[name="天田乾"]（小声）结城哥，这是怎么回事……？
+[charslot(slot="l",name="avg_4217_makoto_1#2$4",focus="l")]
+[name="结城理"]（轻微摇头）
+[charslot(slot="l",name="avg_4217_makoto_1#1$4",focus="l")]
+[name="结城理"]就按吉阿达小姐说的办吧。
+[charslot(slot="r",name="avg_npc_2388_1#1$3",focus="r")]
+[name="天田乾"]那……总之非常感谢！
+[charslot]
+[charslot(slot="m",name="avg_4220_kormr_1#3$1",focus="m")]
+[name="虎狼丸"]汪！
+[charslot]
+[charslot(slot="l",name="avg_npc_2378_1#10$1",focus="l")]
+[charslot(slot="r",name="avg_npc_2379_1#1$1",focus="l")]
+[name="吉阿达"]今天很累了吧，你们早点休息。
+[charslot(slot="r",name="avg_npc_2379_1#5$1",focus="r")]
+[name="裘里奥"]欸？不能再坐会儿吗，我也很累啊……
+[charslot(slot="l",name="avg_npc_2378_1#2$1",focus="l")]
+[name="吉阿达"]这里是学生宿舍。
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="r")]
+[multiline(name="裘里奥")]好吧好吧……
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[multiline(name="裘里奥")]之后再来看你们，再见啦！
+[Dialog]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot="l",afrom=1, ato=0,duration=1.5)]
+[charslot(slot="r",afrom=1, ato=0,duration=1.5)]
+[delay(time=3)]
+[charslot]
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[name="结城理"]……天田，虎狼丸，去我房间说吧。
+[charslot]
+[stopmusic(fadetime=2)]
+[charslot(slot="l",name="avg_npc_2388_1#3$3")]
+[charslot(slot="r",name="avg_4220_kormr_1#6$1")]
+[name="天田乾&虎狼丸"]嗯！/嗷！
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image]
+[Background(image="77_g14_alley_night",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+[PlayMusic(key="$darkness_03_loop", volume=0.6)]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot="l",name="avg_npc_2378_1#2$1",afrom=0, ato=1,duration=1.5)]
+[charslot(slot="r",name="avg_npc_2379_1#1$1",afrom=0, ato=1,duration=1.5)]
+[delay(time=2)]
+[charslot(slot="l",name="avg_npc_2378_1#2$1",focus="l")]
+[name="吉阿达"]裘里奥。
+[charslot(slot="r",name="avg_npc_2379_1#10$1",focus="r")]
+[name="裘里奥"]还有什么可以为你效劳，吉阿达小姐？
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]……我就直说了吧，你是不是太站在结城那边了？
+[name="吉阿达"]我本来想说“溺爱”之类的，但我和你之间发生这种对话也太奇怪了……你又不是他真正的表哥，我们也不是真正的监护人。
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="r")]
+[name="裘里奥"]难道你觉得结城是坏孩子吗？没必要提防他吧。
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[name="吉阿达"]我不是说要提防他。但你是不是太轻信别人了？
+[charslot(slot="r",name="avg_npc_2379_1#8$1",focus="r")]
+[name="裘里奥"]说“即使结城不帮忙也会帮他担保”的人不是吉阿达吗？
+[name="裘里奥"]他无非就是想找到同伴而已。今天一整天，我没有从他身上感受到一丝一毫恶意。
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="l")]
+[name="吉阿达"]他又不是萨科塔，况且你们现在也——
+[charslot(slot="r",name="avg_npc_2379_1#11$1",focus="r")]
+[name="裘里奥"]……
+[charslot(slot="r",name="avg_npc_2379_1#8$1",focus="r")]
+[name="裘里奥"]这和萨科塔有什么关系？我不明白你在顾虑什么……为什么要考虑那么多？
+[charslot(slot="l",name="avg_npc_2378_1#1$1",focus="l")]
+[name="吉阿达"]我有一个葬礼要办。说实话，你的出现就已经够让我焦头烂额了……
+[charslot(slot="r",name="avg_npc_2379_1#2$1",focus="r")]
+[name="裘里奥"]……好吧好吧，我明白。你不希望我插手你负责的第一场葬礼，这么多天我已经充分地意识到了，你不用这样反复强调。
+[charslot(slot="r",name="avg_npc_2379_1#11$1",focus="r")]
+[name="裘里奥"]但这是姨妈的遗嘱，让我完成它，之后我也不会再有机会烦你的，吉阿达小姐。
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="l")]
+[name="吉阿达"]……
+[charslot(slot="r",name="avg_npc_2379_1#8$1",focus="r")]
+[name="裘里奥"]噢。每次我说到“姨妈的遗嘱”你就是这副表情。
+[charslot(slot="r",name="avg_npc_2379_1#7$1",focus="r")]
+[name="裘里奥"]当然了，我不是她最亲的外甥——表外甥，父母离婚后我就再也没见过这个远房表姨妈。
+[charslot(slot="r",name="avg_npc_2379_1#11$1",focus="r")]
+[name="裘里奥"]但就算只是普通客户的委托，我也想全心全意为他们打造最好的派对。
+[charslot(slot="r",name="avg_npc_2379_1#7$1",focus="r")]
+[name="裘里奥"]吉阿达小姐，你能理解我也有我的坚持吗……虽然我真不知道为什么我要解释这么多。
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]我也不知道。是我不该开启这个话题。我该去确认棺材的事了。
+[charslot(slot="r",name="avg_npc_2379_1#12$1",focus="r")]
+[name="裘里奥"]还有什么要确认的？今天，理最后不是选了你中意的棺材吗？
+[charslot(slot="l",name="avg_npc_2378_1#9$1",focus="l")]
+[name="吉阿达"]……棺木不是选完款式就结束了。运输、入棺、殡仪堂各项设施的预约……
+[charslot(slot="l",name="avg_npc_2378_1#11$1",focus="l")]
+[name="吉阿达"]算了，我又为什么要解释。需要你知悉的部分会发给你。明天见。
+[Dialog]
+[PlaySound(key="$d_gen_walk_n",volume=1)]
+[charslot(slot="l",afrom=1, ato=0,duration=1.5,focus="l")]
+[Delay(time=2)]
+[charslot(slot="r",name="avg_npc_2379_1#11$1",focus="r")]
+[name="裘里奥"]……明天见，吉阿达小姐。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image]
+[Background(image="77_g2_dormroom",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="l",name="avg_4217_makoto_1#1$4",focus="r")]
+[charslot(slot="r",name="avg_npc_2388_1#9$3",focus="r")]
+[name="天田乾"]……意思是，我们现在可能不在原本的世界，而是来到了一个名叫拉特兰的国家。
+[charslot(slot="r",name="avg_npc_2388_1#13$3",focus="r")]
+[name="天田乾"]这里生活着头顶“光环”的“萨科塔”，还有长羽毛的“黎博利”……
+[name="天田乾"]头顶光环，难道说是天使……？但是，哪里有天使全都随身配枪的记载吗……？
+[charslot(slot="l",name="avg_4217_makoto_1#9$4",focus="l")]
+[name="结城理"]既然并不是我们原本的世界，萨科塔和我们那边的“天使”可能也没有关系吧……
+[charslot(slot="r",name="avg_npc_2388_1#3$3",focus="r")]
+[name="天田乾"]也是……好在能够顺利地和对方沟通，这一点真是幸运。
+[name="天田乾"]我们和这里的“人类”，外表还算是差不多……生活方式好像也没有太大的差别。
+[name="天田乾"]这里也有店铺、学校之类的地方……
+[charslot(slot="l",name="avg_4217_makoto_1#1$4",focus="l")]
+[name="结城理"]天田观察得好仔细。
+[charslot(slot="r",name="avg_npc_2388_1#8$3",focus="r")]
+[name="天田乾"]还、还好啦！毕竟是陌生的世界，看到熟悉的地方反而没法不注意……
+[charslot(slot="l",name="avg_4217_makoto_1#13$4",focus="l")]
+[name="结城理"]话说回来，这座城市不算小，没想到你们这么快就找到我了。
+[charslot(slot="r",name="avg_npc_2388_1#2$3",focus="r")]
+[name="天田乾"]都是多亏了虎狼丸！虎狼丸循着气味，才找到了结城哥。
+[charslot(slot="r",name="avg_npc_2388_1#3$3",focus="r")]
+[name="天田乾"]我醒过来的时候，就和虎狼丸一起在拉特兰了……当时我有点混乱，一时没反应过来。
+[charslot(slot="r",name="avg_npc_2388_1#10$3",focus="r")]
+[name="天田乾"]过了一会才慢慢回忆起来，我们之前明明是从宿舍出发，去了塔尔塔罗斯……
+[charslot(slot="l",name="avg_4217_makoto_1#9$4",focus="l")]
+[name="结城理"]我也记得是这样。我、你、风花、由加莉、埃癸斯还有虎狼丸，我们和平时一样去调查暗影。
+[charslot(slot="r",name="avg_npc_2388_1#3$3",focus="r")]
+[name="天田乾"]前往塔尔塔罗斯的路上，我记得应该是没有什么异状……但进去之后，我们在一层发现了一扇凭空出现的门扉。
+[charslot(slot="r",name="avg_npc_2388_1#6$3",focus="r")]
+[name="天田乾"]我记得我们上前去想查看那扇门，但靠近门之后的事就不记得了……
+[charslot(slot="r",name="avg_npc_2388_1#13$3",focus="r")]
+[name="天田乾"]还好真田哥、美鹤姐和顺平哥这次有事没参加探索，不然岂不是全员都要被卷入了……
+[charslot(slot="l",name="avg_4217_makoto_1#5$4",focus="l")]
+[name="结城理"]嗯……要是发现我们不见了，他们应该会很担心吧。得尽早回去。
+[charslot(slot="r",name="avg_npc_2388_1#3$3",focus="r")]
+[name="天田乾"]如果我们是通过门来到这里的……是不是找到同样的门就能回去了？
+[charslot(slot="l",name="avg_4217_makoto_1#1$4",focus="l")]
+[name="结城理"]我也是这么想的，还在殡仪堂附近找过了……
+[charslot(slot="r",name="avg_npc_2388_1#6$3",focus="r")]
+[multiline(name="天田乾")]“殡仪堂”……
+[charslot(slot="r",name="avg_npc_2388_1#1$3",focus="r")]
+[multiline(name="天田乾")]啊，那是结城哥醒来的地方吧？你就是在那里遇到了吉阿达小姐和裘里奥先生……
+[charslot(slot="l",name="avg_4217_makoto_1#1$4",focus="l")]
+[name="结城理"]嗯，我上午都和他们在殡仪堂工作……这么说来，我们在殡仪堂没有找到你呢。
+[charslot(slot="l",name="avg_4217_makoto_1#13$4",focus="l")]
+[name="结城理"]天田，你和虎狼丸是在哪里醒来的？
+[charslot(slot="r",name="avg_npc_2388_1#3$3",focus="r")]
+[multiline(name="天田乾")]我们醒来的地方是……一辆车里。
+[charslot(slot="r",name="avg_npc_2388_1#13$3",focus="r")]
+[multiline(name="天田乾")]说是车，但里面看起来像告解室一样，我一开始还以为是室内……
+[name="天田乾"]结果一开门，我和虎狼丸差点从正在行驶的车上掉下去，还好它及时停了下来。那辆车竟然会说话，说自己叫做“告解车”……
+[charslot(slot="r",name="avg_npc_2388_1#3$3",focus="r")]
+[name="天田乾"]它还很有礼貌地和我们告别了呢……
+[charslot(slot="r",name="avg_npc_2388_1#13$3",focus="r")]
+[name="天田乾"]下车之后就是大街，但我发现行人们的样子有点奇怪，不太敢搭话。
+[charslot(slot="r",name="avg_npc_2388_1#1$3",focus="r")]
+[name="天田乾"]之后我想到，可以拜托虎狼丸追踪同伴们的气味，说不定就能和大家会合……然后就找到你了，结城哥。
+[charslot(slot="l",name="avg_4217_makoto_1#2$4",focus="l")]
+[name="结城理"]原来是这样……我们进入的是同一扇门，醒来的地方却不一样。不可思议。
+[charslot(slot="l",name="avg_4217_makoto_1#9$4",focus="l")]
+[name="结城理"]但这是不是意味着风花、由加莉和埃癸斯，也可能身在不同的位置……
+[charslot(slot="r",name="avg_npc_2388_1#1$3",focus="r")]
+[name="天田乾"]……确实很有可能。那还是拜托虎狼丸循着气味来找吧？
+[charslot]
+[charslot(slot="m",name="avg_4220_kormr_1#5$1",focus="m")]
+[name="虎狼丸"]汪呜……
+[charslot]
+[charslot(slot="l",name="avg_4217_makoto_1#9$4",focus="r")]
+[charslot(slot="r",name="avg_npc_2388_1#13$3",focus="r")]
+[name="天田乾"]虎狼丸……难道说一路上都没有发现痕迹吗？
+[charslot]
+[charslot(slot="m",name="avg_4220_kormr_1#5$1",focus="m")]
+[name="虎狼丸"]汪……
+[charslot]
+[charslot(slot="l",name="avg_4217_makoto_1#9$4",focus="l")]
+[charslot(slot="r",name="avg_npc_2388_1#13$3",focus="l")]
+[name="结城理"]……看来是这样。
+[charslot(slot="r",name="avg_npc_2388_1#6$3",focus="r")]
+[name="天田乾"]嗯……
+[charslot(slot="r",name="avg_npc_2388_1#3$3",focus="r")]
+[name="天田乾"]我在想……会不会，由加莉姐她们现在还没有到拉特兰？
+[name="天田乾"]虽然现在并不清楚那扇门是怎么发挥作用的……
+[charslot(slot="r",name="avg_npc_2388_1#10$3",focus="r")]
+[name="天田乾"]但是我记得，从我和虎狼丸醒来，到找到结城哥，经过的时间应该没有超过一个小时……
+[charslot(slot="r",name="avg_npc_2388_1#13$3",focus="r")]
+[name="天田乾"]结城哥你刚才说，在殡仪堂工作了整整一上午对吧……
+[charslot(slot="l",name="avg_4217_makoto_1#1$4",focus="l")]
+[name="结城理"]没错。也就是说，虽然进入门的时间是一样的，但我出现在拉特兰的时间比你要早。
+[charslot(slot="r",name="avg_npc_2388_1#10$3",focus="r")]
+[name="天田乾"]嗯！所以我觉得，虎狼丸没有发现她们的气味，说不定是因为由加莉姐她们还没有出现在拉特兰……
+[charslot(slot="r",name="avg_npc_2388_1#6$3",focus="r")]
+[name="天田乾"]我们确实一起进入了在塔尔塔罗斯中出现的那扇门，随后就来到了这里……
+[charslot(slot="r",name="avg_npc_2388_1#13$3",focus="r")]
+[name="天田乾"]如果门后就是连接两个世界的通道，而由加莉姐她们又还没有到这里的话，难道她们现在还在门内吗……？
+[charslot(slot="l",name="avg_4217_makoto_1#5$4",focus="l")]
+[name="结城理"]……
+[charslot(slot="l",name="avg_4217_makoto_1#1$4",focus="l")]
+[name="结城理"]那么，就更要找到那扇门才行了。
+[name="结城理"]为了找到大家，要一起回到原来的世界。
+[charslot(slot="r",name="avg_npc_2388_1#3$3",focus="r")]
+[name="天田乾"]可是，门的位置……要不然，还是回到那个“殡仪堂”附近再找一找？
+[charslot(slot="l",name="avg_4217_makoto_1#1$4",focus="l")]
+[name="结城理"]那附近我已经找得差不多了。如果那样的门凭空出现的话，应该会很引人注目吧。
+[name="结城理"]但裘里奥和吉阿达都没有提到过。而且，在我醒来的地方，也没有出现过“门”……
+[charslot(slot="r",name="avg_npc_2388_1#13$3",focus="r")]
+[name="天田乾"]太奇怪了，难道门还会隐形吗？
+[name="天田乾"]虽说到现在为止发生的事，也确实没法用常理解释……
+[charslot(slot="l",name="avg_4217_makoto_1#1$4",focus="l")]
+[name="结城理"]嗯。之后要是能和风花会合，也许能借助人格面具的力量找到什么线索……
+[charslot(slot="r",name="avg_npc_2388_1#1$3",focus="r")]
+[name="天田乾"]要是虎狼丸有什么发现，再让它去找一找吧！既然能找到结城哥，一定也能找到风花姐她们的。
+[charslot]
+[charslot(slot="m",name="avg_4220_kormr_1#1$1",focus="m")]
+[name="虎狼丸"]汪！
+[charslot]
+[charslot(slot="l",name="avg_4217_makoto_1#10$4",focus="r")]
+[charslot(slot="r",name="avg_npc_2388_1#1$3",focus="r")]
+[multiline(name="天田乾")]虎狼丸很积极呢！
+[charslot(slot="r",name="avg_npc_2388_1#3$3",focus="r")]
+[multiline(name="天田乾")]不过现在没办法找吧，夜也深了……
+[charslot]
+想要确认现在的时间，结城理抬头看向墙上的挂钟——他突然意识到一件事。
+[charslot(slot="l",name="avg_4217_makoto_1#8$4",focus="l")]
+[charslot(slot="r",name="avg_npc_2388_1#1$3",focus="l")]
+[name="结城理"]时间……
+[charslot]
+天田乾也顺着结城理的目光望去，钟表盘上的十二时制在秒针移动的轻响中，熟悉得有些诡异。
+[charslot(slot="l",name="avg_4217_makoto_1#8$4",focus="r")]
+[charslot(slot="r",name="avg_npc_2388_1#9$3",focus="r")]
+[name="天田乾"]……马上就要到午夜零点了！影时间——
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+影时间，那是存在于结城理等人所来自的世界中的，“被隐藏的时间”。
+每当午夜零点来临便会出现的“时间之外的时间”，也是名为暗影的怪物横行无忌的时刻。
+此时，世界陷入停滞，常人对此却无知无觉，即使被暗影伤害也毫无抵抗之力。
+[Dialog]
+[charslot(slot="l",name="avg_4217_makoto_1#1$4",afrom=1, ato=0,posfrom="0,0", posto="-100,0",duration=0)]
+[charslot(slot="l",afrom=0, ato=1,duration=1)]
+[charslot(slot="m",name="avg_4220_kormr_1#1$1",afrom=0, ato=1,duration=1)]
+[charslot(slot="r",name="avg_npc_2388_1#1$3",afrom=1, ato=0,posfrom="0,0", posto="100,0",duration=0)]
+[charslot(slot="r",afrom=0, ato=1,duration=1)]
+[Delay(time=1.5)]
+唯有像结城理和他的同伴们一样的“身负特殊力量之人”，才能在影时间中行动，并拥有与暗影对抗的能力。
+[Dialog]
+[charslot(slot="l",name="avg_4217_makoto_1#1$4",afrom=1, ato=0,duration=1)]
+[charslot(slot="m",name="avg_4220_kormr_1#1$1",afrom=1, ato=0,duration=1)]
+[charslot(slot="r",name="avg_npc_2388_1#1$3",afrom=1, ato=0,duration=1)]
+[Delay(time=1.01)]
+[charslot]
+[charslot(slot="l",name="avg_4219_yukari_1#1$3",posfrom="0,0", posto="-150,0",bstart=0.2,bend=0.7,afrom=1, ato=0,duration=0)]
+[charslot(slot="m",name="avg_4218_aigis_1#1$2",bstart=0.2,bend=0.7,afrom=1, ato=0,duration=0)]
+[charslot(slot="r",name="avg_npc_2387_1#1$2",posfrom="0,0", posto="150,0",bstart=0.2,bend=0.7,afrom=1, ato=0,duration=0)]
+[charslot(slot="l",afrom=0, ato=1,duration=1)]
+[charslot(slot="m",afrom=0, ato=1,duration=1)]
+[charslot(slot="r",afrom=0, ato=1,duration=1)]
+[Delay(time=1.5)]
+结城理和同伴们所组成的月光馆学园“特别课外活动部S.E.E.S.”，正是为调查影时间、消灭暗影而成立。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[charslot(slot="l",name="avg_4217_makoto_1#8$4")]
+[charslot(slot="r",name="avg_npc_2388_1#9$3")]
+[Background(image="77_g2_dormroom",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot(slot="l",name="avg_4217_makoto_1#8$4",focus="l")]
+[charslot(slot="r",name="avg_npc_2388_1#9$3",focus="l")]
+[name="结城理"]……拉特兰，会有影时间吗？
+[charslot]
+时钟的指针沉默地向前移动。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="bg_black",screenadapt="coverall")]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+……
+[Dialog]
+[PlaySound(key="$d_avg_clocksound_loop", volume=1,channel="clock1")]
+[StopSound(channel="clock1",fadetime=0.5)]
+[Sticker(id="st1",multi = true, text="11:59:58",x=200,y=330, alignment="center", duration=1,size=50, delay=0, width=900,block = true)]
+[Sticker(id="st1")]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_clocksound_loop", volume=1,channel="clock2")]
+[StopSound(channel="clock2",fadetime=0.5)]
+[Sticker(id="st2",multi = true, text="11:59:59",x=200,y=330, alignment="center", duration=1,size=50, delay=0, width=900,block = true)]
+[Sticker(id="st2")]
+[Delay(time=1)]
+[PlaySound(key="$d_avg_churchbell", volume=1,channel="clock3")]
+[StopSound(channel="clock3",fadetime=2.5)]
+[Sticker(id="st3",multi = true, text="12:00:00",x=200,y=330, alignment="center", duration=1,size=50, delay=0, width=900,block = true)]
+[Sticker(id="st3")]
+[Delay(time=2)]
+……
+[Dialog]
+[PlaySound(key="$d_avg_clocksound_loop", volume=1,channel="clock4")]
+[StopSound(channel="clock4",fadetime=0.5)]
+[Sticker(id="st4",multi = true, text="12:00:01",x=200,y=330, alignment="center", aduration=1,size=50, delay=0, width=900,block = true)]
+[Sticker(id="st4")]
+[Delay(time=1)]
+[name="天田乾"]……看来是没有。时间正常地向前走了……
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Background(image="77_g2_dormroom",screenadapt="coverall")]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
+[Delay(time=1)]
+两人不约而同地松了口气，然而……
+虎狼丸在这时将头转向了窗外。
+[charslot(slot="m",name="avg_4220_kormr_1#2$1",focus="m")]
+[playsound(key="$d_avg_dogbarkangry")]
+[name="虎狼丸"]汪汪——！！！
+[name="虎狼丸"]汪呜……汪！！
+[charslot(slot="m",name="avg_npc_2388_1#9$3",focus="m")]
+[name="天田乾"]虎狼丸？
+[charslot(slot="m",name="avg_4217_makoto_1#8$4",focus="m")]
+[name="结城理"]虎狼丸，你发现什么了吗？
+[charslot(slot="m",name="avg_4220_kormr_1#2$1",focus="m")]
+[playsound(key="$d_avg_dogbarknormal")]
+[name="虎狼丸"]汪！
+[charslot(slot="m",name="avg_4217_makoto_1#1$4",focus="m")]
+[name="结城理"]那就走吧。虎狼丸，请为我们带路。
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[Background(image="77_g14_alley_night",screenadapt="coverall")]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = false, fadetime=2, block=true)]
+[Delay(time=1.5)]
+[PlaySound(key="$rungeneral", volume=1,channel="1")]
+[StopSound(channel="1",fadetime=1.5)]
+[charslot(slot="m",name="avg_npc_2388_1#10$2",afrom=0, ato=1,duration=1.5,focus="m")]
+[Delay(time=1.6)]
+[name="天田乾"]街道看起来没有异常……
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[Background(image="77_g16_square_night",screenadapt="coverall")]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = false, fadetime=2, block=true)]
+[Delay(time=1.5)]
+[PlaySound(key="$rungeneral", volume=1,channel="2")]
+[StopSound(channel="2",fadetime=1.5)]
+[charslot(slot="m",name="avg_npc_2388_1#13$2",afrom=0, ato=1,duration=1.5,focus="m")]
+[Delay(time=1.6)]
+[name="天田乾"]虎狼丸，到底发现了什么……
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[Background(image="77_g12_street_night",screenadapt="coverall")]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = false, fadetime=2, block=true)]
+[Delay(time=1.5)]
+[PlaySound(key="$rungeneral", volume=1,channel="3")]
+[StopSound(channel="3",fadetime=1.5)]
+[charslot(slot="m",name="avg_4220_kormr_1#7$1",afrom=0, ato=1,duration=1.5,focus="m")]
+[Delay(time=1.6)]
+[name="虎狼丸"]汪呜！嗷！
+[charslot(slot="m",name="avg_npc_2388_1#10$2",focus="m")]
+[name="天田乾"]这里好像也没有什么异状……
+[Dialog]
+[stopmusic(fadetime=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[Background(image="77_g13_street_dark",screenadapt="coverall")]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = false, fadetime=2, block=true)]
+[Delay(time=1.5)]
+[playmusic(intro="$jealous_intro", key="$jealous_loop", volume=0.6)]
+[PlaySound(key="$rungeneral", volume=1,channel="4")]
+[StopSound(channel="4",fadetime=1.5)]
+[charslot(slot="l",name="avg_4217_makoto_1#1$3",afrom=0, ato=1,duration=1.5)]
+[charslot(slot="r",name="avg_npc_2388_1#10$2",afrom=0, ato=1,duration=1.5)]
+[Delay(time=1.6)]
+[charslot(slot="r",name="avg_npc_2388_1#9$2",focus="r")]
+[name="天田乾"]？！
+[name="天田乾"]怎么会，这是……影时间？
+[charslot(slot="r",name="avg_npc_2388_1#10$2",focus="r")]
+[name="天田乾"]……但是广场上的时钟，不是还在走动吗？
+[charslot(slot="l",name="avg_4217_makoto_1#1$3",focus="l")]
+[name="结城理"]嗯……这应该不是影时间。
+[name="结城理"]你看。
+[Dialog]
+[PlaySound(key="$rungeneral", volume=1,channel="5")]
+[StopSound(channel="5",fadetime=1.5)]
+[charslot(slot="l",afrom=1, ato=0,duration=1.5)]
+[Delay(time=2)]
+[charslot(slot="r",name="avg_npc_2388_1#9$2",focus="r")]
+[name="天田乾"]结城哥，那边有什么东西吗……
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[Background(image="77_g16_square_night",screenadapt="coverall")]
+[charslot]
+[charslot(slot="l",name="avg_4217_makoto_1#1$3")]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = false, fadetime=2, block=true)]
+[Delay(time=1.5)]
+[PlaySound(key="$rungeneral", volume=1,channel="6")]
+[StopSound(channel="6",fadetime=1.5)]
+[charslot(slot="r",name="avg_npc_2388_1#10$2",afrom=0, ato=1,duration=1.5)]
+[Delay(time=1.6)]
+[charslot(slot="r",name="avg_npc_2388_1#9$2",focus="r")]
+[name="天田乾"]咦！走到这里，大街就变回原来的样子了……
+[charslot(slot="l",name="avg_4217_makoto_1#1$3",focus="l")]
+[name="结城理"]嗯。而且在这里也看不见刚才那边的景象。
+[charslot(slot="r",name="avg_npc_2388_1#13$2",focus="r")]
+[name="天田乾"]这是什么情况……局部化的“影时间”？
+[charslot(slot="l",name="avg_4217_makoto_1#9$3",focus="l")]
+[name="结城理"]……
+[charslot(slot="l",name="avg_4217_makoto_1#8$3",focus="l")]
+[name="结城理"]总之，再调查一下吧。
+[charslot]
+[charslot(slot="m",name="avg_4220_kormr_1#6$1",focus="m")]
+[name="虎狼丸"]汪！
+[Dialog]
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, style = "slider", inverse = false, fadetime=2, block=true)]
+[Background(image="77_g13_street_dark",screenadapt="coverall")]
+[charslot]
+[Blocker(a=0, r=0, g=0, b=0, style = "slider", inverse = true, fadetime=2, block=true)]
+[Delay(time=1.5)]
+[charslot(slot="m",name="avg_4220_kormr_1#2$1",focus="m")]
+[playsound(key="$d_avg_dogbarkangry")]
+[name="虎狼丸"]汪——汪汪！
+[charslot(slot="m",name="avg_npc_2388_1#9$2",focus="m")]
+[name="天田乾"]那是！
+[Dialog]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[charslot]
+[Image(image="77_i03_1", xScale=1.6, yScale=1.6, screenadapt="coverall")]
+[ImageTween(xFrom = 0, xTo = 320, yFrom=0, yTo=180,duration=0, block=false)]
+[ImageTween(xFrom = 320, xTo = 200,duration=30, block=false)]
+[Delay(time=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=false)]
+[Delay(time=2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[bgeffect(name="$eb_yukari", layer=1)]
+[Image(image="77_i03_1", xScale=1, yScale=1,fadetime=0, screenadapt="coverall")]
+[PlaySound(key="$d_avg_bowstring_tightened", volume=1)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[Delay(time=1.2)]
+[PlaySound(key="$d_avg_tornado_arrow_launch", volume=1,channel="1")]
+[Delay(time=1.2)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[PlaySound(key="$d_avg_magic_1")]
+[PlaySound(key="$d_avg_arrowshot", volume=0.4)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[Delay(time=0.3)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[PlaySound(key="$d_avg_magic_1")]
+[PlaySound(key="$d_avg_arrowshot", volume=0.4)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[Delay(time=0.3)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[PlaySound(key="$d_avg_magic_1")]
+[PlaySound(key="$d_avg_arrowshot", volume=0.4)]
+[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=0.2, block=true)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]
+[Delay(time=0.2)]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]
+[charslot]
+[bgeffect]
+[curtain(direction = 0,fillfrom = 0.01,fillto = 0.3, grad=true, fadetime=0.5)]
+[curtain(direction = 4,fillfrom = 0.01,fillto = 0.3, grad=true, fadetime=0.5)]
+[PlaySound(key="$d_avg_tornado_arrow_conclusion", volume=1,channel="2")]
+[Image(image="77_i03_1", xScale=1.7, yScale=1.7,x=200,y=-200,fadetime=0.6, screenadapt="coverall")]
+[bgeffect(name="$eb_yukari", x=700, layer=1)]
+[delay(time=1.3)]
+[PlaySound(key="$d_avg_arrowshot", volume=1)]
+[curtain(direction = 0,fillfrom = 0.3,fillto = 0.01, grad=true, fadetime=0.5)]
+[curtain(direction = 4,fillfrom = 0.3,fillto = 0.01, grad=true, fadetime=0.5)]
+[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]
+[CameraShake(duration=5, xstrength=20, ystrength=20, vibrato=40, randomness=90, fadeout=true, block=false)]
+[Blocker(a=1, r=1, g=1, b=1, fadetime=2, block=true)]
+[delay(time=0.3)]
+[bgeffect]
+[Background(image="77_g13_street_dark",screenadapt="coverall")]
+[Image]
+[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=false)]
+[delay(time=3)]
+诡异的夜色中，熟悉的少女身影正在对战从未见过的……
+[charslot(slot="m",name="avg_npc_2388_1#9$2",focus="m")]
+[name="天田乾"]……暗影？
+[dialog]
+[charslot]
+[Dialog]
+[charslot(slot="m",name="avg_4220_kormr_1#2$2",posfrom="80,0",posto="100,0",duration=0.4,focus="m")]
+[delay(time=0.5)]
+[PlaySound(key="$runsand", volume=1)]
+[charslot(slot="m",name="avg_4220_kormr_1#2$2",focus="m",afrom=1,ato=0,posfrom="100,0",posto="-50,0",duration=1)]
+[delay(time=1)]
+[PlaySound(key="$e_skill_skulsrsword", volume=1)]
+[Effect(name="$e_spark_01_large",layer=2)]
+[Blocker(a=1, r=255, g=255, b=255, fadetime=0.01, block=true)]
+[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=false)]
+[Effect(name="$e_bladeline_01_large",x =116.1, y =0,rox =-60.2, roy =145, roz =16, layer = 1)]
+[delay(time=2)]
+虎狼丸一跃而上，击退了少女身后疑似暗影的怪物。
+[dialog]
+[charslot(slot="m",name="avg_4219_yukari_1#6$2",focus="m",duration=2)]
+[delay(time=3)]
+[name="？？？"]该不会是……虎狼丸？
+[charslot(slot="m",name="avg_4220_kormr_1#2$2",focus="m")]
+[playsound(key="$d_avg_dogbarkangry")]
+[name="虎狼丸"]汪汪！
+[Dialog]
+[charslot]
+[PlaySound(key="$rungeneral", volume=1,channel="5")]
+[StopSound(channel="5",fadetime=1.5)]
+[charslot(slot="l",name="avg_4217_makoto_1#1$3",afrom=0, ato=1,duration=1.5)]
+[charslot(slot="r",name="avg_npc_2388_1#2$2",afrom=0, ato=1,duration=1.5)]
+[Delay(time=2)]
+[charslot(slot="l",name="avg_4217_makoto_1#1$3",focus="l")]
+[name="结城理"]由加莉！
+[charslot]
+[charslot(slot="m",name="avg_4219_yukari_1#1$2",focus="m")]
+[name="岳羽由加莉"]结城……！还有天田！
+[charslot]
+由加莉只是一霎分神，暗影避开了箭矢，迅速拉近了与少女间的距离。
+[charslot(slot="m",name="avg_4217_makoto_1#6$3",focus="m")]
+[name="结城理"]由加莉，危险！
+[Dialog]
+[Delay(time=1)]
+[dialog]
+[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[stopmusic(fadetime=2)]
+[charslot]
+[Background]
+[Image]
+[bgeffect]
+[gridbg]
+[Image]
+[charslot]
