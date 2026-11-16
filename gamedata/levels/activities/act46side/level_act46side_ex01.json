@@ -7,6 +7,7 @@
     "costIncreaseTime": 1.0,
     "moveMultiplier": 0.5,
     "steeringEnabled": true,
+    "reachableCheckIgnoreStartTile": false,
     "isTrainingLevel": false,
     "isHardTrainingLevel": false,
     "isPredefinedCardsSelectable": false,
@@ -14,7 +15,9 @@
     "maxPlayTime": -1.0,
     "functionDisableMask": 0,
     "configBlackBoard": null,
-    "enemyTauntLevelPow": 0
+    "enemyTauntLevelPow": 0,
+    "deployCostPostDelta": 0,
+    "deployCostPostDeltaMinCost": 0
   },
   "levelId": null,
   "mapId": null,
@@ -6361,7 +6364,8 @@
         "mainSkillLvl": 2,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": null
+        "overrideSkillBlackboard": null,
+        "overrideTalents": null
       },
       {
         "position": {
@@ -6385,7 +6389,8 @@
         "mainSkillLvl": 3,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": null
+        "overrideSkillBlackboard": null,
+        "overrideTalents": null
       },
       {
         "position": {
@@ -6409,7 +6414,8 @@
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": null
+        "overrideSkillBlackboard": null,
+        "overrideTalents": null
       },
       {
         "position": {
@@ -6438,7 +6444,8 @@
             "key": "branch_id",
             "valueStr": "trap_264_xdrock#1"
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -6467,7 +6474,8 @@
             "key": "branch_id",
             "valueStr": "trap_264_xdrock#2"
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -6496,7 +6504,8 @@
             "key": "branch_id",
             "valueStr": "trap_264_xdrock#3"
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -6525,7 +6534,8 @@
             "key": "branch_id",
             "valueStr": "trap_264_xdrock#4"
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -6554,7 +6564,8 @@
             "key": "branch_id",
             "valueStr": "trap_264_xdrock#5"
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -6583,7 +6594,8 @@
             "key": "branch_id",
             "valueStr": "trap_264_xdrock#6"
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -6612,7 +6624,8 @@
             "key": "branch_id",
             "valueStr": "trap_264_xdrock#7"
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -6641,7 +6654,8 @@
             "key": "branch_id",
             "valueStr": "trap_264_xdrock#8"
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -6670,7 +6684,8 @@
             "key": "branch_id",
             "valueStr": "trap_264_xdrock#9"
           }
-        ]
+        ],
+        "overrideTalents": null
       }
     ],
     "characterCards": [],
@@ -6693,7 +6708,8 @@
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": null
+        "overrideSkillBlackboard": null,
+        "overrideTalents": null
       },
       {
         "initialCnt": 2,
@@ -6713,7 +6729,8 @@
         "mainSkillLvl": 1,
         "skinId": null,
         "tmplId": null,
-        "overrideSkillBlackboard": null
+        "overrideSkillBlackboard": null,
+        "overrideTalents": null
       },
       {
         "initialCnt": 2,
@@ -6733,7 +6750,8 @@
         "mainSkillLvl": 1,
         "skinId": "",
         "tmplId": null,
-        "overrideSkillBlackboard": null
+        "overrideSkillBlackboard": null,
+        "overrideTalents": null
       }
     ]
   },
